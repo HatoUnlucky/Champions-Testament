@@ -120,29 +120,53 @@
         Ability
         <select data-edit-ability></select>
       </label>
-      <label>
-        Nature
-        <select data-edit-nature>
-          {{ range slice "Adamant" "Bashful" "Bold" "Brave" "Calm" "Careful" "Docile" "Gentle" "Hardy" "Hasty" "Impish" "Jolly" "Lax" "Lonely" "Mild" "Modest" "Naive" "Naughty" "Quiet" "Quirky" "Rash" "Relaxed" "Sassy" "Serious" "Timid" }}
-            <option value="{{ . }}" {{ if eq . "Serious" }}selected{{ end }}>{{ . }}</option>
-          {{ end }}
-        </select>
+      <label class="toggle-option editor-toggle">
+        <input type="checkbox" data-edit-full-hp checked>
+        <span>Full HP</span>
       </label>
-      <label>
+    </div>
+
+    <div class="editor-section">
+      <h3>Stats</h3>
+      <div class="editor-stat-grid">
+        <div class="editor-stat-head">Total</div>
+        {{ range $stat := slice
+          (dict "key" "hp" "label" "HP")
+          (dict "key" "attack" "label" "Atk")
+          (dict "key" "defense" "label" "Def")
+          (dict "key" "special_attack" "label" "SpA")
+          (dict "key" "special_defense" "label" "SpD")
+          (dict "key" "speed" "label" "Spe")
+        }}
+          <div class="editor-stat-head">{{ $stat.label }}</div>
+        {{ end }}
+        <div class="editor-stat-value" data-edit-stat-display="total">--</div>
+        {{ range $stat := slice
+          (dict "key" "hp" "label" "HP")
+          (dict "key" "attack" "label" "Atk")
+          (dict "key" "defense" "label" "Def")
+          (dict "key" "special_attack" "label" "SpA")
+          (dict "key" "special_defense" "label" "SpD")
+          (dict "key" "speed" "label" "Spe")
+        }}
+          <div class="editor-stat-value" data-edit-stat-display="{{ $stat.key }}">--</div>
+        {{ end }}
+      </div>
+      <label class="spread-preset-field">
         Common spread
         <select data-edit-spread>
           <option value="">Custom</option>
         </select>
       </label>
-      <label>
-        Speed
-        <input type="number" data-edit-speed min="1" max="999" value="100">
-      </label>
-    </div>
-
-    <div class="editor-section">
-      <h3>EV Points</h3>
-      <div class="stat-input-grid">
+      <div class="spread-edit-grid">
+        <label>
+          Nature
+          <select data-edit-nature>
+            {{ range slice "Adamant" "Bashful" "Bold" "Brave" "Calm" "Careful" "Docile" "Gentle" "Hardy" "Hasty" "Impish" "Jolly" "Lax" "Lonely" "Mild" "Modest" "Naive" "Naughty" "Quiet" "Quirky" "Rash" "Relaxed" "Sassy" "Serious" "Timid" }}
+              <option value="{{ . }}" {{ if eq . "Serious" }}selected{{ end }}>{{ . }}</option>
+            {{ end }}
+          </select>
+        </label>
         {{ range $stat := slice
           (dict "key" "hp" "label" "HP")
           (dict "key" "attack" "label" "Atk")
@@ -155,6 +179,23 @@
             {{ $stat.label }}
             <input type="number" data-edit-stat="{{ $stat.key }}" min="0" max="32" value="0">
           </label>
+        {{ end }}
+      </div>
+      <div class="stat-stage-grid">
+        <div class="stat-stage-spacer">Stages</div>
+        {{ range $stat := slice
+          (dict "key" "hp" "label" "HP")
+          (dict "key" "attack" "label" "Atk")
+          (dict "key" "defense" "label" "Def")
+          (dict "key" "special_attack" "label" "SpA")
+          (dict "key" "special_defense" "label" "SpD")
+          (dict "key" "speed" "label" "Spe")
+        }}
+          <div class="stat-stage-control" data-stage-control="{{ $stat.key }}">
+            <button type="button" data-stage-step="{{ $stat.key }}" data-stage-delta="1" aria-label="Raise {{ $stat.label }}">▲</button>
+            <output data-edit-stage="{{ $stat.key }}">0</output>
+            <button type="button" data-stage-step="{{ $stat.key }}" data-stage-delta="-1" aria-label="Lower {{ $stat.label }}">▼</button>
+          </div>
         {{ end }}
       </div>
     </div>
@@ -185,6 +226,7 @@
     <div class="attacker-tabs" data-attacker-tabs></div>
     <div class="move-choice-grid" data-move-choices></div>
     <div class="target-card-grid" data-target-cards></div>
+    <div class="secondary-effect-panel" data-secondary-effects></div>
     <div class="modal-actions">
       <button type="button" data-confirm-move class="primary-action">Confirm Move</button>
     </div>

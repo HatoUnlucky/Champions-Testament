@@ -227,16 +227,42 @@ document.addEventListener("DOMContentLoaded", () => {
   const attackerTabs = calculator.querySelector("[data-attacker-tabs]");
   const moveChoices = calculator.querySelector("[data-move-choices]");
   const targetCards = calculator.querySelector("[data-target-cards]");
+  const secondaryEffects = calculator.querySelector("[data-secondary-effects]");
   const moveNote = calculator.querySelector("[data-move-picker-note]");
 
   const defaultMoves = ["", "", "", ""];
+  const statKeys = ["hp", "attack", "defense", "special_attack", "special_defense", "speed"];
+  const natureEffects = {
+    Adamant: ["attack", "special_attack"],
+    Bold: ["defense", "attack"],
+    Brave: ["attack", "speed"],
+    Calm: ["special_defense", "attack"],
+    Careful: ["special_defense", "special_attack"],
+    Gentle: ["special_defense", "defense"],
+    Hasty: ["speed", "defense"],
+    Impish: ["defense", "special_attack"],
+    Jolly: ["speed", "special_attack"],
+    Lax: ["defense", "special_defense"],
+    Lonely: ["attack", "defense"],
+    Mild: ["special_attack", "defense"],
+    Modest: ["special_attack", "attack"],
+    Naive: ["speed", "special_defense"],
+    Naughty: ["attack", "special_defense"],
+    Quiet: ["special_attack", "speed"],
+    Rash: ["special_attack", "special_defense"],
+    Relaxed: ["defense", "speed"],
+    Sassy: ["special_defense", "speed"],
+    Timid: ["speed", "attack"]
+  };
   const slotState = new Map(fieldSlots.map(slot => [slotKey(slot), {
     pokemon: "",
     item: "",
     ability: "",
     nature: "Serious",
+    fullHp: true,
     speed: 100,
     stats: { hp: 0, attack: 0, defense: 0, special_attack: 0, special_defense: 0, speed: 0 },
+    stages: { hp: 0, attack: 0, defense: 0, special_attack: 0, special_defense: 0, speed: 0 },
     moves: [...defaultMoves],
     action: null
   }]));
@@ -246,6 +272,7 @@ document.addEventListener("DOMContentLoaded", () => {
   let selectedAttacker = null;
   let selectedMove = null;
   let selectedTargets = new Set();
+  let selectedSecondaryEffects = {};
 
   function parseJson(id, fallback) {
     try {
@@ -348,6 +375,9 @@ document.addEventListener("DOMContentLoaded", () => {
     if (allAdjacent.has(name) || description.includes("all adjacent")) {
       return visibleSlots().filter(slot => slot !== attackerSlot);
     }
+    if (sideEffectForMove(name)) {
+      return visibleSlots().filter(slot => slot.dataset.side === attackerSlot.dataset.side);
+    }
     if (opponentSpread.has(name) || description.includes("targets'")) {
       return visibleSlots().filter(slot => slot.dataset.side !== attackerSlot.dataset.side);
     }
@@ -377,16 +407,125 @@ document.addEventListener("DOMContentLoaded", () => {
     return [...names, "", "", "", ""].slice(0, 4);
   }
 
+  function baseStat(pokemon, key) {
+    const stats = pokemon?.stats;
+    if (Array.isArray(stats)) {
+      return Number(stats.find(stat => stat.key === key)?.value || 0);
+    }
+    return Number(stats?.[key] || 0);
+  }
+
+  function natureMultiplier(nature, key) {
+    const effect = natureEffects[nature];
+    if (!effect) return 1;
+    if (effect[0] === key) return 1.1;
+    if (effect[1] === key) return 0.9;
+    return 1;
+  }
+
+  function calculatedStat(pokemon, key, spreadPoints, nature) {
+    const base = baseStat(pokemon, key);
+    const ev = Math.min(252, Math.max(0, Number(spreadPoints || 0)) * 8);
+    const level = 50;
+    const core = Math.floor((2 * base + 31 + Math.floor(ev / 4)) * level / 100);
+
+    if (key === "hp") return core + level + 10;
+    return Math.floor((core + 5) * natureMultiplier(nature, key));
+  }
+
+  function calculatedStats(pokemon, spread, nature) {
+    const values = {};
+    statKeys.forEach(key => {
+      values[key] = calculatedStat(pokemon, key, spread?.[key] || 0, nature);
+    });
+    values.total = statKeys.reduce((sum, key) => sum + values[key], 0);
+    return values;
+  }
+
+  function syncDerivedSpeed(state) {
+    const pokemon = pokemonRecord(state.pokemon);
+    state.speed = calculatedStats(pokemon, state.stats, state.nature).speed || 0;
+  }
+
+  function boostedStat(value, stage) {
+    const numeric = Number(value || 0);
+    const boost = Math.max(-6, Math.min(6, Number(stage || 0)));
+    if (boost >= 0) return Math.floor(numeric * (2 + boost) / 2);
+    return Math.floor(numeric * 2 / (2 - boost));
+  }
+
+  function effectiveSlotSpeed(slot, sideState = {}) {
+    const state = stateFor(slot);
+    let speed = boostedStat(state.speed, state.stages.speed);
+    if (sideState[slot.dataset.side]?.tailwind) speed *= 2;
+    return Math.max(0, speed);
+  }
+
+  function moveIsStatus(move) {
+    return String(move?.damage_class || "").toLowerCase() === "status";
+  }
+
+  function pokemonTypes(state) {
+    const pokemon = pokemonRecord(state.pokemon);
+    return (pokemon?.types || []).map(type => String(type.slug || type).toLowerCase());
+  }
+
+  function priorityFor(slot, move) {
+    const state = stateFor(slot);
+    let priority = Number(move?.priority || 0);
+    const ability = String(state.ability || "").toLowerCase();
+    const moveType = String(move?.type || "").toLowerCase();
+
+    if (ability === "prankster" && moveIsStatus(move)) priority += 1;
+    if (ability === "gale wings" && state.fullHp && moveType === "flying") priority += 1;
+    return priority;
+  }
+
+  function sideEffectForMove(moveName) {
+    const name = String(moveName || "").toLowerCase();
+    if (name === "tailwind") return { key: "tailwind", label: "Tailwind" };
+    if (name === "reflect") return { key: "reflect", label: "Reflect" };
+    if (name === "light screen") return { key: "lightScreen", label: "Light Screen" };
+    if (name === "aurora veil") return { key: "auroraVeil", label: "Aurora Veil" };
+    return null;
+  }
+
+  function secondaryEffectOptions(moveName) {
+    const name = String(moveName || "").toLowerCase();
+    const options = {
+      "dire claw": {
+        mode: "single",
+        options: [
+          { key: "poison", label: "Poison" },
+          { key: "paralysis", label: "Paralysis" },
+          { key: "sleep", label: "Sleep" }
+        ]
+      },
+      "thunderbolt": { mode: "multi", options: [{ key: "paralysis", label: "Paralysis" }] },
+      "discharge": { mode: "multi", options: [{ key: "paralysis", label: "Paralysis" }] },
+      "ice beam": { mode: "multi", options: [{ key: "freeze", label: "Freeze" }] },
+      "flamethrower": { mode: "multi", options: [{ key: "burn", label: "Burn" }] },
+      "flare blitz": { mode: "multi", options: [{ key: "burn", label: "Burn" }] },
+      "fire fang": { mode: "multi", options: [{ key: "burn", label: "Burn" }, { key: "flinch", label: "Flinch" }] },
+      "rock slide": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
+      "muddy water": { mode: "multi", options: [{ key: "accuracy", label: "Accuracy drop" }] },
+      "snarl": { mode: "always", options: [{ key: "special_attack_down", label: "Sp. Atk drop" }] },
+      "icy wind": { mode: "always", options: [{ key: "speed_down", label: "Speed drop" }] },
+      "electroweb": { mode: "always", options: [{ key: "speed_down", label: "Speed drop" }] }
+    };
+    return options[name] || null;
+  }
+
   function seedSlot(slot, name) {
     const state = stateFor(slot);
     const pokemon = pokemonRecord(name);
     state.pokemon = name;
-    state.speed = pokemon?.stats?.find(stat => stat.key === "speed")?.value || pokemon?.stats?.speed || 100;
     state.moves = commonMoveNames(pokemon);
     state.ability = pokemon?.abilities?.[0]?.name || "";
     state.item = pokemon?.items?.[0]?.name || "";
     state.nature = pokemon?.spreads?.[0]?.nature || "Serious";
     if (pokemon?.spreads?.[0]) applySpreadToState(state, pokemon.spreads[0]);
+    syncDerivedSpeed(state);
     updateSlotDisplay(slot);
   }
 
@@ -495,7 +634,7 @@ document.addEventListener("DOMContentLoaded", () => {
     fillPokemonScopedOptions(pokemon, state);
     pokemonModal.querySelector("[data-edit-pokemon]").value = state.pokemon;
     pokemonModal.querySelector("[data-edit-item]").value = state.item;
-    pokemonModal.querySelector("[data-edit-speed]").value = state.speed;
+    pokemonModal.querySelector("[data-edit-full-hp]").checked = state.fullHp;
     pokemonModal.querySelector("[data-edit-nature]").value = state.nature;
     pokemonModal.querySelector("[data-edit-ability]").value = state.ability;
     Object.entries(state.stats).forEach(([key, value]) => {
@@ -505,6 +644,11 @@ document.addEventListener("DOMContentLoaded", () => {
     state.moves.forEach((move, index) => {
       pokemonModal.querySelector(`[data-edit-move="${index}"]`).value = move;
     });
+    Object.entries(state.stages).forEach(([key, value]) => {
+      const output = pokemonModal.querySelector(`[data-edit-stage="${key}"]`);
+      if (output) output.textContent = value > 0 ? `+${value}` : String(value);
+    });
+    renderEditorStats();
     openModal(pokemonModal);
   }
 
@@ -551,6 +695,51 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  function readEditorSpread() {
+    const spread = {};
+    statKeys.forEach(key => {
+      spread[key] = Number(pokemonModal.querySelector(`[data-edit-stat="${key}"]`)?.value || 0);
+    });
+    return spread;
+  }
+
+  function renderEditorStats() {
+    const pokemon = pokemonRecord(pokemonModal.querySelector("[data-edit-pokemon]").value.trim());
+    const nature = pokemonModal.querySelector("[data-edit-nature]").value || "Serious";
+    const stats = calculatedStats(pokemon, readEditorSpread(), nature);
+    const stages = readEditorStages();
+
+    ["total", ...statKeys].forEach(key => {
+      const cell = pokemonModal.querySelector(`[data-edit-stat-display="${key}"]`);
+      if (!cell) return;
+      if (key === "total") {
+        cell.textContent = stats[key] || "--";
+        return;
+      }
+      const stage = stages[key] || 0;
+      const boosted = boostedStat(stats[key], stage);
+      cell.textContent = stage ? `${boosted} (${stats[key]})` : (stats[key] || "--");
+    });
+  }
+
+  function readEditorStages() {
+    const stages = {};
+    statKeys.forEach(key => {
+      const text = pokemonModal.querySelector(`[data-edit-stage="${key}"]`)?.textContent || "0";
+      stages[key] = Number(text.replace("+", "") || 0);
+    });
+    return stages;
+  }
+
+  function updateStage(key, delta) {
+    const output = pokemonModal.querySelector(`[data-edit-stage="${key}"]`);
+    if (!output) return;
+    const current = Number(output.textContent.replace("+", "") || 0);
+    const next = Math.max(-6, Math.min(6, current + Number(delta || 0)));
+    output.textContent = next > 0 ? `+${next}` : String(next);
+    renderEditorStats();
+  }
+
   function savePokemonEditor() {
     if (!editingSlot) return;
     const state = stateFor(editingSlot);
@@ -558,11 +747,13 @@ document.addEventListener("DOMContentLoaded", () => {
     state.pokemon = pokemonName;
     state.item = pokemonModal.querySelector("[data-edit-item]").value.trim();
     state.ability = pokemonModal.querySelector("[data-edit-ability]").value;
+    state.fullHp = pokemonModal.querySelector("[data-edit-full-hp]").checked;
     state.nature = pokemonModal.querySelector("[data-edit-nature]").value;
-    state.speed = Number(pokemonModal.querySelector("[data-edit-speed]").value || 0);
     Object.keys(state.stats).forEach(key => {
       state.stats[key] = Number(pokemonModal.querySelector(`[data-edit-stat="${key}"]`)?.value || 0);
     });
+    state.stages = readEditorStages();
+    syncDerivedSpeed(state);
     state.moves = [...defaultMoves].map((_, index) => pokemonModal.querySelector(`[data-edit-move="${index}"]`).value.trim());
     updateSlotDisplay(editingSlot);
     closeModals();
@@ -576,7 +767,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function effectiveSpeed(slot) {
-    return Math.max(0, Number(stateFor(slot).speed || 0));
+    return effectiveSlotSpeed(slot);
   }
 
   function actionFor(slot) {
@@ -586,10 +777,30 @@ document.addEventListener("DOMContentLoaded", () => {
       slot,
       pokemon: state.pokemon || slotLabel(slot),
       move: state.action?.move || "No move selected",
-      priority: move?.priority ?? 0,
+      moveRecord: move,
+      priority: priorityFor(slot, move),
       speed: effectiveSpeed(slot),
-      targets: (state.action?.targets || []).map(key => fieldSlots.find(candidate => slotKey(candidate) === key)).filter(Boolean)
+      targets: (state.action?.targets || []).map(key => fieldSlots.find(candidate => slotKey(candidate) === key)).filter(Boolean),
+      secondaryEffects: state.action?.secondaryEffects || {},
+      sideConditions: []
     };
+  }
+
+  function sideStateSummary(sideState) {
+    const labels = [];
+    Object.entries(sideState).forEach(([side, state]) => {
+      Object.entries(state).forEach(([key, active]) => {
+        if (!active) return;
+        const label = {
+          tailwind: "Tailwind",
+          reflect: "Reflect",
+          lightScreen: "Light Screen",
+          auroraVeil: "Aurora Veil"
+        }[key] || key;
+        labels.push(`${side === "left" ? "Team 1" : "Team 2"} ${label}`);
+      });
+    });
+    return labels;
   }
 
   function renderAction(action, index) {
@@ -626,22 +837,73 @@ document.addEventListener("DOMContentLoaded", () => {
       targets.append(pill);
     });
 
+    Object.values(action.secondaryEffects || {}).forEach(effect => {
+      const pill = document.createElement("span");
+      pill.textContent = `Effect: ${effect}`;
+      targets.append(pill);
+    });
+
+    (action.sideConditions || []).forEach(effect => {
+      const pill = document.createElement("span");
+      pill.textContent = effect;
+      targets.append(pill);
+    });
+
     card.append(title, meta, targets);
     return card;
   }
 
+  function applyActionEffects(action, sideState) {
+    const sideEffect = sideEffectForMove(action.move);
+    if (sideEffect) sideState[action.slot.dataset.side][sideEffect.key] = true;
+
+    const secondary = secondaryEffectOptions(action.move);
+    if (!secondary || secondary.mode !== "always") return;
+    secondary.options.forEach(option => {
+      action.targets.forEach(target => {
+        const targetState = stateFor(target);
+        if (option.key === "speed_down") {
+          targetState.stages.speed = Math.max(-6, (targetState.stages.speed || 0) - 1);
+        }
+        if (option.key === "special_attack_down") {
+          targetState.stages.special_attack = Math.max(-6, (targetState.stages.special_attack || 0) - 1);
+        }
+      });
+    });
+  }
+
   function calculateTurn() {
-    const actions = visibleSlots()
+    const pending = visibleSlots()
       .map(actionFor)
       .filter(action => action.targets.length > 0 && action.move !== "No move selected");
 
-    if (!actions.length) {
+    if (!pending.length) {
       clearResults("Choose at least one move and target before simulating.", true);
       return;
     }
 
-    actions.sort(compareActions);
-    results.replaceChildren(...actions.map(renderAction));
+    const sideState = { left: {}, right: {} };
+    const actions = [];
+    while (pending.length) {
+      pending.forEach(action => {
+        action.speed = effectiveSlotSpeed(action.slot, sideState);
+        action.sideConditions = sideStateSummary(sideState).filter(label => label.startsWith(action.slot.dataset.side === "left" ? "Team 1" : "Team 2"));
+      });
+      pending.sort(compareActions);
+      const action = pending.shift();
+      actions.push(action);
+      applyActionEffects(action, sideState);
+    }
+
+    const cards = actions.map(renderAction);
+    const sideLabels = sideStateSummary(sideState);
+    if (sideLabels.length) {
+      const summaryCard = document.createElement("article");
+      summaryCard.className = "turn-result-card";
+      summaryCard.innerHTML = `<strong>Field effects after this turn</strong><div class="turn-result-meta">${sideLabels.map(label => `<span>${label}</span>`).join("")}</div>`;
+      cards.push(summaryCard);
+    }
+    results.replaceChildren(...cards);
     summary.textContent = `${actions.length} action${actions.length === 1 ? "" : "s"} ordered`;
   }
 
@@ -671,6 +933,7 @@ document.addEventListener("DOMContentLoaded", () => {
         selectedAttacker = slot;
         selectedMove = null;
         selectedTargets = new Set();
+        selectedSecondaryEffects = {};
         clearHighlights();
         renderMovePicker();
       });
@@ -693,12 +956,14 @@ document.addEventListener("DOMContentLoaded", () => {
     }));
 
     renderTargetCards();
+    renderSecondaryEffects();
   }
 
   function chooseMove(name) {
     selectedMove = name;
     const recommended = moveTargets(moveRecord(name), selectedAttacker).map(slotKey);
     selectedTargets = new Set(recommended);
+    selectedSecondaryEffects = {};
     renderMovePicker();
     highlightTargets();
   }
@@ -715,12 +980,50 @@ document.addEventListener("DOMContentLoaded", () => {
       card.addEventListener("click", () => {
         if (selectedTargets.has(key)) selectedTargets.delete(key);
         else selectedTargets.add(key);
+        Object.keys(selectedSecondaryEffects)
+          .filter(effectKey => effectKey.startsWith(`${key}:`))
+          .forEach(effectKey => delete selectedSecondaryEffects[effectKey]);
         renderTargetCards();
+        renderSecondaryEffects();
         highlightTargets();
       });
       return card;
     }));
     highlightTargets();
+  }
+
+  function renderSecondaryEffects() {
+    const effect = secondaryEffectOptions(selectedMove);
+    secondaryEffects.replaceChildren();
+    if (!effect || !selectedTargets.size) return;
+
+    [...selectedTargets]
+      .map(key => fieldSlots.find(slot => slotKey(slot) === key))
+      .filter(Boolean)
+      .forEach(slot => {
+        const targetName = stateFor(slot).pokemon || slotLabel(slot);
+        effect.options.forEach(option => {
+          const id = `${slotKey(slot)}:${option.key}`;
+          const label = document.createElement("label");
+          const input = document.createElement("input");
+          label.className = "secondary-effect-option";
+          label.innerHTML = `<span><strong>${targetName}</strong> ${option.label}</span>`;
+          input.type = effect.mode === "single" ? "radio" : "checkbox";
+          input.name = effect.mode === "single" ? `secondary-${slotKey(slot)}` : id;
+          input.checked = Boolean(selectedSecondaryEffects[id]);
+          input.addEventListener("change", () => {
+            if (effect.mode === "single") {
+              Object.keys(selectedSecondaryEffects)
+                .filter(key => key.startsWith(`${slotKey(slot)}:`))
+                .forEach(key => delete selectedSecondaryEffects[key]);
+            }
+            if (input.checked) selectedSecondaryEffects[id] = option.label;
+            else delete selectedSecondaryEffects[id];
+          });
+          label.append(input);
+          secondaryEffects.append(label);
+        });
+      });
   }
 
   function highlightTargets() {
@@ -740,7 +1043,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const state = stateFor(selectedAttacker);
     state.action = {
       move: selectedMove,
-      targets: [...selectedTargets]
+      targets: [...selectedTargets],
+      secondaryEffects: { ...selectedSecondaryEffects }
     };
     closeModals();
     clearResults(`${state.pokemon || slotLabel(selectedAttacker)} is set to use ${selectedMove}.`);
@@ -749,7 +1053,6 @@ document.addEventListener("DOMContentLoaded", () => {
   function pokemonChangedInEditor() {
     const pokemon = pokemonRecord(pokemonModal.querySelector("[data-edit-pokemon]").value.trim());
     if (!pokemon) return;
-    pokemonModal.querySelector("[data-edit-speed]").value = pokemon.stats?.find(stat => stat.key === "speed")?.value || 100;
     fillPokemonScopedOptions(pokemon);
     commonMoveNames(pokemon).forEach((move, index) => {
       pokemonModal.querySelector(`[data-edit-move="${index}"]`).value = move;
@@ -764,12 +1067,23 @@ document.addEventListener("DOMContentLoaded", () => {
         const input = pokemonModal.querySelector(`[data-edit-stat="${key}"]`);
         if (input) input.value = value;
       });
+    } else {
+      statKeys.forEach(key => {
+        const input = pokemonModal.querySelector(`[data-edit-stat="${key}"]`);
+        if (input) input.value = 0;
+      });
     }
+    renderEditorStats();
   }
 
   function spreadChangedInEditor() {
     const pokemon = pokemonRecord(pokemonModal.querySelector("[data-edit-pokemon]").value.trim());
-    const index = Number(pokemonModal.querySelector("[data-edit-spread]").value);
+    const selected = pokemonModal.querySelector("[data-edit-spread]").value;
+    if (selected === "") {
+      renderEditorStats();
+      return;
+    }
+    const index = Number(selected);
     const spread = pokemon?.spreads?.[index];
     if (!spread) return;
     const temp = { stats: {}, nature: spread.nature };
@@ -778,6 +1092,7 @@ document.addEventListener("DOMContentLoaded", () => {
     Object.entries(temp.stats).forEach(([key, value]) => {
       pokemonModal.querySelector(`[data-edit-stat="${key}"]`).value = value;
     });
+    renderEditorStats();
   }
 
   fieldSlots.forEach(slot => {
@@ -797,6 +1112,16 @@ document.addEventListener("DOMContentLoaded", () => {
   backdrop?.addEventListener("click", closeModals);
   pokemonModal.querySelector("[data-edit-pokemon]").addEventListener("change", pokemonChangedInEditor);
   pokemonModal.querySelector("[data-edit-spread]").addEventListener("change", spreadChangedInEditor);
+  pokemonModal.querySelector("[data-edit-nature]").addEventListener("change", renderEditorStats);
+  pokemonModal.querySelectorAll("[data-edit-stat]").forEach(input => {
+    input.addEventListener("input", () => {
+      pokemonModal.querySelector("[data-edit-spread]").value = "";
+      renderEditorStats();
+    });
+  });
+  pokemonModal.querySelectorAll("[data-stage-step]").forEach(button => {
+    button.addEventListener("click", () => updateStage(button.dataset.stageStep, button.dataset.stageDelta));
+  });
   pokemonModal.querySelector("[data-save-pokemon]").addEventListener("click", savePokemonEditor);
   moveModal.querySelector("[data-confirm-move]").addEventListener("click", confirmMove);
   simulateButton?.addEventListener("click", calculateTurn);
