@@ -1,44 +1,158 @@
 {{ define "title" }}Turn Simulator | {{ site.Title }}{{ end }}
 
 {{ define "main" }}
-<section class="page-shell simulator-shell">
+{{ $pokemonPages := where site.RegularPages "Section" "pokemon" }}
+{{ $movePages := where site.RegularPages "Section" "moves" }}
+
+<section class="page-shell simulator-shell" data-turn-calculator>
   <div class="tool-header">
     <p class="eyebrow">{{ .Params.status }}</p>
     <h1>Turn Simulator</h1>
   </div>
 
-  <div class="sim-layout">
-    <section class="panel sim-team">
-      <h2>Left Side</h2>
-      <div class="sim-slot">
-        <label>Pokemon</label>
-        <input type="search" placeholder="Select Pokemon" disabled>
-      </div>
-      <div class="sim-slot">
-        <label>Move</label>
-        <input type="search" placeholder="Select Move" disabled>
-      </div>
-    </section>
+  <section class="panel turn-control-panel">
+    <fieldset class="segmented-control" data-battle-format>
+      <legend>Battle format</legend>
+      <label>
+        <input type="radio" name="battle-format" value="double" checked>
+        <span>Doubles</span>
+      </label>
+      <label>
+        <input type="radio" name="battle-format" value="single">
+        <span>Singles</span>
+      </label>
+    </fieldset>
 
-    <section class="panel sim-center">
-      <h2>Turn Order</h2>
-      <div class="empty-state">
-        <strong>Calculator script pending.</strong>
-        <span>This shell is here so layout and navigation can be prototyped safely.</span>
-      </div>
-    </section>
+    <label>
+      Weather
+      <select data-turn-weather>
+        <option value="">None</option>
+        <option value="Sun">Sun</option>
+        <option value="Rain">Rain</option>
+        <option value="Sand">Sand</option>
+        <option value="Snow">Snow</option>
+      </select>
+    </label>
 
-    <section class="panel sim-team">
-      <h2>Right Side</h2>
-      <div class="sim-slot">
-        <label>Pokemon</label>
-        <input type="search" placeholder="Select Pokemon" disabled>
-      </div>
-      <div class="sim-slot">
-        <label>Move</label>
-        <input type="search" placeholder="Select Move" disabled>
-      </div>
-    </section>
+    <label>
+      Terrain
+      <select data-turn-terrain>
+        <option value="">None</option>
+        <option value="Electric">Electric</option>
+        <option value="Grassy">Grassy</option>
+        <option value="Misty">Misty</option>
+        <option value="Psychic">Psychic</option>
+      </select>
+    </label>
+
+    <label class="toggle-option">
+      <input type="checkbox" data-turn-trick-room>
+      <span>Trick Room</span>
+    </label>
+
+    <button class="primary-action" type="button" data-calculate-turn>Calculate</button>
+  </section>
+
+  <div class="battle-board">
+    {{ range $side := slice
+      (dict "key" "left" "name" "Team A" "accent" "Blue")
+      (dict "key" "right" "name" "Team B" "accent" "Gold")
+    }}
+      <section class="panel battle-side battle-side-{{ $side.key }}" data-battle-side="{{ $side.key }}">
+        <div class="battle-side-header">
+          <h2>{{ $side.name }}</h2>
+          <span data-active-count>2 active Pokemon</span>
+        </div>
+
+        <div class="side-modifiers">
+          <label class="toggle-option">
+            <input type="checkbox" data-side-tailwind>
+            <span>Tailwind</span>
+          </label>
+          <label class="toggle-option">
+            <input type="checkbox" data-side-helping-hand>
+            <span>Helping Hand</span>
+          </label>
+          <label class="toggle-option">
+            <input type="checkbox" data-side-protect>
+            <span>Protect active</span>
+          </label>
+        </div>
+
+        <div class="active-slots">
+          {{ range $slot := slice 1 2 }}
+            <article class="battle-slot" data-battle-slot="{{ $slot }}" data-side="{{ $side.key }}">
+              <div class="battle-slot-header">
+                <strong>Slot {{ $slot }}</strong>
+                <label class="toggle-option compact-toggle">
+                  <input type="checkbox" data-will-move checked>
+                  <span>Moves</span>
+                </label>
+              </div>
+
+              <div class="battle-field-grid">
+                <label>
+                  Pokemon
+                  <input type="search" list="turn-pokemon-options" data-turn-pokemon placeholder="Select Pokemon">
+                </label>
+                <label>
+                  Move
+                  <input type="search" list="turn-move-options" data-turn-move placeholder="Select Move">
+                </label>
+                <label>
+                  Priority
+                  <input type="number" data-turn-priority value="0" min="-7" max="7" step="1">
+                </label>
+                <label>
+                  Speed
+                  <input type="number" data-turn-speed value="100" min="1" max="999" step="1">
+                </label>
+              </div>
+
+              <fieldset class="target-picker">
+                <legend>Targets</legend>
+                <label>
+                  <input type="checkbox" data-target-side="{{ if eq $side.key "left" }}right{{ else }}left{{ end }}" data-target-slot="1" checked>
+                  <span>Opponent 1</span>
+                </label>
+                <label data-double-only>
+                  <input type="checkbox" data-target-side="{{ if eq $side.key "left" }}right{{ else }}left{{ end }}" data-target-slot="2">
+                  <span>Opponent 2</span>
+                </label>
+                <label data-double-only>
+                  <input type="checkbox" data-target-side="{{ $side.key }}" data-target-slot="{{ if eq $slot 1 }}2{{ else }}1{{ end }}">
+                  <span>Partner</span>
+                </label>
+              </fieldset>
+            </article>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
   </div>
+
+  <section class="panel turn-results-panel" aria-live="polite">
+    <div class="battle-side-header">
+      <h2>Turn Order</h2>
+      <span data-turn-summary>Ready</span>
+    </div>
+    <div class="turn-order-list" data-turn-results>
+      <div class="empty-state">
+        <strong>Select actions, then calculate.</strong>
+        <span>Priority is checked first. Speed is checked second, reversing under Trick Room.</span>
+      </div>
+    </div>
+  </section>
+
+  <datalist id="turn-pokemon-options">
+    {{ range sort $pokemonPages "Title" }}
+      <option value="{{ .Title }}"></option>
+    {{ end }}
+  </datalist>
+  <datalist id="turn-move-options">
+    {{ range sort $movePages "Title" }}
+      <option value="{{ .Title }}"></option>
+    {{ end }}
+  </datalist>
 </section>
 {{ end }}

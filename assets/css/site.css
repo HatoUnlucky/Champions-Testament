@@ -168,7 +168,9 @@ h2 {
 
 .search-panel label,
 .directory-controls label,
-.sim-slot label {
+.sim-slot label,
+.turn-control-panel label,
+.battle-field-grid label {
   color: var(--muted);
   font-size: 0.9rem;
 }
@@ -176,7 +178,9 @@ h2 {
 .search-panel input,
 .directory-controls input,
 .directory-controls select,
-.sim-slot input {
+.sim-slot input,
+.turn-control-panel select,
+.battle-field-grid input {
   width: 100%;
   min-height: 44px;
   border: 1px solid var(--line);
@@ -714,6 +718,213 @@ a.move-row {
   gap: 12px;
 }
 
+.turn-control-panel {
+  display: grid;
+  grid-template-columns: minmax(220px, 1.2fr) repeat(2, minmax(150px, 0.75fr)) minmax(130px, auto) minmax(120px, auto);
+  gap: 12px;
+  align-items: end;
+}
+
+.turn-control-panel label,
+.battle-field-grid label {
+  display: grid;
+  gap: 6px;
+}
+
+.segmented-control,
+.target-picker {
+  min-width: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.segmented-control {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0;
+}
+
+.segmented-control legend,
+.target-picker legend {
+  width: 100%;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.segmented-control input,
+.toggle-option input,
+.target-picker input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.segmented-control span,
+.toggle-option span,
+.target-picker span {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 40px;
+  padding: 0 12px;
+  border: 1px solid var(--line);
+  background: var(--panel-2);
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.segmented-control label:first-of-type span {
+  border-radius: 8px 0 0 8px;
+}
+
+.segmented-control label:last-of-type span {
+  border-left: 0;
+  border-radius: 0 8px 8px 0;
+}
+
+.toggle-option,
+.target-picker label {
+  position: relative;
+  display: inline-flex;
+  min-width: 0;
+}
+
+.toggle-option span,
+.target-picker span {
+  border-radius: 8px;
+}
+
+.compact-toggle span {
+  min-height: 32px;
+  padding: 0 10px;
+  font-size: 0.78rem;
+}
+
+.segmented-control input:checked + span,
+.toggle-option input:checked + span,
+.target-picker input:checked + span {
+  border-color: var(--accent);
+  background: rgba(99, 210, 183, 0.16);
+  color: var(--text);
+}
+
+.primary-action {
+  min-height: 44px;
+  border: 1px solid var(--accent);
+  border-radius: 8px;
+  background: var(--accent);
+  color: #0a1110;
+  padding: 0 16px;
+  font: inherit;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.battle-board {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.battle-side {
+  display: grid;
+  gap: 12px;
+}
+
+.battle-side-left {
+  border-color: rgba(97, 176, 255, 0.55);
+}
+
+.battle-side-right {
+  border-color: rgba(255, 198, 104, 0.55);
+}
+
+.battle-side-header,
+.battle-slot-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.battle-side-header span {
+  color: var(--muted);
+  font-size: 0.86rem;
+}
+
+.side-modifiers,
+.target-picker {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.active-slots {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.battle-slot {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.battle-field-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.turn-results-panel {
+  display: grid;
+  gap: 14px;
+}
+
+.turn-order-list {
+  display: grid;
+  gap: 10px;
+}
+
+.turn-result-card {
+  display: grid;
+  gap: 8px;
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.turn-result-card strong {
+  font-size: 1.02rem;
+}
+
+.turn-result-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.turn-result-meta span {
+  display: inline-flex;
+  min-height: 28px;
+  align-items: center;
+  padding: 3px 8px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
+
 @media (max-width: 780px) {
   .site-header {
     width: 100%;
@@ -753,6 +964,10 @@ a.move-row {
   .entry-hero,
   .feature-grid,
   .sim-layout,
+  .turn-control-panel,
+  .battle-board,
+  .active-slots,
+  .battle-field-grid,
   .directory-controls,
   .inline-filter-bar {
     grid-template-columns: 1fr;
@@ -819,5 +1034,43 @@ a.move-row {
   .scroll-list {
     max-height: min(360px, 52vh);
     padding-right: 4px;
+  }
+
+  .turn-control-panel {
+    align-items: stretch;
+  }
+
+  .segmented-control,
+  .turn-control-panel label,
+  .turn-control-panel .toggle-option,
+  .primary-action,
+  .battle-side,
+  .battle-slot,
+  .turn-results-panel {
+    width: 100%;
+  }
+
+  .side-modifiers,
+  .target-picker {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .target-picker legend {
+    grid-column: 1 / -1;
+  }
+
+  .toggle-option span,
+  .target-picker span {
+    width: 100%;
+  }
+
+  .battle-side-header,
+  .battle-slot-header {
+    align-items: flex-start;
+  }
+
+  .battle-side-header {
+    flex-direction: column;
   }
 }

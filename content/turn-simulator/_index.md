@@ -1,7 +1,7 @@
 ---
 title: "Turn Simulator"
 layout: "turn-simulator"
-status: "Prototype shell"
+status: "Prototype calculator"
 ---
 
-This page is a static layout shell. Calculator behavior will be added later.
+This page starts with battle format and turn-order behavior. Damage calculation will be added later.

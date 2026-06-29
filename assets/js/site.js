@@ -196,3 +196,185 @@ document.addEventListener("DOMContentLoaded", () => {
   sort?.addEventListener("change", updateMoves);
   updateMoves();
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const calculator = document.querySelector("[data-turn-calculator]");
+  if (!calculator) return;
+
+  const formatInputs = Array.from(calculator.querySelectorAll('input[name="battle-format"]'));
+  const trickRoom = calculator.querySelector("[data-turn-trick-room]");
+  const calculateButton = calculator.querySelector("[data-calculate-turn]");
+  const results = calculator.querySelector("[data-turn-results]");
+  const summary = calculator.querySelector("[data-turn-summary]");
+  const slots = Array.from(calculator.querySelectorAll("[data-battle-slot]"));
+
+  function selectedFormat() {
+    return formatInputs.find(input => input.checked)?.value || "double";
+  }
+
+  function isSlotActive(slot) {
+    return !slot.hidden && slot.querySelector("[data-will-move]")?.checked;
+  }
+
+  function opposingSide(side) {
+    return side === "left" ? "right" : "left";
+  }
+
+  function slotLabel(slot) {
+    const sideName = slot.dataset.side === "left" ? "Team A" : "Team B";
+    return `${sideName} Slot ${slot.dataset.battleSlot}`;
+  }
+
+  function findSlot(side, slotNumber) {
+    return calculator.querySelector(`[data-battle-slot][data-side="${side}"][data-battle-slot="${slotNumber}"]`);
+  }
+
+  function activeSpeed(slot) {
+    const baseSpeed = Number(slot.querySelector("[data-turn-speed]")?.value || 0);
+    const sidePanel = slot.closest("[data-battle-side]");
+    const tailwind = sidePanel?.querySelector("[data-side-tailwind]")?.checked;
+    return Math.max(0, Math.floor(baseSpeed * (tailwind ? 2 : 1)));
+  }
+
+  function selectedTargets(slot) {
+    return Array.from(slot.querySelectorAll(".target-picker input:checked"))
+      .map(input => findSlot(input.dataset.targetSide, input.dataset.targetSlot))
+      .filter(target => target && !target.hidden);
+  }
+
+  function readAction(slot) {
+    const pokemon = slot.querySelector("[data-turn-pokemon]")?.value.trim() || slotLabel(slot);
+    const move = slot.querySelector("[data-turn-move]")?.value.trim() || "Selected move";
+    const priority = Number(slot.querySelector("[data-turn-priority]")?.value || 0);
+    const speed = activeSpeed(slot);
+
+    return {
+      slot,
+      pokemon,
+      move,
+      priority,
+      speed,
+      targets: selectedTargets(slot)
+    };
+  }
+
+  function clearResults(message, isError = false) {
+    results.replaceChildren();
+    const empty = document.createElement("div");
+    empty.className = "empty-state";
+    const title = document.createElement("strong");
+    const detail = document.createElement("span");
+    title.textContent = isError ? "Needs attention." : "Ready.";
+    detail.textContent = message;
+    empty.append(title, detail);
+    results.append(empty);
+    summary.textContent = isError ? "Check inputs" : "Ready";
+  }
+
+  function updateFormat() {
+    const singles = selectedFormat() === "single";
+
+    slots.forEach(slot => {
+      const secondSlot = slot.dataset.battleSlot === "2";
+      slot.hidden = singles && secondSlot;
+
+      if (slot.hidden) {
+        slot.querySelectorAll(".target-picker input").forEach(input => {
+          input.checked = false;
+        });
+      }
+    });
+
+    calculator.querySelectorAll("[data-double-only]").forEach(option => {
+      const input = option.querySelector("input");
+      const target = findSlot(input.dataset.targetSide, input.dataset.targetSlot);
+      const unavailable = singles || !target || target.hidden;
+      option.hidden = unavailable;
+      if (unavailable) input.checked = false;
+    });
+
+    calculator.querySelectorAll("[data-active-count]").forEach(label => {
+      label.textContent = singles ? "1 active Pokemon" : "2 active Pokemon";
+    });
+
+    clearResults(
+      singles
+        ? "Singles mode active. Only slot 1 on each side can act."
+        : "Doubles mode active. Both slots on each side can act."
+    );
+  }
+
+  function compareActions(first, second) {
+    if (first.priority !== second.priority) return second.priority - first.priority;
+    if (trickRoom?.checked) return first.speed - second.speed;
+    return second.speed - first.speed;
+  }
+
+  function renderAction(action, index) {
+    const card = document.createElement("article");
+    const title = document.createElement("strong");
+    const meta = document.createElement("div");
+    const targets = document.createElement("div");
+
+    card.className = "turn-result-card";
+    meta.className = "turn-result-meta";
+    targets.className = "turn-result-meta";
+    title.textContent = `${index + 1}. ${action.pokemon} uses ${action.move}`;
+
+    [
+      `Priority ${action.priority}`,
+      `${action.speed} effective Speed`,
+      slotLabel(action.slot)
+    ].forEach(text => {
+      const pill = document.createElement("span");
+      pill.textContent = text;
+      meta.append(pill);
+    });
+
+    const targetNames = action.targets.length
+      ? action.targets.map(target => {
+          const name = target.querySelector("[data-turn-pokemon]")?.value.trim();
+          return name || slotLabel(target);
+        })
+      : ["No target selected"];
+
+    targetNames.forEach(name => {
+      const pill = document.createElement("span");
+      pill.textContent = `Target: ${name}`;
+      targets.append(pill);
+    });
+
+    card.append(title, meta, targets);
+    return card;
+  }
+
+  function calculateTurn() {
+    const actions = slots
+      .filter(isSlotActive)
+      .map(readAction)
+      .filter(action => action.targets.length > 0);
+
+    if (!actions.length) {
+      clearResults("Enable at least one active slot and select a legal target.", true);
+      return;
+    }
+
+    actions.sort(compareActions);
+    results.replaceChildren(...actions.map(renderAction));
+    summary.textContent = `${actions.length} action${actions.length === 1 ? "" : "s"} ordered`;
+  }
+
+  formatInputs.forEach(input => input.addEventListener("change", updateFormat));
+  trickRoom?.addEventListener("change", () => clearResults("Field condition changed. Recalculate turn order."));
+  calculator.querySelectorAll("[data-side-tailwind], [data-will-move], .target-picker input").forEach(input => {
+    input.addEventListener("change", () => clearResults("Action state changed. Recalculate turn order."));
+  });
+  calculator.querySelectorAll("[data-turn-pokemon], [data-turn-move], [data-turn-priority], [data-turn-speed]").forEach(input => {
+    input.addEventListener("input", () => {
+      summary.textContent = "Edited";
+    });
+  });
+  calculateButton?.addEventListener("click", calculateTurn);
+
+  updateFormat();
+});
