@@ -124,9 +124,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!controls || !list) return;
 
-  const type = controls.querySelector("[data-pokemon-move-type]");
-  const damageClass = controls.querySelector("[data-pokemon-move-class]");
   const sort = controls.querySelector("[data-pokemon-move-sort]");
+  const classToggles = Array.from(controls.querySelectorAll("[data-pokemon-move-class-toggles] input[type='checkbox']"));
   const rows = Array.from(list.querySelectorAll(".move-row"));
 
   function rowValue(row, key) {
@@ -154,39 +153,46 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function updateMoves() {
-    const selectedType = type?.value || "all";
-    const selectedClass = damageClass?.value || "all";
+    const activeClasses = new Set(
+      classToggles
+        .filter(toggle => toggle.checked)
+        .map(toggle => toggle.value)
+    );
 
     rows.forEach(row => {
-      const rowType = rowValue(row, "type");
       const rowClass = rowValue(row, "class");
-      const matchesType = selectedType === "all" || rowType === selectedType;
-      const matchesClass = selectedClass === "all" || rowClass === selectedClass;
-      row.hidden = !(matchesType && matchesClass);
+      row.hidden = !activeClasses.has(rowClass);
     });
 
-    const sortValue = sort?.value || "alpha";
+    const sortValue = sort?.value || "usage";
     [...rows]
       .sort((a, b) => {
         if (sortValue === "alpha") {
-          return compareName(a, b);
+          return compareName(a, b) || compareNumber(rowValue(a, "usage"), rowValue(b, "usage"), "desc");
         }
 
-        const [key, direction] = sortValue.split("-");
-        const left = rowValue(a, key);
-        const right = rowValue(b, key);
+        if (sortValue === "type") {
+          return (
+            compareText(rowValue(a, "type"), rowValue(b, "type"), "asc") ||
+            compareNumber(rowValue(a, "usage"), rowValue(b, "usage"), "desc") ||
+            compareName(a, b)
+          );
+        }
+
+        if (sortValue === "usage") {
+          return compareNumber(rowValue(a, "usage"), rowValue(b, "usage"), "desc") || compareName(a, b);
+        }
+
         return (
-          compareNumber(left, right, direction) ||
-          compareText(rowValue(a, "class"), rowValue(b, "class"), "asc") ||
-          compareText(rowValue(a, "type"), rowValue(b, "type"), "asc") ||
+          compareNumber(rowValue(a, sortValue), rowValue(b, sortValue), "desc") ||
+          compareNumber(rowValue(a, "usage"), rowValue(b, "usage"), "desc") ||
           compareName(a, b)
         );
       })
       .forEach(row => list.appendChild(row));
   }
 
-  type?.addEventListener("change", updateMoves);
-  damageClass?.addEventListener("change", updateMoves);
+  classToggles.forEach(toggle => toggle.addEventListener("change", updateMoves));
   sort?.addEventListener("change", updateMoves);
   updateMoves();
 });

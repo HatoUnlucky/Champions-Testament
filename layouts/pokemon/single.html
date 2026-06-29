@@ -42,11 +42,9 @@
     <section class="panel">
       <h2>Stats</h2>
       <div class="stat-table" aria-label="Pokemon stats">
-        <div class="stat-header">Stat</div>
         {{ range $pokemon.stats }}
           <div class="stat-header">{{ .label }}</div>
         {{ end }}
-        <div class="stat-label">Value</div>
         {{ range $pokemon.stats }}
           <div class="stat-value">{{ .value }}</div>
         {{ end }}
@@ -58,13 +56,13 @@
       <h2>Abilities</h2>
       <div class="rank-list">
         {{ range $pokemon.abilities }}
-          <div class="rank-row">
+          <a class="rank-row linked-row" href="{{ printf "abilities/%s/" .slug | relURL }}">
             <div>
               <strong>{{ .name }}</strong>
               {{ with .description }}<p>{{ . }}</p>{{ end }}
             </div>
             {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
-          </div>
+          </a>
         {{ else }}
           <div class="empty-state"><strong>No ability usage data.</strong></div>
         {{ end }}
@@ -73,11 +71,11 @@
     {{ end }}
 
     {{ if $pokemon.items }}
-    <section class="panel">
+    <section class="panel scroll-panel">
       <h2>Items</h2>
-      <div class="rank-list">
+      <div class="rank-list scroll-list">
         {{ range $pokemon.items }}
-          <div class="rank-row">
+          <a class="rank-row linked-row" href="{{ printf "items/%s/" .slug | relURL }}">
             <div class="item-label">
               {{ with .image }}<img src="{{ . | relURL }}" alt="">{{ end }}
               <div>
@@ -86,7 +84,7 @@
               </div>
             </div>
             {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
-          </div>
+          </a>
         {{ else }}
           <div class="empty-state"><strong>No item usage data.</strong></div>
         {{ end }}
@@ -129,42 +127,40 @@
     {{ end }}
 
     {{ if and $pokemon.has_usage_data $pokemon.moves }}
-    <section class="panel wide">
+    <section class="panel wide scroll-panel">
       <h2>Moves</h2>
       <div class="inline-filter-bar" data-pokemon-move-controls>
         <label>
-          Type
-          <select data-pokemon-move-type>
-            <option value="all">Any type</option>
-            {{ range slice "normal" "fire" "water" "electric" "grass" "ice" "fighting" "poison" "ground" "flying" "psychic" "bug" "rock" "ghost" "dragon" "dark" "steel" "fairy" }}
-              <option value="{{ . }}">{{ title . }}</option>
-            {{ end }}
-          </select>
-        </label>
-        <label>
-          Damage class
-          <select data-pokemon-move-class>
-            <option value="all">Any class</option>
-            <option value="physical">Physical</option>
-            <option value="special">Special</option>
-            <option value="status">Status</option>
-          </select>
-        </label>
-        <label>
-          Sort
+          Sort by
           <select data-pokemon-move-sort>
-            <option value="alpha">Name</option>
-            <option value="power-desc">Power, highest first</option>
-            <option value="power-asc">Power, lowest first</option>
-            <option value="priority-desc">Priority, highest first</option>
-            <option value="priority-asc">Priority, lowest first</option>
+            <option value="usage">Usage</option>
+            <option value="alpha">Alphabetically</option>
+            <option value="power">Power</option>
+            <option value="priority">Priority</option>
+            <option value="type">Type</option>
           </select>
         </label>
+        <fieldset class="toggle-filter-group" data-pokemon-move-class-toggles>
+          <legend>Damage class</legend>
+          <label>
+            <input type="checkbox" value="physical" checked>
+            <span>Physical</span>
+          </label>
+          <label>
+            <input type="checkbox" value="special" checked>
+            <span>Special</span>
+          </label>
+          <label>
+            <input type="checkbox" value="status" checked>
+            <span>Status</span>
+          </label>
+        </fieldset>
       </div>
-      <div class="move-list" data-pokemon-move-list>
+      <div class="move-list scroll-list" data-pokemon-move-list>
         {{ range $pokemon.moves }}
-          <div
+          <a
             class="move-row"
+            href="{{ printf "moves/%s/" .slug | relURL }}"
             data-type="{{ .type }}"
             data-damage-class="{{ .damage_class }}"
             data-power="{{ .power | default 0 }}"
@@ -182,7 +178,7 @@
               {{ with .damage_class }}<img class="damage-class-icon" src="{{ printf "Images/damage_class/%s.png" . | relURL }}" alt="{{ . }}">{{ end }}
               {{ with .type }}<img src="{{ printf "Images/type_icons/%s.svg" . | relURL }}" alt="{{ . }}">{{ end }}
             </div>
-          </div>
+          </a>
         {{ else }}
           <div class="empty-state"><strong>No move usage data.</strong></div>
         {{ end }}
