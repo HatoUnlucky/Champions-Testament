@@ -214,6 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .map(move => [displayName(move).toLowerCase(), move])
     .filter(([name]) => name));
   const formatInputs = Array.from(calculator.querySelectorAll('input[name="battle-format"]'));
+  const damageModeInputs = Array.from(calculator.querySelectorAll('input[name="damage-mode"]'));
   const weather = calculator.querySelector("[data-turn-weather]");
   const stage = calculator.querySelector("[data-battle-stage]");
   const trickRoom = calculator.querySelector("[data-turn-trick-room]");
@@ -232,6 +233,26 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const defaultMoves = ["", "", "", ""];
   const statKeys = ["hp", "attack", "defense", "special_attack", "special_defense", "speed"];
+  const typeChart = {
+    normal: { rock: 0.5, ghost: 0, steel: 0.5 },
+    fire: { fire: 0.5, water: 0.5, grass: 2, ice: 2, bug: 2, rock: 0.5, dragon: 0.5, steel: 2 },
+    water: { fire: 2, water: 0.5, grass: 0.5, ground: 2, rock: 2, dragon: 0.5 },
+    electric: { water: 2, electric: 0.5, grass: 0.5, ground: 0, flying: 2, dragon: 0.5 },
+    grass: { fire: 0.5, water: 2, grass: 0.5, poison: 0.5, ground: 2, flying: 0.5, bug: 0.5, rock: 2, dragon: 0.5, steel: 0.5 },
+    ice: { fire: 0.5, water: 0.5, grass: 2, ice: 0.5, ground: 2, flying: 2, dragon: 2, steel: 0.5 },
+    fighting: { normal: 2, ice: 2, poison: 0.5, flying: 0.5, psychic: 0.5, bug: 0.5, rock: 2, ghost: 0, dark: 2, steel: 2, fairy: 0.5 },
+    poison: { grass: 2, poison: 0.5, ground: 0.5, rock: 0.5, ghost: 0.5, steel: 0, fairy: 2 },
+    ground: { fire: 2, electric: 2, grass: 0.5, poison: 2, flying: 0, bug: 0.5, rock: 2, steel: 2 },
+    flying: { electric: 0.5, grass: 2, fighting: 2, bug: 2, rock: 0.5, steel: 0.5 },
+    psychic: { fighting: 2, poison: 2, psychic: 0.5, dark: 0, steel: 0.5 },
+    bug: { fire: 0.5, grass: 2, fighting: 0.5, poison: 0.5, flying: 0.5, psychic: 2, ghost: 0.5, dark: 2, steel: 0.5, fairy: 0.5 },
+    rock: { fire: 2, ice: 2, fighting: 0.5, ground: 0.5, flying: 2, bug: 2, steel: 0.5 },
+    ghost: { normal: 0, psychic: 2, ghost: 2, dark: 0.5 },
+    dragon: { dragon: 2, steel: 0.5, fairy: 0 },
+    dark: { fighting: 0.5, psychic: 2, ghost: 2, dark: 0.5, fairy: 0.5 },
+    steel: { fire: 0.5, water: 0.5, electric: 0.5, ice: 2, rock: 2, steel: 0.5, fairy: 2 },
+    fairy: { fire: 0.5, fighting: 2, poison: 0.5, dragon: 2, dark: 2, steel: 0.5 }
+  };
   const natureEffects = {
     Adamant: ["attack", "special_attack"],
     Bold: ["defense", "attack"],
@@ -261,6 +282,10 @@ document.addEventListener("DOMContentLoaded", () => {
     nature: "Serious",
     fullHp: true,
     speed: 100,
+    maxHp: 100,
+    baseHp: 100,
+    hpMin: 100,
+    hpMax: 100,
     stats: { hp: 0, attack: 0, defense: 0, special_attack: 0, special_defense: 0, speed: 0 },
     stages: { hp: 0, attack: 0, defense: 0, special_attack: 0, special_defense: 0, speed: 0 },
     moves: [...defaultMoves],
@@ -307,6 +332,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function selectedFormat() {
     return formatInputs.find(input => input.checked)?.value || "double";
+  }
+
+  function selectedDamageMode() {
+    return damageModeInputs.find(input => input.checked)?.value || "preview";
   }
 
   function slotKey(slot) {
@@ -389,11 +418,20 @@ document.addEventListener("DOMContentLoaded", () => {
     const pokemon = pokemonRecord(state.pokemon);
     const img = slot.querySelector("[data-slot-sprite]");
     const name = slot.querySelector("[data-slot-name]");
+    const fill = slot.querySelector("[data-hp-fill]");
+    const range = slot.querySelector("[data-hp-range]");
 
     slot.classList.toggle("has-pokemon", Boolean(pokemon));
     name.textContent = state.pokemon || "Empty";
     img.src = pokemon ? withBase(spritePath(pokemon, slot.dataset.side)) : "";
     img.alt = state.pokemon || "";
+
+    const maxHp = Math.max(1, Number(state.maxHp || 1));
+    const minPercent = Math.max(0, Math.min(100, (Number(state.hpMin ?? 0) / maxHp) * 100));
+    const maxPercent = Math.max(minPercent, Math.min(100, (Number(state.hpMax ?? maxHp) / maxHp) * 100));
+    fill?.style.setProperty("--hp-min", `${minPercent}%`);
+    range?.style.setProperty("--hp-min", `${minPercent}%`);
+    range?.style.setProperty("--hp-max", `${maxPercent}%`);
   }
 
   function withBase(path) {
@@ -444,7 +482,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function syncDerivedSpeed(state) {
     const pokemon = pokemonRecord(state.pokemon);
-    state.speed = calculatedStats(pokemon, state.stats, state.nature).speed || 0;
+    const stats = calculatedStats(pokemon, state.stats, state.nature);
+    state.speed = stats.speed || 0;
+    state.maxHp = stats.hp || 1;
+    state.baseHp = clampHp(state.baseHp ?? state.maxHp, state.maxHp);
+    state.hpMin = clampHp(state.hpMin ?? state.maxHp, state.maxHp);
+    state.hpMax = clampHp(state.hpMax ?? state.maxHp, state.maxHp);
+    state.fullHp = state.hpMax >= state.maxHp;
+  }
+
+  function clampHp(value, maxHp) {
+    return Math.max(0, Math.min(Number(maxHp || 1), Math.round(Number(value || 0))));
+  }
+
+  function hpPercent(raw, maxHp) {
+    return Math.round((clampHp(raw, maxHp) / Math.max(1, Number(maxHp || 1))) * 100);
   }
 
   function boostedStat(value, stage) {
@@ -459,6 +511,68 @@ document.addEventListener("DOMContentLoaded", () => {
     let speed = boostedStat(state.speed, state.stages.speed);
     if (sideState[slot.dataset.side]?.tailwind) speed *= 2;
     return Math.max(0, speed);
+  }
+
+  function typeEffectiveness(moveType, targetState) {
+    const chart = typeChart[String(moveType || "").toLowerCase()] || {};
+    return pokemonTypes(targetState).reduce((multiplier, type) => multiplier * (chart[type] ?? 1), 1);
+  }
+
+  function weatherModifier(move) {
+    const current = weather?.value || "clear";
+    const type = String(move?.type || "").toLowerCase();
+    if (current === "sun" && type === "fire") return 1.5;
+    if (current === "sun" && type === "water") return 0.5;
+    if (current === "rain" && type === "water") return 1.5;
+    if (current === "rain" && type === "fire") return 0.5;
+    return 1;
+  }
+
+  function sideDefenseModifier(move, targetSlot, sideState) {
+    const targetSide = sideState[targetSlot.dataset.side] || {};
+    const damageClass = String(move?.damage_class || "").toLowerCase();
+    if (targetSide.auroraVeil) return 0.67;
+    if (damageClass === "physical" && targetSide.reflect) return 0.67;
+    if (damageClass === "special" && targetSide.lightScreen) return 0.67;
+    return 1;
+  }
+
+  function offensiveStatKey(move) {
+    return String(move?.damage_class || "").toLowerCase() === "special" ? "special_attack" : "attack";
+  }
+
+  function defensiveStatKey(move) {
+    return String(move?.damage_class || "").toLowerCase() === "special" ? "special_defense" : "defense";
+  }
+
+  function damagingMove(move) {
+    return Number(move?.power || 0) > 0 && !moveIsStatus(move);
+  }
+
+  function damageRange(action, targetSlot, sideState) {
+    const move = action.moveRecord;
+    if (!damagingMove(move)) return null;
+
+    const attackerState = stateFor(action.slot);
+    const targetState = stateFor(targetSlot);
+    const attackerPokemon = pokemonRecord(attackerState.pokemon);
+    const targetPokemon = pokemonRecord(targetState.pokemon);
+    const attackerStats = calculatedStats(attackerPokemon, attackerState.stats, attackerState.nature);
+    const targetStats = calculatedStats(targetPokemon, targetState.stats, targetState.nature);
+    const attackKey = offensiveStatKey(move);
+    const defenseKey = defensiveStatKey(move);
+    const attack = Math.max(1, boostedStat(attackerStats[attackKey], attackerState.stages[attackKey]));
+    const defense = Math.max(1, boostedStat(targetStats[defenseKey], targetState.stages[defenseKey]));
+    const level = 50;
+    const base = Math.floor(Math.floor(Math.floor((2 * level / 5 + 2) * Number(move.power) * attack / defense) / 50) + 2);
+    const stab = pokemonTypes(attackerState).includes(String(move.type || "").toLowerCase()) ? 1.5 : 1;
+    const effectiveness = typeEffectiveness(move.type, targetState);
+    const spread = action.targets.length > 1 ? 0.75 : 1;
+    const modifier = stab * effectiveness * spread * weatherModifier(move) * sideDefenseModifier(move, targetSlot, sideState);
+    const min = Math.max(0, Math.floor(base * modifier * 0.85));
+    const max = Math.max(min, Math.floor(base * modifier));
+
+    return { min, max, effectiveness };
   }
 
   function moveIsStatus(move) {
@@ -526,6 +640,10 @@ document.addEventListener("DOMContentLoaded", () => {
     state.nature = pokemon?.spreads?.[0]?.nature || "Serious";
     if (pokemon?.spreads?.[0]) applySpreadToState(state, pokemon.spreads[0]);
     syncDerivedSpeed(state);
+    state.baseHp = state.maxHp;
+    state.hpMin = state.maxHp;
+    state.hpMax = state.maxHp;
+    state.fullHp = true;
     updateSlotDisplay(slot);
   }
 
@@ -649,6 +767,10 @@ document.addEventListener("DOMContentLoaded", () => {
       if (output) output.textContent = value > 0 ? `+${value}` : String(value);
     });
     renderEditorStats();
+    setEditorHealthFromRaw(
+      selectedDamageMode() === "persistent" ? state.hpMax : (state.baseHp ?? state.hpMax ?? state.maxHp),
+      state.maxHp
+    );
     openModal(pokemonModal);
   }
 
@@ -720,6 +842,52 @@ document.addEventListener("DOMContentLoaded", () => {
       const boosted = boostedStat(stats[key], stage);
       cell.textContent = stage ? `${boosted} (${stats[key]})` : (stats[key] || "--");
     });
+
+    syncEditorHealthAfterMax(stats.hp || 1);
+  }
+
+  function editorHealthInputs() {
+    return {
+      percent: pokemonModal.querySelector("[data-edit-hp-percent]"),
+      raw: pokemonModal.querySelector("[data-edit-hp-raw]"),
+      slider: pokemonModal.querySelector("[data-edit-hp-slider]"),
+      fullHp: pokemonModal.querySelector("[data-edit-full-hp]")
+    };
+  }
+
+  function setEditorHealthFromRaw(rawValue, maxHp = null) {
+    const inputs = editorHealthInputs();
+    const max = Number(maxHp || inputs.raw?.max || 1);
+    const raw = clampHp(rawValue, max);
+    const percent = hpPercent(raw, max);
+
+    if (inputs.raw) {
+      inputs.raw.max = String(max);
+      inputs.raw.value = String(raw);
+    }
+    if (inputs.percent) inputs.percent.value = String(percent);
+    if (inputs.slider) inputs.slider.value = String(percent);
+    if (inputs.fullHp) inputs.fullHp.checked = raw >= max;
+  }
+
+  function setEditorHealthFromPercent(percentValue) {
+    const inputs = editorHealthInputs();
+    const max = Number(inputs.raw?.max || 1);
+    const percent = Math.max(0, Math.min(100, Math.round(Number(percentValue || 0))));
+    setEditorHealthFromRaw(Math.round(max * percent / 100), max);
+  }
+
+  function readEditorHpRaw() {
+    const inputs = editorHealthInputs();
+    return clampHp(inputs.raw?.value || 0, inputs.raw?.max || 1);
+  }
+
+  function syncEditorHealthAfterMax(maxHp) {
+    const inputs = editorHealthInputs();
+    const currentMax = Number(inputs.raw?.max || maxHp || 1);
+    const currentRaw = readEditorHpRaw();
+    const currentPercent = hpPercent(currentRaw, currentMax);
+    setEditorHealthFromRaw(Math.round(Number(maxHp || 1) * currentPercent / 100), maxHp);
   }
 
   function readEditorStages() {
@@ -747,7 +915,6 @@ document.addEventListener("DOMContentLoaded", () => {
     state.pokemon = pokemonName;
     state.item = pokemonModal.querySelector("[data-edit-item]").value.trim();
     state.ability = pokemonModal.querySelector("[data-edit-ability]").value;
-    state.fullHp = pokemonModal.querySelector("[data-edit-full-hp]").checked;
     state.nature = pokemonModal.querySelector("[data-edit-nature]").value;
     Object.keys(state.stats).forEach(key => {
       state.stats[key] = Number(pokemonModal.querySelector(`[data-edit-stat="${key}"]`)?.value || 0);
@@ -755,6 +922,11 @@ document.addEventListener("DOMContentLoaded", () => {
     state.stages = readEditorStages();
     syncDerivedSpeed(state);
     state.moves = [...defaultMoves].map((_, index) => pokemonModal.querySelector(`[data-edit-move="${index}"]`).value.trim());
+    const hp = readEditorHpRaw();
+    state.baseHp = hp;
+    state.hpMin = hp;
+    state.hpMax = hp;
+    state.fullHp = hp >= state.maxHp;
     updateSlotDisplay(editingSlot);
     closeModals();
     clearResults(`${slotLabel(editingSlot)} updated.`);
@@ -781,6 +953,7 @@ document.addEventListener("DOMContentLoaded", () => {
       priority: priorityFor(slot, move),
       speed: effectiveSpeed(slot),
       targets: (state.action?.targets || []).map(key => fieldSlots.find(candidate => slotKey(candidate) === key)).filter(Boolean),
+      damage: [],
       secondaryEffects: state.action?.secondaryEffects || {},
       sideConditions: []
     };
@@ -837,6 +1010,13 @@ document.addEventListener("DOMContentLoaded", () => {
       targets.append(pill);
     });
 
+    (action.damage || []).forEach(result => {
+      const pill = document.createElement("span");
+      const note = result.effectiveness === 0 ? "no effect" : `${result.min}-${result.max} HP`;
+      pill.textContent = `Damage to ${result.target}: ${note}`;
+      targets.append(pill);
+    });
+
     Object.values(action.secondaryEffects || {}).forEach(effect => {
       const pill = document.createElement("span");
       pill.textContent = `Effect: ${effect}`;
@@ -872,7 +1052,41 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  function applyActionDamage(action, sideState, hpRanges) {
+    action.damage = action.targets.map(target => {
+      const range = damageRange(action, target, sideState);
+      const key = slotKey(target);
+      const targetState = stateFor(target);
+      const hp = hpRanges.get(key) || { min: targetState.maxHp, max: targetState.maxHp };
+
+      if (range) {
+        hp.min = Math.max(0, hp.min - range.max);
+        hp.max = Math.max(0, hp.max - range.min);
+        hpRanges.set(key, hp);
+      }
+
+      return {
+        target: targetState.pokemon || slotLabel(target),
+        min: range?.min || 0,
+        max: range?.max || 0,
+        effectiveness: range?.effectiveness ?? 1
+      };
+    });
+  }
+
   function calculateTurn() {
+    const previewMode = selectedDamageMode() === "preview";
+    if (previewMode) {
+      visibleSlots().forEach(slot => {
+        const state = stateFor(slot);
+        const startHp = clampHp(state.baseHp ?? state.maxHp, state.maxHp);
+        state.hpMin = startHp;
+        state.hpMax = startHp;
+        state.fullHp = startHp >= state.maxHp;
+        updateSlotDisplay(slot);
+      });
+    }
+
     const pending = visibleSlots()
       .map(actionFor)
       .filter(action => action.targets.length > 0 && action.move !== "No move selected");
@@ -883,6 +1097,11 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const sideState = { left: {}, right: {} };
+    const hpRanges = new Map(visibleSlots().map(slot => {
+      const state = stateFor(slot);
+      updateSlotDisplay(slot);
+      return [slotKey(slot), { min: state.hpMin, max: state.hpMax }];
+    }));
     const actions = [];
     while (pending.length) {
       pending.forEach(action => {
@@ -892,8 +1111,19 @@ document.addEventListener("DOMContentLoaded", () => {
       pending.sort(compareActions);
       const action = pending.shift();
       actions.push(action);
+      applyActionDamage(action, sideState, hpRanges);
       applyActionEffects(action, sideState);
     }
+
+    hpRanges.forEach((hp, key) => {
+      const slot = fieldSlots.find(candidate => slotKey(candidate) === key);
+      if (!slot) return;
+      const state = stateFor(slot);
+      state.hpMin = hp.min;
+      state.hpMax = hp.max;
+      state.fullHp = state.hpMax >= state.maxHp;
+      updateSlotDisplay(slot);
+    });
 
     const cards = actions.map(renderAction);
     const sideLabels = sideStateSummary(sideState);
@@ -1074,6 +1304,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
     renderEditorStats();
+    setEditorHealthFromRaw(editorHealthInputs().raw?.max || 1);
   }
 
   function spreadChangedInEditor() {
@@ -1106,6 +1337,15 @@ document.addEventListener("DOMContentLoaded", () => {
     stage.dataset.weather = weather.value || "clear";
   });
   trickRoom?.addEventListener("change", () => clearResults("Field condition changed. Recalculate turn order."));
+  damageModeInputs.forEach(input => {
+    input.addEventListener("change", () => {
+      clearResults(
+        selectedDamageMode() === "persistent"
+          ? "Per-turn mode active. Damage will carry forward between simulations."
+          : "Preview mode active. Simulations start from each Pokemon's saved HP."
+      );
+    });
+  });
   calculator.querySelectorAll("[data-close-modal]").forEach(button => {
     button.addEventListener("click", closeModals);
   });
@@ -1113,6 +1353,18 @@ document.addEventListener("DOMContentLoaded", () => {
   pokemonModal.querySelector("[data-edit-pokemon]").addEventListener("change", pokemonChangedInEditor);
   pokemonModal.querySelector("[data-edit-spread]").addEventListener("change", spreadChangedInEditor);
   pokemonModal.querySelector("[data-edit-nature]").addEventListener("change", renderEditorStats);
+  pokemonModal.querySelector("[data-edit-hp-raw]").addEventListener("input", event => {
+    setEditorHealthFromRaw(event.currentTarget.value);
+  });
+  pokemonModal.querySelector("[data-edit-hp-percent]").addEventListener("input", event => {
+    setEditorHealthFromPercent(event.currentTarget.value);
+  });
+  pokemonModal.querySelector("[data-edit-hp-slider]").addEventListener("input", event => {
+    setEditorHealthFromPercent(event.currentTarget.value);
+  });
+  pokemonModal.querySelector("[data-edit-full-hp]").addEventListener("change", event => {
+    if (event.currentTarget.checked) setEditorHealthFromRaw(editorHealthInputs().raw?.max || 1);
+  });
   pokemonModal.querySelectorAll("[data-edit-stat]").forEach(input => {
     input.addEventListener("input", () => {
       pokemonModal.querySelector("[data-edit-spread]").value = "";

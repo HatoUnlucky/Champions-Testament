@@ -97,10 +97,10 @@
     </div>
   </div>
 
-  <div class="directory-grid" data-directory-list>
+  <div class="directory-grid directory-grid-{{ $sectionKey }}" data-directory-list>
     {{ range $entries }}
       <a
-        class="directory-card"
+        class="directory-card directory-card-{{ $sectionKey }}{{ if or (eq $sectionKey "moves") (eq $sectionKey "abilities") }} directory-card-compact{{ end }}"
         href="{{ .url | relURL }}"
         data-name="{{ lower .display_name }}"
         data-regulations="{{ delimit (.regulations | default slice) "," }}"
@@ -117,13 +117,17 @@
         data-power="{{ .power | default 0 }}"
         data-priority="{{ .priority | default 0 }}"
       >
-        <div class="directory-image-slot">
-          {{ $image := .image | default .primary_image }}
-          {{ with $image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
-        </div>
+        {{ if not (or (eq $sectionKey "moves") (eq $sectionKey "abilities")) }}
+          <div class="directory-image-slot">
+            {{ $image := .image | default .primary_image }}
+            {{ with $image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+          </div>
+        {{ end }}
         <div class="directory-card-main">
           <span>{{ .display_name }}</span>
-          {{ with .summary }}<small>{{ . }}</small>{{ end }}
+          {{ if ne $sectionKey "pokemon" }}
+            {{ with .summary }}<small>{{ . }}</small>{{ end }}
+          {{ end }}
           {{ if eq $sectionKey "moves" }}
             <div class="move-card-meta">
               {{ with .type }}
@@ -145,6 +149,25 @@
           {{ with .types }}
             <div class="mini-pill-row">
               {{ range . }}<b>{{ title . }}</b>{{ end }}
+            </div>
+          {{ end }}
+          {{ if eq $sectionKey "pokemon" }}
+            {{ $stats := .stats | default dict }}
+            <div class="directory-stat-grid" aria-label="{{ .display_name }} stats">
+              {{ range slice
+                (dict "key" "hp" "label" "HP")
+                (dict "key" "attack" "label" "Atk")
+                (dict "key" "defense" "label" "Def")
+                (dict "key" "special_attack" "label" "SpA")
+                (dict "key" "special_defense" "label" "SpD")
+                (dict "key" "speed" "label" "Spe")
+                (dict "key" "total" "label" "BST")
+              }}
+                <span>
+                  <small>{{ .label }}</small>
+                  <strong>{{ index $stats .key | default 0 }}</strong>
+                </span>
+              {{ end }}
             </div>
           {{ end }}
         </div>

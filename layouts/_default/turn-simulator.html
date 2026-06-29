@@ -20,6 +20,18 @@
       </label>
     </fieldset>
 
+    <fieldset class="segmented-control" data-damage-mode>
+      <legend>Simulation</legend>
+      <label>
+        <input type="radio" name="damage-mode" value="preview" checked>
+        <span>Preview</span>
+      </label>
+      <label>
+        <input type="radio" name="damage-mode" value="persistent">
+        <span>Per turn</span>
+      </label>
+    </fieldset>
+
     <label>
       Weather
       <select data-turn-weather>
@@ -61,6 +73,10 @@
           <span class="unknown-mon">?</span>
           <img alt="" data-slot-sprite>
           <strong data-slot-name>Empty</strong>
+          <span class="hp-meter" aria-hidden="true">
+            <span class="hp-range" data-hp-range></span>
+            <span class="hp-fill" data-hp-fill></span>
+          </span>
         </button>
       {{ end }}
     </div>
@@ -72,6 +88,10 @@
           <span class="unknown-mon">?</span>
           <img alt="" data-slot-sprite>
           <strong data-slot-name>Empty</strong>
+          <span class="hp-meter" aria-hidden="true">
+            <span class="hp-range" data-hp-range></span>
+            <span class="hp-fill" data-hp-fill></span>
+          </span>
         </button>
       {{ end }}
     </div>
@@ -197,6 +217,24 @@
             <button type="button" data-stage-step="{{ $stat.key }}" data-stage-delta="-1" aria-label="Lower {{ $stat.label }}">▼</button>
           </div>
         {{ end }}
+      </div>
+    </div>
+
+    <div class="editor-section">
+      <h3>Health</h3>
+      <div class="health-edit-grid">
+        <label>
+          HP %
+          <input type="number" data-edit-hp-percent min="0" max="100" step="1" value="100">
+        </label>
+        <label>
+          HP
+          <input type="number" data-edit-hp-raw min="0" step="1" value="100">
+        </label>
+        <label class="health-slider-field">
+          Slider
+          <input type="range" data-edit-hp-slider min="0" max="100" step="1" value="100">
+        </label>
       </div>
     </div>
 

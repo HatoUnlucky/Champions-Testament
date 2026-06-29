@@ -204,6 +204,10 @@ h2 {
   gap: 12px;
 }
 
+.directory-grid-pokemon {
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
 .pokemon-card,
 .directory-card {
   display: grid;
@@ -219,9 +223,17 @@ h2 {
   overflow: hidden;
 }
 
-.directory-card:has(.move-card-meta) {
+.directory-card-compact {
+  grid-template-columns: minmax(0, 1fr);
+}
+
+.directory-card-moves {
   align-items: start;
-  min-height: 148px;
+  min-height: 0;
+}
+
+.directory-card-abilities {
+  min-height: 0;
 }
 
 .pokemon-card img,
@@ -308,6 +320,42 @@ h2 {
   background: rgba(255, 255, 255, 0.07);
   color: var(--muted);
   font-size: 0.76rem;
+}
+
+.directory-stat-grid {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.035);
+}
+
+.directory-stat-grid span {
+  display: grid;
+  gap: 2px;
+  place-items: center;
+  min-width: 0;
+  min-height: 44px;
+  padding: 5px 3px;
+  border-right: 1px solid var(--line);
+  font-weight: 800;
+}
+
+.directory-stat-grid span:last-child {
+  border-right: 0;
+}
+
+.directory-stat-grid small {
+  color: var(--muted);
+  font-size: 0.62rem;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.directory-stat-grid strong {
+  font-size: 0.78rem;
+  line-height: 1;
 }
 
 .directory-card[hidden] {
@@ -935,7 +983,7 @@ a.move-row {
 
 .battle-toolbar {
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) repeat(2, minmax(150px, 0.7fr)) minmax(130px, auto);
+  grid-template-columns: repeat(2, minmax(190px, 1fr)) repeat(2, minmax(140px, 0.7fr)) minmax(130px, auto);
   gap: 12px;
   align-items: end;
 }
@@ -951,6 +999,7 @@ a.move-row {
 .editor-grid input,
 .editor-grid select,
 .spread-preset-field select,
+.health-edit-grid input,
 .spread-edit-grid input,
 .spread-edit-grid select,
 .move-edit-grid input,
@@ -1086,6 +1135,40 @@ a.move-row {
   overflow-wrap: anywhere;
 }
 
+.hp-meter {
+  position: relative;
+  z-index: 3;
+  display: block;
+  width: min(132px, 86%);
+  height: 10px;
+  overflow: hidden;
+  border: 1px solid rgba(8, 10, 14, 0.72);
+  border-radius: 999px;
+  background: #6e737c;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.35);
+}
+
+.hp-fill,
+.hp-range {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.hp-fill {
+  z-index: 2;
+  width: var(--hp-min, 100%);
+  background: #38d06b;
+}
+
+.hp-range {
+  z-index: 1;
+  left: var(--hp-min, 100%);
+  width: calc(var(--hp-max, 100%) - var(--hp-min, 100%));
+  background: #f2d15c;
+}
+
 .field-pokemon.is-highlighted .field-shadow,
 .field-pokemon.is-selected-target .field-shadow {
   background: rgba(99, 210, 183, 0.58);
@@ -1200,6 +1283,7 @@ a.move-row {
 
 .editor-grid label,
 .spread-preset-field,
+.health-edit-grid label,
 .spread-edit-grid label,
 .move-edit-grid label {
   display: grid;
@@ -1261,6 +1345,22 @@ a.move-row {
 
 .spread-preset-field {
   margin-top: 12px;
+}
+
+.health-edit-grid {
+  display: grid;
+  grid-template-columns: minmax(96px, 0.45fr) minmax(112px, 0.55fr) minmax(220px, 1fr);
+  gap: 8px;
+  align-items: end;
+}
+
+.health-slider-field {
+  min-width: 0;
+}
+
+.health-slider-field input {
+  padding: 0;
+  accent-color: var(--accent);
 }
 
 .spread-edit-grid {
@@ -1449,6 +1549,7 @@ a.move-row {
   .active-slots,
   .battle-field-grid,
   .editor-grid,
+  .health-edit-grid,
   .move-edit-grid,
   .directory-controls,
   .inline-filter-bar {

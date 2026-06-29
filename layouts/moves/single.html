@@ -4,17 +4,23 @@
 {{ $move := index hugo.Data.moves .Params.data_key }}
 <article class="page-shell entry-page">
   <div class="toolbar"><a href="{{ "moves/" | relURL }}">All Moves</a></div>
-  <section class="entry-hero">
-    <img src="{{ printf "Images/type_icons/%s.svg" $move.type | relURL }}" alt="">
+  <section class="entry-hero text-only-hero">
     <div>
       <p class="eyebrow">Move</p>
       <h1>{{ $move.display_name }}</h1>
       <p class="lede">{{ $move.description }}</p>
       <div class="move-meta large-meta">
+        <span class="type-chip">
+          <img src="{{ printf "Images/type_icons/%s.svg" $move.type | relURL }}" alt="">
+          {{ title $move.type }}
+        </span>
         <span>Power {{ $move.power }}</span>
         <span>Accuracy {{ $move.accuracy }}</span>
         <span>Priority {{ $move.priority }}</span>
-        <img class="damage-class-icon" src="{{ printf "Images/damage_class/%s.png" $move.damage_class | relURL }}" alt="{{ $move.damage_class }}">
+        <span class="damage-class-chip">
+          <img class="damage-class-icon" src="{{ printf "Images/damage_class/%s.png" $move.damage_class | relURL }}" alt="">
+          {{ title $move.damage_class }}
+        </span>
       </div>
     </div>
   </section>
