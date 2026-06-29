@@ -1,0 +1,20 @@
+{
+  "slug": "suction-cups",
+  "display_name": "Suction Cups",
+  "description": "prevents being forced out of battle by other pokémon's moves.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Malamar",
+      "url": "pokemon/malamar/",
+      "percent": null
+    }
+  ]
+}

@@ -8,9 +8,15 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
+    {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 9.5
+    },
     {
       "display_name": "Mega Gyarados",
       "url": "pokemon/mega-gyarados/",
@@ -27,6 +33,11 @@
       "percent": 0.8
     },
     {
+      "display_name": "Tauros Paldea Aqua",
+      "url": "pokemon/tauros-paldea-aqua/",
+      "percent": 0.5
+    },
+    {
       "display_name": "Mega Tyranitar",
       "url": "pokemon/mega-tyranitar/",
       "percent": 0.3
@@ -40,6 +51,11 @@
       "display_name": "Weavile",
       "url": "pokemon/weavile/",
       "percent": 0.3
+    },
+    {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 0.2
     },
     {
       "display_name": "Meowscarada",
@@ -82,6 +98,11 @@
       "percent": 0.0
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
       "display_name": "Arbok",
       "url": "pokemon/arbok/",
       "percent": null
@@ -89,26 +110,6 @@
     {
       "display_name": "Banette",
       "url": "pokemon/banette/",
-      "percent": null
-    },
-    {
-      "display_name": "Camerupt",
-      "url": "pokemon/camerupt/",
-      "percent": null
-    },
-    {
-      "display_name": "Drampa",
-      "url": "pokemon/drampa/",
-      "percent": null
-    },
-    {
-      "display_name": "Empoleon",
-      "url": "pokemon/empoleon/",
-      "percent": null
-    },
-    {
-      "display_name": "Feraligatr",
-      "url": "pokemon/feraligatr/",
       "percent": null
     }
   ]

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "Images/item_images/primary_images_by_category/held-item/bright-powder_primary_image.png",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -97,6 +98,11 @@
       "percent": 3.1
     },
     {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 3.1
+    },
+    {
       "display_name": "Ninetales",
       "url": "pokemon/ninetales/",
       "percent": 3.0
@@ -105,11 +111,6 @@
       "display_name": "Simipour",
       "url": "pokemon/simipour/",
       "percent": 2.7
-    },
-    {
-      "display_name": "Ditto",
-      "url": "pokemon/ditto/",
-      "percent": 2.6
     }
   ]
 }

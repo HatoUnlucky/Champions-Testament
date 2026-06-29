@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "Images/item_images/primary_images_by_category/held-item/miracle-seed_primary_image.png",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {

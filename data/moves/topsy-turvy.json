@@ -1,0 +1,25 @@
+{
+  "slug": "topsy-turvy",
+  "display_name": "Topsy-Turvy",
+  "description": "Inverts all stat changes affecting the target.",
+  "type": "dark",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Malamar",
+      "url": "pokemon/malamar/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Malamar",
+      "url": "pokemon/mega-malamar/",
+      "percent": null
+    }
+  ]
+}

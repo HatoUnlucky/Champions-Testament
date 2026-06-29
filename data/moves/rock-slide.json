@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -20,6 +21,11 @@
       "display_name": "Mega Tyranitar",
       "url": "pokemon/mega-tyranitar/",
       "percent": 98.8
+    },
+    {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 98.7
     },
     {
       "display_name": "Rampardos",
@@ -105,11 +111,6 @@
       "display_name": "Mega Excadrill",
       "url": "pokemon/mega-excadrill/",
       "percent": 52.1
-    },
-    {
-      "display_name": "Sandaconda",
-      "url": "pokemon/sandaconda/",
-      "percent": 36.0
     }
   ]
 }

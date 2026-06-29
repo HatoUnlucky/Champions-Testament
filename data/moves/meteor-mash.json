@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -29,6 +30,16 @@
     {
       "display_name": "Mega Clefable",
       "url": "pokemon/mega-clefable/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Metagross",
+      "url": "pokemon/mega-metagross/",
+      "percent": null
+    },
+    {
+      "display_name": "Metagross",
+      "url": "pokemon/metagross/",
       "percent": null
     }
   ]

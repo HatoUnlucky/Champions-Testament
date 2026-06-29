@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -34,6 +35,11 @@
     {
       "display_name": "Aromatisse",
       "url": "pokemon/aromatisse/",
+      "percent": 12.2
+    },
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
       "percent": 12.2
     },
     {
@@ -82,6 +88,11 @@
       "percent": 3.8
     },
     {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": 2.8
+    },
+    {
       "display_name": "Mega Alakazam",
       "url": "pokemon/mega-alakazam/",
       "percent": 2.0
@@ -100,16 +111,6 @@
       "display_name": "Reuniclus",
       "url": "pokemon/reuniclus/",
       "percent": 1.6
-    },
-    {
-      "display_name": "Slowking",
-      "url": "pokemon/slowking/",
-      "percent": 1.4
-    },
-    {
-      "display_name": "Spiritomb",
-      "url": "pokemon/spiritomb/",
-      "percent": 1.0
     }
   ]
 }

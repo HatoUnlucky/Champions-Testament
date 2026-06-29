@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -42,8 +43,18 @@
       "percent": null
     },
     {
+      "display_name": "Mega Sceptile",
+      "url": "pokemon/mega-sceptile/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Scizor",
       "url": "pokemon/mega-scizor/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Scolipede",
+      "url": "pokemon/mega-scolipede/",
       "percent": null
     },
     {
@@ -52,8 +63,18 @@
       "percent": null
     },
     {
+      "display_name": "Sceptile",
+      "url": "pokemon/sceptile/",
+      "percent": null
+    },
+    {
       "display_name": "Scizor",
       "url": "pokemon/scizor/",
+      "percent": null
+    },
+    {
+      "display_name": "Scolipede",
+      "url": "pokemon/scolipede/",
       "percent": null
     },
     {

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -20,6 +21,11 @@
       "display_name": "Rhyperior",
       "url": "pokemon/rhyperior/",
       "percent": 0.3
+    },
+    {
+      "display_name": "Staraptor",
+      "url": "pokemon/staraptor/",
+      "percent": null
     }
   ]
 }

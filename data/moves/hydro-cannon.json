@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -57,6 +58,11 @@
       "percent": null
     },
     {
+      "display_name": "Mega Swampert",
+      "url": "pokemon/mega-swampert/",
+      "percent": null
+    },
+    {
       "display_name": "Quaquaval",
       "url": "pokemon/quaquaval/",
       "percent": null
@@ -64,6 +70,11 @@
     {
       "display_name": "Samurott",
       "url": "pokemon/samurott/",
+      "percent": null
+    },
+    {
+      "display_name": "Swampert",
+      "url": "pokemon/swampert/",
       "percent": null
     }
   ]

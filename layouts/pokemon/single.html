@@ -11,6 +11,11 @@
     <div>
       <p class="eyebrow">Champion</p>
       <h1>{{ $pokemon.display_name }}</h1>
+      <div class="mini-pill-row">
+        {{ range $pokemon.regulations }}
+          <b>{{ upper . }}</b>
+        {{ end }}
+      </div>
       <div class="type-row">
         {{ range $pokemon.types }}
           <span class="type-pill type-{{ .slug }}">
@@ -48,6 +53,7 @@
       </div>
     </section>
 
+    {{ if $pokemon.abilities }}
     <section class="panel">
       <h2>Abilities</h2>
       <div class="rank-list">
@@ -64,7 +70,9 @@
         {{ end }}
       </div>
     </section>
+    {{ end }}
 
+    {{ if $pokemon.items }}
     <section class="panel">
       <h2>Items</h2>
       <div class="rank-list">
@@ -84,7 +92,9 @@
         {{ end }}
       </div>
     </section>
+    {{ end }}
 
+    {{ if $pokemon.spreads }}
     <section class="panel">
       <h2>Common Spreads</h2>
       <div class="spread-list">
@@ -99,6 +109,7 @@
         {{ end }}
       </div>
     </section>
+    {{ end }}
 
     {{ if and (ne $pokemon.regulation "ma") $pokemon.tera_types }}
       <section class="panel">
@@ -117,6 +128,7 @@
       </section>
     {{ end }}
 
+    {{ if and $pokemon.has_usage_data $pokemon.moves }}
     <section class="panel wide">
       <h2>Moves</h2>
       <div class="inline-filter-bar" data-pokemon-move-controls>
@@ -141,11 +153,7 @@
         <label>
           Sort
           <select data-pokemon-move-sort>
-            <option value="usage-desc">Usage, highest first</option>
-            <option value="type-asc">Type, A-Z</option>
-            <option value="type-desc">Type, Z-A</option>
-            <option value="class-asc">Damage class, A-Z</option>
-            <option value="class-desc">Damage class, Z-A</option>
+            <option value="alpha">Name</option>
             <option value="power-desc">Power, highest first</option>
             <option value="power-asc">Power, lowest first</option>
             <option value="priority-desc">Priority, highest first</option>
@@ -171,7 +179,7 @@
               {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
               {{ with .power }}<span>{{ . }}</span>{{ end }}
               {{ with .priority }}<span>+{{ . }}</span>{{ end }}
-              {{ with .damage_class }}<img src="{{ printf "Images/damage_class/%s.png" . | relURL }}" alt="{{ . }}">{{ end }}
+              {{ with .damage_class }}<img class="damage-class-icon" src="{{ printf "Images/damage_class/%s.png" . | relURL }}" alt="{{ . }}">{{ end }}
               {{ with .type }}<img src="{{ printf "Images/type_icons/%s.svg" . | relURL }}" alt="{{ . }}">{{ end }}
             </div>
           </div>
@@ -180,7 +188,9 @@
         {{ end }}
       </div>
     </section>
+    {{ end }}
 
+    {{ if $pokemon.teammates }}
     <section class="panel wide">
       <h2>Common Teammates</h2>
       <div class="teammate-grid">
@@ -195,6 +205,7 @@
         {{ end }}
       </div>
     </section>
+    {{ end }}
   </section>
 </article>
 {{ end }}

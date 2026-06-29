@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -77,8 +78,18 @@
       "percent": null
     },
     {
+      "display_name": "Grimmsnarl",
+      "url": "pokemon/grimmsnarl/",
+      "percent": null
+    },
+    {
       "display_name": "Hatterene",
       "url": "pokemon/hatterene/",
+      "percent": null
+    },
+    {
+      "display_name": "Mawile",
+      "url": "pokemon/mawile/",
       "percent": null
     },
     {
@@ -99,16 +110,6 @@
     {
       "display_name": "Mega Gallade",
       "url": "pokemon/mega-gallade/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Gardevoir",
-      "url": "pokemon/mega-gardevoir/",
-      "percent": null
-    },
-    {
-      "display_name": "Meowstic (Male)",
-      "url": "pokemon/meowstic-male/",
       "percent": null
     }
   ]

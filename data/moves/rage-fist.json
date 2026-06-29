@@ -1,0 +1,20 @@
+{
+  "slug": "rage-fist",
+  "display_name": "Rage Fist",
+  "description": "This move's power is increased by 50 each time the user takes damage from a move, up to a maximum power of 350. If the user switches out of battle, the move's power returns to its usual value.",
+  "type": "ghost",
+  "power": 50.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    }
+  ]
+}

@@ -8,9 +8,15 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 4.1
+    },
     {
       "display_name": "Pidgeot",
       "url": "pokemon/pidgeot/",

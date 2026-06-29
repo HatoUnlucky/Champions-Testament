@@ -5,10 +5,11 @@
   "type": "ice",
   "power": 40.0,
   "damage_class": "physical",
-  "priority": 0,
+  "priority": 1,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -69,6 +70,11 @@
     {
       "display_name": "Hisuian Avalugg",
       "url": "pokemon/hisuian-avalugg/",
+      "percent": null
+    },
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
       "percent": null
     }
   ]

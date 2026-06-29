@@ -8,9 +8,25 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
+    {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 51.5
+    },
+    {
+      "display_name": "Tauros Paldea Aqua",
+      "url": "pokemon/tauros-paldea-aqua/",
+      "percent": 34.1
+    },
+    {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 4.6
+    },
     {
       "display_name": "Tauros",
       "url": "pokemon/tauros/",

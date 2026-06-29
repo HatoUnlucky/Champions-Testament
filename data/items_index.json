@@ -5,9 +5,11 @@
     "url": "items/abomasite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/abomasite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Abomasnow hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Abomasnow hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -19,9 +21,11 @@
     "url": "items/absolite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/absolite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Absol hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Absol hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -33,9 +37,11 @@
     "url": "items/aerodactylite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/aerodactylite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Aerodactyl hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Aerodactyl hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -47,9 +53,11 @@
     "url": "items/aggronite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/aggronite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Aggron hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Aggron hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -61,9 +69,11 @@
     "url": "items/alakazite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/alakazite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Alakazam hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Alakazam hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -75,9 +85,11 @@
     "url": "items/altarianite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/altarianite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. Have Altaria hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. Have Altaria hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -89,9 +101,11 @@
     "url": "items/ampharosite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/ampharosite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Ampharos hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Ampharos hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -103,9 +117,11 @@
     "url": "items/aspear-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/aspear-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that defrosts POKéMON in battle.",
+    "description": "A hold item that defrosts POKéMON in battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -117,9 +133,11 @@
     "url": "items/audinite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/audinite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. Have Audino hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. Have Audino hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -131,9 +149,11 @@
     "url": "items/babiri-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/babiri-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Steel-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Steel-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -145,9 +165,11 @@
     "url": "items/banettite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/banettite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Banette hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Banette hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -159,9 +181,11 @@
     "url": "items/beedrillite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/beedrillite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. Have Beedrill hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. Have Beedrill hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -173,9 +197,11 @@
     "url": "items/black-belt/",
     "image": "Images/item_images/primary_images_by_category/held-item/black-belt_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that boosts FIGHTING- type moves.",
+    "description": "A hold item that boosts FIGHTING- type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -187,9 +213,11 @@
     "url": "items/black-glasses/",
     "image": "Images/item_images/primary_images_by_category/held-item/black-glasses_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of DARK-type moves.",
+    "description": "A hold item that raises the power of DARK-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -201,9 +229,11 @@
     "url": "items/blastoisinite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/blastoisinite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Blastoise hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -215,9 +245,11 @@
     "url": "items/bright-powder/",
     "image": "Images/item_images/primary_images_by_category/held-item/bright-powder_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that casts a glare to reduce accuracy.",
+    "description": "A hold item that casts a glare to reduce accuracy.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -229,9 +261,11 @@
     "url": "items/cameruptite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/cameruptite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. Have Camerupt hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. Have Camerupt hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -243,9 +277,11 @@
     "url": "items/chandelurite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/chandelurite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Chandelure holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Chandelure holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -257,9 +293,11 @@
     "url": "items/charcoal/",
     "image": "Images/item_images/primary_images_by_category/held-item/charcoal_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of FIRE-type moves by 20%.",
+    "description": "A hold item that raises the power of FIRE-type moves by 20%.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -271,9 +309,11 @@
     "url": "items/charizardite-x/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/charizardite-x_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -285,9 +325,11 @@
     "url": "items/charizardite-y/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/charizardite-y_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Charizard hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -299,9 +341,11 @@
     "url": "items/charti-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/charti-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Rock-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Rock-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -313,9 +357,11 @@
     "url": "items/chesnaughtite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/chesnaughtite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Chesnaught holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Chesnaught holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -327,9 +373,11 @@
     "url": "items/chesto-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/chesto-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that awakens POKéMON in battle.",
+    "description": "A hold item that awakens POKéMON in battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -341,9 +389,11 @@
     "url": "items/chilan-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/chilan-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s Normal-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s Normal-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -355,9 +405,11 @@
     "url": "items/chimechite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/chimechite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Chimecho holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Chimecho holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -369,9 +421,11 @@
     "url": "items/choice-scarf/",
     "image": "Images/item_images/primary_images_by_category/held-item/choice-scarf_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "An item to be held by a Pokémon. This scarf boosts Speed, but allows the use of only one kind of move.",
+    "description": "An item to be held by a Pokémon. This scarf boosts Speed, but allows the use of only one kind of move.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -383,9 +437,11 @@
     "url": "items/chople-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/chople-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Fighting-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Fighting-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -397,9 +453,11 @@
     "url": "items/clefablite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/clefablite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Clefable holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Clefable holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -411,9 +469,11 @@
     "url": "items/coba-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/coba-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Flying-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Flying-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -425,9 +485,11 @@
     "url": "items/colbur-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/colbur-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Dark-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Dark-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -439,9 +501,11 @@
     "url": "items/crabominite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/crabominite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Crabominable holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Crabominable holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -453,9 +517,11 @@
     "url": "items/delphoxite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/delphoxite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Delphox holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Delphox holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -467,9 +533,11 @@
     "url": "items/dragon-fang/",
     "image": "Images/item_images/primary_images_by_category/held-item/dragon-fang_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of DRAGON-type moves.",
+    "description": "A hold item that raises the power of DRAGON-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -481,9 +549,11 @@
     "url": "items/dragoninite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/dragoninite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Dragonite holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Dragonite holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -495,9 +565,11 @@
     "url": "items/drampanite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/drampanite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Drampa holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Drampa holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -509,9 +581,11 @@
     "url": "items/emboarite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/emboarite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. An Emboar holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. An Emboar holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -523,9 +597,11 @@
     "url": "items/excadrite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/excadrite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. An Excadrill holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. An Excadrill holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -537,9 +613,11 @@
     "url": "items/fairy-feather/",
     "image": "Images/item_images/primary_images_by_category/held-item/fairy-feather_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "An item to be held by a Pokémon. This feather, which gleams faintly when hit by light, boosts the power of the holder's Fairy-type moves.",
+    "description": "An item to be held by a Pokémon. This feather, which gleams faintly when hit by light, boosts the power of the holder's Fairy-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -551,9 +629,11 @@
     "url": "items/feraligite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/feraligite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Feraligatr holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Feraligatr holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -565,9 +645,11 @@
     "url": "items/floettite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/floettite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A special Floette holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A special Floette holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -579,9 +661,11 @@
     "url": "items/focus-band/",
     "image": "Images/item_images/primary_images_by_category/held-item/focus-band_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that occasionally prevents fainting.",
+    "description": "A hold item that occasionally prevents fainting.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -593,9 +677,11 @@
     "url": "items/focus-sash/",
     "image": "Images/item_images/primary_images_by_category/held-item/focus-sash_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.",
+    "description": "An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -607,9 +693,11 @@
     "url": "items/froslassite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/froslassite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Froslass holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Froslass holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -621,9 +709,11 @@
     "url": "items/galladite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/galladite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. Have Gallade hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. Have Gallade hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -635,9 +725,11 @@
     "url": "items/garchompite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/garchompite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Garchomp hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Garchomp hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -649,9 +741,11 @@
     "url": "items/gardevoirite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/gardevoirite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Gardevoir hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Gardevoir hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -663,9 +757,11 @@
     "url": "items/gengarite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/gengarite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -677,9 +773,11 @@
     "url": "items/glalitite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/glalitite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. Have Glalie hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. Have Glalie hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -691,9 +789,11 @@
     "url": "items/glimmoranite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/glimmoranite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Glimmora holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Glimmora holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -705,9 +805,11 @@
     "url": "items/golurkite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/golurkite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Golurk holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Golurk holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -719,9 +821,11 @@
     "url": "items/greninjite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/greninjite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Greninja holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Greninja holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -733,9 +837,11 @@
     "url": "items/gyaradosite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/gyaradosite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Gyarados hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Gyarados hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -747,9 +853,11 @@
     "url": "items/haban-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/haban-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Dragon-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Dragon-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -761,9 +869,11 @@
     "url": "items/hard-stone/",
     "image": "Images/item_images/primary_images_by_category/held-item/hard-stone_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of ROCK-type moves.",
+    "description": "A hold item that raises the power of ROCK-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -775,9 +885,11 @@
     "url": "items/hawluchanite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/hawluchanite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Hawlucha holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Hawlucha holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -789,9 +901,11 @@
     "url": "items/heracronite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/heracronite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Heracross hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Heracross hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -803,9 +917,11 @@
     "url": "items/houndoominite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/houndoominite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Houndoom hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Houndoom hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -817,9 +933,11 @@
     "url": "items/kangaskhanite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/kangaskhanite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Kangaskhan hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Kangaskhan hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -831,9 +949,11 @@
     "url": "items/kasib-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/kasib-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Ghost-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Ghost-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -845,9 +965,11 @@
     "url": "items/kebia-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/kebia-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Poison-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Poison-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -859,9 +981,11 @@
     "url": "items/kings-rock/",
     "image": "Images/item_images/primary_images_by_category/held-items/kings-rock_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that may cause flinching when the foe is hit.",
+    "description": "A hold item that may cause flinching when the foe is hit.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -873,9 +997,11 @@
     "url": "items/leftovers/",
     "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that gradually restores HP in battle.",
+    "description": "A hold item that gradually restores HP in battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -887,9 +1013,11 @@
     "url": "items/light-ball/",
     "image": "Images/item_images/primary_images_by_category/held-item/light-ball_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the SP. ATK of PIKACHU.",
+    "description": "A hold item that raises the SP. ATK of PIKACHU.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -901,9 +1029,11 @@
     "url": "items/lopunnite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/lopunnite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. Have Lopunny hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. Have Lopunny hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -915,9 +1045,11 @@
     "url": "items/lucarionite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/lucarionite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Lucario hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Lucario hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -929,9 +1061,11 @@
     "url": "items/lum-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/lum-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that heals status in battle.",
+    "description": "A hold item that heals status in battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -943,9 +1077,11 @@
     "url": "items/magnet/",
     "image": "Images/item_images/primary_images_by_category/held-item/magnet_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that boosts ELECTRIC- type moves.",
+    "description": "A hold item that boosts ELECTRIC- type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -957,9 +1093,11 @@
     "url": "items/manectite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/manectite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Manectric hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Manectric hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -971,9 +1109,11 @@
     "url": "items/medichamite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/medichamite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Medicham hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Medicham hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -985,9 +1125,11 @@
     "url": "items/meganiumite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/meganiumite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Meganium holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Meganium holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -999,9 +1141,11 @@
     "url": "items/mental-herb/",
     "image": "Images/item_images/primary_images_by_category/held-item/mental-herb_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that snaps POKéMON out of infatuation.",
+    "description": "A hold item that snaps POKéMON out of infatuation.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1013,9 +1157,11 @@
     "url": "items/meowsticite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/meowsticite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Meowstic holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Meowstic holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1027,9 +1173,11 @@
     "url": "items/metal-coat/",
     "image": "Images/item_images/primary_images_by_category/held-item/metal-coat_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of STEEL-type moves.",
+    "description": "A hold item that raises the power of STEEL-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1041,9 +1189,11 @@
     "url": "items/miracle-seed/",
     "image": "Images/item_images/primary_images_by_category/held-item/miracle-seed_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of GRASS-type moves.",
+    "description": "A hold item that raises the power of GRASS-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1055,9 +1205,11 @@
     "url": "items/mystic-water/",
     "image": "Images/item_images/primary_images_by_category/held-item/mystic-water_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of WATER-type moves.",
+    "description": "A hold item that raises the power of WATER-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1069,9 +1221,11 @@
     "url": "items/never-melt-ice/",
     "image": "Images/item_images/primary_images_by_category/held-item/never-melt-ice_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of ICE-type moves.",
+    "description": "A hold item that raises the power of ICE-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1083,9 +1237,11 @@
     "url": "items/occa-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/occa-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Fire-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Fire-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1097,9 +1253,11 @@
     "url": "items/oran-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/oran-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that restores 10 HP in battle.",
+    "description": "A hold item that restores 10 HP in battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1111,9 +1269,11 @@
     "url": "items/passho-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/passho-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Water-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Water-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1125,9 +1285,11 @@
     "url": "items/payapa-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/payapa-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Psychic-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Psychic-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1139,9 +1301,11 @@
     "url": "items/persim-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/persim-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that heals confusion in battle.",
+    "description": "A hold item that heals confusion in battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1153,9 +1317,11 @@
     "url": "items/pidgeotite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/pidgeotite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. Have Pidgeot hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. Have Pidgeot hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1167,9 +1333,11 @@
     "url": "items/pinsirite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/pinsirite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Pinsir hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Pinsir hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1181,9 +1349,11 @@
     "url": "items/poison-barb/",
     "image": "Images/item_images/primary_images_by_category/held-item/poison-barb_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of POISON-type moves.",
+    "description": "A hold item that raises the power of POISON-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1195,9 +1365,11 @@
     "url": "items/quick-claw/",
     "image": "Images/item_images/primary_images_by_category/held-item/quick-claw_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that occasionally allows the first strike.",
+    "description": "A hold item that occasionally allows the first strike.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1209,9 +1381,11 @@
     "url": "items/rawst-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/rawst-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that heals a burn in battle.",
+    "description": "A hold item that heals a burn in battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1223,9 +1397,11 @@
     "url": "items/rindo-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/rindo-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Grass-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Grass-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1237,9 +1413,11 @@
     "url": "items/roseli-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/roseli-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fairy-type attack.",
+    "description": "If held by a Pokémon, this Berry will lessen the damage taken from one supereffective Fairy-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1251,9 +1429,11 @@
     "url": "items/sablenite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/sablenite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. Have Sableye hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. Have Sableye hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1265,9 +1445,11 @@
     "url": "items/scizorite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/scizorite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Scizor hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Scizor hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1279,9 +1461,11 @@
     "url": "items/scope-lens/",
     "image": "Images/item_images/primary_images_by_category/held-item/scope-lens_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the critical- hit rate.",
+    "description": "A hold item that raises the critical- hit rate.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1293,9 +1477,11 @@
     "url": "items/scovillainite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/scovillainite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Scovillain holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Scovillain holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1307,9 +1493,11 @@
     "url": "items/sharp-beak/",
     "image": "Images/item_images/primary_images_by_category/held-item/sharp-beak_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of FLYING-type moves.",
+    "description": "A hold item that raises the power of FLYING-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1321,9 +1509,11 @@
     "url": "items/sharpedonite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/sharpedonite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. Have Sharpedo hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. Have Sharpedo hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1335,9 +1525,11 @@
     "url": "items/shell-bell/",
     "image": "Images/item_images/primary_images_by_category/held-item/shell-bell_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that restores HP upon striking the foe.",
+    "description": "A hold item that restores HP upon striking the foe.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1349,9 +1541,11 @@
     "url": "items/shuca-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/shuca-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Ground-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Ground-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1363,9 +1557,11 @@
     "url": "items/silk-scarf/",
     "image": "Images/item_images/primary_images_by_category/held-item/silk-scarf_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of NORMAL-type moves.",
+    "description": "A hold item that raises the power of NORMAL-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1377,9 +1573,11 @@
     "url": "items/silver-powder/",
     "image": "Images/item_images/primary_images_by_category/held-item/silver-powder_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of BUG-type moves.",
+    "description": "A hold item that raises the power of BUG-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1391,9 +1589,11 @@
     "url": "items/sitrus-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/sitrus-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that restores 30 HP in battle.",
+    "description": "A hold item that restores 30 HP in battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1405,9 +1605,11 @@
     "url": "items/skarmorite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/skarmorite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Skarmory holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Skarmory holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1419,9 +1621,11 @@
     "url": "items/slowbronite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/slowbronite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. Have Slowbro hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. Have Slowbro hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1433,9 +1637,11 @@
     "url": "items/soft-sand/",
     "image": "Images/item_images/primary_images_by_category/held-item/soft-sand_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of GROUND-type moves.",
+    "description": "A hold item that raises the power of GROUND-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1447,9 +1653,11 @@
     "url": "items/spell-tag/",
     "image": "Images/item_images/primary_images_by_category/held-item/spell-tag_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that raises the power of GHOST-type moves.",
+    "description": "A hold item that raises the power of GHOST-type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1461,9 +1669,11 @@
     "url": "items/starminite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/starminite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Starmie holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Starmie holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1475,9 +1685,11 @@
     "url": "items/steelixite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/steelixite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. Have Steelix hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. Have Steelix hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1489,9 +1701,11 @@
     "url": "items/tanga-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/tanga-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Bug-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Bug-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1503,9 +1717,11 @@
     "url": "items/twisted-spoon/",
     "image": "Images/item_images/primary_images_by_category/held-item/twisted-spoon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that boosts PSYCHIC- type moves.",
+    "description": "A hold item that boosts PSYCHIC- type moves.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1517,9 +1733,11 @@
     "url": "items/tyranitarite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/tyranitarite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Tyranitar hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Tyranitar hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1531,9 +1749,11 @@
     "url": "items/venusaurite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/venusaurite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One variety of the mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve during battle.",
+    "description": "One variety of the mysterious Mega Stones. Have Venusaur hold it, and this stone will enable it to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1545,9 +1765,11 @@
     "url": "items/victreebelite/",
     "image": "Images/item_images/primary_images_by_category/mega-evolution/victreebelite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "One of a variety of mysterious Mega Stones. A Victreebel holding this stone will be able to Mega Evolve during battle.",
+    "description": "One of a variety of mysterious Mega Stones. A Victreebel holding this stone will be able to Mega Evolve during battle.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1559,9 +1781,11 @@
     "url": "items/wacan-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/wacan-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Electric-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Electric-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1573,9 +1797,11 @@
     "url": "items/white-herb/",
     "image": "Images/item_images/primary_images_by_category/held-item/white-herb_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A hold item that restores any lowered stat.",
+    "description": "A hold item that restores any lowered stat.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -1587,9 +1813,11 @@
     "url": "items/yache-berry/",
     "image": "Images/item_images/primary_images_by_category/berry/yache-berry_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "summary": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Ice-type attack.",
+    "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Ice-type attack.",
     "type": "",
     "damage_class": "",
     "power": 0,

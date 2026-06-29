@@ -5,10 +5,11 @@
   "type": "normal",
   "power": null,
   "damage_class": "status",
-  "priority": 0,
+  "priority": 4,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -34,6 +35,11 @@
     {
       "display_name": "Mega Floette",
       "url": "pokemon/mega-floette/",
+      "percent": 99.2
+    },
+    {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
       "percent": 99.2
     },
     {
@@ -105,11 +111,6 @@
       "display_name": "Meowstic (Female)",
       "url": "pokemon/meowstic-female/",
       "percent": 96.6
-    },
-    {
-      "display_name": "Mega Glalie",
-      "url": "pokemon/mega-glalie/",
-      "percent": 96.5
     }
   ]
 }

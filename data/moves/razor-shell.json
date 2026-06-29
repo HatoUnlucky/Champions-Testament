@@ -8,13 +8,19 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
       "display_name": "Hisuian Samurott",
       "url": "pokemon/hisuian-samurott/",
       "percent": 12.3
+    },
+    {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
+      "percent": null
     },
     {
       "display_name": "Galarian Slowbro",
@@ -24,6 +30,11 @@
     {
       "display_name": "Galarian Slowking",
       "url": "pokemon/galarian-slowking/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Barbaracle",
+      "url": "pokemon/mega-barbaracle/",
       "percent": null
     },
     {

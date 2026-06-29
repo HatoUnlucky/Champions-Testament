@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "Images/item_images/primary_images_by_category/berry/kasib-berry_primary_image.png",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -55,6 +56,11 @@
       "display_name": "Aegislash",
       "url": "pokemon/aegislash/",
       "percent": 2.1
+    },
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 1.5
     },
     {
       "display_name": "Hatterene",
@@ -105,11 +111,6 @@
       "display_name": "Espeon",
       "url": "pokemon/espeon/",
       "percent": 0.5
-    },
-    {
-      "display_name": "Gardevoir",
-      "url": "pokemon/gardevoir/",
-      "percent": 0.4
     }
   ]
 }

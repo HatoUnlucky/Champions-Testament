@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -55,6 +56,11 @@
       "display_name": "Serperior",
       "url": "pokemon/serperior/",
       "percent": 0.5
+    },
+    {
+      "display_name": "Sceptile",
+      "url": "pokemon/sceptile/",
+      "percent": null
     }
   ]
 }

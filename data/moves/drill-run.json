@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -72,9 +73,24 @@
       "percent": 0.3
     },
     {
+      "display_name": "Tauros Paldea Aqua",
+      "url": "pokemon/tauros-paldea-aqua/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 0.2
+    },
+    {
       "display_name": "Hisuian Samurott",
       "url": "pokemon/hisuian-samurott/",
       "percent": 0.1
+    },
+    {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 0.0
     },
     {
       "display_name": "Forretress",

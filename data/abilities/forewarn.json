@@ -1,0 +1,20 @@
+{
+  "slug": "forewarn",
+  "display_name": "Forewarn",
+  "description": "reveals the opponents' strongest move upon entering battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Musharna",
+      "url": "pokemon/musharna/",
+      "percent": null
+    }
+  ]
+}

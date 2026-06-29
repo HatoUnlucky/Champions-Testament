@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -50,6 +51,11 @@
       "display_name": "Tauros",
       "url": "pokemon/tauros/",
       "percent": 0.0
+    },
+    {
+      "display_name": "Mawile",
+      "url": "pokemon/mawile/",
+      "percent": null
     }
   ]
 }

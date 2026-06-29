@@ -2,6 +2,11 @@
   "pokemon_slug": "tyranitar-mega",
   "display_name": "Mega Tyranitar",
   "regulation": "ma",
+  "regulations": [
+    "ma",
+    "mb"
+  ],
+  "usage_regulation": "ma",
   "has_usage_data": true,
   "usage": {
     "percent": null,
@@ -134,6 +139,7 @@
       "type": "rock",
       "power": 75.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 98.8
     },
     {
@@ -143,6 +149,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": 98.5
     },
     {
@@ -152,6 +159,7 @@
       "type": "dark",
       "power": 65.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 82.7
     },
     {
@@ -161,6 +169,7 @@
       "type": "fighting",
       "power": null,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 59.1
     },
     {
@@ -170,6 +179,7 @@
       "type": "dragon",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 16.3
     },
     {
@@ -179,6 +189,7 @@
       "type": "dark",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 15.9
     },
     {
@@ -188,6 +199,7 @@
       "type": "ice",
       "power": 75.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 9.9
     },
     {
@@ -197,6 +209,7 @@
       "type": "ground",
       "power": 95.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 6.5
     },
     {
@@ -206,6 +219,7 @@
       "type": "ground",
       "power": 100.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 2.0
     },
     {
@@ -215,6 +229,7 @@
       "type": "fighting",
       "power": 120.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 1.9
     },
     {
@@ -224,6 +239,7 @@
       "type": "rock",
       "power": 100.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 1.0
     },
     {
@@ -233,6 +249,7 @@
       "type": "fighting",
       "power": 75.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.9
     },
     {
@@ -242,6 +259,7 @@
       "type": "steel",
       "power": null,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.8
     },
     {
@@ -251,6 +269,7 @@
       "type": "ghost",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.6
     },
     {
@@ -260,6 +279,7 @@
       "type": "dark",
       "power": 55.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.6
     },
     {
@@ -269,6 +289,7 @@
       "type": "fire",
       "power": 75.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.5
     },
     {
@@ -278,6 +299,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 5,
       "percent": 0.5
     },
     {
@@ -287,6 +309,7 @@
       "type": "electric",
       "power": 75.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.4
     },
     {
@@ -296,6 +319,7 @@
       "type": "dark",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.3
     },
     {
@@ -305,6 +329,7 @@
       "type": "fighting",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.3
     },
     {
@@ -314,6 +339,7 @@
       "type": "steel",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.3
     },
     {
@@ -323,6 +349,7 @@
       "type": "dark",
       "power": 75.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.3
     },
     {
@@ -332,6 +359,7 @@
       "type": "ice",
       "power": 65.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.2
     },
     {
@@ -341,6 +369,7 @@
       "type": "ground",
       "power": 75.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.2
     },
     {
@@ -350,6 +379,7 @@
       "type": "ice",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": -4,
       "percent": 0.1
     },
     {
@@ -359,6 +389,7 @@
       "type": "dragon",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.1
     },
     {
@@ -368,6 +399,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": -6,
       "percent": 0.1
     },
     {
@@ -377,6 +409,7 @@
       "type": "rock",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.1
     },
     {
@@ -386,6 +419,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.1
     },
     {
@@ -395,6 +429,7 @@
       "type": "electric",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.1
     },
     {
@@ -404,6 +439,7 @@
       "type": "flying",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -413,6 +449,7 @@
       "type": "rock",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -422,6 +459,7 @@
       "type": "water",
       "power": 90.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -431,6 +469,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -440,6 +479,7 @@
       "type": "dark",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -449,6 +489,7 @@
       "type": "ice",
       "power": 110.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -458,6 +499,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -467,6 +509,7 @@
       "type": "normal",
       "power": 85.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -476,6 +519,7 @@
       "type": "dragon",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -485,6 +529,7 @@
       "type": "dark",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -494,6 +539,7 @@
       "type": "ground",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -503,6 +549,7 @@
       "type": "fighting",
       "power": null,
       "damage_class": "physical",
+      "priority": -5,
       "percent": null
     },
     {
@@ -512,6 +559,7 @@
       "type": "dark",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -521,6 +569,7 @@
       "type": "fighting",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": null
     },
     {
@@ -530,6 +579,7 @@
       "type": "ground",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -539,6 +589,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -548,6 +599,7 @@
       "type": "normal",
       "power": 120.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -557,6 +609,7 @@
       "type": "dragon",
       "power": 85.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -566,6 +619,7 @@
       "type": "dragon",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": -6,
       "percent": null
     },
     {
@@ -575,6 +629,7 @@
       "type": "fighting",
       "power": 100.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -584,6 +639,7 @@
       "type": "ground",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -593,6 +649,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": null
     },
     {
@@ -602,6 +659,7 @@
       "type": "normal",
       "power": 70.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -611,6 +669,7 @@
       "type": "fire",
       "power": 110.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -620,6 +679,7 @@
       "type": "fire",
       "power": 65.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -629,6 +689,7 @@
       "type": "fire",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -638,6 +699,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -647,6 +709,7 @@
       "type": "fighting",
       "power": 120.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -656,6 +719,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -665,6 +729,7 @@
       "type": "fighting",
       "power": 150.0,
       "damage_class": "physical",
+      "priority": -3,
       "percent": null
     },
     {
@@ -674,6 +739,7 @@
       "type": "dark",
       "power": 95.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -683,6 +749,7 @@
       "type": "normal",
       "power": 150.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -692,6 +759,7 @@
       "type": "steel",
       "power": 0.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -701,6 +769,7 @@
       "type": "water",
       "power": 110.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -710,6 +779,7 @@
       "type": "normal",
       "power": 150.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -719,6 +789,7 @@
       "type": "ice",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -728,6 +799,7 @@
       "type": "ice",
       "power": 55.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -737,6 +809,7 @@
       "type": "steel",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -746,6 +819,7 @@
       "type": "steel",
       "power": 100.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -755,6 +829,7 @@
       "type": "normal",
       "power": 120.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -764,6 +839,7 @@
       "type": "ground",
       "power": 55.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -773,6 +849,7 @@
       "type": "ground",
       "power": 20.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -782,6 +859,7 @@
       "type": "water",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -791,6 +869,7 @@
       "type": "dragon",
       "power": 120.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -800,6 +879,7 @@
       "type": "dark",
       "power": 50.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -809,6 +889,7 @@
       "type": "rock",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -818,6 +899,7 @@
       "type": "water",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -827,6 +909,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -836,6 +919,7 @@
       "type": "rock",
       "power": 25.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -845,6 +929,7 @@
       "type": "rock",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -854,6 +939,7 @@
       "type": "rock",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -863,6 +949,7 @@
       "type": "normal",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -872,6 +959,7 @@
       "type": "ground",
       "power": 35.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -881,6 +969,7 @@
       "type": "rock",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -890,6 +979,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -899,6 +989,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -908,6 +999,7 @@
       "type": "fighting",
       "power": null,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -917,6 +1009,7 @@
       "type": "ghost",
       "power": 70.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -926,6 +1019,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -935,6 +1029,7 @@
       "type": "rock",
       "power": 50.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -944,6 +1039,7 @@
       "type": "normal",
       "power": 50.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -953,6 +1049,7 @@
       "type": "ghost",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -962,6 +1059,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -971,6 +1069,7 @@
       "type": "fire",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -980,6 +1079,7 @@
       "type": "water",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -989,6 +1089,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -998,6 +1099,7 @@
       "type": "normal",
       "power": 120.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -1007,6 +1109,7 @@
       "type": "electric",
       "power": 110.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -1016,6 +1119,7 @@
       "type": "electric",
       "power": 65.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -1025,6 +1129,7 @@
       "type": "electric",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -1034,6 +1139,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -1043,6 +1149,7 @@
       "type": "poison",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -1052,6 +1159,7 @@
       "type": "normal",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -1061,6 +1169,7 @@
       "type": "water",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -1070,6 +1179,7 @@
       "type": "water",
       "power": 35.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     }
   ],

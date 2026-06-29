@@ -5,10 +5,11 @@
   "type": "water",
   "power": 40.0,
   "damage_class": "physical",
-  "priority": 0,
+  "priority": 1,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -20,6 +21,11 @@
       "display_name": "Basculegion Male",
       "url": "pokemon/basculegion-male/",
       "percent": 96.5
+    },
+    {
+      "display_name": "Tauros Paldea Aqua",
+      "url": "pokemon/tauros-paldea-aqua/",
+      "percent": 90.2
     },
     {
       "display_name": "Mega Starmie",
@@ -105,11 +111,6 @@
       "display_name": "Feraligatr",
       "url": "pokemon/feraligatr/",
       "percent": 0.0
-    },
-    {
-      "display_name": "Dragonite",
-      "url": "pokemon/dragonite/",
-      "percent": null
     }
   ]
 }

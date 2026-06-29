@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -24,6 +25,16 @@
     {
       "display_name": "Alolan Raichu",
       "url": "pokemon/alolan-raichu/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Raichu X",
+      "url": "pokemon/mega-raichu-x/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Raichu Y",
+      "url": "pokemon/mega-raichu-y/",
       "percent": null
     }
   ]

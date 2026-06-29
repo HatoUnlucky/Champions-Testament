@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -97,18 +98,18 @@
       "percent": 0.0
     },
     {
+      "display_name": "Tauros Paldea Aqua",
+      "url": "pokemon/tauros-paldea-aqua/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 0.0
+    },
+    {
       "display_name": "Aggron",
       "url": "pokemon/aggron/",
-      "percent": null
-    },
-    {
-      "display_name": "Altaria",
-      "url": "pokemon/altaria/",
-      "percent": null
-    },
-    {
-      "display_name": "Ampharos",
-      "url": "pokemon/ampharos/",
       "percent": null
     }
   ]

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -20,6 +21,16 @@
       "display_name": "Tinkaton",
       "url": "pokemon/tinkaton/",
       "percent": 0.1
+    },
+    {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
+      "percent": null
+    },
+    {
+      "display_name": "Grimmsnarl",
+      "url": "pokemon/grimmsnarl/",
+      "percent": null
     }
   ]
 }

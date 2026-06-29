@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "Images/item_images/primary_images_by_category/held-item/twisted-spoon_primary_image.png",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -30,6 +31,11 @@
       "display_name": "Espeon",
       "url": "pokemon/espeon/",
       "percent": 3.7
+    },
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 3.5
     },
     {
       "display_name": "Alakazam",

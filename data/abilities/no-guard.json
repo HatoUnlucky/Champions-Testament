@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -35,6 +36,11 @@
       "display_name": "Golurk",
       "url": "pokemon/golurk/",
       "percent": 33.9
+    },
+    {
+      "display_name": "Mega Raichu Y",
+      "url": "pokemon/mega-raichu-y/",
+      "percent": null
     }
   ]
 }

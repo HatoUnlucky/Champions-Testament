@@ -1,0 +1,20 @@
+{
+  "slug": "battle-armor",
+  "display_name": "Battle Armor",
+  "description": "protects against critical hits.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Falinks",
+      "url": "pokemon/falinks/",
+      "percent": null
+    }
+  ]
+}

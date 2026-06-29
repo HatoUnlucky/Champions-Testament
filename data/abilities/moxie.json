@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -35,6 +36,21 @@
       "display_name": "Gyarados",
       "url": "pokemon/gyarados/",
       "percent": 2.8
+    },
+    {
+      "display_name": "Pyroar (Male)",
+      "url": "pokemon/pyroar-male/",
+      "percent": null
+    },
+    {
+      "display_name": "Pyroar Female",
+      "url": "pokemon/pyroar-female/",
+      "percent": null
+    },
+    {
+      "display_name": "Scrafty",
+      "url": "pokemon/scrafty/",
+      "percent": null
     }
   ]
 }

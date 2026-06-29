@@ -16,7 +16,7 @@ Then open `http://127.0.0.1:1313/`.
 ## Build content
 
 ```powershell
-python scripts/build_hugo_content.py --database champions_key.db --regulation ma
+python scripts/build_hugo_content.py --database champions_key.db --regulations ma,mb
 ```
 
 ## Update Smogon usage tables

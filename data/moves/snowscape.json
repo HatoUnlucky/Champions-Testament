@@ -8,13 +8,19 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
       "display_name": "Castform",
       "url": "pokemon/castform/",
       "percent": 9.0
+    },
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 3.8
     },
     {
       "display_name": "Vanilluxe",
@@ -102,13 +108,8 @@
       "percent": null
     },
     {
-      "display_name": "Dragonite",
-      "url": "pokemon/dragonite/",
-      "percent": null
-    },
-    {
-      "display_name": "Empoleon",
-      "url": "pokemon/empoleon/",
+      "display_name": "Dragalge",
+      "url": "pokemon/dragalge/",
       "percent": null
     }
   ]

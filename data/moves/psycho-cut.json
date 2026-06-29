@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -92,18 +93,23 @@
       "percent": null
     },
     {
+      "display_name": "Malamar",
+      "url": "pokemon/malamar/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Alakazam",
       "url": "pokemon/mega-alakazam/",
       "percent": null
     },
     {
-      "display_name": "Scizor",
-      "url": "pokemon/scizor/",
+      "display_name": "Mega Malamar",
+      "url": "pokemon/mega-malamar/",
       "percent": null
     },
     {
-      "display_name": "Starmie",
-      "url": "pokemon/starmie/",
+      "display_name": "Mega Metagross",
+      "url": "pokemon/mega-metagross/",
       "percent": null
     }
   ]

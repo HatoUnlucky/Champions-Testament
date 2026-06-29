@@ -8,13 +8,29 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
       "display_name": "Serperior",
       "url": "pokemon/serperior/",
       "percent": 99.5
+    },
+    {
+      "display_name": "Malamar",
+      "url": "pokemon/malamar/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Malamar",
+      "url": "pokemon/mega-malamar/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Staraptor",
+      "url": "pokemon/mega-staraptor/",
+      "percent": null
     }
   ]
 }

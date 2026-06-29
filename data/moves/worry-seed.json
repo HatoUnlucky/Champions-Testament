@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -87,6 +88,11 @@
       "percent": null
     },
     {
+      "display_name": "Mega Sceptile",
+      "url": "pokemon/mega-sceptile/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Victreebel",
       "url": "pokemon/mega-victreebel/",
       "percent": null
@@ -102,13 +108,8 @@
       "percent": null
     },
     {
-      "display_name": "Serperior",
-      "url": "pokemon/serperior/",
-      "percent": null
-    },
-    {
-      "display_name": "Simisage",
-      "url": "pokemon/simisage/",
+      "display_name": "Musharna",
+      "url": "pokemon/musharna/",
       "percent": null
     }
   ]

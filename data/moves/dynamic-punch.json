@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -49,6 +50,11 @@
     {
       "display_name": "Blastoise",
       "url": "pokemon/blastoise/",
+      "percent": null
+    },
+    {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
       "percent": null
     },
     {
@@ -102,13 +108,8 @@
       "percent": null
     },
     {
-      "display_name": "Medicham",
-      "url": "pokemon/medicham/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Aggron",
-      "url": "pokemon/mega-aggron/",
+      "display_name": "Mawile",
+      "url": "pokemon/mawile/",
       "percent": null
     }
   ]

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "Images/item_images/primary_images_by_category/held-items/kings-rock_primary_image.png",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -77,6 +78,11 @@
       "percent": 0.6
     },
     {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 0.6
+    },
+    {
       "display_name": "Tsareena",
       "url": "pokemon/tsareena/",
       "percent": 0.6
@@ -104,11 +110,6 @@
     {
       "display_name": "Gengar",
       "url": "pokemon/gengar/",
-      "percent": 0.4
-    },
-    {
-      "display_name": "Golurk",
-      "url": "pokemon/golurk/",
       "percent": 0.4
     }
   ]

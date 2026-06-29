@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -97,6 +98,11 @@
       "percent": null
     },
     {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": null
+    },
+    {
       "display_name": "Runerigus",
       "url": "pokemon/runerigus/",
       "percent": null
@@ -104,11 +110,6 @@
     {
       "display_name": "Sableye",
       "url": "pokemon/sableye/",
-      "percent": null
-    },
-    {
-      "display_name": "Watchog",
-      "url": "pokemon/watchog/",
       "percent": null
     }
   ]

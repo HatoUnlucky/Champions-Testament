@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -37,6 +38,11 @@
       "percent": 0.7
     },
     {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
+      "percent": null
+    },
+    {
       "display_name": "Delphox",
       "url": "pokemon/delphox/",
       "percent": null
@@ -54,6 +60,11 @@
     {
       "display_name": "Infernape",
       "url": "pokemon/infernape/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Blaziken",
+      "url": "pokemon/mega-blaziken/",
       "percent": null
     },
     {

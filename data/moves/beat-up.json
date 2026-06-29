@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -57,8 +58,18 @@
       "percent": 0.0
     },
     {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
+      "percent": null
+    },
+    {
       "display_name": "Charizard",
       "url": "pokemon/charizard/",
+      "percent": null
+    },
+    {
+      "display_name": "Falinks",
+      "url": "pokemon/falinks/",
       "percent": null
     },
     {
@@ -82,6 +93,11 @@
       "percent": null
     },
     {
+      "display_name": "Mega Barbaracle",
+      "url": "pokemon/mega-barbaracle/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Charizard X",
       "url": "pokemon/mega-charizard-x/",
       "percent": null
@@ -92,23 +108,8 @@
       "percent": null
     },
     {
-      "display_name": "Mega Kangaskhan",
-      "url": "pokemon/mega-kangaskhan/",
-      "percent": null
-    },
-    {
-      "display_name": "Pangoro",
-      "url": "pokemon/pangoro/",
-      "percent": null
-    },
-    {
-      "display_name": "Salazzle",
-      "url": "pokemon/salazzle/",
-      "percent": null
-    },
-    {
-      "display_name": "Vanilluxe",
-      "url": "pokemon/vanilluxe/",
+      "display_name": "Mega Falinks",
+      "url": "pokemon/mega-falinks/",
       "percent": null
     }
   ]

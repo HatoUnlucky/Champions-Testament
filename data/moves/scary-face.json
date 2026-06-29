@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -47,6 +48,11 @@
       "percent": 0.2
     },
     {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 0.2
+    },
+    {
       "display_name": "Charizard",
       "url": "pokemon/charizard/",
       "percent": 0.1
@@ -54,6 +60,11 @@
     {
       "display_name": "Morpeko",
       "url": "pokemon/morpeko/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Tauros Paldea Aqua",
+      "url": "pokemon/tauros-paldea-aqua/",
       "percent": 0.1
     },
     {
@@ -77,8 +88,18 @@
       "percent": 0.0
     },
     {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 0.0
+    },
+    {
       "display_name": "Aggron",
       "url": "pokemon/aggron/",
+      "percent": null
+    },
+    {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
       "percent": null
     },
     {
@@ -89,26 +110,6 @@
     {
       "display_name": "Arbok",
       "url": "pokemon/arbok/",
-      "percent": null
-    },
-    {
-      "display_name": "Arcanine",
-      "url": "pokemon/arcanine/",
-      "percent": null
-    },
-    {
-      "display_name": "Archaludon",
-      "url": "pokemon/archaludon/",
-      "percent": null
-    },
-    {
-      "display_name": "Avalugg",
-      "url": "pokemon/avalugg/",
-      "percent": null
-    },
-    {
-      "display_name": "Banette",
-      "url": "pokemon/banette/",
       "percent": null
     }
   ]

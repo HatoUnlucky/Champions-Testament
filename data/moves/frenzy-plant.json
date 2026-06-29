@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -42,6 +43,11 @@
       "percent": null
     },
     {
+      "display_name": "Mega Sceptile",
+      "url": "pokemon/mega-sceptile/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Venusaur",
       "url": "pokemon/mega-venusaur/",
       "percent": null
@@ -54,6 +60,11 @@
     {
       "display_name": "Meowscarada",
       "url": "pokemon/meowscarada/",
+      "percent": null
+    },
+    {
+      "display_name": "Sceptile",
+      "url": "pokemon/sceptile/",
       "percent": null
     },
     {

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -67,6 +68,11 @@
       "percent": null
     },
     {
+      "display_name": "Mega Staraptor",
+      "url": "pokemon/mega-staraptor/",
+      "percent": null
+    },
+    {
       "display_name": "Noivern",
       "url": "pokemon/noivern/",
       "percent": null
@@ -84,6 +90,11 @@
     {
       "display_name": "Skarmory",
       "url": "pokemon/skarmory/",
+      "percent": null
+    },
+    {
+      "display_name": "Staraptor",
+      "url": "pokemon/staraptor/",
       "percent": null
     },
     {

@@ -124,6 +124,24 @@
         <div class="directory-card-main">
           <span>{{ .display_name }}</span>
           {{ with .summary }}<small>{{ . }}</small>{{ end }}
+          {{ if eq $sectionKey "moves" }}
+            <div class="move-card-meta">
+              {{ with .type }}
+                <span class="type-chip">
+                  <img src="{{ printf "Images/type_icons/%s.svg" . | relURL }}" alt="">
+                  {{ title . }}
+                </span>
+              {{ end }}
+              {{ with .damage_class }}
+                <span class="damage-class-chip">
+                  <img class="damage-class-icon" src="{{ printf "Images/damage_class/%s.png" . | relURL }}" alt="">
+                  {{ title . }}
+                </span>
+              {{ end }}
+              <span>Power {{ .power | default 0 }}</span>
+              <span>Priority {{ .priority | default 0 }}</span>
+            </div>
+          {{ end }}
           {{ with .types }}
             <div class="mini-pill-row">
               {{ range . }}<b>{{ title . }}</b>{{ end }}

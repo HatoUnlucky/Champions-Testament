@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -84,6 +85,16 @@
     {
       "display_name": "Gourgeist",
       "url": "pokemon/gourgeist/",
+      "percent": null
+    },
+    {
+      "display_name": "Musharna",
+      "url": "pokemon/musharna/",
+      "percent": null
+    },
+    {
+      "display_name": "Vileplume",
+      "url": "pokemon/vileplume/",
       "percent": null
     }
   ]

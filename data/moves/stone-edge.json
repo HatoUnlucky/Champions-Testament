@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -77,6 +78,11 @@
       "percent": 3.5
     },
     {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 3.3
+    },
+    {
       "display_name": "Gliscor",
       "url": "pokemon/gliscor/",
       "percent": 2.9
@@ -105,11 +111,6 @@
       "display_name": "Rampardos",
       "url": "pokemon/rampardos/",
       "percent": 1.5
-    },
-    {
-      "display_name": "Hippowdon",
-      "url": "pokemon/hippowdon/",
-      "percent": 1.3
     }
   ]
 }

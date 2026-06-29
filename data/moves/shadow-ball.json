@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -72,6 +73,11 @@
       "percent": 45.5
     },
     {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": 29.0
+    },
+    {
       "display_name": "Dragapult",
       "url": "pokemon/dragapult/",
       "percent": 24.5
@@ -84,6 +90,11 @@
     {
       "display_name": "Meowstic (Female)",
       "url": "pokemon/meowstic-female/",
+      "percent": 17.8
+    },
+    {
+      "display_name": "Meowstic F Mega",
+      "url": "pokemon/meowstic-f-mega/",
       "percent": 17.8
     },
     {
@@ -100,16 +111,6 @@
       "display_name": "Alakazam",
       "url": "pokemon/alakazam/",
       "percent": 12.9
-    },
-    {
-      "display_name": "Sinistcha",
-      "url": "pokemon/sinistcha/",
-      "percent": 12.8
-    },
-    {
-      "display_name": "Jolteon",
-      "url": "pokemon/jolteon/",
-      "percent": 12.0
     }
   ]
 }

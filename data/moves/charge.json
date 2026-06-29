@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -57,6 +58,11 @@
       "percent": null
     },
     {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
+      "percent": null
+    },
+    {
       "display_name": "Emolga",
       "url": "pokemon/emolga/",
       "percent": null
@@ -92,23 +98,18 @@
       "percent": null
     },
     {
-      "display_name": "Pikachu",
-      "url": "pokemon/pikachu/",
+      "display_name": "Mega Eelektross",
+      "url": "pokemon/mega-eelektross/",
       "percent": null
     },
     {
-      "display_name": "Raichu",
-      "url": "pokemon/raichu/",
+      "display_name": "Mega Raichu X",
+      "url": "pokemon/mega-raichu-x/",
       "percent": null
     },
     {
-      "display_name": "Rotom",
-      "url": "pokemon/rotom/",
-      "percent": null
-    },
-    {
-      "display_name": "Stunfisk",
-      "url": "pokemon/stunfisk/",
+      "display_name": "Mega Raichu Y",
+      "url": "pokemon/mega-raichu-y/",
       "percent": null
     }
   ]

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -49,6 +50,11 @@
     {
       "display_name": "Hawlucha",
       "url": "pokemon/hawlucha/",
+      "percent": 2.8
+    },
+    {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
       "percent": 2.8
     },
     {
@@ -105,11 +111,6 @@
       "display_name": "Heracross",
       "url": "pokemon/heracross/",
       "percent": 1.0
-    },
-    {
-      "display_name": "Arbok",
-      "url": "pokemon/arbok/",
-      "percent": 0.7
     }
   ]
 }

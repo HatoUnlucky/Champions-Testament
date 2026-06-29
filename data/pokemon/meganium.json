@@ -2,6 +2,11 @@
   "pokemon_slug": "meganium",
   "display_name": "Meganium",
   "regulation": "ma",
+  "regulations": [
+    "ma",
+    "mb"
+  ],
+  "usage_regulation": "ma",
   "has_usage_data": true,
   "usage": {
     "percent": null,
@@ -201,6 +206,7 @@
       "type": "dark",
       "power": 65.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 55.2
     },
     {
@@ -210,6 +216,7 @@
       "type": "grass",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 55.2
     },
     {
@@ -219,6 +226,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 55.2
     },
     {
@@ -228,6 +236,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 55.2
     },
     {
@@ -237,6 +246,7 @@
       "type": "rock",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 43.1
     },
     {
@@ -246,6 +256,7 @@
       "type": "fighting",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 43.1
     },
     {
@@ -255,6 +266,7 @@
       "type": "normal",
       "power": 85.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 43.1
     },
     {
@@ -264,6 +276,7 @@
       "type": "fighting",
       "power": null,
       "damage_class": "physical",
+      "priority": -5,
       "percent": 43.1
     },
     {
@@ -273,6 +286,7 @@
       "type": "ground",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 1.7
     },
     {
@@ -282,6 +296,7 @@
       "type": "grass",
       "power": 120.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 1.7
     },
     {
@@ -291,6 +306,7 @@
       "type": "grass",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 1.7
     },
     {
@@ -300,6 +316,7 @@
       "type": "normal",
       "power": 50.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 1.7
     },
     {
@@ -309,6 +326,7 @@
       "type": "fairy",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -318,6 +336,7 @@
       "type": "dragon",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": -6,
       "percent": 0.0
     },
     {
@@ -327,6 +346,7 @@
       "type": "ground",
       "power": 100.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -336,6 +356,7 @@
       "type": "grass",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -345,6 +366,7 @@
       "type": "grass",
       "power": 75.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -354,6 +376,7 @@
       "type": "grass",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -363,6 +386,7 @@
       "type": "grass",
       "power": 90.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -372,6 +396,7 @@
       "type": "bug",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -381,6 +406,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": 0.0
     },
     {
@@ -390,6 +416,7 @@
       "type": "grass",
       "power": 125.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -399,6 +426,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -408,6 +436,7 @@
       "type": "ground",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -417,6 +446,7 @@
       "type": "grass",
       "power": 25.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -426,6 +456,7 @@
       "type": "fairy",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -435,6 +466,7 @@
       "type": "ghost",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -444,6 +476,7 @@
       "type": "fighting",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": null
     },
     {
@@ -453,6 +486,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -462,6 +496,7 @@
       "type": "normal",
       "power": 120.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -471,6 +506,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -480,6 +516,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -489,6 +526,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": null
     },
     {
@@ -498,6 +536,7 @@
       "type": "normal",
       "power": 70.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -507,6 +546,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -516,6 +556,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -525,6 +566,7 @@
       "type": "grass",
       "power": 150.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -534,6 +576,7 @@
       "type": "normal",
       "power": 150.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -543,6 +586,7 @@
       "type": "grass",
       "power": null,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -552,6 +596,7 @@
       "type": "grass",
       "power": 55.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -561,6 +606,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -570,6 +616,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 5,
       "percent": null
     },
     {
@@ -579,6 +626,7 @@
       "type": "normal",
       "power": 150.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -588,6 +636,7 @@
       "type": "grass",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -597,6 +646,7 @@
       "type": "steel",
       "power": 100.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -606,6 +656,7 @@
       "type": "grass",
       "power": 130.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -615,6 +666,7 @@
       "type": "ground",
       "power": 20.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -624,6 +676,7 @@
       "type": "dragon",
       "power": 120.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -633,6 +686,7 @@
       "type": "grass",
       "power": 90.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -642,6 +696,7 @@
       "type": "grass",
       "power": 120.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -651,6 +706,7 @@
       "type": "poison",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -660,6 +716,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -669,6 +726,7 @@
       "type": "normal",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -678,6 +736,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -687,6 +746,7 @@
       "type": "grass",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -696,6 +756,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -705,6 +766,7 @@
       "type": "normal",
       "power": 50.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -714,6 +776,7 @@
       "type": "ground",
       "power": 75.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -723,6 +786,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -732,6 +796,7 @@
       "type": "fire",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -741,6 +806,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -750,6 +816,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -759,6 +826,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -768,6 +836,7 @@
       "type": "poison",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -777,6 +846,7 @@
       "type": "grass",
       "power": 50.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -786,6 +856,7 @@
       "type": "grass",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -795,6 +866,7 @@
       "type": "psychic",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     }
   ],

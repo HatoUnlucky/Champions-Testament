@@ -1,0 +1,21 @@
+{
+  "slug": "screen-cleaner",
+  "display_name": "Screen Cleaner",
+  "description": "nullifies effects of light screen, reflect, and aurora veil.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma",
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 50.9
+    }
+  ]
+}

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -20,6 +21,11 @@
       "display_name": "Politoed",
       "url": "pokemon/politoed/",
       "percent": 0.0
+    },
+    {
+      "display_name": "Swampert",
+      "url": "pokemon/swampert/",
+      "percent": null
     }
   ]
 }

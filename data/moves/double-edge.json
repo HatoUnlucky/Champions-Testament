@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -107,9 +108,9 @@
       "percent": 0.2
     },
     {
-      "display_name": "Mega Emboar",
-      "url": "pokemon/mega-emboar/",
-      "percent": 0.1
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 0.2
     }
   ]
 }

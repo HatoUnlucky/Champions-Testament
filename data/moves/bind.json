@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -27,6 +28,11 @@
       "percent": null
     },
     {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
+      "percent": null
+    },
+    {
       "display_name": "Galarian Stunfisk",
       "url": "pokemon/galarian-stunfisk/",
       "percent": null
@@ -42,6 +48,11 @@
       "percent": null
     },
     {
+      "display_name": "Malamar",
+      "url": "pokemon/malamar/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Chimecho",
       "url": "pokemon/mega-chimecho/",
       "percent": null
@@ -52,8 +63,18 @@
       "percent": null
     },
     {
+      "display_name": "Mega Eelektross",
+      "url": "pokemon/mega-eelektross/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Gyarados",
       "url": "pokemon/mega-gyarados/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Malamar",
+      "url": "pokemon/mega-malamar/",
       "percent": null
     },
     {
@@ -89,21 +110,6 @@
     {
       "display_name": "Serperior",
       "url": "pokemon/serperior/",
-      "percent": null
-    },
-    {
-      "display_name": "Steelix",
-      "url": "pokemon/steelix/",
-      "percent": null
-    },
-    {
-      "display_name": "Venusaur",
-      "url": "pokemon/venusaur/",
-      "percent": null
-    },
-    {
-      "display_name": "Victreebel",
-      "url": "pokemon/victreebel/",
       "percent": null
     }
   ]

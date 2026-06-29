@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -17,9 +18,19 @@
       "percent": 21.8
     },
     {
+      "display_name": "Meowstic F Mega",
+      "url": "pokemon/meowstic-f-mega/",
+      "percent": 21.8
+    },
+    {
       "display_name": "Pikachu",
       "url": "pokemon/pikachu/",
       "percent": 18.6
+    },
+    {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": 14.4
     },
     {
       "display_name": "Alolan Raichu",
@@ -100,16 +111,6 @@
       "display_name": "Altaria",
       "url": "pokemon/altaria/",
       "percent": 0.1
-    },
-    {
-      "display_name": "Aromatisse",
-      "url": "pokemon/aromatisse/",
-      "percent": 0.0
-    },
-    {
-      "display_name": "Mega Floette",
-      "url": "pokemon/mega-floette/",
-      "percent": 0.0
     }
   ]
 }

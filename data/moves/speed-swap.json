@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -30,6 +31,16 @@
       "display_name": "Emolga",
       "url": "pokemon/emolga/",
       "percent": 5.2
+    },
+    {
+      "display_name": "Mega Raichu X",
+      "url": "pokemon/mega-raichu-x/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Raichu Y",
+      "url": "pokemon/mega-raichu-y/",
+      "percent": null
     },
     {
       "display_name": "Raichu",

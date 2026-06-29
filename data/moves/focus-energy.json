@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -67,6 +68,11 @@
       "percent": 0.0
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
       "display_name": "Ariados",
       "url": "pokemon/ariados/",
       "percent": null
@@ -74,6 +80,11 @@
     {
       "display_name": "Bastiodon",
       "url": "pokemon/bastiodon/",
+      "percent": null
+    },
+    {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
       "percent": null
     },
     {
@@ -99,16 +110,6 @@
     {
       "display_name": "Espeon",
       "url": "pokemon/espeon/",
-      "percent": null
-    },
-    {
-      "display_name": "Flareon",
-      "url": "pokemon/flareon/",
-      "percent": null
-    },
-    {
-      "display_name": "Glaceon",
-      "url": "pokemon/glaceon/",
       "percent": null
     }
   ]

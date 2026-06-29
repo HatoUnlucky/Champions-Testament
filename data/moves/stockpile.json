@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -52,8 +53,18 @@
       "percent": null
     },
     {
+      "display_name": "Mawile",
+      "url": "pokemon/mawile/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Camerupt",
       "url": "pokemon/mega-camerupt/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Mawile",
+      "url": "pokemon/mega-mawile/",
       "percent": null
     },
     {
@@ -62,8 +73,18 @@
       "percent": null
     },
     {
+      "display_name": "Overqwil",
+      "url": "pokemon/overqwil/",
+      "percent": null
+    },
+    {
       "display_name": "Pelipper",
       "url": "pokemon/pelipper/",
+      "percent": null
+    },
+    {
+      "display_name": "Qwilfish",
+      "url": "pokemon/qwilfish/",
       "percent": null
     },
     {

@@ -8,12 +8,23 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": 2.3
+    },
+    {
       "display_name": "Meowstic (Female)",
       "url": "pokemon/meowstic-female/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Meowstic F Mega",
+      "url": "pokemon/meowstic-f-mega/",
       "percent": 0.1
     },
     {
@@ -44,6 +55,11 @@
     {
       "display_name": "Banette",
       "url": "pokemon/banette/",
+      "percent": null
+    },
+    {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
       "percent": null
     },
     {
@@ -94,21 +110,6 @@
     {
       "display_name": "Liepard",
       "url": "pokemon/liepard/",
-      "percent": null
-    },
-    {
-      "display_name": "Lucario",
-      "url": "pokemon/lucario/",
-      "percent": null
-    },
-    {
-      "display_name": "Machamp",
-      "url": "pokemon/machamp/",
-      "percent": null
-    },
-    {
-      "display_name": "Medicham",
-      "url": "pokemon/medicham/",
       "percent": null
     }
   ]

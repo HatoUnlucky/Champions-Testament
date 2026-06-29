@@ -8,13 +8,19 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
       "display_name": "Froslass",
       "url": "pokemon/froslass/",
       "percent": 72.7
+    },
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 8.2
     },
     {
       "display_name": "Vanilluxe",

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -42,6 +43,11 @@
       "percent": null
     },
     {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
+      "percent": null
+    },
+    {
       "display_name": "Beartic",
       "url": "pokemon/beartic/",
       "percent": null
@@ -54,6 +60,11 @@
     {
       "display_name": "Clawitzer",
       "url": "pokemon/clawitzer/",
+      "percent": null
+    },
+    {
+      "display_name": "Dragalge",
+      "url": "pokemon/dragalge/",
       "percent": null
     },
     {
@@ -97,18 +108,8 @@
       "percent": null
     },
     {
-      "display_name": "Mega Blastoise",
-      "url": "pokemon/mega-blastoise/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Dragonite",
-      "url": "pokemon/mega-dragonite/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Feraligatr",
-      "url": "pokemon/mega-feraligatr/",
+      "display_name": "Mega Barbaracle",
+      "url": "pokemon/mega-barbaracle/",
       "percent": null
     }
   ]

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -20,6 +21,11 @@
       "display_name": "Arbok",
       "url": "pokemon/arbok/",
       "percent": 0.1
+    },
+    {
+      "display_name": "Scrafty",
+      "url": "pokemon/scrafty/",
+      "percent": null
     }
   ]
 }

@@ -2,6 +2,11 @@
   "pokemon_slug": "skarmory-mega",
   "display_name": "Mega Skarmory",
   "regulation": "ma",
+  "regulations": [
+    "ma",
+    "mb"
+  ],
+  "usage_regulation": "ma",
   "has_usage_data": true,
   "usage": {
     "percent": null,
@@ -134,6 +139,7 @@
       "type": "steel",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 98.4
     },
     {
@@ -143,6 +149,7 @@
       "type": "flying",
       "power": 120.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 94.6
     },
     {
@@ -152,6 +159,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": 73.8
     },
     {
@@ -161,6 +169,7 @@
       "type": "flying",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 52.5
     },
     {
@@ -170,6 +179,7 @@
       "type": "rock",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 29.6
     },
     {
@@ -179,6 +189,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 20.5
     },
     {
@@ -188,6 +199,7 @@
       "type": "rock",
       "power": 75.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 9.6
     },
     {
@@ -197,6 +209,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 8.8
     },
     {
@@ -206,6 +219,7 @@
       "type": "fighting",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 3.1
     },
     {
@@ -215,6 +229,7 @@
       "type": "flying",
       "power": 40.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 2.8
     },
     {
@@ -224,6 +239,7 @@
       "type": "ground",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 2.0
     },
     {
@@ -233,6 +249,7 @@
       "type": "flying",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 1.8
     },
     {
@@ -242,6 +259,7 @@
       "type": "flying",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.7
     },
     {
@@ -251,6 +269,7 @@
       "type": "normal",
       "power": 30.0,
       "damage_class": "physical",
+      "priority": 2,
       "percent": 0.7
     },
     {
@@ -260,6 +279,7 @@
       "type": "flying",
       "power": 110.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.4
     },
     {
@@ -269,6 +289,7 @@
       "type": "steel",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.4
     },
     {
@@ -278,6 +299,7 @@
       "type": "rock",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.1
     },
     {
@@ -287,6 +309,7 @@
       "type": "flying",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -296,6 +319,7 @@
       "type": "flying",
       "power": 75.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -305,6 +329,7 @@
       "type": "ghost",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -314,6 +339,7 @@
       "type": "normal",
       "power": 70.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -323,6 +349,7 @@
       "type": "ice",
       "power": 55.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -332,6 +359,7 @@
       "type": "dark",
       "power": 70.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -341,6 +369,7 @@
       "type": "fighting",
       "power": null,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -350,6 +379,7 @@
       "type": "ground",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -359,6 +389,7 @@
       "type": "steel",
       "power": 70.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -368,6 +399,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -377,6 +409,7 @@
       "type": "fire",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -386,6 +419,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": -6,
       "percent": 0.0
     },
     {
@@ -395,6 +429,7 @@
       "type": "bug",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -404,6 +439,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -413,6 +449,7 @@
       "type": "flying",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -422,6 +459,7 @@
       "type": "dark",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -431,6 +469,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -440,6 +479,7 @@
       "type": "fighting",
       "power": null,
       "damage_class": "physical",
+      "priority": -5,
       "percent": null
     },
     {
@@ -449,6 +489,7 @@
       "type": "dark",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -458,6 +499,7 @@
       "type": "flying",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -467,6 +509,7 @@
       "type": "fighting",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": null
     },
     {
@@ -476,6 +519,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -485,6 +529,7 @@
       "type": "normal",
       "power": 120.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -494,6 +539,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": null
     },
     {
@@ -503,6 +549,7 @@
       "type": "steel",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -512,6 +559,7 @@
       "type": "flying",
       "power": 90.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -521,6 +569,7 @@
       "type": "normal",
       "power": 150.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -530,6 +579,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -539,6 +589,7 @@
       "type": "normal",
       "power": 150.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -548,6 +599,7 @@
       "type": "steel",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -557,6 +609,7 @@
       "type": "ground",
       "power": 20.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -566,6 +619,7 @@
       "type": "dark",
       "power": 50.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -575,6 +629,7 @@
       "type": "flying",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -584,6 +639,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -593,6 +649,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": -6,
       "percent": null
     },
     {
@@ -602,6 +659,7 @@
       "type": "normal",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -611,6 +669,7 @@
       "type": "ground",
       "power": 35.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -620,6 +679,7 @@
       "type": "rock",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -629,6 +689,7 @@
       "type": "flying",
       "power": 140.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -638,6 +699,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -647,6 +709,7 @@
       "type": "normal",
       "power": 50.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -656,6 +719,7 @@
       "type": "steel",
       "power": 140.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -665,6 +729,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -674,6 +739,7 @@
       "type": "dark",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -683,6 +749,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -692,6 +759,7 @@
       "type": "poison",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     }
   ],

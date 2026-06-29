@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -50,6 +51,11 @@
       "display_name": "Gallade",
       "url": "pokemon/gallade/",
       "percent": 2.8
+    },
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 1.0
     },
     {
       "display_name": "Lopunny",

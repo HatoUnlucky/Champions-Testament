@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -77,6 +78,11 @@
       "percent": 0.0
     },
     {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
+      "percent": null
+    },
+    {
       "display_name": "Basculegion (Female)",
       "url": "pokemon/basculegion-female/",
       "percent": null
@@ -84,6 +90,11 @@
     {
       "display_name": "Basculegion Male",
       "url": "pokemon/basculegion-male/",
+      "percent": null
+    },
+    {
+      "display_name": "Dragalge",
+      "url": "pokemon/dragalge/",
       "percent": null
     },
     {
@@ -99,16 +110,6 @@
     {
       "display_name": "Galarian Slowbro",
       "url": "pokemon/galarian-slowbro/",
-      "percent": null
-    },
-    {
-      "display_name": "Galarian Slowking",
-      "url": "pokemon/galarian-slowking/",
-      "percent": null
-    },
-    {
-      "display_name": "Garchomp",
-      "url": "pokemon/garchomp/",
       "percent": null
     }
   ]

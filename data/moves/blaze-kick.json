@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -32,6 +33,11 @@
       "percent": 0.1
     },
     {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
+      "percent": null
+    },
+    {
       "display_name": "Charizard",
       "url": "pokemon/charizard/",
       "percent": null
@@ -49,6 +55,11 @@
     {
       "display_name": "Medicham",
       "url": "pokemon/medicham/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Blaziken",
+      "url": "pokemon/mega-blaziken/",
       "percent": null
     },
     {

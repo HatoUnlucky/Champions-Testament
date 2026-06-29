@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -107,8 +108,8 @@
       "percent": null
     },
     {
-      "display_name": "Whimsicott",
-      "url": "pokemon/whimsicott/",
+      "display_name": "Vileplume",
+      "url": "pokemon/vileplume/",
       "percent": null
     }
   ]

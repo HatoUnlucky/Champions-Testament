@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -102,8 +103,13 @@
       "percent": 0.1
     },
     {
-      "display_name": "Tyrantrum",
-      "url": "pokemon/tyrantrum/",
+      "display_name": "Dragalge",
+      "url": "pokemon/dragalge/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Dragalge",
+      "url": "pokemon/mega-dragalge/",
       "percent": null
     }
   ]

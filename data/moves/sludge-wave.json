@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -97,18 +98,18 @@
       "percent": null
     },
     {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
+      "percent": null
+    },
+    {
+      "display_name": "Dragalge",
+      "url": "pokemon/dragalge/",
+      "percent": null
+    },
+    {
       "display_name": "Galarian Slowbro",
       "url": "pokemon/galarian-slowbro/",
-      "percent": null
-    },
-    {
-      "display_name": "Galarian Stunfisk",
-      "url": "pokemon/galarian-stunfisk/",
-      "percent": null
-    },
-    {
-      "display_name": "Garbodor",
-      "url": "pokemon/garbodor/",
       "percent": null
     }
   ]

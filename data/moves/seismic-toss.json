@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -32,6 +33,11 @@
       "percent": null
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
       "display_name": "Azumarill",
       "url": "pokemon/azumarill/",
       "percent": null
@@ -39,6 +45,11 @@
     {
       "display_name": "Blastoise",
       "url": "pokemon/blastoise/",
+      "percent": null
+    },
+    {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
       "percent": null
     },
     {
@@ -77,6 +88,11 @@
       "percent": null
     },
     {
+      "display_name": "Mawile",
+      "url": "pokemon/mawile/",
+      "percent": null
+    },
+    {
       "display_name": "Medicham",
       "url": "pokemon/medicham/",
       "percent": null
@@ -94,21 +110,6 @@
     {
       "display_name": "Mega Ampharos",
       "url": "pokemon/mega-ampharos/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Blastoise",
-      "url": "pokemon/mega-blastoise/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Charizard X",
-      "url": "pokemon/mega-charizard-x/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Charizard Y",
-      "url": "pokemon/mega-charizard-y/",
       "percent": null
     }
   ]

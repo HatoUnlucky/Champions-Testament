@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -82,6 +83,11 @@
       "percent": 1.6
     },
     {
+      "display_name": "Meowstic F Mega",
+      "url": "pokemon/meowstic-f-mega/",
+      "percent": 1.6
+    },
+    {
       "display_name": "Mega Glalie",
       "url": "pokemon/mega-glalie/",
       "percent": 1.5
@@ -105,11 +111,6 @@
       "display_name": "Mega Gardevoir",
       "url": "pokemon/mega-gardevoir/",
       "percent": 1.3
-    },
-    {
-      "display_name": "Ninetales",
-      "url": "pokemon/ninetales/",
-      "percent": 1.2
     }
   ]
 }

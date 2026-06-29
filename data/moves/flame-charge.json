@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -25,6 +26,11 @@
       "display_name": "Mega Emboar",
       "url": "pokemon/mega-emboar/",
       "percent": 4.7
+    },
+    {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 3.7
     },
     {
       "display_name": "Flareon",
@@ -97,18 +103,13 @@
       "percent": null
     },
     {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
+      "percent": null
+    },
+    {
       "display_name": "Delphox",
       "url": "pokemon/delphox/",
-      "percent": null
-    },
-    {
-      "display_name": "Emboar",
-      "url": "pokemon/emboar/",
-      "percent": null
-    },
-    {
-      "display_name": "Gourgeist",
-      "url": "pokemon/gourgeist/",
       "percent": null
     }
   ]

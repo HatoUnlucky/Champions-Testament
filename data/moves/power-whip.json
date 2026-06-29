@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -50,6 +51,11 @@
       "display_name": "Gliscor",
       "url": "pokemon/gliscor/",
       "percent": 0.4
+    },
+    {
+      "display_name": "Grimmsnarl",
+      "url": "pokemon/grimmsnarl/",
+      "percent": null
     },
     {
       "display_name": "Hatterene",

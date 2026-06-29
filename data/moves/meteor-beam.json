@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -62,6 +63,11 @@
       "percent": null
     },
     {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
+      "percent": null
+    },
+    {
       "display_name": "Bastiodon",
       "url": "pokemon/bastiodon/",
       "percent": null
@@ -87,28 +93,23 @@
       "percent": null
     },
     {
+      "display_name": "Mega Barbaracle",
+      "url": "pokemon/mega-barbaracle/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Clefable",
       "url": "pokemon/mega-clefable/",
       "percent": null
     },
     {
+      "display_name": "Mega Metagross",
+      "url": "pokemon/mega-metagross/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Starmie",
       "url": "pokemon/mega-starmie/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Steelix",
-      "url": "pokemon/mega-steelix/",
-      "percent": null
-    },
-    {
-      "display_name": "Rampardos",
-      "url": "pokemon/rampardos/",
-      "percent": null
-    },
-    {
-      "display_name": "Rhyperior",
-      "url": "pokemon/rhyperior/",
       "percent": null
     }
   ]

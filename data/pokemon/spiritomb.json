@@ -2,6 +2,11 @@
   "pokemon_slug": "spiritomb",
   "display_name": "Spiritomb",
   "regulation": "ma",
+  "regulations": [
+    "ma",
+    "mb"
+  ],
+  "usage_regulation": "ma",
   "has_usage_data": true,
   "usage": {
     "percent": null,
@@ -277,6 +282,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": -7,
       "percent": 90.8
     },
     {
@@ -286,6 +292,7 @@
       "type": "fire",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 46.2
     },
     {
@@ -295,6 +302,7 @@
       "type": "dark",
       "power": 55.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 38.1
     },
     {
@@ -304,6 +312,7 @@
       "type": "dark",
       "power": 95.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 33.6
     },
     {
@@ -313,6 +322,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 27.6
     },
     {
@@ -322,6 +332,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 2,
       "percent": 26.4
     },
     {
@@ -331,6 +342,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 5,
       "percent": 22.3
     },
     {
@@ -340,6 +352,7 @@
       "type": "ghost",
       "power": 110.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 19.1
     },
     {
@@ -349,6 +362,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 13.5
     },
     {
@@ -358,6 +372,7 @@
       "type": "psychic",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 10.1
     },
     {
@@ -367,6 +382,7 @@
       "type": "dark",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 9.6
     },
     {
@@ -376,6 +392,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 7.4
     },
     {
@@ -385,6 +402,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 7.4
     },
     {
@@ -394,6 +412,7 @@
       "type": "ice",
       "power": 55.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 6.5
     },
     {
@@ -403,6 +422,7 @@
       "type": "ghost",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 5.5
     },
     {
@@ -412,6 +432,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 5.3
     },
     {
@@ -421,6 +442,7 @@
       "type": "dark",
       "power": 70.0,
       "damage_class": "physical",
+      "priority": 1,
       "percent": 4.8
     },
     {
@@ -430,6 +452,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": 3.2
     },
     {
@@ -439,6 +462,7 @@
       "type": "ghost",
       "power": 40.0,
       "damage_class": "physical",
+      "priority": 1,
       "percent": 2.8
     },
     {
@@ -448,6 +472,7 @@
       "type": "ghost",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 2.7
     },
     {
@@ -457,6 +482,7 @@
       "type": "dark",
       "power": 50.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 2.6
     },
     {
@@ -466,6 +492,7 @@
       "type": "ghost",
       "power": null,
       "damage_class": "special",
+      "priority": 0,
       "percent": 2.4
     },
     {
@@ -475,6 +502,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 1.9
     },
     {
@@ -484,6 +512,7 @@
       "type": "ghost",
       "power": 65.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 1.4
     },
     {
@@ -493,6 +522,7 @@
       "type": "poison",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 1.1
     },
     {
@@ -502,6 +532,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 1.0
     },
     {
@@ -511,6 +542,7 @@
       "type": "psychic",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 1.0
     },
     {
@@ -520,6 +552,7 @@
       "type": "ghost",
       "power": 90.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.9
     },
     {
@@ -529,6 +562,7 @@
       "type": "water",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.9
     },
     {
@@ -538,6 +572,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.7
     },
     {
@@ -547,6 +582,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -556,6 +592,7 @@
       "type": "normal",
       "power": 85.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -565,6 +602,7 @@
       "type": "fire",
       "power": 70.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -574,6 +612,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -583,6 +622,7 @@
       "type": "ghost",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -592,6 +632,7 @@
       "type": "ghost",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -601,6 +642,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -610,6 +652,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": null
     },
     {
@@ -619,6 +662,7 @@
       "type": "psychic",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -628,6 +672,7 @@
       "type": "normal",
       "power": 70.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -637,6 +682,7 @@
       "type": "normal",
       "power": 150.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -646,6 +692,7 @@
       "type": "normal",
       "power": 150.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -655,6 +702,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -664,6 +712,7 @@
       "type": "bug",
       "power": 20.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -673,6 +722,7 @@
       "type": "dark",
       "power": 75.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -682,6 +732,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -691,6 +742,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -700,6 +752,7 @@
       "type": "rock",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -709,6 +762,7 @@
       "type": "normal",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -718,6 +772,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -727,6 +782,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -736,6 +792,7 @@
       "type": "normal",
       "power": 50.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -745,6 +802,7 @@
       "type": "ghost",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -754,6 +812,7 @@
       "type": "psychic",
       "power": 20.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -763,6 +822,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -772,6 +832,7 @@
       "type": "fire",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -781,6 +842,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -790,6 +852,7 @@
       "type": "dark",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -799,6 +862,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -808,6 +872,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -817,6 +882,7 @@
       "type": "normal",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -826,6 +892,7 @@
       "type": "water",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -835,6 +902,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     }
   ],

@@ -1,0 +1,20 @@
+{
+  "slug": "fluffy",
+  "display_name": "Fluffy",
+  "description": "damage from contact moves is halved.  damage from fire moves is doubled.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Houndstone",
+      "url": "pokemon/houndstone/",
+      "percent": null
+    }
+  ]
+}

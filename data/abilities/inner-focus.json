@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -55,6 +56,11 @@
       "display_name": "Glalie",
       "url": "pokemon/glalie/",
       "percent": 0.0
+    },
+    {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
     }
   ]
 }

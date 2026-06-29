@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -87,6 +88,11 @@
       "percent": null
     },
     {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
+      "percent": null
+    },
+    {
       "display_name": "Gliscor",
       "url": "pokemon/gliscor/",
       "percent": null
@@ -102,13 +108,8 @@
       "percent": null
     },
     {
-      "display_name": "Hydreigon",
-      "url": "pokemon/hydreigon/",
-      "percent": null
-    },
-    {
-      "display_name": "Liepard",
-      "url": "pokemon/liepard/",
+      "display_name": "Houndstone",
+      "url": "pokemon/houndstone/",
       "percent": null
     }
   ]

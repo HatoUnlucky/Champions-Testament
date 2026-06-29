@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -50,6 +51,11 @@
       "display_name": "Decidueye",
       "url": "pokemon/decidueye/",
       "percent": 1.9
+    },
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 1.4
     },
     {
       "display_name": "Politoed",
@@ -105,11 +111,6 @@
       "display_name": "Vaporeon",
       "url": "pokemon/vaporeon/",
       "percent": 0.2
-    },
-    {
-      "display_name": "Altaria",
-      "url": "pokemon/altaria/",
-      "percent": 0.1
     }
   ]
 }

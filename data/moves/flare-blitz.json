@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -50,6 +51,11 @@
       "display_name": "Talonflame",
       "url": "pokemon/talonflame/",
       "percent": 54.6
+    },
+    {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 44.9
     },
     {
       "display_name": "Scovillain",
@@ -105,11 +111,6 @@
       "display_name": "Typhlosion",
       "url": "pokemon/typhlosion/",
       "percent": 0.0
-    },
-    {
-      "display_name": "Armarouge",
-      "url": "pokemon/armarouge/",
-      "percent": null
     }
   ]
 }

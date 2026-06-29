@@ -8,13 +8,24 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
       "display_name": "Camerupt",
       "url": "pokemon/camerupt/",
       "percent": 64.5
+    },
+    {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 6.8
+    },
+    {
+      "display_name": "Tauros Paldea Aqua",
+      "url": "pokemon/tauros-paldea-aqua/",
+      "percent": 6.5
     },
     {
       "display_name": "Krookodile",
@@ -25,6 +36,11 @@
       "display_name": "Crabominable",
       "url": "pokemon/crabominable/",
       "percent": 2.3
+    },
+    {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 0.1
     },
     {
       "display_name": "Tauros",

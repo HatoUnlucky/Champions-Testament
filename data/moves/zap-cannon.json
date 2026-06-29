@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -44,6 +45,11 @@
     {
       "display_name": "Dragonite",
       "url": "pokemon/dragonite/",
+      "percent": null
+    },
+    {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
       "percent": null
     },
     {
@@ -97,18 +103,13 @@
       "percent": null
     },
     {
+      "display_name": "Mega Eelektross",
+      "url": "pokemon/mega-eelektross/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Gengar",
       "url": "pokemon/mega-gengar/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Gyarados",
-      "url": "pokemon/mega-gyarados/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Kangaskhan",
-      "url": "pokemon/mega-kangaskhan/",
       "percent": null
     }
   ]

@@ -1,0 +1,20 @@
+{
+  "slug": "effect-spore",
+  "display_name": "Effect Spore",
+  "description": "has a 30% chance of inflcting either paralysis, poison, or sleep on attacking pokémon on contact.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Vileplume",
+      "url": "pokemon/vileplume/",
+      "percent": null
+    }
+  ]
+}

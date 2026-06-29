@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -50,6 +51,11 @@
       "display_name": "Alolan Ninetales",
       "url": "pokemon/alolan-ninetales/",
       "percent": 1.9
+    },
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 1.4
     },
     {
       "display_name": "Gardevoir",
@@ -104,11 +110,6 @@
     {
       "display_name": "Gallade",
       "url": "pokemon/gallade/",
-      "percent": null
-    },
-    {
-      "display_name": "Gourgeist",
-      "url": "pokemon/gourgeist/",
       "percent": null
     }
   ]

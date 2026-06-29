@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -77,6 +78,11 @@
       "percent": 0.0
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
       "display_name": "Banette",
       "url": "pokemon/banette/",
       "percent": null
@@ -104,11 +110,6 @@
     {
       "display_name": "Hisuian Zoroark",
       "url": "pokemon/hisuian-zoroark/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Absol",
-      "url": "pokemon/mega-absol/",
       "percent": null
     }
   ]

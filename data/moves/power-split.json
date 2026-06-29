@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -34,6 +35,11 @@
     {
       "display_name": "Mega Chandelure",
       "url": "pokemon/mega-chandelure/",
+      "percent": null
+    },
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
       "percent": null
     }
   ]

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -62,6 +63,11 @@
       "percent": null
     },
     {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
+      "percent": null
+    },
+    {
       "display_name": "Camerupt",
       "url": "pokemon/camerupt/",
       "percent": null
@@ -104,11 +110,6 @@
     {
       "display_name": "Hisuian Arcanine",
       "url": "pokemon/hisuian-arcanine/",
-      "percent": null
-    },
-    {
-      "display_name": "Hisuian Typhlosion",
-      "url": "pokemon/hisuian-typhlosion/",
       "percent": null
     }
   ]

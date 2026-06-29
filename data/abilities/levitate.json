@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -60,6 +61,11 @@
       "display_name": "Wash Rotom",
       "url": "pokemon/wash-rotom/",
       "percent": 100.0
+    },
+    {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
+      "percent": null
     }
   ]
 }

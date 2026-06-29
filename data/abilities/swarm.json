@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -40,6 +41,11 @@
       "display_name": "Heracross",
       "url": "pokemon/heracross/",
       "percent": 0.0
+    },
+    {
+      "display_name": "Scolipede",
+      "url": "pokemon/scolipede/",
+      "percent": null
     }
   ]
 }

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -97,6 +98,11 @@
       "percent": 0.0
     },
     {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
+      "percent": null
+    },
+    {
       "display_name": "Fan Rotom",
       "url": "pokemon/fan-rotom/",
       "percent": null
@@ -104,11 +110,6 @@
     {
       "display_name": "Heliolisk",
       "url": "pokemon/heliolisk/",
-      "percent": null
-    },
-    {
-      "display_name": "Luxray",
-      "url": "pokemon/luxray/",
       "percent": null
     }
   ]

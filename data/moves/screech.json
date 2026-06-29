@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -62,8 +63,18 @@
       "percent": null
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
       "display_name": "Banette",
       "url": "pokemon/banette/",
+      "percent": null
+    },
+    {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
       "percent": null
     },
     {
@@ -87,6 +98,11 @@
       "percent": null
     },
     {
+      "display_name": "Falinks",
+      "url": "pokemon/falinks/",
+      "percent": null
+    },
+    {
       "display_name": "Feraligatr",
       "url": "pokemon/feraligatr/",
       "percent": null
@@ -94,21 +110,6 @@
     {
       "display_name": "Galarian Stunfisk",
       "url": "pokemon/galarian-stunfisk/",
-      "percent": null
-    },
-    {
-      "display_name": "Gliscor",
-      "url": "pokemon/gliscor/",
-      "percent": null
-    },
-    {
-      "display_name": "Hisuian Samurott",
-      "url": "pokemon/hisuian-samurott/",
-      "percent": null
-    },
-    {
-      "display_name": "Hydreigon",
-      "url": "pokemon/hydreigon/",
       "percent": null
     }
   ]

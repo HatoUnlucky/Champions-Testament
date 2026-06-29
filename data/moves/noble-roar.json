@@ -8,12 +8,28 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
       "display_name": "Kommo-o",
       "url": "pokemon/kommo-o/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Pyroar",
+      "url": "pokemon/mega-pyroar/",
+      "percent": null
+    },
+    {
+      "display_name": "Pyroar (Male)",
+      "url": "pokemon/pyroar-male/",
+      "percent": null
+    },
+    {
+      "display_name": "Pyroar Female",
+      "url": "pokemon/pyroar-female/",
       "percent": null
     }
   ]

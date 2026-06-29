@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -20,6 +21,11 @@
       "display_name": "Golurk",
       "url": "pokemon/golurk/",
       "percent": 0.4
+    },
+    {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
     },
     {
       "display_name": "Banette",

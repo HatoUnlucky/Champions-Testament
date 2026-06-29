@@ -5,10 +5,11 @@
   "type": "dark",
   "power": 70.0,
   "damage_class": "physical",
-  "priority": 0,
+  "priority": 1,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {

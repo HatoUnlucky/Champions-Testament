@@ -5,10 +5,11 @@
   "type": "rock",
   "power": null,
   "damage_class": "status",
-  "priority": 0,
+  "priority": 3,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -87,6 +88,11 @@
       "percent": null
     },
     {
+      "display_name": "Grimmsnarl",
+      "url": "pokemon/grimmsnarl/",
+      "percent": null
+    },
+    {
       "display_name": "Hisuian Typhlosion",
       "url": "pokemon/hisuian-typhlosion/",
       "percent": null
@@ -104,11 +110,6 @@
     {
       "display_name": "Infernape",
       "url": "pokemon/infernape/",
-      "percent": null
-    },
-    {
-      "display_name": "Liepard",
-      "url": "pokemon/liepard/",
       "percent": null
     }
   ]

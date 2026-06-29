@@ -1,0 +1,25 @@
+{
+  "slug": "barb-barrage",
+  "display_name": "Barb Barrage",
+  "description": "Has a 50% chance of poisoning the target. This move's power is doubled if the target is poisoned or badly poisoned.",
+  "type": "poison",
+  "power": 60.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Overqwil",
+      "url": "pokemon/overqwil/",
+      "percent": null
+    },
+    {
+      "display_name": "Qwilfish",
+      "url": "pokemon/qwilfish/",
+      "percent": null
+    }
+  ]
+}

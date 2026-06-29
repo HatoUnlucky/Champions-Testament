@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -67,6 +68,11 @@
       "percent": 22.7
     },
     {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 9.3
+    },
+    {
       "display_name": "Mega Absol",
       "url": "pokemon/mega-absol/",
       "percent": 7.9
@@ -105,11 +111,6 @@
       "display_name": "Mega Drampa",
       "url": "pokemon/mega-drampa/",
       "percent": 2.3
-    },
-    {
-      "display_name": "Hisuian Goodra",
-      "url": "pokemon/hisuian-goodra/",
-      "percent": 1.9
     }
   ]
 }

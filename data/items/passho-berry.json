@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "Images/item_images/primary_images_by_category/berry/passho-berry_primary_image.png",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -107,9 +108,9 @@
       "percent": 1.4
     },
     {
-      "display_name": "Typhlosion",
-      "url": "pokemon/typhlosion/",
-      "percent": 1.0
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 1.2
     }
   ]
 }

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -40,6 +41,11 @@
       "display_name": "Alakazam",
       "url": "pokemon/alakazam/",
       "percent": 16.4
+    },
+    {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": 8.7
     },
     {
       "display_name": "Dragapult",
@@ -104,11 +110,6 @@
     {
       "display_name": "Bastiodon",
       "url": "pokemon/bastiodon/",
-      "percent": 1.0
-    },
-    {
-      "display_name": "Espathra",
-      "url": "pokemon/espathra/",
       "percent": 1.0
     }
   ]

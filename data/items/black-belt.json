@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "Images/item_images/primary_images_by_category/held-item/black-belt_primary_image.png",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -102,14 +103,14 @@
       "percent": 1.9
     },
     {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 1.6
+    },
+    {
       "display_name": "Arcanine",
       "url": "pokemon/arcanine/",
       "percent": 1.2
-    },
-    {
-      "display_name": "Forretress",
-      "url": "pokemon/forretress/",
-      "percent": 0.9
     }
   ]
 }

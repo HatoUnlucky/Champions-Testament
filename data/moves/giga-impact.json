@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -67,6 +68,11 @@
       "percent": 0.0
     },
     {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 0.0
+    },
+    {
       "display_name": "Watchog",
       "url": "pokemon/watchog/",
       "percent": 0.0
@@ -104,11 +110,6 @@
     {
       "display_name": "Alcremie",
       "url": "pokemon/alcremie/",
-      "percent": null
-    },
-    {
-      "display_name": "Alolan Ninetales",
-      "url": "pokemon/alolan-ninetales/",
       "percent": null
     }
   ]

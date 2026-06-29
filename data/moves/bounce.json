@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -32,6 +33,11 @@
       "percent": null
     },
     {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
+      "percent": null
+    },
+    {
       "display_name": "Clawitzer",
       "url": "pokemon/clawitzer/",
       "percent": null
@@ -44,6 +50,16 @@
     {
       "display_name": "Diggersby",
       "url": "pokemon/diggersby/",
+      "percent": null
+    },
+    {
+      "display_name": "Dragalge",
+      "url": "pokemon/dragalge/",
+      "percent": null
+    },
+    {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
       "percent": null
     },
     {
@@ -77,38 +93,23 @@
       "percent": null
     },
     {
+      "display_name": "Mega Blaziken",
+      "url": "pokemon/mega-blaziken/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Clefable",
       "url": "pokemon/mega-clefable/",
       "percent": null
     },
     {
-      "display_name": "Mega Greninja",
-      "url": "pokemon/mega-greninja/",
+      "display_name": "Mega Dragalge",
+      "url": "pokemon/mega-dragalge/",
       "percent": null
     },
     {
-      "display_name": "Mega Gyarados",
-      "url": "pokemon/mega-gyarados/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Hawlucha",
-      "url": "pokemon/mega-hawlucha/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Lopunny",
-      "url": "pokemon/mega-lopunny/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Sharpedo",
-      "url": "pokemon/mega-sharpedo/",
-      "percent": null
-    },
-    {
-      "display_name": "Palafin",
-      "url": "pokemon/palafin/",
+      "display_name": "Mega Eelektross",
+      "url": "pokemon/mega-eelektross/",
       "percent": null
     }
   ]

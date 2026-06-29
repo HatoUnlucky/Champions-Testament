@@ -1,0 +1,20 @@
+{
+  "slug": "good-as-gold",
+  "display_name": "Good As Gold",
+  "description": "gives immunity to status moves.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Gholdengo",
+      "url": "pokemon/gholdengo/",
+      "percent": null
+    }
+  ]
+}

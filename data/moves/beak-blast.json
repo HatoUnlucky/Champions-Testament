@@ -5,10 +5,11 @@
   "type": "flying",
   "power": 120.0,
   "damage_class": "physical",
-  "priority": 0,
+  "priority": -3,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {

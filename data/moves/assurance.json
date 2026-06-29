@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -62,6 +63,11 @@
       "percent": 0.0
     },
     {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 0.0
+    },
+    {
       "display_name": "Watchog",
       "url": "pokemon/watchog/",
       "percent": 0.0
@@ -77,8 +83,18 @@
       "percent": null
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
       "display_name": "Ariados",
       "url": "pokemon/ariados/",
+      "percent": null
+    },
+    {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
       "percent": null
     },
     {
@@ -92,23 +108,8 @@
       "percent": null
     },
     {
-      "display_name": "Corviknight",
-      "url": "pokemon/corviknight/",
-      "percent": null
-    },
-    {
-      "display_name": "Dragapult",
-      "url": "pokemon/dragapult/",
-      "percent": null
-    },
-    {
-      "display_name": "Emboar",
-      "url": "pokemon/emboar/",
-      "percent": null
-    },
-    {
-      "display_name": "Farigiraf",
-      "url": "pokemon/farigiraf/",
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
       "percent": null
     }
   ]

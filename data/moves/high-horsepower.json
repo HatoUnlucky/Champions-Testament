@@ -8,9 +8,15 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
+    {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 95.1
+    },
     {
       "display_name": "Mudsdale",
       "url": "pokemon/mudsdale/",
@@ -105,11 +111,6 @@
       "display_name": "Wyrdeer",
       "url": "pokemon/wyrdeer/",
       "percent": 5.3
-    },
-    {
-      "display_name": "Mega Golurk",
-      "url": "pokemon/mega-golurk/",
-      "percent": 5.0
     }
   ]
 }

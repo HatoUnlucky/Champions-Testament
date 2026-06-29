@@ -8,9 +8,15 @@
   "priority": 0,
   "image": "Images/item_images/primary_images_by_category/held-item/white-herb_primary_image.png",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
+    {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 96.8
+    },
     {
       "display_name": "Polteageist",
       "url": "pokemon/polteageist/",
@@ -37,6 +43,11 @@
       "percent": 59.9
     },
     {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 46.0
+    },
+    {
       "display_name": "Quaquaval",
       "url": "pokemon/quaquaval/",
       "percent": 33.3
@@ -50,6 +61,11 @@
       "display_name": "Drampa",
       "url": "pokemon/drampa/",
       "percent": 27.8
+    },
+    {
+      "display_name": "Tauros Paldea Aqua",
+      "url": "pokemon/tauros-paldea-aqua/",
+      "percent": 25.0
     },
     {
       "display_name": "Medicham",
@@ -95,21 +111,6 @@
       "display_name": "Conkeldurr",
       "url": "pokemon/conkeldurr/",
       "percent": 8.7
-    },
-    {
-      "display_name": "Flapple",
-      "url": "pokemon/flapple/",
-      "percent": 8.7
-    },
-    {
-      "display_name": "Passimian",
-      "url": "pokemon/passimian/",
-      "percent": 8.6
-    },
-    {
-      "display_name": "Blastoise",
-      "url": "pokemon/blastoise/",
-      "percent": 8.2
     }
   ]
 }

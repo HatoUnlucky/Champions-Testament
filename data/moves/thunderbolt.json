@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -82,6 +83,11 @@
       "percent": 42.8
     },
     {
+      "display_name": "Meowstic F Mega",
+      "url": "pokemon/meowstic-f-mega/",
+      "percent": 42.8
+    },
+    {
       "display_name": "Mega Manectric",
       "url": "pokemon/mega-manectric/",
       "percent": 36.8
@@ -105,11 +111,6 @@
       "display_name": "Castform",
       "url": "pokemon/castform/",
       "percent": 30.6
-    },
-    {
-      "display_name": "Alolan Raichu",
-      "url": "pokemon/alolan-raichu/",
-      "percent": 29.3
     }
   ]
 }

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -75,6 +76,16 @@
       "display_name": "Aegislash",
       "url": "pokemon/aegislash/",
       "percent": 0.1
+    },
+    {
+      "display_name": "Mega Scrafty",
+      "url": "pokemon/mega-scrafty/",
+      "percent": null
+    },
+    {
+      "display_name": "Scrafty",
+      "url": "pokemon/scrafty/",
+      "percent": null
     }
   ]
 }

@@ -5,10 +5,11 @@
   "type": "steel",
   "power": 40.0,
   "damage_class": "physical",
-  "priority": 0,
+  "priority": 1,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -55,6 +56,16 @@
       "display_name": "Toxicroak",
       "url": "pokemon/toxicroak/",
       "percent": 1.0
+    },
+    {
+      "display_name": "Mega Metagross",
+      "url": "pokemon/mega-metagross/",
+      "percent": null
+    },
+    {
+      "display_name": "Metagross",
+      "url": "pokemon/metagross/",
+      "percent": null
     }
   ]
 }

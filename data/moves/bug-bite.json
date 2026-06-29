@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -77,6 +78,11 @@
       "percent": null
     },
     {
+      "display_name": "Mega Scolipede",
+      "url": "pokemon/mega-scolipede/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Victreebel",
       "url": "pokemon/mega-victreebel/",
       "percent": null
@@ -84,6 +90,11 @@
     {
       "display_name": "Pinsir",
       "url": "pokemon/pinsir/",
+      "percent": null
+    },
+    {
+      "display_name": "Scolipede",
+      "url": "pokemon/scolipede/",
       "percent": null
     },
     {

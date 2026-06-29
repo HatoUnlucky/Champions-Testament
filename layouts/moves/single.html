@@ -14,7 +14,7 @@
         <span>Power {{ $move.power }}</span>
         <span>Accuracy {{ $move.accuracy }}</span>
         <span>Priority {{ $move.priority }}</span>
-        <img src="{{ printf "Images/damage_class/%s.png" $move.damage_class | relURL }}" alt="{{ $move.damage_class }}">
+        <img class="damage-class-icon" src="{{ printf "Images/damage_class/%s.png" $move.damage_class | relURL }}" alt="{{ $move.damage_class }}">
       </div>
     </div>
   </section>

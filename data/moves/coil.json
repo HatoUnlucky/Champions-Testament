@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -35,6 +36,16 @@
       "display_name": "Serperior",
       "url": "pokemon/serperior/",
       "percent": 0.4
+    },
+    {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Eelektross",
+      "url": "pokemon/mega-eelektross/",
+      "percent": null
     }
   ]
 }

@@ -5,10 +5,11 @@
   "type": "fighting",
   "power": null,
   "damage_class": "physical",
-  "priority": 0,
+  "priority": -5,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -87,8 +88,18 @@
       "percent": null
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
       "display_name": "Blastoise",
       "url": "pokemon/blastoise/",
+      "percent": null
+    },
+    {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
       "percent": null
     },
     {
@@ -99,16 +110,6 @@
     {
       "display_name": "Conkeldurr",
       "url": "pokemon/conkeldurr/",
-      "percent": null
-    },
-    {
-      "display_name": "Feraligatr",
-      "url": "pokemon/feraligatr/",
-      "percent": null
-    },
-    {
-      "display_name": "Galarian Stunfisk",
-      "url": "pokemon/galarian-stunfisk/",
       "percent": null
     }
   ]

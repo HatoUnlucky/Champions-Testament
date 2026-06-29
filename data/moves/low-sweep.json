@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -42,6 +43,16 @@
       "percent": 0.0
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
+      "percent": null
+    },
+    {
       "display_name": "Chesnaught",
       "url": "pokemon/chesnaught/",
       "percent": null
@@ -72,6 +83,11 @@
       "percent": null
     },
     {
+      "display_name": "Gholdengo",
+      "url": "pokemon/gholdengo/",
+      "percent": null
+    },
+    {
       "display_name": "Golurk",
       "url": "pokemon/golurk/",
       "percent": null
@@ -82,6 +98,11 @@
       "percent": null
     },
     {
+      "display_name": "Grimmsnarl",
+      "url": "pokemon/grimmsnarl/",
+      "percent": null
+    },
+    {
       "display_name": "Hawlucha",
       "url": "pokemon/hawlucha/",
       "percent": null
@@ -89,26 +110,6 @@
     {
       "display_name": "Heliolisk",
       "url": "pokemon/heliolisk/",
-      "percent": null
-    },
-    {
-      "display_name": "Hisuian Decidueye",
-      "url": "pokemon/hisuian-decidueye/",
-      "percent": null
-    },
-    {
-      "display_name": "Hisuian Zoroark",
-      "url": "pokemon/hisuian-zoroark/",
-      "percent": null
-    },
-    {
-      "display_name": "Incineroar",
-      "url": "pokemon/incineroar/",
-      "percent": null
-    },
-    {
-      "display_name": "Infernape",
-      "url": "pokemon/infernape/",
       "percent": null
     }
   ]

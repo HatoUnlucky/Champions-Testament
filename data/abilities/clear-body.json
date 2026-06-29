@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -20,6 +21,11 @@
       "display_name": "Garganacl",
       "url": "pokemon/garganacl/",
       "percent": 16.1
+    },
+    {
+      "display_name": "Metagross",
+      "url": "pokemon/metagross/",
+      "percent": null
     }
   ]
 }

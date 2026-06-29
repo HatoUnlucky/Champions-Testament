@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -17,8 +18,23 @@
       "percent": 79.7
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Lucario",
       "url": "pokemon/mega-lucario/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Staraptor",
+      "url": "pokemon/mega-staraptor/",
+      "percent": null
+    },
+    {
+      "display_name": "Staraptor",
+      "url": "pokemon/staraptor/",
       "percent": null
     }
   ]

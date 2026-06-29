@@ -1,0 +1,830 @@
+{
+  "pokemon_slug": "metagross-mega",
+  "display_name": "Mega Metagross",
+  "regulation": "mb",
+  "regulations": [
+    "mb"
+  ],
+  "usage_regulation": "",
+  "has_usage_data": false,
+  "usage": {
+    "percent": null,
+    "raw_count": null,
+    "source_key": "",
+    "month": ""
+  },
+  "data_months": {
+    "abilities": "",
+    "items": "",
+    "moves": "",
+    "spreads": "",
+    "teammates": "",
+    "tera_types": ""
+  },
+  "primary_image": "Images/pokemon_sprites/by_species/metagross/metagross-mega/metagross-mega_primary_image.png",
+  "secondary_image": "",
+  "types": [
+    {
+      "name": "Steel",
+      "slug": "steel"
+    },
+    {
+      "name": "Psychic",
+      "slug": "psychic"
+    }
+  ],
+  "stats": [
+    {
+      "key": "total",
+      "label": "Total",
+      "value": 700
+    },
+    {
+      "key": "hp",
+      "label": "HP",
+      "value": 80
+    },
+    {
+      "key": "attack",
+      "label": "Atk",
+      "value": 145
+    },
+    {
+      "key": "defense",
+      "label": "Def",
+      "value": 150
+    },
+    {
+      "key": "special_attack",
+      "label": "SpAtk",
+      "value": 105
+    },
+    {
+      "key": "special_defense",
+      "label": "SpDef",
+      "value": 110
+    },
+    {
+      "key": "speed",
+      "label": "Speed",
+      "value": 110
+    }
+  ],
+  "abilities": [],
+  "items": [],
+  "spreads": [],
+  "tera_types": [],
+  "moves": [
+    {
+      "slug": "aerial-ace",
+      "name": "Aerial Ace",
+      "description": "This move never misses.",
+      "type": "flying",
+      "power": 60.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "agility",
+      "name": "Agility",
+      "description": "Boosts the user's Speed stat by 2 stages.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "ally-switch",
+      "name": "Ally Switch",
+      "description": "The user switches spots with one of its allies. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "priority": 2,
+      "percent": null
+    },
+    {
+      "slug": "block",
+      "name": "Block",
+      "description": "Gives the target the Can't Escape status.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "body-press",
+      "name": "Body Press",
+      "description": "The damage dealt by this move is calculated using the user's Defense stat instead of its Attack stat.",
+      "type": "fighting",
+      "power": 80.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "body-slam",
+      "name": "Body Slam",
+      "description": "Has a 30% chance of paralyzing the target. If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
+      "type": "normal",
+      "power": 85.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "brick-break",
+      "name": "Brick Break",
+      "description": "Removes the Light Screen Reflect and Aurora Veil statuses on the target's side.",
+      "type": "fighting",
+      "power": 75.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "brutal-swing",
+      "name": "Brutal Swing",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "dark",
+      "power": 60.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "bulldoze",
+      "name": "Bulldoze",
+      "description": "Lowers targets' Speed stats by 1 stage. When Grassy Terrain is active this move's power is halved.",
+      "type": "ground",
+      "power": 60.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "bullet-punch",
+      "name": "Bullet Punch",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "steel",
+      "power": 40.0,
+      "damage_class": "physical",
+      "priority": 1,
+      "percent": null
+    },
+    {
+      "slug": "cosmic-power",
+      "name": "Cosmic Power",
+      "description": "Boosts the user's Defense and Sp. Def stats by 1 stage.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "double-team",
+      "name": "Double Team",
+      "description": "Boosts the user's evasiveness by 1 stage.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "double-edge",
+      "name": "Double-Edge",
+      "description": "The user takes 1/3 of the damage dealt by this move.",
+      "type": "normal",
+      "power": 120.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "dynamic-punch",
+      "name": "Dynamic Punch",
+      "description": "Confuses the target.",
+      "type": "fighting",
+      "power": 100.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "earthquake",
+      "name": "Earthquake",
+      "description": "This move's power is doubled against targets that have the Underground status. When Grassy Terrain is active this move's power is halved.",
+      "type": "ground",
+      "power": 100.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "endure",
+      "name": "Endure",
+      "description": "During the turn this move is used if the user takes damage from a move that would knock it out it will endure the hit with 1 HP. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "priority": 4,
+      "percent": null
+    },
+    {
+      "slug": "expanding-force",
+      "name": "Expanding Force",
+      "description": "If the user is under the effect of Psychic Terrain this move's power is boosted by 50% and its range extends to all opponents.",
+      "type": "psychic",
+      "power": 80.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "explosion",
+      "name": "Explosion",
+      "description": "The user faints upon using this move.",
+      "type": "normal",
+      "power": 250.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "facade",
+      "name": "Facade",
+      "description": "This move's power is doubled if the user is poisoned badly poisoned burned or paralyzed. Although this move is a physical move the damage it deals is not halved when the user is burned.",
+      "type": "normal",
+      "power": 70.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "flash-cannon",
+      "name": "Flash Cannon",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "steel",
+      "power": 80.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "focus-punch",
+      "name": "Focus Punch",
+      "description": "This move fails if the user has already taken damage from a move in the same turn.",
+      "type": "fighting",
+      "power": 150.0,
+      "damage_class": "physical",
+      "priority": -3,
+      "percent": null
+    },
+    {
+      "slug": "future-sight",
+      "name": "Future Sight",
+      "description": "Gives the target's spot the Future Attack status.",
+      "type": "psychic",
+      "power": 120.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "giga-impact",
+      "name": "Giga Impact",
+      "description": "The user gains the Recharging status on the turn after this move is used.",
+      "type": "normal",
+      "power": 150.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "grass-knot",
+      "name": "Grass Knot",
+      "description": "The heavier the target the greater this move's power (ranging between 20 and 120).",
+      "type": "grass",
+      "power": null,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "gravity",
+      "name": "Gravity",
+      "description": "Gives the entire field the Gravity status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "gyro-ball",
+      "name": "Gyro Ball",
+      "description": "The lower the user's Speed stat compared to the target's the greater this move's power (ranging between 1 and 150).",
+      "type": "steel",
+      "power": null,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "hammer-arm",
+      "name": "Hammer Arm",
+      "description": "Lowers the user's Speed stat by 1 stage.",
+      "type": "fighting",
+      "power": 100.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "hard-press",
+      "name": "Hard Press",
+      "description": "The more HP the target has left the greater this move's power (ranging between 1 and 100).",
+      "type": "steel",
+      "power": 0.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "heavy-slam",
+      "name": "Heavy Slam",
+      "description": "The more the user outweighs the target the greater this move's power (ranging between 40 and 120). If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
+      "type": "steel",
+      "power": null,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "hyper-beam",
+      "name": "Hyper Beam",
+      "description": "The user gains the Recharging status on the turn after this move is used.",
+      "type": "normal",
+      "power": 150.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "ice-punch",
+      "name": "Ice Punch",
+      "description": "Has a 10% chance of freezing the target.",
+      "type": "ice",
+      "power": 75.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "icy-wind",
+      "name": "Icy Wind",
+      "description": "Lowers targets' Speed stats by 1 stage.",
+      "type": "ice",
+      "power": 55.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "iron-defense",
+      "name": "Iron Defense",
+      "description": "Boosts the user's Defense stat by 2 stages.",
+      "type": "steel",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "iron-head",
+      "name": "Iron Head",
+      "description": "Has a 20% chance of making the target flinch.",
+      "type": "steel",
+      "power": 80.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "knock-off",
+      "name": "Knock Off",
+      "description": "This move's power is boosted by 50% if the target is holding an item. Causes the target to lose its held item.",
+      "type": "dark",
+      "power": 65.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "light-screen",
+      "name": "Light Screen",
+      "description": "Gives the user's side the Light Screen status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "magnet-rise",
+      "name": "Magnet Rise",
+      "description": "The user gains the Magnet Rise status.",
+      "type": "electric",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "meteor-beam",
+      "name": "Meteor Beam",
+      "description": "The user gains the Charging status on the turn this move is used then attacks on the following turn. The user's Sp. Atk stat is boosted by 1 stage on the turn this move is used.",
+      "type": "rock",
+      "power": 120.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "meteor-mash",
+      "name": "Meteor Mash",
+      "description": "Has a 20% chance of boosting the user's Attack stat by 1 stage.",
+      "type": "steel",
+      "power": 90.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "mud-slap",
+      "name": "Mud-Slap",
+      "description": "Lowers the target's accuracy by 1 stage.",
+      "type": "ground",
+      "power": 20.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "protect",
+      "name": "Protect",
+      "description": "The user protects itself from incoming moves for the turn. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "priority": 4,
+      "percent": null
+    },
+    {
+      "slug": "psych-up",
+      "name": "Psych Up",
+      "description": "The user copies the target's stat changes.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "psychic",
+      "name": "Psychic",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "psychic",
+      "power": 90.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "psychic-fangs",
+      "name": "Psychic Fangs",
+      "description": "Removes the Light Screen Reflect and Aurora Veil statuses on the target's side.",
+      "type": "psychic",
+      "power": 85.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "psychic-noise",
+      "name": "Psychic Noise",
+      "description": "Gives the target the Healing Prevented status for 2 turns.",
+      "type": "psychic",
+      "power": 75.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "psycho-cut",
+      "name": "Psycho Cut",
+      "description": "This move has a 1-stage Critical-Hit Ratio Boost.",
+      "type": "psychic",
+      "power": 70.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "psyshock",
+      "name": "Psyshock",
+      "description": "This is a special move but the damage it deals is calculated using the target's Defense stat.",
+      "type": "psychic",
+      "power": 80.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "rain-dance",
+      "name": "Rain Dance",
+      "description": "Summons rain for 5 turns.",
+      "type": "water",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "reflect",
+      "name": "Reflect",
+      "description": "Gives the user's side the Reflect status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "rest",
+      "name": "Rest",
+      "description": "Fully restores the user's HP and cures any status conditions. The user falls asleep for 2 turns. This move fails if the user's HP is full.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "rock-polish",
+      "name": "Rock Polish",
+      "description": "Boosts the user's Speed stat by 2 stages.",
+      "type": "rock",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "rock-slide",
+      "name": "Rock Slide",
+      "description": "Has a 30% chance of making targets flinch.",
+      "type": "rock",
+      "power": 75.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "rock-tomb",
+      "name": "Rock Tomb",
+      "description": "Lowers the target's Speed stat by 1 stage.",
+      "type": "rock",
+      "power": 60.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "round",
+      "name": "Round",
+      "description": "If multiple Pokémon use this move in the same turn the second user onward will act immediately after the first and the power of the second Round onward will be doubled.",
+      "type": "normal",
+      "power": 60.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "sandstorm",
+      "name": "Sandstorm",
+      "description": "Summons a sandstorm for 5 turns.",
+      "type": "rock",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "scary-face",
+      "name": "Scary Face",
+      "description": "Lowers the target's Speed stat by 2 stages.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "self-destruct",
+      "name": "Self-Destruct",
+      "description": "The user faints upon using this move.",
+      "type": "normal",
+      "power": 200.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "shadow-ball",
+      "name": "Shadow Ball",
+      "description": "Has a 20% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "ghost",
+      "power": 80.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "shadow-claw",
+      "name": "Shadow Claw",
+      "description": "This move has a 1-stage Critical-Hit Ratio Boost.",
+      "type": "ghost",
+      "power": 70.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "sleep-talk",
+      "name": "Sleep Talk",
+      "description": "Can be used only if the user is asleep. The user uses one of the other moves it knows at random.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "sludge-bomb",
+      "name": "Sludge Bomb",
+      "description": "Has a 30% chance of poisoning the target.",
+      "type": "poison",
+      "power": 90.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "snore",
+      "name": "Snore",
+      "description": "Can be used only if the user is asleep. Has a 30% chance of making the target flinch.",
+      "type": "normal",
+      "power": 50.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "stealth-rock",
+      "name": "Stealth Rock",
+      "description": "Gives the opponent's side the Stealth Rock status.",
+      "type": "rock",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "steel-beam",
+      "name": "Steel Beam",
+      "description": "After attacking the user takes damage equal to 1/2 of its max HP.",
+      "type": "steel",
+      "power": 140.0,
+      "damage_class": "special",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "steel-roller",
+      "name": "Steel Roller",
+      "description": "Removes any terrain. This move fails if there is no terrain on the field.",
+      "type": "steel",
+      "power": 130.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "stomping-tantrum",
+      "name": "Stomping Tantrum",
+      "description": "This move's power is doubled if the user couldn't act or its move missed or failed on the previous turn.",
+      "type": "ground",
+      "power": 75.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "stone-edge",
+      "name": "Stone Edge",
+      "description": "This move has a 1-stage Critical-Hit Ratio Boost.",
+      "type": "rock",
+      "power": 100.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "substitute",
+      "name": "Substitute",
+      "description": "The user loses 1/4 of its max HP to create a substitute. The substitute will be hit by moves instead of the user and it will vanish when it takes damage equal to 1/4 of the user's max HP.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "sunny-day",
+      "name": "Sunny Day",
+      "description": "Summons harsh sunlight for 5 turns.",
+      "type": "fire",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "swagger",
+      "name": "Swagger",
+      "description": "Boosts the target's Attack stat by 2 stages and confuses it.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "thunder-punch",
+      "name": "Thunder Punch",
+      "description": "Has a 10% chance of paralyzing the target.",
+      "type": "electric",
+      "power": 75.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "toxic",
+      "name": "Toxic",
+      "description": "Badly poisons the target. If the user is a Poison type this move will never miss.",
+      "type": "poison",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "trailblaze",
+      "name": "Trailblaze",
+      "description": "Boosts the user's Speed stat by 1 stage.",
+      "type": "grass",
+      "power": 50.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "trick",
+      "name": "Trick",
+      "description": "The user and the target swap their held items.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "priority": 0,
+      "percent": null
+    },
+    {
+      "slug": "zen-headbutt",
+      "name": "Zen Headbutt",
+      "description": "Has a 20% chance of making the target flinch.",
+      "type": "psychic",
+      "power": 80.0,
+      "damage_class": "physical",
+      "priority": 0,
+      "percent": null
+    }
+  ],
+  "teammates": []
+}

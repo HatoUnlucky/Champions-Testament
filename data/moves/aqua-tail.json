@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -82,8 +83,18 @@
       "percent": null
     },
     {
+      "display_name": "Dragalge",
+      "url": "pokemon/dragalge/",
+      "percent": null
+    },
+    {
       "display_name": "Dragonite",
       "url": "pokemon/dragonite/",
+      "percent": null
+    },
+    {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
       "percent": null
     },
     {
@@ -99,16 +110,6 @@
     {
       "display_name": "Gliscor",
       "url": "pokemon/gliscor/",
-      "percent": null
-    },
-    {
-      "display_name": "Goodra",
-      "url": "pokemon/goodra/",
-      "percent": null
-    },
-    {
-      "display_name": "Hisuian Samurott",
-      "url": "pokemon/hisuian-samurott/",
       "percent": null
     }
   ]

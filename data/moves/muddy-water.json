@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -102,13 +103,13 @@
       "percent": 0.1
     },
     {
-      "display_name": "Basculegion Male",
-      "url": "pokemon/basculegion-male/",
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
       "percent": null
     },
     {
-      "display_name": "Feraligatr",
-      "url": "pokemon/feraligatr/",
+      "display_name": "Basculegion Male",
+      "url": "pokemon/basculegion-male/",
       "percent": null
     }
   ]

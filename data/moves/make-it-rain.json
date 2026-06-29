@@ -1,0 +1,20 @@
+{
+  "slug": "make-it-rain",
+  "display_name": "Make It Rain",
+  "description": "Lowers the user's Sp. Atk stat by 2 stages.",
+  "type": "steel",
+  "power": 120.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Gholdengo",
+      "url": "pokemon/gholdengo/",
+      "percent": null
+    }
+  ]
+}

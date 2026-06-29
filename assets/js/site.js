@@ -91,7 +91,13 @@ document.addEventListener("DOMContentLoaded", () => {
         const [key, sortDirection] = moveSortValue.split("-");
         const left = numericAttribute(a, `data-${key}`);
         const right = numericAttribute(b, `data-${key}`);
-        return sortDirection === "asc" ? left - right : right - left;
+        const numericSort = sortDirection === "asc" ? left - right : right - left;
+        return (
+          numericSort ||
+          (a.dataset.damageClass || "").localeCompare(b.dataset.damageClass || "") ||
+          (a.dataset.moveType || "").localeCompare(b.dataset.moveType || "") ||
+          (a.dataset.name || "").localeCompare(b.dataset.name || "")
+        );
       }
 
       return (a.dataset.name || "").localeCompare(b.dataset.name || "");
@@ -109,6 +115,7 @@ document.addEventListener("DOMContentLoaded", () => {
   moveTypeFilter?.addEventListener("change", applyFilters);
   moveClassFilter?.addEventListener("change", applyFilters);
   moveSort?.addEventListener("change", applyFilters);
+  applyFilters();
 });
 
 document.addEventListener("DOMContentLoaded", () => {
@@ -158,31 +165,20 @@ document.addEventListener("DOMContentLoaded", () => {
       row.hidden = !(matchesType && matchesClass);
     });
 
-    const [key, direction] = (sort?.value || "usage-desc").split("-");
+    const sortValue = sort?.value || "alpha";
     [...rows]
       .sort((a, b) => {
+        if (sortValue === "alpha") {
+          return compareName(a, b);
+        }
+
+        const [key, direction] = sortValue.split("-");
         const left = rowValue(a, key);
         const right = rowValue(b, key);
-        if (key === "type") {
-          return (
-            compareText(left, right, direction) ||
-            compareText(rowValue(a, "class"), rowValue(b, "class"), "asc") ||
-            compareNumber(rowValue(a, "usage"), rowValue(b, "usage"), "desc") ||
-            compareName(a, b)
-          );
-        }
-        if (key === "class") {
-          return (
-            compareText(left, right, direction) ||
-            compareText(rowValue(a, "type"), rowValue(b, "type"), "asc") ||
-            compareNumber(rowValue(a, "usage"), rowValue(b, "usage"), "desc") ||
-            compareName(a, b)
-          );
-        }
         return (
           compareNumber(left, right, direction) ||
-          compareText(rowValue(a, "type"), rowValue(b, "type"), "asc") ||
           compareText(rowValue(a, "class"), rowValue(b, "class"), "asc") ||
+          compareText(rowValue(a, "type"), rowValue(b, "type"), "asc") ||
           compareName(a, b)
         );
       })

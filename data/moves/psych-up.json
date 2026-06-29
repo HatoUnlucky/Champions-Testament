@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -25,6 +26,11 @@
       "display_name": "Politoed",
       "url": "pokemon/politoed/",
       "percent": 13.3
+    },
+    {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": 12.0
     },
     {
       "display_name": "Mega Medicham",
@@ -105,11 +111,6 @@
       "display_name": "Milotic",
       "url": "pokemon/milotic/",
       "percent": 0.5
-    },
-    {
-      "display_name": "Mega Gardevoir",
-      "url": "pokemon/mega-gardevoir/",
-      "percent": 0.4
     }
   ]
 }

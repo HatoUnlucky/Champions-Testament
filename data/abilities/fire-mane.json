@@ -1,0 +1,20 @@
+{
+  "slug": "fire-mane",
+  "display_name": "Fire Mane",
+  "description": "",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Pyroar",
+      "url": "pokemon/mega-pyroar/",
+      "percent": null
+    }
+  ]
+}

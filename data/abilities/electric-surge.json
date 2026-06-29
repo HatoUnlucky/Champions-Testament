@@ -1,0 +1,20 @@
+{
+  "slug": "electric-surge",
+  "display_name": "Electric Surge",
+  "description": "when this pokémon enters battle, it changes the terrain to electric terrain.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Raichu X",
+      "url": "pokemon/mega-raichu-x/",
+      "percent": null
+    }
+  ]
+}

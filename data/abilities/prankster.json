@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -40,6 +41,11 @@
       "display_name": "Meowstic (Male)",
       "url": "pokemon/meowstic-male/",
       "percent": 97.1
+    },
+    {
+      "display_name": "Grimmsnarl",
+      "url": "pokemon/grimmsnarl/",
+      "percent": null
     }
   ]
 }

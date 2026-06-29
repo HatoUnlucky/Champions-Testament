@@ -8,12 +8,23 @@
   "priority": 0,
   "image": "Images/item_images/primary_images_by_category/mega-evolution/meowsticite_primary_image.png",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
       "display_name": "Meowstic (Female)",
       "url": "pokemon/meowstic-female/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Meowstic F Mega",
+      "url": "pokemon/meowstic-f-mega/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
       "percent": 100.0
     }
   ]

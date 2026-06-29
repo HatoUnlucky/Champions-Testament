@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -32,8 +33,23 @@
       "percent": 0.0
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
+      "percent": null
+    },
+    {
       "display_name": "Lucario",
       "url": "pokemon/lucario/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Barbaracle",
+      "url": "pokemon/mega-barbaracle/",
       "percent": null
     },
     {

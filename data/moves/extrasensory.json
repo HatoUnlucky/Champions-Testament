@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -74,6 +75,11 @@
     {
       "display_name": "Meowstic (Female)",
       "url": "pokemon/meowstic-female/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Meowstic F Mega",
+      "url": "pokemon/meowstic-f-mega/",
       "percent": 0.0
     },
     {

@@ -5,10 +5,11 @@
   "type": "normal",
   "power": null,
   "damage_class": "status",
-  "priority": 0,
+  "priority": -6,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -82,6 +83,11 @@
       "percent": null
     },
     {
+      "display_name": "Mega Staraptor",
+      "url": "pokemon/mega-staraptor/",
+      "percent": null
+    },
+    {
       "display_name": "Pidgeot",
       "url": "pokemon/pidgeot/",
       "percent": null
@@ -94,6 +100,11 @@
     {
       "display_name": "Snorlax",
       "url": "pokemon/snorlax/",
+      "percent": null
+    },
+    {
+      "display_name": "Staraptor",
+      "url": "pokemon/staraptor/",
       "percent": null
     }
   ]

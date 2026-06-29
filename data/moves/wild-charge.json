@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -20,6 +21,11 @@
       "display_name": "Arcanine",
       "url": "pokemon/arcanine/",
       "percent": 24.7
+    },
+    {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 23.8
     },
     {
       "display_name": "Emboar",
@@ -42,6 +48,11 @@
       "percent": 4.2
     },
     {
+      "display_name": "Tauros Paldea Aqua",
+      "url": "pokemon/tauros-paldea-aqua/",
+      "percent": 2.6
+    },
+    {
       "display_name": "Furfrou",
       "url": "pokemon/furfrou/",
       "percent": 1.7
@@ -59,6 +70,11 @@
     {
       "display_name": "Mega Manectric",
       "url": "pokemon/mega-manectric/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
       "percent": 0.0
     },
     {
@@ -82,6 +98,11 @@
       "percent": null
     },
     {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
+      "percent": null
+    },
+    {
       "display_name": "Emolga",
       "url": "pokemon/emolga/",
       "percent": null
@@ -89,26 +110,6 @@
     {
       "display_name": "Heliolisk",
       "url": "pokemon/heliolisk/",
-      "percent": null
-    },
-    {
-      "display_name": "Hisuian Typhlosion",
-      "url": "pokemon/hisuian-typhlosion/",
-      "percent": null
-    },
-    {
-      "display_name": "Jolteon",
-      "url": "pokemon/jolteon/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Ampharos",
-      "url": "pokemon/mega-ampharos/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Audino",
-      "url": "pokemon/mega-audino/",
       "percent": null
     }
   ]

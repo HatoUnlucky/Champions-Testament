@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -87,6 +88,16 @@
       "percent": 0.0
     },
     {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
+      "percent": null
+    },
+    {
+      "display_name": "Falinks",
+      "url": "pokemon/falinks/",
+      "percent": null
+    },
+    {
       "display_name": "Gliscor",
       "url": "pokemon/gliscor/",
       "percent": null
@@ -97,18 +108,8 @@
       "percent": null
     },
     {
-      "display_name": "Mega Hawlucha",
-      "url": "pokemon/mega-hawlucha/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Victreebel",
-      "url": "pokemon/mega-victreebel/",
-      "percent": null
-    },
-    {
-      "display_name": "Victreebel",
-      "url": "pokemon/victreebel/",
+      "display_name": "Malamar",
+      "url": "pokemon/malamar/",
       "percent": null
     }
   ]

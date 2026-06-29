@@ -35,6 +35,43 @@ def display_name(value):
     return str(value or "").replace("-", " ").title().replace("'S", "'s")
 
 
+def pokemon_display_name(slug):
+    parts = [part for part in slugify(slug).split("-") if part]
+    if not parts:
+        return "Unknown"
+
+    prefix_labels = {
+        "alolan": "Alolan",
+        "galarian": "Galarian",
+        "hisuian": "Hisuian",
+        "paldean": "Paldean",
+    }
+    suffix_labels = {
+        "female": "Female",
+        "male": "Male",
+        "totem": "Totem",
+        "gmax": "Gmax",
+    }
+    trailing_letters = {"x", "y", "z"}
+
+    if parts[0] == "mega":
+        name_parts = [display_name(part) for part in parts[1:]]
+        if name_parts and parts[-1] in trailing_letters:
+            name_parts[-1] = parts[-1].upper()
+        return " ".join(["Mega"] + name_parts).strip()
+
+    if parts[0] in prefix_labels and len(parts) > 1:
+        return " ".join([prefix_labels[parts[0]]] + [display_name(part) for part in parts[1:]])
+
+    if len(parts) > 1 and parts[-1] in suffix_labels:
+        return " ".join([display_name(part) for part in parts[:-1]] + [suffix_labels[parts[-1]]])
+
+    if len(parts) > 1 and parts[-1] in trailing_letters:
+        return " ".join([display_name(part) for part in parts[:-1]] + [parts[-1].upper()])
+
+    return display_name(slug)
+
+
 def percent(value):
     try:
         return round(float(value) * 100, 1)
@@ -112,6 +149,15 @@ def category_table_history(conn, regulation):
         entries.sort(key=lambda entry: entry["month"], reverse=True)
 
     return tables
+
+
+def parse_regulations(value):
+    regulations = []
+    for item in str(value or "").split(","):
+        regulation = item.strip().lower()
+        if regulation and regulation not in regulations:
+            regulations.append(regulation)
+    return regulations or ["ma", "mb"]
 
 
 def one_row(conn, table, slug):
@@ -367,6 +413,7 @@ def move_entries(conn, slug, regulation_table, usage_moves, move_lookup):
                     "type": details.get("type") or "",
                     "power": details.get("power"),
                     "damage_class": details.get("class") or "",
+                    "priority": details.get("priority") or 0,
                     "percent": usage_moves.get(str(move_slug), {}).get("percent"),
                 })
 
@@ -395,22 +442,115 @@ def teammate_entries(raw_map, pokemon_by_slug, limit=10):
     return entries[:limit]
 
 
-def pokemon_rows(conn, regulation):
-    regulation_table = f"regulation_{regulation}_pokemon"
-    if not table_exists(conn, regulation_table):
-        raise RuntimeError(f"Missing regulation table: {regulation_table}")
+def pokemon_rows(conn, regulations):
+    membership = {}
+    all_slugs = set()
 
-    return conn.execute(
+    for regulation in regulations:
+        regulation_table = f"regulation_{regulation}_pokemon"
+        if table_exists(conn, regulation_table):
+            slugs = {
+                row["pokemon_slug"]
+                for row in conn.execute(f'SELECT pokemon_slug FROM "{regulation_table}"')
+                if row["pokemon_slug"]
+            }
+        else:
+            raise RuntimeError(f"Missing regulation table: {regulation_table}")
+        membership[regulation] = slugs
+        all_slugs.update(slugs)
+
+    if not all_slugs:
+        return []
+
+    placeholders = ",".join("?" for _ in all_slugs)
+    key_rows = conn.execute(
         f"""
         SELECT p.*
         FROM key_pokemon p
-        JOIN "{regulation_table}" r
-          ON r.pokemon_slug = p.pokemon_slug
-        WHERE p.display_name IS NOT NULL
-          AND p.display_name <> ''
-        ORDER BY p.display_name
-        """
+        WHERE p.pokemon_slug IN ({placeholders})
+        ORDER BY COALESCE(NULLIF(p.display_name, ''), p.pokemon_slug)
+        """,
+        sorted(all_slugs),
     ).fetchall()
+    key_by_slug = {row["pokemon_slug"]: dict(row) for row in key_rows}
+
+    keyed_rows = []
+    for slug in sorted(all_slugs, key=lambda value: (key_by_slug.get(value) or {}).get("display_name") or value):
+        pokemon = key_by_slug.get(slug)
+        if not pokemon:
+            pokemon = {"pokemon_slug": slug}
+
+        pokemon["pokemon_slug"] = slug
+        if not pokemon.get("display_name"):
+            pokemon["display_name"] = pokemon_display_name(pokemon["pokemon_slug"])
+        if not pokemon.get("species_slug"):
+            pokemon["species_slug"] = slug
+        if not pokemon.get("sprite_slug"):
+            pokemon["sprite_slug"] = slug
+        if not pokemon.get("smogon_names"):
+            pokemon["smogon_names"] = slug
+        pokemon["regulations"] = [
+            regulation
+            for regulation in regulations
+            if pokemon["pokemon_slug"] in membership.get(regulation, set())
+        ]
+        keyed_rows.append(pokemon)
+
+    return keyed_rows
+
+
+def usage_bundle_for(conn, category_histories, row):
+    slug = row["pokemon_slug"]
+
+    for regulation in row["regulations"]:
+        history = category_histories.get(regulation, {})
+        ability_row, ability_month = first_category_row(conn, history, "abilities", slug, "abilities_json")
+        item_row, item_month = first_category_row(conn, history, "items", slug, "items_json")
+        move_row, move_month = first_category_row(conn, history, "moves", slug, "moves_json")
+        spread_row, spread_month = first_category_row(conn, history, "spreads", slug, "spreads_json")
+        teammate_row, teammate_month = first_category_row(conn, history, "teammates", slug, "teammates_json")
+        tera_row, tera_month = first_category_row(conn, history, "tera_types", slug, "tera_types_json")
+
+        if any([ability_row, item_row, move_row, spread_row, teammate_row, tera_row]):
+            return {
+                "regulation": regulation,
+                "rows": {
+                    "abilities": ability_row,
+                    "items": item_row,
+                    "moves": move_row,
+                    "spreads": spread_row,
+                    "teammates": teammate_row,
+                    "tera_types": tera_row,
+                },
+                "months": {
+                    "abilities": ability_month or "",
+                    "items": item_month or "",
+                    "moves": move_month or "",
+                    "spreads": spread_month or "",
+                    "teammates": teammate_month or "",
+                    "tera_types": tera_month or "",
+                },
+            }
+
+    return {
+        "regulation": row["regulations"][0] if row["regulations"] else "",
+        "rows": {
+            "abilities": None,
+            "items": None,
+            "moves": None,
+            "spreads": None,
+            "teammates": None,
+            "tera_types": None,
+        },
+        "months": {
+            "abilities": "",
+            "items": "",
+            "moves": "",
+            "spreads": "",
+            "teammates": "",
+            "tera_types": "",
+        },
+    }
 
 
 def write_json(path, payload):
@@ -476,7 +616,8 @@ def add_common_user(collection, entry, pokemon, image=None):
         "regulations": set(),
         "common_users": [],
     })
-    record["regulations"].add(pokemon["regulation"])
+    for regulation in pokemon.get("regulations") or [pokemon["regulation"]]:
+        record["regulations"].add(regulation)
     user = {
         "display_name": pokemon["display_name"],
         "url": f"pokemon/{pokemon['page_slug']}/",
@@ -497,12 +638,16 @@ def finalize_collection(root, section, collection):
         write_content(root / "content" / section / f"{slug}.md", record["display_name"], slug, section)
 
         summary_parts = []
-        if record.get("type"):
-            summary_parts.append(display_name(record["type"]))
-        if record.get("damage_class"):
-            summary_parts.append(display_name(record["damage_class"]))
-        if record.get("description"):
-            summary_parts.append(record["description"])
+        if section == "moves":
+            if record.get("description"):
+                summary_parts.append(record["description"])
+        else:
+            if record.get("type"):
+                summary_parts.append(display_name(record["type"]))
+            if record.get("damage_class"):
+                summary_parts.append(display_name(record["damage_class"]))
+            if record.get("description"):
+                summary_parts.append(record["description"])
 
         index.append({
             "display_name": record["display_name"],
@@ -511,6 +656,7 @@ def finalize_collection(root, section, collection):
             "image": record.get("image") or (f"Images/type_icons/{record['type']}.svg" if record.get("type") else ""),
             "regulations": record["regulations"],
             "summary": " | ".join(summary_parts[:2]),
+            "description": record.get("description") or "",
             "type": record.get("type") or "",
             "damage_class": record.get("damage_class") or "",
             "power": record.get("power") or 0,
@@ -523,14 +669,16 @@ def finalize_collection(root, section, collection):
 def build(args):
     database = Path(args.database).resolve()
     root = Path(args.root).resolve()
-    regulation = args.regulation.lower()
+    regulations = parse_regulations(args.regulations or args.regulation)
 
     conn = sqlite3.connect(database)
     conn.row_factory = sqlite3.Row
 
-    rows = pokemon_rows(conn, regulation)
-    category_history = category_table_history(conn, regulation)
-    regulation_table = f"regulation_{regulation}_pokemon"
+    rows = pokemon_rows(conn, regulations)
+    category_histories = {
+        regulation: category_table_history(conn, regulation)
+        for regulation in regulations
+    }
     ability_lookup = build_ability_lookup(conn)
     item_lookup = build_item_lookup(conn)
     move_lookup = build_move_lookup(conn)
@@ -562,7 +710,7 @@ def build(args):
             "slug": page_slug,
             "url": f"pokemon/{page_slug}/",
             "primary_image": base["primary_image"],
-            "regulations": [regulation],
+            "regulations": row["regulations"],
             "types": [
                 slugify(row[column])
                 for column in ["type1", "type2"]
@@ -585,12 +733,16 @@ def build(args):
         slug = row["pokemon_slug"]
         data_key = base["page_slug"]
 
-        ability_row, ability_month = first_category_row(conn, category_history, "abilities", slug, "abilities_json")
-        item_row, item_month = first_category_row(conn, category_history, "items", slug, "items_json")
-        move_row, move_month = first_category_row(conn, category_history, "moves", slug, "moves_json")
-        spread_row, spread_month = first_category_row(conn, category_history, "spreads", slug, "spreads_json")
-        teammate_row, teammate_month = first_category_row(conn, category_history, "teammates", slug, "teammates_json")
-        tera_row, tera_month = first_category_row(conn, category_history, "tera_types", slug, "tera_types_json")
+        usage_bundle = usage_bundle_for(conn, category_histories, row)
+        usage_regulation = usage_bundle["regulation"]
+        usage_rows = usage_bundle["rows"]
+        usage_months = usage_bundle["months"]
+        ability_row = usage_rows["abilities"]
+        item_row = usage_rows["items"]
+        move_row = usage_rows["moves"]
+        spread_row = usage_rows["spreads"]
+        teammate_row = usage_rows["teammates"]
+        tera_row = usage_rows["tera_types"]
         has_usage_data = any([ability_row, item_row, move_row, spread_row, teammate_row, tera_row])
 
         abilities = ranked_json_entries(
@@ -629,7 +781,9 @@ def build(args):
         data = {
             "pokemon_slug": slug,
             "display_name": row["display_name"],
-            "regulation": regulation,
+            "regulation": usage_regulation,
+            "regulations": row["regulations"],
+            "usage_regulation": usage_regulation if has_usage_data else "",
             "has_usage_data": has_usage_data,
             "usage": {
                 "percent": None,
@@ -637,14 +791,7 @@ def build(args):
                 "source_key": "",
                 "month": "",
             },
-            "data_months": {
-                "abilities": ability_month or "",
-                "items": item_month or "",
-                "moves": move_month or "",
-                "spreads": spread_month or "",
-                "teammates": teammate_month or "",
-                "tera_types": tera_month or "",
-            },
+            "data_months": usage_months,
             "primary_image": base["primary_image"],
             "secondary_image": pokemon_image(row, "secondary_image"),
             "types": type_values,
@@ -656,7 +803,13 @@ def build(args):
             "items": items,
             "spreads": spread_entries(read_json_map(spread_row["spreads_json"] if spread_row else None)),
             "tera_types": tera_type_entries(read_json_map(tera_row["tera_types_json"] if tera_row else None)),
-            "moves": move_entries(conn, slug, regulation_table, usage_moves, move_lookup),
+            "moves": move_entries(
+                conn,
+                slug,
+                f"regulation_{usage_regulation}_pokemon" if usage_regulation else None,
+                usage_moves,
+                move_lookup,
+            ),
             "teammates": teammate_entries(
                 read_json_map(teammate_row["teammates_json"] if teammate_row else None),
                 pokemon_by_slug,
@@ -674,7 +827,8 @@ def build(args):
         pokemon_ref = {
             "display_name": row["display_name"],
             "page_slug": data_key,
-            "regulation": regulation,
+            "regulation": usage_regulation or (row["regulations"][0] if row["regulations"] else ""),
+            "regulations": row["regulations"],
         }
         for ability in abilities:
             add_common_user(ability_pages, ability, pokemon_ref)
@@ -700,14 +854,15 @@ def build(args):
     finalize_collection(root, "moves", move_pages)
     finalize_collection(root, "abilities", ability_pages)
     conn.close()
-    print(f"Generated {len(rows)} Pokemon pages for regulation {regulation}.")
+    print(f"Generated {len(rows)} Pokemon pages for regulations {', '.join(regulations)}.")
 
 
 def main():
     parser = argparse.ArgumentParser(description="Build Hugo content from champions_key.db.")
     parser.add_argument("--database", default=str(ROOT / "champions_key.db"))
     parser.add_argument("--root", default=str(ROOT))
-    parser.add_argument("--regulation", default="ma")
+    parser.add_argument("--regulation", default="ma,mb")
+    parser.add_argument("--regulations")
     args = parser.parse_args()
     build(args)
 

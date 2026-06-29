@@ -8,9 +8,15 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 44.9
+    },
     {
       "display_name": "Hisuian Avalugg",
       "url": "pokemon/hisuian-avalugg/",

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -20,6 +21,11 @@
       "display_name": "Excadrill",
       "url": "pokemon/excadrill/",
       "percent": 92.9
+    },
+    {
+      "display_name": "Houndstone",
+      "url": "pokemon/houndstone/",
+      "percent": null
     }
   ]
 }

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -77,8 +78,23 @@
       "percent": 0.1
     },
     {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
+      "percent": null
+    },
+    {
       "display_name": "Espathra",
       "url": "pokemon/espathra/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Blaziken",
+      "url": "pokemon/mega-blaziken/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Staraptor",
+      "url": "pokemon/mega-staraptor/",
       "percent": null
     },
     {
@@ -89,6 +105,11 @@
     {
       "display_name": "Pidgeot",
       "url": "pokemon/pidgeot/",
+      "percent": null
+    },
+    {
+      "display_name": "Staraptor",
+      "url": "pokemon/staraptor/",
       "percent": null
     }
   ]

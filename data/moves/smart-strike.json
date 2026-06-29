@@ -8,9 +8,15 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
+    {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 0.3
+    },
     {
       "display_name": "Hisuian Samurott",
       "url": "pokemon/hisuian-samurott/",
@@ -27,6 +33,11 @@
       "percent": 0.0
     },
     {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 0.0
+    },
+    {
       "display_name": "Aggron",
       "url": "pokemon/aggron/",
       "percent": null
@@ -34,6 +45,11 @@
     {
       "display_name": "Ariados",
       "url": "pokemon/ariados/",
+      "percent": null
+    },
+    {
+      "display_name": "Falinks",
+      "url": "pokemon/falinks/",
       "percent": null
     },
     {
@@ -57,8 +73,23 @@
       "percent": null
     },
     {
+      "display_name": "Mega Falinks",
+      "url": "pokemon/mega-falinks/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Heracross",
       "url": "pokemon/mega-heracross/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Scolipede",
+      "url": "pokemon/mega-scolipede/",
+      "percent": null
+    },
+    {
+      "display_name": "Overqwil",
+      "url": "pokemon/overqwil/",
       "percent": null
     },
     {
@@ -69,6 +100,11 @@
     {
       "display_name": "Samurott",
       "url": "pokemon/samurott/",
+      "percent": null
+    },
+    {
+      "display_name": "Scolipede",
+      "url": "pokemon/scolipede/",
       "percent": null
     },
     {

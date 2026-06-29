@@ -5,10 +5,11 @@
   "type": "normal",
   "power": null,
   "damage_class": "status",
-  "priority": 0,
+  "priority": 2,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {

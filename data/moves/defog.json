@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -34,6 +35,11 @@
     {
       "display_name": "Beedrill",
       "url": "pokemon/beedrill/",
+      "percent": null
+    },
+    {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
       "percent": null
     },
     {
@@ -104,11 +110,6 @@
     {
       "display_name": "Heat Rotom",
       "url": "pokemon/heat-rotom/",
-      "percent": null
-    },
-    {
-      "display_name": "Hisuian Decidueye",
-      "url": "pokemon/hisuian-decidueye/",
       "percent": null
     }
   ]

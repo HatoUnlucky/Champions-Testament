@@ -5,10 +5,11 @@
   "type": "fighting",
   "power": null,
   "damage_class": "status",
-  "priority": 0,
+  "priority": 3,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -67,6 +68,11 @@
       "percent": 0.8
     },
     {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": 0.7
+    },
+    {
       "display_name": "Toxicroak",
       "url": "pokemon/toxicroak/",
       "percent": 0.7
@@ -105,11 +111,6 @@
       "display_name": "Lycanroc (Midday)",
       "url": "pokemon/lycanroc-midday/",
       "percent": 0.0
-    },
-    {
-      "display_name": "Lucario",
-      "url": "pokemon/lucario/",
-      "percent": null
     }
   ]
 }

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -42,6 +43,11 @@
       "percent": null
     },
     {
+      "display_name": "Malamar",
+      "url": "pokemon/malamar/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Chimecho",
       "url": "pokemon/mega-chimecho/",
       "percent": null
@@ -49,6 +55,11 @@
     {
       "display_name": "Mega Dragonite",
       "url": "pokemon/mega-dragonite/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Malamar",
+      "url": "pokemon/mega-malamar/",
       "percent": null
     },
     {

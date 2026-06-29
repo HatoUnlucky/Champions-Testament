@@ -8,13 +8,19 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
       "display_name": "Scizor",
       "url": "pokemon/scizor/",
       "percent": 0.0
+    },
+    {
+      "display_name": "Metagross",
+      "url": "pokemon/metagross/",
+      "percent": null
     }
   ]
 }

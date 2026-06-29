@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -92,6 +93,11 @@
       "percent": null
     },
     {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
+      "percent": null
+    },
+    {
       "display_name": "Beedrill",
       "url": "pokemon/beedrill/",
       "percent": null
@@ -104,11 +110,6 @@
     {
       "display_name": "Crabominable",
       "url": "pokemon/crabominable/",
-      "percent": null
-    },
-    {
-      "display_name": "Diggersby",
-      "url": "pokemon/diggersby/",
       "percent": null
     }
   ]

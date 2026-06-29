@@ -5,7 +5,8 @@
     "url": "pokemon/abomasnow/",
     "primary_image": "Images/pokemon_sprites/by_species/abomasnow/abomasnow/abomasnow_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -29,7 +30,8 @@
     "url": "pokemon/absol/",
     "primary_image": "Images/pokemon_sprites/by_species/absol/absol/absol_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dark"
@@ -50,9 +52,10 @@
     "display_name": "Aegislash",
     "slug": "aegislash",
     "url": "pokemon/aegislash/",
-    "primary_image": "Images/pokemon_sprites/by_species/None/aegislash-shield/aegislash_primary_image.png",
+    "primary_image": "Images/pokemon_sprites/by_species/aegislash/aegislash-shield/aegislash_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "steel",
@@ -76,7 +79,8 @@
     "url": "pokemon/aerodactyl/",
     "primary_image": "Images/pokemon_sprites/by_species/aerodactyl/aerodactyl/aerodactyl_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock",
@@ -100,7 +104,8 @@
     "url": "pokemon/aggron/",
     "primary_image": "Images/pokemon_sprites/by_species/aggron/aggron/aggron_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "steel",
@@ -124,7 +129,8 @@
     "url": "pokemon/alakazam/",
     "primary_image": "Images/pokemon_sprites/by_species/alakazam/alakazam/alakazam_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic"
@@ -147,7 +153,8 @@
     "url": "pokemon/alcremie/",
     "primary_image": "Images/pokemon_sprites/by_species/alcremie/alcremie/alcremie_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fairy"
@@ -170,7 +177,8 @@
     "url": "pokemon/alolan-ninetales/",
     "primary_image": "Images/pokemon_sprites/by_species/ninetales/ninetales-alola/ninetales-alola_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ice",
@@ -194,7 +202,8 @@
     "url": "pokemon/alolan-raichu/",
     "primary_image": "Images/pokemon_sprites/by_species/raichu/raichu-alola/raichu-alola_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric",
@@ -218,7 +227,8 @@
     "url": "pokemon/altaria/",
     "primary_image": "Images/pokemon_sprites/by_species/altaria/altaria/altaria_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dragon",
@@ -242,7 +252,8 @@
     "url": "pokemon/ampharos/",
     "primary_image": "Images/pokemon_sprites/by_species/ampharos/ampharos/ampharos_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric"
@@ -260,12 +271,37 @@
     "summary": "Electric | Usage data available"
   },
   {
+    "display_name": "Annihilape",
+    "slug": "annihilape",
+    "url": "pokemon/annihilape/",
+    "primary_image": "Images/pokemon_sprites/by_species/annihilape/annihilape/annihilape_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "fighting",
+      "ghost"
+    ],
+    "stats": {
+      "total": 535,
+      "hp": 110,
+      "attack": 115,
+      "defense": 80,
+      "special_attack": 50,
+      "special_defense": 90,
+      "speed": 90
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Appletun",
     "slug": "appletun",
     "url": "pokemon/appletun/",
     "primary_image": "Images/pokemon_sprites/by_species/appletun/appletun/appletun_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -289,7 +325,8 @@
     "url": "pokemon/araquanid/",
     "primary_image": "Images/pokemon_sprites/by_species/araquanid/araquanid/araquanid_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -313,7 +350,8 @@
     "url": "pokemon/arbok/",
     "primary_image": "Images/pokemon_sprites/by_species/arbok/arbok/arbok_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "poison"
@@ -336,7 +374,8 @@
     "url": "pokemon/arcanine/",
     "primary_image": "Images/pokemon_sprites/by_species/arcanine/arcanine/arcanine_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire"
@@ -359,7 +398,8 @@
     "url": "pokemon/archaludon/",
     "primary_image": "Images/pokemon_sprites/by_species/archaludon/archaludon/archaludon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "steel",
@@ -383,7 +423,8 @@
     "url": "pokemon/ariados/",
     "primary_image": "Images/pokemon_sprites/by_species/ariados/ariados/ariados_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug",
@@ -407,7 +448,8 @@
     "url": "pokemon/armarouge/",
     "primary_image": "Images/pokemon_sprites/by_species/armarouge/armarouge/armarouge_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -431,7 +473,8 @@
     "url": "pokemon/aromatisse/",
     "primary_image": "Images/pokemon_sprites/by_species/aromatisse/aromatisse/aromatisse_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fairy"
@@ -454,7 +497,8 @@
     "url": "pokemon/audino/",
     "primary_image": "Images/pokemon_sprites/by_species/audino/audino/audino_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal"
@@ -477,7 +521,8 @@
     "url": "pokemon/aurorus/",
     "primary_image": "Images/pokemon_sprites/by_species/aurorus/aurorus/aurorus_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock",
@@ -501,7 +546,8 @@
     "url": "pokemon/avalugg/",
     "primary_image": "Images/pokemon_sprites/by_species/avalugg/avalugg/avalugg_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ice"
@@ -524,7 +570,8 @@
     "url": "pokemon/azumarill/",
     "primary_image": "Images/pokemon_sprites/by_species/azumarill/azumarill/azumarill_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -548,7 +595,8 @@
     "url": "pokemon/banette/",
     "primary_image": "Images/pokemon_sprites/by_species/banette/banette/banette_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ghost"
@@ -566,12 +614,37 @@
     "summary": "No usage data"
   },
   {
+    "display_name": "Barbaracle",
+    "slug": "barbaracle",
+    "url": "pokemon/barbaracle/",
+    "primary_image": "Images/pokemon_sprites/by_species/barbaracle/barbaracle/barbaracle_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "rock",
+      "water"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 72,
+      "attack": 105,
+      "defense": 115,
+      "special_attack": 54,
+      "special_defense": 86,
+      "speed": 68
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Basculegion (Female)",
     "slug": "basculegion-female",
     "url": "pokemon/basculegion-female/",
     "primary_image": "Images/pokemon_sprites/by_species/basculegion/basculegion-female/basculegion-female_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -595,7 +668,8 @@
     "url": "pokemon/basculegion-male/",
     "primary_image": "",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -619,7 +693,8 @@
     "url": "pokemon/bastiodon/",
     "primary_image": "Images/pokemon_sprites/by_species/bastiodon/bastiodon/bastiodon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock",
@@ -643,7 +718,8 @@
     "url": "pokemon/beartic/",
     "primary_image": "Images/pokemon_sprites/by_species/beartic/beartic/beartic_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ice"
@@ -666,7 +742,8 @@
     "url": "pokemon/beedrill/",
     "primary_image": "Images/pokemon_sprites/by_species/beedrill/beedrill/beedrill_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug",
@@ -690,7 +767,8 @@
     "url": "pokemon/bellibolt/",
     "primary_image": "Images/pokemon_sprites/by_species/bellibolt/bellibolt/bellibolt_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric"
@@ -713,7 +791,8 @@
     "url": "pokemon/blastoise/",
     "primary_image": "Images/pokemon_sprites/by_species/blastoise/blastoise/blastoise_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water"
@@ -731,12 +810,37 @@
     "summary": "Water | Usage data available"
   },
   {
+    "display_name": "Blaziken",
+    "slug": "blaziken",
+    "url": "pokemon/blaziken/",
+    "primary_image": "Images/pokemon_sprites/by_species/blaziken/blaziken/blaziken_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 80,
+      "attack": 120,
+      "defense": 70,
+      "special_attack": 110,
+      "special_defense": 70,
+      "speed": 80
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Camerupt",
     "slug": "camerupt",
     "url": "pokemon/camerupt/",
     "primary_image": "Images/pokemon_sprites/by_species/camerupt/camerupt/camerupt_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -760,7 +864,8 @@
     "url": "pokemon/castform/",
     "primary_image": "Images/pokemon_sprites/by_species/castform/castform/castform_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal"
@@ -783,7 +888,8 @@
     "url": "pokemon/ceruledge/",
     "primary_image": "Images/pokemon_sprites/by_species/ceruledge/ceruledge/ceruledge_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -807,7 +913,8 @@
     "url": "pokemon/chandelure/",
     "primary_image": "Images/pokemon_sprites/by_species/chandelure/chandelure/chandelure_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ghost",
@@ -831,7 +938,8 @@
     "url": "pokemon/charizard/",
     "primary_image": "Images/pokemon_sprites/by_species/charizard/charizard/charizard_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -855,7 +963,8 @@
     "url": "pokemon/chesnaught/",
     "primary_image": "Images/pokemon_sprites/by_species/chesnaught/chesnaught/chesnaught_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -879,7 +988,8 @@
     "url": "pokemon/chimecho/",
     "primary_image": "Images/pokemon_sprites/by_species/chimecho/chimecho/chimecho_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic"
@@ -902,7 +1012,8 @@
     "url": "pokemon/clawitzer/",
     "primary_image": "Images/pokemon_sprites/by_species/clawitzer/clawitzer/clawitzer_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water"
@@ -925,7 +1036,8 @@
     "url": "pokemon/clefable/",
     "primary_image": "Images/pokemon_sprites/by_species/clefable/clefable/clefable_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fairy"
@@ -948,7 +1060,8 @@
     "url": "pokemon/cofagrigus/",
     "primary_image": "Images/pokemon_sprites/by_species/cofagrigus/cofagrigus/cofagrigus_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ghost"
@@ -971,7 +1084,8 @@
     "url": "pokemon/conkeldurr/",
     "primary_image": "Images/pokemon_sprites/by_species/conkeldurr/conkeldurr/conkeldurr_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting"
@@ -994,7 +1108,8 @@
     "url": "pokemon/corviknight/",
     "primary_image": "Images/pokemon_sprites/by_species/corviknight/corviknight/corviknight_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "flying",
@@ -1018,7 +1133,8 @@
     "url": "pokemon/crabominable/",
     "primary_image": "Images/pokemon_sprites/by_species/crabominable/crabominable/crabominable_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting",
@@ -1042,7 +1158,8 @@
     "url": "pokemon/decidueye/",
     "primary_image": "Images/pokemon_sprites/by_species/decidueye/decidueye/decidueye_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -1066,7 +1183,8 @@
     "url": "pokemon/dedenne/",
     "primary_image": "Images/pokemon_sprites/by_species/dedenne/dedenne/dedenne_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric",
@@ -1090,7 +1208,8 @@
     "url": "pokemon/delphox/",
     "primary_image": "Images/pokemon_sprites/by_species/delphox/delphox/delphox_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -1114,7 +1233,8 @@
     "url": "pokemon/diggersby/",
     "primary_image": "Images/pokemon_sprites/by_species/diggersby/diggersby/diggersby_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal",
@@ -1138,7 +1258,8 @@
     "url": "pokemon/ditto/",
     "primary_image": "Images/pokemon_sprites/by_species/ditto/ditto/ditto_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal"
@@ -1156,12 +1277,37 @@
     "summary": "Normal | Usage data available"
   },
   {
+    "display_name": "Dragalge",
+    "slug": "dragalge",
+    "url": "pokemon/dragalge/",
+    "primary_image": "Images/pokemon_sprites/by_species/dragalge/dragalge/dragalge_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "stats": {
+      "total": 494,
+      "hp": 65,
+      "attack": 75,
+      "defense": 90,
+      "special_attack": 97,
+      "special_defense": 123,
+      "speed": 44
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Dragapult",
     "slug": "dragapult",
     "url": "pokemon/dragapult/",
     "primary_image": "Images/pokemon_sprites/by_species/dragapult/dragapult/dragapult_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dragon",
@@ -1185,7 +1331,8 @@
     "url": "pokemon/dragonite/",
     "primary_image": "Images/pokemon_sprites/by_species/dragonite/dragonite/dragonite_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dragon",
@@ -1209,7 +1356,8 @@
     "url": "pokemon/drampa/",
     "primary_image": "Images/pokemon_sprites/by_species/drampa/drampa/drampa_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal",
@@ -1228,12 +1376,36 @@
     "summary": "Normal / Dragon | Usage data available"
   },
   {
+    "display_name": "Eelektross",
+    "slug": "eelektross",
+    "url": "pokemon/eelektross/",
+    "primary_image": "Images/pokemon_sprites/by_species/eelektross/eelektross/eelektross_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "total": 515,
+      "hp": 85,
+      "attack": 115,
+      "defense": 80,
+      "special_attack": 105,
+      "special_defense": 80,
+      "speed": 50
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Emboar",
     "slug": "emboar",
     "url": "pokemon/emboar/",
     "primary_image": "Images/pokemon_sprites/by_species/emboar/emboar/emboar_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -1257,7 +1429,8 @@
     "url": "pokemon/emolga/",
     "primary_image": "Images/pokemon_sprites/by_species/emolga/emolga/emolga_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric",
@@ -1281,7 +1454,8 @@
     "url": "pokemon/empoleon/",
     "primary_image": "Images/pokemon_sprites/by_species/empoleon/empoleon/empoleon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -1305,7 +1479,8 @@
     "url": "pokemon/espathra/",
     "primary_image": "Images/pokemon_sprites/by_species/espathra/espathra/espathra_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic"
@@ -1328,7 +1503,8 @@
     "url": "pokemon/espeon/",
     "primary_image": "Images/pokemon_sprites/by_species/espeon/espeon/espeon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic"
@@ -1351,7 +1527,8 @@
     "url": "pokemon/excadrill/",
     "primary_image": "Images/pokemon_sprites/by_species/excadrill/excadrill/excadrill_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground",
@@ -1370,12 +1547,36 @@
     "summary": "Ground / Steel | Usage data available"
   },
   {
+    "display_name": "Falinks",
+    "slug": "falinks",
+    "url": "pokemon/falinks/",
+    "primary_image": "Images/pokemon_sprites/by_species/falinks/falinks/falinks_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "total": 470,
+      "hp": 65,
+      "attack": 100,
+      "defense": 100,
+      "special_attack": 70,
+      "special_defense": 60,
+      "speed": 75
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Fan Rotom",
     "slug": "fan-rotom",
     "url": "pokemon/fan-rotom/",
     "primary_image": "Images/pokemon_sprites/by_species/rotom/rotom-fan/rotom-fan_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric",
@@ -1399,7 +1600,8 @@
     "url": "pokemon/farigiraf/",
     "primary_image": "Images/pokemon_sprites/by_species/farigiraf/farigiraf/farigiraf_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal",
@@ -1423,7 +1625,8 @@
     "url": "pokemon/feraligatr/",
     "primary_image": "Images/pokemon_sprites/by_species/feraligatr/feraligatr/feraligatr_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water"
@@ -1446,7 +1649,8 @@
     "url": "pokemon/flapple/",
     "primary_image": "Images/pokemon_sprites/by_species/flapple/flapple/flapple_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -1470,7 +1674,8 @@
     "url": "pokemon/flareon/",
     "primary_image": "Images/pokemon_sprites/by_species/flareon/flareon/flareon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire"
@@ -1493,7 +1698,8 @@
     "url": "pokemon/floette-eternal/",
     "primary_image": "Images/pokemon_sprites/by_species/floette/floette-eternal/floette-eternal_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fairy"
@@ -1516,7 +1722,8 @@
     "url": "pokemon/florges/",
     "primary_image": "Images/pokemon_sprites/by_species/florges/florges/florges_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fairy"
@@ -1539,7 +1746,8 @@
     "url": "pokemon/forretress/",
     "primary_image": "Images/pokemon_sprites/by_species/forretress/forretress/forretress_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug",
@@ -1563,7 +1771,8 @@
     "url": "pokemon/froslass/",
     "primary_image": "Images/pokemon_sprites/by_species/froslass/froslass/froslass_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ice",
@@ -1587,7 +1796,8 @@
     "url": "pokemon/frost-rotom/",
     "primary_image": "Images/pokemon_sprites/by_species/rotom/rotom-frost/rotom-frost_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric",
@@ -1611,7 +1821,8 @@
     "url": "pokemon/furfrou/",
     "primary_image": "Images/pokemon_sprites/by_species/furfrou/furfrou/furfrou_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal"
@@ -1634,7 +1845,8 @@
     "url": "pokemon/galarian-slowbro/",
     "primary_image": "Images/pokemon_sprites/by_species/slowbro/slowbro-galar/slowbro-galar_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "poison",
@@ -1658,7 +1870,8 @@
     "url": "pokemon/galarian-slowking/",
     "primary_image": "Images/pokemon_sprites/by_species/slowking/slowking-galar/slowking-galar_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "poison",
@@ -1682,7 +1895,8 @@
     "url": "pokemon/galarian-stunfisk/",
     "primary_image": "Images/pokemon_sprites/by_species/stunfisk/stunfisk-galar/stunfisk-galar_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground",
@@ -1706,7 +1920,8 @@
     "url": "pokemon/gallade/",
     "primary_image": "Images/pokemon_sprites/by_species/gallade/gallade/gallade_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic",
@@ -1730,7 +1945,8 @@
     "url": "pokemon/garbodor/",
     "primary_image": "Images/pokemon_sprites/by_species/garbodor/garbodor/garbodor_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "poison"
@@ -1753,7 +1969,8 @@
     "url": "pokemon/garchomp/",
     "primary_image": "Images/pokemon_sprites/by_species/garchomp/garchomp/garchomp_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dragon",
@@ -1777,7 +1994,8 @@
     "url": "pokemon/gardevoir/",
     "primary_image": "Images/pokemon_sprites/by_species/gardevoir/gardevoir/gardevoir_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic",
@@ -1801,7 +2019,8 @@
     "url": "pokemon/garganacl/",
     "primary_image": "Images/pokemon_sprites/by_species/garganacl/garganacl/garganacl_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock"
@@ -1824,7 +2043,8 @@
     "url": "pokemon/gengar/",
     "primary_image": "Images/pokemon_sprites/by_species/gengar/gengar/gengar_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ghost",
@@ -1843,12 +2063,37 @@
     "summary": "Ghost / Poison | Usage data available"
   },
   {
+    "display_name": "Gholdengo",
+    "slug": "gholdengo",
+    "url": "pokemon/gholdengo/",
+    "primary_image": "Images/pokemon_sprites/by_species/gholdengo/gholdengo/gholdengo_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "stats": {
+      "total": 550,
+      "hp": 87,
+      "attack": 60,
+      "defense": 95,
+      "special_attack": 133,
+      "special_defense": 91,
+      "speed": 84
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Glaceon",
     "slug": "glaceon",
     "url": "pokemon/glaceon/",
     "primary_image": "Images/pokemon_sprites/by_species/glaceon/glaceon/glaceon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ice"
@@ -1871,7 +2116,8 @@
     "url": "pokemon/glalie/",
     "primary_image": "Images/pokemon_sprites/by_species/glalie/glalie/glalie_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ice"
@@ -1894,7 +2140,8 @@
     "url": "pokemon/glimmora/",
     "primary_image": "Images/pokemon_sprites/by_species/glimmora/glimmora/glimmora_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock",
@@ -1918,7 +2165,8 @@
     "url": "pokemon/gliscor/",
     "primary_image": "Images/pokemon_sprites/by_species/gliscor/gliscor/gliscor_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground",
@@ -1942,7 +2190,8 @@
     "url": "pokemon/golurk/",
     "primary_image": "Images/pokemon_sprites/by_species/golurk/golurk/golurk_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground",
@@ -1966,7 +2215,8 @@
     "url": "pokemon/goodra/",
     "primary_image": "Images/pokemon_sprites/by_species/goodra/goodra/goodra_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dragon"
@@ -1987,9 +2237,10 @@
     "display_name": "Gourgeist",
     "slug": "gourgeist",
     "url": "pokemon/gourgeist/",
-    "primary_image": "Images/pokemon_sprites/by_species/None/gourgeist-average/gourgeist_primary_image.png",
+    "primary_image": "Images/pokemon_sprites/by_species/gourgeist/gourgeist-average/gourgeist_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ghost",
@@ -2013,7 +2264,8 @@
     "url": "pokemon/greninja/",
     "primary_image": "Images/pokemon_sprites/by_species/greninja/greninja/greninja_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -2032,12 +2284,37 @@
     "summary": "Water / Dark | Usage data available"
   },
   {
+    "display_name": "Grimmsnarl",
+    "slug": "grimmsnarl",
+    "url": "pokemon/grimmsnarl/",
+    "primary_image": "Images/pokemon_sprites/by_species/grimmsnarl/grimmsnarl/grimmsnarl_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "dark",
+      "fairy"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 95,
+      "attack": 120,
+      "defense": 65,
+      "special_attack": 95,
+      "special_defense": 75,
+      "speed": 60
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Gyarados",
     "slug": "gyarados",
     "url": "pokemon/gyarados/",
     "primary_image": "Images/pokemon_sprites/by_species/gyarados/gyarados/gyarados_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -2061,7 +2338,8 @@
     "url": "pokemon/hatterene/",
     "primary_image": "Images/pokemon_sprites/by_species/hatterene/hatterene/hatterene_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic",
@@ -2085,7 +2363,8 @@
     "url": "pokemon/hawlucha/",
     "primary_image": "Images/pokemon_sprites/by_species/hawlucha/hawlucha/hawlucha_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting",
@@ -2109,7 +2388,8 @@
     "url": "pokemon/heat-rotom/",
     "primary_image": "Images/pokemon_sprites/by_species/rotom/rotom-heat/rotom-heat_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric",
@@ -2133,7 +2413,8 @@
     "url": "pokemon/heliolisk/",
     "primary_image": "Images/pokemon_sprites/by_species/heliolisk/heliolisk/heliolisk_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric",
@@ -2157,7 +2438,8 @@
     "url": "pokemon/heracross/",
     "primary_image": "Images/pokemon_sprites/by_species/heracross/heracross/heracross_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug",
@@ -2181,7 +2463,8 @@
     "url": "pokemon/hippowdon/",
     "primary_image": "Images/pokemon_sprites/by_species/hippowdon/hippowdon/hippowdon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground"
@@ -2204,7 +2487,8 @@
     "url": "pokemon/hisuian-arcanine/",
     "primary_image": "Images/pokemon_sprites/by_species/arcanine/arcanine-hisui/arcanine-hisui_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -2228,7 +2512,8 @@
     "url": "pokemon/hisuian-avalugg/",
     "primary_image": "Images/pokemon_sprites/by_species/avalugg/avalugg-hisui/avalugg-hisui_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ice",
@@ -2252,7 +2537,8 @@
     "url": "pokemon/hisuian-decidueye/",
     "primary_image": "Images/pokemon_sprites/by_species/decidueye/decidueye-hisui/decidueye-hisui_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -2276,7 +2562,8 @@
     "url": "pokemon/hisuian-goodra/",
     "primary_image": "Images/pokemon_sprites/by_species/goodra/goodra-hisui/goodra-hisui_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "steel",
@@ -2300,7 +2587,8 @@
     "url": "pokemon/hisuian-samurott/",
     "primary_image": "Images/pokemon_sprites/by_species/samurott/samurott-hisui/samurott-hisui_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -2324,7 +2612,8 @@
     "url": "pokemon/hisuian-typhlosion/",
     "primary_image": "Images/pokemon_sprites/by_species/typhlosion/typhlosion-hisui/typhlosion-hisui_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -2348,7 +2637,8 @@
     "url": "pokemon/hisuian-zoroark/",
     "primary_image": "Images/pokemon_sprites/by_species/zoroark/zoroark-hisui/zoroark-hisui_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal",
@@ -2372,7 +2662,8 @@
     "url": "pokemon/houndoom/",
     "primary_image": "Images/pokemon_sprites/by_species/houndoom/houndoom/houndoom_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dark",
@@ -2391,12 +2682,36 @@
     "summary": "Dark / Fire | Usage data available"
   },
   {
+    "display_name": "Houndstone",
+    "slug": "houndstone",
+    "url": "pokemon/houndstone/",
+    "primary_image": "Images/pokemon_sprites/by_species/houndstone/houndstone/houndstone_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "ghost"
+    ],
+    "stats": {
+      "total": 488,
+      "hp": 72,
+      "attack": 101,
+      "defense": 100,
+      "special_attack": 50,
+      "special_defense": 97,
+      "speed": 68
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Hydrapple",
     "slug": "hydrapple",
     "url": "pokemon/hydrapple/",
     "primary_image": "Images/pokemon_sprites/by_species/hydrapple/hydrapple/hydrapple_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -2420,7 +2735,8 @@
     "url": "pokemon/hydreigon/",
     "primary_image": "Images/pokemon_sprites/by_species/hydreigon/hydreigon/hydreigon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dark",
@@ -2444,7 +2760,8 @@
     "url": "pokemon/incineroar/",
     "primary_image": "Images/pokemon_sprites/by_species/incineroar/incineroar/incineroar_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -2468,7 +2785,8 @@
     "url": "pokemon/infernape/",
     "primary_image": "Images/pokemon_sprites/by_species/infernape/infernape/infernape_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -2492,7 +2810,8 @@
     "url": "pokemon/jolteon/",
     "primary_image": "Images/pokemon_sprites/by_species/jolteon/jolteon/jolteon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric"
@@ -2515,7 +2834,8 @@
     "url": "pokemon/kangaskhan/",
     "primary_image": "Images/pokemon_sprites/by_species/kangaskhan/kangaskhan/kangaskhan_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal"
@@ -2538,7 +2858,8 @@
     "url": "pokemon/kingambit/",
     "primary_image": "Images/pokemon_sprites/by_species/kingambit/kingambit/kingambit_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dark",
@@ -2562,7 +2883,8 @@
     "url": "pokemon/kleavor/",
     "primary_image": "Images/pokemon_sprites/by_species/kleavor/kleavor/kleavor_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug",
@@ -2586,7 +2908,8 @@
     "url": "pokemon/klefki/",
     "primary_image": "Images/pokemon_sprites/by_species/klefki/klefki/klefki_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "steel",
@@ -2610,7 +2933,8 @@
     "url": "pokemon/kommo-o/",
     "primary_image": "Images/pokemon_sprites/by_species/kommo-o/kommo-o/kommo-o_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dragon",
@@ -2634,7 +2958,8 @@
     "url": "pokemon/krookodile/",
     "primary_image": "Images/pokemon_sprites/by_species/krookodile/krookodile/krookodile_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground",
@@ -2658,7 +2983,8 @@
     "url": "pokemon/leafeon/",
     "primary_image": "Images/pokemon_sprites/by_species/leafeon/leafeon/leafeon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass"
@@ -2681,7 +3007,8 @@
     "url": "pokemon/liepard/",
     "primary_image": "Images/pokemon_sprites/by_species/liepard/liepard/liepard_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dark"
@@ -2704,7 +3031,8 @@
     "url": "pokemon/lopunny/",
     "primary_image": "Images/pokemon_sprites/by_species/lopunny/lopunny/lopunny_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal"
@@ -2727,7 +3055,8 @@
     "url": "pokemon/lucario/",
     "primary_image": "Images/pokemon_sprites/by_species/lucario/lucario/lucario_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting",
@@ -2751,7 +3080,8 @@
     "url": "pokemon/luxray/",
     "primary_image": "Images/pokemon_sprites/by_species/luxray/luxray/luxray_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric"
@@ -2774,7 +3104,8 @@
     "url": "pokemon/lycanroc-dusk/",
     "primary_image": "Images/pokemon_sprites/by_species/lycanroc/lycanroc-dusk/lycanroc-dusk_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock"
@@ -2797,7 +3128,8 @@
     "url": "pokemon/lycanroc-midday/",
     "primary_image": "Images/pokemon_sprites/by_species/lycanroc/lycanroc-midday/lycanroc-midday_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock"
@@ -2820,7 +3152,8 @@
     "url": "pokemon/lycanroc-midnight/",
     "primary_image": "Images/pokemon_sprites/by_species/lycanroc/lycanroc-midnight/lycanroc-midnight_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock"
@@ -2843,7 +3176,8 @@
     "url": "pokemon/machamp/",
     "primary_image": "Images/pokemon_sprites/by_species/machamp/machamp/machamp_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting"
@@ -2861,12 +3195,37 @@
     "summary": "Fighting | Usage data available"
   },
   {
+    "display_name": "Malamar",
+    "slug": "malamar",
+    "url": "pokemon/malamar/",
+    "primary_image": "Images/pokemon_sprites/by_species/malamar/malamar/malamar_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "stats": {
+      "total": 482,
+      "hp": 86,
+      "attack": 92,
+      "defense": 88,
+      "special_attack": 68,
+      "special_defense": 75,
+      "speed": 73
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mamoswine",
     "slug": "mamoswine",
     "url": "pokemon/mamoswine/",
     "primary_image": "Images/pokemon_sprites/by_species/mamoswine/mamoswine/mamoswine_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ice",
@@ -2890,7 +3249,8 @@
     "url": "pokemon/manectric/",
     "primary_image": "Images/pokemon_sprites/by_species/manectric/manectric/manectric_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric"
@@ -2911,9 +3271,10 @@
     "display_name": "Maushold",
     "slug": "maushold",
     "url": "pokemon/maushold/",
-    "primary_image": "Images/pokemon_sprites/by_species/None/maushold-family-of-four/maushold_primary_image.png",
+    "primary_image": "Images/pokemon_sprites/by_species/maushold/maushold-family-of-four/maushold_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "n"
@@ -2931,12 +3292,37 @@
     "summary": "N | Usage data available"
   },
   {
+    "display_name": "Mawile",
+    "slug": "mawile",
+    "url": "pokemon/mawile/",
+    "primary_image": "Images/pokemon_sprites/by_species/mawile/mawile/mawile_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "stats": {
+      "total": 380,
+      "hp": 50,
+      "attack": 85,
+      "defense": 85,
+      "special_attack": 55,
+      "special_defense": 55,
+      "speed": 50
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Medicham",
     "slug": "medicham",
     "url": "pokemon/medicham/",
     "primary_image": "Images/pokemon_sprites/by_species/medicham/medicham/medicham_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting",
@@ -2960,7 +3346,8 @@
     "url": "pokemon/mega-abomasnow/",
     "primary_image": "Images/pokemon_sprites/by_species/abomasnow/abomasnow-mega/abomasnow-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -2984,7 +3371,8 @@
     "url": "pokemon/mega-absol/",
     "primary_image": "Images/pokemon_sprites/by_species/absol/absol-mega/absol-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dark"
@@ -3007,7 +3395,8 @@
     "url": "pokemon/mega-aerodactyl/",
     "primary_image": "Images/pokemon_sprites/by_species/aerodactyl/aerodactyl-mega/aerodactyl-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock",
@@ -3031,7 +3420,8 @@
     "url": "pokemon/mega-aggron/",
     "primary_image": "Images/pokemon_sprites/by_species/aggron/aggron-mega/aggron-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "steel"
@@ -3054,7 +3444,8 @@
     "url": "pokemon/mega-alakazam/",
     "primary_image": "Images/pokemon_sprites/by_species/alakazam/alakazam-mega/alakazam-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic"
@@ -3077,7 +3468,8 @@
     "url": "pokemon/mega-altaria/",
     "primary_image": "Images/pokemon_sprites/by_species/altaria/altaria-mega/altaria-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dragon",
@@ -3101,7 +3493,8 @@
     "url": "pokemon/mega-ampharos/",
     "primary_image": "Images/pokemon_sprites/by_species/ampharos/ampharos-mega/ampharos-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric",
@@ -3125,7 +3518,8 @@
     "url": "pokemon/mega-audino/",
     "primary_image": "Images/pokemon_sprites/by_species/audino/audino-mega/audino-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal",
@@ -3149,7 +3543,8 @@
     "url": "pokemon/mega-banette/",
     "primary_image": "Images/pokemon_sprites/by_species/banette/banette-mega/banette-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ghost"
@@ -3167,12 +3562,37 @@
     "summary": "Ghost | Usage data available"
   },
   {
+    "display_name": "Mega Barbaracle",
+    "slug": "mega-barbaracle",
+    "url": "pokemon/mega-barbaracle/",
+    "primary_image": "Images/pokemon_sprites/by_species/barbaracle/barbaracle-mega/barbaracle-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "rock",
+      "fighting"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 72,
+      "attack": 140,
+      "defense": 130,
+      "special_attack": 64,
+      "special_defense": 106,
+      "speed": 88
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Beedrill",
     "slug": "mega-beedrill",
     "url": "pokemon/mega-beedrill/",
     "primary_image": "Images/pokemon_sprites/by_species/beedrill/beedrill-mega/beedrill-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug",
@@ -3196,7 +3616,8 @@
     "url": "pokemon/mega-blastoise/",
     "primary_image": "Images/pokemon_sprites/by_species/blastoise/blastoise-mega/blastoise-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water"
@@ -3214,12 +3635,37 @@
     "summary": "Water | Usage data available"
   },
   {
+    "display_name": "Mega Blaziken",
+    "slug": "mega-blaziken",
+    "url": "pokemon/mega-blaziken/",
+    "primary_image": "Images/pokemon_sprites/by_species/blaziken/blaziken-mega/blaziken-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "stats": {
+      "total": 630,
+      "hp": 80,
+      "attack": 160,
+      "defense": 80,
+      "special_attack": 130,
+      "special_defense": 80,
+      "speed": 100
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Camerupt",
     "slug": "mega-camerupt",
     "url": "pokemon/mega-camerupt/",
     "primary_image": "Images/pokemon_sprites/by_species/camerupt/camerupt-mega/camerupt-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -3243,7 +3689,8 @@
     "url": "pokemon/mega-chandelure/",
     "primary_image": "Images/pokemon_sprites/by_species/chandelure/chandelure-mega/chandelure-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ghost",
@@ -3267,7 +3714,8 @@
     "url": "pokemon/mega-charizard-x/",
     "primary_image": "Images/pokemon_sprites/by_species/charizard/charizard-mega-x/charizard-mega-x_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -3291,7 +3739,8 @@
     "url": "pokemon/mega-charizard-y/",
     "primary_image": "Images/pokemon_sprites/by_species/charizard/charizard-mega-y/charizard-mega-y_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -3315,7 +3764,8 @@
     "url": "pokemon/mega-chesnaught/",
     "primary_image": "Images/pokemon_sprites/by_species/chesnaught/chesnaught-mega/chesnaught-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -3339,7 +3789,8 @@
     "url": "pokemon/mega-chimecho/",
     "primary_image": "Images/pokemon_sprites/by_species/chimecho/chimecho-mega/chimecho-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic",
@@ -3363,7 +3814,8 @@
     "url": "pokemon/mega-clefable/",
     "primary_image": "Images/pokemon_sprites/by_species/clefable/clefable-mega/clefable-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fairy",
@@ -3387,7 +3839,8 @@
     "url": "pokemon/mega-crabominable/",
     "primary_image": "Images/pokemon_sprites/by_species/crabominable/crabominable-mega/crabominable-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting",
@@ -3411,7 +3864,8 @@
     "url": "pokemon/mega-delphox/",
     "primary_image": "Images/pokemon_sprites/by_species/delphox/delphox-mega/delphox-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -3430,12 +3884,37 @@
     "summary": "Fire / Psychic | Usage data available"
   },
   {
+    "display_name": "Mega Dragalge",
+    "slug": "mega-dragalge",
+    "url": "pokemon/mega-dragalge/",
+    "primary_image": "Images/pokemon_sprites/by_species/dragalge/dragalge-mega/dragalge-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "poison",
+      "dragon"
+    ],
+    "stats": {
+      "total": 594,
+      "hp": 65,
+      "attack": 85,
+      "defense": 105,
+      "special_attack": 132,
+      "special_defense": 163,
+      "speed": 44
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Dragonite",
     "slug": "mega-dragonite",
     "url": "pokemon/mega-dragonite/",
     "primary_image": "Images/pokemon_sprites/by_species/dragonite/dragonite-mega/dragonite-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dragon",
@@ -3459,7 +3938,8 @@
     "url": "pokemon/mega-drampa/",
     "primary_image": "Images/pokemon_sprites/by_species/drampa/drampa-mega/drampa-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal",
@@ -3478,12 +3958,36 @@
     "summary": "Normal / Dragon | Usage data available"
   },
   {
+    "display_name": "Mega Eelektross",
+    "slug": "mega-eelektross",
+    "url": "pokemon/mega-eelektross/",
+    "primary_image": "Images/pokemon_sprites/by_species/eelektross/eelektross-mega/eelektross-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "total": 615,
+      "hp": 85,
+      "attack": 145,
+      "defense": 80,
+      "special_attack": 135,
+      "special_defense": 90,
+      "speed": 80
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Emboar",
     "slug": "mega-emboar",
     "url": "pokemon/mega-emboar/",
     "primary_image": "Images/pokemon_sprites/by_species/emboar/emboar-mega/emboar-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -3507,7 +4011,8 @@
     "url": "pokemon/mega-excadrill/",
     "primary_image": "Images/pokemon_sprites/by_species/excadrill/excadrill-mega/excadrill-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground",
@@ -3526,12 +4031,36 @@
     "summary": "Ground / Steel | Usage data available"
   },
   {
+    "display_name": "Mega Falinks",
+    "slug": "mega-falinks",
+    "url": "pokemon/mega-falinks/",
+    "primary_image": "Images/pokemon_sprites/by_species/falinks/falinks-mega/falinks-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "total": 570,
+      "hp": 65,
+      "attack": 135,
+      "defense": 135,
+      "special_attack": 70,
+      "special_defense": 65,
+      "speed": 100
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Feraligatr",
     "slug": "mega-feraligatr",
     "url": "pokemon/mega-feraligatr/",
     "primary_image": "Images/pokemon_sprites/by_species/feraligatr/feraligatr-mega/feraligatr-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -3555,7 +4084,8 @@
     "url": "pokemon/mega-floette/",
     "primary_image": "Images/pokemon_sprites/by_species/floette/floette-mega/floette-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fairy"
@@ -3578,7 +4108,8 @@
     "url": "pokemon/mega-froslass/",
     "primary_image": "Images/pokemon_sprites/by_species/froslass/froslass-mega/froslass-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ice",
@@ -3602,7 +4133,8 @@
     "url": "pokemon/mega-gallade/",
     "primary_image": "Images/pokemon_sprites/by_species/gallade/gallade-mega/gallade-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic",
@@ -3626,7 +4158,8 @@
     "url": "pokemon/mega-garchomp/",
     "primary_image": "Images/pokemon_sprites/by_species/garchomp/garchomp-mega/garchomp-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dragon",
@@ -3650,7 +4183,8 @@
     "url": "pokemon/mega-gardevoir/",
     "primary_image": "Images/pokemon_sprites/by_species/gardevoir/gardevoir-mega/gardevoir-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic",
@@ -3674,7 +4208,8 @@
     "url": "pokemon/mega-gengar/",
     "primary_image": "Images/pokemon_sprites/by_species/gengar/gengar-mega/gengar-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ghost",
@@ -3698,7 +4233,8 @@
     "url": "pokemon/mega-glalie/",
     "primary_image": "Images/pokemon_sprites/by_species/glalie/glalie-mega/glalie-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ice"
@@ -3721,7 +4257,8 @@
     "url": "pokemon/mega-glimmora/",
     "primary_image": "Images/pokemon_sprites/by_species/glimmora/glimmora-mega/glimmora-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock",
@@ -3745,7 +4282,8 @@
     "url": "pokemon/mega-golurk/",
     "primary_image": "Images/pokemon_sprites/by_species/golurk/golurk-mega/golurk-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground",
@@ -3769,7 +4307,8 @@
     "url": "pokemon/mega-greninja/",
     "primary_image": "Images/pokemon_sprites/by_species/greninja/greninja-mega/greninja-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -3793,7 +4332,8 @@
     "url": "pokemon/mega-gyarados/",
     "primary_image": "Images/pokemon_sprites/by_species/gyarados/gyarados-mega/gyarados-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -3817,7 +4357,8 @@
     "url": "pokemon/mega-hawlucha/",
     "primary_image": "Images/pokemon_sprites/by_species/hawlucha/hawlucha-mega/hawlucha-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting",
@@ -3841,7 +4382,8 @@
     "url": "pokemon/mega-heracross/",
     "primary_image": "Images/pokemon_sprites/by_species/heracross/heracross-mega/heracross-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug",
@@ -3865,7 +4407,8 @@
     "url": "pokemon/mega-houndoom/",
     "primary_image": "Images/pokemon_sprites/by_species/houndoom/houndoom-mega/houndoom-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dark",
@@ -3889,7 +4432,8 @@
     "url": "pokemon/mega-kangaskhan/",
     "primary_image": "Images/pokemon_sprites/by_species/kangaskhan/kangaskhan-mega/kangaskhan-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal"
@@ -3912,7 +4456,8 @@
     "url": "pokemon/mega-lopunny/",
     "primary_image": "Images/pokemon_sprites/by_species/lopunny/lopunny-mega/lopunny-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal",
@@ -3936,7 +4481,8 @@
     "url": "pokemon/mega-lucario/",
     "primary_image": "Images/pokemon_sprites/by_species/lucario/lucario-mega/lucario-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting",
@@ -3955,12 +4501,37 @@
     "summary": "Fighting / Steel | Usage data available"
   },
   {
+    "display_name": "Mega Malamar",
+    "slug": "mega-malamar",
+    "url": "pokemon/mega-malamar/",
+    "primary_image": "Images/pokemon_sprites/by_species/malamar/malamar-mega/malamar-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "dark",
+      "psychic"
+    ],
+    "stats": {
+      "total": 582,
+      "hp": 86,
+      "attack": 102,
+      "defense": 88,
+      "special_attack": 98,
+      "special_defense": 120,
+      "speed": 88
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Manectric",
     "slug": "mega-manectric",
     "url": "pokemon/mega-manectric/",
     "primary_image": "Images/pokemon_sprites/by_species/manectric/manectric-mega/manectric-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric"
@@ -3978,12 +4549,37 @@
     "summary": "Electric | Usage data available"
   },
   {
+    "display_name": "Mega Mawile",
+    "slug": "mega-mawile",
+    "url": "pokemon/mega-mawile/",
+    "primary_image": "Images/pokemon_sprites/by_species/mawile/mawile-mega/mawile-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "stats": {
+      "total": 480,
+      "hp": 50,
+      "attack": 105,
+      "defense": 125,
+      "special_attack": 55,
+      "special_defense": 95,
+      "speed": 50
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Medicham",
     "slug": "mega-medicham",
     "url": "pokemon/mega-medicham/",
     "primary_image": "Images/pokemon_sprites/by_species/medicham/medicham-mega/medicham-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting",
@@ -4007,7 +4603,8 @@
     "url": "pokemon/mega-meganium/",
     "primary_image": "Images/pokemon_sprites/by_species/meganium/meganium-mega/meganium-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -4026,12 +4623,37 @@
     "summary": "Grass / Fairy | Usage data available"
   },
   {
+    "display_name": "Mega Metagross",
+    "slug": "mega-metagross",
+    "url": "pokemon/mega-metagross/",
+    "primary_image": "Images/pokemon_sprites/by_species/metagross/metagross-mega/metagross-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "stats": {
+      "total": 700,
+      "hp": 80,
+      "attack": 145,
+      "defense": 150,
+      "special_attack": 105,
+      "special_defense": 110,
+      "speed": 110
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Pidgeot",
     "slug": "mega-pidgeot",
     "url": "pokemon/mega-pidgeot/",
     "primary_image": "Images/pokemon_sprites/by_species/pidgeot/pidgeot-mega/pidgeot-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal",
@@ -4055,7 +4677,8 @@
     "url": "pokemon/mega-pinsir/",
     "primary_image": "Images/pokemon_sprites/by_species/pinsir/pinsir-mega/pinsir-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug",
@@ -4074,12 +4697,83 @@
     "summary": "Bug / Flying | Usage data available"
   },
   {
+    "display_name": "Mega Pyroar",
+    "slug": "mega-pyroar",
+    "url": "pokemon/mega-pyroar/",
+    "primary_image": "Images/pokemon_sprites/by_species/pyroar/pyroar-mega/pyroar-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "stats": {
+      "total": 607,
+      "hp": 86,
+      "attack": 88,
+      "defense": 92,
+      "special_attack": 129,
+      "special_defense": 86,
+      "speed": 126
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
+    "display_name": "Mega Raichu X",
+    "slug": "mega-raichu-x",
+    "url": "pokemon/mega-raichu-x/",
+    "primary_image": "Images/pokemon_sprites/by_species/raichu/raichu-mega-x/raichu-mega-x_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "total": 585,
+      "hp": 60,
+      "attack": 135,
+      "defense": 95,
+      "special_attack": 90,
+      "special_defense": 95,
+      "speed": 110
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
+    "display_name": "Mega Raichu Y",
+    "slug": "mega-raichu-y",
+    "url": "pokemon/mega-raichu-y/",
+    "primary_image": "Images/pokemon_sprites/by_species/raichu/raichu-mega-y/raichu-mega-y_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "total": 585,
+      "hp": 60,
+      "attack": 100,
+      "defense": 55,
+      "special_attack": 160,
+      "special_defense": 80,
+      "speed": 130
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Sableye",
     "slug": "mega-sableye",
     "url": "pokemon/mega-sableye/",
     "primary_image": "Images/pokemon_sprites/by_species/sableye/sableye-mega/sableye-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dark",
@@ -4098,12 +4792,37 @@
     "summary": "Dark / Ghost | Usage data available"
   },
   {
+    "display_name": "Mega Sceptile",
+    "slug": "mega-sceptile",
+    "url": "pokemon/mega-sceptile/",
+    "primary_image": "Images/pokemon_sprites/by_species/sceptile/sceptile-mega/sceptile-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "stats": {
+      "total": 630,
+      "hp": 70,
+      "attack": 110,
+      "defense": 75,
+      "special_attack": 145,
+      "special_defense": 85,
+      "speed": 145
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Scizor",
     "slug": "mega-scizor",
     "url": "pokemon/mega-scizor/",
     "primary_image": "Images/pokemon_sprites/by_species/scizor/scizor-mega/scizor-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug",
@@ -4122,12 +4841,37 @@
     "summary": "Bug / Steel | Usage data available"
   },
   {
+    "display_name": "Mega Scolipede",
+    "slug": "mega-scolipede",
+    "url": "pokemon/mega-scolipede/",
+    "primary_image": "Images/pokemon_sprites/by_species/scolipede/scolipede-mega/scolipede-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "total": 585,
+      "hp": 60,
+      "attack": 140,
+      "defense": 149,
+      "special_attack": 75,
+      "special_defense": 99,
+      "speed": 62
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Scovillain",
     "slug": "mega-scovillain",
     "url": "pokemon/mega-scovillain/",
     "primary_image": "Images/pokemon_sprites/by_species/scovillain/scovillain-mega/scovillain-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -4146,12 +4890,37 @@
     "summary": "Grass / Fire | Usage data available"
   },
   {
+    "display_name": "Mega Scrafty",
+    "slug": "mega-scrafty",
+    "url": "pokemon/mega-scrafty/",
+    "primary_image": "Images/pokemon_sprites/by_species/scrafty/scrafty-mega/scrafty-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "stats": {
+      "total": 588,
+      "hp": 65,
+      "attack": 130,
+      "defense": 135,
+      "special_attack": 55,
+      "special_defense": 135,
+      "speed": 68
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Sharpedo",
     "slug": "mega-sharpedo",
     "url": "pokemon/mega-sharpedo/",
     "primary_image": "Images/pokemon_sprites/by_species/sharpedo/sharpedo-mega/sharpedo-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -4175,7 +4944,8 @@
     "url": "pokemon/mega-skarmory/",
     "primary_image": "Images/pokemon_sprites/by_species/skarmory/skarmory-mega/skarmory-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "steel",
@@ -4199,7 +4969,8 @@
     "url": "pokemon/mega-slowbro/",
     "primary_image": "Images/pokemon_sprites/by_species/slowbro/slowbro-mega/slowbro-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -4218,12 +4989,37 @@
     "summary": "Water / Psychic | Usage data available"
   },
   {
+    "display_name": "Mega Staraptor",
+    "slug": "mega-staraptor",
+    "url": "pokemon/mega-staraptor/",
+    "primary_image": "Images/pokemon_sprites/by_species/staraptor/staraptor-mega/staraptor-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "stats": {
+      "total": 585,
+      "hp": 85,
+      "attack": 140,
+      "defense": 100,
+      "special_attack": 60,
+      "special_defense": 90,
+      "speed": 110
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Starmie",
     "slug": "mega-starmie",
     "url": "pokemon/mega-starmie/",
     "primary_image": "Images/pokemon_sprites/by_species/starmie/starmie-mega/starmie-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -4247,7 +5043,8 @@
     "url": "pokemon/mega-steelix/",
     "primary_image": "Images/pokemon_sprites/by_species/steelix/steelix-mega/steelix-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "steel",
@@ -4266,12 +5063,37 @@
     "summary": "Steel / Ground | Usage data available"
   },
   {
+    "display_name": "Mega Swampert",
+    "slug": "mega-swampert",
+    "url": "pokemon/mega-swampert/",
+    "primary_image": "Images/pokemon_sprites/by_species/swampert/swampert-mega/swampert-mega_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "water",
+      "ground"
+    ],
+    "stats": {
+      "total": 635,
+      "hp": 100,
+      "attack": 150,
+      "defense": 110,
+      "special_attack": 95,
+      "special_defense": 110,
+      "speed": 70
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Mega Tyranitar",
     "slug": "mega-tyranitar",
     "url": "pokemon/mega-tyranitar/",
     "primary_image": "Images/pokemon_sprites/by_species/tyranitar/tyranitar-mega/tyranitar-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock",
@@ -4295,7 +5117,8 @@
     "url": "pokemon/mega-venusaur/",
     "primary_image": "Images/pokemon_sprites/by_species/venusaur/venusaur-mega/venusaur-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -4319,7 +5142,8 @@
     "url": "pokemon/mega-victreebel/",
     "primary_image": "Images/pokemon_sprites/by_species/victreebel/victreebel-mega/victreebel-mega_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -4343,7 +5167,8 @@
     "url": "pokemon/meganium/",
     "primary_image": "Images/pokemon_sprites/by_species/meganium/meganium/meganium_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass"
@@ -4366,7 +5191,8 @@
     "url": "pokemon/meowscarada/",
     "primary_image": "Images/pokemon_sprites/by_species/meowscarada/meowscarada/meowscarada_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -4390,7 +5216,8 @@
     "url": "pokemon/meowstic-female/",
     "primary_image": "Images/pokemon_sprites/by_species/meowstic/meowstic-female/meowstic-female_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic"
@@ -4413,7 +5240,8 @@
     "url": "pokemon/meowstic-male/",
     "primary_image": "Images/pokemon_sprites/by_species/meowstic/meowstic-male/meowstic-male_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic"
@@ -4431,12 +5259,85 @@
     "summary": "Psychic | Usage data available"
   },
   {
+    "display_name": "Meowstic F Mega",
+    "slug": "meowstic-f-mega",
+    "url": "pokemon/meowstic-f-mega/",
+    "primary_image": "",
+    "regulations": [
+      "ma",
+      "mb"
+    ],
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "total": 566,
+      "hp": 74,
+      "attack": 48,
+      "defense": 76,
+      "special_attack": 143,
+      "special_defense": 101,
+      "speed": 124
+    },
+    "has_usage_data": true,
+    "summary": "Psychic | Usage data available"
+  },
+  {
+    "display_name": "Meowstic M Mega",
+    "slug": "meowstic-m-mega",
+    "url": "pokemon/meowstic-m-mega/",
+    "primary_image": "",
+    "regulations": [
+      "ma",
+      "mb"
+    ],
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "total": 566,
+      "hp": 74,
+      "attack": 48,
+      "defense": 76,
+      "special_attack": 143,
+      "special_defense": 101,
+      "speed": 124
+    },
+    "has_usage_data": true,
+    "summary": "Psychic | Usage data available"
+  },
+  {
+    "display_name": "Metagross",
+    "slug": "metagross",
+    "url": "pokemon/metagross/",
+    "primary_image": "Images/pokemon_sprites/by_species/metagross/metagross/metagross_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "steel",
+      "psychic"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 80,
+      "attack": 135,
+      "defense": 130,
+      "special_attack": 95,
+      "special_defense": 90,
+      "speed": 70
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Milotic",
     "slug": "milotic",
     "url": "pokemon/milotic/",
     "primary_image": "Images/pokemon_sprites/by_species/milotic/milotic/milotic_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water"
@@ -4457,9 +5358,10 @@
     "display_name": "Mimikyu",
     "slug": "mimikyu",
     "url": "pokemon/mimikyu/",
-    "primary_image": "Images/pokemon_sprites/by_species/None/mimikyu-disguised/mimikyu_primary_image.png",
+    "primary_image": "Images/pokemon_sprites/by_species/mimikyu/mimikyu-disguised/mimikyu_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ghost",
@@ -4481,9 +5383,10 @@
     "display_name": "Morpeko",
     "slug": "morpeko",
     "url": "pokemon/morpeko/",
-    "primary_image": "Images/pokemon_sprites/by_species/None/morpeko-full-belly/morpeko_primary_image.png",
+    "primary_image": "Images/pokemon_sprites/by_species/morpeko/morpeko-full-belly/morpeko_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric",
@@ -4507,7 +5410,8 @@
     "url": "pokemon/mow-rotom/",
     "primary_image": "Images/pokemon_sprites/by_species/rotom/rotom-mow/rotom-mow_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric",
@@ -4526,12 +5430,38 @@
     "summary": "Electric / Grass | Usage data available"
   },
   {
+    "display_name": "Mr.Rime",
+    "slug": "mr-rime",
+    "url": "pokemon/mr-rime/",
+    "primary_image": "",
+    "regulations": [
+      "ma",
+      "mb"
+    ],
+    "types": [
+      "ice",
+      "psychic"
+    ],
+    "stats": {
+      "total": 520,
+      "hp": 80,
+      "attack": 85,
+      "defense": 75,
+      "special_attack": 110,
+      "special_defense": 100,
+      "speed": 70
+    },
+    "has_usage_data": true,
+    "summary": "Ice / Psychic | Usage data available"
+  },
+  {
     "display_name": "Mudsdale",
     "slug": "mudsdale",
     "url": "pokemon/mudsdale/",
     "primary_image": "Images/pokemon_sprites/by_species/mudsdale/mudsdale/mudsdale_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground"
@@ -4549,12 +5479,36 @@
     "summary": "Ground | Usage data available"
   },
   {
+    "display_name": "Musharna",
+    "slug": "musharna",
+    "url": "pokemon/musharna/",
+    "primary_image": "Images/pokemon_sprites/by_species/musharna/musharna/musharna_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "total": 487,
+      "hp": 116,
+      "attack": 55,
+      "defense": 85,
+      "special_attack": 107,
+      "special_defense": 95,
+      "speed": 29
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Ninetales",
     "slug": "ninetales",
     "url": "pokemon/ninetales/",
     "primary_image": "Images/pokemon_sprites/by_species/ninetales/ninetales/ninetales_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire"
@@ -4577,7 +5531,8 @@
     "url": "pokemon/noivern/",
     "primary_image": "Images/pokemon_sprites/by_species/noivern/noivern/noivern_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "flying",
@@ -4601,7 +5556,8 @@
     "url": "pokemon/oranguru/",
     "primary_image": "Images/pokemon_sprites/by_species/oranguru/oranguru/oranguru_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal",
@@ -4625,7 +5581,8 @@
     "url": "pokemon/orthworm/",
     "primary_image": "Images/pokemon_sprites/by_species/orthworm/orthworm/orthworm_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "steel"
@@ -4643,12 +5600,37 @@
     "summary": "Steel | Usage data available"
   },
   {
+    "display_name": "Overqwil",
+    "slug": "overqwil",
+    "url": "pokemon/overqwil/",
+    "primary_image": "Images/pokemon_sprites/by_species/overqwil/overqwil/overqwil_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "dark",
+      "poison"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 85,
+      "attack": 115,
+      "defense": 95,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 85
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Palafin",
     "slug": "palafin",
     "url": "pokemon/palafin/",
-    "primary_image": "Images/pokemon_sprites/by_species/None/palafin-zero/palafin_primary_image.png",
+    "primary_image": "Images/pokemon_sprites/by_species/palafin/palafin-zero/palafin_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "w"
@@ -4671,7 +5653,8 @@
     "url": "pokemon/pangoro/",
     "primary_image": "Images/pokemon_sprites/by_species/pangoro/pangoro/pangoro_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting",
@@ -4695,7 +5678,8 @@
     "url": "pokemon/passimian/",
     "primary_image": "Images/pokemon_sprites/by_species/passimian/passimian/passimian_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting"
@@ -4718,7 +5702,8 @@
     "url": "pokemon/pelipper/",
     "primary_image": "Images/pokemon_sprites/by_species/pelipper/pelipper/pelipper_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -4742,7 +5727,8 @@
     "url": "pokemon/pidgeot/",
     "primary_image": "Images/pokemon_sprites/by_species/pidgeot/pidgeot/pidgeot_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal",
@@ -4766,7 +5752,8 @@
     "url": "pokemon/pikachu/",
     "primary_image": "Images/pokemon_sprites/by_species/pikachu/pikachu/pikachu_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric"
@@ -4789,7 +5776,8 @@
     "url": "pokemon/pinsir/",
     "primary_image": "Images/pokemon_sprites/by_species/pinsir/pinsir/pinsir_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug"
@@ -4812,7 +5800,8 @@
     "url": "pokemon/politoed/",
     "primary_image": "Images/pokemon_sprites/by_species/politoed/politoed/politoed_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water"
@@ -4835,7 +5824,8 @@
     "url": "pokemon/polteageist/",
     "primary_image": "Images/pokemon_sprites/by_species/polteageist/polteageist/polteageist_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ghost"
@@ -4858,7 +5848,8 @@
     "url": "pokemon/primarina/",
     "primary_image": "Images/pokemon_sprites/by_species/primarina/primarina/primarina_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -4877,12 +5868,61 @@
     "summary": "Water / Fairy | Usage data available"
   },
   {
+    "display_name": "Pyroar (Male)",
+    "slug": "pyroar-male",
+    "url": "pokemon/pyroar-male/",
+    "primary_image": "Images/pokemon_sprites/by_species/pyroar/pyroar-male/pyroar-male_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "stats": {
+      "total": 507,
+      "hp": 86,
+      "attack": 68,
+      "defense": 72,
+      "special_attack": 109,
+      "special_defense": 66,
+      "speed": 106
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
+    "display_name": "Pyroar Female",
+    "slug": "pyroar-female",
+    "url": "pokemon/pyroar-female/",
+    "primary_image": "",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "fire",
+      "normal"
+    ],
+    "stats": {
+      "total": 507,
+      "hp": 86,
+      "attack": 68,
+      "defense": 72,
+      "special_attack": 109,
+      "special_defense": 66,
+      "speed": 106
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Quaquaval",
     "slug": "quaquaval",
     "url": "pokemon/quaquaval/",
     "primary_image": "Images/pokemon_sprites/by_species/quaquaval/quaquaval/quaquaval_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -4901,12 +5941,37 @@
     "summary": "Water / Fighting | Usage data available"
   },
   {
+    "display_name": "Qwilfish",
+    "slug": "qwilfish",
+    "url": "pokemon/qwilfish/",
+    "primary_image": "Images/pokemon_sprites/by_species/qwilfish/qwilfish/qwilfish_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "water",
+      "poison"
+    ],
+    "stats": {
+      "total": 440,
+      "hp": 65,
+      "attack": 95,
+      "defense": 85,
+      "special_attack": 55,
+      "special_defense": 55,
+      "speed": 85
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Raichu",
     "slug": "raichu",
     "url": "pokemon/raichu/",
     "primary_image": "Images/pokemon_sprites/by_species/raichu/raichu/raichu_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric"
@@ -4929,7 +5994,8 @@
     "url": "pokemon/rampardos/",
     "primary_image": "Images/pokemon_sprites/by_species/rampardos/rampardos/rampardos_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock"
@@ -4952,7 +6018,8 @@
     "url": "pokemon/reuniclus/",
     "primary_image": "Images/pokemon_sprites/by_species/reuniclus/reuniclus/reuniclus_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "psychic"
@@ -4975,7 +6042,8 @@
     "url": "pokemon/rhyperior/",
     "primary_image": "Images/pokemon_sprites/by_species/rhyperior/rhyperior/rhyperior_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground",
@@ -4999,7 +6067,8 @@
     "url": "pokemon/roserade/",
     "primary_image": "Images/pokemon_sprites/by_species/roserade/roserade/roserade_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -5023,7 +6092,8 @@
     "url": "pokemon/rotom/",
     "primary_image": "Images/pokemon_sprites/by_species/rotom/rotom/rotom_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric",
@@ -5047,7 +6117,8 @@
     "url": "pokemon/runerigus/",
     "primary_image": "Images/pokemon_sprites/by_species/runerigus/runerigus/runerigus_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground",
@@ -5071,7 +6142,8 @@
     "url": "pokemon/sableye/",
     "primary_image": "Images/pokemon_sprites/by_species/sableye/sableye/sableye_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dark",
@@ -5095,7 +6167,8 @@
     "url": "pokemon/salazzle/",
     "primary_image": "Images/pokemon_sprites/by_species/salazzle/salazzle/salazzle_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "poison",
@@ -5119,7 +6192,8 @@
     "url": "pokemon/samurott/",
     "primary_image": "Images/pokemon_sprites/by_species/samurott/samurott/samurott_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water"
@@ -5142,7 +6216,8 @@
     "url": "pokemon/sandaconda/",
     "primary_image": "Images/pokemon_sprites/by_species/sandaconda/sandaconda/sandaconda_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground"
@@ -5160,12 +6235,36 @@
     "summary": "Ground | Usage data available"
   },
   {
+    "display_name": "Sceptile",
+    "slug": "sceptile",
+    "url": "pokemon/sceptile/",
+    "primary_image": "Images/pokemon_sprites/by_species/sceptile/sceptile/sceptile_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "grass"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 70,
+      "attack": 85,
+      "defense": 65,
+      "special_attack": 105,
+      "special_defense": 85,
+      "speed": 120
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Scizor",
     "slug": "scizor",
     "url": "pokemon/scizor/",
     "primary_image": "Images/pokemon_sprites/by_species/scizor/scizor/scizor_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug",
@@ -5184,12 +6283,37 @@
     "summary": "Bug / Steel | Usage data available"
   },
   {
+    "display_name": "Scolipede",
+    "slug": "scolipede",
+    "url": "pokemon/scolipede/",
+    "primary_image": "Images/pokemon_sprites/by_species/scolipede/scolipede/scolipede_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "total": 485,
+      "hp": 60,
+      "attack": 100,
+      "defense": 89,
+      "special_attack": 55,
+      "special_defense": 69,
+      "speed": 112
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Scovillain",
     "slug": "scovillain",
     "url": "pokemon/scovillain/",
     "primary_image": "Images/pokemon_sprites/by_species/scovillain/scovillain/scovillain_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -5208,12 +6332,37 @@
     "summary": "Grass / Fire | Usage data available"
   },
   {
+    "display_name": "Scrafty",
+    "slug": "scrafty",
+    "url": "pokemon/scrafty/",
+    "primary_image": "Images/pokemon_sprites/by_species/scrafty/scrafty/scrafty_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "dark",
+      "fighting"
+    ],
+    "stats": {
+      "total": 488,
+      "hp": 65,
+      "attack": 90,
+      "defense": 115,
+      "special_attack": 45,
+      "special_defense": 115,
+      "speed": 58
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Serperior",
     "slug": "serperior",
     "url": "pokemon/serperior/",
     "primary_image": "Images/pokemon_sprites/by_species/serperior/serperior/serperior_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass"
@@ -5236,7 +6385,8 @@
     "url": "pokemon/sharpedo/",
     "primary_image": "Images/pokemon_sprites/by_species/sharpedo/sharpedo/sharpedo_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -5260,7 +6410,8 @@
     "url": "pokemon/simipour/",
     "primary_image": "Images/pokemon_sprites/by_species/simipour/simipour/simipour_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water"
@@ -5283,7 +6434,8 @@
     "url": "pokemon/simisage/",
     "primary_image": "Images/pokemon_sprites/by_species/simisage/simisage/simisage_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass"
@@ -5306,7 +6458,8 @@
     "url": "pokemon/simisear/",
     "primary_image": "Images/pokemon_sprites/by_species/simisear/simisear/simisear_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire"
@@ -5329,7 +6482,8 @@
     "url": "pokemon/sinistcha/",
     "primary_image": "Images/pokemon_sprites/by_species/sinistcha/sinistcha/sinistcha_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -5353,7 +6507,8 @@
     "url": "pokemon/skarmory/",
     "primary_image": "Images/pokemon_sprites/by_species/skarmory/skarmory/skarmory_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "steel",
@@ -5377,7 +6532,8 @@
     "url": "pokemon/skeledirge/",
     "primary_image": "Images/pokemon_sprites/by_species/skeledirge/skeledirge/skeledirge_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -5401,7 +6557,8 @@
     "url": "pokemon/slowbro/",
     "primary_image": "Images/pokemon_sprites/by_species/slowbro/slowbro/slowbro_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -5425,7 +6582,8 @@
     "url": "pokemon/slowking/",
     "primary_image": "Images/pokemon_sprites/by_species/slowking/slowking/slowking_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -5449,7 +6607,8 @@
     "url": "pokemon/slurpuff/",
     "primary_image": "Images/pokemon_sprites/by_species/slurpuff/slurpuff/slurpuff_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fairy"
@@ -5472,7 +6631,8 @@
     "url": "pokemon/sneasler/",
     "primary_image": "Images/pokemon_sprites/by_species/sneasler/sneasler/sneasler_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fighting",
@@ -5496,7 +6656,8 @@
     "url": "pokemon/snorlax/",
     "primary_image": "Images/pokemon_sprites/by_species/snorlax/snorlax/snorlax_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal"
@@ -5519,7 +6680,8 @@
     "url": "pokemon/spiritomb/",
     "primary_image": "Images/pokemon_sprites/by_species/spiritomb/spiritomb/spiritomb_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ghost",
@@ -5538,12 +6700,37 @@
     "summary": "Ghost / Dark | Usage data available"
   },
   {
+    "display_name": "Staraptor",
+    "slug": "staraptor",
+    "url": "pokemon/staraptor/",
+    "primary_image": "Images/pokemon_sprites/by_species/staraptor/staraptor/staraptor_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "total": 485,
+      "hp": 85,
+      "attack": 120,
+      "defense": 70,
+      "special_attack": 50,
+      "special_defense": 60,
+      "speed": 100
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Starmie",
     "slug": "starmie",
     "url": "pokemon/starmie/",
     "primary_image": "Images/pokemon_sprites/by_species/starmie/starmie/starmie_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water",
@@ -5567,7 +6754,8 @@
     "url": "pokemon/steelix/",
     "primary_image": "Images/pokemon_sprites/by_species/steelix/steelix/steelix_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "steel",
@@ -5591,7 +6779,8 @@
     "url": "pokemon/stunfisk/",
     "primary_image": "Images/pokemon_sprites/by_species/stunfisk/stunfisk/stunfisk_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ground",
@@ -5610,12 +6799,37 @@
     "summary": "Ground / Electric | Usage data available"
   },
   {
+    "display_name": "Swampert",
+    "slug": "swampert",
+    "url": "pokemon/swampert/",
+    "primary_image": "Images/pokemon_sprites/by_species/swampert/swampert/swampert_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "water",
+      "ground"
+    ],
+    "stats": {
+      "total": 535,
+      "hp": 100,
+      "attack": 110,
+      "defense": 90,
+      "special_attack": 85,
+      "special_defense": 90,
+      "speed": 60
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Sylveon",
     "slug": "sylveon",
     "url": "pokemon/sylveon/",
     "primary_image": "Images/pokemon_sprites/by_species/sylveon/sylveon/sylveon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fairy"
@@ -5638,7 +6852,8 @@
     "url": "pokemon/talonflame/",
     "primary_image": "Images/pokemon_sprites/by_species/talonflame/talonflame/talonflame_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire",
@@ -5662,7 +6877,8 @@
     "url": "pokemon/tauros/",
     "primary_image": "Images/pokemon_sprites/by_species/tauros/tauros/tauros_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal"
@@ -5680,12 +6896,87 @@
     "summary": "Normal | Usage data available"
   },
   {
+    "display_name": "Tauros Paldea Aqua",
+    "slug": "tauros-paldea-aqua",
+    "url": "pokemon/tauros-paldea-aqua/",
+    "primary_image": "",
+    "regulations": [
+      "ma",
+      "mb"
+    ],
+    "types": [
+      "fighting",
+      "water"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "special_attack": 40,
+      "special_defense": 70,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Fighting / Water | Usage data available"
+  },
+  {
+    "display_name": "Tauros Paldea Blaze",
+    "slug": "tauros-paldea-blaze",
+    "url": "pokemon/tauros-paldea-blaze/",
+    "primary_image": "",
+    "regulations": [
+      "ma",
+      "mb"
+    ],
+    "types": [
+      "fighting",
+      "fire"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "special_attack": 40,
+      "special_defense": 70,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Fighting / Fire | Usage data available"
+  },
+  {
+    "display_name": "Tauros Paldea Combat",
+    "slug": "tauros-paldea-combat",
+    "url": "pokemon/tauros-paldea-combat/",
+    "primary_image": "",
+    "regulations": [
+      "ma",
+      "mb"
+    ],
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "special_attack": 40,
+      "special_defense": 70,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Fighting | Usage data available"
+  },
+  {
     "display_name": "Tinkaton",
     "slug": "tinkaton",
     "url": "pokemon/tinkaton/",
     "primary_image": "Images/pokemon_sprites/by_species/tinkaton/tinkaton/tinkaton_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fairy",
@@ -5709,7 +7000,8 @@
     "url": "pokemon/torkoal/",
     "primary_image": "Images/pokemon_sprites/by_species/torkoal/torkoal/torkoal_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire"
@@ -5732,7 +7024,8 @@
     "url": "pokemon/torterra/",
     "primary_image": "Images/pokemon_sprites/by_species/torterra/torterra/torterra_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -5756,7 +7049,8 @@
     "url": "pokemon/toucannon/",
     "primary_image": "Images/pokemon_sprites/by_species/toucannon/toucannon/toucannon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal",
@@ -5780,7 +7074,8 @@
     "url": "pokemon/toxapex/",
     "primary_image": "Images/pokemon_sprites/by_species/toxapex/toxapex/toxapex_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "poison",
@@ -5804,7 +7099,8 @@
     "url": "pokemon/toxicroak/",
     "primary_image": "Images/pokemon_sprites/by_species/toxicroak/toxicroak/toxicroak_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "poison",
@@ -5828,7 +7124,8 @@
     "url": "pokemon/trevenant/",
     "primary_image": "Images/pokemon_sprites/by_species/trevenant/trevenant/trevenant_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ghost",
@@ -5852,7 +7149,8 @@
     "url": "pokemon/tsareena/",
     "primary_image": "Images/pokemon_sprites/by_species/tsareena/tsareena/tsareena_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass"
@@ -5875,7 +7173,8 @@
     "url": "pokemon/typhlosion/",
     "primary_image": "Images/pokemon_sprites/by_species/typhlosion/typhlosion/typhlosion_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "fire"
@@ -5898,7 +7197,8 @@
     "url": "pokemon/tyranitar/",
     "primary_image": "Images/pokemon_sprites/by_species/tyranitar/tyranitar/tyranitar_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock",
@@ -5922,7 +7222,8 @@
     "url": "pokemon/tyrantrum/",
     "primary_image": "Images/pokemon_sprites/by_species/tyrantrum/tyrantrum/tyrantrum_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "rock",
@@ -5946,7 +7247,8 @@
     "url": "pokemon/umbreon/",
     "primary_image": "Images/pokemon_sprites/by_species/umbreon/umbreon/umbreon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dark"
@@ -5969,7 +7271,8 @@
     "url": "pokemon/vanilluxe/",
     "primary_image": "Images/pokemon_sprites/by_species/vanilluxe/vanilluxe/vanilluxe_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "ice"
@@ -5992,7 +7295,8 @@
     "url": "pokemon/vaporeon/",
     "primary_image": "Images/pokemon_sprites/by_species/vaporeon/vaporeon/vaporeon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "water"
@@ -6015,7 +7319,8 @@
     "url": "pokemon/venusaur/",
     "primary_image": "Images/pokemon_sprites/by_species/venusaur/venusaur/venusaur_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -6039,7 +7344,8 @@
     "url": "pokemon/victreebel/",
     "primary_image": "Images/pokemon_sprites/by_species/victreebel/victreebel/victreebel_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -6058,12 +7364,37 @@
     "summary": "Grass / Poison | Usage data available"
   },
   {
+    "display_name": "Vileplume",
+    "slug": "vileplume",
+    "url": "pokemon/vileplume/",
+    "primary_image": "Images/pokemon_sprites/by_species/vileplume/vileplume/vileplume_primary_image.png",
+    "regulations": [
+      "mb"
+    ],
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 75,
+      "attack": 80,
+      "defense": 85,
+      "special_attack": 110,
+      "special_defense": 90,
+      "speed": 50
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
     "display_name": "Vivillon",
     "slug": "vivillon",
     "url": "pokemon/vivillon/",
     "primary_image": "Images/pokemon_sprites/by_species/vivillon/vivillon-default/vivillon_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug",
@@ -6087,7 +7418,8 @@
     "url": "pokemon/volcarona/",
     "primary_image": "Images/pokemon_sprites/by_species/volcarona/volcarona/volcarona_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "bug",
@@ -6111,7 +7443,8 @@
     "url": "pokemon/wash-rotom/",
     "primary_image": "Images/pokemon_sprites/by_species/rotom/rotom-wash/rotom-wash_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "electric",
@@ -6135,7 +7468,8 @@
     "url": "pokemon/watchog/",
     "primary_image": "Images/pokemon_sprites/by_species/watchog/watchog/watchog_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal"
@@ -6158,7 +7492,8 @@
     "url": "pokemon/weavile/",
     "primary_image": "Images/pokemon_sprites/by_species/weavile/weavile/weavile_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dark",
@@ -6182,7 +7517,8 @@
     "url": "pokemon/whimsicott/",
     "primary_image": "Images/pokemon_sprites/by_species/whimsicott/whimsicott/whimsicott_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "grass",
@@ -6206,7 +7542,8 @@
     "url": "pokemon/wyrdeer/",
     "primary_image": "Images/pokemon_sprites/by_species/wyrdeer/wyrdeer/wyrdeer_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "normal",
@@ -6230,7 +7567,8 @@
     "url": "pokemon/zoroark/",
     "primary_image": "Images/pokemon_sprites/by_species/zoroark/zoroark/zoroark_primary_image.png",
     "regulations": [
-      "ma"
+      "ma",
+      "mb"
     ],
     "types": [
       "dark"

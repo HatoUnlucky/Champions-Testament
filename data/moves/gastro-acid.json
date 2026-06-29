@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -24,6 +25,16 @@
     {
       "display_name": "Diggersby",
       "url": "pokemon/diggersby/",
+      "percent": null
+    },
+    {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Eelektross",
+      "url": "pokemon/mega-eelektross/",
       "percent": null
     },
     {
@@ -64,6 +75,11 @@
     {
       "display_name": "Victreebel",
       "url": "pokemon/victreebel/",
+      "percent": null
+    },
+    {
+      "display_name": "Vileplume",
+      "url": "pokemon/vileplume/",
       "percent": null
     }
   ]

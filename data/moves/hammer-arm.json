@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -85,6 +86,26 @@
       "display_name": "Golurk",
       "url": "pokemon/golurk/",
       "percent": 0.1
+    },
+    {
+      "display_name": "Grimmsnarl",
+      "url": "pokemon/grimmsnarl/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Metagross",
+      "url": "pokemon/mega-metagross/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Swampert",
+      "url": "pokemon/mega-swampert/",
+      "percent": null
+    },
+    {
+      "display_name": "Metagross",
+      "url": "pokemon/metagross/",
+      "percent": null
     },
     {
       "display_name": "Reuniclus",

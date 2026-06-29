@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -92,6 +93,11 @@
       "percent": 3.3
     },
     {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": 3.3
+    },
+    {
       "display_name": "Dragapult",
       "url": "pokemon/dragapult/",
       "percent": 3.1
@@ -104,11 +110,6 @@
     {
       "display_name": "Audino",
       "url": "pokemon/audino/",
-      "percent": 2.6
-    },
-    {
-      "display_name": "Mega Manectric",
-      "url": "pokemon/mega-manectric/",
       "percent": 2.6
     }
   ]

@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -82,8 +83,18 @@
       "percent": null
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
       "display_name": "Archaludon",
       "url": "pokemon/archaludon/",
+      "percent": null
+    },
+    {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
       "percent": null
     },
     {
@@ -99,16 +110,6 @@
     {
       "display_name": "Camerupt",
       "url": "pokemon/camerupt/",
-      "percent": null
-    },
-    {
-      "display_name": "Chesnaught",
-      "url": "pokemon/chesnaught/",
-      "percent": null
-    },
-    {
-      "display_name": "Clawitzer",
-      "url": "pokemon/clawitzer/",
       "percent": null
     }
   ]

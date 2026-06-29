@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -77,8 +78,23 @@
       "percent": null
     },
     {
+      "display_name": "Mega Metagross",
+      "url": "pokemon/mega-metagross/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Steelix",
       "url": "pokemon/mega-steelix/",
+      "percent": null
+    },
+    {
+      "display_name": "Metagross",
+      "url": "pokemon/metagross/",
+      "percent": null
+    },
+    {
+      "display_name": "Qwilfish",
+      "url": "pokemon/qwilfish/",
       "percent": null
     },
     {

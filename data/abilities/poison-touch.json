@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -20,6 +21,11 @@
       "display_name": "Toxicroak",
       "url": "pokemon/toxicroak/",
       "percent": 4.2
+    },
+    {
+      "display_name": "Dragalge",
+      "url": "pokemon/dragalge/",
+      "percent": null
     }
   ]
 }

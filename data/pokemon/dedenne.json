@@ -2,6 +2,11 @@
   "pokemon_slug": "dedenne",
   "display_name": "Dedenne",
   "regulation": "ma",
+  "regulations": [
+    "ma",
+    "mb"
+  ],
+  "usage_regulation": "ma",
   "has_usage_data": true,
   "usage": {
     "percent": null,
@@ -240,6 +245,7 @@
       "type": "electric",
       "power": 70.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 93.4
     },
     {
@@ -249,6 +255,7 @@
       "type": "electric",
       "power": 20.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 87.4
     },
     {
@@ -258,6 +265,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 75.4
     },
     {
@@ -267,6 +275,7 @@
       "type": "fairy",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 74.6
     },
     {
@@ -276,6 +285,7 @@
       "type": "fairy",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 24.4
     },
     {
@@ -285,6 +295,7 @@
       "type": "electric",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 17.0
     },
     {
@@ -294,6 +305,7 @@
       "type": "bug",
       "power": 70.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 12.6
     },
     {
@@ -303,6 +315,7 @@
       "type": "grass",
       "power": null,
       "damage_class": "special",
+      "priority": 0,
       "percent": 10.3
     },
     {
@@ -312,6 +325,7 @@
       "type": "fairy",
       "power": 50.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 2.3
     },
     {
@@ -321,6 +335,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 1.6
     },
     {
@@ -330,6 +345,7 @@
       "type": "electric",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.3
     },
     {
@@ -339,6 +355,7 @@
       "type": "electric",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.3
     },
     {
@@ -348,6 +365,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": 0.3
     },
     {
@@ -357,6 +375,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.1
     },
     {
@@ -366,6 +385,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -375,6 +395,7 @@
       "type": "electric",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -384,6 +405,7 @@
       "type": "electric",
       "power": 55.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -393,6 +415,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -402,6 +425,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -411,6 +435,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 5,
       "percent": 0.0
     },
     {
@@ -420,6 +445,7 @@
       "type": "electric",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -429,6 +455,7 @@
       "type": "electric",
       "power": 65.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -438,6 +465,7 @@
       "type": "fairy",
       "power": 90.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -447,6 +475,7 @@
       "type": "water",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -456,6 +485,7 @@
       "type": "fire",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -465,6 +495,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -474,6 +505,7 @@
       "type": "dark",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -483,6 +515,7 @@
       "type": "electric",
       "power": 110.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -492,6 +525,7 @@
       "type": "electric",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -501,6 +535,7 @@
       "type": "electric",
       "power": 90.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -510,6 +545,7 @@
       "type": "flying",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -519,6 +555,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 2,
       "percent": null
     },
     {
@@ -528,6 +565,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -537,6 +575,7 @@
       "type": "electric",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -546,6 +585,7 @@
       "type": "electric",
       "power": 50.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -555,6 +595,7 @@
       "type": "normal",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -564,6 +605,7 @@
       "type": "ground",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -573,6 +615,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -582,6 +625,7 @@
       "type": "electric",
       "power": null,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -591,6 +635,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": null
     },
     {
@@ -600,6 +645,7 @@
       "type": "normal",
       "power": 70.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -609,6 +655,7 @@
       "type": "normal",
       "power": 150.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -618,6 +665,7 @@
       "type": "normal",
       "power": 150.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -627,6 +675,7 @@
       "type": "steel",
       "power": 100.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -636,6 +685,7 @@
       "type": "normal",
       "power": 140.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -645,6 +695,7 @@
       "type": "fairy",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -654,6 +705,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -663,6 +715,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -672,6 +725,7 @@
       "type": "electric",
       "power": 70.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -681,6 +735,7 @@
       "type": "normal",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -690,6 +745,7 @@
       "type": "grass",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -699,6 +755,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -708,6 +765,7 @@
       "type": "normal",
       "power": 50.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -717,6 +775,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -726,6 +785,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -735,6 +795,7 @@
       "type": "electric",
       "power": 75.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -744,6 +805,7 @@
       "type": "poison",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -753,6 +815,7 @@
       "type": "grass",
       "power": 50.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     }
   ],
@@ -761,7 +824,7 @@
       "slug": "mimikyu",
       "display_name": "Mimikyu",
       "percent": 75.4,
-      "image": "Images/pokemon_sprites/by_species/None/mimikyu-disguised/mimikyu_primary_image.png",
+      "image": "Images/pokemon_sprites/by_species/mimikyu/mimikyu-disguised/mimikyu_primary_image.png",
       "url": "pokemon/mimikyu/"
     },
     {

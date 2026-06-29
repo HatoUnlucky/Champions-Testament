@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -62,8 +63,28 @@
       "percent": null
     },
     {
+      "display_name": "Mega Scolipede",
+      "url": "pokemon/mega-scolipede/",
+      "percent": null
+    },
+    {
+      "display_name": "Overqwil",
+      "url": "pokemon/overqwil/",
+      "percent": null
+    },
+    {
+      "display_name": "Qwilfish",
+      "url": "pokemon/qwilfish/",
+      "percent": null
+    },
+    {
       "display_name": "Roserade",
       "url": "pokemon/roserade/",
+      "percent": null
+    },
+    {
+      "display_name": "Scolipede",
+      "url": "pokemon/scolipede/",
       "percent": null
     },
     {

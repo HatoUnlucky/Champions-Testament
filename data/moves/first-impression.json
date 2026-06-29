@@ -5,16 +5,27 @@
   "type": "bug",
   "power": 100.0,
   "damage_class": "physical",
-  "priority": 0,
+  "priority": 2,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
       "display_name": "Ariados",
       "url": "pokemon/ariados/",
       "percent": 0.7
+    },
+    {
+      "display_name": "Falinks",
+      "url": "pokemon/falinks/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Falinks",
+      "url": "pokemon/mega-falinks/",
+      "percent": null
     }
   ]
 }

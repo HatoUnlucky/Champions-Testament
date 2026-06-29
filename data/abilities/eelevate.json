@@ -1,0 +1,20 @@
+{
+  "slug": "eelevate",
+  "display_name": "Eelevate",
+  "description": "",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Eelektross",
+      "url": "pokemon/mega-eelektross/",
+      "percent": null
+    }
+  ]
+}

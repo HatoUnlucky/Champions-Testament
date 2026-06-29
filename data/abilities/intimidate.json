@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -20,6 +21,11 @@
       "display_name": "Tauros",
       "url": "pokemon/tauros/",
       "percent": 100.0
+    },
+    {
+      "display_name": "Tauros Paldea Combat",
+      "url": "pokemon/tauros-paldea-combat/",
+      "percent": 99.7
     },
     {
       "display_name": "Incineroar",
@@ -37,6 +43,11 @@
       "percent": 97.2
     },
     {
+      "display_name": "Tauros Paldea Aqua",
+      "url": "pokemon/tauros-paldea-aqua/",
+      "percent": 93.2
+    },
+    {
       "display_name": "Luxray",
       "url": "pokemon/luxray/",
       "percent": 91.3
@@ -52,6 +63,11 @@
       "percent": 90.8
     },
     {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 90.3
+    },
+    {
       "display_name": "Arcanine",
       "url": "pokemon/arcanine/",
       "percent": 85.7
@@ -60,6 +76,36 @@
       "display_name": "Hisuian Arcanine",
       "url": "pokemon/hisuian-arcanine/",
       "percent": 41.6
+    },
+    {
+      "display_name": "Mawile",
+      "url": "pokemon/mawile/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Scrafty",
+      "url": "pokemon/mega-scrafty/",
+      "percent": null
+    },
+    {
+      "display_name": "Overqwil",
+      "url": "pokemon/overqwil/",
+      "percent": null
+    },
+    {
+      "display_name": "Qwilfish",
+      "url": "pokemon/qwilfish/",
+      "percent": null
+    },
+    {
+      "display_name": "Scrafty",
+      "url": "pokemon/scrafty/",
+      "percent": null
+    },
+    {
+      "display_name": "Staraptor",
+      "url": "pokemon/staraptor/",
+      "percent": null
     }
   ]
 }

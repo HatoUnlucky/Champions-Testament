@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -50,6 +51,11 @@
       "display_name": "Blastoise",
       "url": "pokemon/blastoise/",
       "percent": 34.9
+    },
+    {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 34.1
     },
     {
       "display_name": "Empoleon",
@@ -105,11 +111,6 @@
       "display_name": "Araquanid",
       "url": "pokemon/araquanid/",
       "percent": 8.1
-    },
-    {
-      "display_name": "Toxapex",
-      "url": "pokemon/toxapex/",
-      "percent": 7.0
     }
   ]
 }

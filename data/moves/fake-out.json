@@ -5,10 +5,11 @@
   "type": "normal",
   "power": 40.0,
   "damage_class": "physical",
-  "priority": 0,
+  "priority": 3,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -97,6 +98,11 @@
       "percent": 85.1
     },
     {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 85.0
+    },
+    {
       "display_name": "Mega Medicham",
       "url": "pokemon/mega-medicham/",
       "percent": 84.5
@@ -105,11 +111,6 @@
       "display_name": "Simisage",
       "url": "pokemon/simisage/",
       "percent": 83.3
-    },
-    {
-      "display_name": "Simisear",
-      "url": "pokemon/simisear/",
-      "percent": 79.9
     }
   ]
 }

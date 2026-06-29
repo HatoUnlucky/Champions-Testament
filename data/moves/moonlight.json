@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -32,6 +33,11 @@
       "percent": null
     },
     {
+      "display_name": "Musharna",
+      "url": "pokemon/musharna/",
+      "percent": null
+    },
+    {
       "display_name": "Noivern",
       "url": "pokemon/noivern/",
       "percent": null
@@ -39,6 +45,11 @@
     {
       "display_name": "Sableye",
       "url": "pokemon/sableye/",
+      "percent": null
+    },
+    {
+      "display_name": "Vileplume",
+      "url": "pokemon/vileplume/",
       "percent": null
     }
   ]

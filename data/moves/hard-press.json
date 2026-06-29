@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -102,13 +103,13 @@
       "percent": null
     },
     {
-      "display_name": "Mega Pinsir",
-      "url": "pokemon/mega-pinsir/",
+      "display_name": "Mega Metagross",
+      "url": "pokemon/mega-metagross/",
       "percent": null
     },
     {
-      "display_name": "Mega Scizor",
-      "url": "pokemon/mega-scizor/",
+      "display_name": "Mega Pinsir",
+      "url": "pokemon/mega-pinsir/",
       "percent": null
     }
   ]

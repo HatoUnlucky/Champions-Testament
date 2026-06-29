@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -39,6 +40,11 @@
     {
       "display_name": "Banette",
       "url": "pokemon/banette/",
+      "percent": null
+    },
+    {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
       "percent": null
     },
     {
@@ -77,6 +83,11 @@
       "percent": null
     },
     {
+      "display_name": "Mega Barbaracle",
+      "url": "pokemon/mega-barbaracle/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Beedrill",
       "url": "pokemon/mega-beedrill/",
       "percent": null
@@ -87,6 +98,11 @@
       "percent": null
     },
     {
+      "display_name": "Mega Scolipede",
+      "url": "pokemon/mega-scolipede/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Victreebel",
       "url": "pokemon/mega-victreebel/",
       "percent": null
@@ -94,21 +110,6 @@
     {
       "display_name": "Mimikyu",
       "url": "pokemon/mimikyu/",
-      "percent": null
-    },
-    {
-      "display_name": "Pangoro",
-      "url": "pokemon/pangoro/",
-      "percent": null
-    },
-    {
-      "display_name": "Reuniclus",
-      "url": "pokemon/reuniclus/",
-      "percent": null
-    },
-    {
-      "display_name": "Spiritomb",
-      "url": "pokemon/spiritomb/",
       "percent": null
     }
   ]

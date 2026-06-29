@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -69,6 +70,11 @@
     {
       "display_name": "Gallade",
       "url": "pokemon/gallade/",
+      "percent": null
+    },
+    {
+      "display_name": "Gholdengo",
+      "url": "pokemon/gholdengo/",
       "percent": null
     },
     {

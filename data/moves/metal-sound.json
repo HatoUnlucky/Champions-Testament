@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -77,6 +78,11 @@
       "percent": null
     },
     {
+      "display_name": "Gholdengo",
+      "url": "pokemon/gholdengo/",
+      "percent": null
+    },
+    {
       "display_name": "Jolteon",
       "url": "pokemon/jolteon/",
       "percent": null
@@ -104,11 +110,6 @@
     {
       "display_name": "Mega Chimecho",
       "url": "pokemon/mega-chimecho/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Excadrill",
-      "url": "pokemon/mega-excadrill/",
       "percent": null
     }
   ]

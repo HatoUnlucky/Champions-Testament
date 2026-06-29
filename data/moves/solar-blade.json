@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -69,6 +70,21 @@
     {
       "display_name": "Mega Gallade",
       "url": "pokemon/mega-gallade/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Sceptile",
+      "url": "pokemon/mega-sceptile/",
+      "percent": null
+    },
+    {
+      "display_name": "Sceptile",
+      "url": "pokemon/sceptile/",
+      "percent": null
+    },
+    {
+      "display_name": "Vileplume",
+      "url": "pokemon/vileplume/",
       "percent": null
     }
   ]

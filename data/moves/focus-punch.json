@@ -5,10 +5,11 @@
   "type": "fighting",
   "power": 150.0,
   "damage_class": "physical",
-  "priority": 0,
+  "priority": -3,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -87,6 +88,11 @@
       "percent": null
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
       "display_name": "Audino",
       "url": "pokemon/audino/",
       "percent": null
@@ -104,11 +110,6 @@
     {
       "display_name": "Blastoise",
       "url": "pokemon/blastoise/",
-      "percent": null
-    },
-    {
-      "display_name": "Charizard",
-      "url": "pokemon/charizard/",
       "percent": null
     }
   ]

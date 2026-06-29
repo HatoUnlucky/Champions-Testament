@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "Images/item_images/primary_images_by_category/held-item/hard-stone_primary_image.png",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -72,6 +73,11 @@
       "percent": 1.1
     },
     {
+      "display_name": "Tauros Paldea Aqua",
+      "url": "pokemon/tauros-paldea-aqua/",
+      "percent": 1.1
+    },
+    {
       "display_name": "Garganacl",
       "url": "pokemon/garganacl/",
       "percent": 1.0
@@ -105,11 +111,6 @@
       "display_name": "Slowking",
       "url": "pokemon/slowking/",
       "percent": 0.4
-    },
-    {
-      "display_name": "Greninja",
-      "url": "pokemon/greninja/",
-      "percent": 0.3
     }
   ]
 }

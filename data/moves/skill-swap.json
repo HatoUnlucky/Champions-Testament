@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -92,6 +93,11 @@
       "percent": 1.3
     },
     {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 1.3
+    },
+    {
       "display_name": "Reuniclus",
       "url": "pokemon/reuniclus/",
       "percent": 1.2
@@ -105,11 +111,6 @@
       "display_name": "Mega Chimecho",
       "url": "pokemon/mega-chimecho/",
       "percent": 1.0
-    },
-    {
-      "display_name": "Mega Gallade",
-      "url": "pokemon/mega-gallade/",
-      "percent": 0.7
     }
   ]
 }

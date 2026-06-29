@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -25,6 +26,21 @@
       "display_name": "Basculegion (Female)",
       "url": "pokemon/basculegion-female/",
       "percent": 5.3
+    },
+    {
+      "display_name": "Mega Swampert",
+      "url": "pokemon/mega-swampert/",
+      "percent": null
+    },
+    {
+      "display_name": "Overqwil",
+      "url": "pokemon/overqwil/",
+      "percent": null
+    },
+    {
+      "display_name": "Qwilfish",
+      "url": "pokemon/qwilfish/",
+      "percent": null
     }
   ]
 }

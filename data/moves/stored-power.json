@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -37,6 +38,11 @@
       "percent": 5.8
     },
     {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": 4.6
+    },
+    {
       "display_name": "Mega Clefable",
       "url": "pokemon/mega-clefable/",
       "percent": 3.2
@@ -54,6 +60,11 @@
     {
       "display_name": "Meowstic (Female)",
       "url": "pokemon/meowstic-female/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Meowstic F Mega",
+      "url": "pokemon/meowstic-f-mega/",
       "percent": 1.6
     },
     {
@@ -100,16 +111,6 @@
       "display_name": "Florges",
       "url": "pokemon/florges/",
       "percent": 0.1
-    },
-    {
-      "display_name": "Alolan Ninetales",
-      "url": "pokemon/alolan-ninetales/",
-      "percent": 0.0
-    },
-    {
-      "display_name": "Chimecho",
-      "url": "pokemon/chimecho/",
-      "percent": 0.0
     }
   ]
 }

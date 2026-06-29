@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -72,6 +73,11 @@
       "percent": 5.3
     },
     {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 5.1
+    },
+    {
       "display_name": "Excadrill",
       "url": "pokemon/excadrill/",
       "percent": 4.6
@@ -105,11 +111,6 @@
       "display_name": "Kleavor",
       "url": "pokemon/kleavor/",
       "percent": 2.0
-    },
-    {
-      "display_name": "Lycanroc (Midnight)",
-      "url": "pokemon/lycanroc-midnight/",
-      "percent": 1.9
     }
   ]
 }

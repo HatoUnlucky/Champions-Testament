@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -32,6 +33,11 @@
       "percent": null
     },
     {
+      "display_name": "Grimmsnarl",
+      "url": "pokemon/grimmsnarl/",
+      "percent": null
+    },
+    {
       "display_name": "Krookodile",
       "url": "pokemon/krookodile/",
       "percent": null
@@ -42,8 +48,18 @@
       "percent": null
     },
     {
+      "display_name": "Mega Swampert",
+      "url": "pokemon/mega-swampert/",
+      "percent": null
+    },
+    {
       "display_name": "Snorlax",
       "url": "pokemon/snorlax/",
+      "percent": null
+    },
+    {
+      "display_name": "Swampert",
+      "url": "pokemon/swampert/",
       "percent": null
     }
   ]

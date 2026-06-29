@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -34,6 +35,16 @@
     {
       "display_name": "Meowstic (Male)",
       "url": "pokemon/meowstic-male/",
+      "percent": null
+    },
+    {
+      "display_name": "Meowstic F Mega",
+      "url": "pokemon/meowstic-f-mega/",
+      "percent": null
+    },
+    {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
       "percent": null
     },
     {

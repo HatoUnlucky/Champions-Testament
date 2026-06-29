@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -52,6 +53,11 @@
       "percent": 0.4
     },
     {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 0.3
+    },
+    {
       "display_name": "Arcanine",
       "url": "pokemon/arcanine/",
       "percent": 0.2
@@ -70,6 +76,11 @@
       "display_name": "Mega Scovillain",
       "url": "pokemon/mega-scovillain/",
       "percent": 0.0
+    },
+    {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
+      "percent": null
     },
     {
       "display_name": "Camerupt",
@@ -99,16 +110,6 @@
     {
       "display_name": "Infernape",
       "url": "pokemon/infernape/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Camerupt",
-      "url": "pokemon/mega-camerupt/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Chandelure",
-      "url": "pokemon/mega-chandelure/",
       "percent": null
     }
   ]

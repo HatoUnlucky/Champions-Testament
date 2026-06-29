@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -77,6 +78,11 @@
       "percent": null
     },
     {
+      "display_name": "Dragalge",
+      "url": "pokemon/dragalge/",
+      "percent": null
+    },
+    {
       "display_name": "Forretress",
       "url": "pokemon/forretress/",
       "percent": null
@@ -104,11 +110,6 @@
     {
       "display_name": "Gliscor",
       "url": "pokemon/gliscor/",
-      "percent": null
-    },
-    {
-      "display_name": "Heracross",
-      "url": "pokemon/heracross/",
       "percent": null
     }
   ]

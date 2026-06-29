@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -50,6 +51,11 @@
       "display_name": "Galarian Slowbro",
       "url": "pokemon/galarian-slowbro/",
       "percent": 14.9
+    },
+    {
+      "display_name": "Mega Dragalge",
+      "url": "pokemon/mega-dragalge/",
+      "percent": null
     }
   ]
 }

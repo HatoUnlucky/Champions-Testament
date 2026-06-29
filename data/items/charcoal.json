@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "Images/item_images/primary_images_by_category/held-item/charcoal_primary_image.png",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -62,6 +63,11 @@
       "percent": 6.8
     },
     {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 6.0
+    },
+    {
       "display_name": "Ceruledge",
       "url": "pokemon/ceruledge/",
       "percent": 5.9
@@ -105,11 +111,6 @@
       "display_name": "Salazzle",
       "url": "pokemon/salazzle/",
       "percent": 1.5
-    },
-    {
-      "display_name": "Scovillain",
-      "url": "pokemon/scovillain/",
-      "percent": 1.4
     }
   ]
 }

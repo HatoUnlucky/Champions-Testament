@@ -2,6 +2,11 @@
   "pokemon_slug": "ditto",
   "display_name": "Ditto",
   "regulation": "ma",
+  "regulations": [
+    "ma",
+    "mb"
+  ],
+  "usage_regulation": "ma",
   "has_usage_data": true,
   "usage": {
     "percent": null,
@@ -273,6 +278,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 100.0
     }
   ],

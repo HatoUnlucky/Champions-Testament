@@ -2,6 +2,11 @@
   "pokemon_slug": "glalie",
   "display_name": "Glalie",
   "regulation": "ma",
+  "regulations": [
+    "ma",
+    "mb"
+  ],
+  "usage_regulation": "ma",
   "has_usage_data": true,
   "usage": {
     "percent": null,
@@ -248,6 +253,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 98.8
     },
     {
@@ -257,6 +263,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": 95.7
     },
     {
@@ -266,6 +273,7 @@
       "type": "ice",
       "power": 70.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 94.9
     },
     {
@@ -275,6 +283,7 @@
       "type": "ice",
       "power": null,
       "damage_class": "special",
+      "priority": 0,
       "percent": 82.6
     },
     {
@@ -284,6 +293,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 12.5
     },
     {
@@ -293,6 +303,7 @@
       "type": "ground",
       "power": 100.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 8.8
     },
     {
@@ -302,6 +313,7 @@
       "type": "steel",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 4.2
     },
     {
@@ -311,6 +323,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.7
     },
     {
@@ -320,6 +333,7 @@
       "type": "ice",
       "power": 90.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.4
     },
     {
@@ -329,6 +343,7 @@
       "type": "ice",
       "power": 40.0,
       "damage_class": "physical",
+      "priority": 1,
       "percent": 0.4
     },
     {
@@ -338,6 +353,7 @@
       "type": "ice",
       "power": 85.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.3
     },
     {
@@ -347,6 +363,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.3
     },
     {
@@ -356,6 +373,7 @@
       "type": "ghost",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.2
     },
     {
@@ -365,6 +383,7 @@
       "type": "normal",
       "power": 250.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.1
     },
     {
@@ -374,6 +393,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.1
     },
     {
@@ -383,6 +403,7 @@
       "type": "ground",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.1
     },
     {
@@ -392,6 +413,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.1
     },
     {
@@ -401,6 +423,7 @@
       "type": "normal",
       "power": 50.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.1
     },
     {
@@ -410,6 +433,7 @@
       "type": "ice",
       "power": 110.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -419,6 +443,7 @@
       "type": "water",
       "power": 50.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -428,6 +453,7 @@
       "type": "dark",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -437,6 +463,7 @@
       "type": "dark",
       "power": 80.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -446,6 +473,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 4,
       "percent": 0.0
     },
     {
@@ -455,6 +483,7 @@
       "type": "dark",
       "power": 95.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -464,6 +493,7 @@
       "type": "ice",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -473,6 +503,7 @@
       "type": "ice",
       "power": 80.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -482,6 +513,7 @@
       "type": "ice",
       "power": 25.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -491,6 +523,7 @@
       "type": "ice",
       "power": 55.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -500,6 +533,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -509,6 +543,7 @@
       "type": "grass",
       "power": 50.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": 0.0
     },
     {
@@ -518,6 +553,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -527,6 +563,7 @@
       "type": "ice",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": -4,
       "percent": null
     },
     {
@@ -536,6 +573,7 @@
       "type": "dark",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -545,6 +583,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -554,6 +593,7 @@
       "type": "normal",
       "power": 85.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -563,6 +603,7 @@
       "type": "ground",
       "power": 60.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -572,6 +613,7 @@
       "type": "normal",
       "power": 120.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -581,6 +623,7 @@
       "type": "normal",
       "power": 70.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -590,6 +633,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -599,6 +643,7 @@
       "type": "normal",
       "power": 150.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -608,6 +653,7 @@
       "type": "steel",
       "power": null,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -617,6 +663,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 5,
       "percent": null
     },
     {
@@ -626,6 +673,7 @@
       "type": "ghost",
       "power": 65.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -635,6 +683,7 @@
       "type": "normal",
       "power": 150.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -644,6 +693,7 @@
       "type": "ice",
       "power": 65.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -653,6 +703,7 @@
       "type": "psychic",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -662,6 +713,7 @@
       "type": "dark",
       "power": 50.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -671,6 +723,7 @@
       "type": "water",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -680,6 +733,7 @@
       "type": "normal",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -689,6 +743,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -698,6 +753,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -707,6 +763,7 @@
       "type": "normal",
       "power": 200.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -716,6 +773,7 @@
       "type": "normal",
       "power": 50.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     },
     {
@@ -725,6 +783,7 @@
       "type": "ice",
       "power": 0.0,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -734,6 +793,7 @@
       "type": "ghost",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -743,6 +803,7 @@
       "type": "steel",
       "power": 130.0,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -752,6 +813,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "physical",
+      "priority": 0,
       "percent": null
     },
     {
@@ -761,6 +823,7 @@
       "type": "normal",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -770,6 +833,7 @@
       "type": "dark",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -779,6 +843,7 @@
       "type": "poison",
       "power": null,
       "damage_class": "status",
+      "priority": 0,
       "percent": null
     },
     {
@@ -788,6 +853,7 @@
       "type": "water",
       "power": 60.0,
       "damage_class": "special",
+      "priority": 0,
       "percent": null
     }
   ],
@@ -824,7 +890,7 @@
       "slug": "aegislash",
       "display_name": "Aegislash",
       "percent": 56.0,
-      "image": "Images/pokemon_sprites/by_species/None/aegislash-shield/aegislash_primary_image.png",
+      "image": "Images/pokemon_sprites/by_species/aegislash/aegislash-shield/aegislash_primary_image.png",
       "url": "pokemon/aegislash/"
     },
     {

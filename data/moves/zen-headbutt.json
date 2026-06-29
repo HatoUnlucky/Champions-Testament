@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -72,6 +73,11 @@
       "percent": 3.2
     },
     {
+      "display_name": "Tauros Paldea Blaze",
+      "url": "pokemon/tauros-paldea-blaze/",
+      "percent": 2.7
+    },
+    {
       "display_name": "Lucario",
       "url": "pokemon/lucario/",
       "percent": 0.9
@@ -87,6 +93,11 @@
       "percent": 0.7
     },
     {
+      "display_name": "Tauros Paldea Aqua",
+      "url": "pokemon/tauros-paldea-aqua/",
+      "percent": 0.6
+    },
+    {
       "display_name": "Snorlax",
       "url": "pokemon/snorlax/",
       "percent": 0.4
@@ -100,16 +111,6 @@
       "display_name": "Sandaconda",
       "url": "pokemon/sandaconda/",
       "percent": 0.3
-    },
-    {
-      "display_name": "Scovillain",
-      "url": "pokemon/scovillain/",
-      "percent": 0.3
-    },
-    {
-      "display_name": "Alakazam",
-      "url": "pokemon/alakazam/",
-      "percent": 0.2
     }
   ]
 }

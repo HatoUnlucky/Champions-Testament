@@ -5,10 +5,11 @@
   "type": "normal",
   "power": 30.0,
   "damage_class": "physical",
-  "priority": 0,
+  "priority": 2,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {

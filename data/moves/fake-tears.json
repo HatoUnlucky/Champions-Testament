@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -67,6 +68,11 @@
       "percent": 2.3
     },
     {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": 2.3
+    },
+    {
       "display_name": "Maushold",
       "url": "pokemon/maushold/",
       "percent": 2.1
@@ -105,11 +111,6 @@
       "display_name": "Lopunny",
       "url": "pokemon/lopunny/",
       "percent": 0.4
-    },
-    {
-      "display_name": "Tinkaton",
-      "url": "pokemon/tinkaton/",
-      "percent": 0.2
     }
   ]
 }

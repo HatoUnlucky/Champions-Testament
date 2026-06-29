@@ -1,0 +1,25 @@
+{
+  "slug": "no-retreat",
+  "display_name": "No Retreat",
+  "description": "Boosts the user's Attack, Defense, Sp. Atk, Sp. Def, and Speed stats by 1 stage. The user gains the Can't Escape status. This move can only be used once per time the user enters battleâ€” otherwise it will fail.",
+  "type": "fighting",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Falinks",
+      "url": "pokemon/falinks/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Falinks",
+      "url": "pokemon/mega-falinks/",
+      "percent": null
+    }
+  ]
+}

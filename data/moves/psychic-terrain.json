@@ -8,9 +8,15 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
+    {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": 75.4
+    },
     {
       "display_name": "Meowstic (Male)",
       "url": "pokemon/meowstic-male/",
@@ -24,6 +30,11 @@
     {
       "display_name": "Meowstic (Female)",
       "url": "pokemon/meowstic-female/",
+      "percent": 10.0
+    },
+    {
+      "display_name": "Meowstic F Mega",
+      "url": "pokemon/meowstic-f-mega/",
       "percent": 10.0
     },
     {
@@ -87,6 +98,11 @@
       "percent": 1.8
     },
     {
+      "display_name": "Mr.Rime",
+      "url": "pokemon/mr-rime/",
+      "percent": 1.4
+    },
+    {
       "display_name": "Farigiraf",
       "url": "pokemon/farigiraf/",
       "percent": 0.9
@@ -95,21 +111,6 @@
       "display_name": "Galarian Slowbro",
       "url": "pokemon/galarian-slowbro/",
       "percent": 0.9
-    },
-    {
-      "display_name": "Galarian Slowking",
-      "url": "pokemon/galarian-slowking/",
-      "percent": 0.9
-    },
-    {
-      "display_name": "Mega Gardevoir",
-      "url": "pokemon/mega-gardevoir/",
-      "percent": 0.2
-    },
-    {
-      "display_name": "Gallade",
-      "url": "pokemon/gallade/",
-      "percent": null
     }
   ]
 }

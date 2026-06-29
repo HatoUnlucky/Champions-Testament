@@ -5,10 +5,11 @@
   "type": "fighting",
   "power": 40.0,
   "damage_class": "special",
-  "priority": 0,
+  "priority": 1,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -62,6 +63,16 @@
       "percent": 0.0
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
+      "percent": null
+    },
+    {
       "display_name": "Ceruledge",
       "url": "pokemon/ceruledge/",
       "percent": null
@@ -92,23 +103,13 @@
       "percent": null
     },
     {
+      "display_name": "Mega Blaziken",
+      "url": "pokemon/mega-blaziken/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Gallade",
       "url": "pokemon/mega-gallade/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Medicham",
-      "url": "pokemon/mega-medicham/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Scizor",
-      "url": "pokemon/mega-scizor/",
-      "percent": null
-    },
-    {
-      "display_name": "Passimian",
-      "url": "pokemon/passimian/",
       "percent": null
     }
   ]

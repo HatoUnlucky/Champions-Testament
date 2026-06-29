@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -62,6 +63,11 @@
       "percent": 0.0
     },
     {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
+      "percent": null
+    },
+    {
       "display_name": "Glalie",
       "url": "pokemon/glalie/",
       "percent": null
@@ -72,8 +78,18 @@
       "percent": null
     },
     {
+      "display_name": "Mawile",
+      "url": "pokemon/mawile/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Chesnaught",
       "url": "pokemon/mega-chesnaught/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Eelektross",
+      "url": "pokemon/mega-eelektross/",
       "percent": null
     },
     {
@@ -82,18 +98,18 @@
       "percent": null
     },
     {
+      "display_name": "Mega Mawile",
+      "url": "pokemon/mega-mawile/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Scrafty",
+      "url": "pokemon/mega-scrafty/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Sharpedo",
       "url": "pokemon/mega-sharpedo/",
-      "percent": null
-    },
-    {
-      "display_name": "Sharpedo",
-      "url": "pokemon/sharpedo/",
-      "percent": null
-    },
-    {
-      "display_name": "Toxicroak",
-      "url": "pokemon/toxicroak/",
       "percent": null
     }
   ]

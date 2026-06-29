@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -82,6 +83,11 @@
       "percent": 1.1
     },
     {
+      "display_name": "Meowstic M Mega",
+      "url": "pokemon/meowstic-m-mega/",
+      "percent": 1.1
+    },
+    {
       "display_name": "Mega Absol",
       "url": "pokemon/mega-absol/",
       "percent": 0.9
@@ -104,11 +110,6 @@
     {
       "display_name": "Farigiraf",
       "url": "pokemon/farigiraf/",
-      "percent": 0.4
-    },
-    {
-      "display_name": "Gliscor",
-      "url": "pokemon/gliscor/",
       "percent": 0.4
     }
   ]

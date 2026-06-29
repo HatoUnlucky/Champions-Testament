@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -37,6 +38,11 @@
       "percent": null
     },
     {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
+      "percent": null
+    },
+    {
       "display_name": "Manectric",
       "url": "pokemon/manectric/",
       "percent": null
@@ -44,6 +50,11 @@
     {
       "display_name": "Mega Ampharos",
       "url": "pokemon/mega-ampharos/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Eelektross",
+      "url": "pokemon/mega-eelektross/",
       "percent": null
     },
     {

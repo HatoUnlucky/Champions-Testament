@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -39,6 +40,11 @@
     {
       "display_name": "Avalugg",
       "url": "pokemon/avalugg/",
+      "percent": null
+    },
+    {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
       "percent": null
     },
     {
@@ -104,11 +110,6 @@
     {
       "display_name": "Mega Aerodactyl",
       "url": "pokemon/mega-aerodactyl/",
-      "percent": null
-    },
-    {
-      "display_name": "Mega Aggron",
-      "url": "pokemon/mega-aggron/",
       "percent": null
     }
   ]

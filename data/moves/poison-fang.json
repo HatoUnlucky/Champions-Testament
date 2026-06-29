@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -30,6 +31,16 @@
       "display_name": "Sharpedo",
       "url": "pokemon/sharpedo/",
       "percent": 0.0
+    },
+    {
+      "display_name": "Mawile",
+      "url": "pokemon/mawile/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Mawile",
+      "url": "pokemon/mega-mawile/",
+      "percent": null
     },
     {
       "display_name": "Salazzle",

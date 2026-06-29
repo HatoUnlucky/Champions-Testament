@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -52,6 +53,11 @@
       "percent": null
     },
     {
+      "display_name": "Annihilape",
+      "url": "pokemon/annihilape/",
+      "percent": null
+    },
+    {
       "display_name": "Audino",
       "url": "pokemon/audino/",
       "percent": null
@@ -62,6 +68,11 @@
       "percent": null
     },
     {
+      "display_name": "Barbaracle",
+      "url": "pokemon/barbaracle/",
+      "percent": null
+    },
+    {
       "display_name": "Basculegion (Female)",
       "url": "pokemon/basculegion-female/",
       "percent": null
@@ -69,6 +80,11 @@
     {
       "display_name": "Basculegion Male",
       "url": "pokemon/basculegion-male/",
+      "percent": null
+    },
+    {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
       "percent": null
     },
     {
@@ -94,21 +110,6 @@
     {
       "display_name": "Espathra",
       "url": "pokemon/espathra/",
-      "percent": null
-    },
-    {
-      "display_name": "Fan Rotom",
-      "url": "pokemon/fan-rotom/",
-      "percent": null
-    },
-    {
-      "display_name": "Farigiraf",
-      "url": "pokemon/farigiraf/",
-      "percent": null
-    },
-    {
-      "display_name": "Feraligatr",
-      "url": "pokemon/feraligatr/",
       "percent": null
     }
   ]

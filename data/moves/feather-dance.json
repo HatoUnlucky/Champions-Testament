@@ -8,7 +8,8 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
     {
@@ -34,6 +35,11 @@
     {
       "display_name": "Altaria",
       "url": "pokemon/altaria/",
+      "percent": null
+    },
+    {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
       "percent": null
     },
     {
@@ -67,8 +73,18 @@
       "percent": null
     },
     {
+      "display_name": "Mega Blaziken",
+      "url": "pokemon/mega-blaziken/",
+      "percent": null
+    },
+    {
       "display_name": "Mega Hawlucha",
       "url": "pokemon/mega-hawlucha/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Staraptor",
+      "url": "pokemon/mega-staraptor/",
       "percent": null
     },
     {
@@ -79,6 +95,11 @@
     {
       "display_name": "Quaquaval",
       "url": "pokemon/quaquaval/",
+      "percent": null
+    },
+    {
+      "display_name": "Staraptor",
+      "url": "pokemon/staraptor/",
       "percent": null
     },
     {

@@ -8,9 +8,20 @@
   "priority": 0,
   "image": "",
   "regulations": [
-    "ma"
+    "ma",
+    "mb"
   ],
   "common_users": [
+    {
+      "display_name": "Blaziken",
+      "url": "pokemon/blaziken/",
+      "percent": null
+    },
+    {
+      "display_name": "Eelektross",
+      "url": "pokemon/eelektross/",
+      "percent": null
+    },
     {
       "display_name": "Excadrill",
       "url": "pokemon/excadrill/",
@@ -24,6 +35,16 @@
     {
       "display_name": "Lycanroc (Dusk)",
       "url": "pokemon/lycanroc-dusk/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Blaziken",
+      "url": "pokemon/mega-blaziken/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Eelektross",
+      "url": "pokemon/mega-eelektross/",
       "percent": null
     },
     {

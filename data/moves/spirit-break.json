@@ -1,0 +1,20 @@
+{
+  "slug": "spirit-break",
+  "display_name": "Spirit Break",
+  "description": "Lowers the target's Sp. Atk stat by 1 stage.",
+  "type": "fairy",
+  "power": 75.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "mb"
+  ],
+  "common_users": [
+    {
+      "display_name": "Grimmsnarl",
+      "url": "pokemon/grimmsnarl/",
+      "percent": null
+    }
+  ]
+}
