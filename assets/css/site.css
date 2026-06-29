@@ -971,6 +971,20 @@ a.move-row {
   background: rgba(255, 255, 255, 0.05);
 }
 
+.turn-result-card.is-skipped {
+  border-color: rgba(255, 97, 116, 0.78);
+  background: rgba(255, 97, 116, 0.12);
+}
+
+.turn-result-card.is-skipped strong {
+  color: #ff9ca8;
+}
+
+.turn-result-card.is-skipped .turn-result-meta span {
+  border-color: rgba(255, 97, 116, 0.55);
+  color: #ffd7dc;
+}
+
 .turn-result-card strong {
   font-size: 1.02rem;
 }

@@ -620,8 +620,15 @@ document.addEventListener("DOMContentLoaded", () => {
       "ice beam": { mode: "multi", options: [{ key: "freeze", label: "Freeze" }] },
       "flamethrower": { mode: "multi", options: [{ key: "burn", label: "Burn" }] },
       "flare blitz": { mode: "multi", options: [{ key: "burn", label: "Burn" }] },
+      "fake out": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
       "fire fang": { mode: "multi", options: [{ key: "burn", label: "Burn" }, { key: "flinch", label: "Flinch" }] },
       "rock slide": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
+      "air slash": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
+      "bite": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
+      "dark pulse": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
+      "headbutt": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
+      "iron head": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
+      "zen headbutt": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
       "muddy water": { mode: "multi", options: [{ key: "accuracy", label: "Accuracy drop" }] },
       "snarl": { mode: "always", options: [{ key: "special_attack_down", label: "Sp. Atk drop" }] },
       "icy wind": { mode: "always", options: [{ key: "speed_down", label: "Speed drop" }] },
@@ -955,8 +962,26 @@ document.addEventListener("DOMContentLoaded", () => {
       targets: (state.action?.targets || []).map(key => fieldSlots.find(candidate => slotKey(candidate) === key)).filter(Boolean),
       damage: [],
       secondaryEffects: state.action?.secondaryEffects || {},
-      sideConditions: []
+      sideConditions: [],
+      skipped: false,
+      skipReason: ""
     };
+  }
+
+  function selectedEffectEntries(action) {
+    return Object.entries(action.secondaryEffects || {}).map(([id, label]) => {
+      const [targetKey, effectKey] = id.split(":");
+      return { targetKey, effectKey, label };
+    });
+  }
+
+  function actionStopReason(action, hpRanges, flinchedSlots) {
+    const key = slotKey(action.slot);
+    const hp = hpRanges.get(key);
+    if (flinchedSlots.has(key)) return "Flinched before it could move.";
+    if (hp?.max <= 0) return "Fainted before it could move.";
+    if (hp?.min <= 0) return "May faint before it can move.";
+    return "";
   }
 
   function sideStateSummary(sideState) {
@@ -982,10 +1007,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const meta = document.createElement("div");
     const targets = document.createElement("div");
 
-    card.className = "turn-result-card";
+    card.className = `turn-result-card${action.skipped ? " is-skipped" : ""}`;
     meta.className = "turn-result-meta";
     targets.className = "turn-result-meta";
-    title.textContent = `${index + 1}. ${action.pokemon} uses ${action.move}`;
+    title.textContent = action.skipped
+      ? `${index + 1}. ${action.pokemon} cannot use ${action.move}`
+      : `${index + 1}. ${action.pokemon} uses ${action.move}`;
 
     [
       `Priority ${action.priority}`,
@@ -996,6 +1023,14 @@ document.addEventListener("DOMContentLoaded", () => {
       pill.textContent = text;
       meta.append(pill);
     });
+
+    if (action.skipped) {
+      const pill = document.createElement("span");
+      pill.textContent = action.skipReason || "Action skipped";
+      targets.append(pill);
+      card.append(title, meta, targets);
+      return card;
+    }
 
     const targetNames = action.targets.length
       ? action.targets.map(target => {
@@ -1052,6 +1087,14 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  function applySelectedEffects(action, flinchedSlots) {
+    selectedEffectEntries(action).forEach(effect => {
+      if (effect.effectKey === "flinch" && effect.targetKey) {
+        flinchedSlots.add(effect.targetKey);
+      }
+    });
+  }
+
   function applyActionDamage(action, sideState, hpRanges) {
     action.damage = action.targets.map(target => {
       const range = damageRange(action, target, sideState);
@@ -1097,6 +1140,7 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     const sideState = { left: {}, right: {} };
+    const flinchedSlots = new Set();
     const hpRanges = new Map(visibleSlots().map(slot => {
       const state = stateFor(slot);
       updateSlotDisplay(slot);
@@ -1110,8 +1154,16 @@ document.addEventListener("DOMContentLoaded", () => {
       });
       pending.sort(compareActions);
       const action = pending.shift();
+      const stopReason = actionStopReason(action, hpRanges, flinchedSlots);
+      if (stopReason) {
+        action.skipped = true;
+        action.skipReason = stopReason;
+        actions.push(action);
+        continue;
+      }
       actions.push(action);
       applyActionDamage(action, sideState, hpRanges);
+      applySelectedEffects(action, flinchedSlots);
       applyActionEffects(action, sideState);
     }
 
