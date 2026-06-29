@@ -108,7 +108,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/bright-powder_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/bright-powder_primary_image.png"
     },
     {
       "slug": "leftovers",
@@ -120,7 +120,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "sitrus-berry",
@@ -132,7 +132,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/sitrus-berry_primary_image.png"
     },
     {
       "slug": "focus-sash",
@@ -144,7 +144,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/focus-sash_primary_image.png"
     },
     {
       "slug": "passho-berry",
@@ -156,7 +156,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/passho-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/passho-berry_primary_image.png"
     },
     {
       "slug": "soft-sand",
@@ -168,7 +168,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/soft-sand_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/soft-sand_primary_image.png"
     },
     {
       "slug": "mental-herb",
@@ -180,7 +180,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/mental-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/mental-herb_primary_image.png"
     },
     {
       "slug": "yache-berry",
@@ -192,7 +192,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/yache-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/yache-berry_primary_image.png"
     },
     {
       "slug": "rindo-berry",
@@ -204,7 +204,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/rindo-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/rindo-berry_primary_image.png"
     },
     {
       "slug": "scope-lens",
@@ -216,7 +216,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/scope-lens_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/scope-lens_primary_image.png"
     },
     {
       "slug": "shell-bell",
@@ -228,7 +228,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/shell-bell_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/shell-bell_primary_image.png"
     },
     {
       "slug": "colbur-berry",
@@ -240,7 +240,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/colbur-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/colbur-berry_primary_image.png"
     }
   ],
   "spreads": [

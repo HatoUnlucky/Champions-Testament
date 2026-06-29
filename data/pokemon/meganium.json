@@ -97,7 +97,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "miracle-seed",
@@ -109,7 +109,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/miracle-seed_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/miracle-seed_primary_image.png"
     },
     {
       "slug": "quick-claw",
@@ -121,7 +121,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/quick-claw_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/quick-claw_primary_image.png"
     },
     {
       "slug": "occa-berry",
@@ -133,7 +133,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/occa-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/occa-berry_primary_image.png"
     },
     {
       "slug": "sitrus-berry",
@@ -145,7 +145,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/sitrus-berry_primary_image.png"
     },
     {
       "slug": "choice-scarf",
@@ -157,7 +157,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/choice-scarf_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/choice-scarf_primary_image.png"
     }
   ],
   "spreads": [

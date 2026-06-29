@@ -101,7 +101,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/quick-claw_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/quick-claw_primary_image.png"
     },
     {
       "slug": "focus-sash",
@@ -113,7 +113,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/focus-sash_primary_image.png"
     },
     {
       "slug": "leftovers",
@@ -125,7 +125,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "black-belt",
@@ -137,7 +137,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/black-belt_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/black-belt_primary_image.png"
     },
     {
       "slug": "choice-scarf",
@@ -149,7 +149,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/choice-scarf_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/choice-scarf_primary_image.png"
     },
     {
       "slug": "bright-powder",
@@ -161,7 +161,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/bright-powder_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/bright-powder_primary_image.png"
     },
     {
       "slug": "scope-lens",
@@ -173,7 +173,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/scope-lens_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/scope-lens_primary_image.png"
     }
   ],
   "spreads": [

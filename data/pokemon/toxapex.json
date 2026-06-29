@@ -112,7 +112,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "mental-herb",
@@ -124,7 +124,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/mental-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/mental-herb_primary_image.png"
     },
     {
       "slug": "shuca-berry",
@@ -136,7 +136,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/shuca-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/shuca-berry_primary_image.png"
     },
     {
       "slug": "sitrus-berry",
@@ -148,7 +148,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/sitrus-berry_primary_image.png"
     },
     {
       "slug": "bright-powder",
@@ -160,7 +160,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/bright-powder_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/bright-powder_primary_image.png"
     },
     {
       "slug": "quick-claw",
@@ -172,7 +172,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/quick-claw_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/quick-claw_primary_image.png"
     },
     {
       "slug": "poison-barb",
@@ -184,7 +184,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/poison-barb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/poison-barb_primary_image.png"
     },
     {
       "slug": "lum-berry",
@@ -196,7 +196,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/lum-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/lum-berry_primary_image.png"
     },
     {
       "slug": "gyaradosite",
@@ -208,7 +208,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Mega Evolution/gyaradosite_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/mega-evolution/gyaradosite_primary_image.png"
     },
     {
       "slug": "payapa-berry",
@@ -220,7 +220,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/payapa-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/payapa-berry_primary_image.png"
     },
     {
       "slug": "wacan-berry",
@@ -232,7 +232,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/wacan-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/wacan-berry_primary_image.png"
     },
     {
       "slug": "mystic-water",
@@ -244,7 +244,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/mystic-water_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/mystic-water_primary_image.png"
     }
   ],
   "spreads": [

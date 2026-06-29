@@ -101,7 +101,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/mystic-water_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/mystic-water_primary_image.png"
     },
     {
       "slug": "focus-sash",
@@ -113,7 +113,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/focus-sash_primary_image.png"
     },
     {
       "slug": "leftovers",
@@ -125,7 +125,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "babiri-berry",
@@ -137,7 +137,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/babiri-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/babiri-berry_primary_image.png"
     },
     {
       "slug": "sitrus-berry",
@@ -149,7 +149,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/sitrus-berry_primary_image.png"
     },
     {
       "slug": "coba-berry",
@@ -161,7 +161,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/coba-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/coba-berry_primary_image.png"
     },
     {
       "slug": "wacan-berry",
@@ -173,7 +173,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/wacan-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/wacan-berry_primary_image.png"
     },
     {
       "slug": "silver-powder",
@@ -185,7 +185,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/silver-powder_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/silver-powder_primary_image.png"
     },
     {
       "slug": "choice-scarf",
@@ -197,7 +197,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/choice-scarf_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/choice-scarf_primary_image.png"
     },
     {
       "slug": "charti-berry",
@@ -209,7 +209,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/charti-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/charti-berry_primary_image.png"
     },
     {
       "slug": "white-herb",
@@ -221,7 +221,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/white-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/white-herb_primary_image.png"
     },
     {
       "slug": "quick-claw",
@@ -233,7 +233,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/quick-claw_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/quick-claw_primary_image.png"
     }
   ],
   "spreads": [

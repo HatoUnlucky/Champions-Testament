@@ -112,7 +112,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/focus-sash_primary_image.png"
     },
     {
       "slug": "leftovers",
@@ -124,7 +124,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "mental-herb",
@@ -136,7 +136,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/mental-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/mental-herb_primary_image.png"
     },
     {
       "slug": "shuca-berry",
@@ -148,7 +148,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/shuca-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/shuca-berry_primary_image.png"
     },
     {
       "slug": "black-belt",
@@ -160,7 +160,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/black-belt_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/black-belt_primary_image.png"
     },
     {
       "slug": "white-herb",
@@ -172,7 +172,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/white-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/white-herb_primary_image.png"
     },
     {
       "slug": "sitrus-berry",
@@ -184,7 +184,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/sitrus-berry_primary_image.png"
     },
     {
       "slug": "lum-berry",
@@ -196,7 +196,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/lum-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/lum-berry_primary_image.png"
     },
     {
       "slug": "coba-berry",
@@ -208,7 +208,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/coba-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/coba-berry_primary_image.png"
     },
     {
       "slug": "poison-barb",
@@ -220,7 +220,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/poison-barb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/poison-barb_primary_image.png"
     },
     {
       "slug": "focus-band",
@@ -232,7 +232,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/focus-band_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/focus-band_primary_image.png"
     },
     {
       "slug": "payapa-berry",
@@ -244,7 +244,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/payapa-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/payapa-berry_primary_image.png"
     }
   ],
   "spreads": [

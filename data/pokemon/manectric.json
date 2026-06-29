@@ -108,7 +108,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/focus-sash_primary_image.png"
     },
     {
       "slug": "choice-scarf",
@@ -120,7 +120,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/choice-scarf_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/choice-scarf_primary_image.png"
     },
     {
       "slug": "magnet",
@@ -132,7 +132,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/magnet_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/magnet_primary_image.png"
     },
     {
       "slug": "shuca-berry",
@@ -144,7 +144,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/shuca-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/shuca-berry_primary_image.png"
     },
     {
       "slug": "sitrus-berry",
@@ -156,7 +156,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/sitrus-berry_primary_image.png"
     },
     {
       "slug": "leftovers",
@@ -168,7 +168,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "bright-powder",
@@ -180,7 +180,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/bright-powder_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/bright-powder_primary_image.png"
     },
     {
       "slug": "charcoal",
@@ -192,7 +192,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/charcoal_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/charcoal_primary_image.png"
     },
     {
       "slug": "mental-herb",
@@ -204,7 +204,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/mental-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/mental-herb_primary_image.png"
     },
     {
       "slug": "white-herb",
@@ -216,7 +216,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/white-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/white-herb_primary_image.png"
     },
     {
       "slug": "scope-lens",
@@ -228,7 +228,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/scope-lens_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/scope-lens_primary_image.png"
     },
     {
       "slug": "aspear-berry",
@@ -240,7 +240,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/aspear-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/aspear-berry_primary_image.png"
     }
   ],
   "spreads": [

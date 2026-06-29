@@ -108,7 +108,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/focus-sash_primary_image.png"
     },
     {
       "slug": "colbur-berry",
@@ -120,7 +120,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/colbur-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/colbur-berry_primary_image.png"
     },
     {
       "slug": "twisted-spoon",
@@ -132,7 +132,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/twisted-spoon_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/twisted-spoon_primary_image.png"
     },
     {
       "slug": "choice-scarf",
@@ -144,7 +144,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/choice-scarf_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/choice-scarf_primary_image.png"
     },
     {
       "slug": "mental-herb",
@@ -156,7 +156,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/mental-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/mental-herb_primary_image.png"
     },
     {
       "slug": "kasib-berry",
@@ -168,7 +168,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/kasib-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/kasib-berry_primary_image.png"
     },
     {
       "slug": "bright-powder",
@@ -180,7 +180,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/bright-powder_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/bright-powder_primary_image.png"
     },
     {
       "slug": "black-belt",
@@ -192,7 +192,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/black-belt_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/black-belt_primary_image.png"
     },
     {
       "slug": "leftovers",
@@ -204,7 +204,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "lum-berry",
@@ -216,7 +216,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/lum-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/lum-berry_primary_image.png"
     },
     {
       "slug": "quick-claw",
@@ -228,7 +228,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/quick-claw_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/quick-claw_primary_image.png"
     },
     {
       "slug": "silk-scarf",
@@ -240,7 +240,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/silk-scarf_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/silk-scarf_primary_image.png"
     }
   ],
   "spreads": [

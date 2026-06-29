@@ -101,7 +101,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/poison-barb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/poison-barb_primary_image.png"
     },
     {
       "slug": "sitrus-berry",
@@ -113,7 +113,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/sitrus-berry_primary_image.png"
     },
     {
       "slug": "yache-berry",
@@ -125,7 +125,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/yache-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/yache-berry_primary_image.png"
     },
     {
       "slug": "focus-sash",
@@ -137,7 +137,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/focus-sash_primary_image.png"
     },
     {
       "slug": "shell-bell",
@@ -149,7 +149,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/shell-bell_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/shell-bell_primary_image.png"
     },
     {
       "slug": "mental-herb",
@@ -161,7 +161,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/mental-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/mental-herb_primary_image.png"
     },
     {
       "slug": "miracle-seed",
@@ -173,7 +173,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/miracle-seed_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/miracle-seed_primary_image.png"
     },
     {
       "slug": "payapa-berry",
@@ -185,7 +185,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/payapa-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/payapa-berry_primary_image.png"
     },
     {
       "slug": "leftovers",
@@ -197,7 +197,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "charcoal",
@@ -209,7 +209,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/charcoal_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/charcoal_primary_image.png"
     },
     {
       "slug": "black-glasses",
@@ -221,7 +221,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/black-glasses_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/black-glasses_primary_image.png"
     },
     {
       "slug": "kings-rock",

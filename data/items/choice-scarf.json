@@ -6,7 +6,7 @@
   "power": null,
   "damage_class": "",
   "priority": 0,
-  "image": "Images/item_images/primary_images_by_category/Held Item/choice-scarf_primary_image.png",
+  "image": "Images/item_images/primary_images_by_category/held-item/choice-scarf_primary_image.png",
   "regulations": [
     "ma"
   ],

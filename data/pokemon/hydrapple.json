@@ -112,7 +112,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "soft-sand",
@@ -124,7 +124,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/soft-sand_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/soft-sand_primary_image.png"
     },
     {
       "slug": "haban-berry",
@@ -136,7 +136,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/haban-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/haban-berry_primary_image.png"
     },
     {
       "slug": "sitrus-berry",
@@ -148,7 +148,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/sitrus-berry_primary_image.png"
     },
     {
       "slug": "miracle-seed",
@@ -160,7 +160,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/miracle-seed_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/miracle-seed_primary_image.png"
     },
     {
       "slug": "white-herb",
@@ -172,7 +172,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/white-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/white-herb_primary_image.png"
     },
     {
       "slug": "yache-berry",
@@ -184,7 +184,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/yache-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/yache-berry_primary_image.png"
     },
     {
       "slug": "roseli-berry",
@@ -196,7 +196,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/roseli-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/roseli-berry_primary_image.png"
     },
     {
       "slug": "dragon-fang",
@@ -208,7 +208,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/dragon-fang_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/dragon-fang_primary_image.png"
     },
     {
       "slug": "mental-herb",
@@ -220,7 +220,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/mental-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/mental-herb_primary_image.png"
     },
     {
       "slug": "kebia-berry",
@@ -232,7 +232,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/kebia-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/kebia-berry_primary_image.png"
     },
     {
       "slug": "quick-claw",
@@ -244,7 +244,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/quick-claw_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/quick-claw_primary_image.png"
     }
   ],
   "spreads": [

@@ -112,7 +112,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/choice-scarf_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/choice-scarf_primary_image.png"
     },
     {
       "slug": "black-glasses",
@@ -124,7 +124,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/black-glasses_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/black-glasses_primary_image.png"
     },
     {
       "slug": "focus-sash",
@@ -136,7 +136,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/focus-sash_primary_image.png"
     },
     {
       "slug": "coba-berry",
@@ -148,7 +148,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/coba-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/coba-berry_primary_image.png"
     },
     {
       "slug": "sitrus-berry",
@@ -160,7 +160,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/sitrus-berry_primary_image.png"
     },
     {
       "slug": "mental-herb",
@@ -172,7 +172,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/mental-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/mental-herb_primary_image.png"
     },
     {
       "slug": "colbur-berry",
@@ -184,7 +184,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/colbur-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/colbur-berry_primary_image.png"
     },
     {
       "slug": "occa-berry",
@@ -196,7 +196,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/occa-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/occa-berry_primary_image.png"
     },
     {
       "slug": "silk-scarf",
@@ -208,7 +208,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/silk-scarf_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/silk-scarf_primary_image.png"
     },
     {
       "slug": "kasib-berry",
@@ -220,7 +220,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/kasib-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/kasib-berry_primary_image.png"
     },
     {
       "slug": "leftovers",
@@ -232,7 +232,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "bright-powder",
@@ -244,7 +244,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/bright-powder_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/bright-powder_primary_image.png"
     }
   ],
   "spreads": [

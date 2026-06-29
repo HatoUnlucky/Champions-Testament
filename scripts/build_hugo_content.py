@@ -27,6 +27,10 @@ def compact_id(value):
     return re.sub(r"[^a-z0-9]", "", str(value or "").lower())
 
 
+def path_slug(value):
+    return slugify(value)
+
+
 def display_name(value):
     return str(value or "").replace("-", " ").title().replace("'S", "'s")
 
@@ -160,9 +164,42 @@ def pokemon_image(row, kind):
 
 def item_image(item_slug, item_lookup):
     record = item_lookup.get(str(item_slug).lower()) or item_lookup.get(compact_id(item_slug))
-    if record and record.get("primary_image"):
-        category = record.get("category") or "unknown"
-        return f"Images/item_images/primary_images_by_category/{category}/{record['primary_image']}"
+    if not record:
+        return ""
+
+    category = path_slug(record.get("category") or "unknown")
+    image_candidates = []
+    if record.get("primary_image"):
+        image_candidates.append((
+            "primary_images_by_category",
+            category,
+            record["primary_image"],
+        ))
+    image_candidates.append((
+        "primary_images_by_category",
+        category,
+        f"{item_slug}_primary_image.png",
+    ))
+    image_candidates.append((
+        "pixel_sprites_by_category",
+        category,
+        f"{item_slug}_pixel_sprite.png",
+    ))
+    image_candidates.append((
+        "by_category",
+        category,
+        f"{item_slug}_primary_image.png",
+    ))
+    image_candidates.append((
+        "by_category",
+        category,
+        f"{item_slug}_pixel_sprite.png",
+    ))
+
+    for base, folder, filename in image_candidates:
+        path = ROOT / "Images" / "item_images" / base / folder / filename
+        if path.exists():
+            return f"Images/item_images/{base}/{folder}/{filename}"
     return ""
 
 

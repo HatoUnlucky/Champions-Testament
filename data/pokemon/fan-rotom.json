@@ -90,7 +90,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/sitrus-berry_primary_image.png"
     },
     {
       "slug": "magnet",
@@ -102,7 +102,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/magnet_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/magnet_primary_image.png"
     },
     {
       "slug": "leftovers",
@@ -114,7 +114,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "choice-scarf",
@@ -126,7 +126,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/choice-scarf_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/choice-scarf_primary_image.png"
     },
     {
       "slug": "chesto-berry",
@@ -138,7 +138,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/chesto-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/chesto-berry_primary_image.png"
     },
     {
       "slug": "sharp-beak",
@@ -150,7 +150,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/sharp-beak_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/sharp-beak_primary_image.png"
     },
     {
       "slug": "bright-powder",
@@ -162,7 +162,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/bright-powder_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/bright-powder_primary_image.png"
     },
     {
       "slug": "chilan-berry",
@@ -174,7 +174,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/chilan-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/chilan-berry_primary_image.png"
     },
     {
       "slug": "lum-berry",
@@ -186,7 +186,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/lum-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/lum-berry_primary_image.png"
     },
     {
       "slug": "focus-sash",
@@ -198,7 +198,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/focus-sash_primary_image.png"
     },
     {
       "slug": "kings-rock",
@@ -222,7 +222,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/yache-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/yache-berry_primary_image.png"
     }
   ],
   "spreads": [

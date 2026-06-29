@@ -112,7 +112,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/sitrus-berry_primary_image.png"
     },
     {
       "slug": "mystic-water",
@@ -124,7 +124,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/mystic-water_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/mystic-water_primary_image.png"
     },
     {
       "slug": "kebia-berry",
@@ -136,7 +136,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/kebia-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/kebia-berry_primary_image.png"
     },
     {
       "slug": "fairy-feather",
@@ -148,7 +148,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/fairy-feather_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/fairy-feather_primary_image.png"
     },
     {
       "slug": "leftovers",
@@ -160,7 +160,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/leftovers_primary_image.png"
     },
     {
       "slug": "chesto-berry",
@@ -172,7 +172,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/chesto-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/chesto-berry_primary_image.png"
     },
     {
       "slug": "lum-berry",
@@ -184,7 +184,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/lum-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/lum-berry_primary_image.png"
     },
     {
       "slug": "white-herb",
@@ -196,7 +196,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/white-herb_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/white-herb_primary_image.png"
     },
     {
       "slug": "wacan-berry",
@@ -208,7 +208,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/wacan-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/wacan-berry_primary_image.png"
     },
     {
       "slug": "choice-scarf",
@@ -220,7 +220,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/choice-scarf_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/choice-scarf_primary_image.png"
     },
     {
       "slug": "rindo-berry",
@@ -232,7 +232,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Berry/rindo-berry_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/berry/rindo-berry_primary_image.png"
     },
     {
       "slug": "quick-claw",
@@ -244,7 +244,7 @@
       "damage_class": "",
       "priority": 0,
       "kind": "item",
-      "image": "Images/item_images/primary_images_by_category/Held Item/quick-claw_primary_image.png"
+      "image": "Images/item_images/primary_images_by_category/held-item/quick-claw_primary_image.png"
     }
   ],
   "spreads": [
