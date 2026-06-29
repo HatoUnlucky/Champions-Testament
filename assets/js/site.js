@@ -204,6 +204,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const pokemonData = parseJson("turn-pokemon-data", {});
   const moveData = parseJson("turn-move-data", {});
   const itemData = parseJson("turn-item-data", []);
+  const moveEffectsData = parseJson("turn-move-effects-data", {});
+  const moveTargetsData = parseJson("turn-move-targets-data", {});
+  const statusImmunitiesData = parseJson("turn-status-immunities-data", {});
   const pokemonRows = dataRows(pokemonData).sort((a, b) => displayName(a).localeCompare(displayName(b)));
   const moveRows = dataRows(moveData).sort((a, b) => displayName(a).localeCompare(displayName(b)));
   const itemRows = dataRows(itemData).sort((a, b) => displayName(a).localeCompare(displayName(b)));
@@ -387,30 +390,64 @@ document.addEventListener("DOMContentLoaded", () => {
     return movesByName.get(String(name || "").toLowerCase()) || null;
   }
 
+  function moveSlug(moveOrName) {
+    const move = typeof moveOrName === "string" ? moveRecord(moveOrName) : moveOrName;
+    return slugify(move?.slug || move?.display_name || move?.name || moveOrName);
+  }
+
+  function slugify(value) {
+    return String(value || "").trim().toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+  }
+
   function pokemonRecord(name) {
     return pokemonByName.get(String(name || "").toLowerCase()) || null;
   }
 
-  function moveTargets(move, attackerSlot) {
-    const name = String(move?.display_name || move?.name || "").toLowerCase();
-    const description = String(move?.description || "").toLowerCase();
-    const opponentSpread = new Set([
-      "dazzling gleam", "heat wave", "icy wind", "muddy water", "rock slide", "snarl", "struggle bug", "electroweb"
-    ]);
-    const allAdjacent = new Set(["earthquake", "surf", "discharge", "lava plume", "boomburst", "bulldoze", "sludge wave"]);
-    const allIncludingSelf = new Set(["explosion", "self-destruct", "misty explosion"]);
+  function moveTargetInfo(move) {
+    return moveTargetsData[moveSlug(move)] || {
+      target_kind: "adjacent_opponent_single",
+      allowed_sides: ["opponent"],
+      min_targets: 1,
+      max_targets: 1,
+      auto_select: false
+    };
+  }
 
-    if (allIncludingSelf.has(name)) return visibleSlots();
-    if (allAdjacent.has(name) || description.includes("all adjacent")) {
-      return visibleSlots().filter(slot => slot !== attackerSlot);
-    }
-    if (sideEffectForMove(name)) {
-      return visibleSlots().filter(slot => slot.dataset.side === attackerSlot.dataset.side);
-    }
-    if (opponentSpread.has(name) || description.includes("targets'")) {
-      return visibleSlots().filter(slot => slot.dataset.side !== attackerSlot.dataset.side);
-    }
-    return visibleSlots().filter(slot => slot.dataset.side !== attackerSlot.dataset.side).slice(0, 1);
+  function targetIsLive(slot) {
+    return Number(stateFor(slot)?.hpMax ?? 1) > 0;
+  }
+
+  function allowedTargetSlots(move, attackerSlot, includeSelf = true) {
+    const info = moveTargetInfo(move);
+    return visibleSlots().filter(slot => {
+      if (!targetIsLive(slot)) return false;
+      if (slot === attackerSlot) return includeSelf && (info.allowed_sides || []).includes("self");
+      if (slot.dataset.side === attackerSlot.dataset.side) return (info.allowed_sides || []).includes("ally");
+      return (info.allowed_sides || []).includes("opponent");
+    });
+  }
+
+  function moveTargets(move, attackerSlot) {
+    const info = moveTargetInfo(move);
+    if (Number(info.max_targets || 0) === 0) return [];
+    const targets = allowedTargetSlots(move, attackerSlot);
+    if (info.auto_select) return targets;
+    return targets.slice(0, Number(info.max_targets || 1));
+  }
+
+  function effectRowsForMove(moveOrName) {
+    return moveEffectsData[moveSlug(moveOrName)] || [];
+  }
+
+  function statusImmune(effect, targetSlot) {
+    const rules = statusImmunitiesData[effect.identifier] || {};
+    const state = stateFor(targetSlot);
+    const types = new Set(pokemonTypes(state));
+    const ability = slugify(state.ability);
+    return (
+      (rules.immune_types || []).some(type => types.has(type)) ||
+      (rules.immune_abilities || []).includes(ability)
+    );
   }
 
   function updateSlotDisplay(slot) {
@@ -605,36 +642,38 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function secondaryEffectOptions(moveName) {
-    const name = String(moveName || "").toLowerCase();
-    const options = {
-      "dire claw": {
-        mode: "single",
-        options: [
-          { key: "poison", label: "Poison" },
-          { key: "paralysis", label: "Paralysis" },
-          { key: "sleep", label: "Sleep" }
-        ]
-      },
-      "thunderbolt": { mode: "multi", options: [{ key: "paralysis", label: "Paralysis" }] },
-      "discharge": { mode: "multi", options: [{ key: "paralysis", label: "Paralysis" }] },
-      "ice beam": { mode: "multi", options: [{ key: "freeze", label: "Freeze" }] },
-      "flamethrower": { mode: "multi", options: [{ key: "burn", label: "Burn" }] },
-      "flare blitz": { mode: "multi", options: [{ key: "burn", label: "Burn" }] },
-      "fake out": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
-      "fire fang": { mode: "multi", options: [{ key: "burn", label: "Burn" }, { key: "flinch", label: "Flinch" }] },
-      "rock slide": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
-      "air slash": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
-      "bite": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
-      "dark pulse": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
-      "headbutt": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
-      "iron head": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
-      "zen headbutt": { mode: "multi", options: [{ key: "flinch", label: "Flinch" }] },
-      "muddy water": { mode: "multi", options: [{ key: "accuracy", label: "Accuracy drop" }] },
-      "snarl": { mode: "always", options: [{ key: "special_attack_down", label: "Sp. Atk drop" }] },
-      "icy wind": { mode: "always", options: [{ key: "speed_down", label: "Speed drop" }] },
-      "electroweb": { mode: "always", options: [{ key: "speed_down", label: "Speed drop" }] }
+    const rows = effectRowsForMove(moveName);
+    if (!rows.length) return null;
+    const chanceRows = rows.filter(row => Number(row.chance || 0) < 100);
+    const automaticRows = rows.filter(row => Number(row.chance || 0) >= 100);
+    const options = chanceRows.map(row => ({
+      key: row.identifier,
+      label: effectLabel(row),
+      chance: row.chance
+    }));
+    const mode = options.length > 1 && moveSlug(moveName) === "dire-claw" ? "single" : "multi";
+    return { mode, options, automaticRows };
+  }
+
+  function effectLabel(row) {
+    const labels = {
+      burn: "Burn",
+      paralysis: "Paralysis",
+      freeze: "Freeze",
+      poison: "Poison",
+      badly_poison: "Bad poison",
+      sleep: "Sleep",
+      confusion: "Confusion",
+      flinch: "Flinch",
+      attack_down: "Attack drop",
+      defense_down: "Defense drop",
+      special_attack_down: "Sp. Atk drop",
+      special_defense_down: "Sp. Def drop",
+      speed_down: "Speed drop",
+      accuracy_down: "Accuracy drop"
     };
-    return options[name] || null;
+    const label = labels[row.identifier] || displayName(row.identifier);
+    return Number(row.chance || 0) >= 100 ? label : `${label} (${row.chance}%)`;
   }
 
   function seedSlot(slot, name) {
@@ -952,14 +991,24 @@ document.addEventListener("DOMContentLoaded", () => {
   function actionFor(slot) {
     const state = stateFor(slot);
     const move = moveRecord(state.action?.move);
+    const targetInfo = moveTargetInfo(move);
+    const allowed = new Set(allowedTargetSlots(move, slot).map(slotKey));
+    const targets = targetInfo.auto_select
+      ? moveTargets(move, slot)
+      : (state.action?.targets || [])
+          .filter(key => allowed.has(key))
+          .slice(0, Number(targetInfo.max_targets || 1))
+          .map(key => fieldSlots.find(candidate => slotKey(candidate) === key))
+          .filter(Boolean);
     return {
       slot,
       pokemon: state.pokemon || slotLabel(slot),
       move: state.action?.move || "No move selected",
       moveRecord: move,
+      targetInfo,
       priority: priorityFor(slot, move),
       speed: effectiveSpeed(slot),
-      targets: (state.action?.targets || []).map(key => fieldSlots.find(candidate => slotKey(candidate) === key)).filter(Boolean),
+      targets,
       damage: [],
       secondaryEffects: state.action?.secondaryEffects || {},
       sideConditions: [],
@@ -1052,9 +1101,16 @@ document.addEventListener("DOMContentLoaded", () => {
       targets.append(pill);
     });
 
-    Object.values(action.secondaryEffects || {}).forEach(effect => {
+    automaticEffects(action).forEach(effect => {
+      const target = fieldSlots.find(slot => slotKey(slot) === effect.targetKey);
       const pill = document.createElement("span");
-      pill.textContent = `Effect: ${effect}`;
+      pill.textContent = `Automatic: ${effect.label}${target ? ` on ${stateFor(target).pokemon || slotLabel(target)}` : ""}`;
+      targets.append(pill);
+    });
+
+    selectedEffectEntries(action).forEach(effect => {
+      const pill = document.createElement("span");
+      pill.textContent = `Effect: ${effect.label}`;
       targets.append(pill);
     });
 
@@ -1072,25 +1128,50 @@ document.addEventListener("DOMContentLoaded", () => {
     const sideEffect = sideEffectForMove(action.move);
     if (sideEffect) sideState[action.slot.dataset.side][sideEffect.key] = true;
 
-    const secondary = secondaryEffectOptions(action.move);
-    if (!secondary || secondary.mode !== "always") return;
-    secondary.options.forEach(option => {
-      action.targets.forEach(target => {
-        const targetState = stateFor(target);
-        if (option.key === "speed_down") {
-          targetState.stages.speed = Math.max(-6, (targetState.stages.speed || 0) - 1);
-        }
-        if (option.key === "special_attack_down") {
-          targetState.stages.special_attack = Math.max(-6, (targetState.stages.special_attack || 0) - 1);
-        }
-      });
-    });
+    automaticEffects(action).forEach(effect => applyEffectToTargets(action, effect));
+    selectedEffectEntries(action).forEach(effect => applyEffectToTargets(action, effect));
   }
 
   function applySelectedEffects(action, flinchedSlots) {
-    selectedEffectEntries(action).forEach(effect => {
+    [...automaticEffects(action), ...selectedEffectEntries(action)].forEach(effect => {
       if (effect.effectKey === "flinch" && effect.targetKey) {
         flinchedSlots.add(effect.targetKey);
+      }
+    });
+  }
+
+  function automaticEffects(action) {
+    return effectRowsForMove(action.move)
+      .filter(row => Number(row.chance || 0) >= 100)
+      .flatMap(row => action.targets
+        .filter(target => !statusImmune(row, target))
+        .map(target => ({
+          targetKey: slotKey(target),
+          effectKey: row.identifier,
+          label: effectLabel(row)
+        })));
+  }
+
+  function applyEffectToTargets(action, effect) {
+    const targets = effect.targetKey
+      ? action.targets.filter(target => slotKey(target) === effect.targetKey)
+      : action.targets;
+    targets.forEach(target => {
+      const targetState = stateFor(target);
+      if (effect.effectKey === "speed_down") {
+        targetState.stages.speed = Math.max(-6, (targetState.stages.speed || 0) - 1);
+      }
+      if (effect.effectKey === "special_attack_down") {
+        targetState.stages.special_attack = Math.max(-6, (targetState.stages.special_attack || 0) - 1);
+      }
+      if (effect.effectKey === "attack_down") {
+        targetState.stages.attack = Math.max(-6, (targetState.stages.attack || 0) - 1);
+      }
+      if (effect.effectKey === "defense_down") {
+        targetState.stages.defense = Math.max(-6, (targetState.stages.defense || 0) - 1);
+      }
+      if (effect.effectKey === "special_defense_down") {
+        targetState.stages.special_defense = Math.max(-6, (targetState.stages.special_defense || 0) - 1);
       }
     });
   }
@@ -1117,6 +1198,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   }
 
+  function refreshAutoTargets(action, hpRanges) {
+    if (!action.targetInfo?.auto_select) return;
+    if (Number(action.targetInfo.max_targets || 0) === 0) {
+      action.targets = [];
+      return;
+    }
+    action.targets = allowedTargetSlots(action.moveRecord, action.slot)
+      .filter(slot => Number(hpRanges.get(slotKey(slot))?.max ?? 1) > 0);
+  }
+
   function calculateTurn() {
     const previewMode = selectedDamageMode() === "preview";
     if (previewMode) {
@@ -1132,7 +1223,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const pending = visibleSlots()
       .map(actionFor)
-      .filter(action => action.targets.length > 0 && action.move !== "No move selected");
+      .filter(action => action.move !== "No move selected" && (action.targets.length > 0 || Number(action.targetInfo?.max_targets || 0) === 0));
 
     if (!pending.length) {
       clearResults("Choose at least one move and target before simulating.", true);
@@ -1154,6 +1245,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
       pending.sort(compareActions);
       const action = pending.shift();
+      refreshAutoTargets(action, hpRanges);
       const stopReason = actionStopReason(action, hpRanges, flinchedSlots);
       if (stopReason) {
         action.skipped = true;
@@ -1251,17 +1343,30 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function renderTargetCards() {
+    if (!selectedAttacker) {
+      targetCards.replaceChildren();
+      return;
+    }
+    const move = moveRecord(selectedMove);
+    const targetInfo = moveTargetInfo(move);
+    const allowed = new Set(allowedTargetSlots(move, selectedAttacker).map(slotKey));
     targetCards.replaceChildren(...visibleSlots().map(slot => {
       const state = stateFor(slot);
       const pokemon = pokemonRecord(state.pokemon);
       const key = slotKey(slot);
+      const allowedTarget = allowed.has(key);
       const card = document.createElement("button");
       card.type = "button";
+      card.disabled = !allowedTarget || targetInfo.auto_select;
       card.className = `target-card${selectedTargets.has(key) ? " is-selected" : ""}`;
       card.innerHTML = `${pokemon ? `<img src="${withBase(spritePath(pokemon, slot.dataset.side))}" alt="">` : ""}<strong>${state.pokemon || slotLabel(slot)}</strong><div class="turn-result-meta"><span>${slotLabel(slot)}</span></div>`;
       card.addEventListener("click", () => {
+        if (!allowedTarget || targetInfo.auto_select) return;
         if (selectedTargets.has(key)) selectedTargets.delete(key);
-        else selectedTargets.add(key);
+        else {
+          if (Number(targetInfo.max_targets || 1) === 1) selectedTargets.clear();
+          selectedTargets.add(key);
+        }
         Object.keys(selectedSecondaryEffects)
           .filter(effectKey => effectKey.startsWith(`${key}:`))
           .forEach(effectKey => delete selectedSecondaryEffects[effectKey]);
@@ -1277,14 +1382,23 @@ document.addEventListener("DOMContentLoaded", () => {
   function renderSecondaryEffects() {
     const effect = secondaryEffectOptions(selectedMove);
     secondaryEffects.replaceChildren();
-    if (!effect || !selectedTargets.size) return;
+    if (!effect || (!selectedTargets.size && !effect.automaticRows?.length)) return;
 
     [...selectedTargets]
       .map(key => fieldSlots.find(slot => slotKey(slot) === key))
       .filter(Boolean)
       .forEach(slot => {
         const targetName = stateFor(slot).pokemon || slotLabel(slot);
+        (effect.automaticRows || [])
+          .filter(option => !statusImmune(option, slot))
+          .forEach(option => {
+            const label = document.createElement("div");
+            label.className = "secondary-effect-option is-automatic";
+            label.innerHTML = `<span><strong>${targetName}</strong> ${effectLabel(option)}</span>`;
+            secondaryEffects.append(label);
+          });
         effect.options.forEach(option => {
+          if (statusImmune({ identifier: option.key }, slot)) return;
           const id = `${slotKey(slot)}:${option.key}`;
           const label = document.createElement("label");
           const input = document.createElement("input");

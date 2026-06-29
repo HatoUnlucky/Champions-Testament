@@ -1,0 +1,72 @@
+﻿{
+    "burn":  {
+                 "immune_types":  [
+                                      "fire"
+                                  ],
+                 "immune_abilities":  [
+                                          "water-veil",
+                                          "water-bubble",
+                                          "thermal-exchange",
+                                          "comatose"
+                                      ]
+             },
+    "paralysis":  {
+                      "immune_types":  [
+                                           "electric"
+                                       ],
+                      "immune_abilities":  [
+                                               "limber",
+                                               "comatose"
+                                           ]
+                  },
+    "freeze":  {
+                   "immune_types":  [
+                                        "ice"
+                                    ],
+                   "immune_abilities":  [
+                                            "magma-armor",
+                                            "comatose"
+                                        ]
+               },
+    "poison":  {
+                   "immune_types":  [
+                                        "poison",
+                                        "steel"
+                                    ],
+                   "immune_abilities":  [
+                                            "immunity",
+                                            "pastel-veil",
+                                            "comatose"
+                                        ]
+               },
+    "badly_poison":  {
+                         "immune_types":  [
+                                              "poison",
+                                              "steel"
+                                          ],
+                         "immune_abilities":  [
+                                                  "immunity",
+                                                  "pastel-veil",
+                                                  "comatose"
+                                              ]
+                     },
+    "sleep":  {
+                  "immune_abilities":  [
+                                           "insomnia",
+                                           "vital-spirit",
+                                           "sweet-veil",
+                                           "comatose"
+                                       ]
+              },
+    "confusion":  {
+                      "immune_abilities":  [
+                                               "own-tempo"
+                                           ]
+                  },
+    "flinch":  {
+                   "immune_abilities":  [
+                                            "inner-focus",
+                                            "shield-dust"
+                                        ]
+               }
+}

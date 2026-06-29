@@ -1,0 +1,4511 @@
+﻿{
+    "accelerock":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "acid-armor":  {
+                       "target_kind":  "self",
+                       "allowed_sides":  [
+                                             "self"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  true
+                   },
+    "acid-spray":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "acrobatics":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "acupressure":  {
+                        "target_kind":  "adjacent_ally_single",
+                        "allowed_sides":  [
+                                              "ally"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "aerial-ace":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "after-you":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "agility":  {
+                    "target_kind":  "self",
+                    "allowed_sides":  [
+                                          "self"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  true
+                },
+    "air-cutter":  {
+                       "target_kind":  "all_adjacent_opponents",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  2,
+                       "max_targets":  2,
+                       "auto_select":  true
+                   },
+    "air-slash":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "alluring-voice":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "ally-switch":  {
+                        "target_kind":  "adjacent_ally_single",
+                        "allowed_sides":  [
+                                              "ally"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "amnesia":  {
+                    "target_kind":  "self",
+                    "allowed_sides":  [
+                                          "self"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  true
+                },
+    "ancient-power":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "apple-acid":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "aqua-cutter":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "aqua-jet":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "aqua-ring":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "aqua-step":  {
+                      "target_kind":  "self",
+                      "allowed_sides":  [
+                                            "self"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  true
+                  },
+    "aqua-tail":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "armor-cannon":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "aromatic-mist":  {
+                          "target_kind":  "adjacent_ally_single",
+                          "allowed_sides":  [
+                                                "ally"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "assurance":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "attract":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "aura-sphere":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "aura-wheel":  {
+                       "target_kind":  "self",
+                       "allowed_sides":  [
+                                             "self"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  true
+                   },
+    "aurora-veil":  {
+                        "target_kind":  "user_side",
+                        "allowed_sides":  [
+                                              "ally",
+                                              "self"
+                                          ],
+                        "min_targets":  0,
+                        "max_targets":  0,
+                        "auto_select":  true
+                    },
+    "avalanche":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "axe-kick":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "baby-doll-eyes":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "baneful-bunker":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "barb-barrage":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "baton-pass":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "beak-blast":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "beat-up":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "belch":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "belly-drum":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "bind":  {
+                 "target_kind":  "adjacent_opponent_single",
+                 "allowed_sides":  [
+                                       "opponent"
+                                   ],
+                 "min_targets":  1,
+                 "max_targets":  1,
+                 "auto_select":  false
+             },
+    "bite":  {
+                 "target_kind":  "adjacent_opponent_single",
+                 "allowed_sides":  [
+                                       "opponent"
+                                   ],
+                 "min_targets":  1,
+                 "max_targets":  1,
+                 "auto_select":  false
+             },
+    "bitter-blade":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "bitter-malice":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "blast-burn":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "blaze-kick":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "blizzard":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "block":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "body-press":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "body-slam":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "bone-rush":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "boomburst":  {
+                      "target_kind":  "all_adjacent",
+                      "allowed_sides":  [
+                                            "ally",
+                                            "opponent"
+                                        ],
+                      "min_targets":  3,
+                      "max_targets":  3,
+                      "auto_select":  true
+                  },
+    "bounce":  {
+                   "target_kind":  "adjacent_opponent_single",
+                   "allowed_sides":  [
+                                         "opponent"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  false
+               },
+    "brave-bird":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "breaking-swipe":  {
+                           "target_kind":  "all_adjacent_opponents",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  2,
+                           "max_targets":  2,
+                           "auto_select":  true
+                       },
+    "brick-break":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "brutal-swing":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "bug-bite":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "bug-buzz":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "bulk-up":  {
+                    "target_kind":  "self",
+                    "allowed_sides":  [
+                                          "self"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  true
+                },
+    "bulldoze":  {
+                     "target_kind":  "all_adjacent",
+                     "allowed_sides":  [
+                                           "ally",
+                                           "opponent"
+                                       ],
+                     "min_targets":  3,
+                     "max_targets":  3,
+                     "auto_select":  true
+                 },
+    "bullet-punch":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "bullet-seed":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "burning-jealousy":  {
+                             "target_kind":  "adjacent_opponent_single",
+                             "allowed_sides":  [
+                                                   "opponent"
+                                               ],
+                             "min_targets":  1,
+                             "max_targets":  1,
+                             "auto_select":  false
+                         },
+    "burn-up":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "calm-mind":  {
+                      "target_kind":  "self",
+                      "allowed_sides":  [
+                                            "self"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  true
+                  },
+    "ceaseless-edge":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "charge":  {
+                   "target_kind":  "self",
+                   "allowed_sides":  [
+                                         "self"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  true
+               },
+    "charge-beam":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "charm":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "chilling-water":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "chilly-reception":  {
+                             "target_kind":  "adjacent_opponent_single",
+                             "allowed_sides":  [
+                                                   "opponent"
+                                               ],
+                             "min_targets":  1,
+                             "max_targets":  1,
+                             "auto_select":  false
+                         },
+    "circle-throw":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "clanging-scales":  {
+                            "target_kind":  "adjacent_opponent_single",
+                            "allowed_sides":  [
+                                                  "opponent"
+                                              ],
+                            "min_targets":  1,
+                            "max_targets":  1,
+                            "auto_select":  false
+                        },
+    "clangorous-soul":  {
+                            "target_kind":  "adjacent_opponent_single",
+                            "allowed_sides":  [
+                                                  "opponent"
+                                              ],
+                            "min_targets":  1,
+                            "max_targets":  1,
+                            "auto_select":  false
+                        },
+    "clear-smog":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "close-combat":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "coaching":  {
+                     "target_kind":  "adjacent_ally_single",
+                     "allowed_sides":  [
+                                           "ally"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "coil":  {
+                 "target_kind":  "self",
+                 "allowed_sides":  [
+                                       "self"
+                                   ],
+                 "min_targets":  1,
+                 "max_targets":  1,
+                 "auto_select":  true
+             },
+    "comeuppance":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "confuse-ray":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "copycat":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "corrosive-gas":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "cosmic-power":  {
+                         "target_kind":  "self",
+                         "allowed_sides":  [
+                                               "self"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  true
+                     },
+    "cotton-guard":  {
+                         "target_kind":  "self",
+                         "allowed_sides":  [
+                                               "self"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  true
+                     },
+    "cotton-spore":  {
+                         "target_kind":  "all_adjacent_opponents",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  2,
+                         "max_targets":  2,
+                         "auto_select":  true
+                     },
+    "counter":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "covet":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "crabhammer":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "cross-chop":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "cross-poison":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "crunch":  {
+                   "target_kind":  "adjacent_opponent_single",
+                   "allowed_sides":  [
+                                         "opponent"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  false
+               },
+    "crush-claw":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "curse":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "darkest-lariat":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "dark-pulse":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "dazzling-gleam":  {
+                           "target_kind":  "all_adjacent_opponents",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  2,
+                           "max_targets":  2,
+                           "auto_select":  true
+                       },
+    "decorate":  {
+                     "target_kind":  "adjacent_ally_single",
+                     "allowed_sides":  [
+                                           "ally"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "defog":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "destiny-bond":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "detect":  {
+                   "target_kind":  "self",
+                   "allowed_sides":  [
+                                         "self"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  true
+               },
+    "dig":  {
+                "target_kind":  "adjacent_opponent_single",
+                "allowed_sides":  [
+                                      "opponent"
+                                  ],
+                "min_targets":  1,
+                "max_targets":  1,
+                "auto_select":  false
+            },
+    "dire-claw":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "disable":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "discharge":  {
+                      "target_kind":  "all_adjacent",
+                      "allowed_sides":  [
+                                            "ally",
+                                            "opponent"
+                                        ],
+                      "min_targets":  3,
+                      "max_targets":  3,
+                      "auto_select":  true
+                  },
+    "dive":  {
+                 "target_kind":  "adjacent_opponent_single",
+                 "allowed_sides":  [
+                                       "opponent"
+                                   ],
+                 "min_targets":  1,
+                 "max_targets":  1,
+                 "auto_select":  false
+             },
+    "double-edge":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "double-hit":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "double-team":  {
+                        "target_kind":  "self",
+                        "allowed_sides":  [
+                                              "self"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  true
+                    },
+    "draco-meteor":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "dragon-cheer":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "dragon-claw":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "dragon-dance":  {
+                         "target_kind":  "self",
+                         "allowed_sides":  [
+                                               "self"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  true
+                     },
+    "dragon-darts":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "dragon-pulse":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "dragon-rush":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "dragon-tail":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "draining-kiss":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "drain-punch":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "drill-peck":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "drill-run":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "dual-wingbeat":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "dynamic-punch":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "earth-power":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "earthquake":  {
+                       "target_kind":  "all_adjacent",
+                       "allowed_sides":  [
+                                             "ally",
+                                             "opponent"
+                                         ],
+                       "min_targets":  3,
+                       "max_targets":  3,
+                       "auto_select":  true
+                   },
+    "eerie-impulse":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "eerie-spell":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "electric-terrain":  {
+                             "target_kind":  "user_side",
+                             "allowed_sides":  [
+                                                   "ally",
+                                                   "self"
+                                               ],
+                             "min_targets":  0,
+                             "max_targets":  0,
+                             "auto_select":  true
+                         },
+    "electrify":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "electro-ball":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "electro-shot":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "electroweb":  {
+                       "target_kind":  "all_adjacent_opponents",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  2,
+                       "max_targets":  2,
+                       "auto_select":  true
+                   },
+    "encore":  {
+                   "target_kind":  "adjacent_opponent_single",
+                   "allowed_sides":  [
+                                         "opponent"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  false
+               },
+    "endeavor":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "endure":  {
+                   "target_kind":  "self",
+                   "allowed_sides":  [
+                                         "self"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  true
+               },
+    "energy-ball":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "entrainment":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "eruption":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "expanding-force":  {
+                            "target_kind":  "adjacent_opponent_single",
+                            "allowed_sides":  [
+                                                  "opponent"
+                                              ],
+                            "min_targets":  1,
+                            "max_targets":  1,
+                            "auto_select":  false
+                        },
+    "explosion":  {
+                      "target_kind":  "all_field",
+                      "allowed_sides":  [
+                                            "ally",
+                                            "opponent",
+                                            "self"
+                                        ],
+                      "min_targets":  4,
+                      "max_targets":  4,
+                      "auto_select":  true
+                  },
+    "extrasensory":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "extreme-speed":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "facade":  {
+                   "target_kind":  "adjacent_opponent_single",
+                   "allowed_sides":  [
+                                         "opponent"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  false
+               },
+    "fairy-lock":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "fake-out":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "fake-tears":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "feather-dance":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "feint":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "fell-stinger":  {
+                         "target_kind":  "self",
+                         "allowed_sides":  [
+                                               "self"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  true
+                     },
+    "fickle-beam":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "fiery-dance":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "final-gambit":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "fire-blast":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "fire-fang":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "fire-lash":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "fire-punch":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "fire-spin":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "first-impression":  {
+                             "target_kind":  "adjacent_opponent_single",
+                             "allowed_sides":  [
+                                                   "opponent"
+                                               ],
+                             "min_targets":  1,
+                             "max_targets":  1,
+                             "auto_select":  false
+                         },
+    "fissure":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "flail":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "flame-charge":  {
+                         "target_kind":  "self",
+                         "allowed_sides":  [
+                                               "self"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  true
+                     },
+    "flamethrower":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "flare-blitz":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "flash-cannon":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "flatter":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "fling":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "flip-turn":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "flower-trick":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "fly":  {
+                "target_kind":  "adjacent_opponent_single",
+                "allowed_sides":  [
+                                      "opponent"
+                                  ],
+                "min_targets":  1,
+                "max_targets":  1,
+                "auto_select":  false
+            },
+    "flying-press":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "focus-blast":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "focus-energy":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "focus-punch":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "follow-me":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "forests-curse":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "foul-play":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "freeze-dry":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "frenzy-plant":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "frost-breath":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "future-sight":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "gastro-acid":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "giga-drain":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "giga-impact":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "gigaton-hammer":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "glare":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "grass-knot":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "grassy-glide":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "grassy-terrain":  {
+                           "target_kind":  "user_side",
+                           "allowed_sides":  [
+                                                 "ally",
+                                                 "self"
+                                             ],
+                           "min_targets":  0,
+                           "max_targets":  0,
+                           "auto_select":  true
+                       },
+    "grav-apple":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "gravity":  {
+                    "target_kind":  "user_side",
+                    "allowed_sides":  [
+                                          "ally",
+                                          "self"
+                                      ],
+                    "min_targets":  0,
+                    "max_targets":  0,
+                    "auto_select":  true
+                },
+    "growth":  {
+                   "target_kind":  "self",
+                   "allowed_sides":  [
+                                         "self"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  true
+               },
+    "guard-split":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "guard-swap":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "guillotine":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "gunk-shot":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "gyro-ball":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "hammer-arm":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "hard-press":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "haze":  {
+                 "target_kind":  "user_side",
+                 "allowed_sides":  [
+                                       "ally",
+                                       "self"
+                                   ],
+                 "min_targets":  0,
+                 "max_targets":  0,
+                 "auto_select":  true
+             },
+    "headlong-rush":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "head-smash":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "heal-bell":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "healing-wish":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "heal-pulse":  {
+                       "target_kind":  "adjacent_ally_single",
+                       "allowed_sides":  [
+                                             "ally"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "heat-crash":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "heat-wave":  {
+                      "target_kind":  "all_adjacent_opponents",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  2,
+                      "max_targets":  2,
+                      "auto_select":  true
+                  },
+    "heavy-slam":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "helping-hand":  {
+                         "target_kind":  "adjacent_ally_single",
+                         "allowed_sides":  [
+                                               "ally"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "hex":  {
+                "target_kind":  "adjacent_opponent_single",
+                "allowed_sides":  [
+                                      "opponent"
+                                  ],
+                "min_targets":  1,
+                "max_targets":  1,
+                "auto_select":  false
+            },
+    "high-horsepower":  {
+                            "target_kind":  "adjacent_opponent_single",
+                            "allowed_sides":  [
+                                                  "opponent"
+                                              ],
+                            "min_targets":  1,
+                            "max_targets":  1,
+                            "auto_select":  false
+                        },
+    "high-jump-kick":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "horn-drill":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "horn-leech":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "howl":  {
+                 "target_kind":  "adjacent_opponent_single",
+                 "allowed_sides":  [
+                                       "opponent"
+                                   ],
+                 "min_targets":  1,
+                 "max_targets":  1,
+                 "auto_select":  false
+             },
+    "hurricane":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "hydro-cannon":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "hydro-pump":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "hyper-beam":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "hyper-voice":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "hypnosis":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "ice-beam":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "ice-fang":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "ice-hammer":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "ice-punch":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "ice-shard":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "ice-spinner":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "icicle-crash":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "icicle-spear":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "icy-wind":  {
+                     "target_kind":  "all_adjacent_opponents",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  2,
+                     "max_targets":  2,
+                     "auto_select":  true
+                 },
+    "imprison":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "infernal-parade":  {
+                            "target_kind":  "adjacent_opponent_single",
+                            "allowed_sides":  [
+                                                  "opponent"
+                                              ],
+                            "min_targets":  1,
+                            "max_targets":  1,
+                            "auto_select":  false
+                        },
+    "inferno":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "infestation":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "ingrain":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "instruct":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "iron-defense":  {
+                         "target_kind":  "self",
+                         "allowed_sides":  [
+                                               "self"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  true
+                     },
+    "iron-head":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "iron-tail":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "jet-punch":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "kings-shield":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "knock-off":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "kowtow-cleave":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "lash-out":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "last-resort":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "last-respects":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "lava-plume":  {
+                       "target_kind":  "all_adjacent",
+                       "allowed_sides":  [
+                                             "ally",
+                                             "opponent"
+                                         ],
+                       "min_targets":  3,
+                       "max_targets":  3,
+                       "auto_select":  true
+                   },
+    "leaf-blade":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "leaf-storm":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "leech-life":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "leech-seed":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "life-dew":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "light-of-ruin":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "light-screen":  {
+                         "target_kind":  "user_side",
+                         "allowed_sides":  [
+                                               "ally",
+                                               "self"
+                                           ],
+                         "min_targets":  0,
+                         "max_targets":  0,
+                         "auto_select":  true
+                     },
+    "liquidation":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "lock-on":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "low-kick":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "low-sweep":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "lumina-crash":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "lunge":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "mach-punch":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "magic-powder":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "magic-room":  {
+                       "target_kind":  "user_side",
+                       "allowed_sides":  [
+                                             "ally",
+                                             "self"
+                                         ],
+                       "min_targets":  0,
+                       "max_targets":  0,
+                       "auto_select":  true
+                   },
+    "magnetic-flux":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "magnet-rise":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "make-it-rain":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "matcha-gotcha":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "mean-look":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "megahorn":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "mega-kick":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "memento":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "metal-burst":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "metal-sound":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "meteor-beam":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "meteor-mash":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "minimize":  {
+                     "target_kind":  "self",
+                     "allowed_sides":  [
+                                           "self"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  true
+                 },
+    "mirror-coat":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "misty-explosion":  {
+                            "target_kind":  "all_field",
+                            "allowed_sides":  [
+                                                  "ally",
+                                                  "opponent",
+                                                  "self"
+                                              ],
+                            "min_targets":  4,
+                            "max_targets":  4,
+                            "auto_select":  true
+                        },
+    "misty-terrain":  {
+                          "target_kind":  "user_side",
+                          "allowed_sides":  [
+                                                "ally",
+                                                "self"
+                                            ],
+                          "min_targets":  0,
+                          "max_targets":  0,
+                          "auto_select":  true
+                      },
+    "moonblast":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "moonlight":  {
+                      "target_kind":  "self",
+                      "allowed_sides":  [
+                                            "self"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  true
+                  },
+    "morning-sun":  {
+                        "target_kind":  "self",
+                        "allowed_sides":  [
+                                              "self"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  true
+                    },
+    "mortal-spin":  {
+                        "target_kind":  "user_side",
+                        "allowed_sides":  [
+                                              "ally",
+                                              "self"
+                                          ],
+                        "min_targets":  0,
+                        "max_targets":  0,
+                        "auto_select":  true
+                    },
+    "mountain-gale":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "muddy-water":  {
+                        "target_kind":  "all_adjacent_opponents",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  2,
+                        "max_targets":  2,
+                        "auto_select":  true
+                    },
+    "mud-shot":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "mud-slap":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "mystical-fire":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "nasty-plot":  {
+                       "target_kind":  "self",
+                       "allowed_sides":  [
+                                             "self"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  true
+                   },
+    "night-daze":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "night-shade":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "night-slash":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "noble-roar":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "no-retreat":  {
+                       "target_kind":  "self",
+                       "allowed_sides":  [
+                                             "self"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  true
+                   },
+    "nuzzle":  {
+                   "target_kind":  "adjacent_opponent_single",
+                   "allowed_sides":  [
+                                         "opponent"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  false
+               },
+    "outrage":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "overheat":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "pain-split":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "parabolic-charge":  {
+                             "target_kind":  "adjacent_opponent_single",
+                             "allowed_sides":  [
+                                                   "opponent"
+                                               ],
+                             "min_targets":  1,
+                             "max_targets":  1,
+                             "auto_select":  false
+                         },
+    "parting-shot":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "payback":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "perish-song":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "petal-blizzard":  {
+                           "target_kind":  "all_adjacent",
+                           "allowed_sides":  [
+                                                 "ally",
+                                                 "opponent"
+                                             ],
+                           "min_targets":  3,
+                           "max_targets":  3,
+                           "auto_select":  true
+                       },
+    "petal-dance":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "phantom-force":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "pin-missile":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "play-rough":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "pluck":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "poison-fang":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "poison-jab":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "poison-powder":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "pollen-puff":  {
+                        "target_kind":  "adjacent_ally_single",
+                        "allowed_sides":  [
+                                              "ally"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "poltergeist":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "population-bomb":  {
+                            "target_kind":  "adjacent_opponent_single",
+                            "allowed_sides":  [
+                                                  "opponent"
+                                              ],
+                            "min_targets":  1,
+                            "max_targets":  1,
+                            "auto_select":  false
+                        },
+    "pounce":  {
+                   "target_kind":  "adjacent_opponent_single",
+                   "allowed_sides":  [
+                                         "opponent"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  false
+               },
+    "power-gem":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "power-shift":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "power-split":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "power-swap":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "power-trick":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "power-trip":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "power-whip":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "protect":  {
+                    "target_kind":  "self",
+                    "allowed_sides":  [
+                                          "self"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  true
+                },
+    "psychic":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "psychic-fangs":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "psychic-noise":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "psychic-terrain":  {
+                            "target_kind":  "user_side",
+                            "allowed_sides":  [
+                                                  "ally",
+                                                  "self"
+                                              ],
+                            "min_targets":  0,
+                            "max_targets":  0,
+                            "auto_select":  true
+                        },
+    "psycho-cut":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "psych-up":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "psyshield-bash":  {
+                           "target_kind":  "self",
+                           "allowed_sides":  [
+                                                 "self"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  true
+                       },
+    "psyshock":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "quash":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "quick-attack":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "quick-guard":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "quiver-dance":  {
+                         "target_kind":  "self",
+                         "allowed_sides":  [
+                                               "self"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  true
+                     },
+    "rage-fist":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "rage-powder":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "raging-bull":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "raging-fury":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "rain-dance":  {
+                       "target_kind":  "user_side",
+                       "allowed_sides":  [
+                                             "ally",
+                                             "self"
+                                         ],
+                       "min_targets":  0,
+                       "max_targets":  0,
+                       "auto_select":  true
+                   },
+    "rapid-spin":  {
+                       "target_kind":  "user_side",
+                       "allowed_sides":  [
+                                             "ally",
+                                             "self"
+                                         ],
+                       "min_targets":  0,
+                       "max_targets":  0,
+                       "auto_select":  true
+                   },
+    "razor-shell":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "recover":  {
+                    "target_kind":  "self",
+                    "allowed_sides":  [
+                                          "self"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  true
+                },
+    "recycle":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "reflect":  {
+                    "target_kind":  "user_side",
+                    "allowed_sides":  [
+                                          "ally",
+                                          "self"
+                                      ],
+                    "min_targets":  0,
+                    "max_targets":  0,
+                    "auto_select":  true
+                },
+    "reflect-type":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "rest":  {
+                 "target_kind":  "self",
+                 "allowed_sides":  [
+                                       "self"
+                                   ],
+                 "min_targets":  1,
+                 "max_targets":  1,
+                 "auto_select":  true
+             },
+    "reversal":  {
+                     "target_kind":  "adjacent_opponent_single",
+                     "allowed_sides":  [
+                                           "opponent"
+                                       ],
+                     "min_targets":  1,
+                     "max_targets":  1,
+                     "auto_select":  false
+                 },
+    "rising-voltage":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "roar":  {
+                 "target_kind":  "adjacent_opponent_single",
+                 "allowed_sides":  [
+                                       "opponent"
+                                   ],
+                 "min_targets":  1,
+                 "max_targets":  1,
+                 "auto_select":  false
+             },
+    "rock-blast":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "rock-polish":  {
+                        "target_kind":  "self",
+                        "allowed_sides":  [
+                                              "self"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  true
+                    },
+    "rock-slide":  {
+                       "target_kind":  "all_adjacent_opponents",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  2,
+                       "max_targets":  2,
+                       "auto_select":  true
+                   },
+    "rock-tomb":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "rock-wrecker":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "role-play":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "roost":  {
+                  "target_kind":  "self",
+                  "allowed_sides":  [
+                                        "self"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  true
+              },
+    "round":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "sacred-sword":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "safeguard":  {
+                      "target_kind":  "user_side",
+                      "allowed_sides":  [
+                                            "ally",
+                                            "self"
+                                        ],
+                      "min_targets":  0,
+                      "max_targets":  0,
+                      "auto_select":  true
+                  },
+    "salt-cure":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "sandstorm":  {
+                      "target_kind":  "user_side",
+                      "allowed_sides":  [
+                                            "ally",
+                                            "self"
+                                        ],
+                      "min_targets":  0,
+                      "max_targets":  0,
+                      "auto_select":  true
+                  },
+    "sand-tomb":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "scald":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "scale-shot":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "scary-face":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "scorching-sands":  {
+                            "target_kind":  "adjacent_opponent_single",
+                            "allowed_sides":  [
+                                                  "opponent"
+                                              ],
+                            "min_targets":  1,
+                            "max_targets":  1,
+                            "auto_select":  false
+                        },
+    "screech":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "seed-bomb":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "seismic-toss":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "self-destruct":  {
+                          "target_kind":  "all_field",
+                          "allowed_sides":  [
+                                                "ally",
+                                                "opponent",
+                                                "self"
+                                            ],
+                          "min_targets":  4,
+                          "max_targets":  4,
+                          "auto_select":  true
+                      },
+    "shadow-ball":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "shadow-claw":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "shadow-punch":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "shadow-sneak":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "shed-tail":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "sheer-cold":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "shell-side-arm":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "shell-smash":  {
+                        "target_kind":  "self",
+                        "allowed_sides":  [
+                                              "self"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  true
+                    },
+    "shelter":  {
+                    "target_kind":  "self",
+                    "allowed_sides":  [
+                                          "self"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  true
+                },
+    "simple-beam":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "sing":  {
+                 "target_kind":  "adjacent_opponent_single",
+                 "allowed_sides":  [
+                                       "opponent"
+                                   ],
+                 "min_targets":  1,
+                 "max_targets":  1,
+                 "auto_select":  false
+             },
+    "skill-swap":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "skitter-smack":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "sky-attack":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "slack-off":  {
+                      "target_kind":  "self",
+                      "allowed_sides":  [
+                                            "self"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  true
+                  },
+    "sleep-powder":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "sleep-talk":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "sludge-bomb":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "sludge-wave":  {
+                        "target_kind":  "all_adjacent",
+                        "allowed_sides":  [
+                                              "ally",
+                                              "opponent"
+                                          ],
+                        "min_targets":  3,
+                        "max_targets":  3,
+                        "auto_select":  true
+                    },
+    "smack-down":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "smart-strike":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "snap-trap":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "snarl":  {
+                  "target_kind":  "all_adjacent_opponents",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  2,
+                  "max_targets":  2,
+                  "auto_select":  true
+              },
+    "snore":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "snowscape":  {
+                      "target_kind":  "user_side",
+                      "allowed_sides":  [
+                                            "ally",
+                                            "self"
+                                        ],
+                      "min_targets":  0,
+                      "max_targets":  0,
+                      "auto_select":  true
+                  },
+    "soak":  {
+                 "target_kind":  "adjacent_opponent_single",
+                 "allowed_sides":  [
+                                       "opponent"
+                                   ],
+                 "min_targets":  1,
+                 "max_targets":  1,
+                 "auto_select":  false
+             },
+    "soft-boiled":  {
+                        "target_kind":  "self",
+                        "allowed_sides":  [
+                                              "self"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  true
+                    },
+    "solar-beam":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "solar-blade":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "sparkling-aria":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "speed-swap":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "spicy-extract":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "spikes":  {
+                   "target_kind":  "adjacent_opponent_single",
+                   "allowed_sides":  [
+                                         "opponent"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  false
+               },
+    "spiky-shield":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "spirit-break":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "spirit-shackle":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "spite":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "spit-up":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "stealth-rock":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "steel-beam":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "steel-roller":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "steel-wing":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "sticky-web":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "stockpile":  {
+                      "target_kind":  "self",
+                      "allowed_sides":  [
+                                            "self"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  true
+                  },
+    "stomping-tantrum":  {
+                             "target_kind":  "adjacent_opponent_single",
+                             "allowed_sides":  [
+                                                   "opponent"
+                                               ],
+                             "min_targets":  1,
+                             "max_targets":  1,
+                             "auto_select":  false
+                         },
+    "stone-axe":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "stone-edge":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "stored-power":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "storm-throw":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "strength-sap":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "string-shot":  {
+                        "target_kind":  "all_adjacent_opponents",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  2,
+                        "max_targets":  2,
+                        "auto_select":  true
+                    },
+    "struggle-bug":  {
+                         "target_kind":  "all_adjacent_opponents",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  2,
+                         "max_targets":  2,
+                         "auto_select":  true
+                     },
+    "stuff-cheeks":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "stun-spore":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "substitute":  {
+                       "target_kind":  "self",
+                       "allowed_sides":  [
+                                             "self"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  true
+                   },
+    "sucker-punch":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "sunny-day":  {
+                      "target_kind":  "user_side",
+                      "allowed_sides":  [
+                                            "ally",
+                                            "self"
+                                        ],
+                      "min_targets":  0,
+                      "max_targets":  0,
+                      "auto_select":  true
+                  },
+    "supercell-slam":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "super-fang":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "superpower":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "surf":  {
+                 "target_kind":  "all_adjacent",
+                 "allowed_sides":  [
+                                       "ally",
+                                       "opponent"
+                                   ],
+                 "min_targets":  3,
+                 "max_targets":  3,
+                 "auto_select":  true
+             },
+    "swagger":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "swallow":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "sweet-kiss":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "sweet-scent":  {
+                        "target_kind":  "all_adjacent_opponents",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  2,
+                        "max_targets":  2,
+                        "auto_select":  true
+                    },
+    "switcheroo":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "swords-dance":  {
+                         "target_kind":  "self",
+                         "allowed_sides":  [
+                                               "self"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  true
+                     },
+    "synthesis":  {
+                      "target_kind":  "self",
+                      "allowed_sides":  [
+                                            "self"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  true
+                  },
+    "syrup-bomb":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "tail-slap":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "tailwind":  {
+                     "target_kind":  "user_side",
+                     "allowed_sides":  [
+                                           "ally",
+                                           "self"
+                                       ],
+                     "min_targets":  0,
+                     "max_targets":  0,
+                     "auto_select":  true
+                 },
+    "taunt":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "tearful-look":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "teatime":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "teeter-dance":  {
+                         "target_kind":  "all_adjacent",
+                         "allowed_sides":  [
+                                               "ally",
+                                               "opponent"
+                                           ],
+                         "min_targets":  3,
+                         "max_targets":  3,
+                         "auto_select":  true
+                     },
+    "temper-flare":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "terrain-pulse":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "thief":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "thrash":  {
+                   "target_kind":  "adjacent_opponent_single",
+                   "allowed_sides":  [
+                                         "opponent"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  false
+               },
+    "throat-chop":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "thunder":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "thunderbolt":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "thunder-fang":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "thunder-punch":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "thunder-wave":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "tickle":  {
+                   "target_kind":  "adjacent_opponent_single",
+                   "allowed_sides":  [
+                                         "opponent"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  false
+               },
+    "tidy-up":  {
+                    "target_kind":  "user_side",
+                    "allowed_sides":  [
+                                          "ally",
+                                          "self"
+                                      ],
+                    "min_targets":  0,
+                    "max_targets":  0,
+                    "auto_select":  true
+                },
+    "topsy-turvy":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "torch-song":  {
+                       "target_kind":  "self",
+                       "allowed_sides":  [
+                                             "self"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  true
+                   },
+    "torment":  {
+                    "target_kind":  "adjacent_opponent_single",
+                    "allowed_sides":  [
+                                          "opponent"
+                                      ],
+                    "min_targets":  1,
+                    "max_targets":  1,
+                    "auto_select":  false
+                },
+    "toxic":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "toxic-spikes":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "toxic-thread":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "trailblaze":  {
+                       "target_kind":  "self",
+                       "allowed_sides":  [
+                                             "self"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  true
+                   },
+    "transform":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "tri-attack":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "trick":  {
+                  "target_kind":  "adjacent_opponent_single",
+                  "allowed_sides":  [
+                                        "opponent"
+                                    ],
+                  "min_targets":  1,
+                  "max_targets":  1,
+                  "auto_select":  false
+              },
+    "trick-or-treat":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "trick-room":  {
+                       "target_kind":  "user_side",
+                       "allowed_sides":  [
+                                             "ally",
+                                             "self"
+                                         ],
+                       "min_targets":  0,
+                       "max_targets":  0,
+                       "auto_select":  true
+                   },
+    "triple-arrows":  {
+                          "target_kind":  "adjacent_opponent_single",
+                          "allowed_sides":  [
+                                                "opponent"
+                                            ],
+                          "min_targets":  1,
+                          "max_targets":  1,
+                          "auto_select":  false
+                      },
+    "triple-axel":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "trop-kick":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "twin-beam":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "upper-hand":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "uproar":  {
+                   "target_kind":  "adjacent_opponent_single",
+                   "allowed_sides":  [
+                                         "opponent"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  false
+               },
+    "u-turn":  {
+                   "target_kind":  "adjacent_opponent_single",
+                   "allowed_sides":  [
+                                         "opponent"
+                                     ],
+                   "min_targets":  1,
+                   "max_targets":  1,
+                   "auto_select":  false
+               },
+    "vacuum-wave":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "venoshock":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "volt-switch":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "volt-tackle":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "waterfall":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "water-pulse":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "water-shuriken":  {
+                           "target_kind":  "adjacent_opponent_single",
+                           "allowed_sides":  [
+                                                 "opponent"
+                                             ],
+                           "min_targets":  1,
+                           "max_targets":  1,
+                           "auto_select":  false
+                       },
+    "water-spout":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "wave-crash":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "weather-ball":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     },
+    "whirlpool":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "whirlwind":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "wide-guard":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "wild-charge":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "will-o-wisp":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "wish":  {
+                 "target_kind":  "adjacent_opponent_single",
+                 "allowed_sides":  [
+                                       "opponent"
+                                   ],
+                 "min_targets":  1,
+                 "max_targets":  1,
+                 "auto_select":  false
+             },
+    "wonder-room":  {
+                        "target_kind":  "user_side",
+                        "allowed_sides":  [
+                                              "ally",
+                                              "self"
+                                          ],
+                        "min_targets":  0,
+                        "max_targets":  0,
+                        "auto_select":  true
+                    },
+    "wood-hammer":  {
+                        "target_kind":  "adjacent_opponent_single",
+                        "allowed_sides":  [
+                                              "opponent"
+                                          ],
+                        "min_targets":  1,
+                        "max_targets":  1,
+                        "auto_select":  false
+                    },
+    "worry-seed":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "wrap":  {
+                 "target_kind":  "adjacent_opponent_single",
+                 "allowed_sides":  [
+                                       "opponent"
+                                   ],
+                 "min_targets":  1,
+                 "max_targets":  1,
+                 "auto_select":  false
+             },
+    "x-scissor":  {
+                      "target_kind":  "adjacent_opponent_single",
+                      "allowed_sides":  [
+                                            "opponent"
+                                        ],
+                      "min_targets":  1,
+                      "max_targets":  1,
+                      "auto_select":  false
+                  },
+    "yawn":  {
+                 "target_kind":  "adjacent_opponent_single",
+                 "allowed_sides":  [
+                                       "opponent"
+                                   ],
+                 "min_targets":  1,
+                 "max_targets":  1,
+                 "auto_select":  false
+             },
+    "zap-cannon":  {
+                       "target_kind":  "adjacent_opponent_single",
+                       "allowed_sides":  [
+                                             "opponent"
+                                         ],
+                       "min_targets":  1,
+                       "max_targets":  1,
+                       "auto_select":  false
+                   },
+    "zen-headbutt":  {
+                         "target_kind":  "adjacent_opponent_single",
+                         "allowed_sides":  [
+                                               "opponent"
+                                           ],
+                         "min_targets":  1,
+                         "max_targets":  1,
+                         "auto_select":  false
+                     }
+}

@@ -16,6 +16,53 @@ STAT_LABELS = [
     ("special_defense", "SpDef"),
     ("speed", "Speed"),
 ]
+MOVE_EFFECT_FLAGS = [
+    "burn",
+    "paralysis",
+    "freeze",
+    "poison",
+    "badly_poison",
+    "sleep",
+    "confusion",
+    "flinch",
+    "attack_down",
+    "defense_down",
+    "special_attack_down",
+    "special_defense_down",
+    "speed_down",
+    "accuracy_down",
+]
+STATUS_IMMUNITIES = {
+    "burn": {
+        "immune_types": ["fire"],
+        "immune_abilities": ["water-veil", "water-bubble", "thermal-exchange", "comatose"],
+    },
+    "paralysis": {
+        "immune_types": ["electric"],
+        "immune_abilities": ["limber", "comatose"],
+    },
+    "freeze": {
+        "immune_types": ["ice"],
+        "immune_abilities": ["magma-armor", "comatose"],
+    },
+    "poison": {
+        "immune_types": ["poison", "steel"],
+        "immune_abilities": ["immunity", "pastel-veil", "comatose"],
+    },
+    "badly_poison": {
+        "immune_types": ["poison", "steel"],
+        "immune_abilities": ["immunity", "pastel-veil", "comatose"],
+    },
+    "sleep": {
+        "immune_abilities": ["insomnia", "vital-spirit", "sweet-veil", "comatose"],
+    },
+    "confusion": {
+        "immune_abilities": ["own-tempo"],
+    },
+    "flinch": {
+        "immune_abilities": ["inner-focus", "shield-dust"],
+    },
+}
 
 
 def slugify(value):
@@ -303,6 +350,189 @@ def build_move_lookup(conn):
         if record.get("display_name"):
             lookup[compact_id(record["display_name"])] = record
     return lookup
+
+
+def move_slug_from_record(record):
+    return slugify(record.get("move_slug") or record.get("display_name") or "")
+
+
+def move_description(record):
+    return str(record.get("description") or "").strip()
+
+
+def move_effect_row(identifier, chance):
+    row = {
+        "chance": int(chance),
+        "identifier": identifier,
+    }
+    for flag in MOVE_EFFECT_FLAGS:
+        row[flag] = flag == identifier
+    return row
+
+
+def detect_move_effects(record):
+    slug = move_slug_from_record(record)
+    description = move_description(record).lower()
+    effects = []
+
+    overrides = {
+        "fake-out": [move_effect_row("flinch", 100)],
+        "dire-claw": [
+            move_effect_row("poison", 16),
+            move_effect_row("paralysis", 16),
+            move_effect_row("sleep", 16),
+        ],
+    }
+    if slug in overrides:
+        return overrides[slug]
+
+    chance = 100
+    chance_match = re.search(r"has an? (\d+)% chance|has a (\d+)% chance", description)
+    if chance_match:
+        chance = int(next(group for group in chance_match.groups() if group))
+
+    effect_patterns = [
+        ("burn", [r"burning? the target", r"inflicting a burn", r"burn the target"]),
+        ("paralysis", [r"paralyzing? the target", r"paralyzes the target"]),
+        ("freeze", [r"freezing? the target", r"freeze the target"]),
+        ("badly_poison", [r"badly poisons the target"]),
+        ("poison", [r"poisoning? the target", r"poisons the target"]),
+        ("sleep", [r"puts the target to sleep", r"makes the target drowsy"]),
+        ("confusion", [r"confuses the target", r"confusing the target"]),
+        ("flinch", [r"making? (?:the )?targets? flinch", r"makes the target flinch"]),
+        ("attack_down", [r"lowering the target's attack", r"lowers the target's attack"]),
+        ("defense_down", [r"lowering the target's defense", r"lowers the target's defense"]),
+        ("special_attack_down", [r"lowering (?:targets'|the target's) sp\. atk", r"lowers (?:targets'|the target's) sp\. atk"]),
+        ("special_defense_down", [r"lowering (?:targets'|the target's) sp\. def", r"lowers (?:targets'|the target's) sp\. def"]),
+        ("speed_down", [r"lowering (?:targets'|the target's) speed", r"lowers (?:targets'|the target's) speed"]),
+        ("accuracy_down", [r"lowering (?:targets'|the target's) accuracy", r"lowers (?:targets'|the target's) accuracy"]),
+    ]
+
+    for identifier, patterns in effect_patterns:
+        if identifier == "poison" and re.search(r"badly poisons the target", description):
+            continue
+        if any(re.search(pattern, description) for pattern in patterns):
+            effects.append(move_effect_row(identifier, chance))
+
+    return effects
+
+
+def detect_move_target(record):
+    slug = move_slug_from_record(record)
+    name = str(record.get("display_name") or "").lower()
+    description = move_description(record).lower()
+
+    user_side = {
+        "tailwind", "reflect", "light-screen", "aurora-veil", "safeguard",
+        "mist", "sunny-day", "rain-dance", "sandstorm", "snowscape", "hail",
+    }
+    self_moves = {
+        "protect", "detect", "endure", "substitute", "swords-dance",
+        "dragon-dance", "nasty-plot", "calm-mind", "bulk-up", "recover",
+        "roost", "slack-off", "rest", "shell-smash", "iron-defense",
+        "acid-armor", "agility", "work-up",
+    }
+    adjacent_opponents = {
+        "dazzling-gleam", "heat-wave", "icy-wind", "muddy-water", "rock-slide",
+        "snarl", "struggle-bug", "electroweb", "air-cutter",
+    }
+    all_adjacent = {
+        "earthquake", "surf", "discharge", "lava-plume", "boomburst",
+        "bulldoze", "sludge-wave", "petal-blizzard", "teeter-dance",
+    }
+    all_including_self = {"explosion", "self-destruct", "misty-explosion"}
+    ally_single = {"helping-hand", "heal-pulse", "ally-switch", "coaching", "decorate"}
+
+    if slug in all_including_self:
+        return {
+            "target_kind": "all_field",
+            "allowed_sides": ["ally", "opponent", "self"],
+            "min_targets": 4,
+            "max_targets": 4,
+            "auto_select": True,
+        }
+    if slug in all_adjacent or "all adjacent" in description:
+        return {
+            "target_kind": "all_adjacent",
+            "allowed_sides": ["ally", "opponent"],
+            "min_targets": 3,
+            "max_targets": 3,
+            "auto_select": True,
+        }
+    if slug in adjacent_opponents or "targets' " in description:
+        return {
+            "target_kind": "all_adjacent_opponents",
+            "allowed_sides": ["opponent"],
+            "min_targets": 2,
+            "max_targets": 2,
+            "auto_select": True,
+        }
+    if slug in user_side or "user's side" in description or "entire field" in description:
+        return {
+            "target_kind": "user_side",
+            "allowed_sides": ["ally", "self"],
+            "min_targets": 0,
+            "max_targets": 0,
+            "auto_select": True,
+        }
+    if slug in self_moves or "boosts the user's" in description or "restores 1/2 of the user's" in description:
+        return {
+            "target_kind": "self",
+            "allowed_sides": ["self"],
+            "min_targets": 1,
+            "max_targets": 1,
+            "auto_select": True,
+        }
+    if slug in ally_single or "an ally" in description:
+        return {
+            "target_kind": "adjacent_ally_single",
+            "allowed_sides": ["ally"],
+            "min_targets": 1,
+            "max_targets": 1,
+            "auto_select": False,
+        }
+
+    return {
+        "target_kind": "adjacent_opponent_single",
+        "allowed_sides": ["opponent"],
+        "min_targets": 1,
+        "max_targets": 1,
+        "auto_select": False,
+    }
+
+
+def build_move_keys(move_lookup):
+    canonical = {}
+    for record in move_lookup.values():
+        slug = move_slug_from_record(record)
+        if slug:
+            canonical[slug] = record
+
+    effects = {}
+    targets = {}
+    report = {
+        "moves_with_effects": [],
+        "moves_without_detected_effects": [],
+        "moves_with_multiple_effects": [],
+        "moves_with_default_targets": [],
+    }
+
+    for slug, record in sorted(canonical.items()):
+        detected_effects = detect_move_effects(record)
+        if detected_effects:
+            effects[slug] = detected_effects
+            report["moves_with_effects"].append(slug)
+            if len(detected_effects) > 1:
+                report["moves_with_multiple_effects"].append(slug)
+        else:
+            report["moves_without_detected_effects"].append(slug)
+
+        target = detect_move_target(record)
+        targets[slug] = target
+        if target["target_kind"] == "adjacent_opponent_single":
+            report["moves_with_default_targets"].append(slug)
+
+    return effects, targets, STATUS_IMMUNITIES, report
 
 
 def build_ability_lookup(conn):
@@ -601,6 +831,15 @@ def clean_generated(root):
         if index.exists():
             index.unlink()
 
+    for path in [
+        root / "data" / "move_effects.json",
+        root / "data" / "move_targets.json",
+        root / "data" / "status_immunities.json",
+        root / "data" / "reports" / "move_keys_report.json",
+    ]:
+        if path.exists():
+            path.unlink()
+
 
 def add_common_user(collection, entry, pokemon, image=None):
     page_slug = slugify(entry["slug"])
@@ -682,6 +921,7 @@ def build(args):
     ability_lookup = build_ability_lookup(conn)
     item_lookup = build_item_lookup(conn)
     move_lookup = build_move_lookup(conn)
+    move_effects, move_targets, status_immunities, move_keys_report = build_move_keys(move_lookup)
     item_pages = {}
     move_pages = {}
     ability_pages = {}
@@ -853,6 +1093,10 @@ def build(args):
     finalize_collection(root, "items", item_pages)
     finalize_collection(root, "moves", move_pages)
     finalize_collection(root, "abilities", ability_pages)
+    write_json(root / "data" / "move_effects.json", move_effects)
+    write_json(root / "data" / "move_targets.json", move_targets)
+    write_json(root / "data" / "status_immunities.json", status_immunities)
+    write_json(root / "data" / "reports" / "move_keys_report.json", move_keys_report)
     conn.close()
     print(f"Generated {len(rows)} Pokemon pages for regulations {', '.join(regulations)}.")
 

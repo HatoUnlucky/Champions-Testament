@@ -279,5 +279,14 @@
   <script type="application/json" id="turn-item-data">
     {{ hugo.Data.items_index | jsonify }}
   </script>
+  <script type="application/json" id="turn-move-effects-data">
+    {{ hugo.Data.move_effects | jsonify }}
+  </script>
+  <script type="application/json" id="turn-move-targets-data">
+    {{ hugo.Data.move_targets | jsonify }}
+  </script>
+  <script type="application/json" id="turn-status-immunities-data">
+    {{ hugo.Data.status_immunities | jsonify }}
+  </script>
 </section>
 {{ end }}

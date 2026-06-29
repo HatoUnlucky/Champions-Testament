@@ -3,7 +3,8 @@ resources/_gen/
 .hugo_build.lock
 
 data/raw/
-data/reports/
+data/reports/*
+!data/reports/move_keys_report.json
 mb/
 *.before-smogon-clean.db
 *.db-journal

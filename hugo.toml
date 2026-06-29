@@ -54,6 +54,18 @@ disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
   target = "data/abilities_index.json"
 
 [[module.mounts]]
+  source = "data/move_effects.json"
+  target = "data/move_effects.json"
+
+[[module.mounts]]
+  source = "data/move_targets.json"
+  target = "data/move_targets.json"
+
+[[module.mounts]]
+  source = "data/status_immunities.json"
+  target = "data/status_immunities.json"
+
+[[module.mounts]]
   source = "static"
   target = "static"
 

@@ -1491,6 +1491,15 @@ a.move-row {
   background: rgba(99, 210, 183, 0.14);
 }
 
+.target-card:disabled {
+  cursor: not-allowed;
+  opacity: 0.48;
+}
+
+.target-card.is-selected:disabled {
+  opacity: 0.9;
+}
+
 .move-choice-grid {
   grid-template-columns: repeat(2, minmax(0, 1fr));
   margin-top: 12px;
@@ -1527,6 +1536,11 @@ a.move-row {
 
 .secondary-effect-option strong {
   color: var(--text);
+}
+
+.secondary-effect-option.is-automatic {
+  border-color: rgba(99, 210, 183, 0.55);
+  background: rgba(99, 210, 183, 0.12);
 }
 
 @media (max-width: 780px) {
