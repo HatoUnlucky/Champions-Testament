@@ -138,6 +138,14 @@ document.addEventListener("DOMContentLoaded", () => {
     return direction === "asc" ? leftNumber - rightNumber : rightNumber - leftNumber;
   }
 
+  function compareName(left, right) {
+    return (left.querySelector("strong")?.textContent || "").localeCompare(
+      right.querySelector("strong")?.textContent || "",
+      undefined,
+      { sensitivity: "base" }
+    );
+  }
+
   function updateMoves() {
     const selectedType = type?.value || "all";
     const selectedClass = damageClass?.value || "all";
@@ -155,10 +163,28 @@ document.addEventListener("DOMContentLoaded", () => {
       .sort((a, b) => {
         const left = rowValue(a, key);
         const right = rowValue(b, key);
-        if (key === "type" || key === "class") {
-          return compareText(left, right, direction) || compareNumber(rowValue(a, "usage"), rowValue(b, "usage"), "desc");
+        if (key === "type") {
+          return (
+            compareText(left, right, direction) ||
+            compareText(rowValue(a, "class"), rowValue(b, "class"), "asc") ||
+            compareNumber(rowValue(a, "usage"), rowValue(b, "usage"), "desc") ||
+            compareName(a, b)
+          );
         }
-        return compareNumber(left, right, direction) || compareText(rowValue(a, "type"), rowValue(b, "type"), "asc");
+        if (key === "class") {
+          return (
+            compareText(left, right, direction) ||
+            compareText(rowValue(a, "type"), rowValue(b, "type"), "asc") ||
+            compareNumber(rowValue(a, "usage"), rowValue(b, "usage"), "desc") ||
+            compareName(a, b)
+          );
+        }
+        return (
+          compareNumber(left, right, direction) ||
+          compareText(rowValue(a, "type"), rowValue(b, "type"), "asc") ||
+          compareText(rowValue(a, "class"), rowValue(b, "class"), "asc") ||
+          compareName(a, b)
+        );
       })
       .forEach(row => list.appendChild(row));
   }
