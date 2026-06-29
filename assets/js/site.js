@@ -203,11 +203,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const pokemonData = parseJson("turn-pokemon-data", {});
   const moveData = parseJson("turn-move-data", {});
+  const itemData = parseJson("turn-item-data", []);
+  const pokemonRows = dataRows(pokemonData).sort((a, b) => displayName(a).localeCompare(displayName(b)));
+  const moveRows = dataRows(moveData).sort((a, b) => displayName(a).localeCompare(displayName(b)));
+  const itemRows = dataRows(itemData).sort((a, b) => displayName(a).localeCompare(displayName(b)));
   const pokemonByName = new Map(dataRows(pokemonData)
-    .map(pokemon => [String(pokemon.display_name || pokemon.name || "").toLowerCase(), pokemon])
+    .map(pokemon => [displayName(pokemon).toLowerCase(), pokemon])
     .filter(([name]) => name));
   const movesByName = new Map(dataRows(moveData)
-    .map(move => [String(move.display_name || move.name || "").toLowerCase(), move])
+    .map(move => [displayName(move).toLowerCase(), move])
     .filter(([name]) => name));
   const formatInputs = Array.from(calculator.querySelectorAll('input[name="battle-format"]'));
   const weather = calculator.querySelector("[data-turn-weather]");
@@ -264,6 +268,14 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       return row;
     }).filter(row => row && typeof row === "object");
+  }
+
+  function displayName(row) {
+    return String(row?.display_name || row?.name || "");
+  }
+
+  function percentLabel(value) {
+    return value === null || value === undefined || value === "" ? "" : ` (${Number(value).toFixed(1)}%)`;
   }
 
   function selectedFormat() {
@@ -428,23 +440,64 @@ document.addEventListener("DOMContentLoaded", () => {
     }
     values.forEach(value => {
       const option = document.createElement("option");
-      option.value = value;
-      option.textContent = value;
+      if (value && typeof value === "object") {
+        option.value = value.value;
+        option.textContent = value.label;
+      } else {
+        option.value = value;
+        option.textContent = value;
+      }
       select.append(option);
     });
+  }
+
+  function globalNameOptions(rows) {
+    return rows.map(row => displayName(row)).filter(Boolean);
+  }
+
+  function rankedItemOptions(pokemon) {
+    const used = new Set();
+    const usageOptions = (pokemon?.items || []).map(item => {
+      used.add(item.name);
+      return {
+        value: item.name,
+        label: `${item.name}${percentLabel(item.percent)}`
+      };
+    });
+    const remaining = itemRows
+      .map(item => displayName(item))
+      .filter(name => name && !used.has(name))
+      .map(name => ({ value: name, label: name }));
+    return [...usageOptions, ...remaining];
+  }
+
+  function rankedMoveOptions(pokemon) {
+    const used = new Set();
+    const usageOptions = (pokemon?.moves || []).map(move => {
+      used.add(move.name);
+      return {
+        value: move.name,
+        label: `${move.name}${percentLabel(move.percent)}`
+      };
+    });
+    const remaining = moveRows
+      .map(move => displayName(move))
+      .filter(name => name && !used.has(name))
+      .map(name => ({ value: name, label: name }));
+    return [...usageOptions, ...remaining];
   }
 
   function openPokemonEditor(slot) {
     editingSlot = slot;
     const state = stateFor(slot);
     const pokemon = pokemonRecord(state.pokemon);
+    fillSelect(pokemonModal.querySelector("[data-edit-pokemon]"), globalNameOptions(pokemonRows), "Select Pokemon");
+    fillPokemonScopedOptions(pokemon, state);
     pokemonModal.querySelector("[data-edit-pokemon]").value = state.pokemon;
     pokemonModal.querySelector("[data-edit-item]").value = state.item;
     pokemonModal.querySelector("[data-edit-speed]").value = state.speed;
     pokemonModal.querySelector("[data-edit-nature]").value = state.nature;
-    fillSelect(pokemonModal.querySelector("[data-edit-ability]"), (pokemon?.abilities || []).map(ability => ability.name), "Ability");
     pokemonModal.querySelector("[data-edit-ability]").value = state.ability;
-    fillSpreadOptions(pokemon);
     Object.entries(state.stats).forEach(([key, value]) => {
       const input = pokemonModal.querySelector(`[data-edit-stat="${key}"]`);
       if (input) input.value = value;
@@ -453,6 +506,34 @@ document.addEventListener("DOMContentLoaded", () => {
       pokemonModal.querySelector(`[data-edit-move="${index}"]`).value = move;
     });
     openModal(pokemonModal);
+  }
+
+  function fillPokemonScopedOptions(pokemon, state = null) {
+    fillSelect(
+      pokemonModal.querySelector("[data-edit-item]"),
+      rankedItemOptions(pokemon),
+      "No item"
+    );
+    fillSelect(
+      pokemonModal.querySelector("[data-edit-ability]"),
+      (pokemon?.abilities || []).map(ability => ({
+        value: ability.name,
+        label: `${ability.name}${percentLabel(ability.percent)}`
+      })),
+      "Ability"
+    );
+    fillSpreadOptions(pokemon);
+    const moveOptions = rankedMoveOptions(pokemon);
+    pokemonModal.querySelectorAll("[data-edit-move]").forEach(select => {
+      fillSelect(select, moveOptions, "No move");
+    });
+    if (state) {
+      pokemonModal.querySelector("[data-edit-item]").value = state.item;
+      pokemonModal.querySelector("[data-edit-ability]").value = state.ability;
+      state.moves.forEach((move, index) => {
+        pokemonModal.querySelector(`[data-edit-move="${index}"]`).value = move;
+      });
+    }
   }
 
   function fillSpreadOptions(pokemon) {
@@ -669,12 +750,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const pokemon = pokemonRecord(pokemonModal.querySelector("[data-edit-pokemon]").value.trim());
     if (!pokemon) return;
     pokemonModal.querySelector("[data-edit-speed]").value = pokemon.stats?.find(stat => stat.key === "speed")?.value || 100;
-    fillSelect(pokemonModal.querySelector("[data-edit-ability]"), (pokemon.abilities || []).map(ability => ability.name), "Ability");
-    fillSpreadOptions(pokemon);
+    fillPokemonScopedOptions(pokemon);
     commonMoveNames(pokemon).forEach((move, index) => {
       pokemonModal.querySelector(`[data-edit-move="${index}"]`).value = move;
     });
     pokemonModal.querySelector("[data-edit-item]").value = pokemon.items?.[0]?.name || "";
+    pokemonModal.querySelector("[data-edit-ability]").value = pokemon.abilities?.[0]?.name || "";
     pokemonModal.querySelector("[data-edit-nature]").value = pokemon.spreads?.[0]?.nature || "Serious";
     if (pokemon.spreads?.[0]) {
       const temp = { stats: {} };

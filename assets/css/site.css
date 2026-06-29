@@ -943,7 +943,8 @@ a.move-row {
 .editor-grid input,
 .editor-grid select,
 .stat-input-grid input,
-.move-edit-grid input {
+.move-edit-grid input,
+.move-edit-grid select {
   width: 100%;
   min-height: 42px;
   border: 1px solid var(--line);

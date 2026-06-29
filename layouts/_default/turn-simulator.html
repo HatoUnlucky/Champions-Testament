@@ -1,9 +1,6 @@
 {{ define "title" }}Turn Simulator | {{ site.Title }}{{ end }}
 
 {{ define "main" }}
-{{ $pokemonPages := where site.RegularPages "Section" "pokemon" }}
-{{ $movePages := where site.RegularPages "Section" "moves" }}
-
 <section class="page-shell simulator-shell" data-turn-calculator>
   <div class="tool-header">
     <p class="eyebrow">{{ .Params.status }}</p>
@@ -113,11 +110,11 @@
     <div class="editor-grid">
       <label>
         Pokemon
-        <input type="search" list="turn-pokemon-options" data-edit-pokemon placeholder="Select Pokemon">
+        <select data-edit-pokemon></select>
       </label>
       <label>
         Item
-        <input type="search" data-edit-item placeholder="Item">
+        <select data-edit-item></select>
       </label>
       <label>
         Ability
@@ -168,7 +165,7 @@
         {{ range $slot := slice 0 1 2 3 }}
           <label>
             Move {{ add $slot 1 }}
-            <input type="search" list="turn-move-options" data-edit-move="{{ $slot }}" placeholder="Select Move">
+            <select data-edit-move="{{ $slot }}"></select>
           </label>
         {{ end }}
       </div>
@@ -199,16 +196,8 @@
   <script type="application/json" id="turn-move-data">
     {{ hugo.Data.moves | jsonify }}
   </script>
-
-  <datalist id="turn-pokemon-options">
-    {{ range sort $pokemonPages "Title" }}
-      <option value="{{ .Title }}"></option>
-    {{ end }}
-  </datalist>
-  <datalist id="turn-move-options">
-    {{ range sort $movePages "Title" }}
-      <option value="{{ .Title }}"></option>
-    {{ end }}
-  </datalist>
+  <script type="application/json" id="turn-item-data">
+    {{ hugo.Data.items_index | jsonify }}
+  </script>
 </section>
 {{ end }}
