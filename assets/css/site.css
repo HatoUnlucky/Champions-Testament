@@ -24,15 +24,15 @@ a {
 }
 
 .site-header {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 16px;
   padding: 16px clamp(16px, 4vw, 48px);
   border-bottom: 1px solid var(--line);
   background: rgba(16, 18, 22, 0.92);
-  position: sticky;
-  top: 0;
   z-index: 5;
   min-width: 0;
 }
@@ -52,14 +52,12 @@ a {
 
 .site-nav {
   display: flex;
+  flex-wrap: wrap;
   flex: 1 1 auto;
   justify-content: flex-end;
   gap: clamp(8px, 2vw, 16px);
   color: var(--muted);
   min-width: 0;
-  overflow-x: auto;
-  scrollbar-width: thin;
-  white-space: nowrap;
 }
 
 .site-nav a {
@@ -69,9 +67,9 @@ a {
 
 .page-shell,
 .pokemon-page {
-  width: min(1440px, 100%);
+  width: min(1440px, calc(100% - clamp(24px, 5vw, 80px)));
   margin: 0 auto;
-  padding: clamp(18px, 4vw, 48px);
+  padding: clamp(18px, 4vw, 48px) 0 clamp(32px, 5vw, 64px);
 }
 
 .home-shell {
@@ -393,6 +391,7 @@ h2 {
 }
 
 .panel {
+  min-width: 0;
   border: 1px solid var(--line);
   border-radius: 8px;
   background: var(--panel);
