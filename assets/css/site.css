@@ -227,6 +227,17 @@ h2 {
   grid-template-columns: minmax(0, 1fr);
 }
 
+.directory-card-moves,
+.directory-card-abilities {
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+}
+
+.directory-card-moves .directory-image-slot,
+.directory-card-abilities .directory-image-slot {
+  display: none;
+}
+
 .directory-card-moves {
   align-items: start;
   min-height: 0;

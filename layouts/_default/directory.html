@@ -117,7 +117,7 @@
         data-power="{{ .power | default 0 }}"
         data-priority="{{ .priority | default 0 }}"
       >
-        {{ if not (or (eq $sectionKey "moves") (eq $sectionKey "abilities")) }}
+        {{ if eq $sectionKey "pokemon" }}
           <div class="directory-image-slot">
             {{ $image := .image | default .primary_image }}
             {{ with $image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
