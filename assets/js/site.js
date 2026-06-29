@@ -201,61 +201,105 @@ document.addEventListener("DOMContentLoaded", () => {
   const calculator = document.querySelector("[data-turn-calculator]");
   if (!calculator) return;
 
+  const pokemonData = parseJson("turn-pokemon-data", {});
+  const moveData = parseJson("turn-move-data", {});
+  const pokemonByName = new Map(dataRows(pokemonData)
+    .map(pokemon => [String(pokemon.display_name || pokemon.name || "").toLowerCase(), pokemon])
+    .filter(([name]) => name));
+  const movesByName = new Map(dataRows(moveData)
+    .map(move => [String(move.display_name || move.name || "").toLowerCase(), move])
+    .filter(([name]) => name));
   const formatInputs = Array.from(calculator.querySelectorAll('input[name="battle-format"]'));
+  const weather = calculator.querySelector("[data-turn-weather]");
+  const stage = calculator.querySelector("[data-battle-stage]");
   const trickRoom = calculator.querySelector("[data-turn-trick-room]");
-  const calculateButton = calculator.querySelector("[data-calculate-turn]");
+  const simulateButton = calculator.querySelector("[data-simulate-turn]");
   const results = calculator.querySelector("[data-turn-results]");
   const summary = calculator.querySelector("[data-turn-summary]");
-  const slots = Array.from(calculator.querySelectorAll("[data-battle-slot]"));
+  const fieldSlots = Array.from(calculator.querySelectorAll("[data-field-slot]"));
+  const backdrop = calculator.querySelector("[data-modal-backdrop]");
+  const pokemonModal = calculator.querySelector("[data-pokemon-modal]");
+  const moveModal = calculator.querySelector("[data-move-modal]");
+  const attackerTabs = calculator.querySelector("[data-attacker-tabs]");
+  const moveChoices = calculator.querySelector("[data-move-choices]");
+  const targetCards = calculator.querySelector("[data-target-cards]");
+  const moveNote = calculator.querySelector("[data-move-picker-note]");
+
+  const defaultMoves = ["", "", "", ""];
+  const slotState = new Map(fieldSlots.map(slot => [slotKey(slot), {
+    pokemon: "",
+    item: "",
+    ability: "",
+    nature: "Serious",
+    speed: 100,
+    stats: { hp: 0, attack: 0, defense: 0, special_attack: 0, special_defense: 0, speed: 0 },
+    moves: [...defaultMoves],
+    action: null
+  }]));
+
+  let editingSlot = null;
+  let choosingSide = "left";
+  let selectedAttacker = null;
+  let selectedMove = null;
+  let selectedTargets = new Set();
+
+  function parseJson(id, fallback) {
+    try {
+      const parsed = JSON.parse(document.getElementById(id)?.textContent || "");
+      if (typeof parsed === "string" && /^[\s]*[\[{]/.test(parsed)) {
+        return JSON.parse(parsed);
+      }
+      return parsed;
+    } catch {
+      return fallback;
+    }
+  }
+
+  function dataRows(value) {
+    const rows = Array.isArray(value) ? value : Object.values(value || {});
+    return rows.flatMap(row => {
+      if (Array.isArray(row)) return row;
+      if (row && typeof row === "object" && !row.display_name && !row.name && Object.keys(row).every(key => /^\d+$/.test(key))) {
+        return Object.values(row);
+      }
+      return row;
+    }).filter(row => row && typeof row === "object");
+  }
 
   function selectedFormat() {
     return formatInputs.find(input => input.checked)?.value || "double";
   }
 
-  function isSlotActive(slot) {
-    return !slot.hidden && slot.querySelector("[data-will-move]")?.checked;
-  }
-
-  function opposingSide(side) {
-    return side === "left" ? "right" : "left";
+  function slotKey(slot) {
+    return `${slot.dataset.side}-${slot.dataset.slot}`;
   }
 
   function slotLabel(slot) {
-    const sideName = slot.dataset.side === "left" ? "Team A" : "Team B";
-    return `${sideName} Slot ${slot.dataset.battleSlot}`;
+    return `${slot.dataset.side === "left" ? "Team 1" : "Team 2"} Slot ${slot.dataset.slot}`;
+  }
+
+  function stateFor(slot) {
+    return slotState.get(slotKey(slot));
   }
 
   function findSlot(side, slotNumber) {
-    return calculator.querySelector(`[data-battle-slot][data-side="${side}"][data-battle-slot="${slotNumber}"]`);
+    return calculator.querySelector(`[data-field-slot][data-side="${side}"][data-slot="${slotNumber}"]`);
   }
 
-  function activeSpeed(slot) {
-    const baseSpeed = Number(slot.querySelector("[data-turn-speed]")?.value || 0);
-    const sidePanel = slot.closest("[data-battle-side]");
-    const tailwind = sidePanel?.querySelector("[data-side-tailwind]")?.checked;
-    return Math.max(0, Math.floor(baseSpeed * (tailwind ? 2 : 1)));
+  function visibleSlots() {
+    return fieldSlots.filter(slot => !slot.hidden);
   }
 
-  function selectedTargets(slot) {
-    return Array.from(slot.querySelectorAll(".target-picker input:checked"))
-      .map(input => findSlot(input.dataset.targetSide, input.dataset.targetSlot))
-      .filter(target => target && !target.hidden);
+  function slugFromImage(path) {
+    const parts = String(path || "").split("/");
+    return parts.length > 1 ? parts[parts.length - 2] : "";
   }
 
-  function readAction(slot) {
-    const pokemon = slot.querySelector("[data-turn-pokemon]")?.value.trim() || slotLabel(slot);
-    const move = slot.querySelector("[data-turn-move]")?.value.trim() || "Selected move";
-    const priority = Number(slot.querySelector("[data-turn-priority]")?.value || 0);
-    const speed = activeSpeed(slot);
-
-    return {
-      slot,
-      pokemon,
-      move,
-      priority,
-      speed,
-      targets: selectedTargets(slot)
-    };
+  function spritePath(pokemon, side) {
+    if (!pokemon?.primary_image) return "";
+    const folder = slugFromImage(pokemon.primary_image);
+    if (!folder) return pokemon.primary_image;
+    return pokemon.primary_image.replace(/[^/]+_primary_image\.png$/, `${folder}_sprite_${side === "left" ? "back" : "front"}.png`);
   }
 
   function clearResults(message, isError = false) {
@@ -271,43 +315,200 @@ document.addEventListener("DOMContentLoaded", () => {
     summary.textContent = isError ? "Check inputs" : "Ready";
   }
 
+  function moveRecord(name) {
+    return movesByName.get(String(name || "").toLowerCase()) || null;
+  }
+
+  function pokemonRecord(name) {
+    return pokemonByName.get(String(name || "").toLowerCase()) || null;
+  }
+
+  function moveTargets(move, attackerSlot) {
+    const name = String(move?.display_name || move?.name || "").toLowerCase();
+    const description = String(move?.description || "").toLowerCase();
+    const opponentSpread = new Set([
+      "dazzling gleam", "heat wave", "icy wind", "muddy water", "rock slide", "snarl", "struggle bug", "electroweb"
+    ]);
+    const allAdjacent = new Set(["earthquake", "surf", "discharge", "lava plume", "boomburst", "bulldoze", "sludge wave"]);
+    const allIncludingSelf = new Set(["explosion", "self-destruct", "misty explosion"]);
+
+    if (allIncludingSelf.has(name)) return visibleSlots();
+    if (allAdjacent.has(name) || description.includes("all adjacent")) {
+      return visibleSlots().filter(slot => slot !== attackerSlot);
+    }
+    if (opponentSpread.has(name) || description.includes("targets'")) {
+      return visibleSlots().filter(slot => slot.dataset.side !== attackerSlot.dataset.side);
+    }
+    return visibleSlots().filter(slot => slot.dataset.side !== attackerSlot.dataset.side).slice(0, 1);
+  }
+
+  function updateSlotDisplay(slot) {
+    const state = stateFor(slot);
+    const pokemon = pokemonRecord(state.pokemon);
+    const img = slot.querySelector("[data-slot-sprite]");
+    const name = slot.querySelector("[data-slot-name]");
+
+    slot.classList.toggle("has-pokemon", Boolean(pokemon));
+    name.textContent = state.pokemon || "Empty";
+    img.src = pokemon ? withBase(spritePath(pokemon, slot.dataset.side)) : "";
+    img.alt = state.pokemon || "";
+  }
+
+  function withBase(path) {
+    if (!path) return "";
+    const base = document.querySelector(".site-title")?.getAttribute("href") || "/";
+    return `${base}${String(path).replace(/^\/+/, "")}`;
+  }
+
+  function commonMoveNames(pokemon) {
+    const names = (pokemon?.moves || []).map(move => move.name).filter(Boolean);
+    return [...names, "", "", "", ""].slice(0, 4);
+  }
+
+  function seedSlot(slot, name) {
+    const state = stateFor(slot);
+    const pokemon = pokemonRecord(name);
+    state.pokemon = name;
+    state.speed = pokemon?.stats?.find(stat => stat.key === "speed")?.value || pokemon?.stats?.speed || 100;
+    state.moves = commonMoveNames(pokemon);
+    state.ability = pokemon?.abilities?.[0]?.name || "";
+    state.item = pokemon?.items?.[0]?.name || "";
+    state.nature = pokemon?.spreads?.[0]?.nature || "Serious";
+    if (pokemon?.spreads?.[0]) applySpreadToState(state, pokemon.spreads[0]);
+    updateSlotDisplay(slot);
+  }
+
+  function applySpreadToState(state, spread) {
+    const keys = ["hp", "attack", "defense", "special_attack", "special_defense", "speed"];
+    const values = String(spread?.spread || "").split("/").map(value => Number(value || 0));
+    keys.forEach((key, index) => {
+      state.stats[key] = values[index] || 0;
+    });
+    if (spread?.nature) state.nature = spread.nature;
+  }
+
   function updateFormat() {
     const singles = selectedFormat() === "single";
 
-    slots.forEach(slot => {
-      const secondSlot = slot.dataset.battleSlot === "2";
+    fieldSlots.forEach(slot => {
+      const secondSlot = slot.dataset.slot === "2";
       slot.hidden = singles && secondSlot;
-
       if (slot.hidden) {
-        slot.querySelectorAll(".target-picker input").forEach(input => {
-          input.checked = false;
-        });
+        stateFor(slot).action = null;
       }
     });
 
-    calculator.querySelectorAll("[data-double-only]").forEach(option => {
-      const input = option.querySelector("input");
-      const target = findSlot(input.dataset.targetSide, input.dataset.targetSlot);
-      const unavailable = singles || !target || target.hidden;
-      option.hidden = unavailable;
-      if (unavailable) input.checked = false;
-    });
-
-    calculator.querySelectorAll("[data-active-count]").forEach(label => {
-      label.textContent = singles ? "1 active Pokemon" : "2 active Pokemon";
-    });
-
+    clearHighlights();
     clearResults(
       singles
-        ? "Singles mode active. Only slot 1 on each side can act."
-        : "Doubles mode active. Both slots on each side can act."
+        ? "Singles mode active. Team 1 and Team 2 each have one active Pokemon."
+        : "Doubles mode active. Both active slots are available."
     );
+  }
+
+  function openModal(modal) {
+    backdrop.hidden = false;
+    modal.hidden = false;
+  }
+
+  function closeModals() {
+    backdrop.hidden = true;
+    pokemonModal.hidden = true;
+    moveModal.hidden = true;
+    clearHighlights();
+  }
+
+  function fillSelect(select, values, emptyLabel) {
+    select.replaceChildren();
+    if (emptyLabel) {
+      const option = document.createElement("option");
+      option.value = "";
+      option.textContent = emptyLabel;
+      select.append(option);
+    }
+    values.forEach(value => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = value;
+      select.append(option);
+    });
+  }
+
+  function openPokemonEditor(slot) {
+    editingSlot = slot;
+    const state = stateFor(slot);
+    const pokemon = pokemonRecord(state.pokemon);
+    pokemonModal.querySelector("[data-edit-pokemon]").value = state.pokemon;
+    pokemonModal.querySelector("[data-edit-item]").value = state.item;
+    pokemonModal.querySelector("[data-edit-speed]").value = state.speed;
+    pokemonModal.querySelector("[data-edit-nature]").value = state.nature;
+    fillSelect(pokemonModal.querySelector("[data-edit-ability]"), (pokemon?.abilities || []).map(ability => ability.name), "Ability");
+    pokemonModal.querySelector("[data-edit-ability]").value = state.ability;
+    fillSpreadOptions(pokemon);
+    Object.entries(state.stats).forEach(([key, value]) => {
+      const input = pokemonModal.querySelector(`[data-edit-stat="${key}"]`);
+      if (input) input.value = value;
+    });
+    state.moves.forEach((move, index) => {
+      pokemonModal.querySelector(`[data-edit-move="${index}"]`).value = move;
+    });
+    openModal(pokemonModal);
+  }
+
+  function fillSpreadOptions(pokemon) {
+    const select = pokemonModal.querySelector("[data-edit-spread]");
+    select.replaceChildren();
+    const custom = document.createElement("option");
+    custom.value = "";
+    custom.textContent = "Custom";
+    select.append(custom);
+    (pokemon?.spreads || []).forEach((spread, index) => {
+      const option = document.createElement("option");
+      option.value = String(index);
+      option.textContent = `${spread.nature} ${spread.spread}${spread.percent ? ` (${spread.percent}%)` : ""}`;
+      select.append(option);
+    });
+  }
+
+  function savePokemonEditor() {
+    if (!editingSlot) return;
+    const state = stateFor(editingSlot);
+    const pokemonName = pokemonModal.querySelector("[data-edit-pokemon]").value.trim();
+    state.pokemon = pokemonName;
+    state.item = pokemonModal.querySelector("[data-edit-item]").value.trim();
+    state.ability = pokemonModal.querySelector("[data-edit-ability]").value;
+    state.nature = pokemonModal.querySelector("[data-edit-nature]").value;
+    state.speed = Number(pokemonModal.querySelector("[data-edit-speed]").value || 0);
+    Object.keys(state.stats).forEach(key => {
+      state.stats[key] = Number(pokemonModal.querySelector(`[data-edit-stat="${key}"]`)?.value || 0);
+    });
+    state.moves = [...defaultMoves].map((_, index) => pokemonModal.querySelector(`[data-edit-move="${index}"]`).value.trim());
+    updateSlotDisplay(editingSlot);
+    closeModals();
+    clearResults(`${slotLabel(editingSlot)} updated.`);
   }
 
   function compareActions(first, second) {
     if (first.priority !== second.priority) return second.priority - first.priority;
     if (trickRoom?.checked) return first.speed - second.speed;
     return second.speed - first.speed;
+  }
+
+  function effectiveSpeed(slot) {
+    return Math.max(0, Number(stateFor(slot).speed || 0));
+  }
+
+  function actionFor(slot) {
+    const state = stateFor(slot);
+    const move = moveRecord(state.action?.move);
+    return {
+      slot,
+      pokemon: state.pokemon || slotLabel(slot),
+      move: state.action?.move || "No move selected",
+      priority: move?.priority ?? 0,
+      speed: effectiveSpeed(slot),
+      targets: (state.action?.targets || []).map(key => fieldSlots.find(candidate => slotKey(candidate) === key)).filter(Boolean)
+    };
   }
 
   function renderAction(action, index) {
@@ -333,7 +534,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const targetNames = action.targets.length
       ? action.targets.map(target => {
-          const name = target.querySelector("[data-turn-pokemon]")?.value.trim();
+          const name = stateFor(target)?.pokemon;
           return name || slotLabel(target);
         })
       : ["No target selected"];
@@ -349,13 +550,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function calculateTurn() {
-    const actions = slots
-      .filter(isSlotActive)
-      .map(readAction)
-      .filter(action => action.targets.length > 0);
+    const actions = visibleSlots()
+      .map(actionFor)
+      .filter(action => action.targets.length > 0 && action.move !== "No move selected");
 
     if (!actions.length) {
-      clearResults("Enable at least one active slot and select a legal target.", true);
+      clearResults("Choose at least one move and target before simulating.", true);
       return;
     }
 
@@ -364,17 +564,165 @@ document.addEventListener("DOMContentLoaded", () => {
     summary.textContent = `${actions.length} action${actions.length === 1 ? "" : "s"} ordered`;
   }
 
-  formatInputs.forEach(input => input.addEventListener("change", updateFormat));
-  trickRoom?.addEventListener("change", () => clearResults("Field condition changed. Recalculate turn order."));
-  calculator.querySelectorAll("[data-side-tailwind], [data-will-move], .target-picker input").forEach(input => {
-    input.addEventListener("change", () => clearResults("Action state changed. Recalculate turn order."));
-  });
-  calculator.querySelectorAll("[data-turn-pokemon], [data-turn-move], [data-turn-priority], [data-turn-speed]").forEach(input => {
-    input.addEventListener("input", () => {
-      summary.textContent = "Edited";
+  function clearHighlights() {
+    fieldSlots.forEach(slot => {
+      slot.classList.remove("is-highlighted", "is-selected-target");
     });
-  });
-  calculateButton?.addEventListener("click", calculateTurn);
+  }
 
+  function openMovePicker(side) {
+    choosingSide = side;
+    selectedAttacker = visibleSlots().find(slot => slot.dataset.side === side) || null;
+    selectedMove = null;
+    selectedTargets = new Set();
+    renderMovePicker();
+    openModal(moveModal);
+  }
+
+  function renderMovePicker() {
+    const attackers = visibleSlots().filter(slot => slot.dataset.side === choosingSide);
+    attackerTabs.replaceChildren(...attackers.map(slot => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = `attacker-tab${slot === selectedAttacker ? " is-selected" : ""}`;
+      button.textContent = stateFor(slot).pokemon || slotLabel(slot);
+      button.addEventListener("click", () => {
+        selectedAttacker = slot;
+        selectedMove = null;
+        selectedTargets = new Set();
+        clearHighlights();
+        renderMovePicker();
+      });
+      return button;
+    }));
+
+    const attackerState = selectedAttacker ? stateFor(selectedAttacker) : null;
+    moveNote.textContent = selectedAttacker
+      ? `${attackerState.pokemon || slotLabel(selectedAttacker)} is the attacker.`
+      : "Select an attacker first.";
+
+    moveChoices.replaceChildren(...(attackerState?.moves || []).filter(Boolean).map(name => {
+      const move = moveRecord(name);
+      const button = document.createElement("button");
+      button.type = "button";
+      button.className = `move-choice-card${selectedMove === name ? " is-selected" : ""}`;
+      button.innerHTML = `<strong>${name}</strong><div class="turn-result-meta"><span>Priority ${move?.priority ?? 0}</span><span>${move?.type || "unknown"}</span><span>${move?.damage_class || "move"}</span></div>`;
+      button.addEventListener("click", () => chooseMove(name));
+      return button;
+    }));
+
+    renderTargetCards();
+  }
+
+  function chooseMove(name) {
+    selectedMove = name;
+    const recommended = moveTargets(moveRecord(name), selectedAttacker).map(slotKey);
+    selectedTargets = new Set(recommended);
+    renderMovePicker();
+    highlightTargets();
+  }
+
+  function renderTargetCards() {
+    targetCards.replaceChildren(...visibleSlots().map(slot => {
+      const state = stateFor(slot);
+      const pokemon = pokemonRecord(state.pokemon);
+      const key = slotKey(slot);
+      const card = document.createElement("button");
+      card.type = "button";
+      card.className = `target-card${selectedTargets.has(key) ? " is-selected" : ""}`;
+      card.innerHTML = `${pokemon ? `<img src="${withBase(spritePath(pokemon, slot.dataset.side))}" alt="">` : ""}<strong>${state.pokemon || slotLabel(slot)}</strong><div class="turn-result-meta"><span>${slotLabel(slot)}</span></div>`;
+      card.addEventListener("click", () => {
+        if (selectedTargets.has(key)) selectedTargets.delete(key);
+        else selectedTargets.add(key);
+        renderTargetCards();
+        highlightTargets();
+      });
+      return card;
+    }));
+    highlightTargets();
+  }
+
+  function highlightTargets() {
+    clearHighlights();
+    if (selectedAttacker) selectedAttacker.classList.add("is-highlighted");
+    selectedTargets.forEach(key => {
+      const slot = fieldSlots.find(candidate => slotKey(candidate) === key);
+      slot?.classList.add("is-selected-target");
+    });
+  }
+
+  function confirmMove() {
+    if (!selectedAttacker || !selectedMove) {
+      clearResults("Select an attacker and move before confirming.", true);
+      return;
+    }
+    const state = stateFor(selectedAttacker);
+    state.action = {
+      move: selectedMove,
+      targets: [...selectedTargets]
+    };
+    closeModals();
+    clearResults(`${state.pokemon || slotLabel(selectedAttacker)} is set to use ${selectedMove}.`);
+  }
+
+  function pokemonChangedInEditor() {
+    const pokemon = pokemonRecord(pokemonModal.querySelector("[data-edit-pokemon]").value.trim());
+    if (!pokemon) return;
+    pokemonModal.querySelector("[data-edit-speed]").value = pokemon.stats?.find(stat => stat.key === "speed")?.value || 100;
+    fillSelect(pokemonModal.querySelector("[data-edit-ability]"), (pokemon.abilities || []).map(ability => ability.name), "Ability");
+    fillSpreadOptions(pokemon);
+    commonMoveNames(pokemon).forEach((move, index) => {
+      pokemonModal.querySelector(`[data-edit-move="${index}"]`).value = move;
+    });
+    pokemonModal.querySelector("[data-edit-item]").value = pokemon.items?.[0]?.name || "";
+    pokemonModal.querySelector("[data-edit-nature]").value = pokemon.spreads?.[0]?.nature || "Serious";
+    if (pokemon.spreads?.[0]) {
+      const temp = { stats: {} };
+      applySpreadToState(temp, pokemon.spreads[0]);
+      Object.entries(temp.stats).forEach(([key, value]) => {
+        const input = pokemonModal.querySelector(`[data-edit-stat="${key}"]`);
+        if (input) input.value = value;
+      });
+    }
+  }
+
+  function spreadChangedInEditor() {
+    const pokemon = pokemonRecord(pokemonModal.querySelector("[data-edit-pokemon]").value.trim());
+    const index = Number(pokemonModal.querySelector("[data-edit-spread]").value);
+    const spread = pokemon?.spreads?.[index];
+    if (!spread) return;
+    const temp = { stats: {}, nature: spread.nature };
+    applySpreadToState(temp, spread);
+    pokemonModal.querySelector("[data-edit-nature]").value = temp.nature;
+    Object.entries(temp.stats).forEach(([key, value]) => {
+      pokemonModal.querySelector(`[data-edit-stat="${key}"]`).value = value;
+    });
+  }
+
+  fieldSlots.forEach(slot => {
+    slot.addEventListener("click", () => openPokemonEditor(slot));
+  });
+  calculator.querySelectorAll("[data-open-move-picker]").forEach(button => {
+    button.addEventListener("click", () => openMovePicker(button.dataset.openMovePicker));
+  });
+  formatInputs.forEach(input => input.addEventListener("change", updateFormat));
+  weather?.addEventListener("change", () => {
+    stage.dataset.weather = weather.value || "clear";
+  });
+  trickRoom?.addEventListener("change", () => clearResults("Field condition changed. Recalculate turn order."));
+  calculator.querySelectorAll("[data-close-modal]").forEach(button => {
+    button.addEventListener("click", closeModals);
+  });
+  backdrop?.addEventListener("click", closeModals);
+  pokemonModal.querySelector("[data-edit-pokemon]").addEventListener("change", pokemonChangedInEditor);
+  pokemonModal.querySelector("[data-edit-spread]").addEventListener("change", spreadChangedInEditor);
+  pokemonModal.querySelector("[data-save-pokemon]").addEventListener("click", savePokemonEditor);
+  moveModal.querySelector("[data-confirm-move]").addEventListener("click", confirmMove);
+  simulateButton?.addEventListener("click", calculateTurn);
+
+  seedSlot(findSlot("left", "1"), "Incineroar");
+  seedSlot(findSlot("left", "2"), "Garchomp");
+  seedSlot(findSlot("right", "1"), "Torkoal");
+  seedSlot(findSlot("right", "2"), "Corviknight");
   updateFormat();
 });

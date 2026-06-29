@@ -10,7 +10,7 @@
     <h1>Turn Simulator</h1>
   </div>
 
-  <section class="panel turn-control-panel">
+  <section class="panel battle-toolbar">
     <fieldset class="segmented-control" data-battle-format>
       <legend>Battle format</legend>
       <label>
@@ -26,11 +26,11 @@
     <label>
       Weather
       <select data-turn-weather>
-        <option value="">None</option>
-        <option value="Sun">Sun</option>
-        <option value="Rain">Rain</option>
-        <option value="Sand">Sand</option>
-        <option value="Snow">Snow</option>
+        <option value="clear">Clear</option>
+        <option value="sun">Sun</option>
+        <option value="rain">Rain</option>
+        <option value="sand">Sand</option>
+        <option value="snow">Snow</option>
       </select>
     </label>
 
@@ -38,10 +38,10 @@
       Terrain
       <select data-turn-terrain>
         <option value="">None</option>
-        <option value="Electric">Electric</option>
-        <option value="Grassy">Grassy</option>
-        <option value="Misty">Misty</option>
-        <option value="Psychic">Psychic</option>
+        <option value="electric">Electric</option>
+        <option value="grassy">Grassy</option>
+        <option value="misty">Misty</option>
+        <option value="psychic">Psychic</option>
       </select>
     </label>
 
@@ -49,86 +49,44 @@
       <input type="checkbox" data-turn-trick-room>
       <span>Trick Room</span>
     </label>
-
-    <button class="primary-action" type="button" data-calculate-turn>Calculate</button>
   </section>
 
-  <div class="battle-board">
-    {{ range $side := slice
-      (dict "key" "left" "name" "Team A" "accent" "Blue")
-      (dict "key" "right" "name" "Team B" "accent" "Gold")
-    }}
-      <section class="panel battle-side battle-side-{{ $side.key }}" data-battle-side="{{ $side.key }}">
-        <div class="battle-side-header">
-          <h2>{{ $side.name }}</h2>
-          <span data-active-count>2 active Pokemon</span>
-        </div>
+  <section class="battle-stage" data-battle-stage data-weather="clear">
+    <div class="move-command-panel team-two-command">
+      <span>Team 2</span>
+      <button type="button" data-open-move-picker="right">Choose Move</button>
+    </div>
 
-        <div class="side-modifiers">
-          <label class="toggle-option">
-            <input type="checkbox" data-side-tailwind>
-            <span>Tailwind</span>
-          </label>
-          <label class="toggle-option">
-            <input type="checkbox" data-side-helping-hand>
-            <span>Helping Hand</span>
-          </label>
-          <label class="toggle-option">
-            <input type="checkbox" data-side-protect>
-            <span>Protect active</span>
-          </label>
-        </div>
+    <div class="field-team field-team-top" data-field-team="right">
+      {{ range $slot := slice 1 2 }}
+        <button class="field-pokemon field-pokemon-right-{{ $slot }}" type="button" data-field-slot data-side="right" data-slot="{{ $slot }}" aria-label="Edit Team 2 slot {{ $slot }}">
+          <span class="field-shadow"></span>
+          <span class="unknown-mon">?</span>
+          <img alt="" data-slot-sprite>
+          <strong data-slot-name>Empty</strong>
+        </button>
+      {{ end }}
+    </div>
 
-        <div class="active-slots">
-          {{ range $slot := slice 1 2 }}
-            <article class="battle-slot" data-battle-slot="{{ $slot }}" data-side="{{ $side.key }}">
-              <div class="battle-slot-header">
-                <strong>Slot {{ $slot }}</strong>
-                <label class="toggle-option compact-toggle">
-                  <input type="checkbox" data-will-move checked>
-                  <span>Moves</span>
-                </label>
-              </div>
+    <div class="field-team field-team-bottom" data-field-team="left">
+      {{ range $slot := slice 1 2 }}
+        <button class="field-pokemon field-pokemon-left-{{ $slot }}" type="button" data-field-slot data-side="left" data-slot="{{ $slot }}" aria-label="Edit Team 1 slot {{ $slot }}">
+          <span class="field-shadow"></span>
+          <span class="unknown-mon">?</span>
+          <img alt="" data-slot-sprite>
+          <strong data-slot-name>Empty</strong>
+        </button>
+      {{ end }}
+    </div>
 
-              <div class="battle-field-grid">
-                <label>
-                  Pokemon
-                  <input type="search" list="turn-pokemon-options" data-turn-pokemon placeholder="Select Pokemon">
-                </label>
-                <label>
-                  Move
-                  <input type="search" list="turn-move-options" data-turn-move placeholder="Select Move">
-                </label>
-                <label>
-                  Priority
-                  <input type="number" data-turn-priority value="0" min="-7" max="7" step="1">
-                </label>
-                <label>
-                  Speed
-                  <input type="number" data-turn-speed value="100" min="1" max="999" step="1">
-                </label>
-              </div>
+    <div class="move-command-panel team-one-command">
+      <span>Team 1</span>
+      <button type="button" data-open-move-picker="left">Choose Move</button>
+    </div>
+  </section>
 
-              <fieldset class="target-picker">
-                <legend>Targets</legend>
-                <label>
-                  <input type="checkbox" data-target-side="{{ if eq $side.key "left" }}right{{ else }}left{{ end }}" data-target-slot="1" checked>
-                  <span>Opponent 1</span>
-                </label>
-                <label data-double-only>
-                  <input type="checkbox" data-target-side="{{ if eq $side.key "left" }}right{{ else }}left{{ end }}" data-target-slot="2">
-                  <span>Opponent 2</span>
-                </label>
-                <label data-double-only>
-                  <input type="checkbox" data-target-side="{{ $side.key }}" data-target-slot="{{ if eq $slot 1 }}2{{ else }}1{{ end }}">
-                  <span>Partner</span>
-                </label>
-              </fieldset>
-            </article>
-          {{ end }}
-        </div>
-      </section>
-    {{ end }}
+  <div class="battle-actions">
+    <button class="primary-action" type="button" data-simulate-turn>Simulate</button>
   </div>
 
   <section class="panel turn-results-panel" aria-live="polite">
@@ -138,11 +96,109 @@
     </div>
     <div class="turn-order-list" data-turn-results>
       <div class="empty-state">
-        <strong>Select actions, then calculate.</strong>
-        <span>Priority is checked first. Speed is checked second, reversing under Trick Room.</span>
+        <strong>Build the field, then choose moves.</strong>
+        <span>Click a Pokemon to edit it. Use the corner move controls to pick attacks and targets.</span>
       </div>
     </div>
   </section>
+
+  <div class="modal-backdrop" data-modal-backdrop hidden></div>
+
+  <section class="modal-panel pokemon-editor" data-pokemon-modal hidden role="dialog" aria-modal="true" aria-labelledby="pokemon-editor-title">
+    <div class="modal-header">
+      <h2 id="pokemon-editor-title">Edit Pokemon</h2>
+      <button type="button" data-close-modal aria-label="Close editor">Close</button>
+    </div>
+
+    <div class="editor-grid">
+      <label>
+        Pokemon
+        <input type="search" list="turn-pokemon-options" data-edit-pokemon placeholder="Select Pokemon">
+      </label>
+      <label>
+        Item
+        <input type="search" data-edit-item placeholder="Item">
+      </label>
+      <label>
+        Ability
+        <select data-edit-ability></select>
+      </label>
+      <label>
+        Nature
+        <select data-edit-nature>
+          {{ range slice "Adamant" "Bashful" "Bold" "Brave" "Calm" "Careful" "Docile" "Gentle" "Hardy" "Hasty" "Impish" "Jolly" "Lax" "Lonely" "Mild" "Modest" "Naive" "Naughty" "Quiet" "Quirky" "Rash" "Relaxed" "Sassy" "Serious" "Timid" }}
+            <option value="{{ . }}" {{ if eq . "Serious" }}selected{{ end }}>{{ . }}</option>
+          {{ end }}
+        </select>
+      </label>
+      <label>
+        Common spread
+        <select data-edit-spread>
+          <option value="">Custom</option>
+        </select>
+      </label>
+      <label>
+        Speed
+        <input type="number" data-edit-speed min="1" max="999" value="100">
+      </label>
+    </div>
+
+    <div class="editor-section">
+      <h3>EV Points</h3>
+      <div class="stat-input-grid">
+        {{ range $stat := slice
+          (dict "key" "hp" "label" "HP")
+          (dict "key" "attack" "label" "Atk")
+          (dict "key" "defense" "label" "Def")
+          (dict "key" "special_attack" "label" "SpA")
+          (dict "key" "special_defense" "label" "SpD")
+          (dict "key" "speed" "label" "Spe")
+        }}
+          <label>
+            {{ $stat.label }}
+            <input type="number" data-edit-stat="{{ $stat.key }}" min="0" max="32" value="0">
+          </label>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="editor-section">
+      <h3>Moves</h3>
+      <div class="move-edit-grid">
+        {{ range $slot := slice 0 1 2 3 }}
+          <label>
+            Move {{ add $slot 1 }}
+            <input type="search" list="turn-move-options" data-edit-move="{{ $slot }}" placeholder="Select Move">
+          </label>
+        {{ end }}
+      </div>
+    </div>
+
+    <div class="modal-actions">
+      <button type="button" data-save-pokemon class="primary-action">Save Pokemon</button>
+    </div>
+  </section>
+
+  <section class="modal-panel move-picker" data-move-modal hidden role="dialog" aria-modal="true" aria-labelledby="move-picker-title">
+    <div class="modal-header">
+      <h2 id="move-picker-title">Choose Move</h2>
+      <button type="button" data-close-modal aria-label="Close move picker">Close</button>
+    </div>
+    <p class="modal-note" data-move-picker-note>Select an attacker and one of its moves.</p>
+    <div class="attacker-tabs" data-attacker-tabs></div>
+    <div class="move-choice-grid" data-move-choices></div>
+    <div class="target-card-grid" data-target-cards></div>
+    <div class="modal-actions">
+      <button type="button" data-confirm-move class="primary-action">Confirm Move</button>
+    </div>
+  </section>
+
+  <script type="application/json" id="turn-pokemon-data">
+    {{ hugo.Data.pokemon | jsonify }}
+  </script>
+  <script type="application/json" id="turn-move-data">
+    {{ hugo.Data.moves | jsonify }}
+  </script>
 
   <datalist id="turn-pokemon-options">
     {{ range sort $pokemonPages "Title" }}
