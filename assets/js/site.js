@@ -122,22 +122,43 @@ document.addEventListener("DOMContentLoaded", () => {
   const sort = controls.querySelector("[data-pokemon-move-sort]");
   const rows = Array.from(list.querySelectorAll(".move-row"));
 
+  function rowValue(row, key) {
+    if (key === "class") return row.getAttribute("data-damage-class") || "";
+    return row.getAttribute(`data-${key}`) || "";
+  }
+
+  function compareText(left, right, direction) {
+    const result = left.localeCompare(right, undefined, { sensitivity: "base" });
+    return direction === "asc" ? result : -result;
+  }
+
+  function compareNumber(left, right, direction) {
+    const leftNumber = Number(left || 0);
+    const rightNumber = Number(right || 0);
+    return direction === "asc" ? leftNumber - rightNumber : rightNumber - leftNumber;
+  }
+
   function updateMoves() {
     const selectedType = type?.value || "all";
     const selectedClass = damageClass?.value || "all";
 
     rows.forEach(row => {
-      const matchesType = selectedType === "all" || row.dataset.type === selectedType;
-      const matchesClass = selectedClass === "all" || row.dataset.damageClass === selectedClass;
+      const rowType = rowValue(row, "type");
+      const rowClass = rowValue(row, "class");
+      const matchesType = selectedType === "all" || rowType === selectedType;
+      const matchesClass = selectedClass === "all" || rowClass === selectedClass;
       row.hidden = !(matchesType && matchesClass);
     });
 
     const [key, direction] = (sort?.value || "usage-desc").split("-");
     [...rows]
       .sort((a, b) => {
-        const left = Number(a.dataset[key] || 0);
-        const right = Number(b.dataset[key] || 0);
-        return direction === "asc" ? left - right : right - left;
+        const left = rowValue(a, key);
+        const right = rowValue(b, key);
+        if (key === "type" || key === "class") {
+          return compareText(left, right, direction) || compareNumber(rowValue(a, "usage"), rowValue(b, "usage"), "desc");
+        }
+        return compareNumber(left, right, direction) || compareText(rowValue(a, "type"), rowValue(b, "type"), "asc");
       })
       .forEach(row => list.appendChild(row));
   }
@@ -145,4 +166,5 @@ document.addEventListener("DOMContentLoaded", () => {
   type?.addEventListener("change", updateMoves);
   damageClass?.addEventListener("change", updateMoves);
   sort?.addEventListener("change", updateMoves);
+  updateMoves();
 });
