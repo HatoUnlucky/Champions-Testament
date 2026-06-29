@@ -1,0 +1,20 @@
+{
+  "slug": "hawluchanite",
+  "display_name": "Hawluchanite",
+  "description": "One of a variety of mysterious Mega Stones. A Hawlucha holding this stone will be able to Mega Evolve during battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Mega Evolution/hawluchanite_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Hawlucha",
+      "url": "pokemon/mega-hawlucha/",
+      "percent": 100.0
+    }
+  ]
+}

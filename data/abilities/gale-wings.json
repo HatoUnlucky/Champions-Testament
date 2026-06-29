@@ -1,0 +1,20 @@
+{
+  "slug": "gale-wings",
+  "display_name": "Gale Wings",
+  "description": "raises flying moves' priority by one stage.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Talonflame",
+      "url": "pokemon/talonflame/",
+      "percent": 98.6
+    }
+  ]
+}

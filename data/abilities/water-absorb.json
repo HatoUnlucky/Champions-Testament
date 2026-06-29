@@ -1,0 +1,30 @@
+{
+  "slug": "water-absorb",
+  "display_name": "Water Absorb",
+  "description": "absorbs water moves, healing for 1/4 max hp.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Vaporeon",
+      "url": "pokemon/vaporeon/",
+      "percent": 99.2
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Politoed",
+      "url": "pokemon/politoed/",
+      "percent": 0.5
+    }
+  ]
+}

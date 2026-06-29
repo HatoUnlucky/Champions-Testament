@@ -1,0 +1,30 @@
+{
+  "slug": "swift-swim",
+  "display_name": "Swift Swim",
+  "description": "doubles speed during rain.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Beartic",
+      "url": "pokemon/beartic/",
+      "percent": 42.5
+    },
+    {
+      "display_name": "Basculegion Male",
+      "url": "pokemon/basculegion-male/",
+      "percent": 6.6
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": 5.3
+    }
+  ]
+}

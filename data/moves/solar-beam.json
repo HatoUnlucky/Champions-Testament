@@ -1,0 +1,115 @@
+{
+  "slug": "solar-beam",
+  "display_name": "Solar Beam",
+  "description": "The user gains the Charging status on the turn this move is used then attacks on the following turn. In harsh sunlight the user does not gain the Charging status and can attack immediately. This move's power is halved in any other weather condition.",
+  "type": "grass",
+  "power": 120.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Meganium",
+      "url": "pokemon/mega-meganium/",
+      "percent": 98.5
+    },
+    {
+      "display_name": "Mega Charizard Y",
+      "url": "pokemon/mega-charizard-y/",
+      "percent": 87.0
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": 50.5
+    },
+    {
+      "display_name": "Typhlosion",
+      "url": "pokemon/typhlosion/",
+      "percent": 29.4
+    },
+    {
+      "display_name": "Torkoal",
+      "url": "pokemon/torkoal/",
+      "percent": 21.2
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 20.0
+    },
+    {
+      "display_name": "Mega Houndoom",
+      "url": "pokemon/mega-houndoom/",
+      "percent": 18.9
+    },
+    {
+      "display_name": "Ninetales",
+      "url": "pokemon/ninetales/",
+      "percent": 17.6
+    },
+    {
+      "display_name": "Venusaur",
+      "url": "pokemon/venusaur/",
+      "percent": 16.7
+    },
+    {
+      "display_name": "Scovillain",
+      "url": "pokemon/scovillain/",
+      "percent": 10.1
+    },
+    {
+      "display_name": "Camerupt",
+      "url": "pokemon/camerupt/",
+      "percent": 4.6
+    },
+    {
+      "display_name": "Hydrapple",
+      "url": "pokemon/hydrapple/",
+      "percent": 3.7
+    },
+    {
+      "display_name": "Meganium",
+      "url": "pokemon/meganium/",
+      "percent": 1.7
+    },
+    {
+      "display_name": "Mega Camerupt",
+      "url": "pokemon/mega-camerupt/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Hisuian Typhlosion",
+      "url": "pokemon/hisuian-typhlosion/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Mega Chandelure",
+      "url": "pokemon/mega-chandelure/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Simisage",
+      "url": "pokemon/simisage/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Heliolisk",
+      "url": "pokemon/heliolisk/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Chandelure",
+      "url": "pokemon/chandelure/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Mega Victreebel",
+      "url": "pokemon/mega-victreebel/",
+      "percent": 0.6
+    }
+  ]
+}

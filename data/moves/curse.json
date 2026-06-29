@@ -1,0 +1,115 @@
+{
+  "slug": "curse",
+  "display_name": "Curse",
+  "description": "Ghost-type: The user loses 1/2 of its max HP to give the target the Cursed status. Non-Ghost-type: Lowers the user's Speed stat by 1 stage and boosts its Attack and Defense stats by 1 stage.",
+  "type": "ghost",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Snorlax",
+      "url": "pokemon/snorlax/",
+      "percent": 31.3
+    },
+    {
+      "display_name": "Hisuian Avalugg",
+      "url": "pokemon/hisuian-avalugg/",
+      "percent": 16.9
+    },
+    {
+      "display_name": "Avalugg",
+      "url": "pokemon/avalugg/",
+      "percent": 11.6
+    },
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": 9.4
+    },
+    {
+      "display_name": "Hisuian Goodra",
+      "url": "pokemon/hisuian-goodra/",
+      "percent": 4.5
+    },
+    {
+      "display_name": "Decidueye",
+      "url": "pokemon/decidueye/",
+      "percent": 4.4
+    },
+    {
+      "display_name": "Mega Feraligatr",
+      "url": "pokemon/mega-feraligatr/",
+      "percent": 4.3
+    },
+    {
+      "display_name": "Mimikyu",
+      "url": "pokemon/mimikyu/",
+      "percent": 4.2
+    },
+    {
+      "display_name": "Mudsdale",
+      "url": "pokemon/mudsdale/",
+      "percent": 4.2
+    },
+    {
+      "display_name": "Trevenant",
+      "url": "pokemon/trevenant/",
+      "percent": 3.9
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 3.8
+    },
+    {
+      "display_name": "Abomasnow",
+      "url": "pokemon/abomasnow/",
+      "percent": 3.3
+    },
+    {
+      "display_name": "Mega Emboar",
+      "url": "pokemon/mega-emboar/",
+      "percent": 3.2
+    },
+    {
+      "display_name": "Mega Steelix",
+      "url": "pokemon/mega-steelix/",
+      "percent": 2.9
+    },
+    {
+      "display_name": "Rampardos",
+      "url": "pokemon/rampardos/",
+      "percent": 2.6
+    },
+    {
+      "display_name": "Steelix",
+      "url": "pokemon/steelix/",
+      "percent": 2.6
+    },
+    {
+      "display_name": "Golurk",
+      "url": "pokemon/golurk/",
+      "percent": 2.4
+    },
+    {
+      "display_name": "Mega Aggron",
+      "url": "pokemon/mega-aggron/",
+      "percent": 1.8
+    },
+    {
+      "display_name": "Cofagrigus",
+      "url": "pokemon/cofagrigus/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Hippowdon",
+      "url": "pokemon/hippowdon/",
+      "percent": 1.2
+    }
+  ]
+}

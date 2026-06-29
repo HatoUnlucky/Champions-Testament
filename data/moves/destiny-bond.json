@@ -1,0 +1,115 @@
+{
+  "slug": "destiny-bond",
+  "display_name": "Destiny Bond",
+  "description": "The user gains the Destiny Bound status. This move fails if used in succession.",
+  "type": "ghost",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Banette",
+      "url": "pokemon/mega-banette/",
+      "percent": 74.5
+    },
+    {
+      "display_name": "Sharpedo",
+      "url": "pokemon/sharpedo/",
+      "percent": 46.8
+    },
+    {
+      "display_name": "Gengar",
+      "url": "pokemon/gengar/",
+      "percent": 18.6
+    },
+    {
+      "display_name": "Froslass",
+      "url": "pokemon/froslass/",
+      "percent": 12.1
+    },
+    {
+      "display_name": "Mimikyu",
+      "url": "pokemon/mimikyu/",
+      "percent": 10.6
+    },
+    {
+      "display_name": "Houndoom",
+      "url": "pokemon/houndoom/",
+      "percent": 9.6
+    },
+    {
+      "display_name": "Mega Sharpedo",
+      "url": "pokemon/mega-sharpedo/",
+      "percent": 6.3
+    },
+    {
+      "display_name": "Runerigus",
+      "url": "pokemon/runerigus/",
+      "percent": 5.6
+    },
+    {
+      "display_name": "Spiritomb",
+      "url": "pokemon/spiritomb/",
+      "percent": 5.5
+    },
+    {
+      "display_name": "Cofagrigus",
+      "url": "pokemon/cofagrigus/",
+      "percent": 3.9
+    },
+    {
+      "display_name": "Gourgeist",
+      "url": "pokemon/gourgeist/",
+      "percent": 3.1
+    },
+    {
+      "display_name": "Mega Gallade",
+      "url": "pokemon/mega-gallade/",
+      "percent": 2.9
+    },
+    {
+      "display_name": "Armarouge",
+      "url": "pokemon/armarouge/",
+      "percent": 2.6
+    },
+    {
+      "display_name": "Mega Froslass",
+      "url": "pokemon/mega-froslass/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Trevenant",
+      "url": "pokemon/trevenant/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Gardevoir",
+      "url": "pokemon/gardevoir/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Mega Gengar",
+      "url": "pokemon/mega-gengar/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Mega Houndoom",
+      "url": "pokemon/mega-houndoom/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Ceruledge",
+      "url": "pokemon/ceruledge/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Aegislash",
+      "url": "pokemon/aegislash/",
+      "percent": 0.1
+    }
+  ]
+}

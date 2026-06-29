@@ -1,0 +1,20 @@
+{
+  "slug": "surge-surfer",
+  "display_name": "Surge Surfer",
+  "description": "doubles this pokémon's speed on electric terrain.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Alolan Raichu",
+      "url": "pokemon/alolan-raichu/",
+      "percent": 100.0
+    }
+  ]
+}

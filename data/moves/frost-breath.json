@@ -1,0 +1,95 @@
+{
+  "slug": "frost-breath",
+  "display_name": "Frost Breath",
+  "description": "Always a critical hit.",
+  "type": "ice",
+  "power": 60.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Froslass",
+      "url": "pokemon/froslass/",
+      "percent": 72.7
+    },
+    {
+      "display_name": "Vanilluxe",
+      "url": "pokemon/vanilluxe/",
+      "percent": 2.0
+    },
+    {
+      "display_name": "Mega Glalie",
+      "url": "pokemon/mega-glalie/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Mega Abomasnow",
+      "url": "pokemon/mega-abomasnow/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Mega Froslass",
+      "url": "pokemon/mega-froslass/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Avalugg",
+      "url": "pokemon/avalugg/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Beartic",
+      "url": "pokemon/beartic/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Glalie",
+      "url": "pokemon/glalie/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Abomasnow",
+      "url": "pokemon/abomasnow/",
+      "percent": null
+    },
+    {
+      "display_name": "Alolan Ninetales",
+      "url": "pokemon/alolan-ninetales/",
+      "percent": null
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": null
+    },
+    {
+      "display_name": "Aurorus",
+      "url": "pokemon/aurorus/",
+      "percent": null
+    },
+    {
+      "display_name": "Crabominable",
+      "url": "pokemon/crabominable/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Crabominable",
+      "url": "pokemon/mega-crabominable/",
+      "percent": null
+    },
+    {
+      "display_name": "Toxapex",
+      "url": "pokemon/toxapex/",
+      "percent": null
+    }
+  ]
+}

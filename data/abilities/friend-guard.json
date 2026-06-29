@@ -1,0 +1,25 @@
+{
+  "slug": "friend-guard",
+  "display_name": "Friend Guard",
+  "description": "decreases all direct damage taken by friendly pokémon to 0.75×.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Maushold",
+      "url": "pokemon/maushold/",
+      "percent": 98.6
+    },
+    {
+      "display_name": "Vivillon",
+      "url": "pokemon/vivillon/",
+      "percent": 7.0
+    }
+  ]
+}

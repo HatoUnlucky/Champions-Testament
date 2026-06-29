@@ -1,0 +1,115 @@
+{
+  "slug": "baby-doll-eyes",
+  "display_name": "Baby-Doll Eyes",
+  "description": "Lowers the target's Attack stat by 1 stage.",
+  "type": "fairy",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Luxray",
+      "url": "pokemon/luxray/",
+      "percent": 25.9
+    },
+    {
+      "display_name": "Umbreon",
+      "url": "pokemon/umbreon/",
+      "percent": 3.6
+    },
+    {
+      "display_name": "Alcremie",
+      "url": "pokemon/alcremie/",
+      "percent": 2.5
+    },
+    {
+      "display_name": "Audino",
+      "url": "pokemon/audino/",
+      "percent": 1.7
+    },
+    {
+      "display_name": "Vaporeon",
+      "url": "pokemon/vaporeon/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Flareon",
+      "url": "pokemon/flareon/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Espathra",
+      "url": "pokemon/espathra/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Mimikyu",
+      "url": "pokemon/mimikyu/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Maushold",
+      "url": "pokemon/maushold/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Tinkaton",
+      "url": "pokemon/tinkaton/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Furfrou",
+      "url": "pokemon/furfrou/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Sylveon",
+      "url": "pokemon/sylveon/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Alolan Ninetales",
+      "url": "pokemon/alolan-ninetales/",
+      "percent": null
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": null
+    },
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": null
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": null
+    },
+    {
+      "display_name": "Jolteon",
+      "url": "pokemon/jolteon/",
+      "percent": null
+    },
+    {
+      "display_name": "Leafeon",
+      "url": "pokemon/leafeon/",
+      "percent": null
+    },
+    {
+      "display_name": "Lopunny",
+      "url": "pokemon/lopunny/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Audino",
+      "url": "pokemon/mega-audino/",
+      "percent": null
+    }
+  ]
+}

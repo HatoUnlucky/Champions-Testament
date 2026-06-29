@@ -1,0 +1,20 @@
+{
+  "slug": "skarmorite",
+  "display_name": "Skarmorite",
+  "description": "One of a variety of mysterious Mega Stones. A Skarmory holding this stone will be able to Mega Evolve during battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Mega Evolution/skarmorite_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Skarmory",
+      "url": "pokemon/mega-skarmory/",
+      "percent": 100.0
+    }
+  ]
+}

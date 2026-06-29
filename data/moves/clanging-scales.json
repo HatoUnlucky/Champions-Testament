@@ -1,0 +1,20 @@
+{
+  "slug": "clanging-scales",
+  "display_name": "Clanging Scales",
+  "description": "Lowers the user's Defense stat by 1 stage.",
+  "type": "dragon",
+  "power": 110.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Kommo-o",
+      "url": "pokemon/kommo-o/",
+      "percent": 97.3
+    }
+  ]
+}

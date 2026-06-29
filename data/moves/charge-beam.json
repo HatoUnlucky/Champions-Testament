@@ -1,0 +1,115 @@
+{
+  "slug": "charge-beam",
+  "display_name": "Charge Beam",
+  "description": "Has a 70% chance of boosting the user's Sp. Atk stat by 1 stage.",
+  "type": "electric",
+  "power": 50.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Chimecho",
+      "url": "pokemon/mega-chimecho/",
+      "percent": 3.8
+    },
+    {
+      "display_name": "Emolga",
+      "url": "pokemon/emolga/",
+      "percent": 1.7
+    },
+    {
+      "display_name": "Ampharos",
+      "url": "pokemon/ampharos/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Jolteon",
+      "url": "pokemon/jolteon/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Mega Ampharos",
+      "url": "pokemon/mega-ampharos/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Bellibolt",
+      "url": "pokemon/bellibolt/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Frost Rotom",
+      "url": "pokemon/frost-rotom/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Heat Rotom",
+      "url": "pokemon/heat-rotom/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Manectric",
+      "url": "pokemon/manectric/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Manectric",
+      "url": "pokemon/mega-manectric/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Absol",
+      "url": "pokemon/absol/",
+      "percent": null
+    },
+    {
+      "display_name": "Alakazam",
+      "url": "pokemon/alakazam/",
+      "percent": null
+    },
+    {
+      "display_name": "Alolan Raichu",
+      "url": "pokemon/alolan-raichu/",
+      "percent": null
+    },
+    {
+      "display_name": "Aromatisse",
+      "url": "pokemon/aromatisse/",
+      "percent": null
+    },
+    {
+      "display_name": "Audino",
+      "url": "pokemon/audino/",
+      "percent": null
+    },
+    {
+      "display_name": "Aurorus",
+      "url": "pokemon/aurorus/",
+      "percent": null
+    },
+    {
+      "display_name": "Banette",
+      "url": "pokemon/banette/",
+      "percent": null
+    },
+    {
+      "display_name": "Chimecho",
+      "url": "pokemon/chimecho/",
+      "percent": null
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": null
+    },
+    {
+      "display_name": "Dedenne",
+      "url": "pokemon/dedenne/",
+      "percent": null
+    }
+  ]
+}

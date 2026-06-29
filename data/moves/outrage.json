@@ -1,0 +1,115 @@
+{
+  "slug": "outrage",
+  "display_name": "Outrage",
+  "description": "The user gains the Rampaging status.",
+  "type": "dragon",
+  "power": 120.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Flapple",
+      "url": "pokemon/flapple/",
+      "percent": 5.3
+    },
+    {
+      "display_name": "Tyrantrum",
+      "url": "pokemon/tyrantrum/",
+      "percent": 4.0
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": 1.8
+    },
+    {
+      "display_name": "Mega Charizard X",
+      "url": "pokemon/mega-charizard-x/",
+      "percent": 1.7
+    },
+    {
+      "display_name": "Dragonite",
+      "url": "pokemon/dragonite/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Garchomp",
+      "url": "pokemon/garchomp/",
+      "percent": 1.1
+    },
+    {
+      "display_name": "Gyarados",
+      "url": "pokemon/gyarados/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Mega Garchomp",
+      "url": "pokemon/mega-garchomp/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Abomasnow",
+      "url": "pokemon/abomasnow/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Hisuian Arcanine",
+      "url": "pokemon/hisuian-arcanine/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Lycanroc (Dusk)",
+      "url": "pokemon/lycanroc-dusk/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Palafin",
+      "url": "pokemon/palafin/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Venusaur",
+      "url": "pokemon/venusaur/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Kangaskhan",
+      "url": "pokemon/kangaskhan/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Gyarados",
+      "url": "pokemon/mega-gyarados/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Morpeko",
+      "url": "pokemon/morpeko/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Tauros",
+      "url": "pokemon/tauros/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": null
+    },
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": null
+    },
+    {
+      "display_name": "Ampharos",
+      "url": "pokemon/ampharos/",
+      "percent": null
+    }
+  ]
+}

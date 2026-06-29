@@ -1,0 +1,115 @@
+{
+  "slug": "sitrus-berry",
+  "display_name": "Sitrus Berry",
+  "description": "A hold item that restores 30 HP in battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Slurpuff",
+      "url": "pokemon/slurpuff/",
+      "percent": 96.6
+    },
+    {
+      "display_name": "Fan Rotom",
+      "url": "pokemon/fan-rotom/",
+      "percent": 91.3
+    },
+    {
+      "display_name": "Trevenant",
+      "url": "pokemon/trevenant/",
+      "percent": 90.7
+    },
+    {
+      "display_name": "Politoed",
+      "url": "pokemon/politoed/",
+      "percent": 76.9
+    },
+    {
+      "display_name": "Dedenne",
+      "url": "pokemon/dedenne/",
+      "percent": 76.0
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": 74.6
+    },
+    {
+      "display_name": "Chimecho",
+      "url": "pokemon/chimecho/",
+      "percent": 72.0
+    },
+    {
+      "display_name": "Orthworm",
+      "url": "pokemon/orthworm/",
+      "percent": 68.0
+    },
+    {
+      "display_name": "Slowbro",
+      "url": "pokemon/slowbro/",
+      "percent": 67.5
+    },
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": 61.3
+    },
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": 61.0
+    },
+    {
+      "display_name": "Skeledirge",
+      "url": "pokemon/skeledirge/",
+      "percent": 59.1
+    },
+    {
+      "display_name": "Azumarill",
+      "url": "pokemon/azumarill/",
+      "percent": 59.0
+    },
+    {
+      "display_name": "Aromatisse",
+      "url": "pokemon/aromatisse/",
+      "percent": 52.1
+    },
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": 51.1
+    },
+    {
+      "display_name": "Florges",
+      "url": "pokemon/florges/",
+      "percent": 50.2
+    },
+    {
+      "display_name": "Pelipper",
+      "url": "pokemon/pelipper/",
+      "percent": 49.7
+    },
+    {
+      "display_name": "Diggersby",
+      "url": "pokemon/diggersby/",
+      "percent": 49.5
+    },
+    {
+      "display_name": "Vaporeon",
+      "url": "pokemon/vaporeon/",
+      "percent": 46.0
+    },
+    {
+      "display_name": "Arcanine",
+      "url": "pokemon/arcanine/",
+      "percent": 44.9
+    }
+  ]
+}

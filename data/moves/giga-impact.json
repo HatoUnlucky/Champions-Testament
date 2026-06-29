@@ -1,0 +1,115 @@
+{
+  "slug": "giga-impact",
+  "display_name": "Giga Impact",
+  "description": "The user gains the Recharging status on the turn after this move is used.",
+  "type": "normal",
+  "power": 150.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Lopunny",
+      "url": "pokemon/mega-lopunny/",
+      "percent": 21.2
+    },
+    {
+      "display_name": "Mega Pinsir",
+      "url": "pokemon/mega-pinsir/",
+      "percent": 11.2
+    },
+    {
+      "display_name": "Lopunny",
+      "url": "pokemon/lopunny/",
+      "percent": 7.4
+    },
+    {
+      "display_name": "Diggersby",
+      "url": "pokemon/diggersby/",
+      "percent": 3.2
+    },
+    {
+      "display_name": "Mega Altaria",
+      "url": "pokemon/mega-altaria/",
+      "percent": 1.0
+    },
+    {
+      "display_name": "Mega Feraligatr",
+      "url": "pokemon/mega-feraligatr/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Mega Glalie",
+      "url": "pokemon/mega-glalie/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Mega Kangaskhan",
+      "url": "pokemon/mega-kangaskhan/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Mega Beedrill",
+      "url": "pokemon/mega-beedrill/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Pidgeot",
+      "url": "pokemon/mega-pidgeot/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Tauros",
+      "url": "pokemon/tauros/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Watchog",
+      "url": "pokemon/watchog/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Abomasnow",
+      "url": "pokemon/abomasnow/",
+      "percent": null
+    },
+    {
+      "display_name": "Absol",
+      "url": "pokemon/absol/",
+      "percent": null
+    },
+    {
+      "display_name": "Aegislash",
+      "url": "pokemon/aegislash/",
+      "percent": null
+    },
+    {
+      "display_name": "Aerodactyl",
+      "url": "pokemon/aerodactyl/",
+      "percent": null
+    },
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": null
+    },
+    {
+      "display_name": "Alakazam",
+      "url": "pokemon/alakazam/",
+      "percent": null
+    },
+    {
+      "display_name": "Alcremie",
+      "url": "pokemon/alcremie/",
+      "percent": null
+    },
+    {
+      "display_name": "Alolan Ninetales",
+      "url": "pokemon/alolan-ninetales/",
+      "percent": null
+    }
+  ]
+}

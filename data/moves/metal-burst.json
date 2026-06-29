@@ -1,0 +1,60 @@
+{
+  "slug": "metal-burst",
+  "display_name": "Metal Burst",
+  "description": "The user retaliates to deal 150% of the damage it took from an opponent's move during the turn this move is used.",
+  "type": "steel",
+  "power": null,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": 9.4
+    },
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Orthworm",
+      "url": "pokemon/orthworm/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Archaludon",
+      "url": "pokemon/archaludon/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Kingambit",
+      "url": "pokemon/kingambit/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Aggron",
+      "url": "pokemon/mega-aggron/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Sableye",
+      "url": "pokemon/mega-sableye/",
+      "percent": null
+    },
+    {
+      "display_name": "Rhyperior",
+      "url": "pokemon/rhyperior/",
+      "percent": null
+    },
+    {
+      "display_name": "Sableye",
+      "url": "pokemon/sableye/",
+      "percent": null
+    }
+  ]
+}

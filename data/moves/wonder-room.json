@@ -1,0 +1,115 @@
+{
+  "slug": "wonder-room",
+  "display_name": "Wonder Room",
+  "description": "Gives the entire field the Wonder Room status for 5 turns.",
+  "type": "psychic",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Alakazam",
+      "url": "pokemon/alakazam/",
+      "percent": null
+    },
+    {
+      "display_name": "Alcremie",
+      "url": "pokemon/alcremie/",
+      "percent": null
+    },
+    {
+      "display_name": "Alolan Ninetales",
+      "url": "pokemon/alolan-ninetales/",
+      "percent": null
+    },
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": null
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": null
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": null
+    },
+    {
+      "display_name": "Cofagrigus",
+      "url": "pokemon/cofagrigus/",
+      "percent": null
+    },
+    {
+      "display_name": "Delphox",
+      "url": "pokemon/delphox/",
+      "percent": null
+    },
+    {
+      "display_name": "Galarian Slowbro",
+      "url": "pokemon/galarian-slowbro/",
+      "percent": null
+    },
+    {
+      "display_name": "Galarian Slowking",
+      "url": "pokemon/galarian-slowking/",
+      "percent": null
+    },
+    {
+      "display_name": "Gallade",
+      "url": "pokemon/gallade/",
+      "percent": null
+    },
+    {
+      "display_name": "Gardevoir",
+      "url": "pokemon/gardevoir/",
+      "percent": null
+    },
+    {
+      "display_name": "Gengar",
+      "url": "pokemon/gengar/",
+      "percent": null
+    },
+    {
+      "display_name": "Hatterene",
+      "url": "pokemon/hatterene/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Alakazam",
+      "url": "pokemon/mega-alakazam/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Altaria",
+      "url": "pokemon/mega-altaria/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Clefable",
+      "url": "pokemon/mega-clefable/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Delphox",
+      "url": "pokemon/mega-delphox/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Gallade",
+      "url": "pokemon/mega-gallade/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Gardevoir",
+      "url": "pokemon/mega-gardevoir/",
+      "percent": null
+    }
+  ]
+}

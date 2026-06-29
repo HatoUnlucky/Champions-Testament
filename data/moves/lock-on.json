@@ -1,0 +1,25 @@
+{
+  "slug": "lock-on",
+  "display_name": "Lock-On",
+  "description": "The user gains the Locked On status.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": null
+    },
+    {
+      "display_name": "Klefki",
+      "url": "pokemon/klefki/",
+      "percent": null
+    }
+  ]
+}

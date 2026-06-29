@@ -1,0 +1,30 @@
+{
+  "slug": "cheek-pouch",
+  "display_name": "Cheek Pouch",
+  "description": "restores hp upon eating a berry, in addition to the berry's effect.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Dedenne",
+      "url": "pokemon/dedenne/",
+      "percent": 87.7
+    },
+    {
+      "display_name": "Maushold",
+      "url": "pokemon/maushold/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Diggersby",
+      "url": "pokemon/diggersby/",
+      "percent": 0.0
+    }
+  ]
+}

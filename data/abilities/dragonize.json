@@ -1,0 +1,20 @@
+{
+  "slug": "dragonize",
+  "display_name": "Dragonize",
+  "description": "the pokémon's normal-type moves become dragon-type moves and their power is boosted by 20%.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Feraligatr",
+      "url": "pokemon/mega-feraligatr/",
+      "percent": 100.0
+    }
+  ]
+}

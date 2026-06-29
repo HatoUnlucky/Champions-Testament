@@ -1,0 +1,75 @@
+{
+  "slug": "haban-berry",
+  "display_name": "Haban Berry",
+  "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Dragon-type attack.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Berry/haban-berry_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 27.1
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": 25.7
+    },
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": 20.0
+    },
+    {
+      "display_name": "Noivern",
+      "url": "pokemon/noivern/",
+      "percent": 13.4
+    },
+    {
+      "display_name": "Hydrapple",
+      "url": "pokemon/hydrapple/",
+      "percent": 10.9
+    },
+    {
+      "display_name": "Garchomp",
+      "url": "pokemon/garchomp/",
+      "percent": 4.2
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": 2.6
+    },
+    {
+      "display_name": "Kommo-o",
+      "url": "pokemon/kommo-o/",
+      "percent": 1.9
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Dragonite",
+      "url": "pokemon/dragonite/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Flapple",
+      "url": "pokemon/flapple/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Snorlax",
+      "url": "pokemon/snorlax/",
+      "percent": 0.0
+    }
+  ]
+}

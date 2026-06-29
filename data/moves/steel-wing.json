@@ -1,0 +1,115 @@
+{
+  "slug": "steel-wing",
+  "display_name": "Steel Wing",
+  "description": "Has a 10% chance of boosting the user's Defense stat by 1 stage.",
+  "type": "steel",
+  "power": 70.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Mega Pidgeot",
+      "url": "pokemon/mega-pidgeot/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Skarmory",
+      "url": "pokemon/skarmory/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Toucannon",
+      "url": "pokemon/toucannon/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Corviknight",
+      "url": "pokemon/corviknight/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Aerodactyl",
+      "url": "pokemon/mega-aerodactyl/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Charizard X",
+      "url": "pokemon/mega-charizard-x/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Skarmory",
+      "url": "pokemon/mega-skarmory/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Talonflame",
+      "url": "pokemon/talonflame/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Aerodactyl",
+      "url": "pokemon/aerodactyl/",
+      "percent": null
+    },
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": null
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": null
+    },
+    {
+      "display_name": "Decidueye",
+      "url": "pokemon/decidueye/",
+      "percent": null
+    },
+    {
+      "display_name": "Dragonite",
+      "url": "pokemon/dragonite/",
+      "percent": null
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": null
+    },
+    {
+      "display_name": "Empoleon",
+      "url": "pokemon/empoleon/",
+      "percent": null
+    },
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": null
+    },
+    {
+      "display_name": "Hawlucha",
+      "url": "pokemon/hawlucha/",
+      "percent": null
+    },
+    {
+      "display_name": "Hisuian Decidueye",
+      "url": "pokemon/hisuian-decidueye/",
+      "percent": null
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "unburden",
+  "display_name": "Unburden",
+  "description": "doubles speed upon using or losing a held item.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Slurpuff",
+      "url": "pokemon/slurpuff/",
+      "percent": 99.1
+    },
+    {
+      "display_name": "Hawlucha",
+      "url": "pokemon/hawlucha/",
+      "percent": 91.5
+    },
+    {
+      "display_name": "Sneasler",
+      "url": "pokemon/sneasler/",
+      "percent": 87.1
+    },
+    {
+      "display_name": "Liepard",
+      "url": "pokemon/liepard/",
+      "percent": 0.9
+    }
+  ]
+}

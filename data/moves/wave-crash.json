@@ -1,0 +1,50 @@
+{
+  "slug": "wave-crash",
+  "display_name": "Wave Crash",
+  "description": "The user takes 1/3 of the damage dealt by this move.",
+  "type": "water",
+  "power": 120.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Palafin",
+      "url": "pokemon/palafin/",
+      "percent": 95.8
+    },
+    {
+      "display_name": "Basculegion Male",
+      "url": "pokemon/basculegion-male/",
+      "percent": 67.6
+    },
+    {
+      "display_name": "Quaquaval",
+      "url": "pokemon/quaquaval/",
+      "percent": 42.3
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": 3.9
+    },
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": 1.9
+    },
+    {
+      "display_name": "Empoleon",
+      "url": "pokemon/empoleon/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Blastoise",
+      "url": "pokemon/mega-blastoise/",
+      "percent": null
+    }
+  ]
+}

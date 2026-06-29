@@ -1,0 +1,40 @@
+{
+  "slug": "unnerve",
+  "display_name": "Unnerve",
+  "description": "prevents opposing pokémon from eating held berries.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Aerodactyl",
+      "url": "pokemon/aerodactyl/",
+      "percent": 93.3
+    },
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": 9.1
+    },
+    {
+      "display_name": "Corviknight",
+      "url": "pokemon/corviknight/",
+      "percent": 2.7
+    },
+    {
+      "display_name": "Tyranitar",
+      "url": "pokemon/tyranitar/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Houndoom",
+      "url": "pokemon/houndoom/",
+      "percent": 0.0
+    }
+  ]
+}

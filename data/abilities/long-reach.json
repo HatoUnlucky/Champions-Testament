@@ -1,0 +1,20 @@
+{
+  "slug": "long-reach",
+  "display_name": "Long Reach",
+  "description": "this pokémon's moves do not make contact.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Decidueye",
+      "url": "pokemon/decidueye/",
+      "percent": 70.5
+    }
+  ]
+}

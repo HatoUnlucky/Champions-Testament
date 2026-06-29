@@ -1,0 +1,115 @@
+{
+  "slug": "body-slam",
+  "display_name": "Body Slam",
+  "description": "Has a 30% chance of paralyzing the target. If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
+  "type": "normal",
+  "power": 85.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Pinsir",
+      "url": "pokemon/mega-pinsir/",
+      "percent": 86.5
+    },
+    {
+      "display_name": "Mega Glalie",
+      "url": "pokemon/mega-glalie/",
+      "percent": 69.9
+    },
+    {
+      "display_name": "Meganium",
+      "url": "pokemon/meganium/",
+      "percent": 43.1
+    },
+    {
+      "display_name": "Mega Feraligatr",
+      "url": "pokemon/mega-feraligatr/",
+      "percent": 20.1
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 14.4
+    },
+    {
+      "display_name": "Diggersby",
+      "url": "pokemon/diggersby/",
+      "percent": 10.0
+    },
+    {
+      "display_name": "Snorlax",
+      "url": "pokemon/snorlax/",
+      "percent": 6.0
+    },
+    {
+      "display_name": "Mega Altaria",
+      "url": "pokemon/mega-altaria/",
+      "percent": 4.2
+    },
+    {
+      "display_name": "Abomasnow",
+      "url": "pokemon/abomasnow/",
+      "percent": 3.1
+    },
+    {
+      "display_name": "Wyrdeer",
+      "url": "pokemon/wyrdeer/",
+      "percent": 2.6
+    },
+    {
+      "display_name": "Gyarados",
+      "url": "pokemon/gyarados/",
+      "percent": 2.1
+    },
+    {
+      "display_name": "Leafeon",
+      "url": "pokemon/leafeon/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Pinsir",
+      "url": "pokemon/pinsir/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Mega Kangaskhan",
+      "url": "pokemon/mega-kangaskhan/",
+      "percent": 1.0
+    },
+    {
+      "display_name": "Serperior",
+      "url": "pokemon/serperior/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Steelix",
+      "url": "pokemon/steelix/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Rampardos",
+      "url": "pokemon/rampardos/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Beartic",
+      "url": "pokemon/beartic/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Kangaskhan",
+      "url": "pokemon/kangaskhan/",
+      "percent": 0.3
+    }
+  ]
+}

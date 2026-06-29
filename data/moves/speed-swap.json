@@ -1,0 +1,40 @@
+{
+  "slug": "speed-swap",
+  "display_name": "Speed Swap",
+  "description": "The user and the target swap their Speed stats.",
+  "type": "psychic",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Alakazam",
+      "url": "pokemon/alakazam/",
+      "percent": 55.3
+    },
+    {
+      "display_name": "Mega Alakazam",
+      "url": "pokemon/mega-alakazam/",
+      "percent": 19.5
+    },
+    {
+      "display_name": "Alolan Raichu",
+      "url": "pokemon/alolan-raichu/",
+      "percent": 13.9
+    },
+    {
+      "display_name": "Emolga",
+      "url": "pokemon/emolga/",
+      "percent": 5.2
+    },
+    {
+      "display_name": "Raichu",
+      "url": "pokemon/raichu/",
+      "percent": null
+    }
+  ]
+}

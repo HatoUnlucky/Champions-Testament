@@ -1,0 +1,20 @@
+{
+  "slug": "fairy-aura",
+  "display_name": "Fairy Aura",
+  "description": "strengthens fairy moves to 1.33× their power for all friendly and opposing pokémon.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Floette",
+      "url": "pokemon/mega-floette/",
+      "percent": 100.0
+    }
+  ]
+}

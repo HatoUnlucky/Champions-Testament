@@ -1,0 +1,115 @@
+{
+  "slug": "helping-hand",
+  "display_name": "Helping Hand",
+  "description": "Boosts the power of an ally's move by 50% during the turn this move is used.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": 60.5
+    },
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": 60.0
+    },
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": 52.3
+    },
+    {
+      "display_name": "Lopunny",
+      "url": "pokemon/lopunny/",
+      "percent": 40.7
+    },
+    {
+      "display_name": "Leafeon",
+      "url": "pokemon/leafeon/",
+      "percent": 31.9
+    },
+    {
+      "display_name": "Tsareena",
+      "url": "pokemon/tsareena/",
+      "percent": 25.7
+    },
+    {
+      "display_name": "Aromatisse",
+      "url": "pokemon/aromatisse/",
+      "percent": 25.1
+    },
+    {
+      "display_name": "Emolga",
+      "url": "pokemon/emolga/",
+      "percent": 23.1
+    },
+    {
+      "display_name": "Spiritomb",
+      "url": "pokemon/spiritomb/",
+      "percent": 22.3
+    },
+    {
+      "display_name": "Slowking",
+      "url": "pokemon/slowking/",
+      "percent": 19.1
+    },
+    {
+      "display_name": "Gyarados",
+      "url": "pokemon/gyarados/",
+      "percent": 15.8
+    },
+    {
+      "display_name": "Mega Clefable",
+      "url": "pokemon/mega-clefable/",
+      "percent": 15.8
+    },
+    {
+      "display_name": "Florges",
+      "url": "pokemon/florges/",
+      "percent": 13.2
+    },
+    {
+      "display_name": "Maushold",
+      "url": "pokemon/maushold/",
+      "percent": 12.6
+    },
+    {
+      "display_name": "Mega Chimecho",
+      "url": "pokemon/mega-chimecho/",
+      "percent": 11.9
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": 11.5
+    },
+    {
+      "display_name": "Torkoal",
+      "url": "pokemon/torkoal/",
+      "percent": 11.5
+    },
+    {
+      "display_name": "Pikachu",
+      "url": "pokemon/pikachu/",
+      "percent": 10.9
+    },
+    {
+      "display_name": "Jolteon",
+      "url": "pokemon/jolteon/",
+      "percent": 10.8
+    },
+    {
+      "display_name": "Orthworm",
+      "url": "pokemon/orthworm/",
+      "percent": 10.4
+    }
+  ]
+}

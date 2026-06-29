@@ -1,0 +1,115 @@
+{
+  "slug": "wide-guard",
+  "display_name": "Wide Guard",
+  "description": "During the turn this move is used the user protects its side from moves that target all allies.",
+  "type": "rock",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Steelix",
+      "url": "pokemon/mega-steelix/",
+      "percent": 76.9
+    },
+    {
+      "display_name": "Toxapex",
+      "url": "pokemon/toxapex/",
+      "percent": 74.5
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 69.6
+    },
+    {
+      "display_name": "Chesnaught",
+      "url": "pokemon/chesnaught/",
+      "percent": 63.6
+    },
+    {
+      "display_name": "Pelipper",
+      "url": "pokemon/pelipper/",
+      "percent": 57.8
+    },
+    {
+      "display_name": "Armarouge",
+      "url": "pokemon/armarouge/",
+      "percent": 54.2
+    },
+    {
+      "display_name": "Aerodactyl",
+      "url": "pokemon/aerodactyl/",
+      "percent": 50.3
+    },
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": 50.3
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": 48.9
+    },
+    {
+      "display_name": "Hisuian Avalugg",
+      "url": "pokemon/hisuian-avalugg/",
+      "percent": 44.3
+    },
+    {
+      "display_name": "Conkeldurr",
+      "url": "pokemon/conkeldurr/",
+      "percent": 38.1
+    },
+    {
+      "display_name": "Steelix",
+      "url": "pokemon/steelix/",
+      "percent": 36.7
+    },
+    {
+      "display_name": "Crabominable",
+      "url": "pokemon/crabominable/",
+      "percent": 35.7
+    },
+    {
+      "display_name": "Aegislash",
+      "url": "pokemon/aegislash/",
+      "percent": 31.2
+    },
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": 26.7
+    },
+    {
+      "display_name": "Gallade",
+      "url": "pokemon/gallade/",
+      "percent": 23.9
+    },
+    {
+      "display_name": "Mega Aerodactyl",
+      "url": "pokemon/mega-aerodactyl/",
+      "percent": 20.7
+    },
+    {
+      "display_name": "Mega Gallade",
+      "url": "pokemon/mega-gallade/",
+      "percent": 19.0
+    },
+    {
+      "display_name": "Torterra",
+      "url": "pokemon/torterra/",
+      "percent": 12.6
+    },
+    {
+      "display_name": "Mega Chesnaught",
+      "url": "pokemon/mega-chesnaught/",
+      "percent": 11.9
+    }
+  ]
+}

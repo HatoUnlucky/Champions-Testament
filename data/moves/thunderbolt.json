@@ -1,0 +1,115 @@
+{
+  "slug": "thunderbolt",
+  "display_name": "Thunderbolt",
+  "description": "Has a 10% chance of paralyzing the target.",
+  "type": "electric",
+  "power": 90.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Fan Rotom",
+      "url": "pokemon/fan-rotom/",
+      "percent": 95.9
+    },
+    {
+      "display_name": "Bellibolt",
+      "url": "pokemon/bellibolt/",
+      "percent": 80.4
+    },
+    {
+      "display_name": "Stunfisk",
+      "url": "pokemon/stunfisk/",
+      "percent": 75.9
+    },
+    {
+      "display_name": "Heliolisk",
+      "url": "pokemon/heliolisk/",
+      "percent": 75.2
+    },
+    {
+      "display_name": "Heat Rotom",
+      "url": "pokemon/heat-rotom/",
+      "percent": 73.1
+    },
+    {
+      "display_name": "Frost Rotom",
+      "url": "pokemon/frost-rotom/",
+      "percent": 72.6
+    },
+    {
+      "display_name": "Mega Ampharos",
+      "url": "pokemon/mega-ampharos/",
+      "percent": 69.3
+    },
+    {
+      "display_name": "Jolteon",
+      "url": "pokemon/jolteon/",
+      "percent": 68.0
+    },
+    {
+      "display_name": "Wash Rotom",
+      "url": "pokemon/wash-rotom/",
+      "percent": 67.0
+    },
+    {
+      "display_name": "Mow Rotom",
+      "url": "pokemon/mow-rotom/",
+      "percent": 54.6
+    },
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 51.6
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": 51.1
+    },
+    {
+      "display_name": "Manectric",
+      "url": "pokemon/manectric/",
+      "percent": 43.0
+    },
+    {
+      "display_name": "Meowstic (Female)",
+      "url": "pokemon/meowstic-female/",
+      "percent": 42.8
+    },
+    {
+      "display_name": "Mega Manectric",
+      "url": "pokemon/mega-manectric/",
+      "percent": 36.8
+    },
+    {
+      "display_name": "Ampharos",
+      "url": "pokemon/ampharos/",
+      "percent": 33.4
+    },
+    {
+      "display_name": "Pikachu",
+      "url": "pokemon/pikachu/",
+      "percent": 32.0
+    },
+    {
+      "display_name": "Mega Dragonite",
+      "url": "pokemon/mega-dragonite/",
+      "percent": 31.6
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 30.6
+    },
+    {
+      "display_name": "Alolan Raichu",
+      "url": "pokemon/alolan-raichu/",
+      "percent": 29.3
+    }
+  ]
+}

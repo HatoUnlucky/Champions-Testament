@@ -1,0 +1,115 @@
+{
+  "slug": "psyshock",
+  "display_name": "Psyshock",
+  "description": "This is a special move but the damage it deals is calculated using the target's Defense stat.",
+  "type": "psychic",
+  "power": 80.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": 52.7
+    },
+    {
+      "display_name": "Mega Gardevoir",
+      "url": "pokemon/mega-gardevoir/",
+      "percent": 47.3
+    },
+    {
+      "display_name": "Mega Delphox",
+      "url": "pokemon/mega-delphox/",
+      "percent": 20.8
+    },
+    {
+      "display_name": "Gardevoir",
+      "url": "pokemon/gardevoir/",
+      "percent": 15.1
+    },
+    {
+      "display_name": "Aromatisse",
+      "url": "pokemon/aromatisse/",
+      "percent": 12.2
+    },
+    {
+      "display_name": "Mega Slowbro",
+      "url": "pokemon/mega-slowbro/",
+      "percent": 10.5
+    },
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": 9.6
+    },
+    {
+      "display_name": "Armarouge",
+      "url": "pokemon/armarouge/",
+      "percent": 9.4
+    },
+    {
+      "display_name": "Hatterene",
+      "url": "pokemon/hatterene/",
+      "percent": 5.8
+    },
+    {
+      "display_name": "Alakazam",
+      "url": "pokemon/alakazam/",
+      "percent": 4.9
+    },
+    {
+      "display_name": "Mega Chimecho",
+      "url": "pokemon/mega-chimecho/",
+      "percent": 4.8
+    },
+    {
+      "display_name": "Wyrdeer",
+      "url": "pokemon/wyrdeer/",
+      "percent": 4.5
+    },
+    {
+      "display_name": "Starmie",
+      "url": "pokemon/starmie/",
+      "percent": 4.2
+    },
+    {
+      "display_name": "Meowstic (Male)",
+      "url": "pokemon/meowstic-male/",
+      "percent": 3.8
+    },
+    {
+      "display_name": "Mega Alakazam",
+      "url": "pokemon/mega-alakazam/",
+      "percent": 2.0
+    },
+    {
+      "display_name": "Slowbro",
+      "url": "pokemon/slowbro/",
+      "percent": 1.8
+    },
+    {
+      "display_name": "Oranguru",
+      "url": "pokemon/oranguru/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Reuniclus",
+      "url": "pokemon/reuniclus/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Slowking",
+      "url": "pokemon/slowking/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Spiritomb",
+      "url": "pokemon/spiritomb/",
+      "percent": 1.0
+    }
+  ]
+}

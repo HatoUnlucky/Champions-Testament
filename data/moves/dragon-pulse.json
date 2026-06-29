@@ -1,0 +1,115 @@
+{
+  "slug": "dragon-pulse",
+  "display_name": "Dragon Pulse",
+  "description": "Inflicts regular damage with no additional effect.",
+  "type": "dragon",
+  "power": 85.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Ampharos",
+      "url": "pokemon/mega-ampharos/",
+      "percent": 99.1
+    },
+    {
+      "display_name": "Archaludon",
+      "url": "pokemon/archaludon/",
+      "percent": 60.0
+    },
+    {
+      "display_name": "Mega Dragonite",
+      "url": "pokemon/mega-dragonite/",
+      "percent": 59.4
+    },
+    {
+      "display_name": "Serperior",
+      "url": "pokemon/serperior/",
+      "percent": 48.3
+    },
+    {
+      "display_name": "Ampharos",
+      "url": "pokemon/ampharos/",
+      "percent": 38.8
+    },
+    {
+      "display_name": "Mega Drampa",
+      "url": "pokemon/mega-drampa/",
+      "percent": 38.6
+    },
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 34.6
+    },
+    {
+      "display_name": "Clawitzer",
+      "url": "pokemon/clawitzer/",
+      "percent": 32.6
+    },
+    {
+      "display_name": "Mega Altaria",
+      "url": "pokemon/mega-altaria/",
+      "percent": 23.1
+    },
+    {
+      "display_name": "Appletun",
+      "url": "pokemon/appletun/",
+      "percent": 21.5
+    },
+    {
+      "display_name": "Hisuian Goodra",
+      "url": "pokemon/hisuian-goodra/",
+      "percent": 14.4
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": 10.3
+    },
+    {
+      "display_name": "Heliolisk",
+      "url": "pokemon/heliolisk/",
+      "percent": 9.0
+    },
+    {
+      "display_name": "Noivern",
+      "url": "pokemon/noivern/",
+      "percent": 4.8
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": 4.6
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": 3.3
+    },
+    {
+      "display_name": "Mega Garchomp",
+      "url": "pokemon/mega-garchomp/",
+      "percent": 3.0
+    },
+    {
+      "display_name": "Salazzle",
+      "url": "pokemon/salazzle/",
+      "percent": 1.9
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": 1.3
+    }
+  ]
+}

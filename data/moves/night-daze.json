@@ -1,0 +1,20 @@
+{
+  "slug": "night-daze",
+  "display_name": "Night Daze",
+  "description": "Has a 40% chance of lowering the target's accuracy by 1 stage.",
+  "type": "dark",
+  "power": 90.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Zoroark",
+      "url": "pokemon/zoroark/",
+      "percent": 98.0
+    }
+  ]
+}

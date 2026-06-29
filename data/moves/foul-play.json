@@ -1,0 +1,115 @@
+{
+  "slug": "foul-play",
+  "display_name": "Foul Play",
+  "description": "The damage dealt by this move is calculated using the target's Attack stat instead of the user's Attack stat.",
+  "type": "dark",
+  "power": 95.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Umbreon",
+      "url": "pokemon/umbreon/",
+      "percent": 96.7
+    },
+    {
+      "display_name": "Mega Sableye",
+      "url": "pokemon/mega-sableye/",
+      "percent": 48.7
+    },
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": 34.5
+    },
+    {
+      "display_name": "Spiritomb",
+      "url": "pokemon/spiritomb/",
+      "percent": 33.6
+    },
+    {
+      "display_name": "Liepard",
+      "url": "pokemon/liepard/",
+      "percent": 31.3
+    },
+    {
+      "display_name": "Oranguru",
+      "url": "pokemon/oranguru/",
+      "percent": 26.1
+    },
+    {
+      "display_name": "Sableye",
+      "url": "pokemon/sableye/",
+      "percent": 14.5
+    },
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": 14.1
+    },
+    {
+      "display_name": "Klefki",
+      "url": "pokemon/klefki/",
+      "percent": 10.8
+    },
+    {
+      "display_name": "Ninetales",
+      "url": "pokemon/ninetales/",
+      "percent": 8.2
+    },
+    {
+      "display_name": "Diggersby",
+      "url": "pokemon/diggersby/",
+      "percent": 3.8
+    },
+    {
+      "display_name": "Frost Rotom",
+      "url": "pokemon/frost-rotom/",
+      "percent": 2.4
+    },
+    {
+      "display_name": "Mega Houndoom",
+      "url": "pokemon/mega-houndoom/",
+      "percent": 2.3
+    },
+    {
+      "display_name": "Hisuian Zoroark",
+      "url": "pokemon/hisuian-zoroark/",
+      "percent": 2.1
+    },
+    {
+      "display_name": "Gourgeist",
+      "url": "pokemon/gourgeist/",
+      "percent": 1.7
+    },
+    {
+      "display_name": "Krookodile",
+      "url": "pokemon/krookodile/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Slowbro",
+      "url": "pokemon/slowbro/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Toxicroak",
+      "url": "pokemon/toxicroak/",
+      "percent": 1.1
+    },
+    {
+      "display_name": "Slowking",
+      "url": "pokemon/slowking/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Alakazam",
+      "url": "pokemon/alakazam/",
+      "percent": 0.4
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "slug": "whirlwind",
+  "display_name": "Whirlwind",
+  "description": "If there are other Pokémon in the target's party that can switch into battle the target is forced to switch out of battle and is replaced by one of those Pokémon at random.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Skarmory",
+      "url": "pokemon/skarmory/",
+      "percent": 18.7
+    },
+    {
+      "display_name": "Hippowdon",
+      "url": "pokemon/hippowdon/",
+      "percent": 5.1
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": 2.0
+    },
+    {
+      "display_name": "Noivern",
+      "url": "pokemon/noivern/",
+      "percent": 1.1
+    },
+    {
+      "display_name": "Volcarona",
+      "url": "pokemon/volcarona/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Dragonite",
+      "url": "pokemon/dragonite/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Mega Pidgeot",
+      "url": "pokemon/mega-pidgeot/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Mega Aerodactyl",
+      "url": "pokemon/mega-aerodactyl/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Talonflame",
+      "url": "pokemon/talonflame/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Mega Drampa",
+      "url": "pokemon/mega-drampa/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Aerodactyl",
+      "url": "pokemon/aerodactyl/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Skarmory",
+      "url": "pokemon/mega-skarmory/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Vivillon",
+      "url": "pokemon/vivillon/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Dragonite",
+      "url": "pokemon/mega-dragonite/",
+      "percent": null
+    },
+    {
+      "display_name": "Pidgeot",
+      "url": "pokemon/pidgeot/",
+      "percent": null
+    },
+    {
+      "display_name": "Rampardos",
+      "url": "pokemon/rampardos/",
+      "percent": null
+    },
+    {
+      "display_name": "Snorlax",
+      "url": "pokemon/snorlax/",
+      "percent": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "bitter-malice",
+  "display_name": "Bitter Malice",
+  "description": "Lowers the target's Attack stat by 1 stage.",
+  "type": "ghost",
+  "power": 75.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hisuian Zoroark",
+      "url": "pokemon/hisuian-zoroark/",
+      "percent": 28.4
+    }
+  ]
+}

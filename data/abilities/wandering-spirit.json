@@ -1,0 +1,20 @@
+{
+  "slug": "wandering-spirit",
+  "display_name": "Wandering Spirit",
+  "description": "swaps abilities with opponents on contact.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Runerigus",
+      "url": "pokemon/runerigus/",
+      "percent": 100.0
+    }
+  ]
+}

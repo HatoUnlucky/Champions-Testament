@@ -1,0 +1,20 @@
+{
+  "slug": "quick-draw",
+  "display_name": "Quick Draw",
+  "description": "enables the pokémon to move first occasionally.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Galarian Slowbro",
+      "url": "pokemon/galarian-slowbro/",
+      "percent": 83.0
+    }
+  ]
+}

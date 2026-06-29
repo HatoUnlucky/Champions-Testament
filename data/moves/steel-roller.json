@@ -1,0 +1,80 @@
+{
+  "slug": "steel-roller",
+  "display_name": "Steel Roller",
+  "description": "Removes any terrain. This move fails if there is no terrain on the field.",
+  "type": "steel",
+  "power": 130.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Mega Aggron",
+      "url": "pokemon/mega-aggron/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Steelix",
+      "url": "pokemon/steelix/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Azumarill",
+      "url": "pokemon/azumarill/",
+      "percent": null
+    },
+    {
+      "display_name": "Chesnaught",
+      "url": "pokemon/chesnaught/",
+      "percent": null
+    },
+    {
+      "display_name": "Forretress",
+      "url": "pokemon/forretress/",
+      "percent": null
+    },
+    {
+      "display_name": "Glalie",
+      "url": "pokemon/glalie/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Chesnaught",
+      "url": "pokemon/mega-chesnaught/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Glalie",
+      "url": "pokemon/mega-glalie/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Steelix",
+      "url": "pokemon/mega-steelix/",
+      "percent": null
+    },
+    {
+      "display_name": "Reuniclus",
+      "url": "pokemon/reuniclus/",
+      "percent": null
+    },
+    {
+      "display_name": "Snorlax",
+      "url": "pokemon/snorlax/",
+      "percent": null
+    }
+  ]
+}

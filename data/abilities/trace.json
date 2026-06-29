@@ -1,0 +1,30 @@
+{
+  "slug": "trace",
+  "display_name": "Trace",
+  "description": "copies an opponent's ability upon entering battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Alakazam",
+      "url": "pokemon/mega-alakazam/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Meowstic (Female)",
+      "url": "pokemon/meowstic-female/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Gardevoir",
+      "url": "pokemon/gardevoir/",
+      "percent": 18.0
+    }
+  ]
+}

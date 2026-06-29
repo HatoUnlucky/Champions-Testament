@@ -1,0 +1,20 @@
+{
+  "slug": "unseen-fist",
+  "display_name": "Unseen Fist",
+  "description": "contact moves can strike through protect/detect.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Golurk",
+      "url": "pokemon/mega-golurk/",
+      "percent": 100.0
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "tailwind",
+  "display_name": "Tailwind",
+  "description": "Gives the user's side the Tailwind status for 4 turns.",
+  "type": "flying",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Whimsicott",
+      "url": "pokemon/whimsicott/",
+      "percent": 99.4
+    },
+    {
+      "display_name": "Aerodactyl",
+      "url": "pokemon/aerodactyl/",
+      "percent": 98.5
+    },
+    {
+      "display_name": "Talonflame",
+      "url": "pokemon/talonflame/",
+      "percent": 97.1
+    },
+    {
+      "display_name": "Noivern",
+      "url": "pokemon/noivern/",
+      "percent": 96.7
+    },
+    {
+      "display_name": "Mega Aerodactyl",
+      "url": "pokemon/mega-aerodactyl/",
+      "percent": 88.5
+    },
+    {
+      "display_name": "Mega Pidgeot",
+      "url": "pokemon/mega-pidgeot/",
+      "percent": 84.5
+    },
+    {
+      "display_name": "Pelipper",
+      "url": "pokemon/pelipper/",
+      "percent": 83.3
+    },
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": 76.3
+    },
+    {
+      "display_name": "Corviknight",
+      "url": "pokemon/corviknight/",
+      "percent": 75.6
+    },
+    {
+      "display_name": "Mega Dragonite",
+      "url": "pokemon/mega-dragonite/",
+      "percent": 66.6
+    },
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": 66.5
+    },
+    {
+      "display_name": "Mega Skarmory",
+      "url": "pokemon/mega-skarmory/",
+      "percent": 52.5
+    },
+    {
+      "display_name": "Vivillon",
+      "url": "pokemon/vivillon/",
+      "percent": 50.4
+    },
+    {
+      "display_name": "Mega Altaria",
+      "url": "pokemon/mega-altaria/",
+      "percent": 42.9
+    },
+    {
+      "display_name": "Dragonite",
+      "url": "pokemon/dragonite/",
+      "percent": 42.5
+    },
+    {
+      "display_name": "Volcarona",
+      "url": "pokemon/volcarona/",
+      "percent": 30.8
+    },
+    {
+      "display_name": "Skarmory",
+      "url": "pokemon/skarmory/",
+      "percent": 28.3
+    },
+    {
+      "display_name": "Kleavor",
+      "url": "pokemon/kleavor/",
+      "percent": 20.2
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": 17.2
+    },
+    {
+      "display_name": "Hisuian Decidueye",
+      "url": "pokemon/hisuian-decidueye/",
+      "percent": 13.7
+    }
+  ]
+}

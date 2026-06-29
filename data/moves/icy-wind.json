@@ -1,0 +1,115 @@
+{
+  "slug": "icy-wind",
+  "display_name": "Icy Wind",
+  "description": "Lowers targets' Speed stats by 1 stage.",
+  "type": "ice",
+  "power": 55.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Vanilluxe",
+      "url": "pokemon/vanilluxe/",
+      "percent": 64.7
+    },
+    {
+      "display_name": "Milotic",
+      "url": "pokemon/milotic/",
+      "percent": 53.7
+    },
+    {
+      "display_name": "Hisuian Zoroark",
+      "url": "pokemon/hisuian-zoroark/",
+      "percent": 51.9
+    },
+    {
+      "display_name": "Gardevoir",
+      "url": "pokemon/gardevoir/",
+      "percent": 46.9
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 41.6
+    },
+    {
+      "display_name": "Simipour",
+      "url": "pokemon/simipour/",
+      "percent": 40.9
+    },
+    {
+      "display_name": "Alolan Ninetales",
+      "url": "pokemon/alolan-ninetales/",
+      "percent": 37.2
+    },
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": 34.9
+    },
+    {
+      "display_name": "Empoleon",
+      "url": "pokemon/empoleon/",
+      "percent": 25.6
+    },
+    {
+      "display_name": "Gengar",
+      "url": "pokemon/gengar/",
+      "percent": 25.3
+    },
+    {
+      "display_name": "Vaporeon",
+      "url": "pokemon/vaporeon/",
+      "percent": 17.1
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": 14.1
+    },
+    {
+      "display_name": "Froslass",
+      "url": "pokemon/froslass/",
+      "percent": 13.1
+    },
+    {
+      "display_name": "Politoed",
+      "url": "pokemon/politoed/",
+      "percent": 11.9
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": 10.1
+    },
+    {
+      "display_name": "Greninja",
+      "url": "pokemon/greninja/",
+      "percent": 8.9
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": 8.8
+    },
+    {
+      "display_name": "Beartic",
+      "url": "pokemon/beartic/",
+      "percent": 8.5
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 8.1
+    },
+    {
+      "display_name": "Toxapex",
+      "url": "pokemon/toxapex/",
+      "percent": 7.0
+    }
+  ]
+}

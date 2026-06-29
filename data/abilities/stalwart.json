@@ -1,0 +1,25 @@
+{
+  "slug": "stalwart",
+  "display_name": "Stalwart",
+  "description": "ignores moves and abilities that draw in moves.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Skarmory",
+      "url": "pokemon/mega-skarmory/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Archaludon",
+      "url": "pokemon/archaludon/",
+      "percent": 1.6
+    }
+  ]
+}

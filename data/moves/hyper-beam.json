@@ -1,0 +1,115 @@
+{
+  "slug": "hyper-beam",
+  "display_name": "Hyper Beam",
+  "description": "The user gains the Recharging status on the turn after this move is used.",
+  "type": "normal",
+  "power": 150.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Sylveon",
+      "url": "pokemon/sylveon/",
+      "percent": 48.6
+    },
+    {
+      "display_name": "Mega Pidgeot",
+      "url": "pokemon/mega-pidgeot/",
+      "percent": 5.2
+    },
+    {
+      "display_name": "Aurorus",
+      "url": "pokemon/aurorus/",
+      "percent": 3.3
+    },
+    {
+      "display_name": "Hisuian Zoroark",
+      "url": "pokemon/hisuian-zoroark/",
+      "percent": 2.2
+    },
+    {
+      "display_name": "Mega Gardevoir",
+      "url": "pokemon/mega-gardevoir/",
+      "percent": 1.9
+    },
+    {
+      "display_name": "Mega Altaria",
+      "url": "pokemon/mega-altaria/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Heliolisk",
+      "url": "pokemon/heliolisk/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Mega Drampa",
+      "url": "pokemon/mega-drampa/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Serperior",
+      "url": "pokemon/serperior/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Mega Audino",
+      "url": "pokemon/mega-audino/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Mega Floette",
+      "url": "pokemon/mega-floette/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Meowstic (Female)",
+      "url": "pokemon/meowstic-female/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Polteageist",
+      "url": "pokemon/polteageist/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Vanilluxe",
+      "url": "pokemon/vanilluxe/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Watchog",
+      "url": "pokemon/watchog/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Abomasnow",
+      "url": "pokemon/abomasnow/",
+      "percent": null
+    },
+    {
+      "display_name": "Absol",
+      "url": "pokemon/absol/",
+      "percent": null
+    },
+    {
+      "display_name": "Aegislash",
+      "url": "pokemon/aegislash/",
+      "percent": null
+    },
+    {
+      "display_name": "Aerodactyl",
+      "url": "pokemon/aerodactyl/",
+      "percent": null
+    }
+  ]
+}

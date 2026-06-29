@@ -1,0 +1,115 @@
+{
+  "slug": "screech",
+  "display_name": "Screech",
+  "description": "Lowers the target's Defense stat by 2 stages.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Liepard",
+      "url": "pokemon/liepard/",
+      "percent": 3.5
+    },
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Noivern",
+      "url": "pokemon/noivern/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Mega Banette",
+      "url": "pokemon/mega-banette/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Garbodor",
+      "url": "pokemon/garbodor/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Steelix",
+      "url": "pokemon/mega-steelix/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Aegislash",
+      "url": "pokemon/aegislash/",
+      "percent": null
+    },
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": null
+    },
+    {
+      "display_name": "Ampharos",
+      "url": "pokemon/ampharos/",
+      "percent": null
+    },
+    {
+      "display_name": "Banette",
+      "url": "pokemon/banette/",
+      "percent": null
+    },
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": null
+    },
+    {
+      "display_name": "Beedrill",
+      "url": "pokemon/beedrill/",
+      "percent": null
+    },
+    {
+      "display_name": "Chimecho",
+      "url": "pokemon/chimecho/",
+      "percent": null
+    },
+    {
+      "display_name": "Corviknight",
+      "url": "pokemon/corviknight/",
+      "percent": null
+    },
+    {
+      "display_name": "Feraligatr",
+      "url": "pokemon/feraligatr/",
+      "percent": null
+    },
+    {
+      "display_name": "Galarian Stunfisk",
+      "url": "pokemon/galarian-stunfisk/",
+      "percent": null
+    },
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": null
+    },
+    {
+      "display_name": "Hisuian Samurott",
+      "url": "pokemon/hisuian-samurott/",
+      "percent": null
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "sticky-hold",
+  "display_name": "Sticky Hold",
+  "description": "prevents a held item from being removed by other pokémon.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hydrapple",
+      "url": "pokemon/hydrapple/",
+      "percent": 1.1
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "soft-boiled",
+  "display_name": "Soft-Boiled",
+  "description": "Restores 1/2 of the user's max HP.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Clefable",
+      "url": "pokemon/mega-clefable/",
+      "percent": null
+    }
+  ]
+}

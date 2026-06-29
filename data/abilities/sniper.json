@@ -1,0 +1,25 @@
+{
+  "slug": "sniper",
+  "display_name": "Sniper",
+  "description": "strengthens critical hits to inflict 3× damage rather than 2×.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Beedrill",
+      "url": "pokemon/beedrill/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": 0.7
+    }
+  ]
+}

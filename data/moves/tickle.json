@@ -1,0 +1,115 @@
+{
+  "slug": "tickle",
+  "display_name": "Tickle",
+  "description": "Lowers the target's Attack and Defense stats by 1 stage.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Emolga",
+      "url": "pokemon/emolga/",
+      "percent": 15.3
+    },
+    {
+      "display_name": "Whimsicott",
+      "url": "pokemon/whimsicott/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Azumarill",
+      "url": "pokemon/azumarill/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Alolan Raichu",
+      "url": "pokemon/alolan-raichu/",
+      "percent": null
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": null
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": null
+    },
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": null
+    },
+    {
+      "display_name": "Flareon",
+      "url": "pokemon/flareon/",
+      "percent": null
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": null
+    },
+    {
+      "display_name": "Jolteon",
+      "url": "pokemon/jolteon/",
+      "percent": null
+    },
+    {
+      "display_name": "Leafeon",
+      "url": "pokemon/leafeon/",
+      "percent": null
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": null
+    },
+    {
+      "display_name": "Maushold",
+      "url": "pokemon/maushold/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Clefable",
+      "url": "pokemon/mega-clefable/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Drampa",
+      "url": "pokemon/mega-drampa/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Victreebel",
+      "url": "pokemon/mega-victreebel/",
+      "percent": null
+    },
+    {
+      "display_name": "Meowstic (Female)",
+      "url": "pokemon/meowstic-female/",
+      "percent": null
+    },
+    {
+      "display_name": "Meowstic (Male)",
+      "url": "pokemon/meowstic-male/",
+      "percent": null
+    },
+    {
+      "display_name": "Milotic",
+      "url": "pokemon/milotic/",
+      "percent": null
+    },
+    {
+      "display_name": "Morpeko",
+      "url": "pokemon/morpeko/",
+      "percent": null
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "sand-rush",
+  "display_name": "Sand Rush",
+  "description": "doubles speed during a sandstorm.  protects against sandstorm damage.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Lycanroc (Midday)",
+      "url": "pokemon/lycanroc-midday/",
+      "percent": 99.5
+    },
+    {
+      "display_name": "Excadrill",
+      "url": "pokemon/excadrill/",
+      "percent": 92.9
+    }
+  ]
+}

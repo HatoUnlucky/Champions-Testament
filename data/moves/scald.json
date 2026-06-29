@@ -1,0 +1,115 @@
+{
+  "slug": "scald",
+  "display_name": "Scald",
+  "description": "Has a 30% chance of burning the target. Cures the user and target of being frozen.",
+  "type": "water",
+  "power": 80.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Starmie",
+      "url": "pokemon/starmie/",
+      "percent": 82.5
+    },
+    {
+      "display_name": "Milotic",
+      "url": "pokemon/milotic/",
+      "percent": 71.5
+    },
+    {
+      "display_name": "Simipour",
+      "url": "pokemon/simipour/",
+      "percent": 65.9
+    },
+    {
+      "display_name": "Vaporeon",
+      "url": "pokemon/vaporeon/",
+      "percent": 63.5
+    },
+    {
+      "display_name": "Slowking",
+      "url": "pokemon/slowking/",
+      "percent": 39.9
+    },
+    {
+      "display_name": "Mega Slowbro",
+      "url": "pokemon/mega-slowbro/",
+      "percent": 39.5
+    },
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 33.5
+    },
+    {
+      "display_name": "Slowbro",
+      "url": "pokemon/slowbro/",
+      "percent": 30.3
+    },
+    {
+      "display_name": "Stunfisk",
+      "url": "pokemon/stunfisk/",
+      "percent": 9.3
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Gyarados",
+      "url": "pokemon/gyarados/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Sharpedo",
+      "url": "pokemon/sharpedo/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Mega Starmie",
+      "url": "pokemon/mega-starmie/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Sinistcha",
+      "url": "pokemon/sinistcha/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Mega Emboar",
+      "url": "pokemon/mega-emboar/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Emboar",
+      "url": "pokemon/emboar/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": null
+    },
+    {
+      "display_name": "Azumarill",
+      "url": "pokemon/azumarill/",
+      "percent": null
+    },
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": null
+    },
+    {
+      "display_name": "Clawitzer",
+      "url": "pokemon/clawitzer/",
+      "percent": null
+    }
+  ]
+}

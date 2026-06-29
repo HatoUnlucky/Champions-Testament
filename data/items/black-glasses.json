@@ -1,0 +1,115 @@
+{
+  "slug": "black-glasses",
+  "display_name": "Black Glasses",
+  "description": "A hold item that raises the power of DARK-type moves.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Held Item/black-glasses_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Houndoom",
+      "url": "pokemon/houndoom/",
+      "percent": 79.0
+    },
+    {
+      "display_name": "Kingambit",
+      "url": "pokemon/kingambit/",
+      "percent": 25.4
+    },
+    {
+      "display_name": "Hisuian Samurott",
+      "url": "pokemon/hisuian-samurott/",
+      "percent": 25.0
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 5.7
+    },
+    {
+      "display_name": "Pangoro",
+      "url": "pokemon/pangoro/",
+      "percent": 5.1
+    },
+    {
+      "display_name": "Liepard",
+      "url": "pokemon/liepard/",
+      "percent": 3.5
+    },
+    {
+      "display_name": "Clawitzer",
+      "url": "pokemon/clawitzer/",
+      "percent": 3.0
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": 2.2
+    },
+    {
+      "display_name": "Krookodile",
+      "url": "pokemon/krookodile/",
+      "percent": 2.0
+    },
+    {
+      "display_name": "Gourgeist",
+      "url": "pokemon/gourgeist/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Sharpedo",
+      "url": "pokemon/sharpedo/",
+      "percent": 1.1
+    },
+    {
+      "display_name": "Umbreon",
+      "url": "pokemon/umbreon/",
+      "percent": 1.1
+    },
+    {
+      "display_name": "Conkeldurr",
+      "url": "pokemon/conkeldurr/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Incineroar",
+      "url": "pokemon/incineroar/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Meowscarada",
+      "url": "pokemon/meowscarada/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Morpeko",
+      "url": "pokemon/morpeko/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Spiritomb",
+      "url": "pokemon/spiritomb/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Palafin",
+      "url": "pokemon/palafin/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Weavile",
+      "url": "pokemon/weavile/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": 0.2
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "scale-shot",
+  "display_name": "Scale Shot",
+  "description": "The user attacks 2 to 5 times in a row. This move lowers the user's Defense stat by 1 stage and boosts its Speed stat by 1 stage.",
+  "type": "dragon",
+  "power": 25.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Garchomp",
+      "url": "pokemon/mega-garchomp/",
+      "percent": 14.5
+    },
+    {
+      "display_name": "Garchomp",
+      "url": "pokemon/garchomp/",
+      "percent": 9.6
+    },
+    {
+      "display_name": "Dragonite",
+      "url": "pokemon/dragonite/",
+      "percent": 6.3
+    },
+    {
+      "display_name": "Tyrantrum",
+      "url": "pokemon/tyrantrum/",
+      "percent": 1.8
+    },
+    {
+      "display_name": "Gyarados",
+      "url": "pokemon/gyarados/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Mega Gyarados",
+      "url": "pokemon/mega-gyarados/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Serperior",
+      "url": "pokemon/serperior/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Krookodile",
+      "url": "pokemon/krookodile/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Mega Charizard X",
+      "url": "pokemon/mega-charizard-x/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Basculegion Male",
+      "url": "pokemon/basculegion-male/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Sharpedo",
+      "url": "pokemon/mega-sharpedo/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Sandaconda",
+      "url": "pokemon/sandaconda/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": null
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": null
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": null
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": null
+    },
+    {
+      "display_name": "Feraligatr",
+      "url": "pokemon/feraligatr/",
+      "percent": null
+    },
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": null
+    },
+    {
+      "display_name": "Heliolisk",
+      "url": "pokemon/heliolisk/",
+      "percent": null
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": null
+    }
+  ]
+}

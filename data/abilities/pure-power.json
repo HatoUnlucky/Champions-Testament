@@ -1,0 +1,25 @@
+{
+  "slug": "pure-power",
+  "display_name": "Pure Power",
+  "description": "doubles attack in battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Medicham",
+      "url": "pokemon/mega-medicham/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Medicham",
+      "url": "pokemon/medicham/",
+      "percent": 77.7
+    }
+  ]
+}

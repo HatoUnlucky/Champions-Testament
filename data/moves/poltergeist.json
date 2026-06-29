@@ -1,0 +1,115 @@
+{
+  "slug": "poltergeist",
+  "display_name": "Poltergeist",
+  "description": "This move fails if the target isn't holding an item.",
+  "type": "ghost",
+  "power": 110.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Gourgeist",
+      "url": "pokemon/gourgeist/",
+      "percent": 96.4
+    },
+    {
+      "display_name": "Mega Banette",
+      "url": "pokemon/mega-banette/",
+      "percent": 94.9
+    },
+    {
+      "display_name": "Golurk",
+      "url": "pokemon/golurk/",
+      "percent": 94.3
+    },
+    {
+      "display_name": "Mega Golurk",
+      "url": "pokemon/mega-golurk/",
+      "percent": 89.9
+    },
+    {
+      "display_name": "Aegislash",
+      "url": "pokemon/aegislash/",
+      "percent": 88.7
+    },
+    {
+      "display_name": "Runerigus",
+      "url": "pokemon/runerigus/",
+      "percent": 68.3
+    },
+    {
+      "display_name": "Trevenant",
+      "url": "pokemon/trevenant/",
+      "percent": 45.5
+    },
+    {
+      "display_name": "Ceruledge",
+      "url": "pokemon/ceruledge/",
+      "percent": 43.2
+    },
+    {
+      "display_name": "Decidueye",
+      "url": "pokemon/decidueye/",
+      "percent": 28.7
+    },
+    {
+      "display_name": "Spiritomb",
+      "url": "pokemon/spiritomb/",
+      "percent": 19.1
+    },
+    {
+      "display_name": "Froslass",
+      "url": "pokemon/froslass/",
+      "percent": 18.5
+    },
+    {
+      "display_name": "Mega Sableye",
+      "url": "pokemon/mega-sableye/",
+      "percent": 7.0
+    },
+    {
+      "display_name": "Cofagrigus",
+      "url": "pokemon/cofagrigus/",
+      "percent": 2.0
+    },
+    {
+      "display_name": "Hisuian Zoroark",
+      "url": "pokemon/hisuian-zoroark/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Skeledirge",
+      "url": "pokemon/skeledirge/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Polteageist",
+      "url": "pokemon/polteageist/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Mow Rotom",
+      "url": "pokemon/mow-rotom/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Hisuian Typhlosion",
+      "url": "pokemon/hisuian-typhlosion/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Mega Froslass",
+      "url": "pokemon/mega-froslass/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Wash Rotom",
+      "url": "pokemon/wash-rotom/",
+      "percent": 0.1
+    }
+  ]
+}

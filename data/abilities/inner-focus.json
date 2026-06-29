@@ -1,0 +1,60 @@
+{
+  "slug": "inner-focus",
+  "display_name": "Inner Focus",
+  "description": "prevents flinching.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Gallade",
+      "url": "pokemon/mega-gallade/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Umbreon",
+      "url": "pokemon/umbreon/",
+      "percent": 98.6
+    },
+    {
+      "display_name": "Lucario",
+      "url": "pokemon/lucario/",
+      "percent": 96.8
+    },
+    {
+      "display_name": "Oranguru",
+      "url": "pokemon/oranguru/",
+      "percent": 79.7
+    },
+    {
+      "display_name": "Alakazam",
+      "url": "pokemon/alakazam/",
+      "percent": 77.4
+    },
+    {
+      "display_name": "Mudsdale",
+      "url": "pokemon/mudsdale/",
+      "percent": 58.8
+    },
+    {
+      "display_name": "Dragonite",
+      "url": "pokemon/dragonite/",
+      "percent": 10.1
+    },
+    {
+      "display_name": "Kangaskhan",
+      "url": "pokemon/kangaskhan/",
+      "percent": 2.1
+    },
+    {
+      "display_name": "Glalie",
+      "url": "pokemon/glalie/",
+      "percent": 0.0
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "feint",
+  "display_name": "Feint",
+  "description": "This move can hit a target using a move such as Protect or Detect and removes the effects of those moves.",
+  "type": "normal",
+  "power": 30.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Pinsir",
+      "url": "pokemon/mega-pinsir/",
+      "percent": 45.1
+    },
+    {
+      "display_name": "Maushold",
+      "url": "pokemon/maushold/",
+      "percent": 41.9
+    },
+    {
+      "display_name": "Kleavor",
+      "url": "pokemon/kleavor/",
+      "percent": 29.3
+    },
+    {
+      "display_name": "Medicham",
+      "url": "pokemon/medicham/",
+      "percent": 20.1
+    },
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": 18.3
+    },
+    {
+      "display_name": "Scizor",
+      "url": "pokemon/scizor/",
+      "percent": 17.2
+    },
+    {
+      "display_name": "Tinkaton",
+      "url": "pokemon/tinkaton/",
+      "percent": 11.8
+    },
+    {
+      "display_name": "Raichu",
+      "url": "pokemon/raichu/",
+      "percent": 9.9
+    },
+    {
+      "display_name": "Hisuian Goodra",
+      "url": "pokemon/hisuian-goodra/",
+      "percent": 7.6
+    },
+    {
+      "display_name": "Pikachu",
+      "url": "pokemon/pikachu/",
+      "percent": 6.6
+    },
+    {
+      "display_name": "Passimian",
+      "url": "pokemon/passimian/",
+      "percent": 6.3
+    },
+    {
+      "display_name": "Mega Heracross",
+      "url": "pokemon/mega-heracross/",
+      "percent": 6.2
+    },
+    {
+      "display_name": "Sneasler",
+      "url": "pokemon/sneasler/",
+      "percent": 5.4
+    },
+    {
+      "display_name": "Talonflame",
+      "url": "pokemon/talonflame/",
+      "percent": 3.1
+    },
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 2.9
+    },
+    {
+      "display_name": "Toxicroak",
+      "url": "pokemon/toxicroak/",
+      "percent": 2.8
+    },
+    {
+      "display_name": "Weavile",
+      "url": "pokemon/weavile/",
+      "percent": 2.8
+    },
+    {
+      "display_name": "Mega Sableye",
+      "url": "pokemon/mega-sableye/",
+      "percent": 2.0
+    },
+    {
+      "display_name": "Lucario",
+      "url": "pokemon/lucario/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Mega Gallade",
+      "url": "pokemon/mega-gallade/",
+      "percent": 1.3
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "light-of-ruin",
+  "display_name": "Light of Ruin",
+  "description": "The user takes 1/2 of the damage dealt by this move.",
+  "type": "fairy",
+  "power": 140.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Floette (Eternal)",
+      "url": "pokemon/floette-eternal/",
+      "percent": 92.3
+    },
+    {
+      "display_name": "Mega Floette",
+      "url": "pokemon/mega-floette/",
+      "percent": 52.3
+    }
+  ]
+}

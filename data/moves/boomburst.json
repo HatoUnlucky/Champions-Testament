@@ -1,0 +1,45 @@
+{
+  "slug": "boomburst",
+  "display_name": "Boomburst",
+  "description": "Inflicts regular damage.",
+  "type": "normal",
+  "power": 140.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Chimecho",
+      "url": "pokemon/mega-chimecho/",
+      "percent": 19.2
+    },
+    {
+      "display_name": "Noivern",
+      "url": "pokemon/noivern/",
+      "percent": 11.2
+    },
+    {
+      "display_name": "Chimecho",
+      "url": "pokemon/chimecho/",
+      "percent": 9.5
+    },
+    {
+      "display_name": "Toucannon",
+      "url": "pokemon/toucannon/",
+      "percent": 1.3
+    },
+    {
+      "display_name": "Kommo-o",
+      "url": "pokemon/kommo-o/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Palafin",
+      "url": "pokemon/palafin/",
+      "percent": null
+    }
+  ]
+}

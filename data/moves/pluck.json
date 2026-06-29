@@ -1,0 +1,80 @@
+{
+  "slug": "pluck",
+  "display_name": "Pluck",
+  "description": "If the target is holding a Berry the user eats that Berry and gains its effect.",
+  "type": "flying",
+  "power": 60.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Toucannon",
+      "url": "pokemon/toucannon/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": null
+    },
+    {
+      "display_name": "Corviknight",
+      "url": "pokemon/corviknight/",
+      "percent": null
+    },
+    {
+      "display_name": "Decidueye",
+      "url": "pokemon/decidueye/",
+      "percent": null
+    },
+    {
+      "display_name": "Empoleon",
+      "url": "pokemon/empoleon/",
+      "percent": null
+    },
+    {
+      "display_name": "Espathra",
+      "url": "pokemon/espathra/",
+      "percent": null
+    },
+    {
+      "display_name": "Hisuian Decidueye",
+      "url": "pokemon/hisuian-decidueye/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Altaria",
+      "url": "pokemon/mega-altaria/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Pidgeot",
+      "url": "pokemon/mega-pidgeot/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Skarmory",
+      "url": "pokemon/mega-skarmory/",
+      "percent": null
+    },
+    {
+      "display_name": "Pelipper",
+      "url": "pokemon/pelipper/",
+      "percent": null
+    },
+    {
+      "display_name": "Pidgeot",
+      "url": "pokemon/pidgeot/",
+      "percent": null
+    },
+    {
+      "display_name": "Skarmory",
+      "url": "pokemon/skarmory/",
+      "percent": null
+    }
+  ]
+}

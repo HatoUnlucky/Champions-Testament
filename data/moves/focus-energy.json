@@ -1,0 +1,115 @@
+{
+  "slug": "focus-energy",
+  "display_name": "Focus Energy",
+  "description": "The user gains a 2-stage Critical-Hit Ratio Boost.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Beedrill",
+      "url": "pokemon/beedrill/",
+      "percent": 15.0
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Quaquaval",
+      "url": "pokemon/quaquaval/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Archaludon",
+      "url": "pokemon/archaludon/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Absol",
+      "url": "pokemon/absol/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Flapple",
+      "url": "pokemon/flapple/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Kangaskhan",
+      "url": "pokemon/kangaskhan/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Beedrill",
+      "url": "pokemon/mega-beedrill/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Pinsir",
+      "url": "pokemon/mega-pinsir/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Passimian",
+      "url": "pokemon/passimian/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": null
+    },
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": null
+    },
+    {
+      "display_name": "Camerupt",
+      "url": "pokemon/camerupt/",
+      "percent": null
+    },
+    {
+      "display_name": "Conkeldurr",
+      "url": "pokemon/conkeldurr/",
+      "percent": null
+    },
+    {
+      "display_name": "Corviknight",
+      "url": "pokemon/corviknight/",
+      "percent": null
+    },
+    {
+      "display_name": "Emboar",
+      "url": "pokemon/emboar/",
+      "percent": null
+    },
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": null
+    },
+    {
+      "display_name": "Flareon",
+      "url": "pokemon/flareon/",
+      "percent": null
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": null
+    }
+  ]
+}

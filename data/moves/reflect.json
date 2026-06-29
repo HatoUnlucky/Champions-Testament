@@ -1,0 +1,115 @@
+{
+  "slug": "reflect",
+  "display_name": "Reflect",
+  "description": "Gives the user's side the Reflect status for 5 turns.",
+  "type": "psychic",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Klefki",
+      "url": "pokemon/klefki/",
+      "percent": 64.0
+    },
+    {
+      "display_name": "Sableye",
+      "url": "pokemon/sableye/",
+      "percent": 56.6
+    },
+    {
+      "display_name": "Meganium",
+      "url": "pokemon/meganium/",
+      "percent": 55.2
+    },
+    {
+      "display_name": "Meowstic (Male)",
+      "url": "pokemon/meowstic-male/",
+      "percent": 38.3
+    },
+    {
+      "display_name": "Mega Sableye",
+      "url": "pokemon/mega-sableye/",
+      "percent": 19.4
+    },
+    {
+      "display_name": "Alakazam",
+      "url": "pokemon/alakazam/",
+      "percent": 16.4
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 7.4
+    },
+    {
+      "display_name": "Serperior",
+      "url": "pokemon/serperior/",
+      "percent": 5.8
+    },
+    {
+      "display_name": "Reuniclus",
+      "url": "pokemon/reuniclus/",
+      "percent": 4.1
+    },
+    {
+      "display_name": "Fan Rotom",
+      "url": "pokemon/fan-rotom/",
+      "percent": 4.0
+    },
+    {
+      "display_name": "Appletun",
+      "url": "pokemon/appletun/",
+      "percent": 3.9
+    },
+    {
+      "display_name": "Wyrdeer",
+      "url": "pokemon/wyrdeer/",
+      "percent": 3.3
+    },
+    {
+      "display_name": "Medicham",
+      "url": "pokemon/medicham/",
+      "percent": 2.5
+    },
+    {
+      "display_name": "Golurk",
+      "url": "pokemon/golurk/",
+      "percent": 2.4
+    },
+    {
+      "display_name": "Oranguru",
+      "url": "pokemon/oranguru/",
+      "percent": 2.3
+    },
+    {
+      "display_name": "Slowking",
+      "url": "pokemon/slowking/",
+      "percent": 1.9
+    },
+    {
+      "display_name": "Ampharos",
+      "url": "pokemon/ampharos/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 1.1
+    },
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": 1.0
+    },
+    {
+      "display_name": "Espathra",
+      "url": "pokemon/espathra/",
+      "percent": 1.0
+    }
+  ]
+}

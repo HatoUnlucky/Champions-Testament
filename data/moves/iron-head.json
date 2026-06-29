@@ -1,0 +1,115 @@
+{
+  "slug": "iron-head",
+  "display_name": "Iron Head",
+  "description": "Has a 20% chance of making the target flinch.",
+  "type": "steel",
+  "power": 80.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Excadrill",
+      "url": "pokemon/excadrill/",
+      "percent": 98.7
+    },
+    {
+      "display_name": "Mega Skarmory",
+      "url": "pokemon/mega-skarmory/",
+      "percent": 98.4
+    },
+    {
+      "display_name": "Mega Excadrill",
+      "url": "pokemon/mega-excadrill/",
+      "percent": 98.1
+    },
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": 68.7
+    },
+    {
+      "display_name": "Kingambit",
+      "url": "pokemon/kingambit/",
+      "percent": 59.5
+    },
+    {
+      "display_name": "Corviknight",
+      "url": "pokemon/corviknight/",
+      "percent": 47.2
+    },
+    {
+      "display_name": "Aegislash",
+      "url": "pokemon/aegislash/",
+      "percent": 35.8
+    },
+    {
+      "display_name": "Skarmory",
+      "url": "pokemon/skarmory/",
+      "percent": 26.4
+    },
+    {
+      "display_name": "Orthworm",
+      "url": "pokemon/orthworm/",
+      "percent": 24.2
+    },
+    {
+      "display_name": "Rampardos",
+      "url": "pokemon/rampardos/",
+      "percent": 13.4
+    },
+    {
+      "display_name": "Steelix",
+      "url": "pokemon/steelix/",
+      "percent": 10.3
+    },
+    {
+      "display_name": "Lycanroc (Midday)",
+      "url": "pokemon/lycanroc-midday/",
+      "percent": 9.4
+    },
+    {
+      "display_name": "Hisuian Goodra",
+      "url": "pokemon/hisuian-goodra/",
+      "percent": 5.7
+    },
+    {
+      "display_name": "Glalie",
+      "url": "pokemon/glalie/",
+      "percent": 4.2
+    },
+    {
+      "display_name": "Mega Garchomp",
+      "url": "pokemon/mega-garchomp/",
+      "percent": 3.8
+    },
+    {
+      "display_name": "Mega Aggron",
+      "url": "pokemon/mega-aggron/",
+      "percent": 3.7
+    },
+    {
+      "display_name": "Passimian",
+      "url": "pokemon/passimian/",
+      "percent": 3.6
+    },
+    {
+      "display_name": "Forretress",
+      "url": "pokemon/forretress/",
+      "percent": 2.6
+    },
+    {
+      "display_name": "Pangoro",
+      "url": "pokemon/pangoro/",
+      "percent": 2.3
+    },
+    {
+      "display_name": "Gyarados",
+      "url": "pokemon/gyarados/",
+      "percent": 2.0
+    }
+  ]
+}

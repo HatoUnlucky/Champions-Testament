@@ -1,0 +1,20 @@
+{
+  "slug": "fiery-dance",
+  "display_name": "Fiery Dance",
+  "description": "Has a 50% chance of boosting the user's Sp. Atk stat by 1 stage.",
+  "type": "fire",
+  "power": 80.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Volcarona",
+      "url": "pokemon/volcarona/",
+      "percent": 11.8
+    }
+  ]
+}

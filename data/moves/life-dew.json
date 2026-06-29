@@ -1,0 +1,110 @@
+{
+  "slug": "life-dew",
+  "display_name": "Life Dew",
+  "description": "Restores 1/4 of the max HP of the user and its allies.",
+  "type": "water",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Audino",
+      "url": "pokemon/mega-audino/",
+      "percent": 91.4
+    },
+    {
+      "display_name": "Sinistcha",
+      "url": "pokemon/sinistcha/",
+      "percent": 57.5
+    },
+    {
+      "display_name": "Milotic",
+      "url": "pokemon/milotic/",
+      "percent": 29.1
+    },
+    {
+      "display_name": "Audino",
+      "url": "pokemon/audino/",
+      "percent": 26.4
+    },
+    {
+      "display_name": "Hisuian Goodra",
+      "url": "pokemon/hisuian-goodra/",
+      "percent": 25.5
+    },
+    {
+      "display_name": "Mega Clefable",
+      "url": "pokemon/mega-clefable/",
+      "percent": 19.1
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": 16.7
+    },
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": 9.6
+    },
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 3.3
+    },
+    {
+      "display_name": "Roserade",
+      "url": "pokemon/roserade/",
+      "percent": 3.1
+    },
+    {
+      "display_name": "Hatterene",
+      "url": "pokemon/hatterene/",
+      "percent": 2.2
+    },
+    {
+      "display_name": "Primarina",
+      "url": "pokemon/primarina/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Lucario",
+      "url": "pokemon/lucario/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Gallade",
+      "url": "pokemon/gallade/",
+      "percent": null
+    },
+    {
+      "display_name": "Gardevoir",
+      "url": "pokemon/gardevoir/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Blastoise",
+      "url": "pokemon/mega-blastoise/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Gallade",
+      "url": "pokemon/mega-gallade/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Gardevoir",
+      "url": "pokemon/mega-gardevoir/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Lucario",
+      "url": "pokemon/mega-lucario/",
+      "percent": null
+    }
+  ]
+}

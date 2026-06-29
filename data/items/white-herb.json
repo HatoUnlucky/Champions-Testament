@@ -1,0 +1,115 @@
+{
+  "slug": "white-herb",
+  "display_name": "White Herb",
+  "description": "A hold item that restores any lowered stat.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Held Item/white-herb_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Polteageist",
+      "url": "pokemon/polteageist/",
+      "percent": 92.7
+    },
+    {
+      "display_name": "Hawlucha",
+      "url": "pokemon/hawlucha/",
+      "percent": 79.0
+    },
+    {
+      "display_name": "Flareon",
+      "url": "pokemon/flareon/",
+      "percent": 78.3
+    },
+    {
+      "display_name": "Sneasler",
+      "url": "pokemon/sneasler/",
+      "percent": 70.6
+    },
+    {
+      "display_name": "Torterra",
+      "url": "pokemon/torterra/",
+      "percent": 59.9
+    },
+    {
+      "display_name": "Quaquaval",
+      "url": "pokemon/quaquaval/",
+      "percent": 33.3
+    },
+    {
+      "display_name": "Mimikyu",
+      "url": "pokemon/mimikyu/",
+      "percent": 31.0
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": 27.8
+    },
+    {
+      "display_name": "Medicham",
+      "url": "pokemon/medicham/",
+      "percent": 20.3
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": 13.8
+    },
+    {
+      "display_name": "Golurk",
+      "url": "pokemon/golurk/",
+      "percent": 13.6
+    },
+    {
+      "display_name": "Rhyperior",
+      "url": "pokemon/rhyperior/",
+      "percent": 12.7
+    },
+    {
+      "display_name": "Kleavor",
+      "url": "pokemon/kleavor/",
+      "percent": 12.3
+    },
+    {
+      "display_name": "Toucannon",
+      "url": "pokemon/toucannon/",
+      "percent": 9.8
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 9.2
+    },
+    {
+      "display_name": "Houndoom",
+      "url": "pokemon/houndoom/",
+      "percent": 8.8
+    },
+    {
+      "display_name": "Conkeldurr",
+      "url": "pokemon/conkeldurr/",
+      "percent": 8.7
+    },
+    {
+      "display_name": "Flapple",
+      "url": "pokemon/flapple/",
+      "percent": 8.7
+    },
+    {
+      "display_name": "Passimian",
+      "url": "pokemon/passimian/",
+      "percent": 8.6
+    },
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": 8.2
+    }
+  ]
+}

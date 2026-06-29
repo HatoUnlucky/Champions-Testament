@@ -1,0 +1,115 @@
+{
+  "slug": "thunder-fang",
+  "display_name": "Thunder Fang",
+  "description": "Has a 10% chance of paralyzing the target and a 10% chance of making the target flinch.",
+  "type": "electric",
+  "power": 65.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Tyrantrum",
+      "url": "pokemon/tyrantrum/",
+      "percent": 2.3
+    },
+    {
+      "display_name": "Luxray",
+      "url": "pokemon/luxray/",
+      "percent": 2.1
+    },
+    {
+      "display_name": "Jolteon",
+      "url": "pokemon/jolteon/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Hippowdon",
+      "url": "pokemon/hippowdon/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Krookodile",
+      "url": "pokemon/krookodile/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Aerodactyl",
+      "url": "pokemon/aerodactyl/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Furfrou",
+      "url": "pokemon/furfrou/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Garchomp",
+      "url": "pokemon/garchomp/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Lycanroc (Dusk)",
+      "url": "pokemon/lycanroc-dusk/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Lycanroc (Midday)",
+      "url": "pokemon/lycanroc-midday/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Aerodactyl",
+      "url": "pokemon/mega-aerodactyl/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Houndoom",
+      "url": "pokemon/mega-houndoom/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Sandaconda",
+      "url": "pokemon/sandaconda/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": null
+    },
+    {
+      "display_name": "Arcanine",
+      "url": "pokemon/arcanine/",
+      "percent": null
+    },
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": null
+    },
+    {
+      "display_name": "Hisuian Arcanine",
+      "url": "pokemon/hisuian-arcanine/",
+      "percent": null
+    },
+    {
+      "display_name": "Houndoom",
+      "url": "pokemon/houndoom/",
+      "percent": null
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": null
+    },
+    {
+      "display_name": "Liepard",
+      "url": "pokemon/liepard/",
+      "percent": null
+    }
+  ]
+}

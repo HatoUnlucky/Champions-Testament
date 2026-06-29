@@ -1,0 +1,45 @@
+{
+  "slug": "storm-throw",
+  "display_name": "Storm Throw",
+  "description": "Always a critical hit.",
+  "type": "fighting",
+  "power": 60.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Pinsir",
+      "url": "pokemon/mega-pinsir/",
+      "percent": 27.4
+    },
+    {
+      "display_name": "Pangoro",
+      "url": "pokemon/pangoro/",
+      "percent": 9.5
+    },
+    {
+      "display_name": "Mega Emboar",
+      "url": "pokemon/mega-emboar/",
+      "percent": 4.5
+    },
+    {
+      "display_name": "Emboar",
+      "url": "pokemon/emboar/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Pinsir",
+      "url": "pokemon/pinsir/",
+      "percent": 0.0
+    }
+  ]
+}

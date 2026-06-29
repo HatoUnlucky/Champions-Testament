@@ -1,0 +1,115 @@
+{
+  "slug": "grass-knot",
+  "display_name": "Grass Knot",
+  "description": "The heavier the target the greater this move's power (ranging between 20 and 120).",
+  "type": "grass",
+  "power": null,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Scovillain",
+      "url": "pokemon/scovillain/",
+      "percent": 38.2
+    },
+    {
+      "display_name": "Dedenne",
+      "url": "pokemon/dedenne/",
+      "percent": 10.3
+    },
+    {
+      "display_name": "Empoleon",
+      "url": "pokemon/empoleon/",
+      "percent": 7.4
+    },
+    {
+      "display_name": "Mega Alakazam",
+      "url": "pokemon/mega-alakazam/",
+      "percent": 3.4
+    },
+    {
+      "display_name": "Venusaur",
+      "url": "pokemon/venusaur/",
+      "percent": 3.4
+    },
+    {
+      "display_name": "Slowbro",
+      "url": "pokemon/slowbro/",
+      "percent": 3.1
+    },
+    {
+      "display_name": "Raichu",
+      "url": "pokemon/raichu/",
+      "percent": 2.5
+    },
+    {
+      "display_name": "Mega Greninja",
+      "url": "pokemon/mega-greninja/",
+      "percent": 2.0
+    },
+    {
+      "display_name": "Mega Venusaur",
+      "url": "pokemon/mega-venusaur/",
+      "percent": 2.0
+    },
+    {
+      "display_name": "Greninja",
+      "url": "pokemon/greninja/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Mega Emboar",
+      "url": "pokemon/mega-emboar/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Roserade",
+      "url": "pokemon/roserade/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Alakazam",
+      "url": "pokemon/alakazam/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Infernape",
+      "url": "pokemon/infernape/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Alolan Raichu",
+      "url": "pokemon/alolan-raichu/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Hydrapple",
+      "url": "pokemon/hydrapple/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Pikachu",
+      "url": "pokemon/pikachu/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Slowking",
+      "url": "pokemon/slowking/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Mega Delphox",
+      "url": "pokemon/mega-delphox/",
+      "percent": 0.6
+    }
+  ]
+}

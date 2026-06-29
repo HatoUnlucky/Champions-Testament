@@ -1,0 +1,115 @@
+{
+  "slug": "hydro-pump",
+  "display_name": "Hydro Pump",
+  "description": "Inflicts regular damage with no additional effect.",
+  "type": "water",
+  "power": 110.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Wash Rotom",
+      "url": "pokemon/wash-rotom/",
+      "percent": 86.7
+    },
+    {
+      "display_name": "Empoleon",
+      "url": "pokemon/empoleon/",
+      "percent": 47.8
+    },
+    {
+      "display_name": "Greninja",
+      "url": "pokemon/greninja/",
+      "percent": 26.5
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": 18.6
+    },
+    {
+      "display_name": "Mega Greninja",
+      "url": "pokemon/mega-greninja/",
+      "percent": 10.9
+    },
+    {
+      "display_name": "Slowking",
+      "url": "pokemon/slowking/",
+      "percent": 5.7
+    },
+    {
+      "display_name": "Vaporeon",
+      "url": "pokemon/vaporeon/",
+      "percent": 5.5
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 5.1
+    },
+    {
+      "display_name": "Starmie",
+      "url": "pokemon/starmie/",
+      "percent": 3.2
+    },
+    {
+      "display_name": "Hydrapple",
+      "url": "pokemon/hydrapple/",
+      "percent": 2.5
+    },
+    {
+      "display_name": "Mega Slowbro",
+      "url": "pokemon/mega-slowbro/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Slowbro",
+      "url": "pokemon/slowbro/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Hisuian Goodra",
+      "url": "pokemon/hisuian-goodra/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Mega Starmie",
+      "url": "pokemon/mega-starmie/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Milotic",
+      "url": "pokemon/milotic/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Pelipper",
+      "url": "pokemon/pelipper/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Primarina",
+      "url": "pokemon/primarina/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Toxapex",
+      "url": "pokemon/toxapex/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 0.6
+    }
+  ]
+}

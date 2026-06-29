@@ -1,0 +1,20 @@
+{
+  "slug": "supreme-overlord",
+  "display_name": "Supreme Overlord",
+  "description": "attack and special attack are boosted for each party pokémon that has been defeated.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Kingambit",
+      "url": "pokemon/kingambit/",
+      "percent": 7.6
+    }
+  ]
+}

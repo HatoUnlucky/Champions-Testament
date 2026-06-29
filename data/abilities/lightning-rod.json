@@ -1,0 +1,35 @@
+{
+  "slug": "lightning-rod",
+  "display_name": "Lightning Rod",
+  "description": "redirects single-target electric moves to this pokémon where possible.  absorbs electric moves, raising special attack one stage.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Raichu",
+      "url": "pokemon/raichu/",
+      "percent": 97.2
+    },
+    {
+      "display_name": "Manectric",
+      "url": "pokemon/manectric/",
+      "percent": 96.5
+    },
+    {
+      "display_name": "Pikachu",
+      "url": "pokemon/pikachu/",
+      "percent": 84.2
+    },
+    {
+      "display_name": "Rhyperior",
+      "url": "pokemon/rhyperior/",
+      "percent": 17.1
+    }
+  ]
+}

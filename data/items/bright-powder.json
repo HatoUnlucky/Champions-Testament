@@ -1,0 +1,115 @@
+{
+  "slug": "bright-powder",
+  "display_name": "Bright Powder",
+  "description": "A hold item that casts a glare to reduce accuracy.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Held Item/bright-powder_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Garbodor",
+      "url": "pokemon/garbodor/",
+      "percent": 98.6
+    },
+    {
+      "display_name": "Sandaconda",
+      "url": "pokemon/sandaconda/",
+      "percent": 60.3
+    },
+    {
+      "display_name": "Stunfisk",
+      "url": "pokemon/stunfisk/",
+      "percent": 19.1
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": 16.9
+    },
+    {
+      "display_name": "Reuniclus",
+      "url": "pokemon/reuniclus/",
+      "percent": 16.3
+    },
+    {
+      "display_name": "Avalugg",
+      "url": "pokemon/avalugg/",
+      "percent": 14.7
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 12.1
+    },
+    {
+      "display_name": "Alolan Raichu",
+      "url": "pokemon/alolan-raichu/",
+      "percent": 10.6
+    },
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 7.7
+    },
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": 5.4
+    },
+    {
+      "display_name": "Toxapex",
+      "url": "pokemon/toxapex/",
+      "percent": 3.9
+    },
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": 3.7
+    },
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": 3.5
+    },
+    {
+      "display_name": "Liepard",
+      "url": "pokemon/liepard/",
+      "percent": 3.5
+    },
+    {
+      "display_name": "Froslass",
+      "url": "pokemon/froslass/",
+      "percent": 3.4
+    },
+    {
+      "display_name": "Spiritomb",
+      "url": "pokemon/spiritomb/",
+      "percent": 3.4
+    },
+    {
+      "display_name": "Emolga",
+      "url": "pokemon/emolga/",
+      "percent": 3.1
+    },
+    {
+      "display_name": "Ninetales",
+      "url": "pokemon/ninetales/",
+      "percent": 3.0
+    },
+    {
+      "display_name": "Simipour",
+      "url": "pokemon/simipour/",
+      "percent": 2.7
+    },
+    {
+      "display_name": "Ditto",
+      "url": "pokemon/ditto/",
+      "percent": 2.6
+    }
+  ]
+}

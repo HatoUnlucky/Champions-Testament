@@ -1,0 +1,115 @@
+{
+  "slug": "fling",
+  "display_name": "Fling",
+  "description": "This move's power and effects depend on the user's held item. The held item is lost after this move is used.",
+  "type": "dark",
+  "power": null,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Simisage",
+      "url": "pokemon/simisage/",
+      "percent": 42.7
+    },
+    {
+      "display_name": "Simipour",
+      "url": "pokemon/simipour/",
+      "percent": 10.0
+    },
+    {
+      "display_name": "Passimian",
+      "url": "pokemon/passimian/",
+      "percent": 2.7
+    },
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": 2.4
+    },
+    {
+      "display_name": "Weavile",
+      "url": "pokemon/weavile/",
+      "percent": 2.4
+    },
+    {
+      "display_name": "Tinkaton",
+      "url": "pokemon/tinkaton/",
+      "percent": 1.7
+    },
+    {
+      "display_name": "Hawlucha",
+      "url": "pokemon/hawlucha/",
+      "percent": 1.3
+    },
+    {
+      "display_name": "Kangaskhan",
+      "url": "pokemon/kangaskhan/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Raichu",
+      "url": "pokemon/raichu/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Simisear",
+      "url": "pokemon/simisear/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Tsareena",
+      "url": "pokemon/tsareena/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Gengar",
+      "url": "pokemon/gengar/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Sneasler",
+      "url": "pokemon/sneasler/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Meowscarada",
+      "url": "pokemon/meowscarada/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Palafin",
+      "url": "pokemon/palafin/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Ceruledge",
+      "url": "pokemon/ceruledge/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Dedenne",
+      "url": "pokemon/dedenne/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Garbodor",
+      "url": "pokemon/garbodor/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Watchog",
+      "url": "pokemon/watchog/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Abomasnow",
+      "url": "pokemon/abomasnow/",
+      "percent": null
+    }
+  ]
+}

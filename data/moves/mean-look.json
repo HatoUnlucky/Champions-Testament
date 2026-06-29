@@ -1,0 +1,115 @@
+{
+  "slug": "mean-look",
+  "display_name": "Mean Look",
+  "description": "Gives the target the Can't Escape status.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Serperior",
+      "url": "pokemon/serperior/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Umbreon",
+      "url": "pokemon/umbreon/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Absol",
+      "url": "pokemon/absol/",
+      "percent": null
+    },
+    {
+      "display_name": "Cofagrigus",
+      "url": "pokemon/cofagrigus/",
+      "percent": null
+    },
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": null
+    },
+    {
+      "display_name": "Gallade",
+      "url": "pokemon/gallade/",
+      "percent": null
+    },
+    {
+      "display_name": "Gardevoir",
+      "url": "pokemon/gardevoir/",
+      "percent": null
+    },
+    {
+      "display_name": "Gengar",
+      "url": "pokemon/gengar/",
+      "percent": null
+    },
+    {
+      "display_name": "Hawlucha",
+      "url": "pokemon/hawlucha/",
+      "percent": null
+    },
+    {
+      "display_name": "Kingambit",
+      "url": "pokemon/kingambit/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Absol",
+      "url": "pokemon/mega-absol/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Gallade",
+      "url": "pokemon/mega-gallade/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Gardevoir",
+      "url": "pokemon/mega-gardevoir/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Gengar",
+      "url": "pokemon/mega-gengar/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Hawlucha",
+      "url": "pokemon/mega-hawlucha/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Sableye",
+      "url": "pokemon/mega-sableye/",
+      "percent": null
+    },
+    {
+      "display_name": "Meowstic (Male)",
+      "url": "pokemon/meowstic-male/",
+      "percent": null
+    },
+    {
+      "display_name": "Runerigus",
+      "url": "pokemon/runerigus/",
+      "percent": null
+    },
+    {
+      "display_name": "Sableye",
+      "url": "pokemon/sableye/",
+      "percent": null
+    },
+    {
+      "display_name": "Watchog",
+      "url": "pokemon/watchog/",
+      "percent": null
+    }
+  ]
+}

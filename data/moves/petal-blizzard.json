@@ -1,0 +1,70 @@
+{
+  "slug": "petal-blizzard",
+  "display_name": "Petal Blizzard",
+  "description": "Inflicts regular damage.",
+  "type": "grass",
+  "power": 90.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Serperior",
+      "url": "pokemon/serperior/",
+      "percent": 6.3
+    },
+    {
+      "display_name": "Florges",
+      "url": "pokemon/florges/",
+      "percent": 5.6
+    },
+    {
+      "display_name": "Tsareena",
+      "url": "pokemon/tsareena/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Meowscarada",
+      "url": "pokemon/meowscarada/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Venusaur",
+      "url": "pokemon/venusaur/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Mega Meganium",
+      "url": "pokemon/mega-meganium/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Venusaur",
+      "url": "pokemon/mega-venusaur/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Floette (Eternal)",
+      "url": "pokemon/floette-eternal/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Floette",
+      "url": "pokemon/mega-floette/",
+      "percent": null
+    },
+    {
+      "display_name": "Meganium",
+      "url": "pokemon/meganium/",
+      "percent": null
+    },
+    {
+      "display_name": "Roserade",
+      "url": "pokemon/roserade/",
+      "percent": null
+    }
+  ]
+}

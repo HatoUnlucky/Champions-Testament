@@ -1,0 +1,25 @@
+{
+  "slug": "aroma-veil",
+  "display_name": "Aroma Veil",
+  "description": "protects allies against moves that affect their mental state.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Aromatisse",
+      "url": "pokemon/aromatisse/",
+      "percent": 96.2
+    },
+    {
+      "display_name": "Alcremie",
+      "url": "pokemon/alcremie/",
+      "percent": 21.3
+    }
+  ]
+}

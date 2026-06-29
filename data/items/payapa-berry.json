@@ -1,0 +1,40 @@
+{
+  "slug": "payapa-berry",
+  "display_name": "Payapa Berry",
+  "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Psychic-type attack.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Berry/payapa-berry_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": 1.0
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Toxicroak",
+      "url": "pokemon/toxicroak/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Toxapex",
+      "url": "pokemon/toxapex/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Victreebel",
+      "url": "pokemon/victreebel/",
+      "percent": 0.0
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "agility",
+  "display_name": "Agility",
+  "description": "Boosts the user's Speed stat by 2 stages.",
+  "type": "psychic",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Altaria",
+      "url": "pokemon/mega-altaria/",
+      "percent": 10.7
+    },
+    {
+      "display_name": "Emolga",
+      "url": "pokemon/emolga/",
+      "percent": 4.1
+    },
+    {
+      "display_name": "Mega Medicham",
+      "url": "pokemon/mega-medicham/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Empoleon",
+      "url": "pokemon/empoleon/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Mega Feraligatr",
+      "url": "pokemon/mega-feraligatr/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Basculegion Male",
+      "url": "pokemon/basculegion-male/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Mega Ampharos",
+      "url": "pokemon/mega-ampharos/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Medicham",
+      "url": "pokemon/medicham/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Mega Pidgeot",
+      "url": "pokemon/mega-pidgeot/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Ampharos",
+      "url": "pokemon/ampharos/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Corviknight",
+      "url": "pokemon/corviknight/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Hisuian Arcanine",
+      "url": "pokemon/hisuian-arcanine/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Beedrill",
+      "url": "pokemon/beedrill/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Dedenne",
+      "url": "pokemon/dedenne/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Diggersby",
+      "url": "pokemon/diggersby/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Manectric",
+      "url": "pokemon/manectric/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Sharpedo",
+      "url": "pokemon/mega-sharpedo/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Palafin",
+      "url": "pokemon/palafin/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Pelipper",
+      "url": "pokemon/pelipper/",
+      "percent": 0.0
+    }
+  ]
+}

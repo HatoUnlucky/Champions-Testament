@@ -1,0 +1,115 @@
+{
+  "slug": "bite",
+  "display_name": "Bite",
+  "description": "Has a 30% chance of making the target flinch.",
+  "type": "dark",
+  "power": 60.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Kangaskhan",
+      "url": "pokemon/mega-kangaskhan/",
+      "percent": 1.3
+    },
+    {
+      "display_name": "Liepard",
+      "url": "pokemon/liepard/",
+      "percent": 1.1
+    },
+    {
+      "display_name": "Maushold",
+      "url": "pokemon/maushold/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Incineroar",
+      "url": "pokemon/incineroar/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Sharpedo",
+      "url": "pokemon/mega-sharpedo/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Absol",
+      "url": "pokemon/absol/",
+      "percent": null
+    },
+    {
+      "display_name": "Aerodactyl",
+      "url": "pokemon/aerodactyl/",
+      "percent": null
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": null
+    },
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": null
+    },
+    {
+      "display_name": "Arcanine",
+      "url": "pokemon/arcanine/",
+      "percent": null
+    },
+    {
+      "display_name": "Avalugg",
+      "url": "pokemon/avalugg/",
+      "percent": null
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": null
+    },
+    {
+      "display_name": "Basculegion Male",
+      "url": "pokemon/basculegion-male/",
+      "percent": null
+    },
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": null
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": null
+    },
+    {
+      "display_name": "Chesnaught",
+      "url": "pokemon/chesnaught/",
+      "percent": null
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": null
+    },
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": null
+    },
+    {
+      "display_name": "Feraligatr",
+      "url": "pokemon/feraligatr/",
+      "percent": null
+    },
+    {
+      "display_name": "Flareon",
+      "url": "pokemon/flareon/",
+      "percent": null
+    }
+  ]
+}

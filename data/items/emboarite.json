@@ -1,0 +1,20 @@
+{
+  "slug": "emboarite",
+  "display_name": "Emboarite",
+  "description": "One of a variety of mysterious Mega Stones. An Emboar holding this stone will be able to Mega Evolve during battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Mega Evolution/emboarite_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Emboar",
+      "url": "pokemon/mega-emboar/",
+      "percent": 100.0
+    }
+  ]
+}

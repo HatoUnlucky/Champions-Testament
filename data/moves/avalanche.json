@@ -1,0 +1,115 @@
+{
+  "slug": "avalanche",
+  "display_name": "Avalanche",
+  "description": "This move's power is doubled if the target has already dealt damage to the user with a move in the same turn.",
+  "type": "ice",
+  "power": 60.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Avalugg",
+      "url": "pokemon/avalugg/",
+      "percent": 61.3
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 18.4
+    },
+    {
+      "display_name": "Gyarados",
+      "url": "pokemon/gyarados/",
+      "percent": 4.2
+    },
+    {
+      "display_name": "Feraligatr",
+      "url": "pokemon/feraligatr/",
+      "percent": 3.4
+    },
+    {
+      "display_name": "Rhyperior",
+      "url": "pokemon/rhyperior/",
+      "percent": 2.8
+    },
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": 1.9
+    },
+    {
+      "display_name": "Hisuian Avalugg",
+      "url": "pokemon/hisuian-avalugg/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Abomasnow",
+      "url": "pokemon/abomasnow/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Mamoswine",
+      "url": "pokemon/mamoswine/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Rampardos",
+      "url": "pokemon/rampardos/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Mega Gyarados",
+      "url": "pokemon/mega-gyarados/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Mega Aggron",
+      "url": "pokemon/mega-aggron/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Mega Tyranitar",
+      "url": "pokemon/mega-tyranitar/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Crabominable",
+      "url": "pokemon/crabominable/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Kangaskhan",
+      "url": "pokemon/kangaskhan/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Blastoise",
+      "url": "pokemon/mega-blastoise/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Froslass",
+      "url": "pokemon/mega-froslass/",
+      "percent": 0.0
+    }
+  ]
+}

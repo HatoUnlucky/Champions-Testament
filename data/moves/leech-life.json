@@ -1,0 +1,65 @@
+{
+  "slug": "leech-life",
+  "display_name": "Leech Life",
+  "description": "The user's HP is restored by 1/2 of the damage dealt by this move.",
+  "type": "bug",
+  "power": 80.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 48.5
+    },
+    {
+      "display_name": "Victreebel",
+      "url": "pokemon/victreebel/",
+      "percent": 2.3
+    },
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Volcarona",
+      "url": "pokemon/volcarona/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Incineroar",
+      "url": "pokemon/incineroar/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Victreebel",
+      "url": "pokemon/mega-victreebel/",
+      "percent": null
+    },
+    {
+      "display_name": "Mimikyu",
+      "url": "pokemon/mimikyu/",
+      "percent": null
+    },
+    {
+      "display_name": "Noivern",
+      "url": "pokemon/noivern/",
+      "percent": null
+    },
+    {
+      "display_name": "Salazzle",
+      "url": "pokemon/salazzle/",
+      "percent": null
+    }
+  ]
+}

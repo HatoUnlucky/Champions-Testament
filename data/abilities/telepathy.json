@@ -1,0 +1,35 @@
+{
+  "slug": "telepathy",
+  "display_name": "Telepathy",
+  "description": "protects against friendly pokémon's damaging moves.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Gardevoir",
+      "url": "pokemon/gardevoir/",
+      "percent": 79.1
+    },
+    {
+      "display_name": "Noivern",
+      "url": "pokemon/noivern/",
+      "percent": 51.5
+    },
+    {
+      "display_name": "Medicham",
+      "url": "pokemon/medicham/",
+      "percent": 22.3
+    },
+    {
+      "display_name": "Oranguru",
+      "url": "pokemon/oranguru/",
+      "percent": 20.0
+    }
+  ]
+}

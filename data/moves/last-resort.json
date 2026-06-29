@@ -1,0 +1,115 @@
+{
+  "slug": "last-resort",
+  "display_name": "Last Resort",
+  "description": "This move fails unless the user has already used all the other moves it knows.",
+  "type": "normal",
+  "power": 140.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Kangaskhan",
+      "url": "pokemon/kangaskhan/",
+      "percent": 78.3
+    },
+    {
+      "display_name": "Furfrou",
+      "url": "pokemon/furfrou/",
+      "percent": 50.7
+    },
+    {
+      "display_name": "Mega Kangaskhan",
+      "url": "pokemon/mega-kangaskhan/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Snorlax",
+      "url": "pokemon/snorlax/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Leafeon",
+      "url": "pokemon/leafeon/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Lycanroc (Midnight)",
+      "url": "pokemon/lycanroc-midnight/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Alcremie",
+      "url": "pokemon/alcremie/",
+      "percent": null
+    },
+    {
+      "display_name": "Audino",
+      "url": "pokemon/audino/",
+      "percent": null
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": null
+    },
+    {
+      "display_name": "Chimecho",
+      "url": "pokemon/chimecho/",
+      "percent": null
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": null
+    },
+    {
+      "display_name": "Dedenne",
+      "url": "pokemon/dedenne/",
+      "percent": null
+    },
+    {
+      "display_name": "Diggersby",
+      "url": "pokemon/diggersby/",
+      "percent": null
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": null
+    },
+    {
+      "display_name": "Emolga",
+      "url": "pokemon/emolga/",
+      "percent": null
+    },
+    {
+      "display_name": "Espathra",
+      "url": "pokemon/espathra/",
+      "percent": null
+    },
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": null
+    },
+    {
+      "display_name": "Flareon",
+      "url": "pokemon/flareon/",
+      "percent": null
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": null
+    },
+    {
+      "display_name": "Hawlucha",
+      "url": "pokemon/hawlucha/",
+      "percent": null
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "slug": "weak-armor",
+  "display_name": "Weak Armor",
+  "description": "raises speed and lowers defense by one stage each upon being hit by a physical move.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Garbodor",
+      "url": "pokemon/garbodor/",
+      "percent": 98.6
+    },
+    {
+      "display_name": "Polteageist",
+      "url": "pokemon/polteageist/",
+      "percent": 20.5
+    },
+    {
+      "display_name": "Armarouge",
+      "url": "pokemon/armarouge/",
+      "percent": 14.0
+    },
+    {
+      "display_name": "Ceruledge",
+      "url": "pokemon/ceruledge/",
+      "percent": 10.2
+    },
+    {
+      "display_name": "Skarmory",
+      "url": "pokemon/skarmory/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Vanilluxe",
+      "url": "pokemon/vanilluxe/",
+      "percent": 0.2
+    }
+  ]
+}

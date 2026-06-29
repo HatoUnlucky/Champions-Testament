@@ -1,0 +1,25 @@
+{
+  "slug": "pickpocket",
+  "display_name": "Pickpocket",
+  "description": "steals attacking pokémon's held items on contact.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Weavile",
+      "url": "pokemon/weavile/",
+      "percent": 71.9
+    },
+    {
+      "display_name": "Tinkaton",
+      "url": "pokemon/tinkaton/",
+      "percent": 0.1
+    }
+  ]
+}

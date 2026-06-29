@@ -1,0 +1,45 @@
+{
+  "slug": "tearful-look",
+  "display_name": "Tearful Look",
+  "description": "Lowers the target's Attack and Sp. Atk stats by 1 stage. This move ignores the target's evasiveness and can hit a target using a move such as Protect.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Florges",
+      "url": "pokemon/florges/",
+      "percent": 3.6
+    },
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Dedenne",
+      "url": "pokemon/dedenne/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Floette (Eternal)",
+      "url": "pokemon/floette-eternal/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Floette",
+      "url": "pokemon/mega-floette/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Hisuian Goodra",
+      "url": "pokemon/hisuian-goodra/",
+      "percent": null
+    }
+  ]
+}

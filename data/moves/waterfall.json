@@ -1,0 +1,115 @@
+{
+  "slug": "waterfall",
+  "display_name": "Waterfall",
+  "description": "Has a 20% chance of making the target flinch.",
+  "type": "water",
+  "power": 80.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Gyarados",
+      "url": "pokemon/mega-gyarados/",
+      "percent": 98.2
+    },
+    {
+      "display_name": "Gyarados",
+      "url": "pokemon/gyarados/",
+      "percent": 96.0
+    },
+    {
+      "display_name": "Mega Sharpedo",
+      "url": "pokemon/mega-sharpedo/",
+      "percent": 22.5
+    },
+    {
+      "display_name": "Mega Feraligatr",
+      "url": "pokemon/mega-feraligatr/",
+      "percent": 16.2
+    },
+    {
+      "display_name": "Mega Starmie",
+      "url": "pokemon/mega-starmie/",
+      "percent": 4.3
+    },
+    {
+      "display_name": "Basculegion Male",
+      "url": "pokemon/basculegion-male/",
+      "percent": 2.1
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Azumarill",
+      "url": "pokemon/azumarill/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Palafin",
+      "url": "pokemon/palafin/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Sharpedo",
+      "url": "pokemon/sharpedo/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Mega Greninja",
+      "url": "pokemon/mega-greninja/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Simipour",
+      "url": "pokemon/simipour/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Starmie",
+      "url": "pokemon/starmie/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Hisuian Samurott",
+      "url": "pokemon/hisuian-samurott/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Feraligatr",
+      "url": "pokemon/feraligatr/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Pelipper",
+      "url": "pokemon/pelipper/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Politoed",
+      "url": "pokemon/politoed/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": null
+    },
+    {
+      "display_name": "Clawitzer",
+      "url": "pokemon/clawitzer/",
+      "percent": null
+    }
+  ]
+}

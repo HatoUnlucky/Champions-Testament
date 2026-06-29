@@ -1,0 +1,70 @@
+{
+  "slug": "cross-poison",
+  "display_name": "Cross Poison",
+  "description": "Has a 10% chance of poisoning the target. This move has a 1-stage Critical-Hit Ratio Boost.",
+  "type": "poison",
+  "power": 70.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Garbodor",
+      "url": "pokemon/garbodor/",
+      "percent": 98.6
+    },
+    {
+      "display_name": "Beedrill",
+      "url": "pokemon/beedrill/",
+      "percent": 15.0
+    },
+    {
+      "display_name": "Mega Beedrill",
+      "url": "pokemon/mega-beedrill/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Scizor",
+      "url": "pokemon/mega-scizor/",
+      "percent": null
+    },
+    {
+      "display_name": "Salazzle",
+      "url": "pokemon/salazzle/",
+      "percent": null
+    },
+    {
+      "display_name": "Scizor",
+      "url": "pokemon/scizor/",
+      "percent": null
+    },
+    {
+      "display_name": "Toxapex",
+      "url": "pokemon/toxapex/",
+      "percent": null
+    },
+    {
+      "display_name": "Toxicroak",
+      "url": "pokemon/toxicroak/",
+      "percent": null
+    }
+  ]
+}

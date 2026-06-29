@@ -1,0 +1,20 @@
+{
+  "slug": "steelixite",
+  "display_name": "Steelixite",
+  "description": "One of a variety of mysterious Mega Stones. Have Steelix hold it, and this stone will enable it to Mega Evolve during battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Mega Evolution/steelixite_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Steelix",
+      "url": "pokemon/mega-steelix/",
+      "percent": 100.0
+    }
+  ]
+}

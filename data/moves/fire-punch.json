@@ -1,0 +1,115 @@
+{
+  "slug": "fire-punch",
+  "display_name": "Fire Punch",
+  "description": "Has a 10% chance of burning the target.",
+  "type": "fire",
+  "power": 75.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Lycanroc (Midnight)",
+      "url": "pokemon/lycanroc-midnight/",
+      "percent": 58.2
+    },
+    {
+      "display_name": "Dragonite",
+      "url": "pokemon/dragonite/",
+      "percent": 21.2
+    },
+    {
+      "display_name": "Infernape",
+      "url": "pokemon/infernape/",
+      "percent": 13.1
+    },
+    {
+      "display_name": "Rampardos",
+      "url": "pokemon/rampardos/",
+      "percent": 9.0
+    },
+    {
+      "display_name": "Golurk",
+      "url": "pokemon/golurk/",
+      "percent": 5.8
+    },
+    {
+      "display_name": "Diggersby",
+      "url": "pokemon/diggersby/",
+      "percent": 4.6
+    },
+    {
+      "display_name": "Conkeldurr",
+      "url": "pokemon/conkeldurr/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Mega Medicham",
+      "url": "pokemon/mega-medicham/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Rhyperior",
+      "url": "pokemon/rhyperior/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Mega Charizard X",
+      "url": "pokemon/mega-charizard-x/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Mega Tyranitar",
+      "url": "pokemon/mega-tyranitar/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Hawlucha",
+      "url": "pokemon/hawlucha/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Gallade",
+      "url": "pokemon/gallade/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Heliolisk",
+      "url": "pokemon/heliolisk/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Mega Golurk",
+      "url": "pokemon/mega-golurk/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Tyranitar",
+      "url": "pokemon/tyranitar/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Mega Aggron",
+      "url": "pokemon/mega-aggron/",
+      "percent": 0.1
+    }
+  ]
+}

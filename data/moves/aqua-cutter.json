@@ -1,0 +1,40 @@
+{
+  "slug": "aqua-cutter",
+  "display_name": "Aqua Cutter",
+  "description": "This move has a 1-stage Critical-Hit Ratio Boost.",
+  "type": "water",
+  "power": 70.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hisuian Samurott",
+      "url": "pokemon/hisuian-samurott/",
+      "percent": 44.7
+    },
+    {
+      "display_name": "Gallade",
+      "url": "pokemon/gallade/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Mega Gallade",
+      "url": "pokemon/mega-gallade/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Quaquaval",
+      "url": "pokemon/quaquaval/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Samurott",
+      "url": "pokemon/samurott/",
+      "percent": null
+    }
+  ]
+}

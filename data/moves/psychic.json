@@ -1,0 +1,115 @@
+{
+  "slug": "psychic",
+  "display_name": "Psychic",
+  "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+  "type": "psychic",
+  "power": 90.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Delphox",
+      "url": "pokemon/delphox/",
+      "percent": 93.7
+    },
+    {
+      "display_name": "Alakazam",
+      "url": "pokemon/alakazam/",
+      "percent": 85.8
+    },
+    {
+      "display_name": "Gardevoir",
+      "url": "pokemon/gardevoir/",
+      "percent": 75.4
+    },
+    {
+      "display_name": "Slowbro",
+      "url": "pokemon/slowbro/",
+      "percent": 72.7
+    },
+    {
+      "display_name": "Mega Delphox",
+      "url": "pokemon/mega-delphox/",
+      "percent": 71.1
+    },
+    {
+      "display_name": "Galarian Slowbro",
+      "url": "pokemon/galarian-slowbro/",
+      "percent": 66.5
+    },
+    {
+      "display_name": "Reuniclus",
+      "url": "pokemon/reuniclus/",
+      "percent": 65.7
+    },
+    {
+      "display_name": "Oranguru",
+      "url": "pokemon/oranguru/",
+      "percent": 63.9
+    },
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": 61.9
+    },
+    {
+      "display_name": "Slowking",
+      "url": "pokemon/slowking/",
+      "percent": 61.2
+    },
+    {
+      "display_name": "Hatterene",
+      "url": "pokemon/hatterene/",
+      "percent": 58.3
+    },
+    {
+      "display_name": "Mega Chimecho",
+      "url": "pokemon/mega-chimecho/",
+      "percent": 56.9
+    },
+    {
+      "display_name": "Alolan Raichu",
+      "url": "pokemon/alolan-raichu/",
+      "percent": 53.4
+    },
+    {
+      "display_name": "Armarouge",
+      "url": "pokemon/armarouge/",
+      "percent": 53.1
+    },
+    {
+      "display_name": "Hisuian Zoroark",
+      "url": "pokemon/hisuian-zoroark/",
+      "percent": 52.4
+    },
+    {
+      "display_name": "Starmie",
+      "url": "pokemon/starmie/",
+      "percent": 48.3
+    },
+    {
+      "display_name": "Mega Gardevoir",
+      "url": "pokemon/mega-gardevoir/",
+      "percent": 45.8
+    },
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": 40.4
+    },
+    {
+      "display_name": "Wyrdeer",
+      "url": "pokemon/wyrdeer/",
+      "percent": 38.4
+    },
+    {
+      "display_name": "Gengar",
+      "url": "pokemon/gengar/",
+      "percent": 36.4
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "detect",
+  "display_name": "Detect",
+  "description": "The user protects itself from incoming moves for the turn. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+  "type": "fighting",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Flareon",
+      "url": "pokemon/flareon/",
+      "percent": 80.5
+    },
+    {
+      "display_name": "Leafeon",
+      "url": "pokemon/leafeon/",
+      "percent": 63.9
+    },
+    {
+      "display_name": "Mega Hawlucha",
+      "url": "pokemon/mega-hawlucha/",
+      "percent": 63.0
+    },
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": 57.7
+    },
+    {
+      "display_name": "Sylveon",
+      "url": "pokemon/sylveon/",
+      "percent": 49.8
+    },
+    {
+      "display_name": "Mega Lucario",
+      "url": "pokemon/mega-lucario/",
+      "percent": 32.6
+    },
+    {
+      "display_name": "Mega Heracross",
+      "url": "pokemon/mega-heracross/",
+      "percent": 31.0
+    },
+    {
+      "display_name": "Vaporeon",
+      "url": "pokemon/vaporeon/",
+      "percent": 28.7
+    },
+    {
+      "display_name": "Jolteon",
+      "url": "pokemon/jolteon/",
+      "percent": 28.3
+    },
+    {
+      "display_name": "Mega Medicham",
+      "url": "pokemon/mega-medicham/",
+      "percent": 24.4
+    },
+    {
+      "display_name": "Quaquaval",
+      "url": "pokemon/quaquaval/",
+      "percent": 23.7
+    },
+    {
+      "display_name": "Mega Absol",
+      "url": "pokemon/mega-absol/",
+      "percent": 18.5
+    },
+    {
+      "display_name": "Hisuian Samurott",
+      "url": "pokemon/hisuian-samurott/",
+      "percent": 17.7
+    },
+    {
+      "display_name": "Pangoro",
+      "url": "pokemon/pangoro/",
+      "percent": 14.9
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": 12.6
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": 12.5
+    },
+    {
+      "display_name": "Hawlucha",
+      "url": "pokemon/hawlucha/",
+      "percent": 12.5
+    },
+    {
+      "display_name": "Medicham",
+      "url": "pokemon/medicham/",
+      "percent": 12.4
+    },
+    {
+      "display_name": "Conkeldurr",
+      "url": "pokemon/conkeldurr/",
+      "percent": 11.5
+    },
+    {
+      "display_name": "Lucario",
+      "url": "pokemon/lucario/",
+      "percent": 5.6
+    }
+  ]
+}

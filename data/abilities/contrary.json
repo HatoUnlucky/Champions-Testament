@@ -1,0 +1,20 @@
+{
+  "slug": "contrary",
+  "display_name": "Contrary",
+  "description": "inverts stat changes.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Serperior",
+      "url": "pokemon/serperior/",
+      "percent": 99.5
+    }
+  ]
+}

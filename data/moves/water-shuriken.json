@@ -1,0 +1,25 @@
+{
+  "slug": "water-shuriken",
+  "display_name": "Water Shuriken",
+  "description": "The user attacks 2 to 5 times in a row.",
+  "type": "water",
+  "power": 15.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Greninja",
+      "url": "pokemon/greninja/",
+      "percent": 34.5
+    },
+    {
+      "display_name": "Mega Greninja",
+      "url": "pokemon/mega-greninja/",
+      "percent": 15.8
+    }
+  ]
+}

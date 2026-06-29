@@ -1,0 +1,115 @@
+{
+  "slug": "low-sweep",
+  "display_name": "Low Sweep",
+  "description": "Lowers the target's Speed stat by 1 stage.",
+  "type": "fighting",
+  "power": 65.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Tsareena",
+      "url": "pokemon/tsareena/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Meowscarada",
+      "url": "pokemon/meowscarada/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Weavile",
+      "url": "pokemon/weavile/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Maushold",
+      "url": "pokemon/maushold/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Simisage",
+      "url": "pokemon/simisage/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Kingambit",
+      "url": "pokemon/kingambit/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Chesnaught",
+      "url": "pokemon/chesnaught/",
+      "percent": null
+    },
+    {
+      "display_name": "Conkeldurr",
+      "url": "pokemon/conkeldurr/",
+      "percent": null
+    },
+    {
+      "display_name": "Decidueye",
+      "url": "pokemon/decidueye/",
+      "percent": null
+    },
+    {
+      "display_name": "Emboar",
+      "url": "pokemon/emboar/",
+      "percent": null
+    },
+    {
+      "display_name": "Galarian Slowking",
+      "url": "pokemon/galarian-slowking/",
+      "percent": null
+    },
+    {
+      "display_name": "Gallade",
+      "url": "pokemon/gallade/",
+      "percent": null
+    },
+    {
+      "display_name": "Golurk",
+      "url": "pokemon/golurk/",
+      "percent": null
+    },
+    {
+      "display_name": "Greninja",
+      "url": "pokemon/greninja/",
+      "percent": null
+    },
+    {
+      "display_name": "Hawlucha",
+      "url": "pokemon/hawlucha/",
+      "percent": null
+    },
+    {
+      "display_name": "Heliolisk",
+      "url": "pokemon/heliolisk/",
+      "percent": null
+    },
+    {
+      "display_name": "Hisuian Decidueye",
+      "url": "pokemon/hisuian-decidueye/",
+      "percent": null
+    },
+    {
+      "display_name": "Hisuian Zoroark",
+      "url": "pokemon/hisuian-zoroark/",
+      "percent": null
+    },
+    {
+      "display_name": "Incineroar",
+      "url": "pokemon/incineroar/",
+      "percent": null
+    },
+    {
+      "display_name": "Infernape",
+      "url": "pokemon/infernape/",
+      "percent": null
+    }
+  ]
+}

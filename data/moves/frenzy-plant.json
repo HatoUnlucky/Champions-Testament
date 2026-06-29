@@ -1,0 +1,70 @@
+{
+  "slug": "frenzy-plant",
+  "display_name": "Frenzy Plant",
+  "description": "The user gains the Recharging status on the turn after this move is used.",
+  "type": "grass",
+  "power": 150.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Venusaur",
+      "url": "pokemon/venusaur/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Mega Meganium",
+      "url": "pokemon/mega-meganium/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Chesnaught",
+      "url": "pokemon/chesnaught/",
+      "percent": null
+    },
+    {
+      "display_name": "Decidueye",
+      "url": "pokemon/decidueye/",
+      "percent": null
+    },
+    {
+      "display_name": "Hisuian Decidueye",
+      "url": "pokemon/hisuian-decidueye/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Chesnaught",
+      "url": "pokemon/mega-chesnaught/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Venusaur",
+      "url": "pokemon/mega-venusaur/",
+      "percent": null
+    },
+    {
+      "display_name": "Meganium",
+      "url": "pokemon/meganium/",
+      "percent": null
+    },
+    {
+      "display_name": "Meowscarada",
+      "url": "pokemon/meowscarada/",
+      "percent": null
+    },
+    {
+      "display_name": "Serperior",
+      "url": "pokemon/serperior/",
+      "percent": null
+    },
+    {
+      "display_name": "Torterra",
+      "url": "pokemon/torterra/",
+      "percent": null
+    }
+  ]
+}

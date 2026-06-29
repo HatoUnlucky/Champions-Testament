@@ -1,0 +1,115 @@
+{
+  "slug": "dazzling-gleam",
+  "display_name": "Dazzling Gleam",
+  "description": "Inflicts regular damage with no additional effect.",
+  "type": "fairy",
+  "power": 80.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Floette",
+      "url": "pokemon/mega-floette/",
+      "percent": 98.5
+    },
+    {
+      "display_name": "Hatterene",
+      "url": "pokemon/hatterene/",
+      "percent": 95.3
+    },
+    {
+      "display_name": "Mega Meganium",
+      "url": "pokemon/mega-meganium/",
+      "percent": 92.9
+    },
+    {
+      "display_name": "Mega Audino",
+      "url": "pokemon/mega-audino/",
+      "percent": 92.4
+    },
+    {
+      "display_name": "Alcremie",
+      "url": "pokemon/alcremie/",
+      "percent": 90.5
+    },
+    {
+      "display_name": "Floette (Eternal)",
+      "url": "pokemon/floette-eternal/",
+      "percent": 80.5
+    },
+    {
+      "display_name": "Gardevoir",
+      "url": "pokemon/gardevoir/",
+      "percent": 64.7
+    },
+    {
+      "display_name": "Slurpuff",
+      "url": "pokemon/slurpuff/",
+      "percent": 52.6
+    },
+    {
+      "display_name": "Klefki",
+      "url": "pokemon/klefki/",
+      "percent": 52.0
+    },
+    {
+      "display_name": "Ampharos",
+      "url": "pokemon/ampharos/",
+      "percent": 48.9
+    },
+    {
+      "display_name": "Mega Alakazam",
+      "url": "pokemon/mega-alakazam/",
+      "percent": 44.3
+    },
+    {
+      "display_name": "Roserade",
+      "url": "pokemon/roserade/",
+      "percent": 27.3
+    },
+    {
+      "display_name": "Alakazam",
+      "url": "pokemon/alakazam/",
+      "percent": 25.8
+    },
+    {
+      "display_name": "Dedenne",
+      "url": "pokemon/dedenne/",
+      "percent": 24.4
+    },
+    {
+      "display_name": "Aromatisse",
+      "url": "pokemon/aromatisse/",
+      "percent": 23.8
+    },
+    {
+      "display_name": "Mega Clefable",
+      "url": "pokemon/mega-clefable/",
+      "percent": 19.4
+    },
+    {
+      "display_name": "Mega Ampharos",
+      "url": "pokemon/mega-ampharos/",
+      "percent": 16.9
+    },
+    {
+      "display_name": "Florges",
+      "url": "pokemon/florges/",
+      "percent": 11.1
+    },
+    {
+      "display_name": "Primarina",
+      "url": "pokemon/primarina/",
+      "percent": 9.2
+    },
+    {
+      "display_name": "Espathra",
+      "url": "pokemon/espathra/",
+      "percent": 7.8
+    }
+  ]
+}

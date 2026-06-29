@@ -1,0 +1,55 @@
+{
+  "slug": "petal-dance",
+  "display_name": "Petal Dance",
+  "description": "The user gains the Rampaging status.",
+  "type": "grass",
+  "power": 120.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Roserade",
+      "url": "pokemon/roserade/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Floette (Eternal)",
+      "url": "pokemon/floette-eternal/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Floette",
+      "url": "pokemon/mega-floette/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Florges",
+      "url": "pokemon/florges/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Meganium",
+      "url": "pokemon/mega-meganium/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Venusaur",
+      "url": "pokemon/mega-venusaur/",
+      "percent": null
+    },
+    {
+      "display_name": "Meganium",
+      "url": "pokemon/meganium/",
+      "percent": null
+    },
+    {
+      "display_name": "Venusaur",
+      "url": "pokemon/venusaur/",
+      "percent": null
+    }
+  ]
+}

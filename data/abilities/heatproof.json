@@ -1,0 +1,20 @@
+{
+  "slug": "heatproof",
+  "display_name": "Heatproof",
+  "description": "halves damage from fire moves and burns.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Sinistcha",
+      "url": "pokemon/sinistcha/",
+      "percent": 0.9
+    }
+  ]
+}

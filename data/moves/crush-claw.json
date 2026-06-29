@@ -1,0 +1,40 @@
+{
+  "slug": "crush-claw",
+  "display_name": "Crush Claw",
+  "description": "Has a 50% chance of lowering the target's Defense stat by 1 stage.",
+  "type": "normal",
+  "power": 75.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Excadrill",
+      "url": "pokemon/excadrill/",
+      "percent": null
+    },
+    {
+      "display_name": "Kangaskhan",
+      "url": "pokemon/kangaskhan/",
+      "percent": null
+    },
+    {
+      "display_name": "Lycanroc (Dusk)",
+      "url": "pokemon/lycanroc-dusk/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Excadrill",
+      "url": "pokemon/mega-excadrill/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Kangaskhan",
+      "url": "pokemon/mega-kangaskhan/",
+      "percent": null
+    }
+  ]
+}

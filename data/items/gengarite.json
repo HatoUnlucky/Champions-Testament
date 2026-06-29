@@ -1,0 +1,25 @@
+{
+  "slug": "gengarite",
+  "display_name": "Gengarite",
+  "description": "One variety of the mysterious Mega Stones. Have Gengar hold it, and this stone will enable it to Mega Evolve during battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Mega Evolution/gengarite_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Gengar",
+      "url": "pokemon/mega-gengar/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Greninja",
+      "url": "pokemon/greninja/",
+      "percent": 0.4
+    }
+  ]
+}

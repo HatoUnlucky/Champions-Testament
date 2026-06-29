@@ -1,0 +1,115 @@
+{
+  "slug": "flamethrower",
+  "display_name": "Flamethrower",
+  "description": "Has a 10% chance of burning the target.",
+  "type": "fire",
+  "power": 90.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Delphox",
+      "url": "pokemon/delphox/",
+      "percent": 90.6
+    },
+    {
+      "display_name": "Manectric",
+      "url": "pokemon/manectric/",
+      "percent": 34.5
+    },
+    {
+      "display_name": "Salazzle",
+      "url": "pokemon/salazzle/",
+      "percent": 32.6
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": 32.5
+    },
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 27.9
+    },
+    {
+      "display_name": "Typhlosion",
+      "url": "pokemon/typhlosion/",
+      "percent": 24.4
+    },
+    {
+      "display_name": "Mega Dragonite",
+      "url": "pokemon/mega-dragonite/",
+      "percent": 23.9
+    },
+    {
+      "display_name": "Mega Altaria",
+      "url": "pokemon/mega-altaria/",
+      "percent": 21.5
+    },
+    {
+      "display_name": "Mega Drampa",
+      "url": "pokemon/mega-drampa/",
+      "percent": 14.9
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": 13.8
+    },
+    {
+      "display_name": "Galarian Slowking",
+      "url": "pokemon/galarian-slowking/",
+      "percent": 13.5
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": 12.6
+    },
+    {
+      "display_name": "Houndoom",
+      "url": "pokemon/houndoom/",
+      "percent": 12.2
+    },
+    {
+      "display_name": "Mega Clefable",
+      "url": "pokemon/mega-clefable/",
+      "percent": 11.7
+    },
+    {
+      "display_name": "Hisuian Goodra",
+      "url": "pokemon/hisuian-goodra/",
+      "percent": 11.5
+    },
+    {
+      "display_name": "Simisear",
+      "url": "pokemon/simisear/",
+      "percent": 11.2
+    },
+    {
+      "display_name": "Mega Manectric",
+      "url": "pokemon/mega-manectric/",
+      "percent": 10.4
+    },
+    {
+      "display_name": "Mega Scovillain",
+      "url": "pokemon/mega-scovillain/",
+      "percent": 9.8
+    },
+    {
+      "display_name": "Camerupt",
+      "url": "pokemon/camerupt/",
+      "percent": 9.1
+    },
+    {
+      "display_name": "Hisuian Zoroark",
+      "url": "pokemon/hisuian-zoroark/",
+      "percent": 8.4
+    }
+  ]
+}

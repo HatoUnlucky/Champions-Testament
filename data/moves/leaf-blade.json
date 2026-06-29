@@ -1,0 +1,70 @@
+{
+  "slug": "leaf-blade",
+  "display_name": "Leaf Blade",
+  "description": "This move has a 1-stage Critical-Hit Ratio Boost.",
+  "type": "grass",
+  "power": 90.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hisuian Decidueye",
+      "url": "pokemon/hisuian-decidueye/",
+      "percent": 95.9
+    },
+    {
+      "display_name": "Leafeon",
+      "url": "pokemon/leafeon/",
+      "percent": 68.9
+    },
+    {
+      "display_name": "Decidueye",
+      "url": "pokemon/decidueye/",
+      "percent": 67.6
+    },
+    {
+      "display_name": "Gallade",
+      "url": "pokemon/gallade/",
+      "percent": 38.9
+    },
+    {
+      "display_name": "Mega Gallade",
+      "url": "pokemon/mega-gallade/",
+      "percent": 13.2
+    },
+    {
+      "display_name": "Victreebel",
+      "url": "pokemon/victreebel/",
+      "percent": 2.3
+    },
+    {
+      "display_name": "Serperior",
+      "url": "pokemon/serperior/",
+      "percent": 1.0
+    },
+    {
+      "display_name": "Mega Victreebel",
+      "url": "pokemon/mega-victreebel/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Meganium",
+      "url": "pokemon/meganium/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Meganium",
+      "url": "pokemon/mega-meganium/",
+      "percent": null
+    },
+    {
+      "display_name": "Torterra",
+      "url": "pokemon/torterra/",
+      "percent": null
+    }
+  ]
+}

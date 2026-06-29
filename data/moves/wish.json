@@ -1,0 +1,115 @@
+{
+  "slug": "wish",
+  "display_name": "Wish",
+  "description": "Gives the user's spot the Wish status.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Florges",
+      "url": "pokemon/florges/",
+      "percent": 3.3
+    },
+    {
+      "display_name": "Vaporeon",
+      "url": "pokemon/vaporeon/",
+      "percent": 2.6
+    },
+    {
+      "display_name": "Umbreon",
+      "url": "pokemon/umbreon/",
+      "percent": 2.5
+    },
+    {
+      "display_name": "Chimecho",
+      "url": "pokemon/chimecho/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Aromatisse",
+      "url": "pokemon/aromatisse/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Sylveon",
+      "url": "pokemon/sylveon/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Flareon",
+      "url": "pokemon/flareon/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Mega Audino",
+      "url": "pokemon/mega-audino/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Floette (Eternal)",
+      "url": "pokemon/floette-eternal/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Floette",
+      "url": "pokemon/mega-floette/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Slurpuff",
+      "url": "pokemon/slurpuff/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Alolan Raichu",
+      "url": "pokemon/alolan-raichu/",
+      "percent": null
+    },
+    {
+      "display_name": "Audino",
+      "url": "pokemon/audino/",
+      "percent": null
+    },
+    {
+      "display_name": "Delphox",
+      "url": "pokemon/delphox/",
+      "percent": null
+    },
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": null
+    },
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": null
+    },
+    {
+      "display_name": "Gardevoir",
+      "url": "pokemon/gardevoir/",
+      "percent": null
+    },
+    {
+      "display_name": "Jolteon",
+      "url": "pokemon/jolteon/",
+      "percent": null
+    }
+  ]
+}

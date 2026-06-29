@@ -1,0 +1,25 @@
+{
+  "slug": "shed-tail",
+  "display_name": "Shed Tail",
+  "description": "The user loses 1/2 of its max HP to create a substitute then switches out of battle to be replaced by another party Pokémon. The substitute will be hit by moves instead of that Pokémon and it will vanish when it takes damage equal to 1/4 of the user's max HP.",
+  "type": "normal",
+  "power": 0.0,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Orthworm",
+      "url": "pokemon/orthworm/",
+      "percent": 80.1
+    },
+    {
+      "display_name": "Heliolisk",
+      "url": "pokemon/heliolisk/",
+      "percent": 32.4
+    }
+  ]
+}

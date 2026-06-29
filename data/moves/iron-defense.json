@@ -1,0 +1,115 @@
+{
+  "slug": "iron-defense",
+  "display_name": "Iron Defense",
+  "description": "Boosts the user's Defense stat by 2 stages.",
+  "type": "steel",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Aggron",
+      "url": "pokemon/mega-aggron/",
+      "percent": 92.7
+    },
+    {
+      "display_name": "Sandaconda",
+      "url": "pokemon/sandaconda/",
+      "percent": 81.9
+    },
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": 67.9
+    },
+    {
+      "display_name": "Skarmory",
+      "url": "pokemon/skarmory/",
+      "percent": 66.5
+    },
+    {
+      "display_name": "Steelix",
+      "url": "pokemon/steelix/",
+      "percent": 54.5
+    },
+    {
+      "display_name": "Orthworm",
+      "url": "pokemon/orthworm/",
+      "percent": 49.2
+    },
+    {
+      "display_name": "Mega Chesnaught",
+      "url": "pokemon/mega-chesnaught/",
+      "percent": 46.4
+    },
+    {
+      "display_name": "Chesnaught",
+      "url": "pokemon/chesnaught/",
+      "percent": 34.9
+    },
+    {
+      "display_name": "Cofagrigus",
+      "url": "pokemon/cofagrigus/",
+      "percent": 32.9
+    },
+    {
+      "display_name": "Forretress",
+      "url": "pokemon/forretress/",
+      "percent": 31.6
+    },
+    {
+      "display_name": "Mega Slowbro",
+      "url": "pokemon/mega-slowbro/",
+      "percent": 27.2
+    },
+    {
+      "display_name": "Appletun",
+      "url": "pokemon/appletun/",
+      "percent": 20.7
+    },
+    {
+      "display_name": "Avalugg",
+      "url": "pokemon/avalugg/",
+      "percent": 19.0
+    },
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": 17.7
+    },
+    {
+      "display_name": "Corviknight",
+      "url": "pokemon/corviknight/",
+      "percent": 16.4
+    },
+    {
+      "display_name": "Runerigus",
+      "url": "pokemon/runerigus/",
+      "percent": 9.3
+    },
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": 7.4
+    },
+    {
+      "display_name": "Hisuian Avalugg",
+      "url": "pokemon/hisuian-avalugg/",
+      "percent": 4.6
+    },
+    {
+      "display_name": "Mudsdale",
+      "url": "pokemon/mudsdale/",
+      "percent": 3.9
+    },
+    {
+      "display_name": "Mega Steelix",
+      "url": "pokemon/mega-steelix/",
+      "percent": 2.1
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "focus-sash",
+  "display_name": "Focus Sash",
+  "description": "An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Lycanroc (Midday)",
+      "url": "pokemon/lycanroc-midday/",
+      "percent": 98.8
+    },
+    {
+      "display_name": "Zoroark",
+      "url": "pokemon/zoroark/",
+      "percent": 97.7
+    },
+    {
+      "display_name": "Sharpedo",
+      "url": "pokemon/sharpedo/",
+      "percent": 96.7
+    },
+    {
+      "display_name": "Lycanroc (Dusk)",
+      "url": "pokemon/lycanroc-dusk/",
+      "percent": 95.8
+    },
+    {
+      "display_name": "Glimmora",
+      "url": "pokemon/glimmora/",
+      "percent": 93.5
+    },
+    {
+      "display_name": "Gengar",
+      "url": "pokemon/gengar/",
+      "percent": 92.7
+    },
+    {
+      "display_name": "Aerodactyl",
+      "url": "pokemon/aerodactyl/",
+      "percent": 91.0
+    },
+    {
+      "display_name": "Excadrill",
+      "url": "pokemon/excadrill/",
+      "percent": 90.6
+    },
+    {
+      "display_name": "Salazzle",
+      "url": "pokemon/salazzle/",
+      "percent": 90.4
+    },
+    {
+      "display_name": "Weavile",
+      "url": "pokemon/weavile/",
+      "percent": 89.8
+    },
+    {
+      "display_name": "Froslass",
+      "url": "pokemon/froslass/",
+      "percent": 87.2
+    },
+    {
+      "display_name": "Scovillain",
+      "url": "pokemon/scovillain/",
+      "percent": 86.3
+    },
+    {
+      "display_name": "Alakazam",
+      "url": "pokemon/alakazam/",
+      "percent": 83.7
+    },
+    {
+      "display_name": "Infernape",
+      "url": "pokemon/infernape/",
+      "percent": 82.8
+    },
+    {
+      "display_name": "Delphox",
+      "url": "pokemon/delphox/",
+      "percent": 82.1
+    },
+    {
+      "display_name": "Morpeko",
+      "url": "pokemon/morpeko/",
+      "percent": 78.8
+    },
+    {
+      "display_name": "Liepard",
+      "url": "pokemon/liepard/",
+      "percent": 76.7
+    },
+    {
+      "display_name": "Chandelure",
+      "url": "pokemon/chandelure/",
+      "percent": 72.9
+    },
+    {
+      "display_name": "Simisear",
+      "url": "pokemon/simisear/",
+      "percent": 67.6
+    },
+    {
+      "display_name": "Raichu",
+      "url": "pokemon/raichu/",
+      "percent": 66.1
+    }
+  ]
+}

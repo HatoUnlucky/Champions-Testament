@@ -1,0 +1,115 @@
+{
+  "slug": "substitute",
+  "display_name": "Substitute",
+  "description": "The user loses 1/4 of its max HP to create a substitute. The substitute will be hit by moves instead of the user and it will vanish when it takes damage equal to 1/4 of the user's max HP.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Glalie",
+      "url": "pokemon/glalie/",
+      "percent": 98.8
+    },
+    {
+      "display_name": "Decidueye",
+      "url": "pokemon/decidueye/",
+      "percent": 34.1
+    },
+    {
+      "display_name": "Quaquaval",
+      "url": "pokemon/quaquaval/",
+      "percent": 11.7
+    },
+    {
+      "display_name": "Mega Delphox",
+      "url": "pokemon/mega-delphox/",
+      "percent": 11.6
+    },
+    {
+      "display_name": "Serperior",
+      "url": "pokemon/serperior/",
+      "percent": 11.5
+    },
+    {
+      "display_name": "Mega Glalie",
+      "url": "pokemon/mega-glalie/",
+      "percent": 8.6
+    },
+    {
+      "display_name": "Mega Chandelure",
+      "url": "pokemon/mega-chandelure/",
+      "percent": 7.8
+    },
+    {
+      "display_name": "Appletun",
+      "url": "pokemon/appletun/",
+      "percent": 7.3
+    },
+    {
+      "display_name": "Primarina",
+      "url": "pokemon/primarina/",
+      "percent": 7.1
+    },
+    {
+      "display_name": "Skeledirge",
+      "url": "pokemon/skeledirge/",
+      "percent": 7.1
+    },
+    {
+      "display_name": "Mega Gengar",
+      "url": "pokemon/mega-gengar/",
+      "percent": 6.5
+    },
+    {
+      "display_name": "Mega Lucario",
+      "url": "pokemon/mega-lucario/",
+      "percent": 6.0
+    },
+    {
+      "display_name": "Sylveon",
+      "url": "pokemon/sylveon/",
+      "percent": 5.1
+    },
+    {
+      "display_name": "Mega Froslass",
+      "url": "pokemon/mega-froslass/",
+      "percent": 3.8
+    },
+    {
+      "display_name": "Sandaconda",
+      "url": "pokemon/sandaconda/",
+      "percent": 3.6
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 3.4
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 3.1
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": 3.0
+    },
+    {
+      "display_name": "Trevenant",
+      "url": "pokemon/trevenant/",
+      "percent": 3.0
+    },
+    {
+      "display_name": "Mega Beedrill",
+      "url": "pokemon/mega-beedrill/",
+      "percent": 2.9
+    }
+  ]
+}

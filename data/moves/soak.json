@@ -1,0 +1,55 @@
+{
+  "slug": "soak",
+  "display_name": "Soak",
+  "description": "Changes the target's type to Water.",
+  "type": "water",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Bellibolt",
+      "url": "pokemon/bellibolt/",
+      "percent": 59.5
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 4.4
+    },
+    {
+      "display_name": "Hisuian Samurott",
+      "url": "pokemon/hisuian-samurott/",
+      "percent": 2.5
+    },
+    {
+      "display_name": "Pelipper",
+      "url": "pokemon/pelipper/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Azumarill",
+      "url": "pokemon/azumarill/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Basculegion Male",
+      "url": "pokemon/basculegion-male/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Samurott",
+      "url": "pokemon/samurott/",
+      "percent": null
+    }
+  ]
+}

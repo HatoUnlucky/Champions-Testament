@@ -1,0 +1,20 @@
+{
+  "slug": "infernal-parade",
+  "display_name": "Infernal Parade",
+  "description": "Has a 30% chance of burning the target. This move's power is doubled if the target has a status condition.",
+  "type": "ghost",
+  "power": 65.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hisuian Typhlosion",
+      "url": "pokemon/hisuian-typhlosion/",
+      "percent": 3.4
+    }
+  ]
+}

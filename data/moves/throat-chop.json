@@ -1,0 +1,115 @@
+{
+  "slug": "throat-chop",
+  "display_name": "Throat Chop",
+  "description": "Gives the target the Throat Chopped status.",
+  "type": "dark",
+  "power": 80.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Incineroar",
+      "url": "pokemon/incineroar/",
+      "percent": 49.3
+    },
+    {
+      "display_name": "Beartic",
+      "url": "pokemon/beartic/",
+      "percent": 26.2
+    },
+    {
+      "display_name": "Mega Absol",
+      "url": "pokemon/mega-absol/",
+      "percent": 10.6
+    },
+    {
+      "display_name": "Mega Gallade",
+      "url": "pokemon/mega-gallade/",
+      "percent": 7.5
+    },
+    {
+      "display_name": "Lycanroc (Dusk)",
+      "url": "pokemon/lycanroc-dusk/",
+      "percent": 4.1
+    },
+    {
+      "display_name": "Krookodile",
+      "url": "pokemon/krookodile/",
+      "percent": 3.8
+    },
+    {
+      "display_name": "Sneasler",
+      "url": "pokemon/sneasler/",
+      "percent": 3.1
+    },
+    {
+      "display_name": "Hawlucha",
+      "url": "pokemon/hawlucha/",
+      "percent": 2.8
+    },
+    {
+      "display_name": "Mega Sableye",
+      "url": "pokemon/mega-sableye/",
+      "percent": 2.7
+    },
+    {
+      "display_name": "Luxray",
+      "url": "pokemon/luxray/",
+      "percent": 2.5
+    },
+    {
+      "display_name": "Weavile",
+      "url": "pokemon/weavile/",
+      "percent": 2.5
+    },
+    {
+      "display_name": "Mega Beedrill",
+      "url": "pokemon/mega-beedrill/",
+      "percent": 2.3
+    },
+    {
+      "display_name": "Meowscarada",
+      "url": "pokemon/meowscarada/",
+      "percent": 2.2
+    },
+    {
+      "display_name": "Liepard",
+      "url": "pokemon/liepard/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Hisuian Samurott",
+      "url": "pokemon/hisuian-samurott/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Palafin",
+      "url": "pokemon/palafin/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Kommo-o",
+      "url": "pokemon/kommo-o/",
+      "percent": 1.1
+    },
+    {
+      "display_name": "Heracross",
+      "url": "pokemon/heracross/",
+      "percent": 1.0
+    },
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": 0.7
+    }
+  ]
+}

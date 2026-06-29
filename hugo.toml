@@ -1,0 +1,62 @@
+baseURL = "/"
+locale = "en-us"
+title = "Champions Testament"
+disableKinds = ["taxonomy", "term", "RSS", "sitemap"]
+
+[params]
+  description = "Static Pokemon usage pages built from champions_key.db."
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[[module.mounts]]
+  source = "content"
+  target = "content"
+
+[[module.mounts]]
+  source = "layouts"
+  target = "layouts"
+
+[[module.mounts]]
+  source = "assets"
+  target = "assets"
+
+[[module.mounts]]
+  source = "data/pokemon"
+  target = "data/pokemon"
+
+[[module.mounts]]
+  source = "data/items"
+  target = "data/items"
+
+[[module.mounts]]
+  source = "data/moves"
+  target = "data/moves"
+
+[[module.mounts]]
+  source = "data/abilities"
+  target = "data/abilities"
+
+[[module.mounts]]
+  source = "data/pokemon_index.json"
+  target = "data/pokemon_index.json"
+
+[[module.mounts]]
+  source = "data/items_index.json"
+  target = "data/items_index.json"
+
+[[module.mounts]]
+  source = "data/moves_index.json"
+  target = "data/moves_index.json"
+
+[[module.mounts]]
+  source = "data/abilities_index.json"
+  target = "data/abilities_index.json"
+
+[[module.mounts]]
+  source = "static"
+  target = "static"
+
+[[module.mounts]]
+  source = "Images"
+  target = "static/Images"

@@ -1,0 +1,50 @@
+{
+  "slug": "horn-drill",
+  "display_name": "Horn Drill",
+  "description": "Knocks out the target. The accuracy of this move is fixed at 30%.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Tyrantrum",
+      "url": "pokemon/tyrantrum/",
+      "percent": 2.4
+    },
+    {
+      "display_name": "Excadrill",
+      "url": "pokemon/excadrill/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Mega Excadrill",
+      "url": "pokemon/mega-excadrill/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Dragonite",
+      "url": "pokemon/dragonite/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Dragonite",
+      "url": "pokemon/mega-dragonite/",
+      "percent": null
+    },
+    {
+      "display_name": "Rhyperior",
+      "url": "pokemon/rhyperior/",
+      "percent": null
+    },
+    {
+      "display_name": "Tauros",
+      "url": "pokemon/tauros/",
+      "percent": null
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "slug": "parabolic-charge",
+  "display_name": "Parabolic Charge",
+  "description": "The user's HP is restored by 1/2 of the damage dealt by this move.",
+  "type": "electric",
+  "power": 65.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Bellibolt",
+      "url": "pokemon/bellibolt/",
+      "percent": 76.9
+    },
+    {
+      "display_name": "Ampharos",
+      "url": "pokemon/ampharos/",
+      "percent": 33.4
+    },
+    {
+      "display_name": "Mega Ampharos",
+      "url": "pokemon/mega-ampharos/",
+      "percent": 31.7
+    },
+    {
+      "display_name": "Heliolisk",
+      "url": "pokemon/heliolisk/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Dedenne",
+      "url": "pokemon/dedenne/",
+      "percent": 0.0
+    }
+  ]
+}

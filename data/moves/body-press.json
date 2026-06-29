@@ -1,0 +1,115 @@
+{
+  "slug": "body-press",
+  "display_name": "Body Press",
+  "description": "The damage dealt by this move is calculated using the user's Defense stat instead of its Attack stat.",
+  "type": "fighting",
+  "power": 80.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Aggron",
+      "url": "pokemon/mega-aggron/",
+      "percent": 99.3
+    },
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": 99.2
+    },
+    {
+      "display_name": "Orthworm",
+      "url": "pokemon/orthworm/",
+      "percent": 96.3
+    },
+    {
+      "display_name": "Chesnaught",
+      "url": "pokemon/chesnaught/",
+      "percent": 89.3
+    },
+    {
+      "display_name": "Steelix",
+      "url": "pokemon/steelix/",
+      "percent": 88.8
+    },
+    {
+      "display_name": "Sandaconda",
+      "url": "pokemon/sandaconda/",
+      "percent": 88.0
+    },
+    {
+      "display_name": "Mega Chesnaught",
+      "url": "pokemon/mega-chesnaught/",
+      "percent": 79.9
+    },
+    {
+      "display_name": "Cofagrigus",
+      "url": "pokemon/cofagrigus/",
+      "percent": 73.6
+    },
+    {
+      "display_name": "Skarmory",
+      "url": "pokemon/skarmory/",
+      "percent": 70.5
+    },
+    {
+      "display_name": "Avalugg",
+      "url": "pokemon/avalugg/",
+      "percent": 61.5
+    },
+    {
+      "display_name": "Hisuian Goodra",
+      "url": "pokemon/hisuian-goodra/",
+      "percent": 61.3
+    },
+    {
+      "display_name": "Hisuian Avalugg",
+      "url": "pokemon/hisuian-avalugg/",
+      "percent": 59.2
+    },
+    {
+      "display_name": "Runerigus",
+      "url": "pokemon/runerigus/",
+      "percent": 58.8
+    },
+    {
+      "display_name": "Meganium",
+      "url": "pokemon/meganium/",
+      "percent": 43.1
+    },
+    {
+      "display_name": "Mega Slowbro",
+      "url": "pokemon/mega-slowbro/",
+      "percent": 42.1
+    },
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": 38.3
+    },
+    {
+      "display_name": "Forretress",
+      "url": "pokemon/forretress/",
+      "percent": 37.8
+    },
+    {
+      "display_name": "Appletun",
+      "url": "pokemon/appletun/",
+      "percent": 36.0
+    },
+    {
+      "display_name": "Corviknight",
+      "url": "pokemon/corviknight/",
+      "percent": 32.6
+    },
+    {
+      "display_name": "Mudsdale",
+      "url": "pokemon/mudsdale/",
+      "percent": 30.4
+    }
+  ]
+}

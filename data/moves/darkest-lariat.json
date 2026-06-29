@@ -1,0 +1,50 @@
+{
+  "slug": "darkest-lariat",
+  "display_name": "Darkest Lariat",
+  "description": "This move ignores the target's stat changes when dealing damage.",
+  "type": "dark",
+  "power": 85.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Incineroar",
+      "url": "pokemon/incineroar/",
+      "percent": 30.1
+    },
+    {
+      "display_name": "Pangoro",
+      "url": "pokemon/pangoro/",
+      "percent": 22.1
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Golurk",
+      "url": "pokemon/golurk/",
+      "percent": null
+    },
+    {
+      "display_name": "Krookodile",
+      "url": "pokemon/krookodile/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Golurk",
+      "url": "pokemon/mega-golurk/",
+      "percent": null
+    },
+    {
+      "display_name": "Snorlax",
+      "url": "pokemon/snorlax/",
+      "percent": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "innards-out",
+  "display_name": "Innards Out",
+  "description": "when this pokémon faints from an opponent's move, that opponent takes damage equal to the hp this pokémon had remaining.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Victreebel",
+      "url": "pokemon/mega-victreebel/",
+      "percent": 100.0
+    }
+  ]
+}

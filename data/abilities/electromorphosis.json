@@ -1,0 +1,20 @@
+{
+  "slug": "electromorphosis",
+  "display_name": "Electromorphosis",
+  "description": "when hit by an attack, the power of the next electric-type move it uses is doubled.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Bellibolt",
+      "url": "pokemon/bellibolt/",
+      "percent": 99.7
+    }
+  ]
+}

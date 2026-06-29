@@ -1,0 +1,115 @@
+{
+  "slug": "trick-room",
+  "display_name": "Trick Room",
+  "description": "Gives the entire field the Trick Room status for 5 turns.",
+  "type": "psychic",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Oranguru",
+      "url": "pokemon/oranguru/",
+      "percent": 97.3
+    },
+    {
+      "display_name": "Aromatisse",
+      "url": "pokemon/aromatisse/",
+      "percent": 95.9
+    },
+    {
+      "display_name": "Runerigus",
+      "url": "pokemon/runerigus/",
+      "percent": 95.8
+    },
+    {
+      "display_name": "Slowbro",
+      "url": "pokemon/slowbro/",
+      "percent": 95.8
+    },
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": 95.5
+    },
+    {
+      "display_name": "Hatterene",
+      "url": "pokemon/hatterene/",
+      "percent": 94.6
+    },
+    {
+      "display_name": "Cofagrigus",
+      "url": "pokemon/cofagrigus/",
+      "percent": 93.5
+    },
+    {
+      "display_name": "Mega Audino",
+      "url": "pokemon/mega-audino/",
+      "percent": 92.8
+    },
+    {
+      "display_name": "Galarian Slowking",
+      "url": "pokemon/galarian-slowking/",
+      "percent": 91.9
+    },
+    {
+      "display_name": "Slowking",
+      "url": "pokemon/slowking/",
+      "percent": 91.0
+    },
+    {
+      "display_name": "Wyrdeer",
+      "url": "pokemon/wyrdeer/",
+      "percent": 91.0
+    },
+    {
+      "display_name": "Spiritomb",
+      "url": "pokemon/spiritomb/",
+      "percent": 90.8
+    },
+    {
+      "display_name": "Audino",
+      "url": "pokemon/audino/",
+      "percent": 83.7
+    },
+    {
+      "display_name": "Trevenant",
+      "url": "pokemon/trevenant/",
+      "percent": 82.5
+    },
+    {
+      "display_name": "Reuniclus",
+      "url": "pokemon/reuniclus/",
+      "percent": 80.3
+    },
+    {
+      "display_name": "Sinistcha",
+      "url": "pokemon/sinistcha/",
+      "percent": 70.6
+    },
+    {
+      "display_name": "Chandelure",
+      "url": "pokemon/chandelure/",
+      "percent": 69.4
+    },
+    {
+      "display_name": "Mega Chimecho",
+      "url": "pokemon/mega-chimecho/",
+      "percent": 65.7
+    },
+    {
+      "display_name": "Mega Gardevoir",
+      "url": "pokemon/mega-gardevoir/",
+      "percent": 65.1
+    },
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": 64.0
+    }
+  ]
+}

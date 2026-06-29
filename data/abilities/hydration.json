@@ -1,0 +1,25 @@
+{
+  "slug": "hydration",
+  "display_name": "Hydration",
+  "description": "cures any major status ailment after each turn during rain.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 20.6
+    },
+    {
+      "display_name": "Vaporeon",
+      "url": "pokemon/vaporeon/",
+      "percent": 0.8
+    }
+  ]
+}

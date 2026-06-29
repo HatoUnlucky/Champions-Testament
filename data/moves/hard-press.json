@@ -1,0 +1,115 @@
+{
+  "slug": "hard-press",
+  "display_name": "Hard Press",
+  "description": "The more HP the target has left the greater this move's power (ranging between 1 and 100).",
+  "type": "steel",
+  "power": 0.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": 4.5
+    },
+    {
+      "display_name": "Conkeldurr",
+      "url": "pokemon/conkeldurr/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Scizor",
+      "url": "pokemon/scizor/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Hippowdon",
+      "url": "pokemon/hippowdon/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Crabominable",
+      "url": "pokemon/crabominable/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Abomasnow",
+      "url": "pokemon/abomasnow/",
+      "percent": null
+    },
+    {
+      "display_name": "Archaludon",
+      "url": "pokemon/archaludon/",
+      "percent": null
+    },
+    {
+      "display_name": "Beartic",
+      "url": "pokemon/beartic/",
+      "percent": null
+    },
+    {
+      "display_name": "Emboar",
+      "url": "pokemon/emboar/",
+      "percent": null
+    },
+    {
+      "display_name": "Forretress",
+      "url": "pokemon/forretress/",
+      "percent": null
+    },
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": null
+    },
+    {
+      "display_name": "Golurk",
+      "url": "pokemon/golurk/",
+      "percent": null
+    },
+    {
+      "display_name": "Hisuian Avalugg",
+      "url": "pokemon/hisuian-avalugg/",
+      "percent": null
+    },
+    {
+      "display_name": "Mamoswine",
+      "url": "pokemon/mamoswine/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Abomasnow",
+      "url": "pokemon/mega-abomasnow/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Crabominable",
+      "url": "pokemon/mega-crabominable/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Emboar",
+      "url": "pokemon/mega-emboar/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Golurk",
+      "url": "pokemon/mega-golurk/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Pinsir",
+      "url": "pokemon/mega-pinsir/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Scizor",
+      "url": "pokemon/mega-scizor/",
+      "percent": null
+    }
+  ]
+}

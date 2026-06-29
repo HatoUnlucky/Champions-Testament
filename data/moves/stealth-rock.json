@@ -1,0 +1,115 @@
+{
+  "slug": "stealth-rock",
+  "display_name": "Stealth Rock",
+  "description": "Gives the opponent's side the Stealth Rock status.",
+  "type": "rock",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Forretress",
+      "url": "pokemon/forretress/",
+      "percent": 64.8
+    },
+    {
+      "display_name": "Hippowdon",
+      "url": "pokemon/hippowdon/",
+      "percent": 55.2
+    },
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": 23.4
+    },
+    {
+      "display_name": "Lycanroc (Midnight)",
+      "url": "pokemon/lycanroc-midnight/",
+      "percent": 15.9
+    },
+    {
+      "display_name": "Tinkaton",
+      "url": "pokemon/tinkaton/",
+      "percent": 9.4
+    },
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": 7.2
+    },
+    {
+      "display_name": "Skarmory",
+      "url": "pokemon/skarmory/",
+      "percent": 7.1
+    },
+    {
+      "display_name": "Steelix",
+      "url": "pokemon/steelix/",
+      "percent": 3.0
+    },
+    {
+      "display_name": "Torterra",
+      "url": "pokemon/torterra/",
+      "percent": 1.8
+    },
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": 1.3
+    },
+    {
+      "display_name": "Glimmora",
+      "url": "pokemon/glimmora/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Tyrantrum",
+      "url": "pokemon/tyrantrum/",
+      "percent": 1.1
+    },
+    {
+      "display_name": "Orthworm",
+      "url": "pokemon/orthworm/",
+      "percent": 1.0
+    },
+    {
+      "display_name": "Sandaconda",
+      "url": "pokemon/sandaconda/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Stunfisk",
+      "url": "pokemon/stunfisk/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Empoleon",
+      "url": "pokemon/empoleon/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Garchomp",
+      "url": "pokemon/garchomp/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Aurorus",
+      "url": "pokemon/aurorus/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Hisuian Avalugg",
+      "url": "pokemon/hisuian-avalugg/",
+      "percent": 0.3
+    }
+  ]
+}

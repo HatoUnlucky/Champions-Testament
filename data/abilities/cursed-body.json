@@ -1,0 +1,35 @@
+{
+  "slug": "cursed-body",
+  "display_name": "Cursed Body",
+  "description": "has a 30% chance of disabling any move that hits the pokémon.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Gengar",
+      "url": "pokemon/gengar/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Polteageist",
+      "url": "pokemon/polteageist/",
+      "percent": 79.5
+    },
+    {
+      "display_name": "Froslass",
+      "url": "pokemon/froslass/",
+      "percent": 21.1
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 5.0
+    }
+  ]
+}

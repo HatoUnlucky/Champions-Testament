@@ -1,0 +1,115 @@
+{
+  "slug": "ice-beam",
+  "display_name": "Ice Beam",
+  "description": "Has a 10% chance of freezing the target.",
+  "type": "ice",
+  "power": 90.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Greninja",
+      "url": "pokemon/mega-greninja/",
+      "percent": 69.0
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": 67.2
+    },
+    {
+      "display_name": "Galarian Slowbro",
+      "url": "pokemon/galarian-slowbro/",
+      "percent": 55.4
+    },
+    {
+      "display_name": "Slowbro",
+      "url": "pokemon/slowbro/",
+      "percent": 55.0
+    },
+    {
+      "display_name": "Starmie",
+      "url": "pokemon/starmie/",
+      "percent": 52.2
+    },
+    {
+      "display_name": "Greninja",
+      "url": "pokemon/greninja/",
+      "percent": 43.0
+    },
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 41.3
+    },
+    {
+      "display_name": "Empoleon",
+      "url": "pokemon/empoleon/",
+      "percent": 38.9
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 31.4
+    },
+    {
+      "display_name": "Simipour",
+      "url": "pokemon/simipour/",
+      "percent": 19.9
+    },
+    {
+      "display_name": "Milotic",
+      "url": "pokemon/milotic/",
+      "percent": 18.7
+    },
+    {
+      "display_name": "Vaporeon",
+      "url": "pokemon/vaporeon/",
+      "percent": 17.5
+    },
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": 17.4
+    },
+    {
+      "display_name": "Mega Blastoise",
+      "url": "pokemon/mega-blastoise/",
+      "percent": 14.7
+    },
+    {
+      "display_name": "Politoed",
+      "url": "pokemon/politoed/",
+      "percent": 14.2
+    },
+    {
+      "display_name": "Mega Dragonite",
+      "url": "pokemon/mega-dragonite/",
+      "percent": 13.3
+    },
+    {
+      "display_name": "Hisuian Goodra",
+      "url": "pokemon/hisuian-goodra/",
+      "percent": 9.6
+    },
+    {
+      "display_name": "Vanilluxe",
+      "url": "pokemon/vanilluxe/",
+      "percent": 9.5
+    },
+    {
+      "display_name": "Clawitzer",
+      "url": "pokemon/clawitzer/",
+      "percent": 8.8
+    },
+    {
+      "display_name": "Slowking",
+      "url": "pokemon/slowking/",
+      "percent": 7.9
+    }
+  ]
+}

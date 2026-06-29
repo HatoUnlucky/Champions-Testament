@@ -1,0 +1,90 @@
+{
+  "slug": "feather-dance",
+  "display_name": "Feather Dance",
+  "description": "Lowers the target's Attack stat by 2 stages.",
+  "type": "flying",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Espathra",
+      "url": "pokemon/espathra/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Mega Pidgeot",
+      "url": "pokemon/mega-pidgeot/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Talonflame",
+      "url": "pokemon/talonflame/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Pelipper",
+      "url": "pokemon/pelipper/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": null
+    },
+    {
+      "display_name": "Corviknight",
+      "url": "pokemon/corviknight/",
+      "percent": null
+    },
+    {
+      "display_name": "Decidueye",
+      "url": "pokemon/decidueye/",
+      "percent": null
+    },
+    {
+      "display_name": "Empoleon",
+      "url": "pokemon/empoleon/",
+      "percent": null
+    },
+    {
+      "display_name": "Hawlucha",
+      "url": "pokemon/hawlucha/",
+      "percent": null
+    },
+    {
+      "display_name": "Hisuian Decidueye",
+      "url": "pokemon/hisuian-decidueye/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Altaria",
+      "url": "pokemon/mega-altaria/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Hawlucha",
+      "url": "pokemon/mega-hawlucha/",
+      "percent": null
+    },
+    {
+      "display_name": "Pidgeot",
+      "url": "pokemon/pidgeot/",
+      "percent": null
+    },
+    {
+      "display_name": "Quaquaval",
+      "url": "pokemon/quaquaval/",
+      "percent": null
+    },
+    {
+      "display_name": "Toucannon",
+      "url": "pokemon/toucannon/",
+      "percent": null
+    }
+  ]
+}

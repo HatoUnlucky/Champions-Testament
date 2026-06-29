@@ -1,0 +1,30 @@
+{
+  "slug": "huge-power",
+  "display_name": "Huge Power",
+  "description": "doubles attack in battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Starmie",
+      "url": "pokemon/mega-starmie/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Diggersby",
+      "url": "pokemon/diggersby/",
+      "percent": 99.5
+    },
+    {
+      "display_name": "Azumarill",
+      "url": "pokemon/azumarill/",
+      "percent": 97.2
+    }
+  ]
+}

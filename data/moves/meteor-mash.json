@@ -1,0 +1,35 @@
+{
+  "slug": "meteor-mash",
+  "display_name": "Meteor Mash",
+  "description": "Has a 20% chance of boosting the user's Attack stat by 1 stage.",
+  "type": "steel",
+  "power": 90.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Lucario",
+      "url": "pokemon/lucario/",
+      "percent": 74.5
+    },
+    {
+      "display_name": "Mega Lucario",
+      "url": "pokemon/mega-lucario/",
+      "percent": 48.3
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Clefable",
+      "url": "pokemon/mega-clefable/",
+      "percent": null
+    }
+  ]
+}

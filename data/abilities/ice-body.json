@@ -1,0 +1,40 @@
+{
+  "slug": "ice-body",
+  "display_name": "Ice Body",
+  "description": "heals for 1/16 max hp after each turn during hail.  protects against hail damage.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hisuian Avalugg",
+      "url": "pokemon/hisuian-avalugg/",
+      "percent": 25.1
+    },
+    {
+      "display_name": "Avalugg",
+      "url": "pokemon/avalugg/",
+      "percent": 14.4
+    },
+    {
+      "display_name": "Glaceon",
+      "url": "pokemon/glaceon/",
+      "percent": 7.9
+    },
+    {
+      "display_name": "Vanilluxe",
+      "url": "pokemon/vanilluxe/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Glalie",
+      "url": "pokemon/glalie/",
+      "percent": 0.0
+    }
+  ]
+}

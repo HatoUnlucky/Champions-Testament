@@ -1,0 +1,115 @@
+{
+  "slug": "drain-punch",
+  "display_name": "Drain Punch",
+  "description": "The user's HP is restored by 1/2 of the damage dealt by this move.",
+  "type": "fighting",
+  "power": 75.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Conkeldurr",
+      "url": "pokemon/conkeldurr/",
+      "percent": 80.4
+    },
+    {
+      "display_name": "Mega Crabominable",
+      "url": "pokemon/mega-crabominable/",
+      "percent": 75.0
+    },
+    {
+      "display_name": "Crabominable",
+      "url": "pokemon/crabominable/",
+      "percent": 48.3
+    },
+    {
+      "display_name": "Toxicroak",
+      "url": "pokemon/toxicroak/",
+      "percent": 27.9
+    },
+    {
+      "display_name": "Passimian",
+      "url": "pokemon/passimian/",
+      "percent": 27.7
+    },
+    {
+      "display_name": "Mega Emboar",
+      "url": "pokemon/mega-emboar/",
+      "percent": 24.6
+    },
+    {
+      "display_name": "Mega Kangaskhan",
+      "url": "pokemon/mega-kangaskhan/",
+      "percent": 23.9
+    },
+    {
+      "display_name": "Emboar",
+      "url": "pokemon/emboar/",
+      "percent": 20.3
+    },
+    {
+      "display_name": "Mega Gallade",
+      "url": "pokemon/mega-gallade/",
+      "percent": 19.4
+    },
+    {
+      "display_name": "Mega Chesnaught",
+      "url": "pokemon/mega-chesnaught/",
+      "percent": 17.8
+    },
+    {
+      "display_name": "Mega Golurk",
+      "url": "pokemon/mega-golurk/",
+      "percent": 17.3
+    },
+    {
+      "display_name": "Pangoro",
+      "url": "pokemon/pangoro/",
+      "percent": 14.0
+    },
+    {
+      "display_name": "Mega Medicham",
+      "url": "pokemon/mega-medicham/",
+      "percent": 10.2
+    },
+    {
+      "display_name": "Infernape",
+      "url": "pokemon/infernape/",
+      "percent": 10.1
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": 9.0
+    },
+    {
+      "display_name": "Kommo-o",
+      "url": "pokemon/kommo-o/",
+      "percent": 8.7
+    },
+    {
+      "display_name": "Galarian Slowbro",
+      "url": "pokemon/galarian-slowbro/",
+      "percent": 8.0
+    },
+    {
+      "display_name": "Mega Lucario",
+      "url": "pokemon/mega-lucario/",
+      "percent": 7.9
+    },
+    {
+      "display_name": "Palafin",
+      "url": "pokemon/palafin/",
+      "percent": 6.1
+    },
+    {
+      "display_name": "Chesnaught",
+      "url": "pokemon/chesnaught/",
+      "percent": 4.5
+    }
+  ]
+}

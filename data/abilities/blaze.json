@@ -1,0 +1,60 @@
+{
+  "slug": "blaze",
+  "display_name": "Blaze",
+  "description": "strengthens fire moves to inflict 1.5× damage at 1/3 max hp or less.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Delphox",
+      "url": "pokemon/delphox/",
+      "percent": 92.3
+    },
+    {
+      "display_name": "Simisear",
+      "url": "pokemon/simisear/",
+      "percent": 83.2
+    },
+    {
+      "display_name": "Infernape",
+      "url": "pokemon/infernape/",
+      "percent": 77.1
+    },
+    {
+      "display_name": "Hisuian Typhlosion",
+      "url": "pokemon/hisuian-typhlosion/",
+      "percent": 30.9
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": 8.0
+    },
+    {
+      "display_name": "Typhlosion",
+      "url": "pokemon/typhlosion/",
+      "percent": 5.1
+    },
+    {
+      "display_name": "Emboar",
+      "url": "pokemon/emboar/",
+      "percent": 3.4
+    },
+    {
+      "display_name": "Skeledirge",
+      "url": "pokemon/skeledirge/",
+      "percent": 2.9
+    },
+    {
+      "display_name": "Incineroar",
+      "url": "pokemon/incineroar/",
+      "percent": 0.4
+    }
+  ]
+}

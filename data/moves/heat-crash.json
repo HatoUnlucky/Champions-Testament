@@ -1,0 +1,95 @@
+{
+  "slug": "heat-crash",
+  "display_name": "Heat Crash",
+  "description": "The more the user outweighs the target the greater this move's power (ranging between 40 and 120). If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
+  "type": "fire",
+  "power": null,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Emboar",
+      "url": "pokemon/mega-emboar/",
+      "percent": 3.6
+    },
+    {
+      "display_name": "Rhyperior",
+      "url": "pokemon/rhyperior/",
+      "percent": 2.0
+    },
+    {
+      "display_name": "Mega Golurk",
+      "url": "pokemon/mega-golurk/",
+      "percent": 1.1
+    },
+    {
+      "display_name": "Camerupt",
+      "url": "pokemon/camerupt/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Arcanine",
+      "url": "pokemon/arcanine/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Mega Camerupt",
+      "url": "pokemon/mega-camerupt/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Mega Charizard Y",
+      "url": "pokemon/mega-charizard-y/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Snorlax",
+      "url": "pokemon/snorlax/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Torkoal",
+      "url": "pokemon/torkoal/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": null
+    },
+    {
+      "display_name": "Emboar",
+      "url": "pokemon/emboar/",
+      "percent": null
+    },
+    {
+      "display_name": "Golurk",
+      "url": "pokemon/golurk/",
+      "percent": null
+    },
+    {
+      "display_name": "Hisuian Arcanine",
+      "url": "pokemon/hisuian-arcanine/",
+      "percent": null
+    },
+    {
+      "display_name": "Incineroar",
+      "url": "pokemon/incineroar/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Charizard X",
+      "url": "pokemon/mega-charizard-x/",
+      "percent": null
+    },
+    {
+      "display_name": "Skeledirge",
+      "url": "pokemon/skeledirge/",
+      "percent": null
+    }
+  ]
+}

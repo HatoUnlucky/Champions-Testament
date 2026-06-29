@@ -1,0 +1,20 @@
+{
+  "slug": "instruct",
+  "display_name": "Instruct",
+  "description": "The user makes the target reuse the last move it used.",
+  "type": "psychic",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Oranguru",
+      "url": "pokemon/oranguru/",
+      "percent": 97.9
+    }
+  ]
+}

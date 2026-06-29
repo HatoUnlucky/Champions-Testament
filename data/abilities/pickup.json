@@ -1,0 +1,30 @@
+{
+  "slug": "pickup",
+  "display_name": "Pickup",
+  "description": "picks up other pokémon's used and flung held items.  may also pick up an item after battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Dedenne",
+      "url": "pokemon/dedenne/",
+      "percent": 12.3
+    },
+    {
+      "display_name": "Diggersby",
+      "url": "pokemon/diggersby/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Gourgeist",
+      "url": "pokemon/gourgeist/",
+      "percent": 0.0
+    }
+  ]
+}

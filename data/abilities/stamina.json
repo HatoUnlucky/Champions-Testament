@@ -1,0 +1,25 @@
+{
+  "slug": "stamina",
+  "display_name": "Stamina",
+  "description": "raises this pokémon's defense by one stage when it takes damage from a move.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Archaludon",
+      "url": "pokemon/archaludon/",
+      "percent": 85.5
+    },
+    {
+      "display_name": "Mudsdale",
+      "url": "pokemon/mudsdale/",
+      "percent": 34.3
+    }
+  ]
+}

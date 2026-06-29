@@ -1,0 +1,40 @@
+{
+  "slug": "poison-fang",
+  "display_name": "Poison Fang",
+  "description": "Has a 50% chance of badly poisoning the target.",
+  "type": "poison",
+  "power": 50.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": 6.8
+    },
+    {
+      "display_name": "Mega Sharpedo",
+      "url": "pokemon/mega-sharpedo/",
+      "percent": 1.9
+    },
+    {
+      "display_name": "Tyrantrum",
+      "url": "pokemon/tyrantrum/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Sharpedo",
+      "url": "pokemon/sharpedo/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Salazzle",
+      "url": "pokemon/salazzle/",
+      "percent": null
+    }
+  ]
+}

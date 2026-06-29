@@ -1,0 +1,20 @@
+{
+  "slug": "fire-lash",
+  "display_name": "Fire Lash",
+  "description": "Lowers the target's Defense stat by 1 stage.",
+  "type": "fire",
+  "power": 90.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Salazzle",
+      "url": "pokemon/salazzle/",
+      "percent": 0.4
+    }
+  ]
+}

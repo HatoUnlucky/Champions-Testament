@@ -1,0 +1,115 @@
+{
+  "slug": "pounce",
+  "display_name": "Pounce",
+  "description": "Lowers the target's Speed stat by 1 stage.",
+  "type": "bug",
+  "power": 50.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Beedrill",
+      "url": "pokemon/mega-beedrill/",
+      "percent": 1.9
+    },
+    {
+      "display_name": "Espathra",
+      "url": "pokemon/espathra/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Scizor",
+      "url": "pokemon/scizor/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Flapple",
+      "url": "pokemon/flapple/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Manectric",
+      "url": "pokemon/mega-manectric/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Scizor",
+      "url": "pokemon/mega-scizor/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Tinkaton",
+      "url": "pokemon/tinkaton/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Appletun",
+      "url": "pokemon/appletun/",
+      "percent": null
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": null
+    },
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": null
+    },
+    {
+      "display_name": "Banette",
+      "url": "pokemon/banette/",
+      "percent": null
+    },
+    {
+      "display_name": "Beedrill",
+      "url": "pokemon/beedrill/",
+      "percent": null
+    },
+    {
+      "display_name": "Clawitzer",
+      "url": "pokemon/clawitzer/",
+      "percent": null
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": null
+    },
+    {
+      "display_name": "Emolga",
+      "url": "pokemon/emolga/",
+      "percent": null
+    },
+    {
+      "display_name": "Forretress",
+      "url": "pokemon/forretress/",
+      "percent": null
+    },
+    {
+      "display_name": "Heliolisk",
+      "url": "pokemon/heliolisk/",
+      "percent": null
+    },
+    {
+      "display_name": "Heracross",
+      "url": "pokemon/heracross/",
+      "percent": null
+    },
+    {
+      "display_name": "Hydrapple",
+      "url": "pokemon/hydrapple/",
+      "percent": null
+    },
+    {
+      "display_name": "Kleavor",
+      "url": "pokemon/kleavor/",
+      "percent": null
+    }
+  ]
+}

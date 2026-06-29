@@ -1,0 +1,30 @@
+{
+  "slug": "anger-point",
+  "display_name": "Anger Point",
+  "description": "raises attack to the maximum of six stages upon receiving a critical hit.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Camerupt",
+      "url": "pokemon/camerupt/",
+      "percent": 64.5
+    },
+    {
+      "display_name": "Krookodile",
+      "url": "pokemon/krookodile/",
+      "percent": 2.5
+    },
+    {
+      "display_name": "Crabominable",
+      "url": "pokemon/crabominable/",
+      "percent": 2.3
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "hex",
+  "display_name": "Hex",
+  "description": "This move's power is doubled if the target has a status condition.",
+  "type": "ghost",
+  "power": 65.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Cofagrigus",
+      "url": "pokemon/cofagrigus/",
+      "percent": 12.6
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": 8.4
+    },
+    {
+      "display_name": "Skeledirge",
+      "url": "pokemon/skeledirge/",
+      "percent": 6.3
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 5.2
+    },
+    {
+      "display_name": "Polteageist",
+      "url": "pokemon/polteageist/",
+      "percent": 4.2
+    },
+    {
+      "display_name": "Spiritomb",
+      "url": "pokemon/spiritomb/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Mega Chandelure",
+      "url": "pokemon/mega-chandelure/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Toxapex",
+      "url": "pokemon/toxapex/",
+      "percent": 1.1
+    },
+    {
+      "display_name": "Hisuian Typhlosion",
+      "url": "pokemon/hisuian-typhlosion/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Mega Gengar",
+      "url": "pokemon/mega-gengar/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Chandelure",
+      "url": "pokemon/chandelure/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Mega Froslass",
+      "url": "pokemon/mega-froslass/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Hisuian Zoroark",
+      "url": "pokemon/hisuian-zoroark/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Gengar",
+      "url": "pokemon/gengar/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Sinistcha",
+      "url": "pokemon/sinistcha/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Heat Rotom",
+      "url": "pokemon/heat-rotom/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Rotom",
+      "url": "pokemon/rotom/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Wash Rotom",
+      "url": "pokemon/wash-rotom/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Alolan Ninetales",
+      "url": "pokemon/alolan-ninetales/",
+      "percent": 0.0
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "slug": "symbiosis",
+  "display_name": "Symbiosis",
+  "description": "passes the bearer's held item to an ally when the ally uses up its item.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Florges",
+      "url": "pokemon/florges/",
+      "percent": 14.5
+    },
+    {
+      "display_name": "Floette (Eternal)",
+      "url": "pokemon/floette-eternal/",
+      "percent": 6.5
+    },
+    {
+      "display_name": "Oranguru",
+      "url": "pokemon/oranguru/",
+      "percent": 0.3
+    }
+  ]
+}

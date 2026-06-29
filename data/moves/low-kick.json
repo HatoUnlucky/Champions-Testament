@@ -1,0 +1,115 @@
+{
+  "slug": "low-kick",
+  "display_name": "Low Kick",
+  "description": "The heavier the target the greater this move's power (ranging between 20 and 120).",
+  "type": "fighting",
+  "power": null,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Watchog",
+      "url": "pokemon/watchog/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Kingambit",
+      "url": "pokemon/kingambit/",
+      "percent": 60.1
+    },
+    {
+      "display_name": "Dragonite",
+      "url": "pokemon/dragonite/",
+      "percent": 59.4
+    },
+    {
+      "display_name": "Mega Tyranitar",
+      "url": "pokemon/mega-tyranitar/",
+      "percent": 59.1
+    },
+    {
+      "display_name": "Weavile",
+      "url": "pokemon/weavile/",
+      "percent": 58.4
+    },
+    {
+      "display_name": "Tsareena",
+      "url": "pokemon/tsareena/",
+      "percent": 53.1
+    },
+    {
+      "display_name": "Tyranitar",
+      "url": "pokemon/tyranitar/",
+      "percent": 52.9
+    },
+    {
+      "display_name": "Mega Kangaskhan",
+      "url": "pokemon/mega-kangaskhan/",
+      "percent": 51.5
+    },
+    {
+      "display_name": "Meowscarada",
+      "url": "pokemon/meowscarada/",
+      "percent": 38.5
+    },
+    {
+      "display_name": "Mega Greninja",
+      "url": "pokemon/mega-greninja/",
+      "percent": 16.5
+    },
+    {
+      "display_name": "Simisear",
+      "url": "pokemon/simisear/",
+      "percent": 15.2
+    },
+    {
+      "display_name": "Passimian",
+      "url": "pokemon/passimian/",
+      "percent": 13.2
+    },
+    {
+      "display_name": "Simisage",
+      "url": "pokemon/simisage/",
+      "percent": 12.4
+    },
+    {
+      "display_name": "Greninja",
+      "url": "pokemon/greninja/",
+      "percent": 6.0
+    },
+    {
+      "display_name": "Toxicroak",
+      "url": "pokemon/toxicroak/",
+      "percent": 5.1
+    },
+    {
+      "display_name": "Kangaskhan",
+      "url": "pokemon/kangaskhan/",
+      "percent": 3.1
+    },
+    {
+      "display_name": "Mega Heracross",
+      "url": "pokemon/mega-heracross/",
+      "percent": 3.1
+    },
+    {
+      "display_name": "Beartic",
+      "url": "pokemon/beartic/",
+      "percent": 2.6
+    },
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": 2.6
+    },
+    {
+      "display_name": "Quaquaval",
+      "url": "pokemon/quaquaval/",
+      "percent": 1.7
+    }
+  ]
+}

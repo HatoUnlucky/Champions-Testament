@@ -1,0 +1,20 @@
+{
+  "slug": "kings-shield",
+  "display_name": "King's Shield",
+  "description": "The user protects itself from incoming attacks for the turn and changes into its Shield Forme. Any attackers that use contact moves against the user during this turn will have their Attack stats lowered by 1 stage. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+  "type": "steel",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Aegislash",
+      "url": "pokemon/aegislash/",
+      "percent": 75.3
+    }
+  ]
+}

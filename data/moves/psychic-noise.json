@@ -1,0 +1,115 @@
+{
+  "slug": "psychic-noise",
+  "display_name": "Psychic Noise",
+  "description": "Gives the target the Healing Prevented status for 2 turns.",
+  "type": "psychic",
+  "power": 75.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Chimecho",
+      "url": "pokemon/chimecho/",
+      "percent": 88.1
+    },
+    {
+      "display_name": "Meowstic (Male)",
+      "url": "pokemon/meowstic-male/",
+      "percent": 5.5
+    },
+    {
+      "display_name": "Galarian Slowking",
+      "url": "pokemon/galarian-slowking/",
+      "percent": 5.4
+    },
+    {
+      "display_name": "Slowking",
+      "url": "pokemon/slowking/",
+      "percent": 5.1
+    },
+    {
+      "display_name": "Wyrdeer",
+      "url": "pokemon/wyrdeer/",
+      "percent": 5.1
+    },
+    {
+      "display_name": "Alolan Raichu",
+      "url": "pokemon/alolan-raichu/",
+      "percent": 4.4
+    },
+    {
+      "display_name": "Oranguru",
+      "url": "pokemon/oranguru/",
+      "percent": 4.2
+    },
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": 2.9
+    },
+    {
+      "display_name": "Florges",
+      "url": "pokemon/florges/",
+      "percent": 2.7
+    },
+    {
+      "display_name": "Slowbro",
+      "url": "pokemon/slowbro/",
+      "percent": 2.3
+    },
+    {
+      "display_name": "Mega Chimecho",
+      "url": "pokemon/mega-chimecho/",
+      "percent": 2.2
+    },
+    {
+      "display_name": "Reuniclus",
+      "url": "pokemon/reuniclus/",
+      "percent": 1.8
+    },
+    {
+      "display_name": "Espeon",
+      "url": "pokemon/espeon/",
+      "percent": 1.7
+    },
+    {
+      "display_name": "Gardevoir",
+      "url": "pokemon/gardevoir/",
+      "percent": 1.0
+    },
+    {
+      "display_name": "Hatterene",
+      "url": "pokemon/hatterene/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Mega Gardevoir",
+      "url": "pokemon/mega-gardevoir/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Mega Slowbro",
+      "url": "pokemon/mega-slowbro/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Primarina",
+      "url": "pokemon/primarina/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Noivern",
+      "url": "pokemon/noivern/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Delphox",
+      "url": "pokemon/delphox/",
+      "percent": 0.1
+    }
+  ]
+}

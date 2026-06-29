@@ -1,0 +1,35 @@
+{
+  "slug": "strength-sap",
+  "display_name": "Strength Sap",
+  "description": "Restores the user's HP by an amount equal to the target's Attack stat. Lowers the target's Attack stat by 1 stage.",
+  "type": "grass",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Victreebel",
+      "url": "pokemon/mega-victreebel/",
+      "percent": 66.4
+    },
+    {
+      "display_name": "Victreebel",
+      "url": "pokemon/victreebel/",
+      "percent": 8.5
+    },
+    {
+      "display_name": "Sinistcha",
+      "url": "pokemon/sinistcha/",
+      "percent": 5.8
+    },
+    {
+      "display_name": "Polteageist",
+      "url": "pokemon/polteageist/",
+      "percent": 0.5
+    }
+  ]
+}

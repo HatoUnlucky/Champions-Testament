@@ -1,0 +1,25 @@
+{
+  "slug": "poison-touch",
+  "display_name": "Poison Touch",
+  "description": "has a 30% chance of poisoning target pokémon upon contact.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Sneasler",
+      "url": "pokemon/sneasler/",
+      "percent": 11.8
+    },
+    {
+      "display_name": "Toxicroak",
+      "url": "pokemon/toxicroak/",
+      "percent": 4.2
+    }
+  ]
+}

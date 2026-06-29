@@ -1,0 +1,115 @@
+{
+  "slug": "thunder-wave",
+  "display_name": "Thunder Wave",
+  "description": "Paralyzes the target.",
+  "type": "electric",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Rotom",
+      "url": "pokemon/rotom/",
+      "percent": 93.8
+    },
+    {
+      "display_name": "Gyarados",
+      "url": "pokemon/gyarados/",
+      "percent": 58.9
+    },
+    {
+      "display_name": "Klefki",
+      "url": "pokemon/klefki/",
+      "percent": 57.0
+    },
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": 37.1
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 30.4
+    },
+    {
+      "display_name": "Forretress",
+      "url": "pokemon/forretress/",
+      "percent": 29.3
+    },
+    {
+      "display_name": "Luxray",
+      "url": "pokemon/luxray/",
+      "percent": 14.2
+    },
+    {
+      "display_name": "Meowstic (Male)",
+      "url": "pokemon/meowstic-male/",
+      "percent": 11.9
+    },
+    {
+      "display_name": "Sableye",
+      "url": "pokemon/sableye/",
+      "percent": 9.9
+    },
+    {
+      "display_name": "Liepard",
+      "url": "pokemon/liepard/",
+      "percent": 9.1
+    },
+    {
+      "display_name": "Manectric",
+      "url": "pokemon/manectric/",
+      "percent": 7.8
+    },
+    {
+      "display_name": "Jolteon",
+      "url": "pokemon/jolteon/",
+      "percent": 7.6
+    },
+    {
+      "display_name": "Stunfisk",
+      "url": "pokemon/stunfisk/",
+      "percent": 5.8
+    },
+    {
+      "display_name": "Fan Rotom",
+      "url": "pokemon/fan-rotom/",
+      "percent": 3.9
+    },
+    {
+      "display_name": "Mega Sableye",
+      "url": "pokemon/mega-sableye/",
+      "percent": 3.4
+    },
+    {
+      "display_name": "Ampharos",
+      "url": "pokemon/ampharos/",
+      "percent": 3.3
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 3.1
+    },
+    {
+      "display_name": "Tinkaton",
+      "url": "pokemon/tinkaton/",
+      "percent": 2.9
+    },
+    {
+      "display_name": "Audino",
+      "url": "pokemon/audino/",
+      "percent": 2.6
+    },
+    {
+      "display_name": "Mega Manectric",
+      "url": "pokemon/mega-manectric/",
+      "percent": 2.6
+    }
+  ]
+}

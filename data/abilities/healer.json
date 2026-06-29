@@ -1,0 +1,35 @@
+{
+  "slug": "healer",
+  "display_name": "Healer",
+  "description": "has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Audino",
+      "url": "pokemon/mega-audino/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Audino",
+      "url": "pokemon/audino/",
+      "percent": 69.3
+    },
+    {
+      "display_name": "Aromatisse",
+      "url": "pokemon/aromatisse/",
+      "percent": 3.8
+    },
+    {
+      "display_name": "Hatterene",
+      "url": "pokemon/hatterene/",
+      "percent": 2.7
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "unaware",
+  "display_name": "Unaware",
+  "description": "ignores other pokémon's stat modifiers for damage and accuracy calculation.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Skeledirge",
+      "url": "pokemon/skeledirge/",
+      "percent": 97.1
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": 77.1
+    }
+  ]
+}

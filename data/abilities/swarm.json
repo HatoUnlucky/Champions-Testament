@@ -1,0 +1,45 @@
+{
+  "slug": "swarm",
+  "display_name": "Swarm",
+  "description": "strengthens bug moves to inflict 1.5× damage at 1/3 max hp or less.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": 1.9
+    },
+    {
+      "display_name": "Scizor",
+      "url": "pokemon/scizor/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Volcarona",
+      "url": "pokemon/volcarona/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Kleavor",
+      "url": "pokemon/kleavor/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Beedrill",
+      "url": "pokemon/beedrill/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Heracross",
+      "url": "pokemon/heracross/",
+      "percent": 0.0
+    }
+  ]
+}

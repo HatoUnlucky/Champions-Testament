@@ -1,0 +1,115 @@
+{
+  "slug": "sandstorm",
+  "display_name": "Sandstorm",
+  "description": "Summons a sandstorm for 5 turns.",
+  "type": "rock",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Klefki",
+      "url": "pokemon/klefki/",
+      "percent": 7.4
+    },
+    {
+      "display_name": "Sandaconda",
+      "url": "pokemon/sandaconda/",
+      "percent": 4.7
+    },
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": 1.0
+    },
+    {
+      "display_name": "Gyarados",
+      "url": "pokemon/gyarados/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Skarmory",
+      "url": "pokemon/skarmory/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Orthworm",
+      "url": "pokemon/orthworm/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Espathra",
+      "url": "pokemon/espathra/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Hippowdon",
+      "url": "pokemon/hippowdon/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Aerodactyl",
+      "url": "pokemon/aerodactyl/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Hisuian Arcanine",
+      "url": "pokemon/hisuian-arcanine/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Mega Excadrill",
+      "url": "pokemon/mega-excadrill/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Stunfisk",
+      "url": "pokemon/stunfisk/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Glimmora",
+      "url": "pokemon/glimmora/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Hisuian Avalugg",
+      "url": "pokemon/hisuian-avalugg/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Lycanroc (Midday)",
+      "url": "pokemon/lycanroc-midday/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Absol",
+      "url": "pokemon/absol/",
+      "percent": null
+    },
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": null
+    },
+    {
+      "display_name": "Aurorus",
+      "url": "pokemon/aurorus/",
+      "percent": null
+    },
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": null
+    }
+  ]
+}

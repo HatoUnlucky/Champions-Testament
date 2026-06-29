@@ -1,0 +1,65 @@
+{
+  "slug": "spit-up",
+  "display_name": "Spit Up",
+  "description": "The higher the user's Stockpiling level the greater this move's power (ranging between 100 and 300). This move fails unless the user has the Stockpiling status.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": null
+    },
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": null
+    },
+    {
+      "display_name": "Camerupt",
+      "url": "pokemon/camerupt/",
+      "percent": null
+    },
+    {
+      "display_name": "Hippowdon",
+      "url": "pokemon/hippowdon/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Camerupt",
+      "url": "pokemon/mega-camerupt/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Victreebel",
+      "url": "pokemon/mega-victreebel/",
+      "percent": null
+    },
+    {
+      "display_name": "Pelipper",
+      "url": "pokemon/pelipper/",
+      "percent": null
+    },
+    {
+      "display_name": "Torterra",
+      "url": "pokemon/torterra/",
+      "percent": null
+    },
+    {
+      "display_name": "Toxapex",
+      "url": "pokemon/toxapex/",
+      "percent": null
+    },
+    {
+      "display_name": "Victreebel",
+      "url": "pokemon/victreebel/",
+      "percent": null
+    }
+  ]
+}

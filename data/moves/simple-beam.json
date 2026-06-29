@@ -1,0 +1,25 @@
+{
+  "slug": "simple-beam",
+  "display_name": "Simple Beam",
+  "description": "Changes the target's Ability to Simple.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Audino",
+      "url": "pokemon/audino/",
+      "percent": 89.2
+    },
+    {
+      "display_name": "Mega Audino",
+      "url": "pokemon/mega-audino/",
+      "percent": 5.7
+    }
+  ]
+}

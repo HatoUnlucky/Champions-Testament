@@ -1,0 +1,115 @@
+{
+  "slug": "acrobatics",
+  "display_name": "Acrobatics",
+  "description": "This move's power is doubled if the user isn't holding an item.",
+  "type": "flying",
+  "power": 55.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hawlucha",
+      "url": "pokemon/hawlucha/",
+      "percent": 79.4
+    },
+    {
+      "display_name": "Talonflame",
+      "url": "pokemon/talonflame/",
+      "percent": 40.7
+    },
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": 30.4
+    },
+    {
+      "display_name": "Flapple",
+      "url": "pokemon/flapple/",
+      "percent": 2.0
+    },
+    {
+      "display_name": "Passimian",
+      "url": "pokemon/passimian/",
+      "percent": 2.0
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": 1.7
+    },
+    {
+      "display_name": "Emolga",
+      "url": "pokemon/emolga/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Quaquaval",
+      "url": "pokemon/quaquaval/",
+      "percent": 1.3
+    },
+    {
+      "display_name": "Sneasler",
+      "url": "pokemon/sneasler/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Palafin",
+      "url": "pokemon/palafin/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Tsareena",
+      "url": "pokemon/tsareena/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Meowscarada",
+      "url": "pokemon/meowscarada/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Simisage",
+      "url": "pokemon/simisage/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Mega Beedrill",
+      "url": "pokemon/mega-beedrill/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Scizor",
+      "url": "pokemon/scizor/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Kleavor",
+      "url": "pokemon/kleavor/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Lopunny",
+      "url": "pokemon/lopunny/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Mega Hawlucha",
+      "url": "pokemon/mega-hawlucha/",
+      "percent": 0.1
+    }
+  ]
+}

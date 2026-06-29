@@ -1,0 +1,20 @@
+{
+  "slug": "immunity",
+  "display_name": "Immunity",
+  "description": "prevents poison.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Snorlax",
+      "url": "pokemon/snorlax/",
+      "percent": 0.6
+    }
+  ]
+}

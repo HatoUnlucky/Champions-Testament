@@ -1,0 +1,20 @@
+{
+  "slug": "hospitality",
+  "display_name": "Hospitality",
+  "description": "when a pokémon with hospitality enters a battle, it restores hp for an ally by 25%.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Sinistcha",
+      "url": "pokemon/sinistcha/",
+      "percent": 99.1
+    }
+  ]
+}

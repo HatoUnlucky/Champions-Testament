@@ -1,0 +1,115 @@
+{
+  "slug": "liquidation",
+  "display_name": "Liquidation",
+  "description": "Has a 20% chance of lowering the target's Defense stat by 1 stage.",
+  "type": "water",
+  "power": 85.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Feraligatr",
+      "url": "pokemon/feraligatr/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Mega Starmie",
+      "url": "pokemon/mega-starmie/",
+      "percent": 81.8
+    },
+    {
+      "display_name": "Mega Feraligatr",
+      "url": "pokemon/mega-feraligatr/",
+      "percent": 77.4
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 70.3
+    },
+    {
+      "display_name": "Sharpedo",
+      "url": "pokemon/sharpedo/",
+      "percent": 46.5
+    },
+    {
+      "display_name": "Azumarill",
+      "url": "pokemon/azumarill/",
+      "percent": 42.8
+    },
+    {
+      "display_name": "Mega Sharpedo",
+      "url": "pokemon/mega-sharpedo/",
+      "percent": 42.7
+    },
+    {
+      "display_name": "Basculegion Male",
+      "url": "pokemon/basculegion-male/",
+      "percent": 29.9
+    },
+    {
+      "display_name": "Beartic",
+      "url": "pokemon/beartic/",
+      "percent": 15.0
+    },
+    {
+      "display_name": "Toxapex",
+      "url": "pokemon/toxapex/",
+      "percent": 2.6
+    },
+    {
+      "display_name": "Greninja",
+      "url": "pokemon/greninja/",
+      "percent": 1.0
+    },
+    {
+      "display_name": "Quaquaval",
+      "url": "pokemon/quaquaval/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Mega Greninja",
+      "url": "pokemon/mega-greninja/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Palafin",
+      "url": "pokemon/palafin/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Simipour",
+      "url": "pokemon/simipour/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Mega Crabominable",
+      "url": "pokemon/mega-crabominable/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Mega Garchomp",
+      "url": "pokemon/mega-garchomp/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Crabominable",
+      "url": "pokemon/crabominable/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Blastoise",
+      "url": "pokemon/mega-blastoise/",
+      "percent": 0.0
+    }
+  ]
+}

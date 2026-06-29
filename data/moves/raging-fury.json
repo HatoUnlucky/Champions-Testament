@@ -1,0 +1,30 @@
+{
+  "slug": "raging-fury",
+  "display_name": "Raging Fury",
+  "description": "The user gains the Rampaging status.",
+  "type": "fire",
+  "power": 120.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hisuian Arcanine",
+      "url": "pokemon/hisuian-arcanine/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Arcanine",
+      "url": "pokemon/arcanine/",
+      "percent": null
+    },
+    {
+      "display_name": "Infernape",
+      "url": "pokemon/infernape/",
+      "percent": null
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "fire-blast",
+  "display_name": "Fire Blast",
+  "description": "Has a 10% chance of burning the target.",
+  "type": "fire",
+  "power": 110.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Houndoom",
+      "url": "pokemon/houndoom/",
+      "percent": 79.0
+    },
+    {
+      "display_name": "Mega Altaria",
+      "url": "pokemon/mega-altaria/",
+      "percent": 6.1
+    },
+    {
+      "display_name": "Mega Houndoom",
+      "url": "pokemon/mega-houndoom/",
+      "percent": 2.0
+    },
+    {
+      "display_name": "Chandelure",
+      "url": "pokemon/chandelure/",
+      "percent": 1.9
+    },
+    {
+      "display_name": "Mega Camerupt",
+      "url": "pokemon/mega-camerupt/",
+      "percent": 1.9
+    },
+    {
+      "display_name": "Mega Clefable",
+      "url": "pokemon/mega-clefable/",
+      "percent": 1.7
+    },
+    {
+      "display_name": "Ninetales",
+      "url": "pokemon/ninetales/",
+      "percent": 1.7
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 1.6
+    },
+    {
+      "display_name": "Simisear",
+      "url": "pokemon/simisear/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": 1.3
+    },
+    {
+      "display_name": "Mega Absol",
+      "url": "pokemon/mega-absol/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": 0.8
+    },
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Mega Chandelure",
+      "url": "pokemon/mega-chandelure/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Typhlosion",
+      "url": "pokemon/typhlosion/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Infernape",
+      "url": "pokemon/infernape/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Scovillain",
+      "url": "pokemon/scovillain/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Mega Drampa",
+      "url": "pokemon/mega-drampa/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Hisuian Typhlosion",
+      "url": "pokemon/hisuian-typhlosion/",
+      "percent": 0.4
+    }
+  ]
+}

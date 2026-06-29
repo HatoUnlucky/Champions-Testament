@@ -1,0 +1,20 @@
+{
+  "slug": "poison-point",
+  "display_name": "Poison Point",
+  "description": "has a 30% chance of poisoning attacking pokémon on contact.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Roserade",
+      "url": "pokemon/roserade/",
+      "percent": 45.6
+    }
+  ]
+}

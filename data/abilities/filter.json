@@ -1,0 +1,20 @@
+{
+  "slug": "filter",
+  "display_name": "Filter",
+  "description": "decreases damage taken from super-effective moves by 1/4.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Aggron",
+      "url": "pokemon/mega-aggron/",
+      "percent": 100.0
+    }
+  ]
+}

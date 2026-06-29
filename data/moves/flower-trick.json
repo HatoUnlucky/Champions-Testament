@@ -1,0 +1,20 @@
+{
+  "slug": "flower-trick",
+  "display_name": "Flower Trick",
+  "description": "This move never misses and is always a critical hit.",
+  "type": "grass",
+  "power": 70.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Meowscarada",
+      "url": "pokemon/meowscarada/",
+      "percent": 98.0
+    }
+  ]
+}

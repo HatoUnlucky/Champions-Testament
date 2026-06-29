@@ -1,0 +1,100 @@
+{
+  "slug": "super-fang",
+  "display_name": "Super Fang",
+  "description": "Deals damage to the target equal to 1/2 of its remaining HP. Deals 1 HP of damage to a target that has only 1 HP left.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Maushold",
+      "url": "pokemon/maushold/",
+      "percent": 82.2
+    },
+    {
+      "display_name": "Dedenne",
+      "url": "pokemon/dedenne/",
+      "percent": 75.4
+    },
+    {
+      "display_name": "Noivern",
+      "url": "pokemon/noivern/",
+      "percent": 50.4
+    },
+    {
+      "display_name": "Morpeko",
+      "url": "pokemon/morpeko/",
+      "percent": 4.1
+    },
+    {
+      "display_name": "Mega Scovillain",
+      "url": "pokemon/mega-scovillain/",
+      "percent": 3.2
+    },
+    {
+      "display_name": "Scovillain",
+      "url": "pokemon/scovillain/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Chesnaught",
+      "url": "pokemon/chesnaught/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Diggersby",
+      "url": "pokemon/diggersby/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Houndoom",
+      "url": "pokemon/mega-houndoom/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Watchog",
+      "url": "pokemon/watchog/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Glalie",
+      "url": "pokemon/glalie/",
+      "percent": null
+    },
+    {
+      "display_name": "Houndoom",
+      "url": "pokemon/houndoom/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Chesnaught",
+      "url": "pokemon/mega-chesnaught/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Glalie",
+      "url": "pokemon/mega-glalie/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Sharpedo",
+      "url": "pokemon/mega-sharpedo/",
+      "percent": null
+    },
+    {
+      "display_name": "Sharpedo",
+      "url": "pokemon/sharpedo/",
+      "percent": null
+    },
+    {
+      "display_name": "Toxicroak",
+      "url": "pokemon/toxicroak/",
+      "percent": null
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "fissure",
+  "display_name": "Fissure",
+  "description": "Knocks out the target. The accuracy of this move is fixed at 30%.",
+  "type": "ground",
+  "power": null,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Snorlax",
+      "url": "pokemon/snorlax/",
+      "percent": 52.5
+    },
+    {
+      "display_name": "Steelix",
+      "url": "pokemon/steelix/",
+      "percent": 9.8
+    },
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": 2.2
+    },
+    {
+      "display_name": "Mudsdale",
+      "url": "pokemon/mudsdale/",
+      "percent": 2.2
+    },
+    {
+      "display_name": "Hippowdon",
+      "url": "pokemon/hippowdon/",
+      "percent": 2.1
+    },
+    {
+      "display_name": "Diggersby",
+      "url": "pokemon/diggersby/",
+      "percent": 1.9
+    },
+    {
+      "display_name": "Krookodile",
+      "url": "pokemon/krookodile/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Torkoal",
+      "url": "pokemon/torkoal/",
+      "percent": 1.0
+    },
+    {
+      "display_name": "Bastiodon",
+      "url": "pokemon/bastiodon/",
+      "percent": 0.7
+    },
+    {
+      "display_name": "Excadrill",
+      "url": "pokemon/excadrill/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Mega Excadrill",
+      "url": "pokemon/mega-excadrill/",
+      "percent": 0.4
+    },
+    {
+      "display_name": "Stunfisk",
+      "url": "pokemon/stunfisk/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": null
+    },
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": null
+    },
+    {
+      "display_name": "Camerupt",
+      "url": "pokemon/camerupt/",
+      "percent": null
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": null
+    },
+    {
+      "display_name": "Galarian Stunfisk",
+      "url": "pokemon/galarian-stunfisk/",
+      "percent": null
+    },
+    {
+      "display_name": "Kangaskhan",
+      "url": "pokemon/kangaskhan/",
+      "percent": null
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": null
+    },
+    {
+      "display_name": "Mamoswine",
+      "url": "pokemon/mamoswine/",
+      "percent": null
+    }
+  ]
+}

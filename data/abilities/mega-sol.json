@@ -1,0 +1,20 @@
+{
+  "slug": "mega-sol",
+  "display_name": "Mega Sol",
+  "description": "the pokémon can use its moves as if the weather were harsh sunlight.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Meganium",
+      "url": "pokemon/mega-meganium/",
+      "percent": 100.0
+    }
+  ]
+}

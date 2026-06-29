@@ -1,0 +1,35 @@
+{
+  "slug": "natural-cure",
+  "display_name": "Natural Cure",
+  "description": "cures any major status ailment upon switching out.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Starmie",
+      "url": "pokemon/starmie/",
+      "percent": 98.2
+    },
+    {
+      "display_name": "Roserade",
+      "url": "pokemon/roserade/",
+      "percent": 40.6
+    },
+    {
+      "display_name": "Trevenant",
+      "url": "pokemon/trevenant/",
+      "percent": 1.0
+    },
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": 0.5
+    }
+  ]
+}

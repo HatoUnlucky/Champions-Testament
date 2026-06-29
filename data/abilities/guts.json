@@ -1,0 +1,40 @@
+{
+  "slug": "guts",
+  "display_name": "Guts",
+  "description": "increases attack to 1.5× with a major status ailment.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Conkeldurr",
+      "url": "pokemon/conkeldurr/",
+      "percent": 13.4
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": 10.6
+    },
+    {
+      "display_name": "Luxray",
+      "url": "pokemon/luxray/",
+      "percent": 7.0
+    },
+    {
+      "display_name": "Flareon",
+      "url": "pokemon/flareon/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Heracross",
+      "url": "pokemon/heracross/",
+      "percent": 0.1
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "multiscale",
+  "display_name": "Multiscale",
+  "description": "halves damage taken from full hp.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Dragonite",
+      "url": "pokemon/mega-dragonite/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Dragonite",
+      "url": "pokemon/dragonite/",
+      "percent": 89.9
+    }
+  ]
+}

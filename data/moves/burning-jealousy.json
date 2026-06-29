@@ -1,0 +1,115 @@
+{
+  "slug": "burning-jealousy",
+  "display_name": "Burning Jealousy",
+  "description": "Burns targets if their stats were boosted during the turn this move is used.",
+  "type": "fire",
+  "power": 70.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Scovillain",
+      "url": "pokemon/scovillain/",
+      "percent": 3.9
+    },
+    {
+      "display_name": "Mega Scovillain",
+      "url": "pokemon/mega-scovillain/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Mega Houndoom",
+      "url": "pokemon/mega-houndoom/",
+      "percent": 0.6
+    },
+    {
+      "display_name": "Incineroar",
+      "url": "pokemon/incineroar/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Mega Chandelure",
+      "url": "pokemon/mega-chandelure/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Typhlosion",
+      "url": "pokemon/typhlosion/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Salazzle",
+      "url": "pokemon/salazzle/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Torkoal",
+      "url": "pokemon/torkoal/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Chandelure",
+      "url": "pokemon/chandelure/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Mega Camerupt",
+      "url": "pokemon/mega-camerupt/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Simisear",
+      "url": "pokemon/simisear/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Banette",
+      "url": "pokemon/banette/",
+      "percent": null
+    },
+    {
+      "display_name": "Camerupt",
+      "url": "pokemon/camerupt/",
+      "percent": null
+    },
+    {
+      "display_name": "Delphox",
+      "url": "pokemon/delphox/",
+      "percent": null
+    },
+    {
+      "display_name": "Flareon",
+      "url": "pokemon/flareon/",
+      "percent": null
+    },
+    {
+      "display_name": "Hisuian Typhlosion",
+      "url": "pokemon/hisuian-typhlosion/",
+      "percent": null
+    },
+    {
+      "display_name": "Hisuian Zoroark",
+      "url": "pokemon/hisuian-zoroark/",
+      "percent": null
+    },
+    {
+      "display_name": "Houndoom",
+      "url": "pokemon/houndoom/",
+      "percent": null
+    },
+    {
+      "display_name": "Infernape",
+      "url": "pokemon/infernape/",
+      "percent": null
+    },
+    {
+      "display_name": "Liepard",
+      "url": "pokemon/liepard/",
+      "percent": null
+    }
+  ]
+}

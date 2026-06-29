@@ -1,0 +1,25 @@
+{
+  "slug": "last-respects",
+  "display_name": "Last Respects",
+  "description": "This move's power is increased by 50 for each time that a Pokémon in the user's party has fainted.",
+  "type": "ghost",
+  "power": 50.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Basculegion Male",
+      "url": "pokemon/basculegion-male/",
+      "percent": 99.7
+    },
+    {
+      "display_name": "Basculegion (Female)",
+      "url": "pokemon/basculegion-female/",
+      "percent": 5.2
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "slug": "flash-fire",
+  "display_name": "Flash Fire",
+  "description": "protects against fire moves.  once one has been blocked, the pokémon's own fire moves inflict 1.5× damage until it leaves battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Flareon",
+      "url": "pokemon/flareon/",
+      "percent": 99.1
+    },
+    {
+      "display_name": "Chandelure",
+      "url": "pokemon/chandelure/",
+      "percent": 96.4
+    },
+    {
+      "display_name": "Typhlosion",
+      "url": "pokemon/typhlosion/",
+      "percent": 94.9
+    },
+    {
+      "display_name": "Houndoom",
+      "url": "pokemon/houndoom/",
+      "percent": 91.3
+    },
+    {
+      "display_name": "Ceruledge",
+      "url": "pokemon/ceruledge/",
+      "percent": 89.8
+    },
+    {
+      "display_name": "Armarouge",
+      "url": "pokemon/armarouge/",
+      "percent": 86.0
+    },
+    {
+      "display_name": "Arcanine",
+      "url": "pokemon/arcanine/",
+      "percent": 11.5
+    },
+    {
+      "display_name": "Ninetales",
+      "url": "pokemon/ninetales/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Hisuian Arcanine",
+      "url": "pokemon/hisuian-arcanine/",
+      "percent": 0.2
+    }
+  ]
+}

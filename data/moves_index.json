@@ -1,0 +1,6876 @@
+[
+  {
+    "display_name": "Accelerock",
+    "slug": "accelerock",
+    "url": "moves/accelerock/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Physical",
+    "type": "rock",
+    "damage_class": "physical",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Acid Armor",
+    "slug": "acid-armor",
+    "url": "moves/acid-armor/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Status",
+    "type": "poison",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Acid Spray",
+    "slug": "acid-spray",
+    "url": "moves/acid-spray/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Special",
+    "type": "poison",
+    "damage_class": "special",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Acrobatics",
+    "slug": "acrobatics",
+    "url": "moves/acrobatics/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Physical",
+    "type": "flying",
+    "damage_class": "physical",
+    "power": 55.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Acupressure",
+    "slug": "acupressure",
+    "url": "moves/acupressure/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aerial Ace",
+    "slug": "aerial-ace",
+    "url": "moves/aerial-ace/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Physical",
+    "type": "flying",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "After You",
+    "slug": "after-you",
+    "url": "moves/after-you/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Agility",
+    "slug": "agility",
+    "url": "moves/agility/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Air Cutter",
+    "slug": "air-cutter",
+    "url": "moves/air-cutter/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Special",
+    "type": "flying",
+    "damage_class": "special",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Air Slash",
+    "slug": "air-slash",
+    "url": "moves/air-slash/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Special",
+    "type": "flying",
+    "damage_class": "special",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Alluring Voice",
+    "slug": "alluring-voice",
+    "url": "moves/alluring-voice/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Special",
+    "type": "fairy",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Ally Switch",
+    "slug": "ally-switch",
+    "url": "moves/ally-switch/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Amnesia",
+    "slug": "amnesia",
+    "url": "moves/amnesia/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Ancient Power",
+    "slug": "ancient-power",
+    "url": "moves/ancient-power/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Special",
+    "type": "rock",
+    "damage_class": "special",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Apple Acid",
+    "slug": "apple-acid",
+    "url": "moves/apple-acid/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Special",
+    "type": "grass",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aqua Cutter",
+    "slug": "aqua-cutter",
+    "url": "moves/aqua-cutter/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Physical",
+    "type": "water",
+    "damage_class": "physical",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aqua Jet",
+    "slug": "aqua-jet",
+    "url": "moves/aqua-jet/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Physical",
+    "type": "water",
+    "damage_class": "physical",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aqua Ring",
+    "slug": "aqua-ring",
+    "url": "moves/aqua-ring/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Status",
+    "type": "water",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aqua Step",
+    "slug": "aqua-step",
+    "url": "moves/aqua-step/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Physical",
+    "type": "water",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aqua Tail",
+    "slug": "aqua-tail",
+    "url": "moves/aqua-tail/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Physical",
+    "type": "water",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Armor Cannon",
+    "slug": "armor-cannon",
+    "url": "moves/armor-cannon/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aromatic Mist",
+    "slug": "aromatic-mist",
+    "url": "moves/aromatic-mist/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Status",
+    "type": "fairy",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Assurance",
+    "slug": "assurance",
+    "url": "moves/assurance/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Attract",
+    "slug": "attract",
+    "url": "moves/attract/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aura Sphere",
+    "slug": "aura-sphere",
+    "url": "moves/aura-sphere/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Special",
+    "type": "fighting",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aura Wheel",
+    "slug": "aura-wheel",
+    "url": "moves/aura-wheel/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Physical",
+    "type": "electric",
+    "damage_class": "physical",
+    "power": 110.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aurora Veil",
+    "slug": "aurora-veil",
+    "url": "moves/aurora-veil/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Status",
+    "type": "ice",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Avalanche",
+    "slug": "avalanche",
+    "url": "moves/avalanche/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Physical",
+    "type": "ice",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Axe Kick",
+    "slug": "axe-kick",
+    "url": "moves/axe-kick/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Baby-Doll Eyes",
+    "slug": "baby-doll-eyes",
+    "url": "moves/baby-doll-eyes/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Status",
+    "type": "fairy",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Baneful Bunker",
+    "slug": "baneful-bunker",
+    "url": "moves/baneful-bunker/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Status",
+    "type": "poison",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Baton Pass",
+    "slug": "baton-pass",
+    "url": "moves/baton-pass/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Beak Blast",
+    "slug": "beak-blast",
+    "url": "moves/beak-blast/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Physical",
+    "type": "flying",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Beat Up",
+    "slug": "beat-up",
+    "url": "moves/beat-up/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Belch",
+    "slug": "belch",
+    "url": "moves/belch/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Special",
+    "type": "poison",
+    "damage_class": "special",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Belly Drum",
+    "slug": "belly-drum",
+    "url": "moves/belly-drum/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bind",
+    "slug": "bind",
+    "url": "moves/bind/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 15.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bite",
+    "slug": "bite",
+    "url": "moves/bite/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bitter Blade",
+    "slug": "bitter-blade",
+    "url": "moves/bitter-blade/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Physical",
+    "type": "fire",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bitter Malice",
+    "slug": "bitter-malice",
+    "url": "moves/bitter-malice/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Special",
+    "type": "ghost",
+    "damage_class": "special",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Blast Burn",
+    "slug": "blast-burn",
+    "url": "moves/blast-burn/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 150.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Blaze Kick",
+    "slug": "blaze-kick",
+    "url": "moves/blaze-kick/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Physical",
+    "type": "fire",
+    "damage_class": "physical",
+    "power": 85.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Blizzard",
+    "slug": "blizzard",
+    "url": "moves/blizzard/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Special",
+    "type": "ice",
+    "damage_class": "special",
+    "power": 110.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Block",
+    "slug": "block",
+    "url": "moves/block/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Body Press",
+    "slug": "body-press",
+    "url": "moves/body-press/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Body Slam",
+    "slug": "body-slam",
+    "url": "moves/body-slam/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 85.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bone Rush",
+    "slug": "bone-rush",
+    "url": "moves/bone-rush/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Physical",
+    "type": "ground",
+    "damage_class": "physical",
+    "power": 30.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Boomburst",
+    "slug": "boomburst",
+    "url": "moves/boomburst/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Special",
+    "type": "normal",
+    "damage_class": "special",
+    "power": 140.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bounce",
+    "slug": "bounce",
+    "url": "moves/bounce/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Physical",
+    "type": "flying",
+    "damage_class": "physical",
+    "power": 85.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Brave Bird",
+    "slug": "brave-bird",
+    "url": "moves/brave-bird/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Physical",
+    "type": "flying",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Breaking Swipe",
+    "slug": "breaking-swipe",
+    "url": "moves/breaking-swipe/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Physical",
+    "type": "dragon",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Brick Break",
+    "slug": "brick-break",
+    "url": "moves/brick-break/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Brutal Swing",
+    "slug": "brutal-swing",
+    "url": "moves/brutal-swing/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bug Bite",
+    "slug": "bug-bite",
+    "url": "moves/bug-bite/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Physical",
+    "type": "bug",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bug Buzz",
+    "slug": "bug-buzz",
+    "url": "moves/bug-buzz/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Special",
+    "type": "bug",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bulk Up",
+    "slug": "bulk-up",
+    "url": "moves/bulk-up/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Status",
+    "type": "fighting",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bulldoze",
+    "slug": "bulldoze",
+    "url": "moves/bulldoze/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Physical",
+    "type": "ground",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bullet Punch",
+    "slug": "bullet-punch",
+    "url": "moves/bullet-punch/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Physical",
+    "type": "steel",
+    "damage_class": "physical",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bullet Seed",
+    "slug": "bullet-seed",
+    "url": "moves/bullet-seed/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 25.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Burn Up",
+    "slug": "burn-up",
+    "url": "moves/burn-up/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 130.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Burning Jealousy",
+    "slug": "burning-jealousy",
+    "url": "moves/burning-jealousy/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Calm Mind",
+    "slug": "calm-mind",
+    "url": "moves/calm-mind/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Ceaseless Edge",
+    "slug": "ceaseless-edge",
+    "url": "moves/ceaseless-edge/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 65.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Charge",
+    "slug": "charge",
+    "url": "moves/charge/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Status",
+    "type": "electric",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Charge Beam",
+    "slug": "charge-beam",
+    "url": "moves/charge-beam/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Special",
+    "type": "electric",
+    "damage_class": "special",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Charm",
+    "slug": "charm",
+    "url": "moves/charm/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Status",
+    "type": "fairy",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Chilling Water",
+    "slug": "chilling-water",
+    "url": "moves/chilling-water/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Special",
+    "type": "water",
+    "damage_class": "special",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Chilly Reception",
+    "slug": "chilly-reception",
+    "url": "moves/chilly-reception/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Status",
+    "type": "ice",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Circle Throw",
+    "slug": "circle-throw",
+    "url": "moves/circle-throw/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Clanging Scales",
+    "slug": "clanging-scales",
+    "url": "moves/clanging-scales/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Special",
+    "type": "dragon",
+    "damage_class": "special",
+    "power": 110.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Clangorous Soul",
+    "slug": "clangorous-soul",
+    "url": "moves/clangorous-soul/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Status",
+    "type": "dragon",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Clear Smog",
+    "slug": "clear-smog",
+    "url": "moves/clear-smog/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Special",
+    "type": "poison",
+    "damage_class": "special",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Close Combat",
+    "slug": "close-combat",
+    "url": "moves/close-combat/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Coaching",
+    "slug": "coaching",
+    "url": "moves/coaching/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Status",
+    "type": "fighting",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Coil",
+    "slug": "coil",
+    "url": "moves/coil/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Status",
+    "type": "poison",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Comeuppance",
+    "slug": "comeuppance",
+    "url": "moves/comeuppance/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 1.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Confuse Ray",
+    "slug": "confuse-ray",
+    "url": "moves/confuse-ray/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Status",
+    "type": "ghost",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Copycat",
+    "slug": "copycat",
+    "url": "moves/copycat/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Corrosive Gas",
+    "slug": "corrosive-gas",
+    "url": "moves/corrosive-gas/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Status",
+    "type": "poison",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Cosmic Power",
+    "slug": "cosmic-power",
+    "url": "moves/cosmic-power/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Cotton Guard",
+    "slug": "cotton-guard",
+    "url": "moves/cotton-guard/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Cotton Spore",
+    "slug": "cotton-spore",
+    "url": "moves/cotton-spore/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Counter",
+    "slug": "counter",
+    "url": "moves/counter/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Covet",
+    "slug": "covet",
+    "url": "moves/covet/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Crabhammer",
+    "slug": "crabhammer",
+    "url": "moves/crabhammer/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Physical",
+    "type": "water",
+    "damage_class": "physical",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Cross Chop",
+    "slug": "cross-chop",
+    "url": "moves/cross-chop/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Cross Poison",
+    "slug": "cross-poison",
+    "url": "moves/cross-poison/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Physical",
+    "type": "poison",
+    "damage_class": "physical",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Crunch",
+    "slug": "crunch",
+    "url": "moves/crunch/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Crush Claw",
+    "slug": "crush-claw",
+    "url": "moves/crush-claw/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Curse",
+    "slug": "curse",
+    "url": "moves/curse/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Status",
+    "type": "ghost",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dark Pulse",
+    "slug": "dark-pulse",
+    "url": "moves/dark-pulse/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Special",
+    "type": "dark",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Darkest Lariat",
+    "slug": "darkest-lariat",
+    "url": "moves/darkest-lariat/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 85.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dazzling Gleam",
+    "slug": "dazzling-gleam",
+    "url": "moves/dazzling-gleam/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Special",
+    "type": "fairy",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Decorate",
+    "slug": "decorate",
+    "url": "moves/decorate/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Status",
+    "type": "fairy",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Defog",
+    "slug": "defog",
+    "url": "moves/defog/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Status",
+    "type": "flying",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Destiny Bond",
+    "slug": "destiny-bond",
+    "url": "moves/destiny-bond/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Status",
+    "type": "ghost",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Detect",
+    "slug": "detect",
+    "url": "moves/detect/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Status",
+    "type": "fighting",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dig",
+    "slug": "dig",
+    "url": "moves/dig/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Physical",
+    "type": "ground",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dire Claw",
+    "slug": "dire-claw",
+    "url": "moves/dire-claw/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Physical",
+    "type": "poison",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Disable",
+    "slug": "disable",
+    "url": "moves/disable/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Discharge",
+    "slug": "discharge",
+    "url": "moves/discharge/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Special",
+    "type": "electric",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dive",
+    "slug": "dive",
+    "url": "moves/dive/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Physical",
+    "type": "water",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Double Hit",
+    "slug": "double-hit",
+    "url": "moves/double-hit/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 35.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Double Team",
+    "slug": "double-team",
+    "url": "moves/double-team/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Double-Edge",
+    "slug": "double-edge",
+    "url": "moves/double-edge/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Draco Meteor",
+    "slug": "draco-meteor",
+    "url": "moves/draco-meteor/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Special",
+    "type": "dragon",
+    "damage_class": "special",
+    "power": 130.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dragon Cheer",
+    "slug": "dragon-cheer",
+    "url": "moves/dragon-cheer/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Status",
+    "type": "dragon",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dragon Claw",
+    "slug": "dragon-claw",
+    "url": "moves/dragon-claw/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Physical",
+    "type": "dragon",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dragon Dance",
+    "slug": "dragon-dance",
+    "url": "moves/dragon-dance/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Status",
+    "type": "dragon",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dragon Darts",
+    "slug": "dragon-darts",
+    "url": "moves/dragon-darts/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Physical",
+    "type": "dragon",
+    "damage_class": "physical",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dragon Pulse",
+    "slug": "dragon-pulse",
+    "url": "moves/dragon-pulse/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Special",
+    "type": "dragon",
+    "damage_class": "special",
+    "power": 85.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dragon Rush",
+    "slug": "dragon-rush",
+    "url": "moves/dragon-rush/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Physical",
+    "type": "dragon",
+    "damage_class": "physical",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dragon Tail",
+    "slug": "dragon-tail",
+    "url": "moves/dragon-tail/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Physical",
+    "type": "dragon",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Drain Punch",
+    "slug": "drain-punch",
+    "url": "moves/drain-punch/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Draining Kiss",
+    "slug": "draining-kiss",
+    "url": "moves/draining-kiss/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Special",
+    "type": "fairy",
+    "damage_class": "special",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Drill Peck",
+    "slug": "drill-peck",
+    "url": "moves/drill-peck/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Physical",
+    "type": "flying",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Drill Run",
+    "slug": "drill-run",
+    "url": "moves/drill-run/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Physical",
+    "type": "ground",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dual Wingbeat",
+    "slug": "dual-wingbeat",
+    "url": "moves/dual-wingbeat/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Physical",
+    "type": "flying",
+    "damage_class": "physical",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dynamic Punch",
+    "slug": "dynamic-punch",
+    "url": "moves/dynamic-punch/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Earth Power",
+    "slug": "earth-power",
+    "url": "moves/earth-power/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Special",
+    "type": "ground",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Earthquake",
+    "slug": "earthquake",
+    "url": "moves/earthquake/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Physical",
+    "type": "ground",
+    "damage_class": "physical",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Eerie Impulse",
+    "slug": "eerie-impulse",
+    "url": "moves/eerie-impulse/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Status",
+    "type": "electric",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Eerie Spell",
+    "slug": "eerie-spell",
+    "url": "moves/eerie-spell/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Special",
+    "type": "psychic",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Electric Terrain",
+    "slug": "electric-terrain",
+    "url": "moves/electric-terrain/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Status",
+    "type": "electric",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Electrify",
+    "slug": "electrify",
+    "url": "moves/electrify/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Status",
+    "type": "electric",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Electro Ball",
+    "slug": "electro-ball",
+    "url": "moves/electro-ball/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Special",
+    "type": "electric",
+    "damage_class": "special",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Electro Shot",
+    "slug": "electro-shot",
+    "url": "moves/electro-shot/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Special",
+    "type": "electric",
+    "damage_class": "special",
+    "power": 130.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Electroweb",
+    "slug": "electroweb",
+    "url": "moves/electroweb/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Special",
+    "type": "electric",
+    "damage_class": "special",
+    "power": 55.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Encore",
+    "slug": "encore",
+    "url": "moves/encore/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Endeavor",
+    "slug": "endeavor",
+    "url": "moves/endeavor/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Endure",
+    "slug": "endure",
+    "url": "moves/endure/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Energy Ball",
+    "slug": "energy-ball",
+    "url": "moves/energy-ball/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Special",
+    "type": "grass",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Entrainment",
+    "slug": "entrainment",
+    "url": "moves/entrainment/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Eruption",
+    "slug": "eruption",
+    "url": "moves/eruption/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 150.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Expanding Force",
+    "slug": "expanding-force",
+    "url": "moves/expanding-force/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Special",
+    "type": "psychic",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Explosion",
+    "slug": "explosion",
+    "url": "moves/explosion/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 250.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Extrasensory",
+    "slug": "extrasensory",
+    "url": "moves/extrasensory/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Special",
+    "type": "psychic",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Extreme Speed",
+    "slug": "extreme-speed",
+    "url": "moves/extreme-speed/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Facade",
+    "slug": "facade",
+    "url": "moves/facade/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fairy Lock",
+    "slug": "fairy-lock",
+    "url": "moves/fairy-lock/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Status",
+    "type": "fairy",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fake Out",
+    "slug": "fake-out",
+    "url": "moves/fake-out/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fake Tears",
+    "slug": "fake-tears",
+    "url": "moves/fake-tears/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Status",
+    "type": "dark",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Feather Dance",
+    "slug": "feather-dance",
+    "url": "moves/feather-dance/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Status",
+    "type": "flying",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Feint",
+    "slug": "feint",
+    "url": "moves/feint/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 30.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fell Stinger",
+    "slug": "fell-stinger",
+    "url": "moves/fell-stinger/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Physical",
+    "type": "bug",
+    "damage_class": "physical",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fickle Beam",
+    "slug": "fickle-beam",
+    "url": "moves/fickle-beam/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Special",
+    "type": "dragon",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fiery Dance",
+    "slug": "fiery-dance",
+    "url": "moves/fiery-dance/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Final Gambit",
+    "slug": "final-gambit",
+    "url": "moves/final-gambit/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Special",
+    "type": "fighting",
+    "damage_class": "special",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fire Blast",
+    "slug": "fire-blast",
+    "url": "moves/fire-blast/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 110.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fire Fang",
+    "slug": "fire-fang",
+    "url": "moves/fire-fang/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Physical",
+    "type": "fire",
+    "damage_class": "physical",
+    "power": 65.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fire Lash",
+    "slug": "fire-lash",
+    "url": "moves/fire-lash/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Physical",
+    "type": "fire",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fire Punch",
+    "slug": "fire-punch",
+    "url": "moves/fire-punch/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Physical",
+    "type": "fire",
+    "damage_class": "physical",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fire Spin",
+    "slug": "fire-spin",
+    "url": "moves/fire-spin/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 35.0,
+    "priority": 0
+  },
+  {
+    "display_name": "First Impression",
+    "slug": "first-impression",
+    "url": "moves/first-impression/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Physical",
+    "type": "bug",
+    "damage_class": "physical",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fissure",
+    "slug": "fissure",
+    "url": "moves/fissure/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Physical",
+    "type": "ground",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Flail",
+    "slug": "flail",
+    "url": "moves/flail/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Flame Charge",
+    "slug": "flame-charge",
+    "url": "moves/flame-charge/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Physical",
+    "type": "fire",
+    "damage_class": "physical",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Flamethrower",
+    "slug": "flamethrower",
+    "url": "moves/flamethrower/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Flare Blitz",
+    "slug": "flare-blitz",
+    "url": "moves/flare-blitz/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Physical",
+    "type": "fire",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Flash Cannon",
+    "slug": "flash-cannon",
+    "url": "moves/flash-cannon/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Special",
+    "type": "steel",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Flatter",
+    "slug": "flatter",
+    "url": "moves/flatter/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Status",
+    "type": "dark",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fling",
+    "slug": "fling",
+    "url": "moves/fling/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Flip Turn",
+    "slug": "flip-turn",
+    "url": "moves/flip-turn/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Physical",
+    "type": "water",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Flower Trick",
+    "slug": "flower-trick",
+    "url": "moves/flower-trick/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fly",
+    "slug": "fly",
+    "url": "moves/fly/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Physical",
+    "type": "flying",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Flying Press",
+    "slug": "flying-press",
+    "url": "moves/flying-press/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Focus Blast",
+    "slug": "focus-blast",
+    "url": "moves/focus-blast/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Special",
+    "type": "fighting",
+    "damage_class": "special",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Focus Energy",
+    "slug": "focus-energy",
+    "url": "moves/focus-energy/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Focus Punch",
+    "slug": "focus-punch",
+    "url": "moves/focus-punch/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 150.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Follow Me",
+    "slug": "follow-me",
+    "url": "moves/follow-me/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Forest's Curse",
+    "slug": "forests-curse",
+    "url": "moves/forests-curse/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Foul Play",
+    "slug": "foul-play",
+    "url": "moves/foul-play/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 95.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Freeze-Dry",
+    "slug": "freeze-dry",
+    "url": "moves/freeze-dry/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Special",
+    "type": "ice",
+    "damage_class": "special",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Frenzy Plant",
+    "slug": "frenzy-plant",
+    "url": "moves/frenzy-plant/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Special",
+    "type": "grass",
+    "damage_class": "special",
+    "power": 150.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Frost Breath",
+    "slug": "frost-breath",
+    "url": "moves/frost-breath/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Special",
+    "type": "ice",
+    "damage_class": "special",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Future Sight",
+    "slug": "future-sight",
+    "url": "moves/future-sight/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Special",
+    "type": "psychic",
+    "damage_class": "special",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Gastro Acid",
+    "slug": "gastro-acid",
+    "url": "moves/gastro-acid/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Status",
+    "type": "poison",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Giga Drain",
+    "slug": "giga-drain",
+    "url": "moves/giga-drain/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Special",
+    "type": "grass",
+    "damage_class": "special",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Giga Impact",
+    "slug": "giga-impact",
+    "url": "moves/giga-impact/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 150.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Gigaton Hammer",
+    "slug": "gigaton-hammer",
+    "url": "moves/gigaton-hammer/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Physical",
+    "type": "steel",
+    "damage_class": "physical",
+    "power": 160.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Glare",
+    "slug": "glare",
+    "url": "moves/glare/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Grass Knot",
+    "slug": "grass-knot",
+    "url": "moves/grass-knot/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Special",
+    "type": "grass",
+    "damage_class": "special",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Grassy Glide",
+    "slug": "grassy-glide",
+    "url": "moves/grassy-glide/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 55.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Grassy Terrain",
+    "slug": "grassy-terrain",
+    "url": "moves/grassy-terrain/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Grav Apple",
+    "slug": "grav-apple",
+    "url": "moves/grav-apple/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Gravity",
+    "slug": "gravity",
+    "url": "moves/gravity/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Growth",
+    "slug": "growth",
+    "url": "moves/growth/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Guard Split",
+    "slug": "guard-split",
+    "url": "moves/guard-split/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Guard Swap",
+    "slug": "guard-swap",
+    "url": "moves/guard-swap/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Guillotine",
+    "slug": "guillotine",
+    "url": "moves/guillotine/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Gunk Shot",
+    "slug": "gunk-shot",
+    "url": "moves/gunk-shot/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Physical",
+    "type": "poison",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Gyro Ball",
+    "slug": "gyro-ball",
+    "url": "moves/gyro-ball/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Physical",
+    "type": "steel",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hammer Arm",
+    "slug": "hammer-arm",
+    "url": "moves/hammer-arm/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hard Press",
+    "slug": "hard-press",
+    "url": "moves/hard-press/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Physical",
+    "type": "steel",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Haze",
+    "slug": "haze",
+    "url": "moves/haze/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Status",
+    "type": "ice",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Head Smash",
+    "slug": "head-smash",
+    "url": "moves/head-smash/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Physical",
+    "type": "rock",
+    "damage_class": "physical",
+    "power": 150.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Headlong Rush",
+    "slug": "headlong-rush",
+    "url": "moves/headlong-rush/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Physical",
+    "type": "ground",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Heal Bell",
+    "slug": "heal-bell",
+    "url": "moves/heal-bell/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Heal Pulse",
+    "slug": "heal-pulse",
+    "url": "moves/heal-pulse/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Healing Wish",
+    "slug": "healing-wish",
+    "url": "moves/healing-wish/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Heat Crash",
+    "slug": "heat-crash",
+    "url": "moves/heat-crash/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Physical",
+    "type": "fire",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Heat Wave",
+    "slug": "heat-wave",
+    "url": "moves/heat-wave/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 95.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Heavy Slam",
+    "slug": "heavy-slam",
+    "url": "moves/heavy-slam/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Physical",
+    "type": "steel",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Helping Hand",
+    "slug": "helping-hand",
+    "url": "moves/helping-hand/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hex",
+    "slug": "hex",
+    "url": "moves/hex/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Special",
+    "type": "ghost",
+    "damage_class": "special",
+    "power": 65.0,
+    "priority": 0
+  },
+  {
+    "display_name": "High Horsepower",
+    "slug": "high-horsepower",
+    "url": "moves/high-horsepower/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Physical",
+    "type": "ground",
+    "damage_class": "physical",
+    "power": 95.0,
+    "priority": 0
+  },
+  {
+    "display_name": "High Jump Kick",
+    "slug": "high-jump-kick",
+    "url": "moves/high-jump-kick/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 130.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Horn Drill",
+    "slug": "horn-drill",
+    "url": "moves/horn-drill/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Horn Leech",
+    "slug": "horn-leech",
+    "url": "moves/horn-leech/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Howl",
+    "slug": "howl",
+    "url": "moves/howl/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hurricane",
+    "slug": "hurricane",
+    "url": "moves/hurricane/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Special",
+    "type": "flying",
+    "damage_class": "special",
+    "power": 110.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hydro Cannon",
+    "slug": "hydro-cannon",
+    "url": "moves/hydro-cannon/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Special",
+    "type": "water",
+    "damage_class": "special",
+    "power": 150.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hydro Pump",
+    "slug": "hydro-pump",
+    "url": "moves/hydro-pump/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Special",
+    "type": "water",
+    "damage_class": "special",
+    "power": 110.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hyper Beam",
+    "slug": "hyper-beam",
+    "url": "moves/hyper-beam/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Special",
+    "type": "normal",
+    "damage_class": "special",
+    "power": 150.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hyper Voice",
+    "slug": "hyper-voice",
+    "url": "moves/hyper-voice/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Special",
+    "type": "normal",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hypnosis",
+    "slug": "hypnosis",
+    "url": "moves/hypnosis/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Ice Beam",
+    "slug": "ice-beam",
+    "url": "moves/ice-beam/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Special",
+    "type": "ice",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Ice Fang",
+    "slug": "ice-fang",
+    "url": "moves/ice-fang/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Physical",
+    "type": "ice",
+    "damage_class": "physical",
+    "power": 65.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Ice Hammer",
+    "slug": "ice-hammer",
+    "url": "moves/ice-hammer/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Physical",
+    "type": "ice",
+    "damage_class": "physical",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Ice Punch",
+    "slug": "ice-punch",
+    "url": "moves/ice-punch/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Physical",
+    "type": "ice",
+    "damage_class": "physical",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Ice Shard",
+    "slug": "ice-shard",
+    "url": "moves/ice-shard/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Physical",
+    "type": "ice",
+    "damage_class": "physical",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Ice Spinner",
+    "slug": "ice-spinner",
+    "url": "moves/ice-spinner/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Physical",
+    "type": "ice",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Icicle Crash",
+    "slug": "icicle-crash",
+    "url": "moves/icicle-crash/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Physical",
+    "type": "ice",
+    "damage_class": "physical",
+    "power": 85.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Icicle Spear",
+    "slug": "icicle-spear",
+    "url": "moves/icicle-spear/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Physical",
+    "type": "ice",
+    "damage_class": "physical",
+    "power": 25.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Icy Wind",
+    "slug": "icy-wind",
+    "url": "moves/icy-wind/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Special",
+    "type": "ice",
+    "damage_class": "special",
+    "power": 55.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Imprison",
+    "slug": "imprison",
+    "url": "moves/imprison/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Infernal Parade",
+    "slug": "infernal-parade",
+    "url": "moves/infernal-parade/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Special",
+    "type": "ghost",
+    "damage_class": "special",
+    "power": 65.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Inferno",
+    "slug": "inferno",
+    "url": "moves/inferno/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Infestation",
+    "slug": "infestation",
+    "url": "moves/infestation/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Special",
+    "type": "bug",
+    "damage_class": "special",
+    "power": 20.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Ingrain",
+    "slug": "ingrain",
+    "url": "moves/ingrain/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Instruct",
+    "slug": "instruct",
+    "url": "moves/instruct/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Iron Defense",
+    "slug": "iron-defense",
+    "url": "moves/iron-defense/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Status",
+    "type": "steel",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Iron Head",
+    "slug": "iron-head",
+    "url": "moves/iron-head/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Physical",
+    "type": "steel",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Iron Tail",
+    "slug": "iron-tail",
+    "url": "moves/iron-tail/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Physical",
+    "type": "steel",
+    "damage_class": "physical",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Jet Punch",
+    "slug": "jet-punch",
+    "url": "moves/jet-punch/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Physical",
+    "type": "water",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "King's Shield",
+    "slug": "kings-shield",
+    "url": "moves/kings-shield/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Status",
+    "type": "steel",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Knock Off",
+    "slug": "knock-off",
+    "url": "moves/knock-off/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 65.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Kowtow Cleave",
+    "slug": "kowtow-cleave",
+    "url": "moves/kowtow-cleave/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 85.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Lash Out",
+    "slug": "lash-out",
+    "url": "moves/lash-out/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Last Resort",
+    "slug": "last-resort",
+    "url": "moves/last-resort/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 140.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Last Respects",
+    "slug": "last-respects",
+    "url": "moves/last-respects/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Physical",
+    "type": "ghost",
+    "damage_class": "physical",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Lava Plume",
+    "slug": "lava-plume",
+    "url": "moves/lava-plume/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Leaf Blade",
+    "slug": "leaf-blade",
+    "url": "moves/leaf-blade/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Leaf Storm",
+    "slug": "leaf-storm",
+    "url": "moves/leaf-storm/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Special",
+    "type": "grass",
+    "damage_class": "special",
+    "power": 130.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Leech Life",
+    "slug": "leech-life",
+    "url": "moves/leech-life/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Physical",
+    "type": "bug",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Leech Seed",
+    "slug": "leech-seed",
+    "url": "moves/leech-seed/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Life Dew",
+    "slug": "life-dew",
+    "url": "moves/life-dew/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Status",
+    "type": "water",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Light Screen",
+    "slug": "light-screen",
+    "url": "moves/light-screen/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Light of Ruin",
+    "slug": "light-of-ruin",
+    "url": "moves/light-of-ruin/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Special",
+    "type": "fairy",
+    "damage_class": "special",
+    "power": 140.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Liquidation",
+    "slug": "liquidation",
+    "url": "moves/liquidation/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Physical",
+    "type": "water",
+    "damage_class": "physical",
+    "power": 85.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Lock-On",
+    "slug": "lock-on",
+    "url": "moves/lock-on/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Low Kick",
+    "slug": "low-kick",
+    "url": "moves/low-kick/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Low Sweep",
+    "slug": "low-sweep",
+    "url": "moves/low-sweep/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 65.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Lumina Crash",
+    "slug": "lumina-crash",
+    "url": "moves/lumina-crash/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Special",
+    "type": "psychic",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Lunge",
+    "slug": "lunge",
+    "url": "moves/lunge/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Physical",
+    "type": "bug",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mach Punch",
+    "slug": "mach-punch",
+    "url": "moves/mach-punch/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Magic Powder",
+    "slug": "magic-powder",
+    "url": "moves/magic-powder/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Magic Room",
+    "slug": "magic-room",
+    "url": "moves/magic-room/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Magnet Rise",
+    "slug": "magnet-rise",
+    "url": "moves/magnet-rise/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Status",
+    "type": "electric",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Magnetic Flux",
+    "slug": "magnetic-flux",
+    "url": "moves/magnetic-flux/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Status",
+    "type": "electric",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Matcha Gotcha",
+    "slug": "matcha-gotcha",
+    "url": "moves/matcha-gotcha/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Special",
+    "type": "grass",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mean Look",
+    "slug": "mean-look",
+    "url": "moves/mean-look/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mega Kick",
+    "slug": "mega-kick",
+    "url": "moves/mega-kick/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Megahorn",
+    "slug": "megahorn",
+    "url": "moves/megahorn/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Physical",
+    "type": "bug",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Memento",
+    "slug": "memento",
+    "url": "moves/memento/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Status",
+    "type": "dark",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Metal Burst",
+    "slug": "metal-burst",
+    "url": "moves/metal-burst/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Physical",
+    "type": "steel",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Metal Sound",
+    "slug": "metal-sound",
+    "url": "moves/metal-sound/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Status",
+    "type": "steel",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Meteor Beam",
+    "slug": "meteor-beam",
+    "url": "moves/meteor-beam/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Special",
+    "type": "rock",
+    "damage_class": "special",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Meteor Mash",
+    "slug": "meteor-mash",
+    "url": "moves/meteor-mash/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Physical",
+    "type": "steel",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Minimize",
+    "slug": "minimize",
+    "url": "moves/minimize/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mirror Coat",
+    "slug": "mirror-coat",
+    "url": "moves/mirror-coat/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Special",
+    "type": "psychic",
+    "damage_class": "special",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Misty Explosion",
+    "slug": "misty-explosion",
+    "url": "moves/misty-explosion/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Special",
+    "type": "fairy",
+    "damage_class": "special",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Misty Terrain",
+    "slug": "misty-terrain",
+    "url": "moves/misty-terrain/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Status",
+    "type": "fairy",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Moonblast",
+    "slug": "moonblast",
+    "url": "moves/moonblast/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Special",
+    "type": "fairy",
+    "damage_class": "special",
+    "power": 95.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Moonlight",
+    "slug": "moonlight",
+    "url": "moves/moonlight/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Status",
+    "type": "fairy",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Morning Sun",
+    "slug": "morning-sun",
+    "url": "moves/morning-sun/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mortal Spin",
+    "slug": "mortal-spin",
+    "url": "moves/mortal-spin/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Physical",
+    "type": "poison",
+    "damage_class": "physical",
+    "power": 30.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mountain Gale",
+    "slug": "mountain-gale",
+    "url": "moves/mountain-gale/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Physical",
+    "type": "ice",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mud Shot",
+    "slug": "mud-shot",
+    "url": "moves/mud-shot/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Special",
+    "type": "ground",
+    "damage_class": "special",
+    "power": 55.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mud-Slap",
+    "slug": "mud-slap",
+    "url": "moves/mud-slap/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Special",
+    "type": "ground",
+    "damage_class": "special",
+    "power": 20.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Muddy Water",
+    "slug": "muddy-water",
+    "url": "moves/muddy-water/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Special",
+    "type": "water",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mystical Fire",
+    "slug": "mystical-fire",
+    "url": "moves/mystical-fire/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Nasty Plot",
+    "slug": "nasty-plot",
+    "url": "moves/nasty-plot/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Status",
+    "type": "dark",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Night Daze",
+    "slug": "night-daze",
+    "url": "moves/night-daze/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Special",
+    "type": "dark",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Night Shade",
+    "slug": "night-shade",
+    "url": "moves/night-shade/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Special",
+    "type": "ghost",
+    "damage_class": "special",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Night Slash",
+    "slug": "night-slash",
+    "url": "moves/night-slash/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Noble Roar",
+    "slug": "noble-roar",
+    "url": "moves/noble-roar/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Nuzzle",
+    "slug": "nuzzle",
+    "url": "moves/nuzzle/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Physical",
+    "type": "electric",
+    "damage_class": "physical",
+    "power": 20.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Outrage",
+    "slug": "outrage",
+    "url": "moves/outrage/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Physical",
+    "type": "dragon",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Overheat",
+    "slug": "overheat",
+    "url": "moves/overheat/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 130.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Pain Split",
+    "slug": "pain-split",
+    "url": "moves/pain-split/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Parabolic Charge",
+    "slug": "parabolic-charge",
+    "url": "moves/parabolic-charge/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Special",
+    "type": "electric",
+    "damage_class": "special",
+    "power": 65.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Parting Shot",
+    "slug": "parting-shot",
+    "url": "moves/parting-shot/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Status",
+    "type": "dark",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Payback",
+    "slug": "payback",
+    "url": "moves/payback/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Perish Song",
+    "slug": "perish-song",
+    "url": "moves/perish-song/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Petal Blizzard",
+    "slug": "petal-blizzard",
+    "url": "moves/petal-blizzard/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Petal Dance",
+    "slug": "petal-dance",
+    "url": "moves/petal-dance/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Special",
+    "type": "grass",
+    "damage_class": "special",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Phantom Force",
+    "slug": "phantom-force",
+    "url": "moves/phantom-force/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Physical",
+    "type": "ghost",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Pin Missile",
+    "slug": "pin-missile",
+    "url": "moves/pin-missile/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Physical",
+    "type": "bug",
+    "damage_class": "physical",
+    "power": 25.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Play Rough",
+    "slug": "play-rough",
+    "url": "moves/play-rough/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Physical",
+    "type": "fairy",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Pluck",
+    "slug": "pluck",
+    "url": "moves/pluck/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Physical",
+    "type": "flying",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Poison Fang",
+    "slug": "poison-fang",
+    "url": "moves/poison-fang/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Physical",
+    "type": "poison",
+    "damage_class": "physical",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Poison Jab",
+    "slug": "poison-jab",
+    "url": "moves/poison-jab/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Physical",
+    "type": "poison",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Poison Powder",
+    "slug": "poison-powder",
+    "url": "moves/poison-powder/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Status",
+    "type": "poison",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Pollen Puff",
+    "slug": "pollen-puff",
+    "url": "moves/pollen-puff/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Special",
+    "type": "bug",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Poltergeist",
+    "slug": "poltergeist",
+    "url": "moves/poltergeist/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Physical",
+    "type": "ghost",
+    "damage_class": "physical",
+    "power": 110.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Population Bomb",
+    "slug": "population-bomb",
+    "url": "moves/population-bomb/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 20.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Pounce",
+    "slug": "pounce",
+    "url": "moves/pounce/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Physical",
+    "type": "bug",
+    "damage_class": "physical",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Power Gem",
+    "slug": "power-gem",
+    "url": "moves/power-gem/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Special",
+    "type": "rock",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Power Shift",
+    "slug": "power-shift",
+    "url": "moves/power-shift/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Power Split",
+    "slug": "power-split",
+    "url": "moves/power-split/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Power Swap",
+    "slug": "power-swap",
+    "url": "moves/power-swap/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Power Trick",
+    "slug": "power-trick",
+    "url": "moves/power-trick/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Power Trip",
+    "slug": "power-trip",
+    "url": "moves/power-trip/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 20.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Power Whip",
+    "slug": "power-whip",
+    "url": "moves/power-whip/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Protect",
+    "slug": "protect",
+    "url": "moves/protect/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Psych Up",
+    "slug": "psych-up",
+    "url": "moves/psych-up/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Psychic",
+    "slug": "psychic",
+    "url": "moves/psychic/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Special",
+    "type": "psychic",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Psychic Fangs",
+    "slug": "psychic-fangs",
+    "url": "moves/psychic-fangs/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Physical",
+    "type": "psychic",
+    "damage_class": "physical",
+    "power": 85.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Psychic Noise",
+    "slug": "psychic-noise",
+    "url": "moves/psychic-noise/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Special",
+    "type": "psychic",
+    "damage_class": "special",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Psychic Terrain",
+    "slug": "psychic-terrain",
+    "url": "moves/psychic-terrain/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Psycho Cut",
+    "slug": "psycho-cut",
+    "url": "moves/psycho-cut/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Physical",
+    "type": "psychic",
+    "damage_class": "physical",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Psyshield Bash",
+    "slug": "psyshield-bash",
+    "url": "moves/psyshield-bash/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Physical",
+    "type": "psychic",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Psyshock",
+    "slug": "psyshock",
+    "url": "moves/psyshock/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Special",
+    "type": "psychic",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Quash",
+    "slug": "quash",
+    "url": "moves/quash/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Status",
+    "type": "dark",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Quick Attack",
+    "slug": "quick-attack",
+    "url": "moves/quick-attack/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Quick Guard",
+    "slug": "quick-guard",
+    "url": "moves/quick-guard/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Status",
+    "type": "fighting",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Quiver Dance",
+    "slug": "quiver-dance",
+    "url": "moves/quiver-dance/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Status",
+    "type": "bug",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rage Powder",
+    "slug": "rage-powder",
+    "url": "moves/rage-powder/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Status",
+    "type": "bug",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Raging Bull",
+    "slug": "raging-bull",
+    "url": "moves/raging-bull/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Raging Fury",
+    "slug": "raging-fury",
+    "url": "moves/raging-fury/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Physical",
+    "type": "fire",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rain Dance",
+    "slug": "rain-dance",
+    "url": "moves/rain-dance/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Status",
+    "type": "water",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rapid Spin",
+    "slug": "rapid-spin",
+    "url": "moves/rapid-spin/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Razor Shell",
+    "slug": "razor-shell",
+    "url": "moves/razor-shell/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Physical",
+    "type": "water",
+    "damage_class": "physical",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Recover",
+    "slug": "recover",
+    "url": "moves/recover/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Recycle",
+    "slug": "recycle",
+    "url": "moves/recycle/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Reflect",
+    "slug": "reflect",
+    "url": "moves/reflect/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Reflect Type",
+    "slug": "reflect-type",
+    "url": "moves/reflect-type/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rest",
+    "slug": "rest",
+    "url": "moves/rest/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Reversal",
+    "slug": "reversal",
+    "url": "moves/reversal/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rising Voltage",
+    "slug": "rising-voltage",
+    "url": "moves/rising-voltage/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Special",
+    "type": "electric",
+    "damage_class": "special",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Roar",
+    "slug": "roar",
+    "url": "moves/roar/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rock Blast",
+    "slug": "rock-blast",
+    "url": "moves/rock-blast/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Physical",
+    "type": "rock",
+    "damage_class": "physical",
+    "power": 25.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rock Polish",
+    "slug": "rock-polish",
+    "url": "moves/rock-polish/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Status",
+    "type": "rock",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rock Slide",
+    "slug": "rock-slide",
+    "url": "moves/rock-slide/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Physical",
+    "type": "rock",
+    "damage_class": "physical",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rock Tomb",
+    "slug": "rock-tomb",
+    "url": "moves/rock-tomb/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Physical",
+    "type": "rock",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rock Wrecker",
+    "slug": "rock-wrecker",
+    "url": "moves/rock-wrecker/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Physical",
+    "type": "rock",
+    "damage_class": "physical",
+    "power": 150.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Role Play",
+    "slug": "role-play",
+    "url": "moves/role-play/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Roost",
+    "slug": "roost",
+    "url": "moves/roost/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Status",
+    "type": "flying",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Round",
+    "slug": "round",
+    "url": "moves/round/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Special",
+    "type": "normal",
+    "damage_class": "special",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sacred Sword",
+    "slug": "sacred-sword",
+    "url": "moves/sacred-sword/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Safeguard",
+    "slug": "safeguard",
+    "url": "moves/safeguard/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Salt Cure",
+    "slug": "salt-cure",
+    "url": "moves/salt-cure/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Physical",
+    "type": "rock",
+    "damage_class": "physical",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sand Tomb",
+    "slug": "sand-tomb",
+    "url": "moves/sand-tomb/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Physical",
+    "type": "ground",
+    "damage_class": "physical",
+    "power": 35.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sandstorm",
+    "slug": "sandstorm",
+    "url": "moves/sandstorm/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Status",
+    "type": "rock",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Scald",
+    "slug": "scald",
+    "url": "moves/scald/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Special",
+    "type": "water",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Scale Shot",
+    "slug": "scale-shot",
+    "url": "moves/scale-shot/",
+    "image": "Images/type_icons/dragon.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dragon | Physical",
+    "type": "dragon",
+    "damage_class": "physical",
+    "power": 25.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Scary Face",
+    "slug": "scary-face",
+    "url": "moves/scary-face/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Scorching Sands",
+    "slug": "scorching-sands",
+    "url": "moves/scorching-sands/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Special",
+    "type": "ground",
+    "damage_class": "special",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Screech",
+    "slug": "screech",
+    "url": "moves/screech/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Seed Bomb",
+    "slug": "seed-bomb",
+    "url": "moves/seed-bomb/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Seismic Toss",
+    "slug": "seismic-toss",
+    "url": "moves/seismic-toss/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Self-Destruct",
+    "slug": "self-destruct",
+    "url": "moves/self-destruct/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 200.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Shadow Ball",
+    "slug": "shadow-ball",
+    "url": "moves/shadow-ball/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Special",
+    "type": "ghost",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Shadow Claw",
+    "slug": "shadow-claw",
+    "url": "moves/shadow-claw/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Physical",
+    "type": "ghost",
+    "damage_class": "physical",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Shadow Punch",
+    "slug": "shadow-punch",
+    "url": "moves/shadow-punch/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Physical",
+    "type": "ghost",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Shadow Sneak",
+    "slug": "shadow-sneak",
+    "url": "moves/shadow-sneak/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Physical",
+    "type": "ghost",
+    "damage_class": "physical",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Shed Tail",
+    "slug": "shed-tail",
+    "url": "moves/shed-tail/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sheer Cold",
+    "slug": "sheer-cold",
+    "url": "moves/sheer-cold/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Special",
+    "type": "ice",
+    "damage_class": "special",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Shell Side Arm",
+    "slug": "shell-side-arm",
+    "url": "moves/shell-side-arm/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Special",
+    "type": "poison",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Shell Smash",
+    "slug": "shell-smash",
+    "url": "moves/shell-smash/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Shelter",
+    "slug": "shelter",
+    "url": "moves/shelter/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Status",
+    "type": "steel",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Simple Beam",
+    "slug": "simple-beam",
+    "url": "moves/simple-beam/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sing",
+    "slug": "sing",
+    "url": "moves/sing/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Skill Swap",
+    "slug": "skill-swap",
+    "url": "moves/skill-swap/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Skitter Smack",
+    "slug": "skitter-smack",
+    "url": "moves/skitter-smack/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Physical",
+    "type": "bug",
+    "damage_class": "physical",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sky Attack",
+    "slug": "sky-attack",
+    "url": "moves/sky-attack/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Physical",
+    "type": "flying",
+    "damage_class": "physical",
+    "power": 140.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Slack Off",
+    "slug": "slack-off",
+    "url": "moves/slack-off/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sleep Powder",
+    "slug": "sleep-powder",
+    "url": "moves/sleep-powder/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sleep Talk",
+    "slug": "sleep-talk",
+    "url": "moves/sleep-talk/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sludge Bomb",
+    "slug": "sludge-bomb",
+    "url": "moves/sludge-bomb/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Special",
+    "type": "poison",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sludge Wave",
+    "slug": "sludge-wave",
+    "url": "moves/sludge-wave/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Special",
+    "type": "poison",
+    "damage_class": "special",
+    "power": 95.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Smack Down",
+    "slug": "smack-down",
+    "url": "moves/smack-down/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Physical",
+    "type": "rock",
+    "damage_class": "physical",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Smart Strike",
+    "slug": "smart-strike",
+    "url": "moves/smart-strike/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Physical",
+    "type": "steel",
+    "damage_class": "physical",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Snap Trap",
+    "slug": "snap-trap",
+    "url": "moves/snap-trap/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 35.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Snarl",
+    "slug": "snarl",
+    "url": "moves/snarl/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Special",
+    "type": "dark",
+    "damage_class": "special",
+    "power": 55.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Snore",
+    "slug": "snore",
+    "url": "moves/snore/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Special",
+    "type": "normal",
+    "damage_class": "special",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Snowscape",
+    "slug": "snowscape",
+    "url": "moves/snowscape/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Status",
+    "type": "ice",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Soak",
+    "slug": "soak",
+    "url": "moves/soak/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Status",
+    "type": "water",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Soft-Boiled",
+    "slug": "soft-boiled",
+    "url": "moves/soft-boiled/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Solar Beam",
+    "slug": "solar-beam",
+    "url": "moves/solar-beam/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Special",
+    "type": "grass",
+    "damage_class": "special",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Solar Blade",
+    "slug": "solar-blade",
+    "url": "moves/solar-blade/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 125.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sparkling Aria",
+    "slug": "sparkling-aria",
+    "url": "moves/sparkling-aria/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Special",
+    "type": "water",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Speed Swap",
+    "slug": "speed-swap",
+    "url": "moves/speed-swap/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Spicy Extract",
+    "slug": "spicy-extract",
+    "url": "moves/spicy-extract/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Spikes",
+    "slug": "spikes",
+    "url": "moves/spikes/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Status",
+    "type": "ground",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Spiky Shield",
+    "slug": "spiky-shield",
+    "url": "moves/spiky-shield/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Spirit Shackle",
+    "slug": "spirit-shackle",
+    "url": "moves/spirit-shackle/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Physical",
+    "type": "ghost",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Spit Up",
+    "slug": "spit-up",
+    "url": "moves/spit-up/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Special",
+    "type": "normal",
+    "damage_class": "special",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Spite",
+    "slug": "spite",
+    "url": "moves/spite/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Status",
+    "type": "ghost",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stealth Rock",
+    "slug": "stealth-rock",
+    "url": "moves/stealth-rock/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Status",
+    "type": "rock",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Steel Beam",
+    "slug": "steel-beam",
+    "url": "moves/steel-beam/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Special",
+    "type": "steel",
+    "damage_class": "special",
+    "power": 140.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Steel Roller",
+    "slug": "steel-roller",
+    "url": "moves/steel-roller/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Physical",
+    "type": "steel",
+    "damage_class": "physical",
+    "power": 130.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Steel Wing",
+    "slug": "steel-wing",
+    "url": "moves/steel-wing/",
+    "image": "Images/type_icons/steel.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Steel | Physical",
+    "type": "steel",
+    "damage_class": "physical",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sticky Web",
+    "slug": "sticky-web",
+    "url": "moves/sticky-web/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Status",
+    "type": "bug",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stockpile",
+    "slug": "stockpile",
+    "url": "moves/stockpile/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stomping Tantrum",
+    "slug": "stomping-tantrum",
+    "url": "moves/stomping-tantrum/",
+    "image": "Images/type_icons/ground.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ground | Physical",
+    "type": "ground",
+    "damage_class": "physical",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stone Axe",
+    "slug": "stone-axe",
+    "url": "moves/stone-axe/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Physical",
+    "type": "rock",
+    "damage_class": "physical",
+    "power": 65.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stone Edge",
+    "slug": "stone-edge",
+    "url": "moves/stone-edge/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Physical",
+    "type": "rock",
+    "damage_class": "physical",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stored Power",
+    "slug": "stored-power",
+    "url": "moves/stored-power/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Special",
+    "type": "psychic",
+    "damage_class": "special",
+    "power": 20.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Storm Throw",
+    "slug": "storm-throw",
+    "url": "moves/storm-throw/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Strength Sap",
+    "slug": "strength-sap",
+    "url": "moves/strength-sap/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "String Shot",
+    "slug": "string-shot",
+    "url": "moves/string-shot/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Status",
+    "type": "bug",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Struggle Bug",
+    "slug": "struggle-bug",
+    "url": "moves/struggle-bug/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Special",
+    "type": "bug",
+    "damage_class": "special",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stuff Cheeks",
+    "slug": "stuff-cheeks",
+    "url": "moves/stuff-cheeks/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stun Spore",
+    "slug": "stun-spore",
+    "url": "moves/stun-spore/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Substitute",
+    "slug": "substitute",
+    "url": "moves/substitute/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sucker Punch",
+    "slug": "sucker-punch",
+    "url": "moves/sucker-punch/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sunny Day",
+    "slug": "sunny-day",
+    "url": "moves/sunny-day/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Status",
+    "type": "fire",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Super Fang",
+    "slug": "super-fang",
+    "url": "moves/super-fang/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Supercell Slam",
+    "slug": "supercell-slam",
+    "url": "moves/supercell-slam/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Physical",
+    "type": "electric",
+    "damage_class": "physical",
+    "power": 100.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Superpower",
+    "slug": "superpower",
+    "url": "moves/superpower/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Surf",
+    "slug": "surf",
+    "url": "moves/surf/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Special",
+    "type": "water",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Swagger",
+    "slug": "swagger",
+    "url": "moves/swagger/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Swallow",
+    "slug": "swallow",
+    "url": "moves/swallow/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sweet Kiss",
+    "slug": "sweet-kiss",
+    "url": "moves/sweet-kiss/",
+    "image": "Images/type_icons/fairy.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fairy | Status",
+    "type": "fairy",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sweet Scent",
+    "slug": "sweet-scent",
+    "url": "moves/sweet-scent/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Switcheroo",
+    "slug": "switcheroo",
+    "url": "moves/switcheroo/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Status",
+    "type": "dark",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Swords Dance",
+    "slug": "swords-dance",
+    "url": "moves/swords-dance/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Synthesis",
+    "slug": "synthesis",
+    "url": "moves/synthesis/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Syrup Bomb",
+    "slug": "syrup-bomb",
+    "url": "moves/syrup-bomb/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Special",
+    "type": "grass",
+    "damage_class": "special",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Tail Slap",
+    "slug": "tail-slap",
+    "url": "moves/tail-slap/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 25.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Tailwind",
+    "slug": "tailwind",
+    "url": "moves/tailwind/",
+    "image": "Images/type_icons/flying.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Flying | Status",
+    "type": "flying",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Taunt",
+    "slug": "taunt",
+    "url": "moves/taunt/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Status",
+    "type": "dark",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Tearful Look",
+    "slug": "tearful-look",
+    "url": "moves/tearful-look/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Teatime",
+    "slug": "teatime",
+    "url": "moves/teatime/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Teeter Dance",
+    "slug": "teeter-dance",
+    "url": "moves/teeter-dance/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Temper Flare",
+    "slug": "temper-flare",
+    "url": "moves/temper-flare/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Physical",
+    "type": "fire",
+    "damage_class": "physical",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Terrain Pulse",
+    "slug": "terrain-pulse",
+    "url": "moves/terrain-pulse/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Special",
+    "type": "normal",
+    "damage_class": "special",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Thief",
+    "slug": "thief",
+    "url": "moves/thief/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Thrash",
+    "slug": "thrash",
+    "url": "moves/thrash/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Throat Chop",
+    "slug": "throat-chop",
+    "url": "moves/throat-chop/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Physical",
+    "type": "dark",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Thunder",
+    "slug": "thunder",
+    "url": "moves/thunder/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Special",
+    "type": "electric",
+    "damage_class": "special",
+    "power": 110.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Thunder Fang",
+    "slug": "thunder-fang",
+    "url": "moves/thunder-fang/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Physical",
+    "type": "electric",
+    "damage_class": "physical",
+    "power": 65.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Thunder Punch",
+    "slug": "thunder-punch",
+    "url": "moves/thunder-punch/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Physical",
+    "type": "electric",
+    "damage_class": "physical",
+    "power": 75.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Thunder Wave",
+    "slug": "thunder-wave",
+    "url": "moves/thunder-wave/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Status",
+    "type": "electric",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Thunderbolt",
+    "slug": "thunderbolt",
+    "url": "moves/thunderbolt/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Special",
+    "type": "electric",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Tickle",
+    "slug": "tickle",
+    "url": "moves/tickle/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Tidy Up",
+    "slug": "tidy-up",
+    "url": "moves/tidy-up/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Torch Song",
+    "slug": "torch-song",
+    "url": "moves/torch-song/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Special",
+    "type": "fire",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Torment",
+    "slug": "torment",
+    "url": "moves/torment/",
+    "image": "Images/type_icons/dark.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Dark | Status",
+    "type": "dark",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Toxic",
+    "slug": "toxic",
+    "url": "moves/toxic/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Status",
+    "type": "poison",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Toxic Spikes",
+    "slug": "toxic-spikes",
+    "url": "moves/toxic-spikes/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Status",
+    "type": "poison",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Toxic Thread",
+    "slug": "toxic-thread",
+    "url": "moves/toxic-thread/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Status",
+    "type": "poison",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Trailblaze",
+    "slug": "trailblaze",
+    "url": "moves/trailblaze/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Transform",
+    "slug": "transform",
+    "url": "moves/transform/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Tri Attack",
+    "slug": "tri-attack",
+    "url": "moves/tri-attack/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Special",
+    "type": "normal",
+    "damage_class": "special",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Trick",
+    "slug": "trick",
+    "url": "moves/trick/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Trick Room",
+    "slug": "trick-room",
+    "url": "moves/trick-room/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Trick-or-Treat",
+    "slug": "trick-or-treat",
+    "url": "moves/trick-or-treat/",
+    "image": "Images/type_icons/ghost.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ghost | Status",
+    "type": "ghost",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Triple Arrows",
+    "slug": "triple-arrows",
+    "url": "moves/triple-arrows/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Triple Axel",
+    "slug": "triple-axel",
+    "url": "moves/triple-axel/",
+    "image": "Images/type_icons/ice.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Ice | Physical",
+    "type": "ice",
+    "damage_class": "physical",
+    "power": 20.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Trop Kick",
+    "slug": "trop-kick",
+    "url": "moves/trop-kick/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 85.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Twin Beam",
+    "slug": "twin-beam",
+    "url": "moves/twin-beam/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Special",
+    "type": "psychic",
+    "damage_class": "special",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "U-turn",
+    "slug": "u-turn",
+    "url": "moves/u-turn/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Physical",
+    "type": "bug",
+    "damage_class": "physical",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Upper Hand",
+    "slug": "upper-hand",
+    "url": "moves/upper-hand/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Physical",
+    "type": "fighting",
+    "damage_class": "physical",
+    "power": 65.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Uproar",
+    "slug": "uproar",
+    "url": "moves/uproar/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Special",
+    "type": "normal",
+    "damage_class": "special",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Vacuum Wave",
+    "slug": "vacuum-wave",
+    "url": "moves/vacuum-wave/",
+    "image": "Images/type_icons/fighting.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fighting | Special",
+    "type": "fighting",
+    "damage_class": "special",
+    "power": 40.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Venoshock",
+    "slug": "venoshock",
+    "url": "moves/venoshock/",
+    "image": "Images/type_icons/poison.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Poison | Special",
+    "type": "poison",
+    "damage_class": "special",
+    "power": 65.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Volt Switch",
+    "slug": "volt-switch",
+    "url": "moves/volt-switch/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Special",
+    "type": "electric",
+    "damage_class": "special",
+    "power": 70.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Volt Tackle",
+    "slug": "volt-tackle",
+    "url": "moves/volt-tackle/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Physical",
+    "type": "electric",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Water Pulse",
+    "slug": "water-pulse",
+    "url": "moves/water-pulse/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Special",
+    "type": "water",
+    "damage_class": "special",
+    "power": 60.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Water Shuriken",
+    "slug": "water-shuriken",
+    "url": "moves/water-shuriken/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Special",
+    "type": "water",
+    "damage_class": "special",
+    "power": 15.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Water Spout",
+    "slug": "water-spout",
+    "url": "moves/water-spout/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Special",
+    "type": "water",
+    "damage_class": "special",
+    "power": 150.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Waterfall",
+    "slug": "waterfall",
+    "url": "moves/waterfall/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Physical",
+    "type": "water",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Wave Crash",
+    "slug": "wave-crash",
+    "url": "moves/wave-crash/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Physical",
+    "type": "water",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Weather Ball",
+    "slug": "weather-ball",
+    "url": "moves/weather-ball/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Special",
+    "type": "normal",
+    "damage_class": "special",
+    "power": 50.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Whirlpool",
+    "slug": "whirlpool",
+    "url": "moves/whirlpool/",
+    "image": "Images/type_icons/water.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Water | Special",
+    "type": "water",
+    "damage_class": "special",
+    "power": 35.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Whirlwind",
+    "slug": "whirlwind",
+    "url": "moves/whirlwind/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Wide Guard",
+    "slug": "wide-guard",
+    "url": "moves/wide-guard/",
+    "image": "Images/type_icons/rock.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Rock | Status",
+    "type": "rock",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Wild Charge",
+    "slug": "wild-charge",
+    "url": "moves/wild-charge/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Physical",
+    "type": "electric",
+    "damage_class": "physical",
+    "power": 90.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Will-O-Wisp",
+    "slug": "will-o-wisp",
+    "url": "moves/will-o-wisp/",
+    "image": "Images/type_icons/fire.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Fire | Status",
+    "type": "fire",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Wish",
+    "slug": "wish",
+    "url": "moves/wish/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Wonder Room",
+    "slug": "wonder-room",
+    "url": "moves/wonder-room/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Status",
+    "type": "psychic",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Wood Hammer",
+    "slug": "wood-hammer",
+    "url": "moves/wood-hammer/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Physical",
+    "type": "grass",
+    "damage_class": "physical",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Worry Seed",
+    "slug": "worry-seed",
+    "url": "moves/worry-seed/",
+    "image": "Images/type_icons/grass.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Grass | Status",
+    "type": "grass",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Wrap",
+    "slug": "wrap",
+    "url": "moves/wrap/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Physical",
+    "type": "normal",
+    "damage_class": "physical",
+    "power": 15.0,
+    "priority": 0
+  },
+  {
+    "display_name": "X-Scissor",
+    "slug": "x-scissor",
+    "url": "moves/x-scissor/",
+    "image": "Images/type_icons/bug.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Bug | Physical",
+    "type": "bug",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Yawn",
+    "slug": "yawn",
+    "url": "moves/yawn/",
+    "image": "Images/type_icons/normal.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Normal | Status",
+    "type": "normal",
+    "damage_class": "status",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Zap Cannon",
+    "slug": "zap-cannon",
+    "url": "moves/zap-cannon/",
+    "image": "Images/type_icons/electric.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Electric | Special",
+    "type": "electric",
+    "damage_class": "special",
+    "power": 120.0,
+    "priority": 0
+  },
+  {
+    "display_name": "Zen Headbutt",
+    "slug": "zen-headbutt",
+    "url": "moves/zen-headbutt/",
+    "image": "Images/type_icons/psychic.svg",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "Psychic | Physical",
+    "type": "psychic",
+    "damage_class": "physical",
+    "power": 80.0,
+    "priority": 0
+  }
+]

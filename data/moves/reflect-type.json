@@ -1,0 +1,40 @@
+{
+  "slug": "reflect-type",
+  "display_name": "Reflect Type",
+  "description": "The user becomes the same type or types as the target.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Stunfisk",
+      "url": "pokemon/stunfisk/",
+      "percent": 3.9
+    },
+    {
+      "display_name": "Mega Gengar",
+      "url": "pokemon/mega-gengar/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": null
+    },
+    {
+      "display_name": "Galarian Stunfisk",
+      "url": "pokemon/galarian-stunfisk/",
+      "percent": null
+    },
+    {
+      "display_name": "Gengar",
+      "url": "pokemon/gengar/",
+      "percent": null
+    }
+  ]
+}

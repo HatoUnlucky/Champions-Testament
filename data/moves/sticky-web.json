@@ -1,0 +1,30 @@
+{
+  "slug": "sticky-web",
+  "display_name": "Sticky Web",
+  "description": "Gives the opponent's side the Sticky Web status.",
+  "type": "bug",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Slurpuff",
+      "url": "pokemon/slurpuff/",
+      "percent": 24.8
+    },
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 3.7
+    },
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": 0.9
+    }
+  ]
+}

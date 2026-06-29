@@ -1,0 +1,115 @@
+{
+  "slug": "earth-power",
+  "display_name": "Earth Power",
+  "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+  "type": "ground",
+  "power": 90.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Camerupt",
+      "url": "pokemon/mega-camerupt/",
+      "percent": 99.4
+    },
+    {
+      "display_name": "Glimmora",
+      "url": "pokemon/glimmora/",
+      "percent": 95.1
+    },
+    {
+      "display_name": "Stunfisk",
+      "url": "pokemon/stunfisk/",
+      "percent": 94.0
+    },
+    {
+      "display_name": "Mega Glimmora",
+      "url": "pokemon/mega-glimmora/",
+      "percent": 93.7
+    },
+    {
+      "display_name": "Mega Venusaur",
+      "url": "pokemon/mega-venusaur/",
+      "percent": 91.5
+    },
+    {
+      "display_name": "Mega Drampa",
+      "url": "pokemon/mega-drampa/",
+      "percent": 50.2
+    },
+    {
+      "display_name": "Mega Abomasnow",
+      "url": "pokemon/mega-abomasnow/",
+      "percent": 47.8
+    },
+    {
+      "display_name": "Hydrapple",
+      "url": "pokemon/hydrapple/",
+      "percent": 45.2
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": 43.9
+    },
+    {
+      "display_name": "Venusaur",
+      "url": "pokemon/venusaur/",
+      "percent": 31.7
+    },
+    {
+      "display_name": "Camerupt",
+      "url": "pokemon/camerupt/",
+      "percent": 28.4
+    },
+    {
+      "display_name": "Torkoal",
+      "url": "pokemon/torkoal/",
+      "percent": 27.4
+    },
+    {
+      "display_name": "Aurorus",
+      "url": "pokemon/aurorus/",
+      "percent": 27.0
+    },
+    {
+      "display_name": "Abomasnow",
+      "url": "pokemon/abomasnow/",
+      "percent": 26.9
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": 21.3
+    },
+    {
+      "display_name": "Wyrdeer",
+      "url": "pokemon/wyrdeer/",
+      "percent": 13.3
+    },
+    {
+      "display_name": "Skeledirge",
+      "url": "pokemon/skeledirge/",
+      "percent": 13.2
+    },
+    {
+      "display_name": "Mega Garchomp",
+      "url": "pokemon/mega-garchomp/",
+      "percent": 9.6
+    },
+    {
+      "display_name": "Mega Meganium",
+      "url": "pokemon/mega-meganium/",
+      "percent": 5.4
+    },
+    {
+      "display_name": "Meganium",
+      "url": "pokemon/meganium/",
+      "percent": 1.7
+    }
+  ]
+}

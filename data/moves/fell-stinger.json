@@ -1,0 +1,30 @@
+{
+  "slug": "fell-stinger",
+  "display_name": "Fell Stinger",
+  "description": "Boosts the user's Attack stat by 3 stages if this move knocks out the target.",
+  "type": "bug",
+  "power": 50.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Beedrill",
+      "url": "pokemon/beedrill/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Mega Beedrill",
+      "url": "pokemon/mega-beedrill/",
+      "percent": 12.1
+    },
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": 0.1
+    }
+  ]
+}

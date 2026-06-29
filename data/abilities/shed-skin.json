@@ -1,0 +1,25 @@
+{
+  "slug": "shed-skin",
+  "display_name": "Shed Skin",
+  "description": "has a 33% chance of curing any major status ailment after each turn.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Sandaconda",
+      "url": "pokemon/sandaconda/",
+      "percent": 5.9
+    },
+    {
+      "display_name": "Arbok",
+      "url": "pokemon/arbok/",
+      "percent": 0.1
+    }
+  ]
+}

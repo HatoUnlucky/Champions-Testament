@@ -1,0 +1,65 @@
+{
+  "slug": "levitate",
+  "display_name": "Levitate",
+  "description": "evades ground moves.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Chimecho",
+      "url": "pokemon/chimecho/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Fan Rotom",
+      "url": "pokemon/fan-rotom/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Frost Rotom",
+      "url": "pokemon/frost-rotom/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Heat Rotom",
+      "url": "pokemon/heat-rotom/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Hydreigon",
+      "url": "pokemon/hydreigon/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Mega Chimecho",
+      "url": "pokemon/mega-chimecho/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Mega Delphox",
+      "url": "pokemon/mega-delphox/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Mow Rotom",
+      "url": "pokemon/mow-rotom/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Rotom",
+      "url": "pokemon/rotom/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Wash Rotom",
+      "url": "pokemon/wash-rotom/",
+      "percent": 100.0
+    }
+  ]
+}

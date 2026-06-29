@@ -1,0 +1,20 @@
+{
+  "slug": "shell-side-arm",
+  "display_name": "Shell Side Arm",
+  "description": "Has a 20% chance of poisoning the target. Becomes a physical move if that will deal more damage.",
+  "type": "poison",
+  "power": 90.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Galarian Slowbro",
+      "url": "pokemon/galarian-slowbro/",
+      "percent": 86.8
+    }
+  ]
+}

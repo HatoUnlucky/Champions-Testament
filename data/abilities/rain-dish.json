@@ -1,0 +1,25 @@
+{
+  "slug": "rain-dish",
+  "display_name": "Rain Dish",
+  "description": "heals for 1/16 max hp after each turn during rain.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": 70.6
+    },
+    {
+      "display_name": "Pelipper",
+      "url": "pokemon/pelipper/",
+      "percent": 0.1
+    }
+  ]
+}

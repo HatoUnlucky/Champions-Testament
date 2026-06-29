@@ -1,0 +1,20 @@
+{
+  "slug": "stance-change",
+  "display_name": "Stance Change",
+  "description": "changes aegislash to blade forme before using a damaging move, or shield forme before using king’s shield.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Aegislash",
+      "url": "pokemon/aegislash/",
+      "percent": 100.0
+    }
+  ]
+}

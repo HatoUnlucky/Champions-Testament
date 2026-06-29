@@ -1,0 +1,25 @@
+{
+  "slug": "skill-link",
+  "display_name": "Skill Link",
+  "description": "extends two-to-five-hit moves and triple kick to their full length every time.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Heracross",
+      "url": "pokemon/mega-heracross/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Toucannon",
+      "url": "pokemon/toucannon/",
+      "percent": 96.9
+    }
+  ]
+}

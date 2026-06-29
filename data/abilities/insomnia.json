@@ -1,0 +1,30 @@
+{
+  "slug": "insomnia",
+  "display_name": "Insomnia",
+  "description": "prevents sleep.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": 97.4
+    },
+    {
+      "display_name": "Scovillain",
+      "url": "pokemon/scovillain/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Gourgeist",
+      "url": "pokemon/gourgeist/",
+      "percent": 0.1
+    }
+  ]
+}

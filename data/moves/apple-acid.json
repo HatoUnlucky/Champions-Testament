@@ -1,0 +1,20 @@
+{
+  "slug": "apple-acid",
+  "display_name": "Apple Acid",
+  "description": "Lowers the target's Sp. Def stat by 1 stage.",
+  "type": "grass",
+  "power": 90.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Appletun",
+      "url": "pokemon/appletun/",
+      "percent": 80.3
+    }
+  ]
+}

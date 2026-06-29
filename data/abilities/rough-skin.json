@@ -1,0 +1,25 @@
+{
+  "slug": "rough-skin",
+  "display_name": "Rough Skin",
+  "description": "damages attacking pokémon for 1/8 their max hp on contact.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Garchomp",
+      "url": "pokemon/garchomp/",
+      "percent": 97.8
+    },
+    {
+      "display_name": "Sharpedo",
+      "url": "pokemon/sharpedo/",
+      "percent": 5.2
+    }
+  ]
+}

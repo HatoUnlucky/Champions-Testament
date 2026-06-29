@@ -1,0 +1,20 @@
+{
+  "slug": "fickle-beam",
+  "display_name": "Fickle Beam",
+  "description": "This move has a 30% chance of its power being doubled.",
+  "type": "dragon",
+  "power": 80.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hydrapple",
+      "url": "pokemon/hydrapple/",
+      "percent": 62.1
+    }
+  ]
+}

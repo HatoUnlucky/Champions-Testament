@@ -1,0 +1,25 @@
+{
+  "slug": "axe-kick",
+  "display_name": "Axe Kick",
+  "description": "Has a 30% chance of confusing the target. If this move misses or fails the user takes damage equal to 1/2 of its max HP.",
+  "type": "fighting",
+  "power": 120.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Medicham",
+      "url": "pokemon/mega-medicham/",
+      "percent": 0.3
+    },
+    {
+      "display_name": "Medicham",
+      "url": "pokemon/medicham/",
+      "percent": null
+    }
+  ]
+}

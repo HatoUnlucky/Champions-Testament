@@ -1,0 +1,35 @@
+{
+  "slug": "sand-force",
+  "display_name": "Sand Force",
+  "description": "strengthens rock, ground, and steel moves to 1.3× their power during a sandstorm.  protects against sandstorm damage.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Garchomp",
+      "url": "pokemon/mega-garchomp/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Mega Steelix",
+      "url": "pokemon/mega-steelix/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Excadrill",
+      "url": "pokemon/excadrill/",
+      "percent": 1.5
+    },
+    {
+      "display_name": "Hippowdon",
+      "url": "pokemon/hippowdon/",
+      "percent": 0.5
+    }
+  ]
+}

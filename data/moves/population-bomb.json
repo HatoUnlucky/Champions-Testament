@@ -1,0 +1,20 @@
+{
+  "slug": "population-bomb",
+  "display_name": "Population Bomb",
+  "description": "The user attacks 1 to 10 times in a row. The attack ends if the user misses.",
+  "type": "normal",
+  "power": 20.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Maushold",
+      "url": "pokemon/maushold/",
+      "percent": 4.3
+    }
+  ]
+}

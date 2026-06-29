@@ -1,0 +1,20 @@
+{
+  "slug": "forests-curse",
+  "display_name": "Forest's Curse",
+  "description": "Gives the target the Forest Cursed status.",
+  "type": "grass",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Trevenant",
+      "url": "pokemon/trevenant/",
+      "percent": 19.9
+    }
+  ]
+}

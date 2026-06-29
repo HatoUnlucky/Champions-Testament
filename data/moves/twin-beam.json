@@ -1,0 +1,20 @@
+{
+  "slug": "twin-beam",
+  "display_name": "Twin Beam",
+  "description": "The user attacks twice in a row.",
+  "type": "psychic",
+  "power": 40.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": 18.5
+    }
+  ]
+}

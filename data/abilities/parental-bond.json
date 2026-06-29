@@ -1,0 +1,20 @@
+{
+  "slug": "parental-bond",
+  "display_name": "Parental Bond",
+  "description": "lets the bearer hit twice with damaging moves.  the second hit has half power.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Kangaskhan",
+      "url": "pokemon/mega-kangaskhan/",
+      "percent": 100.0
+    }
+  ]
+}

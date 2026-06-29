@@ -1,0 +1,897 @@
+{
+  "pokemon_slug": "hatterene",
+  "display_name": "Hatterene",
+  "regulation": "ma",
+  "has_usage_data": true,
+  "usage": {
+    "percent": null,
+    "raw_count": null,
+    "source_key": "",
+    "month": ""
+  },
+  "data_months": {
+    "abilities": "2026-05",
+    "items": "2026-05",
+    "moves": "2026-05",
+    "spreads": "2026-05",
+    "teammates": "2026-05",
+    "tera_types": "2026-05"
+  },
+  "primary_image": "Images/pokemon_sprites/by_species/hatterene/hatterene/hatterene_primary_image.png",
+  "secondary_image": "",
+  "types": [
+    {
+      "name": "Psychic",
+      "slug": "psychic"
+    },
+    {
+      "name": "Fairy",
+      "slug": "fairy"
+    }
+  ],
+  "stats": [
+    {
+      "key": "total",
+      "label": "Total",
+      "value": 510
+    },
+    {
+      "key": "hp",
+      "label": "HP",
+      "value": 57
+    },
+    {
+      "key": "attack",
+      "label": "Atk",
+      "value": 90
+    },
+    {
+      "key": "defense",
+      "label": "Def",
+      "value": 95
+    },
+    {
+      "key": "special_attack",
+      "label": "SpAtk",
+      "value": 136
+    },
+    {
+      "key": "special_defense",
+      "label": "SpDef",
+      "value": 103
+    },
+    {
+      "key": "speed",
+      "label": "Speed",
+      "value": 29
+    }
+  ],
+  "abilities": [
+    {
+      "slug": "magic-bounce",
+      "name": "Magic Bounce",
+      "percent": 97.3,
+      "description": "reflects most non-damaging moves back at their user.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "ability"
+    },
+    {
+      "slug": "healer",
+      "name": "Healer",
+      "percent": 2.7,
+      "description": "has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "ability"
+    },
+    {
+      "slug": "anticipation",
+      "name": "Anticipation",
+      "percent": 0.0,
+      "description": "notifies all trainers upon entering battle if an opponent has a super-effective move, self-destruct, explosion, or a one-hit ko move.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "ability"
+    }
+  ],
+  "items": [
+    {
+      "slug": "fairy-feather",
+      "name": "Fairy Feather",
+      "percent": 45.9,
+      "description": "An item to be held by a Pokémon. This feather, which gleams faintly when hit by light, boosts the power of the holder's Fairy-type moves.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/fairy-feather_primary_image.png"
+    },
+    {
+      "slug": "focus-sash",
+      "name": "Focus Sash",
+      "percent": 33.7,
+      "description": "An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png"
+    },
+    {
+      "slug": "leftovers",
+      "name": "Leftovers",
+      "percent": 4.3,
+      "description": "A hold item that gradually restores HP in battle.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+    },
+    {
+      "slug": "sitrus-berry",
+      "name": "Sitrus Berry",
+      "percent": 3.7,
+      "description": "A hold item that restores 30 HP in battle.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+    },
+    {
+      "slug": "kebia-berry",
+      "name": "Kebia Berry",
+      "percent": 2.8,
+      "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Poison-type attack.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Berry/kebia-berry_primary_image.png"
+    },
+    {
+      "slug": "twisted-spoon",
+      "name": "Twisted Spoon",
+      "percent": 2.7,
+      "description": "A hold item that boosts PSYCHIC- type moves.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/twisted-spoon_primary_image.png"
+    },
+    {
+      "slug": "babiri-berry",
+      "name": "Babiri Berry",
+      "percent": 2.2,
+      "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Steel-type attack.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Berry/babiri-berry_primary_image.png"
+    },
+    {
+      "slug": "kasib-berry",
+      "name": "Kasib Berry",
+      "percent": 1.4,
+      "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Ghost-type attack.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Berry/kasib-berry_primary_image.png"
+    },
+    {
+      "slug": "mental-herb",
+      "name": "Mental Herb",
+      "percent": 1.3,
+      "description": "A hold item that snaps POKéMON out of infatuation.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/mental-herb_primary_image.png"
+    },
+    {
+      "slug": "quick-claw",
+      "name": "Quick Claw",
+      "percent": 0.8,
+      "description": "A hold item that occasionally allows the first strike.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/quick-claw_primary_image.png"
+    },
+    {
+      "slug": "bright-powder",
+      "name": "Bright Powder",
+      "percent": 0.5,
+      "description": "A hold item that casts a glare to reduce accuracy.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/bright-powder_primary_image.png"
+    },
+    {
+      "slug": "shell-bell",
+      "name": "Shell Bell",
+      "percent": 0.2,
+      "description": "A hold item that restores HP upon striking the foe.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/shell-bell_primary_image.png"
+    }
+  ],
+  "spreads": [
+    {
+      "nature": "Quiet",
+      "spread": "32/0/2/32/0/0",
+      "percent": 27.3
+    },
+    {
+      "nature": "Quiet",
+      "spread": "32/0/0/32/2/0",
+      "percent": 8.0
+    },
+    {
+      "nature": "Modest",
+      "spread": "32/0/6/28/0/0",
+      "percent": 6.8
+    },
+    {
+      "nature": "Quiet",
+      "spread": "32/0/6/28/0/0",
+      "percent": 6.7
+    },
+    {
+      "nature": "Quiet",
+      "spread": "27/0/7/32/0/0",
+      "percent": 6.2
+    },
+    {
+      "nature": "Quiet",
+      "spread": "27/0/15/24/0/0",
+      "percent": 4.1
+    }
+  ],
+  "tera_types": [],
+  "moves": [
+    {
+      "slug": "dazzling-gleam",
+      "name": "Dazzling Gleam",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "fairy",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 95.3
+    },
+    {
+      "slug": "trick-room",
+      "name": "Trick Room",
+      "description": "Gives the entire field the Trick Room status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 94.6
+    },
+    {
+      "slug": "protect",
+      "name": "Protect",
+      "description": "The user protects itself from incoming moves for the turn. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 66.8
+    },
+    {
+      "slug": "psychic",
+      "name": "Psychic",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "psychic",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 58.3
+    },
+    {
+      "slug": "mystical-fire",
+      "name": "Mystical Fire",
+      "description": "Lowers the target's Sp. Atk stat by 1 stage.",
+      "type": "fire",
+      "power": 75.0,
+      "damage_class": "special",
+      "percent": 21.9
+    },
+    {
+      "slug": "magic-powder",
+      "name": "Magic Powder",
+      "description": "Changes the target's type to Psychic.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 16.9
+    },
+    {
+      "slug": "expanding-force",
+      "name": "Expanding Force",
+      "description": "If the user is under the effect of Psychic Terrain this move's power is boosted by 50% and its range extends to all opponents.",
+      "type": "psychic",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 12.2
+    },
+    {
+      "slug": "psyshock",
+      "name": "Psyshock",
+      "description": "This is a special move but the damage it deals is calculated using the target's Defense stat.",
+      "type": "psychic",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 5.8
+    },
+    {
+      "slug": "draining-kiss",
+      "name": "Draining Kiss",
+      "description": "The user's HP is restored by 3/4 of the damage dealt by this move.",
+      "type": "fairy",
+      "power": 50.0,
+      "damage_class": "special",
+      "percent": 4.3
+    },
+    {
+      "slug": "calm-mind",
+      "name": "Calm Mind",
+      "description": "Boosts the user's Sp. Atk and Sp. Def stats by 1 stage.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 3.3
+    },
+    {
+      "slug": "nuzzle",
+      "name": "Nuzzle",
+      "description": "Paralyzes the target.",
+      "type": "electric",
+      "power": 20.0,
+      "damage_class": "physical",
+      "percent": 2.6
+    },
+    {
+      "slug": "life-dew",
+      "name": "Life Dew",
+      "description": "Restores 1/4 of the max HP of the user and its allies.",
+      "type": "water",
+      "power": null,
+      "damage_class": "status",
+      "percent": 2.2
+    },
+    {
+      "slug": "heal-pulse",
+      "name": "Heal Pulse",
+      "description": "Restores 1/2 of the target's max HP.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 2.0
+    },
+    {
+      "slug": "psychic-terrain",
+      "name": "Psychic Terrain",
+      "description": "Turns the entire field into Psychic Terrain for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 2.0
+    },
+    {
+      "slug": "skill-swap",
+      "name": "Skill Swap",
+      "description": "The user and the target swap their Abilities.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 1.5
+    },
+    {
+      "slug": "light-screen",
+      "name": "Light Screen",
+      "description": "Gives the user's side the Light Screen status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 1.3
+    },
+    {
+      "slug": "helping-hand",
+      "name": "Helping Hand",
+      "description": "Boosts the power of an ally's move by 50% during the turn this move is used.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 1.2
+    },
+    {
+      "slug": "healing-wish",
+      "name": "Healing Wish",
+      "description": "The user faints. The Pokémon taking its place will have its HP fully restored and its status conditions cured.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 1.0
+    },
+    {
+      "slug": "after-you",
+      "name": "After You",
+      "description": "Makes the target move immediately after the user.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.9
+    },
+    {
+      "slug": "dark-pulse",
+      "name": "Dark Pulse",
+      "description": "Has a 20% chance of making the target flinch.",
+      "type": "dark",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 0.9
+    },
+    {
+      "slug": "psychic-noise",
+      "name": "Psychic Noise",
+      "description": "Gives the target the Healing Prevented status for 2 turns.",
+      "type": "psychic",
+      "power": 75.0,
+      "damage_class": "special",
+      "percent": 0.9
+    },
+    {
+      "slug": "misty-explosion",
+      "name": "Misty Explosion",
+      "description": "If the user is under the effect of Misty Terrain this move's power is boosted by 50%. The user faints upon using this move.",
+      "type": "fairy",
+      "power": 100.0,
+      "damage_class": "special",
+      "percent": 0.7
+    },
+    {
+      "slug": "shadow-ball",
+      "name": "Shadow Ball",
+      "description": "Has a 20% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "ghost",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 0.6
+    },
+    {
+      "slug": "reflect",
+      "name": "Reflect",
+      "description": "Gives the user's side the Reflect status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.5
+    },
+    {
+      "slug": "giga-drain",
+      "name": "Giga Drain",
+      "description": "The user's HP is restored by 1/2 of the damage dealt by this move.",
+      "type": "grass",
+      "power": 75.0,
+      "damage_class": "special",
+      "percent": 0.4
+    },
+    {
+      "slug": "gravity",
+      "name": "Gravity",
+      "description": "Gives the entire field the Gravity status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.4
+    },
+    {
+      "slug": "trick",
+      "name": "Trick",
+      "description": "The user and the target swap their held items.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.4
+    },
+    {
+      "slug": "imprison",
+      "name": "Imprison",
+      "description": "The user gains the Sealing Off status.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.3
+    },
+    {
+      "slug": "pain-split",
+      "name": "Pain Split",
+      "description": "The user adds its remaining HP to the target's remaining HP then splits the total in half for them to share.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.2
+    },
+    {
+      "slug": "power-swap",
+      "name": "Power Swap",
+      "description": "The user swaps the changes to its Attack and Sp. Atk stats with the changes to the target's Attack and Sp. Atk stats.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.2
+    },
+    {
+      "slug": "agility",
+      "name": "Agility",
+      "description": "Boosts the user's Speed stat by 2 stages.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "aromatic-mist",
+      "name": "Aromatic Mist",
+      "description": "Boosts an ally's Sp. Def stat by 1 stage.",
+      "type": "fairy",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "attract",
+      "name": "Attract",
+      "description": "Gives the target the Infatuated status. This move will fail against a target that is the same gender as the user or whose gender is unknown.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "baton-pass",
+      "name": "Baton Pass",
+      "description": "The user switches out of battle to be replaced by another party Pokémon. If the user had any stat changes a substitute or other such effects they will be passed on to the Pokémon switching in.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "brutal-swing",
+      "name": "Brutal Swing",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "dark",
+      "power": 60.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "charm",
+      "name": "Charm",
+      "description": "Lowers the target's Attack stat by 2 stages.",
+      "type": "fairy",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "endure",
+      "name": "Endure",
+      "description": "During the turn this move is used if the user takes damage from a move that would knock it out it will endure the hit with 1 HP. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "facade",
+      "name": "Facade",
+      "description": "This move's power is doubled if the user is poisoned badly poisoned burned or paralyzed. Although this move is a physical move the damage it deals is not halved when the user is burned.",
+      "type": "normal",
+      "power": 70.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "future-sight",
+      "name": "Future Sight",
+      "description": "Gives the target's spot the Future Attack status.",
+      "type": "psychic",
+      "power": 120.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "giga-impact",
+      "name": "Giga Impact",
+      "description": "The user gains the Recharging status on the turn after this move is used.",
+      "type": "normal",
+      "power": 150.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "guard-swap",
+      "name": "Guard Swap",
+      "description": "The user swaps the changes to its Defense and Sp. Def stats with the changes to the target's Defense and Sp. Def stats.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "hyper-beam",
+      "name": "Hyper Beam",
+      "description": "The user gains the Recharging status on the turn after this move is used.",
+      "type": "normal",
+      "power": 150.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "magic-room",
+      "name": "Magic Room",
+      "description": "Gives the entire field the Magic Room status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "misty-terrain",
+      "name": "Misty Terrain",
+      "description": "Turns the entire field into Misty Terrain for 5 turns.",
+      "type": "fairy",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "play-rough",
+      "name": "Play Rough",
+      "description": "Has a 10% chance of lowering the target's Attack stat by 1 stage.",
+      "type": "fairy",
+      "power": 90.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "power-whip",
+      "name": "Power Whip",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "grass",
+      "power": 120.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "psych-up",
+      "name": "Psych Up",
+      "description": "The user copies the target's stat changes.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "psycho-cut",
+      "name": "Psycho Cut",
+      "description": "This move has a 1-stage Critical-Hit Ratio Boost.",
+      "type": "psychic",
+      "power": 70.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "quash",
+      "name": "Quash",
+      "description": "Causes the target to move last in the turn.",
+      "type": "dark",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "rest",
+      "name": "Rest",
+      "description": "Fully restores the user's HP and cures any status conditions. The user falls asleep for 2 turns. This move fails if the user's HP is full.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "round",
+      "name": "Round",
+      "description": "If multiple Pokémon use this move in the same turn the second user onward will act immediately after the first and the power of the second Round onward will be doubled.",
+      "type": "normal",
+      "power": 60.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "safeguard",
+      "name": "Safeguard",
+      "description": "Gives the user's side the Safeguard status for 5 turns.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "shadow-claw",
+      "name": "Shadow Claw",
+      "description": "This move has a 1-stage Critical-Hit Ratio Boost.",
+      "type": "ghost",
+      "power": 70.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "sleep-talk",
+      "name": "Sleep Talk",
+      "description": "Can be used only if the user is asleep. The user uses one of the other moves it knows at random.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "snore",
+      "name": "Snore",
+      "description": "Can be used only if the user is asleep. Has a 30% chance of making the target flinch.",
+      "type": "normal",
+      "power": 50.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "stored-power",
+      "name": "Stored Power",
+      "description": "This move's power is increased by 20 for each stage that the user's stats have been boosted.",
+      "type": "psychic",
+      "power": 20.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "substitute",
+      "name": "Substitute",
+      "description": "The user loses 1/4 of its max HP to create a substitute. The substitute will be hit by moves instead of the user and it will vanish when it takes damage equal to 1/4 of the user's max HP.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "swords-dance",
+      "name": "Swords Dance",
+      "description": "Boosts the user's Attack stat by 2 stages.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "thunder-wave",
+      "name": "Thunder Wave",
+      "description": "Paralyzes the target.",
+      "type": "electric",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "wonder-room",
+      "name": "Wonder Room",
+      "description": "Gives the entire field the Wonder Room status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    }
+  ],
+  "teammates": [
+    {
+      "slug": "farigiraf",
+      "display_name": "Farigiraf",
+      "percent": 59.3,
+      "image": "Images/pokemon_sprites/by_species/farigiraf/farigiraf/farigiraf_primary_image.png",
+      "url": "pokemon/farigiraf/"
+    },
+    {
+      "slug": "torkoal",
+      "display_name": "Torkoal",
+      "percent": 53.1,
+      "image": "Images/pokemon_sprites/by_species/torkoal/torkoal/torkoal_primary_image.png",
+      "url": "pokemon/torkoal/"
+    },
+    {
+      "slug": "kingambit",
+      "display_name": "Kingambit",
+      "percent": 47.8,
+      "image": "Images/pokemon_sprites/by_species/kingambit/kingambit/kingambit_primary_image.png",
+      "url": "pokemon/kingambit/"
+    },
+    {
+      "slug": "incineroar",
+      "display_name": "Incineroar",
+      "percent": 27.8,
+      "image": "Images/pokemon_sprites/by_species/incineroar/incineroar/incineroar_primary_image.png",
+      "url": "pokemon/incineroar/"
+    },
+    {
+      "slug": "blastoise-mega",
+      "display_name": "Mega Blastoise",
+      "percent": 22.8,
+      "image": "Images/pokemon_sprites/by_species/blastoise/blastoise-mega/blastoise-mega_primary_image.png",
+      "url": "pokemon/mega-blastoise/"
+    },
+    {
+      "slug": "camerupt-mega",
+      "display_name": "Mega Camerupt",
+      "percent": 14.9,
+      "image": "Images/pokemon_sprites/by_species/camerupt/camerupt-mega/camerupt-mega_primary_image.png",
+      "url": "pokemon/mega-camerupt/"
+    },
+    {
+      "slug": "tyranitar",
+      "display_name": "Tyranitar",
+      "percent": 14.4,
+      "image": "Images/pokemon_sprites/by_species/tyranitar/tyranitar/tyranitar_primary_image.png",
+      "url": "pokemon/tyranitar/"
+    },
+    {
+      "slug": "charizard-mega-y",
+      "display_name": "Mega Charizard Y",
+      "percent": 14.3,
+      "image": "Images/pokemon_sprites/by_species/charizard/charizard-mega-y/charizard-mega-y_primary_image.png",
+      "url": "pokemon/mega-charizard-y/"
+    },
+    {
+      "slug": "sinistcha",
+      "display_name": "Sinistcha",
+      "percent": 13.4,
+      "image": "Images/pokemon_sprites/by_species/sinistcha/sinistcha/sinistcha_primary_image.png",
+      "url": "pokemon/sinistcha/"
+    },
+    {
+      "slug": "crabominable-mega",
+      "display_name": "Mega Crabominable",
+      "percent": 12.3,
+      "image": "Images/pokemon_sprites/by_species/crabominable/crabominable-mega/crabominable-mega_primary_image.png",
+      "url": "pokemon/mega-crabominable/"
+    }
+  ]
+}

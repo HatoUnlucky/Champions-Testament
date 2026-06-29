@@ -1,0 +1,25 @@
+{
+  "slug": "berserk",
+  "display_name": "Berserk",
+  "description": "raises this pokémon's special attack by one stage every time its hp drops below half.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Drampa",
+      "url": "pokemon/mega-drampa/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": 6.0
+    }
+  ]
+}

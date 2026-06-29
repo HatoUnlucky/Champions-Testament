@@ -1,0 +1,25 @@
+{
+  "slug": "analytic",
+  "display_name": "Analytic",
+  "description": "strengthens moves to 1.3× their power when moving last.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Watchog",
+      "url": "pokemon/watchog/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Starmie",
+      "url": "pokemon/starmie/",
+      "percent": 1.5
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "slug": "cute-charm",
+  "display_name": "Cute Charm",
+  "description": "has a 30% chance of infatuating attacking pokémon on contact.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Lopunny",
+      "url": "pokemon/lopunny/",
+      "percent": 26.0
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": 2.4
+    },
+    {
+      "display_name": "Sylveon",
+      "url": "pokemon/sylveon/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Milotic",
+      "url": "pokemon/milotic/",
+      "percent": 0.1
+    }
+  ]
+}

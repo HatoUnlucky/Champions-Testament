@@ -1,0 +1,20 @@
+{
+  "slug": "rawst-berry",
+  "display_name": "Rawst Berry",
+  "description": "A hold item that heals a burn in battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Berry/rawst-berry_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Scizor",
+      "url": "pokemon/scizor/",
+      "percent": 0.0
+    }
+  ]
+}

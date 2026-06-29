@@ -1,0 +1,20 @@
+{
+  "slug": "rivalry",
+  "display_name": "Rivalry",
+  "description": "increases damage inflicted to 1.25× against pokémon of the same gender, but decreases damage to 0.75× against the opposite gender.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Luxray",
+      "url": "pokemon/luxray/",
+      "percent": 1.6
+    }
+  ]
+}

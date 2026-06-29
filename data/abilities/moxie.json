@@ -1,0 +1,40 @@
+{
+  "slug": "moxie",
+  "display_name": "Moxie",
+  "description": "raises attack one stage upon koing a pokémon.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Heracross",
+      "url": "pokemon/heracross/",
+      "percent": 99.9
+    },
+    {
+      "display_name": "Quaquaval",
+      "url": "pokemon/quaquaval/",
+      "percent": 95.2
+    },
+    {
+      "display_name": "Pinsir",
+      "url": "pokemon/pinsir/",
+      "percent": 43.8
+    },
+    {
+      "display_name": "Krookodile",
+      "url": "pokemon/krookodile/",
+      "percent": 6.6
+    },
+    {
+      "display_name": "Gyarados",
+      "url": "pokemon/gyarados/",
+      "percent": 2.8
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "armor-cannon",
+  "display_name": "Armor Cannon",
+  "description": "Lowers the user's Defense and Sp. Def stats by 1 stage.",
+  "type": "fire",
+  "power": 120.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Armarouge",
+      "url": "pokemon/armarouge/",
+      "percent": 76.4
+    }
+  ]
+}

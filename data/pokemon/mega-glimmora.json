@@ -1,0 +1,617 @@
+{
+  "pokemon_slug": "glimmora-mega",
+  "display_name": "Mega Glimmora",
+  "regulation": "ma",
+  "has_usage_data": true,
+  "usage": {
+    "percent": null,
+    "raw_count": null,
+    "source_key": "",
+    "month": ""
+  },
+  "data_months": {
+    "abilities": "2026-05",
+    "items": "2026-05",
+    "moves": "2026-05",
+    "spreads": "2026-05",
+    "teammates": "2026-05",
+    "tera_types": "2026-05"
+  },
+  "primary_image": "Images/pokemon_sprites/by_species/glimmora/glimmora-mega/glimmora-mega_primary_image.png",
+  "secondary_image": "",
+  "types": [
+    {
+      "name": "Rock",
+      "slug": "rock"
+    },
+    {
+      "name": "Poison",
+      "slug": "poison"
+    }
+  ],
+  "stats": [
+    {
+      "key": "total",
+      "label": "Total",
+      "value": 625
+    },
+    {
+      "key": "hp",
+      "label": "HP",
+      "value": 83
+    },
+    {
+      "key": "attack",
+      "label": "Atk",
+      "value": 90
+    },
+    {
+      "key": "defense",
+      "label": "Def",
+      "value": 105
+    },
+    {
+      "key": "special_attack",
+      "label": "SpAtk",
+      "value": 150
+    },
+    {
+      "key": "special_defense",
+      "label": "SpDef",
+      "value": 96
+    },
+    {
+      "key": "speed",
+      "label": "Speed",
+      "value": 101
+    }
+  ],
+  "abilities": [
+    {
+      "slug": "adaptability",
+      "name": "Adaptability",
+      "percent": 100.0,
+      "description": "increases the same-type attack bonus from 1.5× to 2×.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "ability"
+    }
+  ],
+  "items": [
+    {
+      "slug": "glimmoranite",
+      "name": "Glimmoranite",
+      "percent": 100.0,
+      "description": "One of a variety of mysterious Mega Stones. A Glimmora holding this stone will be able to Mega Evolve during battle.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Mega Evolution/glimmoranite_primary_image.png"
+    }
+  ],
+  "spreads": [
+    {
+      "nature": "Modest",
+      "spread": "27/0/0/20/1/18",
+      "percent": 15.7
+    },
+    {
+      "nature": "Timid",
+      "spread": "2/0/0/32/0/32",
+      "percent": 14.5
+    },
+    {
+      "nature": "Modest",
+      "spread": "1/0/9/24/0/32",
+      "percent": 8.6
+    },
+    {
+      "nature": "Modest",
+      "spread": "2/0/0/32/0/32",
+      "percent": 5.6
+    },
+    {
+      "nature": "Modest",
+      "spread": "1/0/0/32/1/32",
+      "percent": 4.5
+    },
+    {
+      "nature": "Modest",
+      "spread": "13/0/0/20/1/32",
+      "percent": 3.9
+    }
+  ],
+  "tera_types": [],
+  "moves": [
+    {
+      "slug": "power-gem",
+      "name": "Power Gem",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "rock",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 99.4
+    },
+    {
+      "slug": "sludge-bomb",
+      "name": "Sludge Bomb",
+      "description": "Has a 30% chance of poisoning the target.",
+      "type": "poison",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 95.2
+    },
+    {
+      "slug": "spiky-shield",
+      "name": "Spiky Shield",
+      "description": "The user protects itself from incoming moves for the turn. Any attackers that use contact moves against the user during this turn take damage equal to 1/8 of their max HP. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "grass",
+      "power": null,
+      "damage_class": "status",
+      "percent": 94.1
+    },
+    {
+      "slug": "earth-power",
+      "name": "Earth Power",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "ground",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 93.7
+    },
+    {
+      "slug": "sludge-wave",
+      "name": "Sludge Wave",
+      "description": "Has a 10% chance of poisoning targets.",
+      "type": "poison",
+      "power": 95.0,
+      "damage_class": "special",
+      "percent": 6.2
+    },
+    {
+      "slug": "protect",
+      "name": "Protect",
+      "description": "The user protects itself from incoming moves for the turn. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 5.4
+    },
+    {
+      "slug": "substitute",
+      "name": "Substitute",
+      "description": "The user loses 1/4 of its max HP to create a substitute. The substitute will be hit by moves instead of the user and it will vanish when it takes damage equal to 1/4 of the user's max HP.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 2.6
+    },
+    {
+      "slug": "energy-ball",
+      "name": "Energy Ball",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "grass",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 0.9
+    },
+    {
+      "slug": "dazzling-gleam",
+      "name": "Dazzling Gleam",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "fairy",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 0.6
+    },
+    {
+      "slug": "ancient-power",
+      "name": "Ancient Power",
+      "description": "Has a 10% chance of boosting the user's Attack Defense Sp. Atk Sp. Def and Speed stats by 1 stage.",
+      "type": "rock",
+      "power": 60.0,
+      "damage_class": "special",
+      "percent": 0.3
+    },
+    {
+      "slug": "mortal-spin",
+      "name": "Mortal Spin",
+      "description": "Removes the Bound and Leech Seeded statuses from the user and removes the Sticky Web Stealth Rock Spikes and Toxic Spikes statuses from the user's side. Poisons targets.",
+      "type": "poison",
+      "power": 30.0,
+      "damage_class": "physical",
+      "percent": 0.3
+    },
+    {
+      "slug": "rock-slide",
+      "name": "Rock Slide",
+      "description": "Has a 30% chance of making targets flinch.",
+      "type": "rock",
+      "power": 75.0,
+      "damage_class": "physical",
+      "percent": 0.2
+    },
+    {
+      "slug": "solar-beam",
+      "name": "Solar Beam",
+      "description": "The user gains the Charging status on the turn this move is used then attacks on the following turn. In harsh sunlight the user does not gain the Charging status and can attack immediately. This move's power is halved in any other weather condition.",
+      "type": "grass",
+      "power": 120.0,
+      "damage_class": "special",
+      "percent": 0.2
+    },
+    {
+      "slug": "toxic-spikes",
+      "name": "Toxic Spikes",
+      "description": "Gives the opponent's side the Toxic Spikes status.",
+      "type": "poison",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.2
+    },
+    {
+      "slug": "acid-spray",
+      "name": "Acid Spray",
+      "description": "Lowers the target's Sp. Def stat by 2 stages.",
+      "type": "poison",
+      "power": 40.0,
+      "damage_class": "special",
+      "percent": 0.1
+    },
+    {
+      "slug": "meteor-beam",
+      "name": "Meteor Beam",
+      "description": "The user gains the Charging status on the turn this move is used then attacks on the following turn. The user's Sp. Atk stat is boosted by 1 stage on the turn this move is used.",
+      "type": "rock",
+      "power": 120.0,
+      "damage_class": "special",
+      "percent": 0.1
+    },
+    {
+      "slug": "rock-polish",
+      "name": "Rock Polish",
+      "description": "Boosts the user's Speed stat by 2 stages.",
+      "type": "rock",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.1
+    },
+    {
+      "slug": "stealth-rock",
+      "name": "Stealth Rock",
+      "description": "Gives the opponent's side the Stealth Rock status.",
+      "type": "rock",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.1
+    },
+    {
+      "slug": "toxic",
+      "name": "Toxic",
+      "description": "Badly poisons the target. If the user is a Poison type this move will never miss.",
+      "type": "poison",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.1
+    },
+    {
+      "slug": "venoshock",
+      "name": "Venoshock",
+      "description": "This move's power is doubled if the target is poisoned or badly poisoned.",
+      "type": "poison",
+      "power": 65.0,
+      "damage_class": "special",
+      "percent": 0.1
+    },
+    {
+      "slug": "acid-armor",
+      "name": "Acid Armor",
+      "description": "Boosts the user's Defense stat by 2 stages.",
+      "type": "poison",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.0
+    },
+    {
+      "slug": "explosion",
+      "name": "Explosion",
+      "description": "The user faints upon using this move.",
+      "type": "normal",
+      "power": 250.0,
+      "damage_class": "physical",
+      "percent": 0.0
+    },
+    {
+      "slug": "flash-cannon",
+      "name": "Flash Cannon",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "steel",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 0.0
+    },
+    {
+      "slug": "gunk-shot",
+      "name": "Gunk Shot",
+      "description": "Has a 30% chance of poisoning the target.",
+      "type": "poison",
+      "power": 120.0,
+      "damage_class": "physical",
+      "percent": 0.0
+    },
+    {
+      "slug": "light-screen",
+      "name": "Light Screen",
+      "description": "Gives the user's side the Light Screen status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.0
+    },
+    {
+      "slug": "mud-shot",
+      "name": "Mud Shot",
+      "description": "Lowers the target's Speed stat by 1 stage.",
+      "type": "ground",
+      "power": 55.0,
+      "damage_class": "special",
+      "percent": 0.0
+    },
+    {
+      "slug": "rain-dance",
+      "name": "Rain Dance",
+      "description": "Summons rain for 5 turns.",
+      "type": "water",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.0
+    },
+    {
+      "slug": "reflect",
+      "name": "Reflect",
+      "description": "Gives the user's side the Reflect status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.0
+    },
+    {
+      "slug": "spikes",
+      "name": "Spikes",
+      "description": "Gives the opponent's side the Spikes status.",
+      "type": "ground",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.0
+    },
+    {
+      "slug": "stone-edge",
+      "name": "Stone Edge",
+      "description": "This move has a 1-stage Critical-Hit Ratio Boost.",
+      "type": "rock",
+      "power": 100.0,
+      "damage_class": "physical",
+      "percent": 0.0
+    },
+    {
+      "slug": "confuse-ray",
+      "name": "Confuse Ray",
+      "description": "Confuses the target.",
+      "type": "ghost",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "endure",
+      "name": "Endure",
+      "description": "During the turn this move is used if the user takes damage from a move that would knock it out it will endure the hit with 1 HP. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "facade",
+      "name": "Facade",
+      "description": "This move's power is doubled if the user is poisoned badly poisoned burned or paralyzed. Although this move is a physical move the damage it deals is not halved when the user is burned.",
+      "type": "normal",
+      "power": 70.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "giga-impact",
+      "name": "Giga Impact",
+      "description": "The user gains the Recharging status on the turn after this move is used.",
+      "type": "normal",
+      "power": 150.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "hyper-beam",
+      "name": "Hyper Beam",
+      "description": "The user gains the Recharging status on the turn after this move is used.",
+      "type": "normal",
+      "power": 150.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "iron-defense",
+      "name": "Iron Defense",
+      "description": "Boosts the user's Defense stat by 2 stages.",
+      "type": "steel",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "memento",
+      "name": "Memento",
+      "description": "Lowers the target's Attack and Sp. Atk stats by 2 stages. The user faints upon using this move.",
+      "type": "dark",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "rest",
+      "name": "Rest",
+      "description": "Fully restores the user's HP and cures any status conditions. The user falls asleep for 2 turns. This move fails if the user's HP is full.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "rock-blast",
+      "name": "Rock Blast",
+      "description": "The user attacks 2 to 5 times in a row.",
+      "type": "rock",
+      "power": 25.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "rock-tomb",
+      "name": "Rock Tomb",
+      "description": "Lowers the target's Speed stat by 1 stage.",
+      "type": "rock",
+      "power": 60.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "sand-tomb",
+      "name": "Sand Tomb",
+      "description": "Gives the target the Bound status.",
+      "type": "ground",
+      "power": 35.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "sandstorm",
+      "name": "Sandstorm",
+      "description": "Summons a sandstorm for 5 turns.",
+      "type": "rock",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "self-destruct",
+      "name": "Self-Destruct",
+      "description": "The user faints upon using this move.",
+      "type": "normal",
+      "power": 200.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "sleep-talk",
+      "name": "Sleep Talk",
+      "description": "Can be used only if the user is asleep. The user uses one of the other moves it knows at random.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "smack-down",
+      "name": "Smack Down",
+      "description": "If the target is off the ground it gains the Landed status. This move can hit a target that has the Sky-High status.",
+      "type": "rock",
+      "power": 50.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "sunny-day",
+      "name": "Sunny Day",
+      "description": "Summons harsh sunlight for 5 turns.",
+      "type": "fire",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    }
+  ],
+  "teammates": [
+    {
+      "slug": "basculegion",
+      "display_name": "Basculegion",
+      "percent": 65.2,
+      "image": "",
+      "url": "pokemon/basculegion/"
+    },
+    {
+      "slug": "whimsicott",
+      "display_name": "Whimsicott",
+      "percent": 40.8,
+      "image": "Images/pokemon_sprites/by_species/whimsicott/whimsicott/whimsicott_primary_image.png",
+      "url": "pokemon/whimsicott/"
+    },
+    {
+      "slug": "garchomp",
+      "display_name": "Garchomp",
+      "percent": 36.0,
+      "image": "Images/pokemon_sprites/by_species/garchomp/garchomp/garchomp_primary_image.png",
+      "url": "pokemon/garchomp/"
+    },
+    {
+      "slug": "charizard-mega-y",
+      "display_name": "Mega Charizard Y",
+      "percent": 30.5,
+      "image": "Images/pokemon_sprites/by_species/charizard/charizard-mega-y/charizard-mega-y_primary_image.png",
+      "url": "pokemon/mega-charizard-y/"
+    },
+    {
+      "slug": "kingambit",
+      "display_name": "Kingambit",
+      "percent": 28.1,
+      "image": "Images/pokemon_sprites/by_species/kingambit/kingambit/kingambit_primary_image.png",
+      "url": "pokemon/kingambit/"
+    },
+    {
+      "slug": "talonflame",
+      "display_name": "Talonflame",
+      "percent": 24.7,
+      "image": "Images/pokemon_sprites/by_species/talonflame/talonflame/talonflame_primary_image.png",
+      "url": "pokemon/talonflame/"
+    },
+    {
+      "slug": "ninetales-alola",
+      "display_name": "Alolan Ninetales",
+      "percent": 18.3,
+      "image": "Images/pokemon_sprites/by_species/ninetales/ninetales-alola/ninetales-alola_primary_image.png",
+      "url": "pokemon/alolan-ninetales/"
+    },
+    {
+      "slug": "meowscarada",
+      "display_name": "Meowscarada",
+      "percent": 17.2,
+      "image": "Images/pokemon_sprites/by_species/meowscarada/meowscarada/meowscarada_primary_image.png",
+      "url": "pokemon/meowscarada/"
+    },
+    {
+      "slug": "weavile",
+      "display_name": "Weavile",
+      "percent": 16.6,
+      "image": "Images/pokemon_sprites/by_species/weavile/weavile/weavile_primary_image.png",
+      "url": "pokemon/weavile/"
+    },
+    {
+      "slug": "incineroar",
+      "display_name": "Incineroar",
+      "percent": 12.0,
+      "image": "Images/pokemon_sprites/by_species/incineroar/incineroar/incineroar_primary_image.png",
+      "url": "pokemon/incineroar/"
+    }
+  ]
+}

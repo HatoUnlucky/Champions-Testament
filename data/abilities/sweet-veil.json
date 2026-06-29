@@ -1,0 +1,30 @@
+{
+  "slug": "sweet-veil",
+  "display_name": "Sweet Veil",
+  "description": "prevents friendly pokémon from sleeping.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Alcremie",
+      "url": "pokemon/alcremie/",
+      "percent": 78.7
+    },
+    {
+      "display_name": "Slurpuff",
+      "url": "pokemon/slurpuff/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Tsareena",
+      "url": "pokemon/tsareena/",
+      "percent": 0.0
+    }
+  ]
+}

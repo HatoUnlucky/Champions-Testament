@@ -1,0 +1,1013 @@
+{
+  "pokemon_slug": "gardevoir-mega",
+  "display_name": "Mega Gardevoir",
+  "regulation": "ma",
+  "has_usage_data": true,
+  "usage": {
+    "percent": null,
+    "raw_count": null,
+    "source_key": "",
+    "month": ""
+  },
+  "data_months": {
+    "abilities": "2026-05",
+    "items": "2026-05",
+    "moves": "2026-05",
+    "spreads": "2026-05",
+    "teammates": "2026-05",
+    "tera_types": "2026-05"
+  },
+  "primary_image": "Images/pokemon_sprites/by_species/gardevoir/gardevoir-mega/gardevoir-mega_primary_image.png",
+  "secondary_image": "",
+  "types": [
+    {
+      "name": "Psychic",
+      "slug": "psychic"
+    },
+    {
+      "name": "Fairy",
+      "slug": "fairy"
+    }
+  ],
+  "stats": [
+    {
+      "key": "total",
+      "label": "Total",
+      "value": 618
+    },
+    {
+      "key": "hp",
+      "label": "HP",
+      "value": 68
+    },
+    {
+      "key": "attack",
+      "label": "Atk",
+      "value": 85
+    },
+    {
+      "key": "defense",
+      "label": "Def",
+      "value": 65
+    },
+    {
+      "key": "special_attack",
+      "label": "SpAtk",
+      "value": 165
+    },
+    {
+      "key": "special_defense",
+      "label": "SpDef",
+      "value": 135
+    },
+    {
+      "key": "speed",
+      "label": "Speed",
+      "value": 100
+    }
+  ],
+  "abilities": [
+    {
+      "slug": "pixilate",
+      "name": "Pixilate",
+      "percent": 100.0,
+      "description": "turns the bearer's normal moves into fairy moves and strengthens them to 1.3× their power.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "ability"
+    }
+  ],
+  "items": [
+    {
+      "slug": "gardevoirite",
+      "name": "Gardevoirite",
+      "percent": 100.0,
+      "description": "One variety of the mysterious Mega Stones. Have Gardevoir hold it, and this stone will enable it to Mega Evolve during battle.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Mega Evolution/gardevoirite_primary_image.png"
+    }
+  ],
+  "spreads": [
+    {
+      "nature": "Modest",
+      "spread": "16/0/2/32/0/16",
+      "percent": 6.5
+    },
+    {
+      "nature": "Modest",
+      "spread": "32/0/2/32/0/0",
+      "percent": 5.2
+    },
+    {
+      "nature": "Modest",
+      "spread": "32/0/19/15/0/0",
+      "percent": 4.3
+    },
+    {
+      "nature": "Modest",
+      "spread": "24/0/0/29/0/13",
+      "percent": 4.3
+    },
+    {
+      "nature": "Timid",
+      "spread": "2/0/0/32/0/32",
+      "percent": 4.1
+    },
+    {
+      "nature": "Modest",
+      "spread": "32/0/17/15/0/2",
+      "percent": 3.6
+    }
+  ],
+  "tera_types": [],
+  "moves": [
+    {
+      "slug": "hyper-voice",
+      "name": "Hyper Voice",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "normal",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 99.6
+    },
+    {
+      "slug": "protect",
+      "name": "Protect",
+      "description": "The user protects itself from incoming moves for the turn. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 98.1
+    },
+    {
+      "slug": "trick-room",
+      "name": "Trick Room",
+      "description": "Gives the entire field the Trick Room status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 65.1
+    },
+    {
+      "slug": "psyshock",
+      "name": "Psyshock",
+      "description": "This is a special move but the damage it deals is calculated using the target's Defense stat.",
+      "type": "psychic",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 47.3
+    },
+    {
+      "slug": "psychic",
+      "name": "Psychic",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "psychic",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 45.8
+    },
+    {
+      "slug": "calm-mind",
+      "name": "Calm Mind",
+      "description": "Boosts the user's Sp. Atk and Sp. Def stats by 1 stage.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 13.2
+    },
+    {
+      "slug": "vacuum-wave",
+      "name": "Vacuum Wave",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "fighting",
+      "power": 40.0,
+      "damage_class": "special",
+      "percent": 10.3
+    },
+    {
+      "slug": "moonblast",
+      "name": "Moonblast",
+      "description": "Has a 10% chance of lowering the target's Sp. Atk stat by 1 stage.",
+      "type": "fairy",
+      "power": 95.0,
+      "damage_class": "special",
+      "percent": 3.8
+    },
+    {
+      "slug": "expanding-force",
+      "name": "Expanding Force",
+      "description": "If the user is under the effect of Psychic Terrain this move's power is boosted by 50% and its range extends to all opponents.",
+      "type": "psychic",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 3.5
+    },
+    {
+      "slug": "hyper-beam",
+      "name": "Hyper Beam",
+      "description": "The user gains the Recharging status on the turn after this move is used.",
+      "type": "normal",
+      "power": 150.0,
+      "damage_class": "special",
+      "percent": 1.9
+    },
+    {
+      "slug": "mystical-fire",
+      "name": "Mystical Fire",
+      "description": "Lowers the target's Sp. Atk stat by 1 stage.",
+      "type": "fire",
+      "power": 75.0,
+      "damage_class": "special",
+      "percent": 1.6
+    },
+    {
+      "slug": "imprison",
+      "name": "Imprison",
+      "description": "The user gains the Sealing Off status.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 1.3
+    },
+    {
+      "slug": "round",
+      "name": "Round",
+      "description": "If multiple Pokémon use this move in the same turn the second user onward will act immediately after the first and the power of the second Round onward will be doubled.",
+      "type": "normal",
+      "power": 60.0,
+      "damage_class": "special",
+      "percent": 1.3
+    },
+    {
+      "slug": "aura-sphere",
+      "name": "Aura Sphere",
+      "description": "This move never misses.",
+      "type": "fighting",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 1.2
+    },
+    {
+      "slug": "thunderbolt",
+      "name": "Thunderbolt",
+      "description": "Has a 10% chance of paralyzing the target.",
+      "type": "electric",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 0.9
+    },
+    {
+      "slug": "psychic-noise",
+      "name": "Psychic Noise",
+      "description": "Gives the target the Healing Prevented status for 2 turns.",
+      "type": "psychic",
+      "power": 75.0,
+      "damage_class": "special",
+      "percent": 0.7
+    },
+    {
+      "slug": "focus-blast",
+      "name": "Focus Blast",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "fighting",
+      "power": 120.0,
+      "damage_class": "special",
+      "percent": 0.4
+    },
+    {
+      "slug": "hypnosis",
+      "name": "Hypnosis",
+      "description": "Puts the target to sleep.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.4
+    },
+    {
+      "slug": "psych-up",
+      "name": "Psych Up",
+      "description": "The user copies the target's stat changes.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.4
+    },
+    {
+      "slug": "shadow-ball",
+      "name": "Shadow Ball",
+      "description": "Has a 20% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "ghost",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 0.4
+    },
+    {
+      "slug": "dazzling-gleam",
+      "name": "Dazzling Gleam",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "fairy",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 0.3
+    },
+    {
+      "slug": "icy-wind",
+      "name": "Icy Wind",
+      "description": "Lowers targets' Speed stats by 1 stage.",
+      "type": "ice",
+      "power": 55.0,
+      "damage_class": "special",
+      "percent": 0.3
+    },
+    {
+      "slug": "taunt",
+      "name": "Taunt",
+      "description": "Gives the target the Taunted status.",
+      "type": "dark",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.3
+    },
+    {
+      "slug": "will-o-wisp",
+      "name": "Will-O-Wisp",
+      "description": "Burns the target.",
+      "type": "fire",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.3
+    },
+    {
+      "slug": "draining-kiss",
+      "name": "Draining Kiss",
+      "description": "The user's HP is restored by 3/4 of the damage dealt by this move.",
+      "type": "fairy",
+      "power": 50.0,
+      "damage_class": "special",
+      "percent": 0.2
+    },
+    {
+      "slug": "psychic-terrain",
+      "name": "Psychic Terrain",
+      "description": "Turns the entire field into Psychic Terrain for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.2
+    },
+    {
+      "slug": "substitute",
+      "name": "Substitute",
+      "description": "The user loses 1/4 of its max HP to create a substitute. The substitute will be hit by moves instead of the user and it will vanish when it takes damage equal to 1/4 of the user's max HP.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.2
+    },
+    {
+      "slug": "encore",
+      "name": "Encore",
+      "description": "Gives the target the Encore status.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.1
+    },
+    {
+      "slug": "helping-hand",
+      "name": "Helping Hand",
+      "description": "Boosts the power of an ally's move by 50% during the turn this move is used.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.1
+    },
+    {
+      "slug": "shadow-sneak",
+      "name": "Shadow Sneak",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "ghost",
+      "power": 40.0,
+      "damage_class": "physical",
+      "percent": 0.1
+    },
+    {
+      "slug": "alluring-voice",
+      "name": "Alluring Voice",
+      "description": "Confuses the target if its stats were boosted during the turn this move is used.",
+      "type": "fairy",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "ally-switch",
+      "name": "Ally Switch",
+      "description": "The user switches spots with one of its allies. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "attract",
+      "name": "Attract",
+      "description": "Gives the target the Infatuated status. This move will fail against a target that is the same gender as the user or whose gender is unknown.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "body-slam",
+      "name": "Body Slam",
+      "description": "Has a 30% chance of paralyzing the target. If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
+      "type": "normal",
+      "power": 85.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "charge-beam",
+      "name": "Charge Beam",
+      "description": "Has a 70% chance of boosting the user's Sp. Atk stat by 1 stage.",
+      "type": "electric",
+      "power": 50.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "charm",
+      "name": "Charm",
+      "description": "Lowers the target's Attack stat by 2 stages.",
+      "type": "fairy",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "confuse-ray",
+      "name": "Confuse Ray",
+      "description": "Confuses the target.",
+      "type": "ghost",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "destiny-bond",
+      "name": "Destiny Bond",
+      "description": "The user gains the Destiny Bound status. This move fails if used in succession.",
+      "type": "ghost",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "disable",
+      "name": "Disable",
+      "description": "Gives the target the Move Disabled status for 4 turns.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "double-team",
+      "name": "Double Team",
+      "description": "Boosts the user's evasiveness by 1 stage.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "double-edge",
+      "name": "Double-Edge",
+      "description": "The user takes 1/3 of the damage dealt by this move.",
+      "type": "normal",
+      "power": 120.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "endure",
+      "name": "Endure",
+      "description": "During the turn this move is used if the user takes damage from a move that would knock it out it will endure the hit with 1 HP. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "energy-ball",
+      "name": "Energy Ball",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "grass",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "facade",
+      "name": "Facade",
+      "description": "This move's power is doubled if the user is poisoned badly poisoned burned or paralyzed. Although this move is a physical move the damage it deals is not halved when the user is burned.",
+      "type": "normal",
+      "power": 70.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "fire-punch",
+      "name": "Fire Punch",
+      "description": "Has a 10% chance of burning the target.",
+      "type": "fire",
+      "power": 75.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "fling",
+      "name": "Fling",
+      "description": "This move's power and effects depend on the user's held item. The held item is lost after this move is used.",
+      "type": "dark",
+      "power": null,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "future-sight",
+      "name": "Future Sight",
+      "description": "Gives the target's spot the Future Attack status.",
+      "type": "psychic",
+      "power": 120.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "giga-impact",
+      "name": "Giga Impact",
+      "description": "The user gains the Recharging status on the turn after this move is used.",
+      "type": "normal",
+      "power": 150.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "grass-knot",
+      "name": "Grass Knot",
+      "description": "The heavier the target the greater this move's power (ranging between 20 and 120).",
+      "type": "grass",
+      "power": null,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "gravity",
+      "name": "Gravity",
+      "description": "Gives the entire field the Gravity status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "guard-swap",
+      "name": "Guard Swap",
+      "description": "The user swaps the changes to its Defense and Sp. Def stats with the changes to the target's Defense and Sp. Def stats.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "heal-bell",
+      "name": "Heal Bell",
+      "description": "The user cures the status conditions of all the Pokémon in its party including itself as well as its allies.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "heal-pulse",
+      "name": "Heal Pulse",
+      "description": "Restores 1/2 of the target's max HP.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "healing-wish",
+      "name": "Healing Wish",
+      "description": "The user faints. The Pokémon taking its place will have its HP fully restored and its status conditions cured.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "ice-punch",
+      "name": "Ice Punch",
+      "description": "Has a 10% chance of freezing the target.",
+      "type": "ice",
+      "power": 75.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "knock-off",
+      "name": "Knock Off",
+      "description": "This move's power is boosted by 50% if the target is holding an item. Causes the target to lose its held item.",
+      "type": "dark",
+      "power": 65.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "life-dew",
+      "name": "Life Dew",
+      "description": "Restores 1/4 of the max HP of the user and its allies.",
+      "type": "water",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "light-screen",
+      "name": "Light Screen",
+      "description": "Gives the user's side the Light Screen status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "magic-room",
+      "name": "Magic Room",
+      "description": "Gives the entire field the Magic Room status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "mean-look",
+      "name": "Mean Look",
+      "description": "Gives the target the Can't Escape status.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "mega-kick",
+      "name": "Mega Kick",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "normal",
+      "power": 120.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "memento",
+      "name": "Memento",
+      "description": "Lowers the target's Attack and Sp. Atk stats by 2 stages. The user faints upon using this move.",
+      "type": "dark",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "misty-explosion",
+      "name": "Misty Explosion",
+      "description": "If the user is under the effect of Misty Terrain this move's power is boosted by 50%. The user faints upon using this move.",
+      "type": "fairy",
+      "power": 100.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "misty-terrain",
+      "name": "Misty Terrain",
+      "description": "Turns the entire field into Misty Terrain for 5 turns.",
+      "type": "fairy",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "mud-slap",
+      "name": "Mud-Slap",
+      "description": "Lowers the target's accuracy by 1 stage.",
+      "type": "ground",
+      "power": 20.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "night-shade",
+      "name": "Night Shade",
+      "description": "Deals 50 HP of damage.",
+      "type": "ghost",
+      "power": null,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "pain-split",
+      "name": "Pain Split",
+      "description": "The user adds its remaining HP to the target's remaining HP then splits the total in half for them to share.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "power-swap",
+      "name": "Power Swap",
+      "description": "The user swaps the changes to its Attack and Sp. Atk stats with the changes to the target's Attack and Sp. Atk stats.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "rain-dance",
+      "name": "Rain Dance",
+      "description": "Summons rain for 5 turns.",
+      "type": "water",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "recover",
+      "name": "Recover",
+      "description": "Restores 1/2 of the user's max HP.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "recycle",
+      "name": "Recycle",
+      "description": "Regenerates the last held item that the user consumed. The user then holds this item once more.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "reflect",
+      "name": "Reflect",
+      "description": "Gives the user's side the Reflect status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "rest",
+      "name": "Rest",
+      "description": "Fully restores the user's HP and cures any status conditions. The user falls asleep for 2 turns. This move fails if the user's HP is full.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "safeguard",
+      "name": "Safeguard",
+      "description": "Gives the user's side the Safeguard status for 5 turns.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "skill-swap",
+      "name": "Skill Swap",
+      "description": "The user and the target swap their Abilities.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "sleep-talk",
+      "name": "Sleep Talk",
+      "description": "Can be used only if the user is asleep. The user uses one of the other moves it knows at random.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "snore",
+      "name": "Snore",
+      "description": "Can be used only if the user is asleep. Has a 30% chance of making the target flinch.",
+      "type": "normal",
+      "power": 50.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "stored-power",
+      "name": "Stored Power",
+      "description": "This move's power is increased by 20 for each stage that the user's stats have been boosted.",
+      "type": "psychic",
+      "power": 20.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "sunny-day",
+      "name": "Sunny Day",
+      "description": "Summons harsh sunlight for 5 turns.",
+      "type": "fire",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "swagger",
+      "name": "Swagger",
+      "description": "Boosts the target's Attack stat by 2 stages and confuses it.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "thief",
+      "name": "Thief",
+      "description": "If the user is not already holding an item it steals the target's held item.",
+      "type": "dark",
+      "power": 60.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "thunder-punch",
+      "name": "Thunder Punch",
+      "description": "Has a 10% chance of paralyzing the target.",
+      "type": "electric",
+      "power": 75.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "thunder-wave",
+      "name": "Thunder Wave",
+      "description": "Paralyzes the target.",
+      "type": "electric",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "torment",
+      "name": "Torment",
+      "description": "Gives the target the Unable to Repeat status.",
+      "type": "dark",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "toxic",
+      "name": "Toxic",
+      "description": "Badly poisons the target. If the user is a Poison type this move will never miss.",
+      "type": "poison",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "trick",
+      "name": "Trick",
+      "description": "The user and the target swap their held items.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "triple-axel",
+      "name": "Triple Axel",
+      "description": "The user attacks 3 times in a rowÃ¢â‚¬â€first with a power of 20 then with a power of 40 then with a power of 60. The attack ends if the user misses.",
+      "type": "ice",
+      "power": 20.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "wish",
+      "name": "Wish",
+      "description": "Gives the user's spot the Wish status.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "wonder-room",
+      "name": "Wonder Room",
+      "description": "Gives the entire field the Wonder Room status for 5 turns.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "zen-headbutt",
+      "name": "Zen Headbutt",
+      "description": "Has a 20% chance of making the target flinch.",
+      "type": "psychic",
+      "power": 80.0,
+      "damage_class": "physical",
+      "percent": null
+    }
+  ],
+  "teammates": [
+    {
+      "slug": "basculegion",
+      "display_name": "Basculegion",
+      "percent": 55.1,
+      "image": "",
+      "url": "pokemon/basculegion/"
+    },
+    {
+      "slug": "maushold",
+      "display_name": "Maushold",
+      "percent": 46.0,
+      "image": "Images/pokemon_sprites/by_species/None/maushold-family-of-four/maushold_primary_image.png",
+      "url": "pokemon/maushold/"
+    },
+    {
+      "slug": "garchomp",
+      "display_name": "Garchomp",
+      "percent": 44.0,
+      "image": "Images/pokemon_sprites/by_species/garchomp/garchomp/garchomp_primary_image.png",
+      "url": "pokemon/garchomp/"
+    },
+    {
+      "slug": "incineroar",
+      "display_name": "Incineroar",
+      "percent": 33.5,
+      "image": "Images/pokemon_sprites/by_species/incineroar/incineroar/incineroar_primary_image.png",
+      "url": "pokemon/incineroar/"
+    },
+    {
+      "slug": "kingambit",
+      "display_name": "Kingambit",
+      "percent": 32.2,
+      "image": "Images/pokemon_sprites/by_species/kingambit/kingambit/kingambit_primary_image.png",
+      "url": "pokemon/kingambit/"
+    },
+    {
+      "slug": "archaludon",
+      "display_name": "Archaludon",
+      "percent": 29.6,
+      "image": "Images/pokemon_sprites/by_species/archaludon/archaludon/archaludon_primary_image.png",
+      "url": "pokemon/archaludon/"
+    },
+    {
+      "slug": "talonflame",
+      "display_name": "Talonflame",
+      "percent": 26.7,
+      "image": "Images/pokemon_sprites/by_species/talonflame/talonflame/talonflame_primary_image.png",
+      "url": "pokemon/talonflame/"
+    },
+    {
+      "slug": "pelipper",
+      "display_name": "Pelipper",
+      "percent": 22.0,
+      "image": "Images/pokemon_sprites/by_species/pelipper/pelipper/pelipper_primary_image.png",
+      "url": "pokemon/pelipper/"
+    },
+    {
+      "slug": "sneasler",
+      "display_name": "Sneasler",
+      "percent": 19.9,
+      "image": "Images/pokemon_sprites/by_species/sneasler/sneasler/sneasler_primary_image.png",
+      "url": "pokemon/sneasler/"
+    },
+    {
+      "slug": "sinistcha",
+      "display_name": "Sinistcha",
+      "percent": 13.3,
+      "image": "Images/pokemon_sprites/by_species/sinistcha/sinistcha/sinistcha_primary_image.png",
+      "url": "pokemon/sinistcha/"
+    }
+  ]
+}

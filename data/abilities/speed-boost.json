@@ -1,0 +1,25 @@
+{
+  "slug": "speed-boost",
+  "display_name": "Speed Boost",
+  "description": "raises speed one stage after each turn.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Espathra",
+      "url": "pokemon/espathra/",
+      "percent": 99.8
+    },
+    {
+      "display_name": "Sharpedo",
+      "url": "pokemon/sharpedo/",
+      "percent": 94.8
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "illuminate",
+  "display_name": "Illuminate",
+  "description": "doubles the wild encounter rate.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Starmie",
+      "url": "pokemon/starmie/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Watchog",
+      "url": "pokemon/watchog/",
+      "percent": 0.0
+    }
+  ]
+}

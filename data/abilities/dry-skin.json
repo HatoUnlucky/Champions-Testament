@@ -1,0 +1,25 @@
+{
+  "slug": "dry-skin",
+  "display_name": "Dry Skin",
+  "description": "causes 1/8 max hp in damage each turn during strong sunlight, but heals for 1/8 max hp during rain.  increases damage from fire moves to 1.25×, but absorbs water moves, healing for 1/4 max hp.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Toxicroak",
+      "url": "pokemon/toxicroak/",
+      "percent": 95.3
+    },
+    {
+      "display_name": "Heliolisk",
+      "url": "pokemon/heliolisk/",
+      "percent": 86.1
+    }
+  ]
+}

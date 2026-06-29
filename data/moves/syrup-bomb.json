@@ -1,0 +1,20 @@
+{
+  "slug": "syrup-bomb",
+  "display_name": "Syrup Bomb",
+  "description": "Gives the target the Syrupy status for 3 turns.",
+  "type": "grass",
+  "power": 60.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hydrapple",
+      "url": "pokemon/hydrapple/",
+      "percent": 2.2
+    }
+  ]
+}

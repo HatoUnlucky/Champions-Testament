@@ -1,0 +1,25 @@
+{
+  "slug": "moody",
+  "display_name": "Moody",
+  "description": "raises a random stat two stages and lowers another one stage after each turn.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Glalie",
+      "url": "pokemon/glalie/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Scovillain",
+      "url": "pokemon/scovillain/",
+      "percent": 1.7
+    }
+  ]
+}

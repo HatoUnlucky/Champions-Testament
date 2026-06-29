@@ -1,0 +1,20 @@
+{
+  "slug": "minus",
+  "display_name": "Minus",
+  "description": "increases special attack to 1.5× when a friendly pokémon has plus or minus.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Manectric",
+      "url": "pokemon/manectric/",
+      "percent": 3.1
+    }
+  ]
+}

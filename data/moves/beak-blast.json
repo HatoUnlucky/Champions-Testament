@@ -1,0 +1,20 @@
+{
+  "slug": "beak-blast",
+  "display_name": "Beak Blast",
+  "description": "If the user is hit by a contact move before it uses this move the attacker will be burned.",
+  "type": "flying",
+  "power": 120.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Toucannon",
+      "url": "pokemon/toucannon/",
+      "percent": 59.5
+    }
+  ]
+}

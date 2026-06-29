@@ -1,0 +1,20 @@
+{
+  "slug": "slush-rush",
+  "display_name": "Slush Rush",
+  "description": "during hail, this pokémon has double speed.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Beartic",
+      "url": "pokemon/beartic/",
+      "percent": 55.3
+    }
+  ]
+}

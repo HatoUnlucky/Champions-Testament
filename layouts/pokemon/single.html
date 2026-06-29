@@ -1,0 +1,204 @@
+{{ define "title" }}{{ .Title }} | {{ site.Title }}{{ end }}
+
+{{ define "main" }}
+{{ $pokemon := index hugo.Data.pokemon .Params.data_key }}
+<article class="pokemon-page">
+  <div class="toolbar">
+    <a href="{{ "pokemon/" | relURL }}">All Pokemon</a>
+  </div>
+
+  <section class="hero-panel">
+    <div>
+      <p class="eyebrow">Champion</p>
+      <h1>{{ $pokemon.display_name }}</h1>
+      <div class="type-row">
+        {{ range $pokemon.types }}
+          <span class="type-pill type-{{ .slug }}">
+            <img src="{{ printf "Images/type_icons/%s.svg" .slug | relURL }}" alt="">
+            {{ .name }}
+          </span>
+        {{ end }}
+      </div>
+    </div>
+    <div class="image-stage">
+      {{ with $pokemon.primary_image }}<img class="primary-mon" src="{{ . | relURL }}" alt="{{ $pokemon.display_name }}">{{ end }}
+      {{ with $pokemon.secondary_image }}<img class="secondary-mon" src="{{ . | relURL }}" alt="">{{ end }}
+    </div>
+  </section>
+
+  {{ if not $pokemon.has_usage_data }}
+    <section class="usage-empty panel">
+      <h2>No Usage Data</h2>
+      <p>No Smogon usage data was found for this Pokemon in the selected regulation. The page still shows base Champions key data where available.</p>
+    </section>
+  {{ else }}
+    <section class="usage-summary panel">
+      <h2>Usage</h2>
+      <div class="summary-row">
+        {{ with $pokemon.usage.percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
+        {{ with $pokemon.usage.raw_count }}<span>{{ . }} battles</span>{{ end }}
+        {{ with $pokemon.usage.source_key }}<span>{{ . }}</span>{{ end }}
+        {{ with $pokemon.usage.month }}<span>{{ . }}</span>{{ end }}
+      </div>
+    </section>
+  {{ end }}
+
+  <section class="detail-grid">
+    <section class="panel">
+      <h2>Stats</h2>
+      <div class="stat-grid">
+        {{ range $pokemon.stats }}
+          <div>
+            <span>{{ .label }}</span>
+            <strong>{{ .value }}</strong>
+          </div>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Abilities</h2>
+      <div class="rank-list">
+        {{ range $pokemon.abilities }}
+          <div class="rank-row">
+            <div>
+              <strong>{{ .name }}</strong>
+              {{ with .description }}<p>{{ . }}</p>{{ end }}
+            </div>
+            {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
+          </div>
+        {{ else }}
+          <div class="empty-state"><strong>No ability usage data.</strong></div>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Items</h2>
+      <div class="rank-list">
+        {{ range $pokemon.items }}
+          <div class="rank-row">
+            <div class="item-label">
+              {{ with .image }}<img src="{{ . | relURL }}" alt="">{{ end }}
+              <div>
+                <strong>{{ .name }}</strong>
+                {{ with .description }}<p>{{ . }}</p>{{ end }}
+              </div>
+            </div>
+            {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
+          </div>
+        {{ else }}
+          <div class="empty-state"><strong>No item usage data.</strong></div>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Common Spreads</h2>
+      <div class="spread-list">
+        {{ range $pokemon.spreads }}
+          <div class="spread-row">
+            <strong>{{ .nature }}</strong>
+            <span>{{ .spread }}</span>
+            {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
+          </div>
+        {{ else }}
+          <div class="empty-state"><strong>No spread usage data.</strong></div>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Tera Types</h2>
+      <div class="rank-list">
+        {{ range $pokemon.tera_types }}
+          <div class="rank-row">
+            <span class="type-pill type-{{ .slug }}">
+              <img src="{{ printf "Images/type_icons/%s.svg" .slug | relURL }}" alt="">
+              {{ .name }}
+            </span>
+            {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
+          </div>
+        {{ else }}
+          <div class="empty-state"><strong>No tera type usage data.</strong></div>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="panel wide">
+      <h2>Moves</h2>
+      <div class="inline-filter-bar" data-pokemon-move-controls>
+        <label>
+          Type
+          <select data-pokemon-move-type>
+            <option value="all">Any type</option>
+            {{ range slice "normal" "fire" "water" "electric" "grass" "ice" "fighting" "poison" "ground" "flying" "psychic" "bug" "rock" "ghost" "dragon" "dark" "steel" "fairy" }}
+              <option value="{{ . }}">{{ title . }}</option>
+            {{ end }}
+          </select>
+        </label>
+        <label>
+          Damage class
+          <select data-pokemon-move-class>
+            <option value="all">Any class</option>
+            <option value="physical">Physical</option>
+            <option value="special">Special</option>
+            <option value="status">Status</option>
+          </select>
+        </label>
+        <label>
+          Sort
+          <select data-pokemon-move-sort>
+            <option value="usage-desc">Usage, highest first</option>
+            <option value="power-desc">Power, highest first</option>
+            <option value="power-asc">Power, lowest first</option>
+            <option value="priority-desc">Priority, highest first</option>
+            <option value="priority-asc">Priority, lowest first</option>
+          </select>
+        </label>
+      </div>
+      <div class="move-list" data-pokemon-move-list>
+        {{ range $pokemon.moves }}
+          <div
+            class="move-row"
+            data-type="{{ .type }}"
+            data-damage-class="{{ .damage_class }}"
+            data-power="{{ .power | default 0 }}"
+            data-priority="{{ .priority | default 0 }}"
+            data-usage="{{ .percent | default 0 }}"
+          >
+            <div>
+              <strong>{{ .name }}</strong>
+              {{ with .description }}<p>{{ . }}</p>{{ end }}
+            </div>
+            <div class="move-meta">
+              {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
+              {{ with .power }}<span>{{ . }}</span>{{ end }}
+              {{ with .priority }}<span>+{{ . }}</span>{{ end }}
+              {{ with .damage_class }}<img src="{{ printf "Images/damage_class/%s.png" . | relURL }}" alt="{{ . }}">{{ end }}
+              {{ with .type }}<img src="{{ printf "Images/type_icons/%s.svg" . | relURL }}" alt="{{ . }}">{{ end }}
+            </div>
+          </div>
+        {{ else }}
+          <div class="empty-state"><strong>No move usage data.</strong></div>
+        {{ end }}
+      </div>
+    </section>
+
+    <section class="panel wide">
+      <h2>Common Teammates</h2>
+      <div class="teammate-grid">
+        {{ range $pokemon.teammates }}
+          <a class="teammate-card" href="{{ .url | relURL }}">
+            {{ with .image }}<img src="{{ . | relURL }}" alt="">{{ end }}
+            <span>{{ .display_name }}</span>
+            {{ with .percent }}<small>{{ lang.FormatNumber 1 . }}%</small>{{ end }}
+          </a>
+        {{ else }}
+          <div class="empty-state"><strong>No teammate usage data.</strong></div>
+        {{ end }}
+      </div>
+    </section>
+  </section>
+</article>
+{{ end }}

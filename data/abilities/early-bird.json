@@ -1,0 +1,25 @@
+{
+  "slug": "early-bird",
+  "display_name": "Early Bird",
+  "description": "makes sleep pass twice as quickly.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Houndoom",
+      "url": "pokemon/houndoom/",
+      "percent": 8.7
+    },
+    {
+      "display_name": "Kangaskhan",
+      "url": "pokemon/kangaskhan/",
+      "percent": 0.5
+    }
+  ]
+}

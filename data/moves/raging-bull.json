@@ -1,0 +1,20 @@
+{
+  "slug": "raging-bull",
+  "display_name": "Raging Bull",
+  "description": "Removes the Light Screen Reflect and Aurora Veil statuses on the target's side. This move's type depends on the user's form.",
+  "type": "normal",
+  "power": 90.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Tauros",
+      "url": "pokemon/tauros/",
+      "percent": 0.7
+    }
+  ]
+}

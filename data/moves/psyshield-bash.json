@@ -1,0 +1,20 @@
+{
+  "slug": "psyshield-bash",
+  "display_name": "Psyshield Bash",
+  "description": "Boosts the user's Defense stat by 1 stage.",
+  "type": "psychic",
+  "power": 90.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Wyrdeer",
+      "url": "pokemon/wyrdeer/",
+      "percent": 44.3
+    }
+  ]
+}

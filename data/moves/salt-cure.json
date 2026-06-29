@@ -1,0 +1,20 @@
+{
+  "slug": "salt-cure",
+  "display_name": "Salt Cure",
+  "description": "Gives the target the Salt Cured status.",
+  "type": "rock",
+  "power": 40.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": 79.8
+    }
+  ]
+}

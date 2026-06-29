@@ -1,0 +1,40 @@
+{
+  "slug": "ice-hammer",
+  "display_name": "Ice Hammer",
+  "description": "Lowers the user's Speed stat by 1 stage.",
+  "type": "ice",
+  "power": 100.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Crabominable",
+      "url": "pokemon/mega-crabominable/",
+      "percent": 94.4
+    },
+    {
+      "display_name": "Crabominable",
+      "url": "pokemon/crabominable/",
+      "percent": 77.8
+    },
+    {
+      "display_name": "Tinkaton",
+      "url": "pokemon/tinkaton/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Mega Abomasnow",
+      "url": "pokemon/mega-abomasnow/",
+      "percent": 0.9
+    },
+    {
+      "display_name": "Abomasnow",
+      "url": "pokemon/abomasnow/",
+      "percent": null
+    }
+  ]
+}

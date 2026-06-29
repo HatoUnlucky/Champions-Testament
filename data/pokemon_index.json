@@ -1,0 +1,6250 @@
+[
+  {
+    "display_name": "Abomasnow",
+    "slug": "abomasnow",
+    "url": "pokemon/abomasnow/",
+    "primary_image": "Images/pokemon_sprites/by_species/abomasnow/abomasnow/abomasnow_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "stats": {
+      "total": 494,
+      "hp": 90,
+      "attack": 92,
+      "defense": 75,
+      "special_attack": 92,
+      "special_defense": 85,
+      "speed": 60
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Ice | Usage data available"
+  },
+  {
+    "display_name": "Absol",
+    "slug": "absol",
+    "url": "pokemon/absol/",
+    "primary_image": "Images/pokemon_sprites/by_species/absol/absol/absol_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dark"
+    ],
+    "stats": {
+      "total": 465,
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "special_attack": 75,
+      "special_defense": 60,
+      "speed": 75
+    },
+    "has_usage_data": true,
+    "summary": "Dark | Usage data available"
+  },
+  {
+    "display_name": "Aegislash",
+    "slug": "aegislash",
+    "url": "pokemon/aegislash/",
+    "primary_image": "Images/pokemon_sprites/by_species/None/aegislash-shield/aegislash_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "steel",
+      "ghost"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 60,
+      "attack": 50,
+      "defense": 140,
+      "special_attack": 50,
+      "special_defense": 140,
+      "speed": 60
+    },
+    "has_usage_data": true,
+    "summary": "Steel / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Aerodactyl",
+    "slug": "aerodactyl",
+    "url": "pokemon/aerodactyl/",
+    "primary_image": "Images/pokemon_sprites/by_species/aerodactyl/aerodactyl/aerodactyl_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "stats": {
+      "total": 515,
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special_attack": 60,
+      "special_defense": 75,
+      "speed": 130
+    },
+    "has_usage_data": true,
+    "summary": "Rock / Flying | Usage data available"
+  },
+  {
+    "display_name": "Aggron",
+    "slug": "aggron",
+    "url": "pokemon/aggron/",
+    "primary_image": "Images/pokemon_sprites/by_species/aggron/aggron/aggron_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "steel",
+      "rock"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 70,
+      "attack": 110,
+      "defense": 180,
+      "special_attack": 60,
+      "special_defense": 60,
+      "speed": 50
+    },
+    "has_usage_data": true,
+    "summary": "Steel / Rock | Usage data available"
+  },
+  {
+    "display_name": "Alakazam",
+    "slug": "alakazam",
+    "url": "pokemon/alakazam/",
+    "primary_image": "Images/pokemon_sprites/by_species/alakazam/alakazam/alakazam_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 55,
+      "attack": 50,
+      "defense": 45,
+      "special_attack": 135,
+      "special_defense": 95,
+      "speed": 120
+    },
+    "has_usage_data": true,
+    "summary": "Psychic | Usage data available"
+  },
+  {
+    "display_name": "Alcremie",
+    "slug": "alcremie",
+    "url": "pokemon/alcremie/",
+    "primary_image": "Images/pokemon_sprites/by_species/alcremie/alcremie/alcremie_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "total": 495,
+      "hp": 65,
+      "attack": 60,
+      "defense": 75,
+      "special_attack": 110,
+      "special_defense": 121,
+      "speed": 64
+    },
+    "has_usage_data": true,
+    "summary": "Fairy | Usage data available"
+  },
+  {
+    "display_name": "Alolan Ninetales",
+    "slug": "alolan-ninetales",
+    "url": "pokemon/alolan-ninetales/",
+    "primary_image": "Images/pokemon_sprites/by_species/ninetales/ninetales-alola/ninetales-alola_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ice",
+      "fairy"
+    ],
+    "stats": {
+      "total": 505,
+      "hp": 73,
+      "attack": 67,
+      "defense": 75,
+      "special_attack": 81,
+      "special_defense": 100,
+      "speed": 109
+    },
+    "has_usage_data": true,
+    "summary": "Ice / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Alolan Raichu",
+    "slug": "alolan-raichu",
+    "url": "pokemon/alolan-raichu/",
+    "primary_image": "Images/pokemon_sprites/by_species/raichu/raichu-alola/raichu-alola_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric",
+      "psychic"
+    ],
+    "stats": {
+      "total": 485,
+      "hp": 60,
+      "attack": 85,
+      "defense": 50,
+      "special_attack": 95,
+      "special_defense": 85,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Electric / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Altaria",
+    "slug": "altaria",
+    "url": "pokemon/altaria/",
+    "primary_image": "Images/pokemon_sprites/by_species/altaria/altaria/altaria_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 75,
+      "attack": 70,
+      "defense": 90,
+      "special_attack": 70,
+      "special_defense": 105,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Dragon / Flying | Usage data available"
+  },
+  {
+    "display_name": "Ampharos",
+    "slug": "ampharos",
+    "url": "pokemon/ampharos/",
+    "primary_image": "Images/pokemon_sprites/by_species/ampharos/ampharos/ampharos_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 90,
+      "attack": 75,
+      "defense": 85,
+      "special_attack": 115,
+      "special_defense": 90,
+      "speed": 55
+    },
+    "has_usage_data": true,
+    "summary": "Electric | Usage data available"
+  },
+  {
+    "display_name": "Appletun",
+    "slug": "appletun",
+    "url": "pokemon/appletun/",
+    "primary_image": "Images/pokemon_sprites/by_species/appletun/appletun/appletun_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "stats": {
+      "total": 485,
+      "hp": 110,
+      "attack": 85,
+      "defense": 80,
+      "special_attack": 100,
+      "special_defense": 80,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Araquanid",
+    "slug": "araquanid",
+    "url": "pokemon/araquanid/",
+    "primary_image": "Images/pokemon_sprites/by_species/araquanid/araquanid/araquanid_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "bug"
+    ],
+    "stats": {
+      "total": 454,
+      "hp": 68,
+      "attack": 70,
+      "defense": 92,
+      "special_attack": 50,
+      "special_defense": 132,
+      "speed": 42
+    },
+    "has_usage_data": true,
+    "summary": "Water / Bug | Usage data available"
+  },
+  {
+    "display_name": "Arbok",
+    "slug": "arbok",
+    "url": "pokemon/arbok/",
+    "primary_image": "Images/pokemon_sprites/by_species/arbok/arbok/arbok_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "total": 448,
+      "hp": 60,
+      "attack": 95,
+      "defense": 69,
+      "special_attack": 65,
+      "special_defense": 79,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Poison | Usage data available"
+  },
+  {
+    "display_name": "Arcanine",
+    "slug": "arcanine",
+    "url": "pokemon/arcanine/",
+    "primary_image": "Images/pokemon_sprites/by_species/arcanine/arcanine/arcanine_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "total": 555,
+      "hp": 90,
+      "attack": 110,
+      "defense": 80,
+      "special_attack": 100,
+      "special_defense": 80,
+      "speed": 95
+    },
+    "has_usage_data": true,
+    "summary": "Fire | Usage data available"
+  },
+  {
+    "display_name": "Archaludon",
+    "slug": "archaludon",
+    "url": "pokemon/archaludon/",
+    "primary_image": "Images/pokemon_sprites/by_species/archaludon/archaludon/archaludon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 90,
+      "attack": 105,
+      "defense": 130,
+      "special_attack": 125,
+      "special_defense": 65,
+      "speed": 85
+    },
+    "has_usage_data": true,
+    "summary": "Steel / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Ariados",
+    "slug": "ariados",
+    "url": "pokemon/ariados/",
+    "primary_image": "Images/pokemon_sprites/by_species/ariados/ariados/ariados_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "total": 400,
+      "hp": 70,
+      "attack": 90,
+      "defense": 70,
+      "special_attack": 60,
+      "special_defense": 70,
+      "speed": 40
+    },
+    "has_usage_data": true,
+    "summary": "Bug / Poison | Usage data available"
+  },
+  {
+    "display_name": "Armarouge",
+    "slug": "armarouge",
+    "url": "pokemon/armarouge/",
+    "primary_image": "Images/pokemon_sprites/by_species/armarouge/armarouge/armarouge_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 85,
+      "attack": 60,
+      "defense": 100,
+      "special_attack": 125,
+      "special_defense": 80,
+      "speed": 75
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Aromatisse",
+    "slug": "aromatisse",
+    "url": "pokemon/aromatisse/",
+    "primary_image": "Images/pokemon_sprites/by_species/aromatisse/aromatisse/aromatisse_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "total": 462,
+      "hp": 101,
+      "attack": 72,
+      "defense": 72,
+      "special_attack": 99,
+      "special_defense": 89,
+      "speed": 29
+    },
+    "has_usage_data": true,
+    "summary": "Fairy | Usage data available"
+  },
+  {
+    "display_name": "Audino",
+    "slug": "audino",
+    "url": "pokemon/audino/",
+    "primary_image": "Images/pokemon_sprites/by_species/audino/audino/audino_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "total": 445,
+      "hp": 103,
+      "attack": 60,
+      "defense": 86,
+      "special_attack": 60,
+      "special_defense": 86,
+      "speed": 50
+    },
+    "has_usage_data": true,
+    "summary": "Normal | Usage data available"
+  },
+  {
+    "display_name": "Aurorus",
+    "slug": "aurorus",
+    "url": "pokemon/aurorus/",
+    "primary_image": "Images/pokemon_sprites/by_species/aurorus/aurorus/aurorus_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock",
+      "ice"
+    ],
+    "stats": {
+      "total": 521,
+      "hp": 123,
+      "attack": 77,
+      "defense": 72,
+      "special_attack": 99,
+      "special_defense": 92,
+      "speed": 58
+    },
+    "has_usage_data": true,
+    "summary": "Rock / Ice | Usage data available"
+  },
+  {
+    "display_name": "Avalugg",
+    "slug": "avalugg",
+    "url": "pokemon/avalugg/",
+    "primary_image": "Images/pokemon_sprites/by_species/avalugg/avalugg/avalugg_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ice"
+    ],
+    "stats": {
+      "total": 514,
+      "hp": 95,
+      "attack": 117,
+      "defense": 184,
+      "special_attack": 44,
+      "special_defense": 46,
+      "speed": 28
+    },
+    "has_usage_data": true,
+    "summary": "Ice | Usage data available"
+  },
+  {
+    "display_name": "Azumarill",
+    "slug": "azumarill",
+    "url": "pokemon/azumarill/",
+    "primary_image": "Images/pokemon_sprites/by_species/azumarill/azumarill/azumarill_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "stats": {
+      "total": 420,
+      "hp": 100,
+      "attack": 50,
+      "defense": 80,
+      "special_attack": 60,
+      "special_defense": 80,
+      "speed": 50
+    },
+    "has_usage_data": true,
+    "summary": "Water / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Banette",
+    "slug": "banette",
+    "url": "pokemon/banette/",
+    "primary_image": "Images/pokemon_sprites/by_species/banette/banette/banette_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ghost"
+    ],
+    "stats": {
+      "total": 455,
+      "hp": 64,
+      "attack": 115,
+      "defense": 65,
+      "special_attack": 83,
+      "special_defense": 63,
+      "speed": 65
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
+    "display_name": "Basculegion (Female)",
+    "slug": "basculegion-female",
+    "url": "pokemon/basculegion-female/",
+    "primary_image": "Images/pokemon_sprites/by_species/basculegion/basculegion-female/basculegion-female_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 120,
+      "attack": 92,
+      "defense": 65,
+      "special_attack": 100,
+      "special_defense": 75,
+      "speed": 78
+    },
+    "has_usage_data": true,
+    "summary": "Water / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Basculegion Male",
+    "slug": "basculegion-male",
+    "url": "pokemon/basculegion-male/",
+    "primary_image": "",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "ghost"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 120,
+      "attack": 112,
+      "defense": 65,
+      "special_attack": 80,
+      "special_defense": 75,
+      "speed": 78
+    },
+    "has_usage_data": true,
+    "summary": "Water / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Bastiodon",
+    "slug": "bastiodon",
+    "url": "pokemon/bastiodon/",
+    "primary_image": "Images/pokemon_sprites/by_species/bastiodon/bastiodon/bastiodon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock",
+      "steel"
+    ],
+    "stats": {
+      "total": 495,
+      "hp": 60,
+      "attack": 52,
+      "defense": 168,
+      "special_attack": 47,
+      "special_defense": 138,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Rock / Steel | Usage data available"
+  },
+  {
+    "display_name": "Beartic",
+    "slug": "beartic",
+    "url": "pokemon/beartic/",
+    "primary_image": "Images/pokemon_sprites/by_species/beartic/beartic/beartic_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ice"
+    ],
+    "stats": {
+      "total": 505,
+      "hp": 95,
+      "attack": 130,
+      "defense": 80,
+      "special_attack": 70,
+      "special_defense": 80,
+      "speed": 50
+    },
+    "has_usage_data": true,
+    "summary": "Ice | Usage data available"
+  },
+  {
+    "display_name": "Beedrill",
+    "slug": "beedrill",
+    "url": "pokemon/beedrill/",
+    "primary_image": "Images/pokemon_sprites/by_species/beedrill/beedrill/beedrill_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "total": 395,
+      "hp": 65,
+      "attack": 90,
+      "defense": 40,
+      "special_attack": 45,
+      "special_defense": 80,
+      "speed": 75
+    },
+    "has_usage_data": true,
+    "summary": "Bug / Poison | Usage data available"
+  },
+  {
+    "display_name": "Bellibolt",
+    "slug": "bellibolt",
+    "url": "pokemon/bellibolt/",
+    "primary_image": "Images/pokemon_sprites/by_species/bellibolt/bellibolt/bellibolt_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "total": 495,
+      "hp": 109,
+      "attack": 64,
+      "defense": 91,
+      "special_attack": 103,
+      "special_defense": 83,
+      "speed": 45
+    },
+    "has_usage_data": true,
+    "summary": "Electric | Usage data available"
+  },
+  {
+    "display_name": "Blastoise",
+    "slug": "blastoise",
+    "url": "pokemon/blastoise/",
+    "primary_image": "Images/pokemon_sprites/by_species/blastoise/blastoise/blastoise_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 79,
+      "attack": 83,
+      "defense": 100,
+      "special_attack": 85,
+      "special_defense": 105,
+      "speed": 78
+    },
+    "has_usage_data": true,
+    "summary": "Water | Usage data available"
+  },
+  {
+    "display_name": "Camerupt",
+    "slug": "camerupt",
+    "url": "pokemon/camerupt/",
+    "primary_image": "Images/pokemon_sprites/by_species/camerupt/camerupt/camerupt_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "stats": {
+      "total": 460,
+      "hp": 70,
+      "attack": 100,
+      "defense": 70,
+      "special_attack": 105,
+      "special_defense": 75,
+      "speed": 40
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Ground | Usage data available"
+  },
+  {
+    "display_name": "Castform",
+    "slug": "castform",
+    "url": "pokemon/castform/",
+    "primary_image": "Images/pokemon_sprites/by_species/castform/castform/castform_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "total": 420,
+      "hp": 70,
+      "attack": 70,
+      "defense": 70,
+      "special_attack": 70,
+      "special_defense": 70,
+      "speed": 70
+    },
+    "has_usage_data": true,
+    "summary": "Normal | Usage data available"
+  },
+  {
+    "display_name": "Ceruledge",
+    "slug": "ceruledge",
+    "url": "pokemon/ceruledge/",
+    "primary_image": "Images/pokemon_sprites/by_species/ceruledge/ceruledge/ceruledge_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 75,
+      "attack": 125,
+      "defense": 80,
+      "special_attack": 60,
+      "special_defense": 100,
+      "speed": 85
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Chandelure",
+    "slug": "chandelure",
+    "url": "pokemon/chandelure/",
+    "primary_image": "Images/pokemon_sprites/by_species/chandelure/chandelure/chandelure_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "stats": {
+      "total": 520,
+      "hp": 60,
+      "attack": 55,
+      "defense": 90,
+      "special_attack": 145,
+      "special_defense": 90,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Ghost / Fire | Usage data available"
+  },
+  {
+    "display_name": "Charizard",
+    "slug": "charizard",
+    "url": "pokemon/charizard/",
+    "primary_image": "Images/pokemon_sprites/by_species/charizard/charizard/charizard_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "stats": {
+      "total": 534,
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "special_attack": 109,
+      "special_defense": 85,
+      "speed": 100
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Flying | Usage data available"
+  },
+  {
+    "display_name": "Chesnaught",
+    "slug": "chesnaught",
+    "url": "pokemon/chesnaught/",
+    "primary_image": "Images/pokemon_sprites/by_species/chesnaught/chesnaught/chesnaught_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 88,
+      "attack": 107,
+      "defense": 122,
+      "special_attack": 74,
+      "special_defense": 75,
+      "speed": 64
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Chimecho",
+    "slug": "chimecho",
+    "url": "pokemon/chimecho/",
+    "primary_image": "Images/pokemon_sprites/by_species/chimecho/chimecho/chimecho_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "total": 455,
+      "hp": 75,
+      "attack": 50,
+      "defense": 80,
+      "special_attack": 95,
+      "special_defense": 90,
+      "speed": 65
+    },
+    "has_usage_data": true,
+    "summary": "Psychic | Usage data available"
+  },
+  {
+    "display_name": "Clawitzer",
+    "slug": "clawitzer",
+    "url": "pokemon/clawitzer/",
+    "primary_image": "Images/pokemon_sprites/by_species/clawitzer/clawitzer/clawitzer_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 71,
+      "attack": 73,
+      "defense": 88,
+      "special_attack": 120,
+      "special_defense": 89,
+      "speed": 59
+    },
+    "has_usage_data": true,
+    "summary": "Water | Usage data available"
+  },
+  {
+    "display_name": "Clefable",
+    "slug": "clefable",
+    "url": "pokemon/clefable/",
+    "primary_image": "Images/pokemon_sprites/by_species/clefable/clefable/clefable_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "total": 483,
+      "hp": 95,
+      "attack": 70,
+      "defense": 73,
+      "special_attack": 95,
+      "special_defense": 90,
+      "speed": 60
+    },
+    "has_usage_data": true,
+    "summary": "Fairy | Usage data available"
+  },
+  {
+    "display_name": "Cofagrigus",
+    "slug": "cofagrigus",
+    "url": "pokemon/cofagrigus/",
+    "primary_image": "Images/pokemon_sprites/by_species/cofagrigus/cofagrigus/cofagrigus_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ghost"
+    ],
+    "stats": {
+      "total": 483,
+      "hp": 58,
+      "attack": 50,
+      "defense": 145,
+      "special_attack": 95,
+      "special_defense": 105,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Ghost | Usage data available"
+  },
+  {
+    "display_name": "Conkeldurr",
+    "slug": "conkeldurr",
+    "url": "pokemon/conkeldurr/",
+    "primary_image": "Images/pokemon_sprites/by_species/conkeldurr/conkeldurr/conkeldurr_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "total": 505,
+      "hp": 105,
+      "attack": 140,
+      "defense": 95,
+      "special_attack": 55,
+      "special_defense": 65,
+      "speed": 45
+    },
+    "has_usage_data": true,
+    "summary": "Fighting | Usage data available"
+  },
+  {
+    "display_name": "Corviknight",
+    "slug": "corviknight",
+    "url": "pokemon/corviknight/",
+    "primary_image": "Images/pokemon_sprites/by_species/corviknight/corviknight/corviknight_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "flying",
+      "steel"
+    ],
+    "stats": {
+      "total": 495,
+      "hp": 98,
+      "attack": 87,
+      "defense": 105,
+      "special_attack": 53,
+      "special_defense": 85,
+      "speed": 67
+    },
+    "has_usage_data": true,
+    "summary": "Flying / Steel | Usage data available"
+  },
+  {
+    "display_name": "Crabominable",
+    "slug": "crabominable",
+    "url": "pokemon/crabominable/",
+    "primary_image": "Images/pokemon_sprites/by_species/crabominable/crabominable/crabominable_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "stats": {
+      "total": 478,
+      "hp": 97,
+      "attack": 132,
+      "defense": 77,
+      "special_attack": 62,
+      "special_defense": 67,
+      "speed": 43
+    },
+    "has_usage_data": true,
+    "summary": "Fighting / Ice | Usage data available"
+  },
+  {
+    "display_name": "Decidueye",
+    "slug": "decidueye",
+    "url": "pokemon/decidueye/",
+    "primary_image": "Images/pokemon_sprites/by_species/decidueye/decidueye/decidueye_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 78,
+      "attack": 107,
+      "defense": 75,
+      "special_attack": 100,
+      "special_defense": 100,
+      "speed": 70
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Dedenne",
+    "slug": "dedenne",
+    "url": "pokemon/dedenne/",
+    "primary_image": "Images/pokemon_sprites/by_species/dedenne/dedenne/dedenne_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric",
+      "fairy"
+    ],
+    "stats": {
+      "total": 431,
+      "hp": 67,
+      "attack": 58,
+      "defense": 57,
+      "special_attack": 81,
+      "special_defense": 67,
+      "speed": 101
+    },
+    "has_usage_data": true,
+    "summary": "Electric / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Delphox",
+    "slug": "delphox",
+    "url": "pokemon/delphox/",
+    "primary_image": "Images/pokemon_sprites/by_species/delphox/delphox/delphox_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "stats": {
+      "total": 534,
+      "hp": 75,
+      "attack": 69,
+      "defense": 72,
+      "special_attack": 114,
+      "special_defense": 100,
+      "speed": 104
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Diggersby",
+    "slug": "diggersby",
+    "url": "pokemon/diggersby/",
+    "primary_image": "Images/pokemon_sprites/by_species/diggersby/diggersby/diggersby_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal",
+      "ground"
+    ],
+    "stats": {
+      "total": 423,
+      "hp": 85,
+      "attack": 56,
+      "defense": 77,
+      "special_attack": 50,
+      "special_defense": 77,
+      "speed": 78
+    },
+    "has_usage_data": true,
+    "summary": "Normal / Ground | Usage data available"
+  },
+  {
+    "display_name": "Ditto",
+    "slug": "ditto",
+    "url": "pokemon/ditto/",
+    "primary_image": "Images/pokemon_sprites/by_species/ditto/ditto/ditto_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "total": 288,
+      "hp": 48,
+      "attack": 48,
+      "defense": 48,
+      "special_attack": 48,
+      "special_defense": 48,
+      "speed": 48
+    },
+    "has_usage_data": true,
+    "summary": "Normal | Usage data available"
+  },
+  {
+    "display_name": "Dragapult",
+    "slug": "dragapult",
+    "url": "pokemon/dragapult/",
+    "primary_image": "Images/pokemon_sprites/by_species/dragapult/dragapult/dragapult_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dragon",
+      "ghost"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 88,
+      "attack": 120,
+      "defense": 75,
+      "special_attack": 100,
+      "special_defense": 75,
+      "speed": 142
+    },
+    "has_usage_data": true,
+    "summary": "Dragon / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Dragonite",
+    "slug": "dragonite",
+    "url": "pokemon/dragonite/",
+    "primary_image": "Images/pokemon_sprites/by_species/dragonite/dragonite/dragonite_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 91,
+      "attack": 134,
+      "defense": 95,
+      "special_attack": 100,
+      "special_defense": 100,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Dragon / Flying | Usage data available"
+  },
+  {
+    "display_name": "Drampa",
+    "slug": "drampa",
+    "url": "pokemon/drampa/",
+    "primary_image": "Images/pokemon_sprites/by_species/drampa/drampa/drampa_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "stats": {
+      "total": 485,
+      "hp": 78,
+      "attack": 60,
+      "defense": 85,
+      "special_attack": 135,
+      "special_defense": 91,
+      "speed": 36
+    },
+    "has_usage_data": true,
+    "summary": "Normal / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Emboar",
+    "slug": "emboar",
+    "url": "pokemon/emboar/",
+    "primary_image": "Images/pokemon_sprites/by_species/emboar/emboar/emboar_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "stats": {
+      "total": 528,
+      "hp": 110,
+      "attack": 123,
+      "defense": 65,
+      "special_attack": 100,
+      "special_defense": 65,
+      "speed": 65
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Emolga",
+    "slug": "emolga",
+    "url": "pokemon/emolga/",
+    "primary_image": "Images/pokemon_sprites/by_species/emolga/emolga/emolga_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "stats": {
+      "total": 428,
+      "hp": 55,
+      "attack": 75,
+      "defense": 60,
+      "special_attack": 75,
+      "special_defense": 60,
+      "speed": 103
+    },
+    "has_usage_data": true,
+    "summary": "Electric / Flying | Usage data available"
+  },
+  {
+    "display_name": "Empoleon",
+    "slug": "empoleon",
+    "url": "pokemon/empoleon/",
+    "primary_image": "Images/pokemon_sprites/by_species/empoleon/empoleon/empoleon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "steel"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 84,
+      "attack": 86,
+      "defense": 88,
+      "special_attack": 111,
+      "special_defense": 101,
+      "speed": 60
+    },
+    "has_usage_data": true,
+    "summary": "Water / Steel | Usage data available"
+  },
+  {
+    "display_name": "Espathra",
+    "slug": "espathra",
+    "url": "pokemon/espathra/",
+    "primary_image": "Images/pokemon_sprites/by_species/espathra/espathra/espathra_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "total": 481,
+      "hp": 95,
+      "attack": 60,
+      "defense": 60,
+      "special_attack": 101,
+      "special_defense": 60,
+      "speed": 105
+    },
+    "has_usage_data": true,
+    "summary": "Psychic | Usage data available"
+  },
+  {
+    "display_name": "Espeon",
+    "slug": "espeon",
+    "url": "pokemon/espeon/",
+    "primary_image": "Images/pokemon_sprites/by_species/espeon/espeon/espeon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 130,
+      "special_defense": 95,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Psychic | Usage data available"
+  },
+  {
+    "display_name": "Excadrill",
+    "slug": "excadrill",
+    "url": "pokemon/excadrill/",
+    "primary_image": "Images/pokemon_sprites/by_species/excadrill/excadrill/excadrill_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "stats": {
+      "total": 508,
+      "hp": 110,
+      "attack": 135,
+      "defense": 60,
+      "special_attack": 50,
+      "special_defense": 65,
+      "speed": 88
+    },
+    "has_usage_data": true,
+    "summary": "Ground / Steel | Usage data available"
+  },
+  {
+    "display_name": "Fan Rotom",
+    "slug": "fan-rotom",
+    "url": "pokemon/fan-rotom/",
+    "primary_image": "Images/pokemon_sprites/by_species/rotom/rotom-fan/rotom-fan_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric",
+      "flying"
+    ],
+    "stats": {
+      "total": 520,
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "special_attack": 105,
+      "special_defense": 107,
+      "speed": 86
+    },
+    "has_usage_data": true,
+    "summary": "Electric / Flying | Usage data available"
+  },
+  {
+    "display_name": "Farigiraf",
+    "slug": "farigiraf",
+    "url": "pokemon/farigiraf/",
+    "primary_image": "Images/pokemon_sprites/by_species/farigiraf/farigiraf/farigiraf_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "stats": {
+      "total": 520,
+      "hp": 120,
+      "attack": 90,
+      "defense": 70,
+      "special_attack": 110,
+      "special_defense": 70,
+      "speed": 60
+    },
+    "has_usage_data": true,
+    "summary": "Normal / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Feraligatr",
+    "slug": "feraligatr",
+    "url": "pokemon/feraligatr/",
+    "primary_image": "Images/pokemon_sprites/by_species/feraligatr/feraligatr/feraligatr_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 85,
+      "attack": 105,
+      "defense": 100,
+      "special_attack": 79,
+      "special_defense": 83,
+      "speed": 78
+    },
+    "has_usage_data": true,
+    "summary": "Water | Usage data available"
+  },
+  {
+    "display_name": "Flapple",
+    "slug": "flapple",
+    "url": "pokemon/flapple/",
+    "primary_image": "Images/pokemon_sprites/by_species/flapple/flapple/flapple_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "stats": {
+      "total": 485,
+      "hp": 70,
+      "attack": 110,
+      "defense": 80,
+      "special_attack": 95,
+      "special_defense": 60,
+      "speed": 70
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Flareon",
+    "slug": "flareon",
+    "url": "pokemon/flareon/",
+    "primary_image": "Images/pokemon_sprites/by_species/flareon/flareon/flareon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 65,
+      "attack": 130,
+      "defense": 60,
+      "special_attack": 95,
+      "special_defense": 110,
+      "speed": 65
+    },
+    "has_usage_data": true,
+    "summary": "Fire | Usage data available"
+  },
+  {
+    "display_name": "Floette (Eternal)",
+    "slug": "floette-eternal",
+    "url": "pokemon/floette-eternal/",
+    "primary_image": "Images/pokemon_sprites/by_species/floette/floette-eternal/floette-eternal_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "total": 551,
+      "hp": 74,
+      "attack": 65,
+      "defense": 67,
+      "special_attack": 125,
+      "special_defense": 128,
+      "speed": 92
+    },
+    "has_usage_data": true,
+    "summary": "Fairy | Usage data available"
+  },
+  {
+    "display_name": "Florges",
+    "slug": "florges",
+    "url": "pokemon/florges/",
+    "primary_image": "Images/pokemon_sprites/by_species/florges/florges/florges_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "total": 552,
+      "hp": 78,
+      "attack": 65,
+      "defense": 68,
+      "special_attack": 112,
+      "special_defense": 154,
+      "speed": 75
+    },
+    "has_usage_data": true,
+    "summary": "Fairy | Usage data available"
+  },
+  {
+    "display_name": "Forretress",
+    "slug": "forretress",
+    "url": "pokemon/forretress/",
+    "primary_image": "Images/pokemon_sprites/by_species/forretress/forretress/forretress_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "stats": {
+      "total": 465,
+      "hp": 75,
+      "attack": 90,
+      "defense": 140,
+      "special_attack": 60,
+      "special_defense": 60,
+      "speed": 40
+    },
+    "has_usage_data": true,
+    "summary": "Bug / Steel | Usage data available"
+  },
+  {
+    "display_name": "Froslass",
+    "slug": "froslass",
+    "url": "pokemon/froslass/",
+    "primary_image": "Images/pokemon_sprites/by_species/froslass/froslass/froslass_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "stats": {
+      "total": 480,
+      "hp": 70,
+      "attack": 80,
+      "defense": 70,
+      "special_attack": 80,
+      "special_defense": 70,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Ice / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Frost Rotom",
+    "slug": "frost-rotom",
+    "url": "pokemon/frost-rotom/",
+    "primary_image": "Images/pokemon_sprites/by_species/rotom/rotom-frost/rotom-frost_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric",
+      "ice"
+    ],
+    "stats": {
+      "total": 520,
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "special_attack": 105,
+      "special_defense": 107,
+      "speed": 86
+    },
+    "has_usage_data": true,
+    "summary": "Electric / Ice | Usage data available"
+  },
+  {
+    "display_name": "Furfrou",
+    "slug": "furfrou",
+    "url": "pokemon/furfrou/",
+    "primary_image": "Images/pokemon_sprites/by_species/furfrou/furfrou/furfrou_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "total": 472,
+      "hp": 75,
+      "attack": 80,
+      "defense": 60,
+      "special_attack": 65,
+      "special_defense": 90,
+      "speed": 102
+    },
+    "has_usage_data": true,
+    "summary": "Normal | Usage data available"
+  },
+  {
+    "display_name": "Galarian Slowbro",
+    "slug": "galarian-slowbro",
+    "url": "pokemon/galarian-slowbro/",
+    "primary_image": "Images/pokemon_sprites/by_species/slowbro/slowbro-galar/slowbro-galar_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 95,
+      "attack": 100,
+      "defense": 95,
+      "special_attack": 100,
+      "special_defense": 70,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Poison / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Galarian Slowking",
+    "slug": "galarian-slowking",
+    "url": "pokemon/galarian-slowking/",
+    "primary_image": "Images/pokemon_sprites/by_species/slowking/slowking-galar/slowking-galar_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "poison",
+      "psychic"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 95,
+      "attack": 65,
+      "defense": 80,
+      "special_attack": 110,
+      "special_defense": 110,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Poison / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Galarian Stunfisk",
+    "slug": "galarian-stunfisk",
+    "url": "pokemon/galarian-stunfisk/",
+    "primary_image": "Images/pokemon_sprites/by_species/stunfisk/stunfisk-galar/stunfisk-galar_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "stats": {
+      "total": 471,
+      "hp": 109,
+      "attack": 81,
+      "defense": 99,
+      "special_attack": 66,
+      "special_defense": 84,
+      "speed": 32
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
+    "display_name": "Gallade",
+    "slug": "gallade",
+    "url": "pokemon/gallade/",
+    "primary_image": "Images/pokemon_sprites/by_species/gallade/gallade/gallade_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "stats": {
+      "total": 518,
+      "hp": 68,
+      "attack": 125,
+      "defense": 65,
+      "special_attack": 65,
+      "special_defense": 115,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Psychic / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Garbodor",
+    "slug": "garbodor",
+    "url": "pokemon/garbodor/",
+    "primary_image": "Images/pokemon_sprites/by_species/garbodor/garbodor/garbodor_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "poison"
+    ],
+    "stats": {
+      "total": 474,
+      "hp": 80,
+      "attack": 95,
+      "defense": 82,
+      "special_attack": 60,
+      "special_defense": 82,
+      "speed": 75
+    },
+    "has_usage_data": true,
+    "summary": "Poison | Usage data available"
+  },
+  {
+    "display_name": "Garchomp",
+    "slug": "garchomp",
+    "url": "pokemon/garchomp/",
+    "primary_image": "Images/pokemon_sprites/by_species/garchomp/garchomp/garchomp_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 108,
+      "attack": 130,
+      "defense": 95,
+      "special_attack": 80,
+      "special_defense": 85,
+      "speed": 102
+    },
+    "has_usage_data": true,
+    "summary": "Dragon / Ground | Usage data available"
+  },
+  {
+    "display_name": "Gardevoir",
+    "slug": "gardevoir",
+    "url": "pokemon/gardevoir/",
+    "primary_image": "Images/pokemon_sprites/by_species/gardevoir/gardevoir/gardevoir_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "stats": {
+      "total": 518,
+      "hp": 68,
+      "attack": 65,
+      "defense": 65,
+      "special_attack": 125,
+      "special_defense": 115,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Psychic / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Garganacl",
+    "slug": "garganacl",
+    "url": "pokemon/garganacl/",
+    "primary_image": "Images/pokemon_sprites/by_species/garganacl/garganacl/garganacl_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 100,
+      "attack": 100,
+      "defense": 130,
+      "special_attack": 45,
+      "special_defense": 90,
+      "speed": 35
+    },
+    "has_usage_data": true,
+    "summary": "Rock | Usage data available"
+  },
+  {
+    "display_name": "Gengar",
+    "slug": "gengar",
+    "url": "pokemon/gengar/",
+    "primary_image": "Images/pokemon_sprites/by_species/gengar/gengar/gengar_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 60,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 130,
+      "special_defense": 75,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Ghost / Poison | Usage data available"
+  },
+  {
+    "display_name": "Glaceon",
+    "slug": "glaceon",
+    "url": "pokemon/glaceon/",
+    "primary_image": "Images/pokemon_sprites/by_species/glaceon/glaceon/glaceon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ice"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 65,
+      "attack": 60,
+      "defense": 110,
+      "special_attack": 130,
+      "special_defense": 95,
+      "speed": 65
+    },
+    "has_usage_data": true,
+    "summary": "Ice | Usage data available"
+  },
+  {
+    "display_name": "Glalie",
+    "slug": "glalie",
+    "url": "pokemon/glalie/",
+    "primary_image": "Images/pokemon_sprites/by_species/glalie/glalie/glalie_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ice"
+    ],
+    "stats": {
+      "total": 480,
+      "hp": 80,
+      "attack": 80,
+      "defense": 80,
+      "special_attack": 80,
+      "special_defense": 80,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Ice | Usage data available"
+  },
+  {
+    "display_name": "Glimmora",
+    "slug": "glimmora",
+    "url": "pokemon/glimmora/",
+    "primary_image": "Images/pokemon_sprites/by_species/glimmora/glimmora/glimmora_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 83,
+      "attack": 55,
+      "defense": 90,
+      "special_attack": 130,
+      "special_defense": 81,
+      "speed": 86
+    },
+    "has_usage_data": true,
+    "summary": "Rock / Poison | Usage data available"
+  },
+  {
+    "display_name": "Gliscor",
+    "slug": "gliscor",
+    "url": "pokemon/gliscor/",
+    "primary_image": "Images/pokemon_sprites/by_species/gliscor/gliscor/gliscor_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground",
+      "flying"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 75,
+      "attack": 95,
+      "defense": 125,
+      "special_attack": 45,
+      "special_defense": 75,
+      "speed": 95
+    },
+    "has_usage_data": true,
+    "summary": "Ground / Flying | Usage data available"
+  },
+  {
+    "display_name": "Golurk",
+    "slug": "golurk",
+    "url": "pokemon/golurk/",
+    "primary_image": "Images/pokemon_sprites/by_species/golurk/golurk/golurk_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "stats": {
+      "total": 483,
+      "hp": 89,
+      "attack": 124,
+      "defense": 80,
+      "special_attack": 55,
+      "special_defense": 80,
+      "speed": 55
+    },
+    "has_usage_data": true,
+    "summary": "Ground / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Goodra",
+    "slug": "goodra",
+    "url": "pokemon/goodra/",
+    "primary_image": "Images/pokemon_sprites/by_species/goodra/goodra/goodra_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dragon"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 90,
+      "attack": 100,
+      "defense": 70,
+      "special_attack": 110,
+      "special_defense": 150,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Dragon | Usage data available"
+  },
+  {
+    "display_name": "Gourgeist",
+    "slug": "gourgeist",
+    "url": "pokemon/gourgeist/",
+    "primary_image": "Images/pokemon_sprites/by_species/None/gourgeist-average/gourgeist_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "stats": {
+      "total": 494,
+      "hp": 65,
+      "attack": 90,
+      "defense": 122,
+      "special_attack": 58,
+      "special_defense": 75,
+      "speed": 84
+    },
+    "has_usage_data": true,
+    "summary": "Ghost / Grass | Usage data available"
+  },
+  {
+    "display_name": "Greninja",
+    "slug": "greninja",
+    "url": "pokemon/greninja/",
+    "primary_image": "Images/pokemon_sprites/by_species/greninja/greninja/greninja_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "dark"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 72,
+      "attack": 95,
+      "defense": 67,
+      "special_attack": 103,
+      "special_defense": 71,
+      "speed": 122
+    },
+    "has_usage_data": true,
+    "summary": "Water / Dark | Usage data available"
+  },
+  {
+    "display_name": "Gyarados",
+    "slug": "gyarados",
+    "url": "pokemon/gyarados/",
+    "primary_image": "Images/pokemon_sprites/by_species/gyarados/gyarados/gyarados_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "flying"
+    ],
+    "stats": {
+      "total": 540,
+      "hp": 95,
+      "attack": 125,
+      "defense": 79,
+      "special_attack": 60,
+      "special_defense": 100,
+      "speed": 81
+    },
+    "has_usage_data": true,
+    "summary": "Water / Flying | Usage data available"
+  },
+  {
+    "display_name": "Hatterene",
+    "slug": "hatterene",
+    "url": "pokemon/hatterene/",
+    "primary_image": "Images/pokemon_sprites/by_species/hatterene/hatterene/hatterene_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 57,
+      "attack": 90,
+      "defense": 95,
+      "special_attack": 136,
+      "special_defense": 103,
+      "speed": 29
+    },
+    "has_usage_data": true,
+    "summary": "Psychic / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Hawlucha",
+    "slug": "hawlucha",
+    "url": "pokemon/hawlucha/",
+    "primary_image": "Images/pokemon_sprites/by_species/hawlucha/hawlucha/hawlucha_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 78,
+      "attack": 92,
+      "defense": 75,
+      "special_attack": 74,
+      "special_defense": 63,
+      "speed": 118
+    },
+    "has_usage_data": true,
+    "summary": "Fighting / Flying | Usage data available"
+  },
+  {
+    "display_name": "Heat Rotom",
+    "slug": "heat-rotom",
+    "url": "pokemon/heat-rotom/",
+    "primary_image": "Images/pokemon_sprites/by_species/rotom/rotom-heat/rotom-heat_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric",
+      "fire"
+    ],
+    "stats": {
+      "total": 520,
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "special_attack": 105,
+      "special_defense": 107,
+      "speed": 86
+    },
+    "has_usage_data": true,
+    "summary": "Electric / Fire | Usage data available"
+  },
+  {
+    "display_name": "Heliolisk",
+    "slug": "heliolisk",
+    "url": "pokemon/heliolisk/",
+    "primary_image": "Images/pokemon_sprites/by_species/heliolisk/heliolisk/heliolisk_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric",
+      "normal"
+    ],
+    "stats": {
+      "total": 481,
+      "hp": 62,
+      "attack": 55,
+      "defense": 52,
+      "special_attack": 109,
+      "special_defense": 94,
+      "speed": 109
+    },
+    "has_usage_data": true,
+    "summary": "Electric / Normal | Usage data available"
+  },
+  {
+    "display_name": "Heracross",
+    "slug": "heracross",
+    "url": "pokemon/heracross/",
+    "primary_image": "Images/pokemon_sprites/by_species/heracross/heracross/heracross_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 80,
+      "attack": 125,
+      "defense": 75,
+      "special_attack": 40,
+      "special_defense": 95,
+      "speed": 85
+    },
+    "has_usage_data": true,
+    "summary": "Bug / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Hippowdon",
+    "slug": "hippowdon",
+    "url": "pokemon/hippowdon/",
+    "primary_image": "Images/pokemon_sprites/by_species/hippowdon/hippowdon/hippowdon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 108,
+      "attack": 112,
+      "defense": 118,
+      "special_attack": 68,
+      "special_defense": 72,
+      "speed": 47
+    },
+    "has_usage_data": true,
+    "summary": "Ground | Usage data available"
+  },
+  {
+    "display_name": "Hisuian Arcanine",
+    "slug": "hisuian-arcanine",
+    "url": "pokemon/hisuian-arcanine/",
+    "primary_image": "Images/pokemon_sprites/by_species/arcanine/arcanine-hisui/arcanine-hisui_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "rock"
+    ],
+    "stats": {
+      "total": 555,
+      "hp": 95,
+      "attack": 115,
+      "defense": 80,
+      "special_attack": 95,
+      "special_defense": 80,
+      "speed": 90
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Rock | Usage data available"
+  },
+  {
+    "display_name": "Hisuian Avalugg",
+    "slug": "hisuian-avalugg",
+    "url": "pokemon/hisuian-avalugg/",
+    "primary_image": "Images/pokemon_sprites/by_species/avalugg/avalugg-hisui/avalugg-hisui_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ice",
+      "rock"
+    ],
+    "stats": {
+      "total": 514,
+      "hp": 95,
+      "attack": 127,
+      "defense": 184,
+      "special_attack": 34,
+      "special_defense": 36,
+      "speed": 38
+    },
+    "has_usage_data": true,
+    "summary": "Ice / Rock | Usage data available"
+  },
+  {
+    "display_name": "Hisuian Decidueye",
+    "slug": "hisuian-decidueye",
+    "url": "pokemon/hisuian-decidueye/",
+    "primary_image": "Images/pokemon_sprites/by_species/decidueye/decidueye-hisui/decidueye-hisui_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 88,
+      "attack": 112,
+      "defense": 80,
+      "special_attack": 95,
+      "special_defense": 95,
+      "speed": 60
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Hisuian Goodra",
+    "slug": "hisuian-goodra",
+    "url": "pokemon/hisuian-goodra/",
+    "primary_image": "Images/pokemon_sprites/by_species/goodra/goodra-hisui/goodra-hisui_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "steel",
+      "dragon"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 80,
+      "attack": 100,
+      "defense": 100,
+      "special_attack": 110,
+      "special_defense": 150,
+      "speed": 60
+    },
+    "has_usage_data": true,
+    "summary": "Steel / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Hisuian Samurott",
+    "slug": "hisuian-samurott",
+    "url": "pokemon/hisuian-samurott/",
+    "primary_image": "Images/pokemon_sprites/by_species/samurott/samurott-hisui/samurott-hisui_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "dark"
+    ],
+    "stats": {
+      "total": 528,
+      "hp": 90,
+      "attack": 108,
+      "defense": 80,
+      "special_attack": 100,
+      "special_defense": 65,
+      "speed": 85
+    },
+    "has_usage_data": true,
+    "summary": "Water / Dark | Usage data available"
+  },
+  {
+    "display_name": "Hisuian Typhlosion",
+    "slug": "hisuian-typhlosion",
+    "url": "pokemon/hisuian-typhlosion/",
+    "primary_image": "Images/pokemon_sprites/by_species/typhlosion/typhlosion-hisui/typhlosion-hisui_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "stats": {
+      "total": 534,
+      "hp": 73,
+      "attack": 84,
+      "defense": 78,
+      "special_attack": 119,
+      "special_defense": 85,
+      "speed": 95
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Hisuian Zoroark",
+    "slug": "hisuian-zoroark",
+    "url": "pokemon/hisuian-zoroark/",
+    "primary_image": "Images/pokemon_sprites/by_species/zoroark/zoroark-hisui/zoroark-hisui_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal",
+      "ghost"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 55,
+      "attack": 100,
+      "defense": 60,
+      "special_attack": 125,
+      "special_defense": 60,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Normal / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Houndoom",
+    "slug": "houndoom",
+    "url": "pokemon/houndoom/",
+    "primary_image": "Images/pokemon_sprites/by_species/houndoom/houndoom/houndoom_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 75,
+      "attack": 90,
+      "defense": 50,
+      "special_attack": 110,
+      "special_defense": 80,
+      "speed": 95
+    },
+    "has_usage_data": true,
+    "summary": "Dark / Fire | Usage data available"
+  },
+  {
+    "display_name": "Hydrapple",
+    "slug": "hydrapple",
+    "url": "pokemon/hydrapple/",
+    "primary_image": "Images/pokemon_sprites/by_species/hydrapple/hydrapple/hydrapple_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "dragon"
+    ],
+    "stats": {
+      "total": 540,
+      "hp": 106,
+      "attack": 80,
+      "defense": 110,
+      "special_attack": 120,
+      "special_defense": 80,
+      "speed": 44
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Hydreigon",
+    "slug": "hydreigon",
+    "url": "pokemon/hydreigon/",
+    "primary_image": "Images/pokemon_sprites/by_species/hydreigon/hydreigon/hydreigon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dark",
+      "dragon"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 92,
+      "attack": 105,
+      "defense": 90,
+      "special_attack": 125,
+      "special_defense": 90,
+      "speed": 98
+    },
+    "has_usage_data": true,
+    "summary": "Dark / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Incineroar",
+    "slug": "incineroar",
+    "url": "pokemon/incineroar/",
+    "primary_image": "Images/pokemon_sprites/by_species/incineroar/incineroar/incineroar_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "dark"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 95,
+      "attack": 115,
+      "defense": 90,
+      "special_attack": 80,
+      "special_defense": 90,
+      "speed": 60
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Dark | Usage data available"
+  },
+  {
+    "display_name": "Infernape",
+    "slug": "infernape",
+    "url": "pokemon/infernape/",
+    "primary_image": "Images/pokemon_sprites/by_species/infernape/infernape/infernape_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "stats": {
+      "total": 534,
+      "hp": 76,
+      "attack": 104,
+      "defense": 71,
+      "special_attack": 104,
+      "special_defense": 71,
+      "speed": 108
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Jolteon",
+    "slug": "jolteon",
+    "url": "pokemon/jolteon/",
+    "primary_image": "Images/pokemon_sprites/by_species/jolteon/jolteon/jolteon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 65,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 110,
+      "special_defense": 95,
+      "speed": 130
+    },
+    "has_usage_data": true,
+    "summary": "Electric | Usage data available"
+  },
+  {
+    "display_name": "Kangaskhan",
+    "slug": "kangaskhan",
+    "url": "pokemon/kangaskhan/",
+    "primary_image": "Images/pokemon_sprites/by_species/kangaskhan/kangaskhan/kangaskhan_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 105,
+      "attack": 95,
+      "defense": 80,
+      "special_attack": 40,
+      "special_defense": 80,
+      "speed": 90
+    },
+    "has_usage_data": true,
+    "summary": "Normal | Usage data available"
+  },
+  {
+    "display_name": "Kingambit",
+    "slug": "kingambit",
+    "url": "pokemon/kingambit/",
+    "primary_image": "Images/pokemon_sprites/by_species/kingambit/kingambit/kingambit_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dark",
+      "steel"
+    ],
+    "stats": {
+      "total": 550,
+      "hp": 100,
+      "attack": 135,
+      "defense": 120,
+      "special_attack": 60,
+      "special_defense": 85,
+      "speed": 50
+    },
+    "has_usage_data": true,
+    "summary": "Dark / Steel | Usage data available"
+  },
+  {
+    "display_name": "Kleavor",
+    "slug": "kleavor",
+    "url": "pokemon/kleavor/",
+    "primary_image": "Images/pokemon_sprites/by_species/kleavor/kleavor/kleavor_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug",
+      "rock"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 70,
+      "attack": 135,
+      "defense": 95,
+      "special_attack": 45,
+      "special_defense": 70,
+      "speed": 85
+    },
+    "has_usage_data": true,
+    "summary": "Bug / Rock | Usage data available"
+  },
+  {
+    "display_name": "Klefki",
+    "slug": "klefki",
+    "url": "pokemon/klefki/",
+    "primary_image": "Images/pokemon_sprites/by_species/klefki/klefki/klefki_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "steel",
+      "fairy"
+    ],
+    "stats": {
+      "total": 470,
+      "hp": 57,
+      "attack": 80,
+      "defense": 91,
+      "special_attack": 80,
+      "special_defense": 87,
+      "speed": 75
+    },
+    "has_usage_data": true,
+    "summary": "Steel / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Kommo-o",
+    "slug": "kommo-o",
+    "url": "pokemon/kommo-o/",
+    "primary_image": "Images/pokemon_sprites/by_species/kommo-o/kommo-o/kommo-o_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dragon",
+      "fighting"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 75,
+      "attack": 110,
+      "defense": 125,
+      "special_attack": 100,
+      "special_defense": 105,
+      "speed": 85
+    },
+    "has_usage_data": true,
+    "summary": "Dragon / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Krookodile",
+    "slug": "krookodile",
+    "url": "pokemon/krookodile/",
+    "primary_image": "Images/pokemon_sprites/by_species/krookodile/krookodile/krookodile_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground",
+      "dark"
+    ],
+    "stats": {
+      "total": 519,
+      "hp": 95,
+      "attack": 117,
+      "defense": 80,
+      "special_attack": 65,
+      "special_defense": 70,
+      "speed": 92
+    },
+    "has_usage_data": true,
+    "summary": "Ground / Dark | Usage data available"
+  },
+  {
+    "display_name": "Leafeon",
+    "slug": "leafeon",
+    "url": "pokemon/leafeon/",
+    "primary_image": "Images/pokemon_sprites/by_species/leafeon/leafeon/leafeon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 65,
+      "attack": 110,
+      "defense": 130,
+      "special_attack": 60,
+      "special_defense": 65,
+      "speed": 95
+    },
+    "has_usage_data": true,
+    "summary": "Grass | Usage data available"
+  },
+  {
+    "display_name": "Liepard",
+    "slug": "liepard",
+    "url": "pokemon/liepard/",
+    "primary_image": "Images/pokemon_sprites/by_species/liepard/liepard/liepard_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dark"
+    ],
+    "stats": {
+      "total": 446,
+      "hp": 64,
+      "attack": 88,
+      "defense": 50,
+      "special_attack": 88,
+      "special_defense": 50,
+      "speed": 106
+    },
+    "has_usage_data": true,
+    "summary": "Dark | Usage data available"
+  },
+  {
+    "display_name": "Lopunny",
+    "slug": "lopunny",
+    "url": "pokemon/lopunny/",
+    "primary_image": "Images/pokemon_sprites/by_species/lopunny/lopunny/lopunny_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "total": 480,
+      "hp": 65,
+      "attack": 76,
+      "defense": 84,
+      "special_attack": 54,
+      "special_defense": 96,
+      "speed": 105
+    },
+    "has_usage_data": true,
+    "summary": "Normal | Usage data available"
+  },
+  {
+    "display_name": "Lucario",
+    "slug": "lucario",
+    "url": "pokemon/lucario/",
+    "primary_image": "Images/pokemon_sprites/by_species/lucario/lucario/lucario_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 70,
+      "attack": 110,
+      "defense": 70,
+      "special_attack": 115,
+      "special_defense": 70,
+      "speed": 90
+    },
+    "has_usage_data": true,
+    "summary": "Fighting / Steel | Usage data available"
+  },
+  {
+    "display_name": "Luxray",
+    "slug": "luxray",
+    "url": "pokemon/luxray/",
+    "primary_image": "Images/pokemon_sprites/by_species/luxray/luxray/luxray_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "total": 523,
+      "hp": 80,
+      "attack": 120,
+      "defense": 79,
+      "special_attack": 95,
+      "special_defense": 79,
+      "speed": 70
+    },
+    "has_usage_data": true,
+    "summary": "Electric | Usage data available"
+  },
+  {
+    "display_name": "Lycanroc (Dusk)",
+    "slug": "lycanroc-dusk",
+    "url": "pokemon/lycanroc-dusk/",
+    "primary_image": "Images/pokemon_sprites/by_species/lycanroc/lycanroc-dusk/lycanroc-dusk_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock"
+    ],
+    "stats": {
+      "total": 487,
+      "hp": 75,
+      "attack": 117,
+      "defense": 65,
+      "special_attack": 55,
+      "special_defense": 65,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Rock | Usage data available"
+  },
+  {
+    "display_name": "Lycanroc (Midday)",
+    "slug": "lycanroc-midday",
+    "url": "pokemon/lycanroc-midday/",
+    "primary_image": "Images/pokemon_sprites/by_species/lycanroc/lycanroc-midday/lycanroc-midday_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock"
+    ],
+    "stats": {
+      "total": 487,
+      "hp": 75,
+      "attack": 115,
+      "defense": 65,
+      "special_attack": 55,
+      "special_defense": 65,
+      "speed": 112
+    },
+    "has_usage_data": true,
+    "summary": "Rock | Usage data available"
+  },
+  {
+    "display_name": "Lycanroc (Midnight)",
+    "slug": "lycanroc-midnight",
+    "url": "pokemon/lycanroc-midnight/",
+    "primary_image": "Images/pokemon_sprites/by_species/lycanroc/lycanroc-midnight/lycanroc-midnight_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock"
+    ],
+    "stats": {
+      "total": 487,
+      "hp": 85,
+      "attack": 115,
+      "defense": 75,
+      "special_attack": 55,
+      "special_defense": 75,
+      "speed": 82
+    },
+    "has_usage_data": true,
+    "summary": "Rock | Usage data available"
+  },
+  {
+    "display_name": "Machamp",
+    "slug": "machamp",
+    "url": "pokemon/machamp/",
+    "primary_image": "Images/pokemon_sprites/by_species/machamp/machamp/machamp_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "total": 505,
+      "hp": 90,
+      "attack": 130,
+      "defense": 80,
+      "special_attack": 65,
+      "special_defense": 85,
+      "speed": 55
+    },
+    "has_usage_data": true,
+    "summary": "Fighting | Usage data available"
+  },
+  {
+    "display_name": "Mamoswine",
+    "slug": "mamoswine",
+    "url": "pokemon/mamoswine/",
+    "primary_image": "Images/pokemon_sprites/by_species/mamoswine/mamoswine/mamoswine_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ice",
+      "ground"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 110,
+      "attack": 130,
+      "defense": 80,
+      "special_attack": 70,
+      "special_defense": 60,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Ice / Ground | Usage data available"
+  },
+  {
+    "display_name": "Manectric",
+    "slug": "manectric",
+    "url": "pokemon/manectric/",
+    "primary_image": "Images/pokemon_sprites/by_species/manectric/manectric/manectric_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "total": 475,
+      "hp": 70,
+      "attack": 75,
+      "defense": 60,
+      "special_attack": 105,
+      "special_defense": 60,
+      "speed": 105
+    },
+    "has_usage_data": true,
+    "summary": "Electric | Usage data available"
+  },
+  {
+    "display_name": "Maushold",
+    "slug": "maushold",
+    "url": "pokemon/maushold/",
+    "primary_image": "Images/pokemon_sprites/by_species/None/maushold-family-of-four/maushold_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "n"
+    ],
+    "stats": {
+      "total": 470,
+      "hp": 74,
+      "attack": 75,
+      "defense": 70,
+      "special_attack": 65,
+      "special_defense": 75,
+      "speed": 111
+    },
+    "has_usage_data": true,
+    "summary": "N | Usage data available"
+  },
+  {
+    "display_name": "Medicham",
+    "slug": "medicham",
+    "url": "pokemon/medicham/",
+    "primary_image": "Images/pokemon_sprites/by_species/medicham/medicham/medicham_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "stats": {
+      "total": 410,
+      "hp": 60,
+      "attack": 60,
+      "defense": 75,
+      "special_attack": 60,
+      "special_defense": 75,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Fighting / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Mega Abomasnow",
+    "slug": "mega-abomasnow",
+    "url": "pokemon/mega-abomasnow/",
+    "primary_image": "Images/pokemon_sprites/by_species/abomasnow/abomasnow-mega/abomasnow-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "ice"
+    ],
+    "stats": {
+      "total": 594,
+      "hp": 90,
+      "attack": 132,
+      "defense": 105,
+      "special_attack": 132,
+      "special_defense": 105,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Ice | Usage data available"
+  },
+  {
+    "display_name": "Mega Absol",
+    "slug": "mega-absol",
+    "url": "pokemon/mega-absol/",
+    "primary_image": "Images/pokemon_sprites/by_species/absol/absol-mega/absol-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dark"
+    ],
+    "stats": {
+      "total": 565,
+      "hp": 65,
+      "attack": 150,
+      "defense": 60,
+      "special_attack": 115,
+      "special_defense": 60,
+      "speed": 115
+    },
+    "has_usage_data": true,
+    "summary": "Dark | Usage data available"
+  },
+  {
+    "display_name": "Mega Aerodactyl",
+    "slug": "mega-aerodactyl",
+    "url": "pokemon/mega-aerodactyl/",
+    "primary_image": "Images/pokemon_sprites/by_species/aerodactyl/aerodactyl-mega/aerodactyl-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock",
+      "flying"
+    ],
+    "stats": {
+      "total": 615,
+      "hp": 80,
+      "attack": 135,
+      "defense": 85,
+      "special_attack": 70,
+      "special_defense": 95,
+      "speed": 150
+    },
+    "has_usage_data": true,
+    "summary": "Rock / Flying | Usage data available"
+  },
+  {
+    "display_name": "Mega Aggron",
+    "slug": "mega-aggron",
+    "url": "pokemon/mega-aggron/",
+    "primary_image": "Images/pokemon_sprites/by_species/aggron/aggron-mega/aggron-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "steel"
+    ],
+    "stats": {
+      "total": 630,
+      "hp": 70,
+      "attack": 140,
+      "defense": 230,
+      "special_attack": 60,
+      "special_defense": 80,
+      "speed": 50
+    },
+    "has_usage_data": true,
+    "summary": "Steel | Usage data available"
+  },
+  {
+    "display_name": "Mega Alakazam",
+    "slug": "mega-alakazam",
+    "url": "pokemon/mega-alakazam/",
+    "primary_image": "Images/pokemon_sprites/by_species/alakazam/alakazam-mega/alakazam-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 55,
+      "attack": 50,
+      "defense": 65,
+      "special_attack": 175,
+      "special_defense": 105,
+      "speed": 150
+    },
+    "has_usage_data": true,
+    "summary": "Psychic | Usage data available"
+  },
+  {
+    "display_name": "Mega Altaria",
+    "slug": "mega-altaria",
+    "url": "pokemon/mega-altaria/",
+    "primary_image": "Images/pokemon_sprites/by_species/altaria/altaria-mega/altaria-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dragon",
+      "fairy"
+    ],
+    "stats": {
+      "total": 590,
+      "hp": 75,
+      "attack": 110,
+      "defense": 110,
+      "special_attack": 110,
+      "special_defense": 105,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Dragon / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Mega Ampharos",
+    "slug": "mega-ampharos",
+    "url": "pokemon/mega-ampharos/",
+    "primary_image": "Images/pokemon_sprites/by_species/ampharos/ampharos-mega/ampharos-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric",
+      "dragon"
+    ],
+    "stats": {
+      "total": 610,
+      "hp": 90,
+      "attack": 95,
+      "defense": 105,
+      "special_attack": 165,
+      "special_defense": 110,
+      "speed": 45
+    },
+    "has_usage_data": true,
+    "summary": "Electric / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Mega Audino",
+    "slug": "mega-audino",
+    "url": "pokemon/mega-audino/",
+    "primary_image": "Images/pokemon_sprites/by_species/audino/audino-mega/audino-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal",
+      "fairy"
+    ],
+    "stats": {
+      "total": 545,
+      "hp": 103,
+      "attack": 60,
+      "defense": 126,
+      "special_attack": 80,
+      "special_defense": 126,
+      "speed": 50
+    },
+    "has_usage_data": true,
+    "summary": "Normal / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Mega Banette",
+    "slug": "mega-banette",
+    "url": "pokemon/mega-banette/",
+    "primary_image": "Images/pokemon_sprites/by_species/banette/banette-mega/banette-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ghost"
+    ],
+    "stats": {
+      "total": 555,
+      "hp": 64,
+      "attack": 165,
+      "defense": 75,
+      "special_attack": 93,
+      "special_defense": 83,
+      "speed": 75
+    },
+    "has_usage_data": true,
+    "summary": "Ghost | Usage data available"
+  },
+  {
+    "display_name": "Mega Beedrill",
+    "slug": "mega-beedrill",
+    "url": "pokemon/mega-beedrill/",
+    "primary_image": "Images/pokemon_sprites/by_species/beedrill/beedrill-mega/beedrill-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug",
+      "poison"
+    ],
+    "stats": {
+      "total": 495,
+      "hp": 65,
+      "attack": 150,
+      "defense": 40,
+      "special_attack": 15,
+      "special_defense": 80,
+      "speed": 145
+    },
+    "has_usage_data": true,
+    "summary": "Bug / Poison | Usage data available"
+  },
+  {
+    "display_name": "Mega Blastoise",
+    "slug": "mega-blastoise",
+    "url": "pokemon/mega-blastoise/",
+    "primary_image": "Images/pokemon_sprites/by_species/blastoise/blastoise-mega/blastoise-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "total": 630,
+      "hp": 79,
+      "attack": 103,
+      "defense": 120,
+      "special_attack": 135,
+      "special_defense": 115,
+      "speed": 78
+    },
+    "has_usage_data": true,
+    "summary": "Water | Usage data available"
+  },
+  {
+    "display_name": "Mega Camerupt",
+    "slug": "mega-camerupt",
+    "url": "pokemon/mega-camerupt/",
+    "primary_image": "Images/pokemon_sprites/by_species/camerupt/camerupt-mega/camerupt-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "ground"
+    ],
+    "stats": {
+      "total": 560,
+      "hp": 70,
+      "attack": 120,
+      "defense": 100,
+      "special_attack": 145,
+      "special_defense": 105,
+      "speed": 20
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Ground | Usage data available"
+  },
+  {
+    "display_name": "Mega Chandelure",
+    "slug": "mega-chandelure",
+    "url": "pokemon/mega-chandelure/",
+    "primary_image": "Images/pokemon_sprites/by_species/chandelure/chandelure-mega/chandelure-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ghost",
+      "fire"
+    ],
+    "stats": {
+      "total": 620,
+      "hp": 60,
+      "attack": 75,
+      "defense": 110,
+      "special_attack": 175,
+      "special_defense": 110,
+      "speed": 90
+    },
+    "has_usage_data": true,
+    "summary": "Ghost / Fire | Usage data available"
+  },
+  {
+    "display_name": "Mega Charizard X",
+    "slug": "mega-charizard-x",
+    "url": "pokemon/mega-charizard-x/",
+    "primary_image": "Images/pokemon_sprites/by_species/charizard/charizard-mega-x/charizard-mega-x_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "dragon"
+    ],
+    "stats": {
+      "total": 634,
+      "hp": 78,
+      "attack": 130,
+      "defense": 111,
+      "special_attack": 130,
+      "special_defense": 85,
+      "speed": 100
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Mega Charizard Y",
+    "slug": "mega-charizard-y",
+    "url": "pokemon/mega-charizard-y/",
+    "primary_image": "Images/pokemon_sprites/by_species/charizard/charizard-mega-y/charizard-mega-y_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "stats": {
+      "total": 634,
+      "hp": 78,
+      "attack": 104,
+      "defense": 78,
+      "special_attack": 159,
+      "special_defense": 115,
+      "speed": 100
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Flying | Usage data available"
+  },
+  {
+    "display_name": "Mega Chesnaught",
+    "slug": "mega-chesnaught",
+    "url": "pokemon/mega-chesnaught/",
+    "primary_image": "Images/pokemon_sprites/by_species/chesnaught/chesnaught-mega/chesnaught-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "fighting"
+    ],
+    "stats": {
+      "total": 630,
+      "hp": 88,
+      "attack": 137,
+      "defense": 172,
+      "special_attack": 74,
+      "special_defense": 115,
+      "speed": 44
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Mega Chimecho",
+    "slug": "mega-chimecho",
+    "url": "pokemon/mega-chimecho/",
+    "primary_image": "Images/pokemon_sprites/by_species/chimecho/chimecho-mega/chimecho-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic",
+      "steel"
+    ],
+    "stats": {
+      "total": 555,
+      "hp": 75,
+      "attack": 50,
+      "defense": 110,
+      "special_attack": 135,
+      "special_defense": 120,
+      "speed": 65
+    },
+    "has_usage_data": true,
+    "summary": "Psychic / Steel | Usage data available"
+  },
+  {
+    "display_name": "Mega Clefable",
+    "slug": "mega-clefable",
+    "url": "pokemon/mega-clefable/",
+    "primary_image": "Images/pokemon_sprites/by_species/clefable/clefable-mega/clefable-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fairy",
+      "flying"
+    ],
+    "stats": {
+      "total": 583,
+      "hp": 95,
+      "attack": 80,
+      "defense": 93,
+      "special_attack": 135,
+      "special_defense": 110,
+      "speed": 70
+    },
+    "has_usage_data": true,
+    "summary": "Fairy / Flying | Usage data available"
+  },
+  {
+    "display_name": "Mega Crabominable",
+    "slug": "mega-crabominable",
+    "url": "pokemon/mega-crabominable/",
+    "primary_image": "Images/pokemon_sprites/by_species/crabominable/crabominable-mega/crabominable-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting",
+      "ice"
+    ],
+    "stats": {
+      "total": 578,
+      "hp": 97,
+      "attack": 157,
+      "defense": 122,
+      "special_attack": 62,
+      "special_defense": 107,
+      "speed": 33
+    },
+    "has_usage_data": true,
+    "summary": "Fighting / Ice | Usage data available"
+  },
+  {
+    "display_name": "Mega Delphox",
+    "slug": "mega-delphox",
+    "url": "pokemon/mega-delphox/",
+    "primary_image": "Images/pokemon_sprites/by_species/delphox/delphox-mega/delphox-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "psychic"
+    ],
+    "stats": {
+      "total": 634,
+      "hp": 75,
+      "attack": 69,
+      "defense": 72,
+      "special_attack": 159,
+      "special_defense": 125,
+      "speed": 134
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Mega Dragonite",
+    "slug": "mega-dragonite",
+    "url": "pokemon/mega-dragonite/",
+    "primary_image": "Images/pokemon_sprites/by_species/dragonite/dragonite-mega/dragonite-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dragon",
+      "flying"
+    ],
+    "stats": {
+      "total": 700,
+      "hp": 91,
+      "attack": 124,
+      "defense": 115,
+      "special_attack": 145,
+      "special_defense": 125,
+      "speed": 100
+    },
+    "has_usage_data": true,
+    "summary": "Dragon / Flying | Usage data available"
+  },
+  {
+    "display_name": "Mega Drampa",
+    "slug": "mega-drampa",
+    "url": "pokemon/mega-drampa/",
+    "primary_image": "Images/pokemon_sprites/by_species/drampa/drampa-mega/drampa-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal",
+      "dragon"
+    ],
+    "stats": {
+      "total": 585,
+      "hp": 78,
+      "attack": 85,
+      "defense": 110,
+      "special_attack": 160,
+      "special_defense": 116,
+      "speed": 36
+    },
+    "has_usage_data": true,
+    "summary": "Normal / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Mega Emboar",
+    "slug": "mega-emboar",
+    "url": "pokemon/mega-emboar/",
+    "primary_image": "Images/pokemon_sprites/by_species/emboar/emboar-mega/emboar-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "fighting"
+    ],
+    "stats": {
+      "total": 628,
+      "hp": 110,
+      "attack": 148,
+      "defense": 75,
+      "special_attack": 110,
+      "special_defense": 110,
+      "speed": 75
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Mega Excadrill",
+    "slug": "mega-excadrill",
+    "url": "pokemon/mega-excadrill/",
+    "primary_image": "Images/pokemon_sprites/by_species/excadrill/excadrill-mega/excadrill-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground",
+      "steel"
+    ],
+    "stats": {
+      "total": 608,
+      "hp": 110,
+      "attack": 165,
+      "defense": 100,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 103
+    },
+    "has_usage_data": true,
+    "summary": "Ground / Steel | Usage data available"
+  },
+  {
+    "display_name": "Mega Feraligatr",
+    "slug": "mega-feraligatr",
+    "url": "pokemon/mega-feraligatr/",
+    "primary_image": "Images/pokemon_sprites/by_species/feraligatr/feraligatr-mega/feraligatr-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "dragon"
+    ],
+    "stats": {
+      "total": 630,
+      "hp": 85,
+      "attack": 160,
+      "defense": 125,
+      "special_attack": 89,
+      "special_defense": 93,
+      "speed": 78
+    },
+    "has_usage_data": true,
+    "summary": "Water / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Mega Floette",
+    "slug": "mega-floette",
+    "url": "pokemon/mega-floette/",
+    "primary_image": "Images/pokemon_sprites/by_species/floette/floette-mega/floette-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "total": 651,
+      "hp": 74,
+      "attack": 85,
+      "defense": 87,
+      "special_attack": 155,
+      "special_defense": 148,
+      "speed": 102
+    },
+    "has_usage_data": true,
+    "summary": "Fairy | Usage data available"
+  },
+  {
+    "display_name": "Mega Froslass",
+    "slug": "mega-froslass",
+    "url": "pokemon/mega-froslass/",
+    "primary_image": "Images/pokemon_sprites/by_species/froslass/froslass-mega/froslass-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ice",
+      "ghost"
+    ],
+    "stats": {
+      "total": 580,
+      "hp": 70,
+      "attack": 80,
+      "defense": 70,
+      "special_attack": 140,
+      "special_defense": 100,
+      "speed": 120
+    },
+    "has_usage_data": true,
+    "summary": "Ice / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Mega Gallade",
+    "slug": "mega-gallade",
+    "url": "pokemon/mega-gallade/",
+    "primary_image": "Images/pokemon_sprites/by_species/gallade/gallade-mega/gallade-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic",
+      "fighting"
+    ],
+    "stats": {
+      "total": 618,
+      "hp": 68,
+      "attack": 165,
+      "defense": 95,
+      "special_attack": 65,
+      "special_defense": 115,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Psychic / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Mega Garchomp",
+    "slug": "mega-garchomp",
+    "url": "pokemon/mega-garchomp/",
+    "primary_image": "Images/pokemon_sprites/by_species/garchomp/garchomp-mega/garchomp-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dragon",
+      "ground"
+    ],
+    "stats": {
+      "total": 700,
+      "hp": 108,
+      "attack": 170,
+      "defense": 115,
+      "special_attack": 120,
+      "special_defense": 95,
+      "speed": 92
+    },
+    "has_usage_data": true,
+    "summary": "Dragon / Ground | Usage data available"
+  },
+  {
+    "display_name": "Mega Gardevoir",
+    "slug": "mega-gardevoir",
+    "url": "pokemon/mega-gardevoir/",
+    "primary_image": "Images/pokemon_sprites/by_species/gardevoir/gardevoir-mega/gardevoir-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic",
+      "fairy"
+    ],
+    "stats": {
+      "total": 618,
+      "hp": 68,
+      "attack": 85,
+      "defense": 65,
+      "special_attack": 165,
+      "special_defense": 135,
+      "speed": 100
+    },
+    "has_usage_data": true,
+    "summary": "Psychic / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Mega Gengar",
+    "slug": "mega-gengar",
+    "url": "pokemon/mega-gengar/",
+    "primary_image": "Images/pokemon_sprites/by_species/gengar/gengar-mega/gengar-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ghost",
+      "poison"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 60,
+      "attack": 65,
+      "defense": 80,
+      "special_attack": 170,
+      "special_defense": 95,
+      "speed": 130
+    },
+    "has_usage_data": true,
+    "summary": "Ghost / Poison | Usage data available"
+  },
+  {
+    "display_name": "Mega Glalie",
+    "slug": "mega-glalie",
+    "url": "pokemon/mega-glalie/",
+    "primary_image": "Images/pokemon_sprites/by_species/glalie/glalie-mega/glalie-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ice"
+    ],
+    "stats": {
+      "total": 580,
+      "hp": 80,
+      "attack": 120,
+      "defense": 80,
+      "special_attack": 120,
+      "special_defense": 80,
+      "speed": 100
+    },
+    "has_usage_data": true,
+    "summary": "Ice | Usage data available"
+  },
+  {
+    "display_name": "Mega Glimmora",
+    "slug": "mega-glimmora",
+    "url": "pokemon/mega-glimmora/",
+    "primary_image": "Images/pokemon_sprites/by_species/glimmora/glimmora-mega/glimmora-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock",
+      "poison"
+    ],
+    "stats": {
+      "total": 625,
+      "hp": 83,
+      "attack": 90,
+      "defense": 105,
+      "special_attack": 150,
+      "special_defense": 96,
+      "speed": 101
+    },
+    "has_usage_data": true,
+    "summary": "Rock / Poison | Usage data available"
+  },
+  {
+    "display_name": "Mega Golurk",
+    "slug": "mega-golurk",
+    "url": "pokemon/mega-golurk/",
+    "primary_image": "Images/pokemon_sprites/by_species/golurk/golurk-mega/golurk-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "stats": {
+      "total": 583,
+      "hp": 89,
+      "attack": 159,
+      "defense": 105,
+      "special_attack": 70,
+      "special_defense": 105,
+      "speed": 55
+    },
+    "has_usage_data": true,
+    "summary": "Ground / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Mega Greninja",
+    "slug": "mega-greninja",
+    "url": "pokemon/mega-greninja/",
+    "primary_image": "Images/pokemon_sprites/by_species/greninja/greninja-mega/greninja-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "dark"
+    ],
+    "stats": {
+      "total": 630,
+      "hp": 72,
+      "attack": 125,
+      "defense": 77,
+      "special_attack": 133,
+      "special_defense": 81,
+      "speed": 142
+    },
+    "has_usage_data": true,
+    "summary": "Water / Dark | Usage data available"
+  },
+  {
+    "display_name": "Mega Gyarados",
+    "slug": "mega-gyarados",
+    "url": "pokemon/mega-gyarados/",
+    "primary_image": "Images/pokemon_sprites/by_species/gyarados/gyarados-mega/gyarados-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "dark"
+    ],
+    "stats": {
+      "total": 640,
+      "hp": 95,
+      "attack": 155,
+      "defense": 109,
+      "special_attack": 70,
+      "special_defense": 130,
+      "speed": 81
+    },
+    "has_usage_data": true,
+    "summary": "Water / Dark | Usage data available"
+  },
+  {
+    "display_name": "Mega Hawlucha",
+    "slug": "mega-hawlucha",
+    "url": "pokemon/mega-hawlucha/",
+    "primary_image": "Images/pokemon_sprites/by_species/hawlucha/hawlucha-mega/hawlucha-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting",
+      "flying"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 78,
+      "attack": 137,
+      "defense": 100,
+      "special_attack": 74,
+      "special_defense": 93,
+      "speed": 118
+    },
+    "has_usage_data": true,
+    "summary": "Fighting / Flying | Usage data available"
+  },
+  {
+    "display_name": "Mega Heracross",
+    "slug": "mega-heracross",
+    "url": "pokemon/mega-heracross/",
+    "primary_image": "Images/pokemon_sprites/by_species/heracross/heracross-mega/heracross-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug",
+      "fighting"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 80,
+      "attack": 185,
+      "defense": 115,
+      "special_attack": 40,
+      "special_defense": 105,
+      "speed": 75
+    },
+    "has_usage_data": true,
+    "summary": "Bug / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Mega Houndoom",
+    "slug": "mega-houndoom",
+    "url": "pokemon/mega-houndoom/",
+    "primary_image": "Images/pokemon_sprites/by_species/houndoom/houndoom-mega/houndoom-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dark",
+      "fire"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 75,
+      "attack": 90,
+      "defense": 90,
+      "special_attack": 140,
+      "special_defense": 90,
+      "speed": 115
+    },
+    "has_usage_data": true,
+    "summary": "Dark / Fire | Usage data available"
+  },
+  {
+    "display_name": "Mega Kangaskhan",
+    "slug": "mega-kangaskhan",
+    "url": "pokemon/mega-kangaskhan/",
+    "primary_image": "Images/pokemon_sprites/by_species/kangaskhan/kangaskhan-mega/kangaskhan-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "total": 590,
+      "hp": 105,
+      "attack": 125,
+      "defense": 100,
+      "special_attack": 60,
+      "special_defense": 100,
+      "speed": 100
+    },
+    "has_usage_data": true,
+    "summary": "Normal | Usage data available"
+  },
+  {
+    "display_name": "Mega Lopunny",
+    "slug": "mega-lopunny",
+    "url": "pokemon/mega-lopunny/",
+    "primary_image": "Images/pokemon_sprites/by_species/lopunny/lopunny-mega/lopunny-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal",
+      "fighting"
+    ],
+    "stats": {
+      "total": 580,
+      "hp": 65,
+      "attack": 136,
+      "defense": 94,
+      "special_attack": 54,
+      "special_defense": 96,
+      "speed": 135
+    },
+    "has_usage_data": true,
+    "summary": "Normal / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Mega Lucario",
+    "slug": "mega-lucario",
+    "url": "pokemon/mega-lucario/",
+    "primary_image": "Images/pokemon_sprites/by_species/lucario/lucario-mega/lucario-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting",
+      "steel"
+    ],
+    "stats": {
+      "total": 625,
+      "hp": 70,
+      "attack": 145,
+      "defense": 88,
+      "special_attack": 140,
+      "special_defense": 70,
+      "speed": 112
+    },
+    "has_usage_data": true,
+    "summary": "Fighting / Steel | Usage data available"
+  },
+  {
+    "display_name": "Mega Manectric",
+    "slug": "mega-manectric",
+    "url": "pokemon/mega-manectric/",
+    "primary_image": "Images/pokemon_sprites/by_species/manectric/manectric-mega/manectric-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "total": 575,
+      "hp": 70,
+      "attack": 75,
+      "defense": 80,
+      "special_attack": 135,
+      "special_defense": 80,
+      "speed": 135
+    },
+    "has_usage_data": true,
+    "summary": "Electric | Usage data available"
+  },
+  {
+    "display_name": "Mega Medicham",
+    "slug": "mega-medicham",
+    "url": "pokemon/mega-medicham/",
+    "primary_image": "Images/pokemon_sprites/by_species/medicham/medicham-mega/medicham-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting",
+      "psychic"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 60,
+      "attack": 100,
+      "defense": 85,
+      "special_attack": 80,
+      "special_defense": 85,
+      "speed": 100
+    },
+    "has_usage_data": true,
+    "summary": "Fighting / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Mega Meganium",
+    "slug": "mega-meganium",
+    "url": "pokemon/mega-meganium/",
+    "primary_image": "Images/pokemon_sprites/by_species/meganium/meganium-mega/meganium-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "stats": {
+      "total": 625,
+      "hp": 80,
+      "attack": 92,
+      "defense": 115,
+      "special_attack": 143,
+      "special_defense": 115,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Mega Pidgeot",
+    "slug": "mega-pidgeot",
+    "url": "pokemon/mega-pidgeot/",
+    "primary_image": "Images/pokemon_sprites/by_species/pidgeot/pidgeot-mega/pidgeot-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "total": 579,
+      "hp": 83,
+      "attack": 80,
+      "defense": 80,
+      "special_attack": 135,
+      "special_defense": 80,
+      "speed": 121
+    },
+    "has_usage_data": true,
+    "summary": "Normal / Flying | Usage data available"
+  },
+  {
+    "display_name": "Mega Pinsir",
+    "slug": "mega-pinsir",
+    "url": "pokemon/mega-pinsir/",
+    "primary_image": "Images/pokemon_sprites/by_species/pinsir/pinsir-mega/pinsir-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 65,
+      "attack": 155,
+      "defense": 120,
+      "special_attack": 65,
+      "special_defense": 90,
+      "speed": 105
+    },
+    "has_usage_data": true,
+    "summary": "Bug / Flying | Usage data available"
+  },
+  {
+    "display_name": "Mega Sableye",
+    "slug": "mega-sableye",
+    "url": "pokemon/mega-sableye/",
+    "primary_image": "Images/pokemon_sprites/by_species/sableye/sableye-mega/sableye-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "stats": {
+      "total": 480,
+      "hp": 50,
+      "attack": 85,
+      "defense": 125,
+      "special_attack": 85,
+      "special_defense": 115,
+      "speed": 20
+    },
+    "has_usage_data": true,
+    "summary": "Dark / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Mega Scizor",
+    "slug": "mega-scizor",
+    "url": "pokemon/mega-scizor/",
+    "primary_image": "Images/pokemon_sprites/by_species/scizor/scizor-mega/scizor-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 70,
+      "attack": 150,
+      "defense": 140,
+      "special_attack": 65,
+      "special_defense": 100,
+      "speed": 75
+    },
+    "has_usage_data": true,
+    "summary": "Bug / Steel | Usage data available"
+  },
+  {
+    "display_name": "Mega Scovillain",
+    "slug": "mega-scovillain",
+    "url": "pokemon/mega-scovillain/",
+    "primary_image": "Images/pokemon_sprites/by_species/scovillain/scovillain-mega/scovillain-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "stats": {
+      "total": 586,
+      "hp": 65,
+      "attack": 138,
+      "defense": 85,
+      "special_attack": 138,
+      "special_defense": 85,
+      "speed": 75
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Fire | Usage data available"
+  },
+  {
+    "display_name": "Mega Sharpedo",
+    "slug": "mega-sharpedo",
+    "url": "pokemon/mega-sharpedo/",
+    "primary_image": "Images/pokemon_sprites/by_species/sharpedo/sharpedo-mega/sharpedo-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "dark"
+    ],
+    "stats": {
+      "total": 560,
+      "hp": 70,
+      "attack": 140,
+      "defense": 70,
+      "special_attack": 110,
+      "special_defense": 65,
+      "speed": 105
+    },
+    "has_usage_data": true,
+    "summary": "Water / Dark | Usage data available"
+  },
+  {
+    "display_name": "Mega Skarmory",
+    "slug": "mega-skarmory",
+    "url": "pokemon/mega-skarmory/",
+    "primary_image": "Images/pokemon_sprites/by_species/skarmory/skarmory-mega/skarmory-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "stats": {
+      "total": 565,
+      "hp": 65,
+      "attack": 140,
+      "defense": 110,
+      "special_attack": 40,
+      "special_defense": 100,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Steel / Flying | Usage data available"
+  },
+  {
+    "display_name": "Mega Slowbro",
+    "slug": "mega-slowbro",
+    "url": "pokemon/mega-slowbro/",
+    "primary_image": "Images/pokemon_sprites/by_species/slowbro/slowbro-mega/slowbro-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "stats": {
+      "total": 590,
+      "hp": 95,
+      "attack": 75,
+      "defense": 180,
+      "special_attack": 130,
+      "special_defense": 80,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Water / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Mega Starmie",
+    "slug": "mega-starmie",
+    "url": "pokemon/mega-starmie/",
+    "primary_image": "Images/pokemon_sprites/by_species/starmie/starmie-mega/starmie-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "stats": {
+      "total": 620,
+      "hp": 60,
+      "attack": 100,
+      "defense": 105,
+      "special_attack": 130,
+      "special_defense": 105,
+      "speed": 120
+    },
+    "has_usage_data": true,
+    "summary": "Water / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Mega Steelix",
+    "slug": "mega-steelix",
+    "url": "pokemon/mega-steelix/",
+    "primary_image": "Images/pokemon_sprites/by_species/steelix/steelix-mega/steelix-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "stats": {
+      "total": 610,
+      "hp": 75,
+      "attack": 125,
+      "defense": 230,
+      "special_attack": 55,
+      "special_defense": 95,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Steel / Ground | Usage data available"
+  },
+  {
+    "display_name": "Mega Tyranitar",
+    "slug": "mega-tyranitar",
+    "url": "pokemon/mega-tyranitar/",
+    "primary_image": "Images/pokemon_sprites/by_species/tyranitar/tyranitar-mega/tyranitar-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "stats": {
+      "total": 700,
+      "hp": 100,
+      "attack": 164,
+      "defense": 150,
+      "special_attack": 95,
+      "special_defense": 120,
+      "speed": 71
+    },
+    "has_usage_data": true,
+    "summary": "Rock / Dark | Usage data available"
+  },
+  {
+    "display_name": "Mega Venusaur",
+    "slug": "mega-venusaur",
+    "url": "pokemon/mega-venusaur/",
+    "primary_image": "Images/pokemon_sprites/by_species/venusaur/venusaur-mega/venusaur-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "total": 625,
+      "hp": 80,
+      "attack": 100,
+      "defense": 123,
+      "special_attack": 122,
+      "special_defense": 120,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Poison | Usage data available"
+  },
+  {
+    "display_name": "Mega Victreebel",
+    "slug": "mega-victreebel",
+    "url": "pokemon/mega-victreebel/",
+    "primary_image": "Images/pokemon_sprites/by_species/victreebel/victreebel-mega/victreebel-mega_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "total": 590,
+      "hp": 80,
+      "attack": 125,
+      "defense": 85,
+      "special_attack": 135,
+      "special_defense": 95,
+      "speed": 70
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Poison | Usage data available"
+  },
+  {
+    "display_name": "Meganium",
+    "slug": "meganium",
+    "url": "pokemon/meganium/",
+    "primary_image": "Images/pokemon_sprites/by_species/meganium/meganium/meganium_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 80,
+      "attack": 82,
+      "defense": 100,
+      "special_attack": 83,
+      "special_defense": 100,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Grass | Usage data available"
+  },
+  {
+    "display_name": "Meowscarada",
+    "slug": "meowscarada",
+    "url": "pokemon/meowscarada/",
+    "primary_image": "Images/pokemon_sprites/by_species/meowscarada/meowscarada/meowscarada_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "dark"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 76,
+      "attack": 110,
+      "defense": 70,
+      "special_attack": 81,
+      "special_defense": 70,
+      "speed": 123
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Dark | Usage data available"
+  },
+  {
+    "display_name": "Meowstic (Female)",
+    "slug": "meowstic-female",
+    "url": "pokemon/meowstic-female/",
+    "primary_image": "Images/pokemon_sprites/by_species/meowstic/meowstic-female/meowstic-female_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "total": 466,
+      "hp": 74,
+      "attack": 48,
+      "defense": 76,
+      "special_attack": 83,
+      "special_defense": 81,
+      "speed": 104
+    },
+    "has_usage_data": true,
+    "summary": "Psychic | Usage data available"
+  },
+  {
+    "display_name": "Meowstic (Male)",
+    "slug": "meowstic-male",
+    "url": "pokemon/meowstic-male/",
+    "primary_image": "Images/pokemon_sprites/by_species/meowstic/meowstic-male/meowstic-male_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "total": 466,
+      "hp": 74,
+      "attack": 48,
+      "defense": 76,
+      "special_attack": 83,
+      "special_defense": 81,
+      "speed": 104
+    },
+    "has_usage_data": true,
+    "summary": "Psychic | Usage data available"
+  },
+  {
+    "display_name": "Milotic",
+    "slug": "milotic",
+    "url": "pokemon/milotic/",
+    "primary_image": "Images/pokemon_sprites/by_species/milotic/milotic/milotic_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "total": 540,
+      "hp": 95,
+      "attack": 60,
+      "defense": 79,
+      "special_attack": 100,
+      "special_defense": 125,
+      "speed": 81
+    },
+    "has_usage_data": true,
+    "summary": "Water | Usage data available"
+  },
+  {
+    "display_name": "Mimikyu",
+    "slug": "mimikyu",
+    "url": "pokemon/mimikyu/",
+    "primary_image": "Images/pokemon_sprites/by_species/None/mimikyu-disguised/mimikyu_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ghost",
+      "fairy"
+    ],
+    "stats": {
+      "total": 476,
+      "hp": 55,
+      "attack": 90,
+      "defense": 80,
+      "special_attack": 50,
+      "special_defense": 105,
+      "speed": 96
+    },
+    "has_usage_data": true,
+    "summary": "Ghost / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Morpeko",
+    "slug": "morpeko",
+    "url": "pokemon/morpeko/",
+    "primary_image": "Images/pokemon_sprites/by_species/None/morpeko-full-belly/morpeko_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric",
+      "dark"
+    ],
+    "stats": {
+      "total": 436,
+      "hp": 58,
+      "attack": 95,
+      "defense": 58,
+      "special_attack": 70,
+      "special_defense": 58,
+      "speed": 97
+    },
+    "has_usage_data": true,
+    "summary": "Electric / Dark | Usage data available"
+  },
+  {
+    "display_name": "Mow Rotom",
+    "slug": "mow-rotom",
+    "url": "pokemon/mow-rotom/",
+    "primary_image": "Images/pokemon_sprites/by_species/rotom/rotom-mow/rotom-mow_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric",
+      "grass"
+    ],
+    "stats": {
+      "total": 520,
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "special_attack": 105,
+      "special_defense": 107,
+      "speed": 86
+    },
+    "has_usage_data": true,
+    "summary": "Electric / Grass | Usage data available"
+  },
+  {
+    "display_name": "Mudsdale",
+    "slug": "mudsdale",
+    "url": "pokemon/mudsdale/",
+    "primary_image": "Images/pokemon_sprites/by_species/mudsdale/mudsdale/mudsdale_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 100,
+      "attack": 125,
+      "defense": 100,
+      "special_attack": 55,
+      "special_defense": 85,
+      "speed": 35
+    },
+    "has_usage_data": true,
+    "summary": "Ground | Usage data available"
+  },
+  {
+    "display_name": "Ninetales",
+    "slug": "ninetales",
+    "url": "pokemon/ninetales/",
+    "primary_image": "Images/pokemon_sprites/by_species/ninetales/ninetales/ninetales_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "total": 505,
+      "hp": 73,
+      "attack": 76,
+      "defense": 75,
+      "special_attack": 81,
+      "special_defense": 100,
+      "speed": 100
+    },
+    "has_usage_data": true,
+    "summary": "Fire | Usage data available"
+  },
+  {
+    "display_name": "Noivern",
+    "slug": "noivern",
+    "url": "pokemon/noivern/",
+    "primary_image": "Images/pokemon_sprites/by_species/noivern/noivern/noivern_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "flying",
+      "dragon"
+    ],
+    "stats": {
+      "total": 535,
+      "hp": 85,
+      "attack": 70,
+      "defense": 80,
+      "special_attack": 97,
+      "special_defense": 80,
+      "speed": 123
+    },
+    "has_usage_data": true,
+    "summary": "Flying / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Oranguru",
+    "slug": "oranguru",
+    "url": "pokemon/oranguru/",
+    "primary_image": "Images/pokemon_sprites/by_species/oranguru/oranguru/oranguru_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 90,
+      "attack": 60,
+      "defense": 80,
+      "special_attack": 90,
+      "special_defense": 110,
+      "speed": 60
+    },
+    "has_usage_data": true,
+    "summary": "Normal / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Orthworm",
+    "slug": "orthworm",
+    "url": "pokemon/orthworm/",
+    "primary_image": "Images/pokemon_sprites/by_species/orthworm/orthworm/orthworm_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "steel"
+    ],
+    "stats": {
+      "total": 480,
+      "hp": 70,
+      "attack": 85,
+      "defense": 145,
+      "special_attack": 60,
+      "special_defense": 55,
+      "speed": 65
+    },
+    "has_usage_data": true,
+    "summary": "Steel | Usage data available"
+  },
+  {
+    "display_name": "Palafin",
+    "slug": "palafin",
+    "url": "pokemon/palafin/",
+    "primary_image": "Images/pokemon_sprites/by_species/None/palafin-zero/palafin_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "w"
+    ],
+    "stats": {
+      "total": 457,
+      "hp": 100,
+      "attack": 70,
+      "defense": 72,
+      "special_attack": 53,
+      "special_defense": 62,
+      "speed": 100
+    },
+    "has_usage_data": true,
+    "summary": "W | Usage data available"
+  },
+  {
+    "display_name": "Pangoro",
+    "slug": "pangoro",
+    "url": "pokemon/pangoro/",
+    "primary_image": "Images/pokemon_sprites/by_species/pangoro/pangoro/pangoro_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting",
+      "dark"
+    ],
+    "stats": {
+      "total": 495,
+      "hp": 95,
+      "attack": 124,
+      "defense": 78,
+      "special_attack": 69,
+      "special_defense": 71,
+      "speed": 58
+    },
+    "has_usage_data": true,
+    "summary": "Fighting / Dark | Usage data available"
+  },
+  {
+    "display_name": "Passimian",
+    "slug": "passimian",
+    "url": "pokemon/passimian/",
+    "primary_image": "Images/pokemon_sprites/by_species/passimian/passimian/passimian_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 100,
+      "attack": 120,
+      "defense": 90,
+      "special_attack": 40,
+      "special_defense": 60,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Fighting | Usage data available"
+  },
+  {
+    "display_name": "Pelipper",
+    "slug": "pelipper",
+    "url": "pokemon/pelipper/",
+    "primary_image": "Images/pokemon_sprites/by_species/pelipper/pelipper/pelipper_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "flying"
+    ],
+    "stats": {
+      "total": 440,
+      "hp": 60,
+      "attack": 50,
+      "defense": 100,
+      "special_attack": 95,
+      "special_defense": 70,
+      "speed": 65
+    },
+    "has_usage_data": true,
+    "summary": "Water / Flying | Usage data available"
+  },
+  {
+    "display_name": "Pidgeot",
+    "slug": "pidgeot",
+    "url": "pokemon/pidgeot/",
+    "primary_image": "Images/pokemon_sprites/by_species/pidgeot/pidgeot/pidgeot_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "total": 479,
+      "hp": 83,
+      "attack": 80,
+      "defense": 75,
+      "special_attack": 70,
+      "special_defense": 70,
+      "speed": 101
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
+    "display_name": "Pikachu",
+    "slug": "pikachu",
+    "url": "pokemon/pikachu/",
+    "primary_image": "Images/pokemon_sprites/by_species/pikachu/pikachu/pikachu_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "total": 320,
+      "hp": 35,
+      "attack": 55,
+      "defense": 40,
+      "special_attack": 50,
+      "special_defense": 50,
+      "speed": 90
+    },
+    "has_usage_data": true,
+    "summary": "Electric | Usage data available"
+  },
+  {
+    "display_name": "Pinsir",
+    "slug": "pinsir",
+    "url": "pokemon/pinsir/",
+    "primary_image": "Images/pokemon_sprites/by_species/pinsir/pinsir/pinsir_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 65,
+      "attack": 125,
+      "defense": 100,
+      "special_attack": 55,
+      "special_defense": 70,
+      "speed": 85
+    },
+    "has_usage_data": true,
+    "summary": "Bug | Usage data available"
+  },
+  {
+    "display_name": "Politoed",
+    "slug": "politoed",
+    "url": "pokemon/politoed/",
+    "primary_image": "Images/pokemon_sprites/by_species/politoed/politoed/politoed_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 90,
+      "attack": 75,
+      "defense": 75,
+      "special_attack": 90,
+      "special_defense": 100,
+      "speed": 70
+    },
+    "has_usage_data": true,
+    "summary": "Water | Usage data available"
+  },
+  {
+    "display_name": "Polteageist",
+    "slug": "polteageist",
+    "url": "pokemon/polteageist/",
+    "primary_image": "Images/pokemon_sprites/by_species/polteageist/polteageist/polteageist_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ghost"
+    ],
+    "stats": {
+      "total": 508,
+      "hp": 60,
+      "attack": 65,
+      "defense": 65,
+      "special_attack": 134,
+      "special_defense": 114,
+      "speed": 70
+    },
+    "has_usage_data": true,
+    "summary": "Ghost | Usage data available"
+  },
+  {
+    "display_name": "Primarina",
+    "slug": "primarina",
+    "url": "pokemon/primarina/",
+    "primary_image": "Images/pokemon_sprites/by_species/primarina/primarina/primarina_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "fairy"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 80,
+      "attack": 74,
+      "defense": 74,
+      "special_attack": 126,
+      "special_defense": 116,
+      "speed": 60
+    },
+    "has_usage_data": true,
+    "summary": "Water / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Quaquaval",
+    "slug": "quaquaval",
+    "url": "pokemon/quaquaval/",
+    "primary_image": "Images/pokemon_sprites/by_species/quaquaval/quaquaval/quaquaval_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "fighting"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 85,
+      "attack": 120,
+      "defense": 80,
+      "special_attack": 85,
+      "special_defense": 75,
+      "speed": 85
+    },
+    "has_usage_data": true,
+    "summary": "Water / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Raichu",
+    "slug": "raichu",
+    "url": "pokemon/raichu/",
+    "primary_image": "Images/pokemon_sprites/by_species/raichu/raichu/raichu_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric"
+    ],
+    "stats": {
+      "total": 485,
+      "hp": 60,
+      "attack": 90,
+      "defense": 55,
+      "special_attack": 90,
+      "special_defense": 80,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Electric | Usage data available"
+  },
+  {
+    "display_name": "Rampardos",
+    "slug": "rampardos",
+    "url": "pokemon/rampardos/",
+    "primary_image": "Images/pokemon_sprites/by_species/rampardos/rampardos/rampardos_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock"
+    ],
+    "stats": {
+      "total": 495,
+      "hp": 97,
+      "attack": 165,
+      "defense": 60,
+      "special_attack": 65,
+      "special_defense": 50,
+      "speed": 58
+    },
+    "has_usage_data": true,
+    "summary": "Rock | Usage data available"
+  },
+  {
+    "display_name": "Reuniclus",
+    "slug": "reuniclus",
+    "url": "pokemon/reuniclus/",
+    "primary_image": "Images/pokemon_sprites/by_species/reuniclus/reuniclus/reuniclus_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "psychic"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 110,
+      "attack": 65,
+      "defense": 75,
+      "special_attack": 125,
+      "special_defense": 85,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Psychic | Usage data available"
+  },
+  {
+    "display_name": "Rhyperior",
+    "slug": "rhyperior",
+    "url": "pokemon/rhyperior/",
+    "primary_image": "Images/pokemon_sprites/by_species/rhyperior/rhyperior/rhyperior_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground",
+      "rock"
+    ],
+    "stats": {
+      "total": 535,
+      "hp": 115,
+      "attack": 140,
+      "defense": 130,
+      "special_attack": 55,
+      "special_defense": 55,
+      "speed": 40
+    },
+    "has_usage_data": true,
+    "summary": "Ground / Rock | Usage data available"
+  },
+  {
+    "display_name": "Roserade",
+    "slug": "roserade",
+    "url": "pokemon/roserade/",
+    "primary_image": "Images/pokemon_sprites/by_species/roserade/roserade/roserade_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "total": 515,
+      "hp": 60,
+      "attack": 70,
+      "defense": 65,
+      "special_attack": 125,
+      "special_defense": 105,
+      "speed": 90
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Poison | Usage data available"
+  },
+  {
+    "display_name": "Rotom",
+    "slug": "rotom",
+    "url": "pokemon/rotom/",
+    "primary_image": "Images/pokemon_sprites/by_species/rotom/rotom/rotom_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric",
+      "ghost"
+    ],
+    "stats": {
+      "total": 440,
+      "hp": 50,
+      "attack": 50,
+      "defense": 77,
+      "special_attack": 95,
+      "special_defense": 77,
+      "speed": 91
+    },
+    "has_usage_data": true,
+    "summary": "Electric / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Runerigus",
+    "slug": "runerigus",
+    "url": "pokemon/runerigus/",
+    "primary_image": "Images/pokemon_sprites/by_species/runerigus/runerigus/runerigus_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground",
+      "ghost"
+    ],
+    "stats": {
+      "total": 483,
+      "hp": 58,
+      "attack": 95,
+      "defense": 145,
+      "special_attack": 50,
+      "special_defense": 105,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Ground / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Sableye",
+    "slug": "sableye",
+    "url": "pokemon/sableye/",
+    "primary_image": "Images/pokemon_sprites/by_species/sableye/sableye/sableye_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dark",
+      "ghost"
+    ],
+    "stats": {
+      "total": 380,
+      "hp": 50,
+      "attack": 75,
+      "defense": 75,
+      "special_attack": 65,
+      "special_defense": 65,
+      "speed": 50
+    },
+    "has_usage_data": true,
+    "summary": "Dark / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Salazzle",
+    "slug": "salazzle",
+    "url": "pokemon/salazzle/",
+    "primary_image": "Images/pokemon_sprites/by_species/salazzle/salazzle/salazzle_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "poison",
+      "fire"
+    ],
+    "stats": {
+      "total": 480,
+      "hp": 68,
+      "attack": 64,
+      "defense": 60,
+      "special_attack": 111,
+      "special_defense": 60,
+      "speed": 117
+    },
+    "has_usage_data": true,
+    "summary": "Poison / Fire | Usage data available"
+  },
+  {
+    "display_name": "Samurott",
+    "slug": "samurott",
+    "url": "pokemon/samurott/",
+    "primary_image": "Images/pokemon_sprites/by_species/samurott/samurott/samurott_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "total": 528,
+      "hp": 95,
+      "attack": 100,
+      "defense": 85,
+      "special_attack": 108,
+      "special_defense": 70,
+      "speed": 70
+    },
+    "has_usage_data": false,
+    "summary": "No usage data"
+  },
+  {
+    "display_name": "Sandaconda",
+    "slug": "sandaconda",
+    "url": "pokemon/sandaconda/",
+    "primary_image": "Images/pokemon_sprites/by_species/sandaconda/sandaconda/sandaconda_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 72,
+      "attack": 107,
+      "defense": 125,
+      "special_attack": 65,
+      "special_defense": 70,
+      "speed": 71
+    },
+    "has_usage_data": true,
+    "summary": "Ground | Usage data available"
+  },
+  {
+    "display_name": "Scizor",
+    "slug": "scizor",
+    "url": "pokemon/scizor/",
+    "primary_image": "Images/pokemon_sprites/by_species/scizor/scizor/scizor_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug",
+      "steel"
+    ],
+    "stats": {
+      "total": 500,
+      "hp": 70,
+      "attack": 130,
+      "defense": 100,
+      "special_attack": 55,
+      "special_defense": 80,
+      "speed": 65
+    },
+    "has_usage_data": true,
+    "summary": "Bug / Steel | Usage data available"
+  },
+  {
+    "display_name": "Scovillain",
+    "slug": "scovillain",
+    "url": "pokemon/scovillain/",
+    "primary_image": "Images/pokemon_sprites/by_species/scovillain/scovillain/scovillain_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "fire"
+    ],
+    "stats": {
+      "total": 486,
+      "hp": 65,
+      "attack": 108,
+      "defense": 65,
+      "special_attack": 108,
+      "special_defense": 65,
+      "speed": 75
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Fire | Usage data available"
+  },
+  {
+    "display_name": "Serperior",
+    "slug": "serperior",
+    "url": "pokemon/serperior/",
+    "primary_image": "Images/pokemon_sprites/by_species/serperior/serperior/serperior_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass"
+    ],
+    "stats": {
+      "total": 528,
+      "hp": 75,
+      "attack": 75,
+      "defense": 95,
+      "special_attack": 75,
+      "special_defense": 95,
+      "speed": 113
+    },
+    "has_usage_data": true,
+    "summary": "Grass | Usage data available"
+  },
+  {
+    "display_name": "Sharpedo",
+    "slug": "sharpedo",
+    "url": "pokemon/sharpedo/",
+    "primary_image": "Images/pokemon_sprites/by_species/sharpedo/sharpedo/sharpedo_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "dark"
+    ],
+    "stats": {
+      "total": 460,
+      "hp": 70,
+      "attack": 120,
+      "defense": 40,
+      "special_attack": 95,
+      "special_defense": 40,
+      "speed": 95
+    },
+    "has_usage_data": true,
+    "summary": "Water / Dark | Usage data available"
+  },
+  {
+    "display_name": "Simipour",
+    "slug": "simipour",
+    "url": "pokemon/simipour/",
+    "primary_image": "Images/pokemon_sprites/by_species/simipour/simipour/simipour_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "total": 498,
+      "hp": 75,
+      "attack": 98,
+      "defense": 63,
+      "special_attack": 98,
+      "special_defense": 63,
+      "speed": 101
+    },
+    "has_usage_data": true,
+    "summary": "Water | Usage data available"
+  },
+  {
+    "display_name": "Simisage",
+    "slug": "simisage",
+    "url": "pokemon/simisage/",
+    "primary_image": "Images/pokemon_sprites/by_species/simisage/simisage/simisage_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass"
+    ],
+    "stats": {
+      "total": 498,
+      "hp": 75,
+      "attack": 98,
+      "defense": 63,
+      "special_attack": 98,
+      "special_defense": 63,
+      "speed": 101
+    },
+    "has_usage_data": true,
+    "summary": "Grass | Usage data available"
+  },
+  {
+    "display_name": "Simisear",
+    "slug": "simisear",
+    "url": "pokemon/simisear/",
+    "primary_image": "Images/pokemon_sprites/by_species/simisear/simisear/simisear_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "total": 498,
+      "hp": 75,
+      "attack": 98,
+      "defense": 63,
+      "special_attack": 98,
+      "special_defense": 63,
+      "speed": 101
+    },
+    "has_usage_data": true,
+    "summary": "Fire | Usage data available"
+  },
+  {
+    "display_name": "Sinistcha",
+    "slug": "sinistcha",
+    "url": "pokemon/sinistcha/",
+    "primary_image": "Images/pokemon_sprites/by_species/sinistcha/sinistcha/sinistcha_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "ghost"
+    ],
+    "stats": {
+      "total": 508,
+      "hp": 71,
+      "attack": 60,
+      "defense": 106,
+      "special_attack": 121,
+      "special_defense": 80,
+      "speed": 70
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Skarmory",
+    "slug": "skarmory",
+    "url": "pokemon/skarmory/",
+    "primary_image": "Images/pokemon_sprites/by_species/skarmory/skarmory/skarmory_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "steel",
+      "flying"
+    ],
+    "stats": {
+      "total": 465,
+      "hp": 65,
+      "attack": 80,
+      "defense": 140,
+      "special_attack": 40,
+      "special_defense": 70,
+      "speed": 70
+    },
+    "has_usage_data": true,
+    "summary": "Steel / Flying | Usage data available"
+  },
+  {
+    "display_name": "Skeledirge",
+    "slug": "skeledirge",
+    "url": "pokemon/skeledirge/",
+    "primary_image": "Images/pokemon_sprites/by_species/skeledirge/skeledirge/skeledirge_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "ghost"
+    ],
+    "stats": {
+      "total": 530,
+      "hp": 104,
+      "attack": 75,
+      "defense": 100,
+      "special_attack": 110,
+      "special_defense": 75,
+      "speed": 66
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Ghost | Usage data available"
+  },
+  {
+    "display_name": "Slowbro",
+    "slug": "slowbro",
+    "url": "pokemon/slowbro/",
+    "primary_image": "Images/pokemon_sprites/by_species/slowbro/slowbro/slowbro_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 95,
+      "attack": 75,
+      "defense": 110,
+      "special_attack": 100,
+      "special_defense": 80,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Water / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Slowking",
+    "slug": "slowking",
+    "url": "pokemon/slowking/",
+    "primary_image": "Images/pokemon_sprites/by_species/slowking/slowking/slowking_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 95,
+      "attack": 75,
+      "defense": 80,
+      "special_attack": 100,
+      "special_defense": 110,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Water / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Slurpuff",
+    "slug": "slurpuff",
+    "url": "pokemon/slurpuff/",
+    "primary_image": "Images/pokemon_sprites/by_species/slurpuff/slurpuff/slurpuff_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "total": 480,
+      "hp": 82,
+      "attack": 80,
+      "defense": 86,
+      "special_attack": 85,
+      "special_defense": 75,
+      "speed": 72
+    },
+    "has_usage_data": true,
+    "summary": "Fairy | Usage data available"
+  },
+  {
+    "display_name": "Sneasler",
+    "slug": "sneasler",
+    "url": "pokemon/sneasler/",
+    "primary_image": "Images/pokemon_sprites/by_species/sneasler/sneasler/sneasler_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fighting",
+      "poison"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 80,
+      "attack": 130,
+      "defense": 60,
+      "special_attack": 40,
+      "special_defense": 80,
+      "speed": 120
+    },
+    "has_usage_data": true,
+    "summary": "Fighting / Poison | Usage data available"
+  },
+  {
+    "display_name": "Snorlax",
+    "slug": "snorlax",
+    "url": "pokemon/snorlax/",
+    "primary_image": "Images/pokemon_sprites/by_species/snorlax/snorlax/snorlax_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "total": 540,
+      "hp": 160,
+      "attack": 110,
+      "defense": 65,
+      "special_attack": 65,
+      "special_defense": 110,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Normal | Usage data available"
+  },
+  {
+    "display_name": "Spiritomb",
+    "slug": "spiritomb",
+    "url": "pokemon/spiritomb/",
+    "primary_image": "Images/pokemon_sprites/by_species/spiritomb/spiritomb/spiritomb_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ghost",
+      "dark"
+    ],
+    "stats": {
+      "total": 485,
+      "hp": 50,
+      "attack": 92,
+      "defense": 108,
+      "special_attack": 92,
+      "special_defense": 108,
+      "speed": 35
+    },
+    "has_usage_data": true,
+    "summary": "Ghost / Dark | Usage data available"
+  },
+  {
+    "display_name": "Starmie",
+    "slug": "starmie",
+    "url": "pokemon/starmie/",
+    "primary_image": "Images/pokemon_sprites/by_species/starmie/starmie/starmie_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water",
+      "psychic"
+    ],
+    "stats": {
+      "total": 520,
+      "hp": 60,
+      "attack": 75,
+      "defense": 85,
+      "special_attack": 100,
+      "special_defense": 85,
+      "speed": 115
+    },
+    "has_usage_data": true,
+    "summary": "Water / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Steelix",
+    "slug": "steelix",
+    "url": "pokemon/steelix/",
+    "primary_image": "Images/pokemon_sprites/by_species/steelix/steelix/steelix_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "steel",
+      "ground"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 75,
+      "attack": 85,
+      "defense": 200,
+      "special_attack": 55,
+      "special_defense": 65,
+      "speed": 30
+    },
+    "has_usage_data": true,
+    "summary": "Steel / Ground | Usage data available"
+  },
+  {
+    "display_name": "Stunfisk",
+    "slug": "stunfisk",
+    "url": "pokemon/stunfisk/",
+    "primary_image": "Images/pokemon_sprites/by_species/stunfisk/stunfisk/stunfisk_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ground",
+      "electric"
+    ],
+    "stats": {
+      "total": 471,
+      "hp": 109,
+      "attack": 66,
+      "defense": 84,
+      "special_attack": 81,
+      "special_defense": 99,
+      "speed": 32
+    },
+    "has_usage_data": true,
+    "summary": "Ground / Electric | Usage data available"
+  },
+  {
+    "display_name": "Sylveon",
+    "slug": "sylveon",
+    "url": "pokemon/sylveon/",
+    "primary_image": "Images/pokemon_sprites/by_species/sylveon/sylveon/sylveon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fairy"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 95,
+      "attack": 65,
+      "defense": 65,
+      "special_attack": 110,
+      "special_defense": 130,
+      "speed": 60
+    },
+    "has_usage_data": true,
+    "summary": "Fairy | Usage data available"
+  },
+  {
+    "display_name": "Talonflame",
+    "slug": "talonflame",
+    "url": "pokemon/talonflame/",
+    "primary_image": "Images/pokemon_sprites/by_species/talonflame/talonflame/talonflame_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire",
+      "flying"
+    ],
+    "stats": {
+      "total": 499,
+      "hp": 78,
+      "attack": 81,
+      "defense": 71,
+      "special_attack": 74,
+      "special_defense": 69,
+      "speed": 126
+    },
+    "has_usage_data": true,
+    "summary": "Fire / Flying | Usage data available"
+  },
+  {
+    "display_name": "Tauros",
+    "slug": "tauros",
+    "url": "pokemon/tauros/",
+    "primary_image": "Images/pokemon_sprites/by_species/tauros/tauros/tauros_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 75,
+      "attack": 100,
+      "defense": 95,
+      "special_attack": 40,
+      "special_defense": 70,
+      "speed": 110
+    },
+    "has_usage_data": true,
+    "summary": "Normal | Usage data available"
+  },
+  {
+    "display_name": "Tinkaton",
+    "slug": "tinkaton",
+    "url": "pokemon/tinkaton/",
+    "primary_image": "Images/pokemon_sprites/by_species/tinkaton/tinkaton/tinkaton_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fairy",
+      "steel"
+    ],
+    "stats": {
+      "total": 506,
+      "hp": 85,
+      "attack": 75,
+      "defense": 77,
+      "special_attack": 70,
+      "special_defense": 105,
+      "speed": 94
+    },
+    "has_usage_data": true,
+    "summary": "Fairy / Steel | Usage data available"
+  },
+  {
+    "display_name": "Torkoal",
+    "slug": "torkoal",
+    "url": "pokemon/torkoal/",
+    "primary_image": "Images/pokemon_sprites/by_species/torkoal/torkoal/torkoal_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "total": 470,
+      "hp": 70,
+      "attack": 85,
+      "defense": 140,
+      "special_attack": 85,
+      "special_defense": 70,
+      "speed": 20
+    },
+    "has_usage_data": true,
+    "summary": "Fire | Usage data available"
+  },
+  {
+    "display_name": "Torterra",
+    "slug": "torterra",
+    "url": "pokemon/torterra/",
+    "primary_image": "Images/pokemon_sprites/by_species/torterra/torterra/torterra_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "ground"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 95,
+      "attack": 109,
+      "defense": 105,
+      "special_attack": 75,
+      "special_defense": 85,
+      "speed": 56
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Ground | Usage data available"
+  },
+  {
+    "display_name": "Toucannon",
+    "slug": "toucannon",
+    "url": "pokemon/toucannon/",
+    "primary_image": "Images/pokemon_sprites/by_species/toucannon/toucannon/toucannon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal",
+      "flying"
+    ],
+    "stats": {
+      "total": 485,
+      "hp": 80,
+      "attack": 120,
+      "defense": 75,
+      "special_attack": 75,
+      "special_defense": 75,
+      "speed": 60
+    },
+    "has_usage_data": true,
+    "summary": "Normal / Flying | Usage data available"
+  },
+  {
+    "display_name": "Toxapex",
+    "slug": "toxapex",
+    "url": "pokemon/toxapex/",
+    "primary_image": "Images/pokemon_sprites/by_species/toxapex/toxapex/toxapex_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "poison",
+      "water"
+    ],
+    "stats": {
+      "total": 495,
+      "hp": 50,
+      "attack": 63,
+      "defense": 152,
+      "special_attack": 53,
+      "special_defense": 142,
+      "speed": 35
+    },
+    "has_usage_data": true,
+    "summary": "Poison / Water | Usage data available"
+  },
+  {
+    "display_name": "Toxicroak",
+    "slug": "toxicroak",
+    "url": "pokemon/toxicroak/",
+    "primary_image": "Images/pokemon_sprites/by_species/toxicroak/toxicroak/toxicroak_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "poison",
+      "fighting"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 83,
+      "attack": 106,
+      "defense": 65,
+      "special_attack": 86,
+      "special_defense": 65,
+      "speed": 85
+    },
+    "has_usage_data": true,
+    "summary": "Poison / Fighting | Usage data available"
+  },
+  {
+    "display_name": "Trevenant",
+    "slug": "trevenant",
+    "url": "pokemon/trevenant/",
+    "primary_image": "Images/pokemon_sprites/by_species/trevenant/trevenant/trevenant_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ghost",
+      "grass"
+    ],
+    "stats": {
+      "total": 474,
+      "hp": 85,
+      "attack": 110,
+      "defense": 76,
+      "special_attack": 65,
+      "special_defense": 82,
+      "speed": 56
+    },
+    "has_usage_data": true,
+    "summary": "Ghost / Grass | Usage data available"
+  },
+  {
+    "display_name": "Tsareena",
+    "slug": "tsareena",
+    "url": "pokemon/tsareena/",
+    "primary_image": "Images/pokemon_sprites/by_species/tsareena/tsareena/tsareena_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 72,
+      "attack": 120,
+      "defense": 98,
+      "special_attack": 50,
+      "special_defense": 98,
+      "speed": 72
+    },
+    "has_usage_data": true,
+    "summary": "Grass | Usage data available"
+  },
+  {
+    "display_name": "Typhlosion",
+    "slug": "typhlosion",
+    "url": "pokemon/typhlosion/",
+    "primary_image": "Images/pokemon_sprites/by_species/typhlosion/typhlosion/typhlosion_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "fire"
+    ],
+    "stats": {
+      "total": 534,
+      "hp": 78,
+      "attack": 84,
+      "defense": 78,
+      "special_attack": 109,
+      "special_defense": 85,
+      "speed": 100
+    },
+    "has_usage_data": true,
+    "summary": "Fire | Usage data available"
+  },
+  {
+    "display_name": "Tyranitar",
+    "slug": "tyranitar",
+    "url": "pokemon/tyranitar/",
+    "primary_image": "Images/pokemon_sprites/by_species/tyranitar/tyranitar/tyranitar_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock",
+      "dark"
+    ],
+    "stats": {
+      "total": 600,
+      "hp": 100,
+      "attack": 134,
+      "defense": 110,
+      "special_attack": 95,
+      "special_defense": 100,
+      "speed": 61
+    },
+    "has_usage_data": true,
+    "summary": "Rock / Dark | Usage data available"
+  },
+  {
+    "display_name": "Tyrantrum",
+    "slug": "tyrantrum",
+    "url": "pokemon/tyrantrum/",
+    "primary_image": "Images/pokemon_sprites/by_species/tyrantrum/tyrantrum/tyrantrum_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "rock",
+      "dragon"
+    ],
+    "stats": {
+      "total": 521,
+      "hp": 82,
+      "attack": 121,
+      "defense": 119,
+      "special_attack": 69,
+      "special_defense": 59,
+      "speed": 71
+    },
+    "has_usage_data": true,
+    "summary": "Rock / Dragon | Usage data available"
+  },
+  {
+    "display_name": "Umbreon",
+    "slug": "umbreon",
+    "url": "pokemon/umbreon/",
+    "primary_image": "Images/pokemon_sprites/by_species/umbreon/umbreon/umbreon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dark"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 95,
+      "attack": 65,
+      "defense": 110,
+      "special_attack": 60,
+      "special_defense": 130,
+      "speed": 65
+    },
+    "has_usage_data": true,
+    "summary": "Dark | Usage data available"
+  },
+  {
+    "display_name": "Vanilluxe",
+    "slug": "vanilluxe",
+    "url": "pokemon/vanilluxe/",
+    "primary_image": "Images/pokemon_sprites/by_species/vanilluxe/vanilluxe/vanilluxe_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "ice"
+    ],
+    "stats": {
+      "total": 535,
+      "hp": 71,
+      "attack": 95,
+      "defense": 85,
+      "special_attack": 110,
+      "special_defense": 95,
+      "speed": 79
+    },
+    "has_usage_data": true,
+    "summary": "Ice | Usage data available"
+  },
+  {
+    "display_name": "Vaporeon",
+    "slug": "vaporeon",
+    "url": "pokemon/vaporeon/",
+    "primary_image": "Images/pokemon_sprites/by_species/vaporeon/vaporeon/vaporeon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "water"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 130,
+      "attack": 65,
+      "defense": 60,
+      "special_attack": 110,
+      "special_defense": 95,
+      "speed": 65
+    },
+    "has_usage_data": true,
+    "summary": "Water | Usage data available"
+  },
+  {
+    "display_name": "Venusaur",
+    "slug": "venusaur",
+    "url": "pokemon/venusaur/",
+    "primary_image": "Images/pokemon_sprites/by_species/venusaur/venusaur/venusaur_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 80,
+      "attack": 82,
+      "defense": 83,
+      "special_attack": 100,
+      "special_defense": 100,
+      "speed": 80
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Poison | Usage data available"
+  },
+  {
+    "display_name": "Victreebel",
+    "slug": "victreebel",
+    "url": "pokemon/victreebel/",
+    "primary_image": "Images/pokemon_sprites/by_species/victreebel/victreebel/victreebel_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "poison"
+    ],
+    "stats": {
+      "total": 490,
+      "hp": 80,
+      "attack": 105,
+      "defense": 65,
+      "special_attack": 100,
+      "special_defense": 70,
+      "speed": 70
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Poison | Usage data available"
+  },
+  {
+    "display_name": "Vivillon",
+    "slug": "vivillon",
+    "url": "pokemon/vivillon/",
+    "primary_image": "Images/pokemon_sprites/by_species/vivillon/vivillon-default/vivillon_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug",
+      "flying"
+    ],
+    "stats": {
+      "total": 411,
+      "hp": 80,
+      "attack": 52,
+      "defense": 50,
+      "special_attack": 90,
+      "special_defense": 50,
+      "speed": 89
+    },
+    "has_usage_data": true,
+    "summary": "Bug / Flying | Usage data available"
+  },
+  {
+    "display_name": "Volcarona",
+    "slug": "volcarona",
+    "url": "pokemon/volcarona/",
+    "primary_image": "Images/pokemon_sprites/by_species/volcarona/volcarona/volcarona_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "bug",
+      "fire"
+    ],
+    "stats": {
+      "total": 550,
+      "hp": 85,
+      "attack": 60,
+      "defense": 65,
+      "special_attack": 135,
+      "special_defense": 105,
+      "speed": 100
+    },
+    "has_usage_data": true,
+    "summary": "Bug / Fire | Usage data available"
+  },
+  {
+    "display_name": "Wash Rotom",
+    "slug": "wash-rotom",
+    "url": "pokemon/wash-rotom/",
+    "primary_image": "Images/pokemon_sprites/by_species/rotom/rotom-wash/rotom-wash_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "electric",
+      "water"
+    ],
+    "stats": {
+      "total": 520,
+      "hp": 50,
+      "attack": 65,
+      "defense": 107,
+      "special_attack": 105,
+      "special_defense": 107,
+      "speed": 86
+    },
+    "has_usage_data": true,
+    "summary": "Electric / Water | Usage data available"
+  },
+  {
+    "display_name": "Watchog",
+    "slug": "watchog",
+    "url": "pokemon/watchog/",
+    "primary_image": "Images/pokemon_sprites/by_species/watchog/watchog/watchog_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal"
+    ],
+    "stats": {
+      "total": 420,
+      "hp": 60,
+      "attack": 85,
+      "defense": 69,
+      "special_attack": 60,
+      "special_defense": 69,
+      "speed": 77
+    },
+    "has_usage_data": true,
+    "summary": "Normal | Usage data available"
+  },
+  {
+    "display_name": "Weavile",
+    "slug": "weavile",
+    "url": "pokemon/weavile/",
+    "primary_image": "Images/pokemon_sprites/by_species/weavile/weavile/weavile_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dark",
+      "ice"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 70,
+      "attack": 120,
+      "defense": 65,
+      "special_attack": 45,
+      "special_defense": 85,
+      "speed": 125
+    },
+    "has_usage_data": true,
+    "summary": "Dark / Ice | Usage data available"
+  },
+  {
+    "display_name": "Whimsicott",
+    "slug": "whimsicott",
+    "url": "pokemon/whimsicott/",
+    "primary_image": "Images/pokemon_sprites/by_species/whimsicott/whimsicott/whimsicott_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "grass",
+      "fairy"
+    ],
+    "stats": {
+      "total": 480,
+      "hp": 60,
+      "attack": 67,
+      "defense": 85,
+      "special_attack": 77,
+      "special_defense": 75,
+      "speed": 116
+    },
+    "has_usage_data": true,
+    "summary": "Grass / Fairy | Usage data available"
+  },
+  {
+    "display_name": "Wyrdeer",
+    "slug": "wyrdeer",
+    "url": "pokemon/wyrdeer/",
+    "primary_image": "Images/pokemon_sprites/by_species/wyrdeer/wyrdeer/wyrdeer_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "normal",
+      "psychic"
+    ],
+    "stats": {
+      "total": 525,
+      "hp": 103,
+      "attack": 105,
+      "defense": 72,
+      "special_attack": 105,
+      "special_defense": 75,
+      "speed": 65
+    },
+    "has_usage_data": true,
+    "summary": "Normal / Psychic | Usage data available"
+  },
+  {
+    "display_name": "Zoroark",
+    "slug": "zoroark",
+    "url": "pokemon/zoroark/",
+    "primary_image": "Images/pokemon_sprites/by_species/zoroark/zoroark/zoroark_primary_image.png",
+    "regulations": [
+      "ma"
+    ],
+    "types": [
+      "dark"
+    ],
+    "stats": {
+      "total": 510,
+      "hp": 60,
+      "attack": 105,
+      "defense": 60,
+      "special_attack": 120,
+      "special_defense": 60,
+      "speed": 105
+    },
+    "has_usage_data": true,
+    "summary": "Dark | Usage data available"
+  }
+]

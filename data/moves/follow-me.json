@@ -1,0 +1,30 @@
+{
+  "slug": "follow-me",
+  "display_name": "Follow Me",
+  "description": "The user redirects opponents' moves toward itself. This effect works only on single-target moves.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Maushold",
+      "url": "pokemon/maushold/",
+      "percent": 99.3
+    },
+    {
+      "display_name": "Clefable",
+      "url": "pokemon/clefable/",
+      "percent": 98.0
+    },
+    {
+      "display_name": "Mega Clefable",
+      "url": "pokemon/mega-clefable/",
+      "percent": 72.9
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "fur-coat",
+  "display_name": "Fur Coat",
+  "description": "halves damage from physical attacks.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Furfrou",
+      "url": "pokemon/furfrou/",
+      "percent": 100.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "first-impression",
+  "display_name": "First Impression",
+  "description": "This move fails unless it is the first move used by the user after it enters a battle.",
+  "type": "bug",
+  "power": 100.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": 0.7
+    }
+  ]
+}

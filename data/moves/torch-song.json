@@ -1,0 +1,20 @@
+{
+  "slug": "torch-song",
+  "display_name": "Torch Song",
+  "description": "Boosts the user's Sp. Atk stat by 1 stage.",
+  "type": "fire",
+  "power": 80.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Skeledirge",
+      "url": "pokemon/skeledirge/",
+      "percent": 98.8
+    }
+  ]
+}

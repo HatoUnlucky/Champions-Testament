@@ -1,0 +1,20 @@
+{
+  "slug": "merciless",
+  "display_name": "Merciless",
+  "description": "this pokémon's moves critical hit against poisoned targets.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Toxapex",
+      "url": "pokemon/toxapex/",
+      "percent": 19.0
+    }
+  ]
+}

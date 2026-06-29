@@ -1,0 +1,31 @@
+{{ define "title" }}{{ .Title }} | {{ site.Title }}{{ end }}
+
+{{ define "main" }}
+{{ $item := index hugo.Data.items .Params.data_key }}
+<article class="page-shell entry-page">
+  <div class="toolbar"><a href="{{ "items/" | relURL }}">All Items</a></div>
+  <section class="entry-hero">
+    {{ with $item.image }}<img src="{{ . | relURL }}" alt="">{{ end }}
+    <div>
+      <p class="eyebrow">{{ $item.category }}</p>
+      <h1>{{ $item.display_name }}</h1>
+      <p class="lede">{{ $item.description }}</p>
+      <div class="reg-pill-row">
+        {{ range $item.regulations }}<span>{{ upper . }}</span>{{ end }}
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Common Users</h2>
+    <div class="rank-list">
+      {{ range $item.common_users }}
+        <a class="rank-row linked-row" href="{{ .url | relURL }}">
+          <strong>{{ .display_name }}</strong>
+          {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
+        </a>
+      {{ end }}
+    </div>
+  </section>
+</article>
+{{ end }}

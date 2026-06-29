@@ -1,0 +1,25 @@
+{
+  "slug": "gooey",
+  "display_name": "Gooey",
+  "description": "lowers attacking pokémon's speed by one stage on contact.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hisuian Goodra",
+      "url": "pokemon/hisuian-goodra/",
+      "percent": 26.9
+    },
+    {
+      "display_name": "Goodra",
+      "url": "pokemon/goodra/",
+      "percent": 20.7
+    }
+  ]
+}

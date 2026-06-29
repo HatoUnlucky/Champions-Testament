@@ -1,0 +1,44 @@
+{{ define "title" }}Turn Simulator | {{ site.Title }}{{ end }}
+
+{{ define "main" }}
+<section class="page-shell simulator-shell">
+  <div class="tool-header">
+    <p class="eyebrow">{{ .Params.status }}</p>
+    <h1>Turn Simulator</h1>
+  </div>
+
+  <div class="sim-layout">
+    <section class="panel sim-team">
+      <h2>Left Side</h2>
+      <div class="sim-slot">
+        <label>Pokemon</label>
+        <input type="search" placeholder="Select Pokemon" disabled>
+      </div>
+      <div class="sim-slot">
+        <label>Move</label>
+        <input type="search" placeholder="Select Move" disabled>
+      </div>
+    </section>
+
+    <section class="panel sim-center">
+      <h2>Turn Order</h2>
+      <div class="empty-state">
+        <strong>Calculator script pending.</strong>
+        <span>This shell is here so layout and navigation can be prototyped safely.</span>
+      </div>
+    </section>
+
+    <section class="panel sim-team">
+      <h2>Right Side</h2>
+      <div class="sim-slot">
+        <label>Pokemon</label>
+        <input type="search" placeholder="Select Pokemon" disabled>
+      </div>
+      <div class="sim-slot">
+        <label>Move</label>
+        <input type="search" placeholder="Select Move" disabled>
+      </div>
+    </section>
+  </div>
+</section>
+{{ end }}

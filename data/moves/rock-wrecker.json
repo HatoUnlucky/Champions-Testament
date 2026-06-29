@@ -1,0 +1,20 @@
+{
+  "slug": "rock-wrecker",
+  "display_name": "Rock Wrecker",
+  "description": "The user gains the Recharging status on the turn after this move is used.",
+  "type": "rock",
+  "power": 150.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Rhyperior",
+      "url": "pokemon/rhyperior/",
+      "percent": 7.8
+    }
+  ]
+}

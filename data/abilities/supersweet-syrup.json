@@ -1,0 +1,20 @@
+{
+  "slug": "supersweet-syrup",
+  "display_name": "Supersweet Syrup",
+  "description": "once per battle, when a pokémon with supersweet syrup enters the battle, it lowers the evasion stat of all adjacent opponents by one stage. ",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hydrapple",
+      "url": "pokemon/hydrapple/",
+      "percent": 15.4
+    }
+  ]
+}

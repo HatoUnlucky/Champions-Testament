@@ -1,0 +1,11 @@
+public/
+resources/_gen/
+.hugo_build.lock
+
+data/raw/
+data/reports/
+mb/
+*.before-smogon-clean.db
+*.db-journal
+*.db-shm
+*.db-wal

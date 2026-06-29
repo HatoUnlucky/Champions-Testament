@@ -1,0 +1,20 @@
+{
+  "slug": "forecast",
+  "display_name": "Forecast",
+  "description": "changes castform's type and form to match the weather.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Castform",
+      "url": "pokemon/castform/",
+      "percent": 100.0
+    }
+  ]
+}

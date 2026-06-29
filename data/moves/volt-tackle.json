@@ -1,0 +1,30 @@
+{
+  "slug": "volt-tackle",
+  "display_name": "Volt Tackle",
+  "description": "Has a 10% chance of paralyzing the target. The user also takes 1/3 of the damage dealt by this move.",
+  "type": "electric",
+  "power": 120.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Pikachu",
+      "url": "pokemon/pikachu/",
+      "percent": 23.9
+    },
+    {
+      "display_name": "Raichu",
+      "url": "pokemon/raichu/",
+      "percent": 5.2
+    },
+    {
+      "display_name": "Alolan Raichu",
+      "url": "pokemon/alolan-raichu/",
+      "percent": null
+    }
+  ]
+}

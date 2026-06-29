@@ -1,0 +1,40 @@
+{{ define "title" }}{{ site.Title }}{{ end }}
+
+{{ define "main" }}
+<section class="page-shell home-shell">
+  <div class="home-heading">
+    <div>
+      <p class="eyebrow">Static database</p>
+      <h1>Champions Testament</h1>
+      <p class="lede">Browse generated data pages or open a static prototype tool.</p>
+    </div>
+  </div>
+
+  <nav class="feature-grid" aria-label="Site sections">
+    <a class="feature-card" href="{{ "pokemon/" | relURL }}">
+      <span>Pokemon</span>
+      <small>Stats, usage, items, moves, spreads, and teammates.</small>
+    </a>
+    <a class="feature-card" href="{{ "items/" | relURL }}">
+      <span>Items</span>
+      <small>Held item entries and regulation availability.</small>
+    </a>
+    <a class="feature-card" href="{{ "moves/" | relURL }}">
+      <span>Moves</span>
+      <small>Move details, typing, power, and damage class.</small>
+    </a>
+    <a class="feature-card" href="{{ "abilities/" | relURL }}">
+      <span>Abilities</span>
+      <small>Ability names and descriptions.</small>
+    </a>
+    <a class="feature-card muted-card" href="{{ "team-builder/" | relURL }}">
+      <span>Team Builder</span>
+      <small>Reserved for a future planning pass.</small>
+    </a>
+    <a class="feature-card" href="{{ "turn-simulator/" | relURL }}">
+      <span>Turn Simulator</span>
+      <small>Static prototype shell for the later calculator script.</small>
+    </a>
+  </nav>
+</section>
+{{ end }}

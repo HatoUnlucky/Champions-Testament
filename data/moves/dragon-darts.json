@@ -1,0 +1,20 @@
+{
+  "slug": "dragon-darts",
+  "display_name": "Dragon Darts",
+  "description": "The user attacks twice in a row. If there are 2 opposing Pokémon each of them is attacked once.",
+  "type": "dragon",
+  "power": 50.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 55.5
+    }
+  ]
+}

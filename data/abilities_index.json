@@ -1,0 +1,2620 @@
+[
+  {
+    "display_name": "Adaptability",
+    "slug": "adaptability",
+    "url": "abilities/adaptability/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "increases the same-type attack bonus from 1.5× to 2×.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aerilate",
+    "slug": "aerilate",
+    "url": "abilities/aerilate/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "turns the bearer's normal moves into flying moves and strengthens them to 1.3× their power.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aftermath",
+    "slug": "aftermath",
+    "url": "abilities/aftermath/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "damages the attacker for 1/4 its max hp when knocked out by a contact move.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Analytic",
+    "slug": "analytic",
+    "url": "abilities/analytic/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens moves to 1.3× their power when moving last.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Anger Point",
+    "slug": "anger-point",
+    "url": "abilities/anger-point/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises attack to the maximum of six stages upon receiving a critical hit.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Anticipation",
+    "slug": "anticipation",
+    "url": "abilities/anticipation/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "notifies all trainers upon entering battle if an opponent has a super-effective move, self-destruct, explosion, or a one-hit ko move.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Armor Tail",
+    "slug": "armor-tail",
+    "url": "abilities/armor-tail/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents the opponent from using any moves that have priority, such as quick attack.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Aroma Veil",
+    "slug": "aroma-veil",
+    "url": "abilities/aroma-veil/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects allies against moves that affect their mental state.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Berserk",
+    "slug": "berserk",
+    "url": "abilities/berserk/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises this pokémon's special attack by one stage every time its hp drops below half.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Blaze",
+    "slug": "blaze",
+    "url": "abilities/blaze/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens fire moves to inflict 1.5× damage at 1/3 max hp or less.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Bulletproof",
+    "slug": "bulletproof",
+    "url": "abilities/bulletproof/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects against bullet, ball, and bomb-based moves.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Cheek Pouch",
+    "slug": "cheek-pouch",
+    "url": "abilities/cheek-pouch/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "restores hp upon eating a berry, in addition to the berry's effect.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Chlorophyll",
+    "slug": "chlorophyll",
+    "url": "abilities/chlorophyll/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "doubles speed during strong sunlight.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Clear Body",
+    "slug": "clear-body",
+    "url": "abilities/clear-body/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents stats from being lowered by other pokémon.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Cloud Nine",
+    "slug": "cloud-nine",
+    "url": "abilities/cloud-nine/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "negates all effects of weather, but does not prevent the weather itself.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Competitive",
+    "slug": "competitive",
+    "url": "abilities/competitive/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises special attack by two stages upon having any stat lowered.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Compound Eyes",
+    "slug": "compound-eyes",
+    "url": "abilities/compound-eyes/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "increases moves' accuracy to 1.3×.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Contrary",
+    "slug": "contrary",
+    "url": "abilities/contrary/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "inverts stat changes.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Corrosion",
+    "slug": "corrosion",
+    "url": "abilities/corrosion/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "this pokémon can inflict poison on poison and steel pokémon.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Cud Chew",
+    "slug": "cud-chew",
+    "url": "abilities/cud-chew/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "causes the pokémon to reuse an already consumed berry at the end of the next turn.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Curious Medicine",
+    "slug": "curious-medicine",
+    "url": "abilities/curious-medicine/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "resets all stat changes upon entering battlefield.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Cursed Body",
+    "slug": "cursed-body",
+    "url": "abilities/cursed-body/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "has a 30% chance of disabling any move that hits the pokémon.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Cute Charm",
+    "slug": "cute-charm",
+    "url": "abilities/cute-charm/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "has a 30% chance of infatuating attacking pokémon on contact.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Damp",
+    "slug": "damp",
+    "url": "abilities/damp/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents self-destruct, explosion, and aftermath from working while the pokémon is in battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Defiant",
+    "slug": "defiant",
+    "url": "abilities/defiant/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises attack two stages upon having any stat lowered.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Disguise",
+    "slug": "disguise",
+    "url": "abilities/disguise/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents the first instance of battle damage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dragonize",
+    "slug": "dragonize",
+    "url": "abilities/dragonize/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "the pokémon's normal-type moves become dragon-type moves and their power is boosted by 20%.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Drizzle",
+    "slug": "drizzle",
+    "url": "abilities/drizzle/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "summons rain that lasts 5 turns upon entering battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Drought",
+    "slug": "drought",
+    "url": "abilities/drought/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "summons strong sunlight that lasts indefinitely upon entering battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Dry Skin",
+    "slug": "dry-skin",
+    "url": "abilities/dry-skin/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "causes 1/8 max hp in damage each turn during strong sunlight, but heals for 1/8 max hp during rain.  increases damage from fire moves to 1.25×, but absorbs water moves, healing for 1/4 max hp.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Early Bird",
+    "slug": "early-bird",
+    "url": "abilities/early-bird/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "makes sleep pass twice as quickly.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Earth Eater",
+    "slug": "earth-eater",
+    "url": "abilities/earth-eater/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "restores hp when hit by a ground-type move.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Electromorphosis",
+    "slug": "electromorphosis",
+    "url": "abilities/electromorphosis/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "when hit by an attack, the power of the next electric-type move it uses is doubled.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fairy Aura",
+    "slug": "fairy-aura",
+    "url": "abilities/fairy-aura/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens fairy moves to 1.33× their power for all friendly and opposing pokémon.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Filter",
+    "slug": "filter",
+    "url": "abilities/filter/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "decreases damage taken from super-effective moves by 1/4.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Flame Body",
+    "slug": "flame-body",
+    "url": "abilities/flame-body/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "has a 30% chance of burning attacking pokémon on contact.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Flash Fire",
+    "slug": "flash-fire",
+    "url": "abilities/flash-fire/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects against fire moves.  once one has been blocked, the pokémon's own fire moves inflict 1.5× damage until it leaves battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Flower Veil",
+    "slug": "flower-veil",
+    "url": "abilities/flower-veil/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects friendly grass pokémon from having their stats lowered by other pokémon.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Forecast",
+    "slug": "forecast",
+    "url": "abilities/forecast/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "changes castform's type and form to match the weather.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Friend Guard",
+    "slug": "friend-guard",
+    "url": "abilities/friend-guard/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "decreases all direct damage taken by friendly pokémon to 0.75×.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Frisk",
+    "slug": "frisk",
+    "url": "abilities/frisk/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "reveals an opponent's held item upon entering battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Fur Coat",
+    "slug": "fur-coat",
+    "url": "abilities/fur-coat/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "halves damage from physical attacks.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Gale Wings",
+    "slug": "gale-wings",
+    "url": "abilities/gale-wings/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises flying moves' priority by one stage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Gluttony",
+    "slug": "gluttony",
+    "url": "abilities/gluttony/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "makes the pokémon eat any held berry triggered by low hp below 1/2 its max hp.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Gooey",
+    "slug": "gooey",
+    "url": "abilities/gooey/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "lowers attacking pokémon's speed by one stage on contact.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Guts",
+    "slug": "guts",
+    "url": "abilities/guts/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "increases attack to 1.5× with a major status ailment.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Harvest",
+    "slug": "harvest",
+    "url": "abilities/harvest/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "has a 50% chance of restoring a used berry after each turn if the pokémon has held no items in the meantime.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Healer",
+    "slug": "healer",
+    "url": "abilities/healer/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "has a 30% chance of curing each adjacent ally of any major status ailment after each turn.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Heatproof",
+    "slug": "heatproof",
+    "url": "abilities/heatproof/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "halves damage from fire moves and burns.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Heavy Metal",
+    "slug": "heavy-metal",
+    "url": "abilities/heavy-metal/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "doubles the pokémon's weight.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hospitality",
+    "slug": "hospitality",
+    "url": "abilities/hospitality/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "when a pokémon with hospitality enters a battle, it restores hp for an ally by 25%.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Huge Power",
+    "slug": "huge-power",
+    "url": "abilities/huge-power/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "doubles attack in battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hunger Switch",
+    "slug": "hunger-switch",
+    "url": "abilities/hunger-switch/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "causes morpeko to change its form each turn, alternating between full belly mode and hangry mode",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hustle",
+    "slug": "hustle",
+    "url": "abilities/hustle/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hydration",
+    "slug": "hydration",
+    "url": "abilities/hydration/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "cures any major status ailment after each turn during rain.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Hyper Cutter",
+    "slug": "hyper-cutter",
+    "url": "abilities/hyper-cutter/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents attack from being lowered by other pokémon.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Ice Body",
+    "slug": "ice-body",
+    "url": "abilities/ice-body/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "heals for 1/16 max hp after each turn during hail.  protects against hail damage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Illuminate",
+    "slug": "illuminate",
+    "url": "abilities/illuminate/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "doubles the wild encounter rate.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Illusion",
+    "slug": "illusion",
+    "url": "abilities/illusion/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "takes the appearance of the last conscious party pokémon upon being sent out until hit by a damaging move.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Immunity",
+    "slug": "immunity",
+    "url": "abilities/immunity/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents poison.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Imposter",
+    "slug": "imposter",
+    "url": "abilities/imposter/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "transforms upon entering battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Infiltrator",
+    "slug": "infiltrator",
+    "url": "abilities/infiltrator/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "bypasses light screen, reflect, and safeguard.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Innards Out",
+    "slug": "innards-out",
+    "url": "abilities/innards-out/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "when this pokémon faints from an opponent's move, that opponent takes damage equal to the hp this pokémon had remaining.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Inner Focus",
+    "slug": "inner-focus",
+    "url": "abilities/inner-focus/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents flinching.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Insomnia",
+    "slug": "insomnia",
+    "url": "abilities/insomnia/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents sleep.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Intimidate",
+    "slug": "intimidate",
+    "url": "abilities/intimidate/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "lowers opponents' attack one stage upon entering battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Iron Fist",
+    "slug": "iron-fist",
+    "url": "abilities/iron-fist/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens punch-based moves to 1.2× their power.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Justified",
+    "slug": "justified",
+    "url": "abilities/justified/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises attack one stage upon taking damage from a dark move.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Keen Eye",
+    "slug": "keen-eye",
+    "url": "abilities/keen-eye/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents accuracy from being lowered.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Klutz",
+    "slug": "klutz",
+    "url": "abilities/klutz/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents the pokémon from using its held item in battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Leaf Guard",
+    "slug": "leaf-guard",
+    "url": "abilities/leaf-guard/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects against major status ailments during strong sunlight.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Levitate",
+    "slug": "levitate",
+    "url": "abilities/levitate/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "evades ground moves.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Light Metal",
+    "slug": "light-metal",
+    "url": "abilities/light-metal/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "halves the pokémon's weight.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Lightning Rod",
+    "slug": "lightning-rod",
+    "url": "abilities/lightning-rod/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "redirects single-target electric moves to this pokémon where possible.  absorbs electric moves, raising special attack one stage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Limber",
+    "slug": "limber",
+    "url": "abilities/limber/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents paralysis.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Liquid Voice",
+    "slug": "liquid-voice",
+    "url": "abilities/liquid-voice/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "sound-based moves become water-type.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Long Reach",
+    "slug": "long-reach",
+    "url": "abilities/long-reach/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "this pokémon's moves do not make contact.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Magic Bounce",
+    "slug": "magic-bounce",
+    "url": "abilities/magic-bounce/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "reflects most non-damaging moves back at their user.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Magic Guard",
+    "slug": "magic-guard",
+    "url": "abilities/magic-guard/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects against damage not directly caused by a move.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Magician",
+    "slug": "magician",
+    "url": "abilities/magician/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "steals the target's held item when the bearer uses a damaging move.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Magma Armor",
+    "slug": "magma-armor",
+    "url": "abilities/magma-armor/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents freezing.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Marvel Scale",
+    "slug": "marvel-scale",
+    "url": "abilities/marvel-scale/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "increases defense to 1.5× with a major status ailment.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mega Launcher",
+    "slug": "mega-launcher",
+    "url": "abilities/mega-launcher/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens aura and pulse moves to 1.5× their power.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mega Sol",
+    "slug": "mega-sol",
+    "url": "abilities/mega-sol/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "the pokémon can use its moves as if the weather were harsh sunlight.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Merciless",
+    "slug": "merciless",
+    "url": "abilities/merciless/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "this pokémon's moves critical hit against poisoned targets.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Minus",
+    "slug": "minus",
+    "url": "abilities/minus/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "increases special attack to 1.5× when a friendly pokémon has plus or minus.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mirror Armor",
+    "slug": "mirror-armor",
+    "url": "abilities/mirror-armor/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "reflects any stat-lowering effects.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mold Breaker",
+    "slug": "mold-breaker",
+    "url": "abilities/mold-breaker/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "bypasses targets' abilities if they could hinder or prevent a move.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Moody",
+    "slug": "moody",
+    "url": "abilities/moody/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises a random stat two stages and lowers another one stage after each turn.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Motor Drive",
+    "slug": "motor-drive",
+    "url": "abilities/motor-drive/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "absorbs electric moves, raising speed one stage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Moxie",
+    "slug": "moxie",
+    "url": "abilities/moxie/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises attack one stage upon koing a pokémon.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Multiscale",
+    "slug": "multiscale",
+    "url": "abilities/multiscale/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "halves damage taken from full hp.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mummy",
+    "slug": "mummy",
+    "url": "abilities/mummy/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "changes attacking pokémon's abilities to mummy on contact.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Natural Cure",
+    "slug": "natural-cure",
+    "url": "abilities/natural-cure/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "cures any major status ailment upon switching out.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "No Guard",
+    "slug": "no-guard",
+    "url": "abilities/no-guard/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "ensures all moves used by and against the pokémon hit.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Oblivious",
+    "slug": "oblivious",
+    "url": "abilities/oblivious/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents infatuation and protects against captivate.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Opportunist",
+    "slug": "opportunist",
+    "url": "abilities/opportunist/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "copies stat boosts by the opponent.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Overcoat",
+    "slug": "overcoat",
+    "url": "abilities/overcoat/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects against damage from weather.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Overgrow",
+    "slug": "overgrow",
+    "url": "abilities/overgrow/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens grass moves to inflict 1.5× damage at 1/3 max hp or less.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Own Tempo",
+    "slug": "own-tempo",
+    "url": "abilities/own-tempo/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents confusion.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Parental Bond",
+    "slug": "parental-bond",
+    "url": "abilities/parental-bond/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "lets the bearer hit twice with damaging moves.  the second hit has half power.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Pickpocket",
+    "slug": "pickpocket",
+    "url": "abilities/pickpocket/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "steals attacking pokémon's held items on contact.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Pickup",
+    "slug": "pickup",
+    "url": "abilities/pickup/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "picks up other pokémon's used and flung held items.  may also pick up an item after battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Piercing Drill",
+    "slug": "piercing-drill",
+    "url": "abilities/piercing-drill/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "when the pokémon uses contact moves, it can hit even targets that are protecting themselves.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Pixilate",
+    "slug": "pixilate",
+    "url": "abilities/pixilate/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "turns the bearer's normal moves into fairy moves and strengthens them to 1.3× their power.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Plus",
+    "slug": "plus",
+    "url": "abilities/plus/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "increases special attack to 1.5× when a friendly pokémon has plus or minus.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Poison Heal",
+    "slug": "poison-heal",
+    "url": "abilities/poison-heal/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "heals for 1/8 max hp after each turn when poisoned in place of damage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Poison Point",
+    "slug": "poison-point",
+    "url": "abilities/poison-point/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "has a 30% chance of poisoning attacking pokémon on contact.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Poison Touch",
+    "slug": "poison-touch",
+    "url": "abilities/poison-touch/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "has a 30% chance of poisoning target pokémon upon contact.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Prankster",
+    "slug": "prankster",
+    "url": "abilities/prankster/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises non-damaging moves' priority by one stage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Pressure",
+    "slug": "pressure",
+    "url": "abilities/pressure/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "increases the pp cost of moves targetting the pokémon by one.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Protean",
+    "slug": "protean",
+    "url": "abilities/protean/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "changes the bearer's type to match each move it uses.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Pure Power",
+    "slug": "pure-power",
+    "url": "abilities/pure-power/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "doubles attack in battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Purifying Salt",
+    "slug": "purifying-salt",
+    "url": "abilities/purifying-salt/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects from status conditions and halves damage from ghost-type moves.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Queenly Majesty",
+    "slug": "queenly-majesty",
+    "url": "abilities/queenly-majesty/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "opposing pokémon cannot use priority attacks.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Quick Draw",
+    "slug": "quick-draw",
+    "url": "abilities/quick-draw/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "enables the pokémon to move first occasionally.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Quick Feet",
+    "slug": "quick-feet",
+    "url": "abilities/quick-feet/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "increases speed to 1.5× with a major status ailment.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rain Dish",
+    "slug": "rain-dish",
+    "url": "abilities/rain-dish/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "heals for 1/16 max hp after each turn during rain.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Receiver",
+    "slug": "receiver",
+    "url": "abilities/receiver/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "when an ally faints, this pokémon gains its ability.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Reckless",
+    "slug": "reckless",
+    "url": "abilities/reckless/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens recoil moves to 1.2× their power.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Refrigerate",
+    "slug": "refrigerate",
+    "url": "abilities/refrigerate/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "turns the bearer's normal moves into ice moves and strengthens them to 1.3× their power.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Regenerator",
+    "slug": "regenerator",
+    "url": "abilities/regenerator/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "heals for 1/3 max hp upon switching out.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Ripen",
+    "slug": "ripen",
+    "url": "abilities/ripen/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "doubles the effect of berries.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rivalry",
+    "slug": "rivalry",
+    "url": "abilities/rivalry/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "increases damage inflicted to 1.25× against pokémon of the same gender, but decreases damage to 0.75× against the opposite gender.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rock Head",
+    "slug": "rock-head",
+    "url": "abilities/rock-head/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects against recoil damage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Rough Skin",
+    "slug": "rough-skin",
+    "url": "abilities/rough-skin/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "damages attacking pokémon for 1/8 their max hp on contact.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sand Force",
+    "slug": "sand-force",
+    "url": "abilities/sand-force/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens rock, ground, and steel moves to 1.3× their power during a sandstorm.  protects against sandstorm damage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sand Rush",
+    "slug": "sand-rush",
+    "url": "abilities/sand-rush/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "doubles speed during a sandstorm.  protects against sandstorm damage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sand Spit",
+    "slug": "sand-spit",
+    "url": "abilities/sand-spit/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "creates a sandstorm when hit by an attack.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sand Stream",
+    "slug": "sand-stream",
+    "url": "abilities/sand-stream/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "summons a sandstorm that lasts 5 turns upon entering battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sand Veil",
+    "slug": "sand-veil",
+    "url": "abilities/sand-veil/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "increases evasion to 1.25× during a sandstorm.  protects against sandstorm damage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sap Sipper",
+    "slug": "sap-sipper",
+    "url": "abilities/sap-sipper/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "absorbs grass moves, raising attack one stage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Scrappy",
+    "slug": "scrappy",
+    "url": "abilities/scrappy/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "lets the pokémon's normal and fighting moves hit ghost pokémon.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Shadow Tag",
+    "slug": "shadow-tag",
+    "url": "abilities/shadow-tag/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents opponents from fleeing or switching out.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sharpness",
+    "slug": "sharpness",
+    "url": "abilities/sharpness/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "powers up slicing moves.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Shed Skin",
+    "slug": "shed-skin",
+    "url": "abilities/shed-skin/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "has a 33% chance of curing any major status ailment after each turn.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sheer Force",
+    "slug": "sheer-force",
+    "url": "abilities/sheer-force/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens moves with extra effects to 1.3× their power, but prevents their extra effects.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Shell Armor",
+    "slug": "shell-armor",
+    "url": "abilities/shell-armor/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects against critical hits.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Shield Dust",
+    "slug": "shield-dust",
+    "url": "abilities/shield-dust/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects against incoming moves' extra effects.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Skill Link",
+    "slug": "skill-link",
+    "url": "abilities/skill-link/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "extends two-to-five-hit moves and triple kick to their full length every time.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Slush Rush",
+    "slug": "slush-rush",
+    "url": "abilities/slush-rush/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "during hail, this pokémon has double speed.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sniper",
+    "slug": "sniper",
+    "url": "abilities/sniper/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens critical hits to inflict 3× damage rather than 2×.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Snow Cloak",
+    "slug": "snow-cloak",
+    "url": "abilities/snow-cloak/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "increases evasion to 1.25× during hail.  protects against hail damage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Snow Warning",
+    "slug": "snow-warning",
+    "url": "abilities/snow-warning/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "summons hail that lasts 5 turns upon entering battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Solar Power",
+    "slug": "solar-power",
+    "url": "abilities/solar-power/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "increases special attack to 1.5× but costs 1/8 max hp after each turn during strong sunlight.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Solid Rock",
+    "slug": "solid-rock",
+    "url": "abilities/solid-rock/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "decreases damage taken from super-effective moves by 1/4.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Soundproof",
+    "slug": "soundproof",
+    "url": "abilities/soundproof/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects against sound-based moves.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Speed Boost",
+    "slug": "speed-boost",
+    "url": "abilities/speed-boost/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises speed one stage after each turn.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Spicy Spray",
+    "slug": "spicy-spray",
+    "url": "abilities/spicy-spray/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "when the pokémon takes damage from a move, it burns the attacker.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stall",
+    "slug": "stall",
+    "url": "abilities/stall/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "makes the pokémon move last within its move's priority bracket.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stalwart",
+    "slug": "stalwart",
+    "url": "abilities/stalwart/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "ignores moves and abilities that draw in moves.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stamina",
+    "slug": "stamina",
+    "url": "abilities/stamina/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises this pokémon's defense by one stage when it takes damage from a move.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stance Change",
+    "slug": "stance-change",
+    "url": "abilities/stance-change/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "changes aegislash to blade forme before using a damaging move, or shield forme before using king’s shield.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Static",
+    "slug": "static",
+    "url": "abilities/static/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "has a 30% chance of paralyzing attacking pokémon on contact.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Steadfast",
+    "slug": "steadfast",
+    "url": "abilities/steadfast/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises speed one stage upon flinching.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Stench",
+    "slug": "stench",
+    "url": "abilities/stench/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "has a 10% chance of making target pokémon flinch with each hit.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sticky Hold",
+    "slug": "sticky-hold",
+    "url": "abilities/sticky-hold/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents a held item from being removed by other pokémon.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Strong Jaw",
+    "slug": "strong-jaw",
+    "url": "abilities/strong-jaw/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens biting moves to 1.5× their power.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sturdy",
+    "slug": "sturdy",
+    "url": "abilities/sturdy/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents being koed from full hp, leaving 1 hp instead.  protects against the one-hit ko moves regardless of hp.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Super Luck",
+    "slug": "super-luck",
+    "url": "abilities/super-luck/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises moves' critical hit rates one stage.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Supersweet Syrup",
+    "slug": "supersweet-syrup",
+    "url": "abilities/supersweet-syrup/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "once per battle, when a pokémon with supersweet syrup enters the battle, it lowers the evasion stat of all adjacent opponents by one stage. ",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Supreme Overlord",
+    "slug": "supreme-overlord",
+    "url": "abilities/supreme-overlord/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "attack and special attack are boosted for each party pokémon that has been defeated.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Surge Surfer",
+    "slug": "surge-surfer",
+    "url": "abilities/surge-surfer/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "doubles this pokémon's speed on electric terrain.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Swarm",
+    "slug": "swarm",
+    "url": "abilities/swarm/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens bug moves to inflict 1.5× damage at 1/3 max hp or less.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Sweet Veil",
+    "slug": "sweet-veil",
+    "url": "abilities/sweet-veil/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents friendly pokémon from sleeping.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Swift Swim",
+    "slug": "swift-swim",
+    "url": "abilities/swift-swim/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "doubles speed during rain.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Symbiosis",
+    "slug": "symbiosis",
+    "url": "abilities/symbiosis/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "passes the bearer's held item to an ally when the ally uses up its item.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Synchronize",
+    "slug": "synchronize",
+    "url": "abilities/synchronize/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "copies burns, paralysis, and poison received onto the pokémon that inflicted them.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Technician",
+    "slug": "technician",
+    "url": "abilities/technician/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens moves of 60 base power or less to 1.5× their power.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Telepathy",
+    "slug": "telepathy",
+    "url": "abilities/telepathy/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects against friendly pokémon's damaging moves.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Thick Fat",
+    "slug": "thick-fat",
+    "url": "abilities/thick-fat/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "halves damage from fire and ice moves.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Torrent",
+    "slug": "torrent",
+    "url": "abilities/torrent/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens water moves to inflict 1.5× damage at 1/3 max hp or less.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Tough Claws",
+    "slug": "tough-claws",
+    "url": "abilities/tough-claws/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "strengthens moves that make contact to 1.33× their power.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Toxic Debris",
+    "slug": "toxic-debris",
+    "url": "abilities/toxic-debris/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "scatters poison spikes at the feet of the opposing team when the pokémon takes damage from physical moves.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Trace",
+    "slug": "trace",
+    "url": "abilities/trace/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "copies an opponent's ability upon entering battle.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Unaware",
+    "slug": "unaware",
+    "url": "abilities/unaware/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "ignores other pokémon's stat modifiers for damage and accuracy calculation.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Unburden",
+    "slug": "unburden",
+    "url": "abilities/unburden/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "doubles speed upon using or losing a held item.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Unnerve",
+    "slug": "unnerve",
+    "url": "abilities/unnerve/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents opposing pokémon from eating held berries.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Unseen Fist",
+    "slug": "unseen-fist",
+    "url": "abilities/unseen-fist/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "contact moves can strike through protect/detect.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Vital Spirit",
+    "slug": "vital-spirit",
+    "url": "abilities/vital-spirit/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents sleep.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Volt Absorb",
+    "slug": "volt-absorb",
+    "url": "abilities/volt-absorb/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "absorbs electric moves, healing for 1/4 max hp.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Wandering Spirit",
+    "slug": "wandering-spirit",
+    "url": "abilities/wandering-spirit/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "swaps abilities with opponents on contact.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Water Absorb",
+    "slug": "water-absorb",
+    "url": "abilities/water-absorb/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "absorbs water moves, healing for 1/4 max hp.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Water Bubble",
+    "slug": "water-bubble",
+    "url": "abilities/water-bubble/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "halves damage from fire moves, doubles damage of water moves, and prevents burns.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Weak Armor",
+    "slug": "weak-armor",
+    "url": "abilities/weak-armor/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "raises speed and lowers defense by one stage each upon being hit by a physical move.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "White Smoke",
+    "slug": "white-smoke",
+    "url": "abilities/white-smoke/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "prevents stats from being lowered by other pokémon.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Zero to Hero",
+    "slug": "zero-to-hero",
+    "url": "abilities/zero-to-hero/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "transforms into its hero form when switching out.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  }
+]

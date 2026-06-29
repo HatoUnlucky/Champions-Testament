@@ -1,0 +1,35 @@
+{
+  "slug": "steadfast",
+  "display_name": "Steadfast",
+  "description": "raises speed one stage upon flinching.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Lucario",
+      "url": "pokemon/lucario/",
+      "percent": 1.2
+    },
+    {
+      "display_name": "Gallade",
+      "url": "pokemon/gallade/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Lycanroc (Midday)",
+      "url": "pokemon/lycanroc-midday/",
+      "percent": 0.2
+    },
+    {
+      "display_name": "Machamp",
+      "url": "pokemon/machamp/",
+      "percent": 0.0
+    }
+  ]
+}

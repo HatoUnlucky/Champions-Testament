@@ -1,0 +1,20 @@
+{
+  "slug": "volt-absorb",
+  "display_name": "Volt Absorb",
+  "description": "absorbs electric moves, healing for 1/4 max hp.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Jolteon",
+      "url": "pokemon/jolteon/",
+      "percent": 95.2
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "final-gambit",
+  "display_name": "Final Gambit",
+  "description": "The user faints. This move deals damage to the target equal to the user's remaining HP at the time this move was used.",
+  "type": "fighting",
+  "power": null,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Lucario",
+      "url": "pokemon/lucario/",
+      "percent": 79.7
+    },
+    {
+      "display_name": "Mega Lucario",
+      "url": "pokemon/mega-lucario/",
+      "percent": null
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "noble-roar",
+  "display_name": "Noble Roar",
+  "description": "Lowers the target's Attack and Sp. Atk stats by 1 stage.",
+  "type": "normal",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Kommo-o",
+      "url": "pokemon/kommo-o/",
+      "percent": null
+    }
+  ]
+}

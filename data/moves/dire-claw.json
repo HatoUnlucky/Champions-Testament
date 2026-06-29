@@ -1,0 +1,20 @@
+{
+  "slug": "dire-claw",
+  "display_name": "Dire Claw",
+  "description": "Has a 30% chance of leaving the target poisoned paralyzed or asleep.",
+  "type": "poison",
+  "power": 80.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Sneasler",
+      "url": "pokemon/sneasler/",
+      "percent": 93.1
+    }
+  ]
+}

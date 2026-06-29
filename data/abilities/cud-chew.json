@@ -1,0 +1,20 @@
+{
+  "slug": "cud-chew",
+  "display_name": "Cud Chew",
+  "description": "causes the pokémon to reuse an already consumed berry at the end of the next turn.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": 0.5
+    }
+  ]
+}

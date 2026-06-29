@@ -1,0 +1,20 @@
+{
+  "slug": "aura-wheel",
+  "display_name": "Aura Wheel",
+  "description": "Boosts the user's Speed stat by 1 stage. This move's type depends on Morpeko's form.",
+  "type": "electric",
+  "power": 110.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Morpeko",
+      "url": "pokemon/morpeko/",
+      "percent": 98.1
+    }
+  ]
+}

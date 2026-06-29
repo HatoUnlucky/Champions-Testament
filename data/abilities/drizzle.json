@@ -1,0 +1,25 @@
+{
+  "slug": "drizzle",
+  "display_name": "Drizzle",
+  "description": "summons rain that lasts 5 turns upon entering battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Pelipper",
+      "url": "pokemon/pelipper/",
+      "percent": 99.6
+    },
+    {
+      "display_name": "Politoed",
+      "url": "pokemon/politoed/",
+      "percent": 99.5
+    }
+  ]
+}

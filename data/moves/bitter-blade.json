@@ -1,0 +1,20 @@
+{
+  "slug": "bitter-blade",
+  "display_name": "Bitter Blade",
+  "description": "The user's HP is restored by 1/2 of the damage dealt by this move.",
+  "type": "fire",
+  "power": 90.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Ceruledge",
+      "url": "pokemon/ceruledge/",
+      "percent": 99.1
+    }
+  ]
+}

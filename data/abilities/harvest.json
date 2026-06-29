@@ -1,0 +1,20 @@
+{
+  "slug": "harvest",
+  "display_name": "Harvest",
+  "description": "has a 50% chance of restoring a used berry after each turn if the pokémon has held no items in the meantime.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Trevenant",
+      "url": "pokemon/trevenant/",
+      "percent": 83.9
+    }
+  ]
+}

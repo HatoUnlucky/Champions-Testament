@@ -1,0 +1,35 @@
+{
+  "slug": "headlong-rush",
+  "display_name": "Headlong Rush",
+  "description": "Lowers the user's Defense and Sp. Def stats by 1 stage.",
+  "type": "ground",
+  "power": 120.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Golurk",
+      "url": "pokemon/mega-golurk/",
+      "percent": 87.9
+    },
+    {
+      "display_name": "Golurk",
+      "url": "pokemon/golurk/",
+      "percent": 76.8
+    },
+    {
+      "display_name": "Torterra",
+      "url": "pokemon/torterra/",
+      "percent": 34.7
+    },
+    {
+      "display_name": "Pangoro",
+      "url": "pokemon/pangoro/",
+      "percent": 6.7
+    }
+  ]
+}

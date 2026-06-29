@@ -1,0 +1,25 @@
+{
+  "slug": "defiant",
+  "display_name": "Defiant",
+  "description": "raises attack two stages upon having any stat lowered.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Kingambit",
+      "url": "pokemon/kingambit/",
+      "percent": 92.4
+    },
+    {
+      "display_name": "Passimian",
+      "url": "pokemon/passimian/",
+      "percent": 71.4
+    }
+  ]
+}

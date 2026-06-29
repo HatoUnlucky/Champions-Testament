@@ -1,0 +1,20 @@
+{
+  "slug": "trop-kick",
+  "display_name": "Trop Kick",
+  "description": "Lowers the target's Attack stat by 1 stage.",
+  "type": "grass",
+  "power": 85.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Tsareena",
+      "url": "pokemon/tsareena/",
+      "percent": 54.7
+    }
+  ]
+}

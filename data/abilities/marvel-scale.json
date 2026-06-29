@@ -1,0 +1,20 @@
+{
+  "slug": "marvel-scale",
+  "display_name": "Marvel Scale",
+  "description": "increases defense to 1.5× with a major status ailment.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Milotic",
+      "url": "pokemon/milotic/",
+      "percent": 1.5
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "trick-or-treat",
+  "display_name": "Trick-or-Treat",
+  "description": "Gives the target the Trick-or-Treating status.",
+  "type": "ghost",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Gourgeist",
+      "url": "pokemon/gourgeist/",
+      "percent": 25.1
+    }
+  ]
+}

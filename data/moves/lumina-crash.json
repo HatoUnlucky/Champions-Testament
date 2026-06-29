@@ -1,0 +1,20 @@
+{
+  "slug": "lumina-crash",
+  "display_name": "Lumina Crash",
+  "description": "Lowers the target's Sp. Def stat by 2 stages.",
+  "type": "psychic",
+  "power": 80.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Espathra",
+      "url": "pokemon/espathra/",
+      "percent": 96.3
+    }
+  ]
+}

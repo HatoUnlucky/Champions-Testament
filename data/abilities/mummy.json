@@ -1,0 +1,20 @@
+{
+  "slug": "mummy",
+  "display_name": "Mummy",
+  "description": "changes attacking pokémon's abilities to mummy on contact.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Cofagrigus",
+      "url": "pokemon/cofagrigus/",
+      "percent": 100.0
+    }
+  ]
+}

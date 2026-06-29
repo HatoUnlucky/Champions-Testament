@@ -1,0 +1,20 @@
+{
+  "slug": "mountain-gale",
+  "display_name": "Mountain Gale",
+  "description": "Has a 30% chance of making the target flinch.",
+  "type": "ice",
+  "power": 120.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hisuian Avalugg",
+      "url": "pokemon/hisuian-avalugg/",
+      "percent": 73.2
+    }
+  ]
+}

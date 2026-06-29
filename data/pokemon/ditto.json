@@ -1,0 +1,351 @@
+{
+  "pokemon_slug": "ditto",
+  "display_name": "Ditto",
+  "regulation": "ma",
+  "has_usage_data": true,
+  "usage": {
+    "percent": null,
+    "raw_count": null,
+    "source_key": "",
+    "month": ""
+  },
+  "data_months": {
+    "abilities": "2026-05",
+    "items": "2026-05",
+    "moves": "2026-05",
+    "spreads": "2026-05",
+    "teammates": "2026-05",
+    "tera_types": "2026-05"
+  },
+  "primary_image": "Images/pokemon_sprites/by_species/ditto/ditto/ditto_primary_image.png",
+  "secondary_image": "",
+  "types": [
+    {
+      "name": "Normal",
+      "slug": "normal"
+    }
+  ],
+  "stats": [
+    {
+      "key": "total",
+      "label": "Total",
+      "value": 288
+    },
+    {
+      "key": "hp",
+      "label": "HP",
+      "value": 48
+    },
+    {
+      "key": "attack",
+      "label": "Atk",
+      "value": 48
+    },
+    {
+      "key": "defense",
+      "label": "Def",
+      "value": 48
+    },
+    {
+      "key": "special_attack",
+      "label": "SpAtk",
+      "value": 48
+    },
+    {
+      "key": "special_defense",
+      "label": "SpDef",
+      "value": 48
+    },
+    {
+      "key": "speed",
+      "label": "Speed",
+      "value": 48
+    }
+  ],
+  "abilities": [
+    {
+      "slug": "imposter",
+      "name": "Imposter",
+      "percent": 92.9,
+      "description": "transforms upon entering battle.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "ability"
+    },
+    {
+      "slug": "limber",
+      "name": "Limber",
+      "percent": 7.1,
+      "description": "prevents paralysis.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "ability"
+    }
+  ],
+  "items": [
+    {
+      "slug": "choice-scarf",
+      "name": "Choice Scarf",
+      "percent": 72.7,
+      "description": "An item to be held by a Pokémon. This scarf boosts Speed, but allows the use of only one kind of move.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/choice-scarf_primary_image.png"
+    },
+    {
+      "slug": "focus-sash",
+      "name": "Focus Sash",
+      "percent": 6.1,
+      "description": "An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png"
+    },
+    {
+      "slug": "leftovers",
+      "name": "Leftovers",
+      "percent": 5.4,
+      "description": "A hold item that gradually restores HP in battle.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/leftovers_primary_image.png"
+    },
+    {
+      "slug": "sitrus-berry",
+      "name": "Sitrus Berry",
+      "percent": 4.5,
+      "description": "A hold item that restores 30 HP in battle.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+    },
+    {
+      "slug": "quick-claw",
+      "name": "Quick Claw",
+      "percent": 4.2,
+      "description": "A hold item that occasionally allows the first strike.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/quick-claw_primary_image.png"
+    },
+    {
+      "slug": "bright-powder",
+      "name": "Bright Powder",
+      "percent": 2.6,
+      "description": "A hold item that casts a glare to reduce accuracy.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/bright-powder_primary_image.png"
+    },
+    {
+      "slug": "mental-herb",
+      "name": "Mental Herb",
+      "percent": 0.6,
+      "description": "A hold item that snaps POKéMON out of infatuation.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/mental-herb_primary_image.png"
+    },
+    {
+      "slug": "white-herb",
+      "name": "White Herb",
+      "percent": 0.5,
+      "description": "A hold item that restores any lowered stat.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/white-herb_primary_image.png"
+    },
+    {
+      "slug": "kings-rock",
+      "name": "King’s Rock",
+      "percent": 0.1,
+      "description": "A hold item that may cause flinching when the foe is hit.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/held-items/kings-rock_primary_image.png"
+    },
+    {
+      "slug": "lum-berry",
+      "name": "Lum Berry",
+      "percent": 0.1,
+      "description": "A hold item that heals status in battle.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Berry/lum-berry_primary_image.png"
+    },
+    {
+      "slug": "silk-scarf",
+      "name": "Silk Scarf",
+      "percent": 0.1,
+      "description": "A hold item that raises the power of NORMAL-type moves.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/silk-scarf_primary_image.png"
+    },
+    {
+      "slug": "shell-bell",
+      "name": "Shell Bell",
+      "percent": 0.1,
+      "description": "A hold item that restores HP upon striking the foe.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/shell-bell_primary_image.png"
+    }
+  ],
+  "spreads": [
+    {
+      "nature": "Naive",
+      "spread": "32/0/0/0/2/32",
+      "percent": 17.4
+    },
+    {
+      "nature": "Bold",
+      "spread": "32/0/32/0/2/0",
+      "percent": 11.4
+    },
+    {
+      "nature": "Jolly",
+      "spread": "32/1/1/0/0/32",
+      "percent": 7.5
+    },
+    {
+      "nature": "Timid",
+      "spread": "32/0/0/0/2/32",
+      "percent": 6.5
+    },
+    {
+      "nature": "Timid",
+      "spread": "32/0/0/0/0/32",
+      "percent": 6.1
+    },
+    {
+      "nature": "Jolly",
+      "spread": "32/0/1/0/1/32",
+      "percent": 5.8
+    }
+  ],
+  "tera_types": [],
+  "moves": [
+    {
+      "slug": "transform",
+      "name": "Transform",
+      "description": "The user transforms into a copy of the target. It also copies all of the target's stats apart from its HP.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 100.0
+    }
+  ],
+  "teammates": [
+    {
+      "slug": "charizard-mega-y",
+      "display_name": "Mega Charizard Y",
+      "percent": 35.1,
+      "image": "Images/pokemon_sprites/by_species/charizard/charizard-mega-y/charizard-mega-y_primary_image.png",
+      "url": "pokemon/mega-charizard-y/"
+    },
+    {
+      "slug": "sneasler",
+      "display_name": "Sneasler",
+      "percent": 32.8,
+      "image": "Images/pokemon_sprites/by_species/sneasler/sneasler/sneasler_primary_image.png",
+      "url": "pokemon/sneasler/"
+    },
+    {
+      "slug": "incineroar",
+      "display_name": "Incineroar",
+      "percent": 24.2,
+      "image": "Images/pokemon_sprites/by_species/incineroar/incineroar/incineroar_primary_image.png",
+      "url": "pokemon/incineroar/"
+    },
+    {
+      "slug": "dragapult",
+      "display_name": "Dragapult",
+      "percent": 20.0,
+      "image": "Images/pokemon_sprites/by_species/dragapult/dragapult/dragapult_primary_image.png",
+      "url": "pokemon/dragapult/"
+    },
+    {
+      "slug": "excadrill",
+      "display_name": "Excadrill",
+      "percent": 19.4,
+      "image": "Images/pokemon_sprites/by_species/excadrill/excadrill/excadrill_primary_image.png",
+      "url": "pokemon/excadrill/"
+    },
+    {
+      "slug": "tyranitar-mega",
+      "display_name": "Mega Tyranitar",
+      "percent": 17.5,
+      "image": "Images/pokemon_sprites/by_species/tyranitar/tyranitar-mega/tyranitar-mega_primary_image.png",
+      "url": "pokemon/mega-tyranitar/"
+    },
+    {
+      "slug": "garchomp",
+      "display_name": "Garchomp",
+      "percent": 15.5,
+      "image": "Images/pokemon_sprites/by_species/garchomp/garchomp/garchomp_primary_image.png",
+      "url": "pokemon/garchomp/"
+    },
+    {
+      "slug": "sinistcha",
+      "display_name": "Sinistcha",
+      "percent": 14.0,
+      "image": "Images/pokemon_sprites/by_species/sinistcha/sinistcha/sinistcha_primary_image.png",
+      "url": "pokemon/sinistcha/"
+    },
+    {
+      "slug": "kingambit",
+      "display_name": "Kingambit",
+      "percent": 13.6,
+      "image": "Images/pokemon_sprites/by_species/kingambit/kingambit/kingambit_primary_image.png",
+      "url": "pokemon/kingambit/"
+    },
+    {
+      "slug": "venusaur",
+      "display_name": "Venusaur",
+      "percent": 13.1,
+      "image": "Images/pokemon_sprites/by_species/venusaur/venusaur/venusaur_primary_image.png",
+      "url": "pokemon/venusaur/"
+    }
+  ]
+}

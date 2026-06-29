@@ -1,0 +1,25 @@
+{
+  "slug": "spicy-extract",
+  "display_name": "Spicy Extract",
+  "description": "Lowers the target's Defense stat by 2 stages and boosts its Attack stat by 2 stages.",
+  "type": "grass",
+  "power": 0.0,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Scovillain",
+      "url": "pokemon/scovillain/",
+      "percent": 18.5
+    },
+    {
+      "display_name": "Mega Scovillain",
+      "url": "pokemon/mega-scovillain/",
+      "percent": 2.1
+    }
+  ]
+}

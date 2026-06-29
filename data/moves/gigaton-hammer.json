@@ -1,0 +1,20 @@
+{
+  "slug": "gigaton-hammer",
+  "display_name": "Gigaton Hammer",
+  "description": "This move can't be used twice in a row.",
+  "type": "steel",
+  "power": 160.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Tinkaton",
+      "url": "pokemon/tinkaton/",
+      "percent": 99.9
+    }
+  ]
+}

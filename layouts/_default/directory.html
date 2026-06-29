@@ -1,0 +1,142 @@
+{{ define "title" }}{{ .Title }} | {{ site.Title }}{{ end }}
+
+{{ define "main" }}
+{{ $sectionKey := .Params.section_key }}
+{{ $indexName := printf "%s_index" $sectionKey }}
+{{ $entries := index hugo.Data $indexName | default slice }}
+{{ $regulations := slice }}
+{{ range $entries }}
+  {{ range (.regulations | default slice) }}
+    {{ if not (in $regulations .) }}
+      {{ $regulations = $regulations | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<section class="page-shell">
+  <div class="page-heading">
+    <div>
+      <p class="eyebrow">Directory</p>
+      <h1>{{ .Title }}</h1>
+    </div>
+
+    <div class="directory-controls" data-directory-controls>
+      <label for="{{ $sectionKey }}-search">Search {{ .Params.entry_label }}</label>
+      <input id="{{ $sectionKey }}-search" type="search" autocomplete="off" placeholder="Filter by name" data-directory-search>
+
+      <label for="{{ $sectionKey }}-regulation">Regulation</label>
+      <select id="{{ $sectionKey }}-regulation" data-regulation-filter>
+        <option value="all">All regulations</option>
+        {{ range sort $regulations }}
+          <option value="{{ . }}">{{ upper . }}</option>
+        {{ end }}
+      </select>
+
+      {{ if eq $sectionKey "pokemon" }}
+        <label for="pokemon-stat-sort">Sort by stat</label>
+        <select id="pokemon-stat-sort" data-stat-sort>
+          <option value="alpha">Name</option>
+          <option value="total">Total</option>
+          <option value="hp">HP</option>
+          <option value="attack">Attack</option>
+          <option value="defense">Defense</option>
+          <option value="special_attack">Sp. Atk</option>
+          <option value="special_defense">Sp. Def</option>
+          <option value="speed">Speed</option>
+        </select>
+
+        <label for="pokemon-stat-direction">Stat direction</label>
+        <select id="pokemon-stat-direction" data-stat-direction>
+          <option value="desc">Highest first</option>
+          <option value="asc">Lowest first</option>
+        </select>
+
+        <label for="pokemon-type-primary">Type</label>
+        <select id="pokemon-type-primary" data-type-filter>
+          <option value="all">Any type</option>
+          {{ range slice "normal" "fire" "water" "electric" "grass" "ice" "fighting" "poison" "ground" "flying" "psychic" "bug" "rock" "ghost" "dragon" "dark" "steel" "fairy" }}
+            <option value="{{ . }}">{{ title . }}</option>
+          {{ end }}
+        </select>
+
+        <label for="pokemon-type-secondary">Second type</label>
+        <select id="pokemon-type-secondary" data-type-filter-secondary>
+          <option value="all">No second filter</option>
+          {{ range slice "normal" "fire" "water" "electric" "grass" "ice" "fighting" "poison" "ground" "flying" "psychic" "bug" "rock" "ghost" "dragon" "dark" "steel" "fairy" }}
+            <option value="{{ . }}">{{ title . }}</option>
+          {{ end }}
+        </select>
+      {{ end }}
+
+      {{ if eq $sectionKey "moves" }}
+        <label for="move-type-filter">Type</label>
+        <select id="move-type-filter" data-move-type-filter>
+          <option value="all">Any type</option>
+          {{ range slice "normal" "fire" "water" "electric" "grass" "ice" "fighting" "poison" "ground" "flying" "psychic" "bug" "rock" "ghost" "dragon" "dark" "steel" "fairy" }}
+            <option value="{{ . }}">{{ title . }}</option>
+          {{ end }}
+        </select>
+
+        <label for="move-class-filter">Damage class</label>
+        <select id="move-class-filter" data-move-class-filter>
+          <option value="all">Any class</option>
+          <option value="physical">Physical</option>
+          <option value="special">Special</option>
+          <option value="status">Status</option>
+        </select>
+
+        <label for="move-sort">Move sort</label>
+        <select id="move-sort" data-move-sort>
+          <option value="alpha">Name</option>
+          <option value="power-desc">Power, highest first</option>
+          <option value="power-asc">Power, lowest first</option>
+          <option value="priority-desc">Priority, highest first</option>
+          <option value="priority-asc">Priority, lowest first</option>
+        </select>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="directory-grid" data-directory-list>
+    {{ range $entries }}
+      <a
+        class="directory-card"
+        href="{{ .url | relURL }}"
+        data-name="{{ lower .display_name }}"
+        data-regulations="{{ delimit (.regulations | default slice) "," }}"
+        data-types="{{ delimit (.types | default slice) "," }}"
+        data-stat-total="{{ index (.stats | default dict) "total" | default 0 }}"
+        data-stat-hp="{{ index (.stats | default dict) "hp" | default 0 }}"
+        data-stat-attack="{{ index (.stats | default dict) "attack" | default 0 }}"
+        data-stat-defense="{{ index (.stats | default dict) "defense" | default 0 }}"
+        data-stat-special_attack="{{ index (.stats | default dict) "special_attack" | default 0 }}"
+        data-stat-special_defense="{{ index (.stats | default dict) "special_defense" | default 0 }}"
+        data-stat-speed="{{ index (.stats | default dict) "speed" | default 0 }}"
+        data-move-type="{{ .type | default "" }}"
+        data-damage-class="{{ .damage_class | default "" }}"
+        data-power="{{ .power | default 0 }}"
+        data-priority="{{ .priority | default 0 }}"
+      >
+        <div class="directory-image-slot">
+          {{ $image := .image | default .primary_image }}
+          {{ with $image }}<img src="{{ . | relURL }}" alt="" loading="lazy">{{ end }}
+        </div>
+        <div class="directory-card-main">
+          <span>{{ .display_name }}</span>
+          {{ with .summary }}<small>{{ . }}</small>{{ end }}
+          {{ with .types }}
+            <div class="mini-pill-row">
+              {{ range . }}<b>{{ title . }}</b>{{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </a>
+    {{ else }}
+      <div class="empty-state">
+        <strong>No generated entries yet.</strong>
+        <span>Run the content builder when the data extraction script is ready.</span>
+      </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

@@ -1,0 +1,20 @@
+{
+  "slug": "mirror-armor",
+  "display_name": "Mirror Armor",
+  "description": "reflects any stat-lowering effects.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Corviknight",
+      "url": "pokemon/corviknight/",
+      "percent": 95.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "light-metal",
+  "display_name": "Light Metal",
+  "description": "halves the pokémon's weight.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Scizor",
+      "url": "pokemon/scizor/",
+      "percent": 0.0
+    }
+  ]
+}

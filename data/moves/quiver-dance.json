@@ -1,0 +1,25 @@
+{
+  "slug": "quiver-dance",
+  "display_name": "Quiver Dance",
+  "description": "Boosts the user's Sp. Atk Sp. Def and Speed stats by 1 stage.",
+  "type": "bug",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Volcarona",
+      "url": "pokemon/volcarona/",
+      "percent": 27.2
+    },
+    {
+      "display_name": "Vivillon",
+      "url": "pokemon/vivillon/",
+      "percent": 0.1
+    }
+  ]
+}

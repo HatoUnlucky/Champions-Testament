@@ -1,0 +1,20 @@
+{
+  "slug": "spirit-shackle",
+  "display_name": "Spirit Shackle",
+  "description": "Gives the target the Can't Escape status.",
+  "type": "ghost",
+  "power": 90.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Decidueye",
+      "url": "pokemon/decidueye/",
+      "percent": 66.5
+    }
+  ]
+}

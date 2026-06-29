@@ -1,0 +1,20 @@
+{
+  "slug": "aftermath",
+  "display_name": "Aftermath",
+  "description": "damages the attacker for 1/4 its max hp when knocked out by a contact move.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Garbodor",
+      "url": "pokemon/garbodor/",
+      "percent": 0.5
+    }
+  ]
+}

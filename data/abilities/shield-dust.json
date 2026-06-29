@@ -1,0 +1,20 @@
+{
+  "slug": "shield-dust",
+  "display_name": "Shield Dust",
+  "description": "protects against incoming moves' extra effects.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Vivillon",
+      "url": "pokemon/vivillon/",
+      "percent": 1.8
+    }
+  ]
+}

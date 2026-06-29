@@ -1,0 +1,20 @@
+{
+  "slug": "jet-punch",
+  "display_name": "Jet Punch",
+  "description": "The user summons a torrent around its fist and punches at blinding speed. This move always goes first.",
+  "type": "water",
+  "power": 60.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Palafin",
+      "url": "pokemon/palafin/",
+      "percent": 96.7
+    }
+  ]
+}

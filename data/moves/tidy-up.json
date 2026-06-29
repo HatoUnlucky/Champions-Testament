@@ -1,0 +1,20 @@
+{
+  "slug": "tidy-up",
+  "display_name": "Tidy Up",
+  "description": "Removes the Sticky Web Stealth Rock Substitute Spikes and Toxic Spikes statuses from the entire field. Boosts the user's Attack and Speed stats by 1 stage.",
+  "type": "normal",
+  "power": 0.0,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Maushold",
+      "url": "pokemon/maushold/",
+      "percent": 0.2
+    }
+  ]
+}

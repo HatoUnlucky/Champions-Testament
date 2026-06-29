@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ block "title" . }}{{ .Title }} | {{ site.Title }}{{ end }}</title>
+  {{ $css := resources.Get "css/site.css" | minify | fingerprint }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-title" href="{{ site.Home.RelPermalink }}">Champions Testament</a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="{{ "pokemon/" | relURL }}">Pokemon</a>
+      <a href="{{ "moves/" | relURL }}">Moves</a>
+      <a href="{{ "items/" | relURL }}">Items</a>
+      <a href="{{ "abilities/" | relURL }}">Abilities</a>
+      <a href="{{ "turn-simulator/" | relURL }}">Turn Simulator</a>
+    </nav>
+  </header>
+
+  <main>
+    {{ block "main" . }}{{ end }}
+  </main>
+
+  {{ $js := resources.Get "js/site.js" | minify | fingerprint }}
+  <script src="{{ $js.RelPermalink }}"></script>
+</body>
+</html>

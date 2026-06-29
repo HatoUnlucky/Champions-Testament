@@ -1,0 +1,20 @@
+{
+  "slug": "motor-drive",
+  "display_name": "Motor Drive",
+  "description": "absorbs electric moves, raising speed one stage.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Emolga",
+      "url": "pokemon/emolga/",
+      "percent": 72.7
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "spicy-spray",
+  "display_name": "Spicy Spray",
+  "description": "when the pokémon takes damage from a move, it burns the attacker.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Scovillain",
+      "url": "pokemon/mega-scovillain/",
+      "percent": 100.0
+    }
+  ]
+}

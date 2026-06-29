@@ -1,0 +1,25 @@
+{
+  "slug": "illusion",
+  "display_name": "Illusion",
+  "description": "takes the appearance of the last conscious party pokémon upon being sent out until hit by a damaging move.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hisuian Zoroark",
+      "url": "pokemon/hisuian-zoroark/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Zoroark",
+      "url": "pokemon/zoroark/",
+      "percent": 100.0
+    }
+  ]
+}

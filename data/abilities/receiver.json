@@ -1,0 +1,20 @@
+{
+  "slug": "receiver",
+  "display_name": "Receiver",
+  "description": "when an ally faints, this pokémon gains its ability.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Passimian",
+      "url": "pokemon/passimian/",
+      "percent": 28.6
+    }
+  ]
+}

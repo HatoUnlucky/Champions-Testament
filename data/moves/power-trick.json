@@ -1,0 +1,35 @@
+{
+  "slug": "power-trick",
+  "display_name": "Power Trick",
+  "description": "The user gains the Atk/Def Swapped status.",
+  "type": "psychic",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Forretress",
+      "url": "pokemon/forretress/",
+      "percent": 1.4
+    },
+    {
+      "display_name": "Aegislash",
+      "url": "pokemon/aegislash/",
+      "percent": null
+    },
+    {
+      "display_name": "Medicham",
+      "url": "pokemon/medicham/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Medicham",
+      "url": "pokemon/mega-medicham/",
+      "percent": null
+    }
+  ]
+}

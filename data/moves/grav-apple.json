@@ -1,0 +1,20 @@
+{
+  "slug": "grav-apple",
+  "display_name": "Grav Apple",
+  "description": "Lowers the target's Defense stat by 1 stage. This move's power is boosted by 50% when the Gravity status is active.",
+  "type": "grass",
+  "power": 90.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Flapple",
+      "url": "pokemon/flapple/",
+      "percent": 99.7
+    }
+  ]
+}

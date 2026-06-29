@@ -1,0 +1,20 @@
+{
+  "slug": "imposter",
+  "display_name": "Imposter",
+  "description": "transforms upon entering battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Ditto",
+      "url": "pokemon/ditto/",
+      "percent": 92.9
+    }
+  ]
+}

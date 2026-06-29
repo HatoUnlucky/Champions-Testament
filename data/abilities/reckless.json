@@ -1,0 +1,25 @@
+{
+  "slug": "reckless",
+  "display_name": "Reckless",
+  "description": "strengthens recoil moves to 1.2× their power.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Emboar",
+      "url": "pokemon/emboar/",
+      "percent": 96.6
+    },
+    {
+      "display_name": "Rhyperior",
+      "url": "pokemon/rhyperior/",
+      "percent": 0.3
+    }
+  ]
+}

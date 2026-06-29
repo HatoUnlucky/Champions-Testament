@@ -1,0 +1,20 @@
+{
+  "slug": "hustle",
+  "display_name": "Hustle",
+  "description": "strengthens physical moves to inflict 1.5× damage, but decreases their accuracy to 0.8×.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Flapple",
+      "url": "pokemon/flapple/",
+      "percent": 99.3
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "eerie-spell",
+  "display_name": "Eerie Spell",
+  "description": "Removes 3 PP from the move last used by the target.",
+  "type": "psychic",
+  "power": 80.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Galarian Slowking",
+      "url": "pokemon/galarian-slowking/",
+      "percent": 4.6
+    }
+  ]
+}

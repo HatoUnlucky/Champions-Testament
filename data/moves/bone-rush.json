@@ -1,0 +1,25 @@
+{
+  "slug": "bone-rush",
+  "display_name": "Bone Rush",
+  "description": "The user attacks 2 to 5 times in a row.",
+  "type": "ground",
+  "power": 30.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Lucario",
+      "url": "pokemon/mega-lucario/",
+      "percent": 1.7
+    },
+    {
+      "display_name": "Lucario",
+      "url": "pokemon/lucario/",
+      "percent": 1.2
+    }
+  ]
+}

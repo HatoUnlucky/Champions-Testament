@@ -1,0 +1,25 @@
+{
+  "slug": "clear-body",
+  "display_name": "Clear Body",
+  "description": "prevents stats from being lowered by other pokémon.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Dragapult",
+      "url": "pokemon/dragapult/",
+      "percent": 83.8
+    },
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": 16.1
+    }
+  ]
+}

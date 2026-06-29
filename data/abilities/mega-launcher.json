@@ -1,0 +1,25 @@
+{
+  "slug": "mega-launcher",
+  "display_name": "Mega Launcher",
+  "description": "strengthens aura and pulse moves to 1.5× their power.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Clawitzer",
+      "url": "pokemon/clawitzer/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Mega Blastoise",
+      "url": "pokemon/mega-blastoise/",
+      "percent": 100.0
+    }
+  ]
+}

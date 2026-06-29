@@ -1,0 +1,40 @@
+{
+  "slug": "sacred-sword",
+  "display_name": "Sacred Sword",
+  "description": "This move ignores the target's stat changes when dealing damage.",
+  "type": "fighting",
+  "power": 90.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Gallade",
+      "url": "pokemon/gallade/",
+      "percent": 97.7
+    },
+    {
+      "display_name": "Hisuian Samurott",
+      "url": "pokemon/hisuian-samurott/",
+      "percent": 82.1
+    },
+    {
+      "display_name": "Mega Gallade",
+      "url": "pokemon/mega-gallade/",
+      "percent": 59.7
+    },
+    {
+      "display_name": "Aegislash",
+      "url": "pokemon/aegislash/",
+      "percent": 28.3
+    },
+    {
+      "display_name": "Samurott",
+      "url": "pokemon/samurott/",
+      "percent": null
+    }
+  ]
+}

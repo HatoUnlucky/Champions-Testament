@@ -1,0 +1,992 @@
+{
+  "pokemon_slug": "zoroark-hisui",
+  "display_name": "Hisuian Zoroark",
+  "regulation": "ma",
+  "has_usage_data": true,
+  "usage": {
+    "percent": null,
+    "raw_count": null,
+    "source_key": "",
+    "month": ""
+  },
+  "data_months": {
+    "abilities": "2026-05",
+    "items": "2026-05",
+    "moves": "2026-05",
+    "spreads": "2026-05",
+    "teammates": "2026-05",
+    "tera_types": "2026-05"
+  },
+  "primary_image": "Images/pokemon_sprites/by_species/zoroark/zoroark-hisui/zoroark-hisui_primary_image.png",
+  "secondary_image": "",
+  "types": [
+    {
+      "name": "Normal",
+      "slug": "normal"
+    },
+    {
+      "name": "Ghost",
+      "slug": "ghost"
+    }
+  ],
+  "stats": [
+    {
+      "key": "total",
+      "label": "Total",
+      "value": 510
+    },
+    {
+      "key": "hp",
+      "label": "HP",
+      "value": 55
+    },
+    {
+      "key": "attack",
+      "label": "Atk",
+      "value": 100
+    },
+    {
+      "key": "defense",
+      "label": "Def",
+      "value": 60
+    },
+    {
+      "key": "special_attack",
+      "label": "SpAtk",
+      "value": 125
+    },
+    {
+      "key": "special_defense",
+      "label": "SpDef",
+      "value": 60
+    },
+    {
+      "key": "speed",
+      "label": "Speed",
+      "value": 110
+    }
+  ],
+  "abilities": [
+    {
+      "slug": "illusion",
+      "name": "Illusion",
+      "percent": 100.0,
+      "description": "takes the appearance of the last conscious party pokémon upon being sent out until hit by a damaging move.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "ability"
+    }
+  ],
+  "items": [
+    {
+      "slug": "choice-scarf",
+      "name": "Choice Scarf",
+      "percent": 59.3,
+      "description": "An item to be held by a Pokémon. This scarf boosts Speed, but allows the use of only one kind of move.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/choice-scarf_primary_image.png"
+    },
+    {
+      "slug": "focus-sash",
+      "name": "Focus Sash",
+      "percent": 24.2,
+      "description": "An item to be held by a Pokémon. If it has full HP, the holder will endure one potential KO attack, leaving 1 HP.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/focus-sash_primary_image.png"
+    },
+    {
+      "slug": "colbur-berry",
+      "name": "Colbur Berry",
+      "percent": 3.8,
+      "description": "A Poffin ingredient. If held by a Pokémon, it weakens a foe’s supereffective Dark-type attack.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Berry/colbur-berry_primary_image.png"
+    },
+    {
+      "slug": "poison-barb",
+      "name": "Poison Barb",
+      "percent": 3.5,
+      "description": "A hold item that raises the power of POISON-type moves.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/poison-barb_primary_image.png"
+    },
+    {
+      "slug": "silk-scarf",
+      "name": "Silk Scarf",
+      "percent": 2.8,
+      "description": "A hold item that raises the power of NORMAL-type moves.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/silk-scarf_primary_image.png"
+    },
+    {
+      "slug": "sitrus-berry",
+      "name": "Sitrus Berry",
+      "percent": 2.3,
+      "description": "A hold item that restores 30 HP in battle.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Berry/sitrus-berry_primary_image.png"
+    },
+    {
+      "slug": "spell-tag",
+      "name": "Spell Tag",
+      "percent": 2.3,
+      "description": "A hold item that raises the power of GHOST-type moves.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/spell-tag_primary_image.png"
+    },
+    {
+      "slug": "bright-powder",
+      "name": "Bright Powder",
+      "percent": 0.6,
+      "description": "A hold item that casts a glare to reduce accuracy.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/bright-powder_primary_image.png"
+    },
+    {
+      "slug": "quick-claw",
+      "name": "Quick Claw",
+      "percent": 0.3,
+      "description": "A hold item that occasionally allows the first strike.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/quick-claw_primary_image.png"
+    },
+    {
+      "slug": "kings-rock",
+      "name": "King’s Rock",
+      "percent": 0.1,
+      "description": "A hold item that may cause flinching when the foe is hit.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/held-items/kings-rock_primary_image.png"
+    },
+    {
+      "slug": "mental-herb",
+      "name": "Mental Herb",
+      "percent": 0.1,
+      "description": "A hold item that snaps POKéMON out of infatuation.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/mental-herb_primary_image.png"
+    },
+    {
+      "slug": "never-melt-ice",
+      "name": "Never-Melt Ice",
+      "percent": 0.1,
+      "description": "A hold item that raises the power of ICE-type moves.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Held Item/never-melt-ice_primary_image.png"
+    }
+  ],
+  "spreads": [
+    {
+      "nature": "Modest",
+      "spread": "2/0/0/32/0/32",
+      "percent": 36.6
+    },
+    {
+      "nature": "Timid",
+      "spread": "2/0/0/32/0/32",
+      "percent": 22.1
+    },
+    {
+      "nature": "Timid",
+      "spread": "0/0/0/32/2/32",
+      "percent": 7.9
+    },
+    {
+      "nature": "Modest",
+      "spread": "1/0/1/32/0/32",
+      "percent": 5.9
+    },
+    {
+      "nature": "Modest",
+      "spread": "0/0/0/32/2/32",
+      "percent": 3.5
+    },
+    {
+      "nature": "Modest",
+      "spread": "1/0/0/32/1/32",
+      "percent": 3.0
+    }
+  ],
+  "tera_types": [],
+  "moves": [
+    {
+      "slug": "shadow-ball",
+      "name": "Shadow Ball",
+      "description": "Has a 20% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "ghost",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 60.0
+    },
+    {
+      "slug": "psychic",
+      "name": "Psychic",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "psychic",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 52.4
+    },
+    {
+      "slug": "icy-wind",
+      "name": "Icy Wind",
+      "description": "Lowers targets' Speed stats by 1 stage.",
+      "type": "ice",
+      "power": 55.0,
+      "damage_class": "special",
+      "percent": 51.9
+    },
+    {
+      "slug": "hyper-voice",
+      "name": "Hyper Voice",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "normal",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 37.6
+    },
+    {
+      "slug": "sludge-bomb",
+      "name": "Sludge Bomb",
+      "description": "Has a 30% chance of poisoning the target.",
+      "type": "poison",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 30.4
+    },
+    {
+      "slug": "focus-blast",
+      "name": "Focus Blast",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "fighting",
+      "power": 120.0,
+      "damage_class": "special",
+      "percent": 29.0
+    },
+    {
+      "slug": "bitter-malice",
+      "name": "Bitter Malice",
+      "description": "Lowers the target's Attack stat by 1 stage.",
+      "type": "ghost",
+      "power": 75.0,
+      "damage_class": "special",
+      "percent": 28.4
+    },
+    {
+      "slug": "protect",
+      "name": "Protect",
+      "description": "The user protects itself from incoming moves for the turn. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 22.1
+    },
+    {
+      "slug": "taunt",
+      "name": "Taunt",
+      "description": "Gives the target the Taunted status.",
+      "type": "dark",
+      "power": null,
+      "damage_class": "status",
+      "percent": 14.0
+    },
+    {
+      "slug": "snarl",
+      "name": "Snarl",
+      "description": "Lowers targets' Sp. Atk stats by 1 stage.",
+      "type": "dark",
+      "power": 55.0,
+      "damage_class": "special",
+      "percent": 13.4
+    },
+    {
+      "slug": "will-o-wisp",
+      "name": "Will-O-Wisp",
+      "description": "Burns the target.",
+      "type": "fire",
+      "power": null,
+      "damage_class": "status",
+      "percent": 11.5
+    },
+    {
+      "slug": "trick",
+      "name": "Trick",
+      "description": "The user and the target swap their held items.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 10.5
+    },
+    {
+      "slug": "flamethrower",
+      "name": "Flamethrower",
+      "description": "Has a 10% chance of burning the target.",
+      "type": "fire",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 8.4
+    },
+    {
+      "slug": "round",
+      "name": "Round",
+      "description": "If multiple Pokémon use this move in the same turn the second user onward will act immediately after the first and the power of the second Round onward will be doubled.",
+      "type": "normal",
+      "power": 60.0,
+      "damage_class": "special",
+      "percent": 7.7
+    },
+    {
+      "slug": "nasty-plot",
+      "name": "Nasty Plot",
+      "description": "Boosts the user's Sp. Atk stat by 2 stages.",
+      "type": "dark",
+      "power": null,
+      "damage_class": "status",
+      "percent": 4.3
+    },
+    {
+      "slug": "fake-tears",
+      "name": "Fake Tears",
+      "description": "Lowers the target's Sp. Def stat by 2 stages.",
+      "type": "dark",
+      "power": null,
+      "damage_class": "status",
+      "percent": 2.3
+    },
+    {
+      "slug": "hyper-beam",
+      "name": "Hyper Beam",
+      "description": "The user gains the Recharging status on the turn after this move is used.",
+      "type": "normal",
+      "power": 150.0,
+      "damage_class": "special",
+      "percent": 2.2
+    },
+    {
+      "slug": "foul-play",
+      "name": "Foul Play",
+      "description": "The damage dealt by this move is calculated using the target's Attack stat instead of the user's Attack stat.",
+      "type": "dark",
+      "power": 95.0,
+      "damage_class": "physical",
+      "percent": 2.1
+    },
+    {
+      "slug": "u-turn",
+      "name": "U-turn",
+      "description": "After attacking the user switches out of battle to be replaced by another party Pokémon.",
+      "type": "bug",
+      "power": 70.0,
+      "damage_class": "physical",
+      "percent": 1.7
+    },
+    {
+      "slug": "dark-pulse",
+      "name": "Dark Pulse",
+      "description": "Has a 20% chance of making the target flinch.",
+      "type": "dark",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 1.6
+    },
+    {
+      "slug": "extrasensory",
+      "name": "Extrasensory",
+      "description": "Has a 10% chance of making the target flinch.",
+      "type": "psychic",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 1.4
+    },
+    {
+      "slug": "memento",
+      "name": "Memento",
+      "description": "Lowers the target's Attack and Sp. Atk stats by 2 stages. The user faints upon using this move.",
+      "type": "dark",
+      "power": null,
+      "damage_class": "status",
+      "percent": 1.3
+    },
+    {
+      "slug": "shadow-sneak",
+      "name": "Shadow Sneak",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "ghost",
+      "power": 40.0,
+      "damage_class": "physical",
+      "percent": 1.1
+    },
+    {
+      "slug": "poltergeist",
+      "name": "Poltergeist",
+      "description": "This move fails if the target isn't holding an item.",
+      "type": "ghost",
+      "power": 110.0,
+      "damage_class": "physical",
+      "percent": 0.9
+    },
+    {
+      "slug": "detect",
+      "name": "Detect",
+      "description": "The user protects itself from incoming moves for the turn. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "fighting",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.8
+    },
+    {
+      "slug": "rain-dance",
+      "name": "Rain Dance",
+      "description": "Summons rain for 5 turns.",
+      "type": "water",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.5
+    },
+    {
+      "slug": "hex",
+      "name": "Hex",
+      "description": "This move's power is doubled if the target has a status condition.",
+      "type": "ghost",
+      "power": 65.0,
+      "damage_class": "special",
+      "percent": 0.4
+    },
+    {
+      "slug": "knock-off",
+      "name": "Knock Off",
+      "description": "This move's power is boosted by 50% if the target is holding an item. Causes the target to lose its held item.",
+      "type": "dark",
+      "power": 65.0,
+      "damage_class": "physical",
+      "percent": 0.4
+    },
+    {
+      "slug": "snowscape",
+      "name": "Snowscape",
+      "description": "Summons snow for 5 turns.",
+      "type": "ice",
+      "power": 0.0,
+      "damage_class": "status",
+      "percent": 0.3
+    },
+    {
+      "slug": "roar",
+      "name": "Roar",
+      "description": "If there are other Pokémon in the target's party that can switch into battle the target is forced to switch out of battle and is replaced by one of those Pokémon at random.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.2
+    },
+    {
+      "slug": "aerial-ace",
+      "name": "Aerial Ace",
+      "description": "This move never misses.",
+      "type": "flying",
+      "power": 60.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "agility",
+      "name": "Agility",
+      "description": "Boosts the user's Speed stat by 2 stages.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "assurance",
+      "name": "Assurance",
+      "description": "This move's power is doubled if the target has already taken damage during the turn this move is used.",
+      "type": "dark",
+      "power": 60.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "body-slam",
+      "name": "Body Slam",
+      "description": "Has a 30% chance of paralyzing the target. If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
+      "type": "normal",
+      "power": 85.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "bounce",
+      "name": "Bounce",
+      "description": "The user gains the Sky-High status on the turn this move is used then attacks on the following turn. This move has a 30% chance of paralyzing the target.",
+      "type": "flying",
+      "power": 85.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "brick-break",
+      "name": "Brick Break",
+      "description": "Removes the Light Screen Reflect and Aurora Veil statuses on the target's side.",
+      "type": "fighting",
+      "power": 75.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "burning-jealousy",
+      "name": "Burning Jealousy",
+      "description": "Burns targets if their stats were boosted during the turn this move is used.",
+      "type": "fire",
+      "power": 70.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "calm-mind",
+      "name": "Calm Mind",
+      "description": "Boosts the user's Sp. Atk and Sp. Def stats by 1 stage.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "comeuppance",
+      "name": "Comeuppance",
+      "description": "The user retaliates to deal 150% of the damage it took from an opponent's move during the turn this move is used.",
+      "type": "dark",
+      "power": 1.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "confuse-ray",
+      "name": "Confuse Ray",
+      "description": "Confuses the target.",
+      "type": "ghost",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "crunch",
+      "name": "Crunch",
+      "description": "Has a 20% chance of lowering the target's Defense stat by 1 stage.",
+      "type": "dark",
+      "power": 80.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "curse",
+      "name": "Curse",
+      "description": "Ghost-type: The user loses 1/2 of its max HP to give the target the Cursed status. Non-Ghost-type: Lowers the user's Speed stat by 1 stage and boosts its Attack and Defense stats by 1 stage.",
+      "type": "ghost",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "dig",
+      "name": "Dig",
+      "description": "The user gains the Underground status on the turn this move is used then attacks on the following turn.",
+      "type": "ground",
+      "power": 80.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "endure",
+      "name": "Endure",
+      "description": "During the turn this move is used if the user takes damage from a move that would knock it out it will endure the hit with 1 HP. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "facade",
+      "name": "Facade",
+      "description": "This move's power is doubled if the user is poisoned badly poisoned burned or paralyzed. Although this move is a physical move the damage it deals is not halved when the user is burned.",
+      "type": "normal",
+      "power": 70.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "fling",
+      "name": "Fling",
+      "description": "This move's power and effects depend on the user's held item. The held item is lost after this move is used.",
+      "type": "dark",
+      "power": null,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "focus-punch",
+      "name": "Focus Punch",
+      "description": "This move fails if the user has already taken damage from a move in the same turn.",
+      "type": "fighting",
+      "power": 150.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "giga-impact",
+      "name": "Giga Impact",
+      "description": "The user gains the Recharging status on the turn after this move is used.",
+      "type": "normal",
+      "power": 150.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "grass-knot",
+      "name": "Grass Knot",
+      "description": "The heavier the target the greater this move's power (ranging between 20 and 120).",
+      "type": "grass",
+      "power": null,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "helping-hand",
+      "name": "Helping Hand",
+      "description": "Boosts the power of an ally's move by 50% during the turn this move is used.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "imprison",
+      "name": "Imprison",
+      "description": "The user gains the Sealing Off status.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "lash-out",
+      "name": "Lash Out",
+      "description": "This move's power is doubled if the user's stats were lowered during the turn this move is used.",
+      "type": "dark",
+      "power": 75.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "low-kick",
+      "name": "Low Kick",
+      "description": "The heavier the target the greater this move's power (ranging between 20 and 120).",
+      "type": "fighting",
+      "power": null,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "low-sweep",
+      "name": "Low Sweep",
+      "description": "Lowers the target's Speed stat by 1 stage.",
+      "type": "fighting",
+      "power": 65.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "mega-kick",
+      "name": "Mega Kick",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "normal",
+      "power": 120.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "night-shade",
+      "name": "Night Shade",
+      "description": "Deals 50 HP of damage.",
+      "type": "ghost",
+      "power": null,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "pain-split",
+      "name": "Pain Split",
+      "description": "The user adds its remaining HP to the target's remaining HP then splits the total in half for them to share.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "payback",
+      "name": "Payback",
+      "description": "This move's power is doubled if the user attacks after the target.",
+      "type": "dark",
+      "power": 50.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "phantom-force",
+      "name": "Phantom Force",
+      "description": "The user gains the Concealed status on the turn this move is used then attacks on the following turn. This move can hit a target using a move such as Protect or Detect and removes the effects of those moves.",
+      "type": "ghost",
+      "power": 90.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "psych-up",
+      "name": "Psych Up",
+      "description": "The user copies the target's stat changes.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "rest",
+      "name": "Rest",
+      "description": "Fully restores the user's HP and cures any status conditions. The user falls asleep for 2 turns. This move fails if the user's HP is full.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "scary-face",
+      "name": "Scary Face",
+      "description": "Lowers the target's Speed stat by 2 stages.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "shadow-claw",
+      "name": "Shadow Claw",
+      "description": "This move has a 1-stage Critical-Hit Ratio Boost.",
+      "type": "ghost",
+      "power": 70.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "skitter-smack",
+      "name": "Skitter Smack",
+      "description": "Lowers the target's Sp. Atk stat by 1 stage.",
+      "type": "bug",
+      "power": 70.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "sleep-talk",
+      "name": "Sleep Talk",
+      "description": "Can be used only if the user is asleep. The user uses one of the other moves it knows at random.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "snore",
+      "name": "Snore",
+      "description": "Can be used only if the user is asleep. Has a 30% chance of making the target flinch.",
+      "type": "normal",
+      "power": 50.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "spite",
+      "name": "Spite",
+      "description": "Removes 4 PP from the move last used by the target.",
+      "type": "ghost",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "substitute",
+      "name": "Substitute",
+      "description": "The user loses 1/4 of its max HP to create a substitute. The substitute will be hit by moves instead of the user and it will vanish when it takes damage equal to 1/4 of the user's max HP.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "swords-dance",
+      "name": "Swords Dance",
+      "description": "Boosts the user's Attack stat by 2 stages.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "thief",
+      "name": "Thief",
+      "description": "If the user is not already holding an item it steals the target's held item.",
+      "type": "dark",
+      "power": 60.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "throat-chop",
+      "name": "Throat Chop",
+      "description": "Gives the target the Throat Chopped status.",
+      "type": "dark",
+      "power": 80.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "torment",
+      "name": "Torment",
+      "description": "Gives the target the Unable to Repeat status.",
+      "type": "dark",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "uproar",
+      "name": "Uproar",
+      "description": "The user gains the Uproar status.",
+      "type": "normal",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": null
+    }
+  ],
+  "teammates": [
+    {
+      "slug": "basculegion",
+      "display_name": "Basculegion",
+      "percent": 33.1,
+      "image": "",
+      "url": "pokemon/basculegion/"
+    },
+    {
+      "slug": "archaludon",
+      "display_name": "Archaludon",
+      "percent": 29.9,
+      "image": "Images/pokemon_sprites/by_species/archaludon/archaludon/archaludon_primary_image.png",
+      "url": "pokemon/archaludon/"
+    },
+    {
+      "slug": "pelipper",
+      "display_name": "Pelipper",
+      "percent": 29.0,
+      "image": "Images/pokemon_sprites/by_species/pelipper/pelipper/pelipper_primary_image.png",
+      "url": "pokemon/pelipper/"
+    },
+    {
+      "slug": "blastoise-mega",
+      "display_name": "Mega Blastoise",
+      "percent": 28.6,
+      "image": "Images/pokemon_sprites/by_species/blastoise/blastoise-mega/blastoise-mega_primary_image.png",
+      "url": "pokemon/mega-blastoise/"
+    },
+    {
+      "slug": "gallade",
+      "display_name": "Gallade",
+      "percent": 25.6,
+      "image": "Images/pokemon_sprites/by_species/gallade/gallade/gallade_primary_image.png",
+      "url": "pokemon/gallade/"
+    },
+    {
+      "slug": "sneasler",
+      "display_name": "Sneasler",
+      "percent": 21.6,
+      "image": "Images/pokemon_sprites/by_species/sneasler/sneasler/sneasler_primary_image.png",
+      "url": "pokemon/sneasler/"
+    },
+    {
+      "slug": "garchomp",
+      "display_name": "Garchomp",
+      "percent": 18.7,
+      "image": "Images/pokemon_sprites/by_species/garchomp/garchomp/garchomp_primary_image.png",
+      "url": "pokemon/garchomp/"
+    },
+    {
+      "slug": "kingambit",
+      "display_name": "Kingambit",
+      "percent": 16.8,
+      "image": "Images/pokemon_sprites/by_species/kingambit/kingambit/kingambit_primary_image.png",
+      "url": "pokemon/kingambit/"
+    },
+    {
+      "slug": "whimsicott",
+      "display_name": "Whimsicott",
+      "percent": 16.2,
+      "image": "Images/pokemon_sprites/by_species/whimsicott/whimsicott/whimsicott_primary_image.png",
+      "url": "pokemon/whimsicott/"
+    },
+    {
+      "slug": "incineroar",
+      "display_name": "Incineroar",
+      "percent": 12.8,
+      "image": "Images/pokemon_sprites/by_species/incineroar/incineroar/incineroar_primary_image.png",
+      "url": "pokemon/incineroar/"
+    }
+  ]
+}

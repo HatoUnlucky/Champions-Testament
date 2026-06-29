@@ -1,0 +1,20 @@
+{
+  "slug": "stall",
+  "display_name": "Stall",
+  "description": "makes the pokémon move last within its move's priority bracket.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Sableye",
+      "url": "pokemon/sableye/",
+      "percent": 0.0
+    }
+  ]
+}

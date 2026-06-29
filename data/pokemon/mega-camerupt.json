@@ -1,0 +1,869 @@
+{
+  "pokemon_slug": "camerupt-mega",
+  "display_name": "Mega Camerupt",
+  "regulation": "ma",
+  "has_usage_data": true,
+  "usage": {
+    "percent": null,
+    "raw_count": null,
+    "source_key": "",
+    "month": ""
+  },
+  "data_months": {
+    "abilities": "2026-05",
+    "items": "2026-05",
+    "moves": "2026-05",
+    "spreads": "2026-05",
+    "teammates": "2026-05",
+    "tera_types": "2026-05"
+  },
+  "primary_image": "Images/pokemon_sprites/by_species/camerupt/camerupt-mega/camerupt-mega_primary_image.png",
+  "secondary_image": "",
+  "types": [
+    {
+      "name": "Fire",
+      "slug": "fire"
+    },
+    {
+      "name": "Ground",
+      "slug": "ground"
+    }
+  ],
+  "stats": [
+    {
+      "key": "total",
+      "label": "Total",
+      "value": 560
+    },
+    {
+      "key": "hp",
+      "label": "HP",
+      "value": 70
+    },
+    {
+      "key": "attack",
+      "label": "Atk",
+      "value": 120
+    },
+    {
+      "key": "defense",
+      "label": "Def",
+      "value": 100
+    },
+    {
+      "key": "special_attack",
+      "label": "SpAtk",
+      "value": 145
+    },
+    {
+      "key": "special_defense",
+      "label": "SpDef",
+      "value": 105
+    },
+    {
+      "key": "speed",
+      "label": "Speed",
+      "value": 20
+    }
+  ],
+  "abilities": [
+    {
+      "slug": "sheer-force",
+      "name": "Sheer Force",
+      "percent": 100.0,
+      "description": "strengthens moves with extra effects to 1.3× their power, but prevents their extra effects.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "ability"
+    }
+  ],
+  "items": [
+    {
+      "slug": "cameruptite",
+      "name": "Cameruptite",
+      "percent": 100.0,
+      "description": "One of a variety of mysterious Mega Stones. Have Camerupt hold it, and this stone will enable it to Mega Evolve during battle.",
+      "type": "",
+      "power": null,
+      "damage_class": "",
+      "priority": 0,
+      "kind": "item",
+      "image": "Images/item_images/primary_images_by_category/Mega Evolution/cameruptite_primary_image.png"
+    }
+  ],
+  "spreads": [
+    {
+      "nature": "Quiet",
+      "spread": "32/0/2/32/0/0",
+      "percent": 52.2
+    },
+    {
+      "nature": "Quiet",
+      "spread": "32/0/0/32/2/0",
+      "percent": 16.9
+    },
+    {
+      "nature": "Modest",
+      "spread": "32/0/2/32/0/0",
+      "percent": 6.0
+    },
+    {
+      "nature": "Quiet",
+      "spread": "32/0/1/32/1/0",
+      "percent": 5.1
+    },
+    {
+      "nature": "Modest",
+      "spread": "32/0/4/28/2/0",
+      "percent": 2.5
+    },
+    {
+      "nature": "Quiet",
+      "spread": "30/0/4/32/0/0",
+      "percent": 2.1
+    }
+  ],
+  "tera_types": [],
+  "moves": [
+    {
+      "slug": "earth-power",
+      "name": "Earth Power",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "ground",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 99.4
+    },
+    {
+      "slug": "protect",
+      "name": "Protect",
+      "description": "The user protects itself from incoming moves for the turn. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 95.0
+    },
+    {
+      "slug": "heat-wave",
+      "name": "Heat Wave",
+      "description": "Has a 10% chance of burning targets.",
+      "type": "fire",
+      "power": 95.0,
+      "damage_class": "special",
+      "percent": 88.3
+    },
+    {
+      "slug": "ancient-power",
+      "name": "Ancient Power",
+      "description": "Has a 10% chance of boosting the user's Attack Defense Sp. Atk Sp. Def and Speed stats by 1 stage.",
+      "type": "rock",
+      "power": 60.0,
+      "damage_class": "special",
+      "percent": 68.6
+    },
+    {
+      "slug": "eruption",
+      "name": "Eruption",
+      "description": "The less HP the user has left the lower this move's power (ranging between 1 and 150).",
+      "type": "fire",
+      "power": 150.0,
+      "damage_class": "special",
+      "percent": 35.0
+    },
+    {
+      "slug": "flamethrower",
+      "name": "Flamethrower",
+      "description": "Has a 10% chance of burning the target.",
+      "type": "fire",
+      "power": 90.0,
+      "damage_class": "special",
+      "percent": 3.3
+    },
+    {
+      "slug": "rock-slide",
+      "name": "Rock Slide",
+      "description": "Has a 30% chance of making targets flinch.",
+      "type": "rock",
+      "power": 75.0,
+      "damage_class": "physical",
+      "percent": 2.9
+    },
+    {
+      "slug": "fire-blast",
+      "name": "Fire Blast",
+      "description": "Has a 10% chance of burning the target.",
+      "type": "fire",
+      "power": 110.0,
+      "damage_class": "special",
+      "percent": 1.9
+    },
+    {
+      "slug": "flash-cannon",
+      "name": "Flash Cannon",
+      "description": "Has a 10% chance of lowering the target's Sp. Def stat by 1 stage.",
+      "type": "steel",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 1.5
+    },
+    {
+      "slug": "solar-beam",
+      "name": "Solar Beam",
+      "description": "The user gains the Charging status on the turn this move is used then attacks on the following turn. In harsh sunlight the user does not gain the Charging status and can attack immediately. This move's power is halved in any other weather condition.",
+      "type": "grass",
+      "power": 120.0,
+      "damage_class": "special",
+      "percent": 1.5
+    },
+    {
+      "slug": "overheat",
+      "name": "Overheat",
+      "description": "Lowers the user's Sp. Atk stat by 2 stages.",
+      "type": "fire",
+      "power": 130.0,
+      "damage_class": "special",
+      "percent": 0.5
+    },
+    {
+      "slug": "substitute",
+      "name": "Substitute",
+      "description": "The user loses 1/4 of its max HP to create a substitute. The substitute will be hit by moves instead of the user and it will vanish when it takes damage equal to 1/4 of the user's max HP.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.5
+    },
+    {
+      "slug": "lava-plume",
+      "name": "Lava Plume",
+      "description": "Has a 30% chance of burning targets.",
+      "type": "fire",
+      "power": 80.0,
+      "damage_class": "special",
+      "percent": 0.3
+    },
+    {
+      "slug": "will-o-wisp",
+      "name": "Will-O-Wisp",
+      "description": "Burns the target.",
+      "type": "fire",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.3
+    },
+    {
+      "slug": "scorching-sands",
+      "name": "Scorching Sands",
+      "description": "Has a 30% chance of burning the target. Cures the user and target of being frozen.",
+      "type": "ground",
+      "power": 70.0,
+      "damage_class": "special",
+      "percent": 0.2
+    },
+    {
+      "slug": "curse",
+      "name": "Curse",
+      "description": "Ghost-type: The user loses 1/2 of its max HP to give the target the Cursed status. Non-Ghost-type: Lowers the user's Speed stat by 1 stage and boosts its Attack and Defense stats by 1 stage.",
+      "type": "ghost",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.1
+    },
+    {
+      "slug": "earthquake",
+      "name": "Earthquake",
+      "description": "This move's power is doubled against targets that have the Underground status. When Grassy Terrain is active this move's power is halved.",
+      "type": "ground",
+      "power": 100.0,
+      "damage_class": "physical",
+      "percent": 0.1
+    },
+    {
+      "slug": "growth",
+      "name": "Growth",
+      "description": "Boosts the user's Attack and Sp. Atk stats by 1 stage. In harsh sunlight these stats will be boosted by 2 stages instead.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.1
+    },
+    {
+      "slug": "heat-crash",
+      "name": "Heat Crash",
+      "description": "The more the user outweighs the target the greater this move's power (ranging between 40 and 120). If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
+      "type": "fire",
+      "power": null,
+      "damage_class": "physical",
+      "percent": 0.1
+    },
+    {
+      "slug": "high-horsepower",
+      "name": "High Horsepower",
+      "description": "Inflicts regular damage with no additional effect.",
+      "type": "ground",
+      "power": 95.0,
+      "damage_class": "physical",
+      "percent": 0.1
+    },
+    {
+      "slug": "amnesia",
+      "name": "Amnesia",
+      "description": "Boosts the user's Sp. Def stat by 2 stages.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.0
+    },
+    {
+      "slug": "body-press",
+      "name": "Body Press",
+      "description": "The damage dealt by this move is calculated using the user's Defense stat instead of its Attack stat.",
+      "type": "fighting",
+      "power": 80.0,
+      "damage_class": "physical",
+      "percent": 0.0
+    },
+    {
+      "slug": "body-slam",
+      "name": "Body Slam",
+      "description": "Has a 30% chance of paralyzing the target. If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
+      "type": "normal",
+      "power": 85.0,
+      "damage_class": "physical",
+      "percent": 0.0
+    },
+    {
+      "slug": "burning-jealousy",
+      "name": "Burning Jealousy",
+      "description": "Burns targets if their stats were boosted during the turn this move is used.",
+      "type": "fire",
+      "power": 70.0,
+      "damage_class": "special",
+      "percent": 0.0
+    },
+    {
+      "slug": "fire-spin",
+      "name": "Fire Spin",
+      "description": "Gives the target the Bound status.",
+      "type": "fire",
+      "power": 35.0,
+      "damage_class": "special",
+      "percent": 0.0
+    },
+    {
+      "slug": "heavy-slam",
+      "name": "Heavy Slam",
+      "description": "The more the user outweighs the target the greater this move's power (ranging between 40 and 120). If the target has the Minimized status this move's power is doubled and it will be sure to hit.",
+      "type": "steel",
+      "power": null,
+      "damage_class": "physical",
+      "percent": 0.0
+    },
+    {
+      "slug": "roar",
+      "name": "Roar",
+      "description": "If there are other Pokémon in the target's party that can switch into battle the target is forced to switch out of battle and is replaced by one of those Pokémon at random.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.0
+    },
+    {
+      "slug": "stealth-rock",
+      "name": "Stealth Rock",
+      "description": "Gives the opponent's side the Stealth Rock status.",
+      "type": "rock",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.0
+    },
+    {
+      "slug": "sunny-day",
+      "name": "Sunny Day",
+      "description": "Summons harsh sunlight for 5 turns.",
+      "type": "fire",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.0
+    },
+    {
+      "slug": "yawn",
+      "name": "Yawn",
+      "description": "Makes the target drowsy. This move never misses.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": 0.0
+    },
+    {
+      "slug": "after-you",
+      "name": "After You",
+      "description": "Makes the target move immediately after the user.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "attract",
+      "name": "Attract",
+      "description": "Gives the target the Infatuated status. This move will fail against a target that is the same gender as the user or whose gender is unknown.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "bulldoze",
+      "name": "Bulldoze",
+      "description": "Lowers targets' Speed stats by 1 stage. When Grassy Terrain is active this move's power is halved.",
+      "type": "ground",
+      "power": 60.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "charm",
+      "name": "Charm",
+      "description": "Lowers the target's Attack stat by 2 stages.",
+      "type": "fairy",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "dig",
+      "name": "Dig",
+      "description": "The user gains the Underground status on the turn this move is used then attacks on the following turn.",
+      "type": "ground",
+      "power": 80.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "double-team",
+      "name": "Double Team",
+      "description": "Boosts the user's evasiveness by 1 stage.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "double-edge",
+      "name": "Double-Edge",
+      "description": "The user takes 1/3 of the damage dealt by this move.",
+      "type": "normal",
+      "power": 120.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "endeavor",
+      "name": "Endeavor",
+      "description": "Deals damage to the target equal to its remaining HP minus the user's remaining HP. This move fails if the target's HP is the same as or lower than the user's.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "endure",
+      "name": "Endure",
+      "description": "During the turn this move is used if the user takes damage from a move that would knock it out it will endure the hit with 1 HP. With each consecutive use this move's chance of success becomes 1/3 of what it was before.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "explosion",
+      "name": "Explosion",
+      "description": "The user faints upon using this move.",
+      "type": "normal",
+      "power": 250.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "facade",
+      "name": "Facade",
+      "description": "This move's power is doubled if the user is poisoned badly poisoned burned or paralyzed. Although this move is a physical move the damage it deals is not halved when the user is burned.",
+      "type": "normal",
+      "power": 70.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "fissure",
+      "name": "Fissure",
+      "description": "Knocks out the target. The accuracy of this move is fixed at 30%.",
+      "type": "ground",
+      "power": null,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "flame-charge",
+      "name": "Flame Charge",
+      "description": "Boosts the user's Speed stat by 1 stage.",
+      "type": "fire",
+      "power": 50.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "flare-blitz",
+      "name": "Flare Blitz",
+      "description": "Has a 10% chance of burning the target. Cures the user of being frozen. The user also takes 1/3 of the damage dealt by this move.",
+      "type": "fire",
+      "power": 120.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "focus-energy",
+      "name": "Focus Energy",
+      "description": "The user gains a 2-stage Critical-Hit Ratio Boost.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "giga-impact",
+      "name": "Giga Impact",
+      "description": "The user gains the Recharging status on the turn after this move is used.",
+      "type": "normal",
+      "power": 150.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "helping-hand",
+      "name": "Helping Hand",
+      "description": "Boosts the power of an ally's move by 50% during the turn this move is used.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "howl",
+      "name": "Howl",
+      "description": "Boosts the Attack stats of the user and its allies by 1 stage.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "hyper-beam",
+      "name": "Hyper Beam",
+      "description": "The user gains the Recharging status on the turn after this move is used.",
+      "type": "normal",
+      "power": 150.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "iron-head",
+      "name": "Iron Head",
+      "description": "Has a 20% chance of making the target flinch.",
+      "type": "steel",
+      "power": 80.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "lash-out",
+      "name": "Lash Out",
+      "description": "This move's power is doubled if the user's stats were lowered during the turn this move is used.",
+      "type": "dark",
+      "power": 75.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "mud-shot",
+      "name": "Mud Shot",
+      "description": "Lowers the target's Speed stat by 1 stage.",
+      "type": "ground",
+      "power": 55.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "mud-slap",
+      "name": "Mud-Slap",
+      "description": "Lowers the target's accuracy by 1 stage.",
+      "type": "ground",
+      "power": 20.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "rain-dance",
+      "name": "Rain Dance",
+      "description": "Summons rain for 5 turns.",
+      "type": "water",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "rest",
+      "name": "Rest",
+      "description": "Fully restores the user's HP and cures any status conditions. The user falls asleep for 2 turns. This move fails if the user's HP is full.",
+      "type": "psychic",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "rock-polish",
+      "name": "Rock Polish",
+      "description": "Boosts the user's Speed stat by 2 stages.",
+      "type": "rock",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "rock-tomb",
+      "name": "Rock Tomb",
+      "description": "Lowers the target's Speed stat by 1 stage.",
+      "type": "rock",
+      "power": 60.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "round",
+      "name": "Round",
+      "description": "If multiple Pokémon use this move in the same turn the second user onward will act immediately after the first and the power of the second Round onward will be doubled.",
+      "type": "normal",
+      "power": 60.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "sandstorm",
+      "name": "Sandstorm",
+      "description": "Summons a sandstorm for 5 turns.",
+      "type": "rock",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "scary-face",
+      "name": "Scary Face",
+      "description": "Lowers the target's Speed stat by 2 stages.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "self-destruct",
+      "name": "Self-Destruct",
+      "description": "The user faints upon using this move.",
+      "type": "normal",
+      "power": 200.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "sleep-talk",
+      "name": "Sleep Talk",
+      "description": "Can be used only if the user is asleep. The user uses one of the other moves it knows at random.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "smack-down",
+      "name": "Smack Down",
+      "description": "If the target is off the ground it gains the Landed status. This move can hit a target that has the Sky-High status.",
+      "type": "rock",
+      "power": 50.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "snore",
+      "name": "Snore",
+      "description": "Can be used only if the user is asleep. Has a 30% chance of making the target flinch.",
+      "type": "normal",
+      "power": 50.0,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "spit-up",
+      "name": "Spit Up",
+      "description": "The higher the user's Stockpiling level the greater this move's power (ranging between 100 and 300). This move fails unless the user has the Stockpiling status.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "special",
+      "percent": null
+    },
+    {
+      "slug": "stockpile",
+      "name": "Stockpile",
+      "description": "Boosts the user's Defense and Sp. Def stats by 1 stage. Raises the user's Stockpiling level by 1. Can be used up to 3 times.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "stomping-tantrum",
+      "name": "Stomping Tantrum",
+      "description": "This move's power is doubled if the user couldn't act or its move missed or failed on the previous turn.",
+      "type": "ground",
+      "power": 75.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "stone-edge",
+      "name": "Stone Edge",
+      "description": "This move has a 1-stage Critical-Hit Ratio Boost.",
+      "type": "rock",
+      "power": 100.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "swagger",
+      "name": "Swagger",
+      "description": "Boosts the target's Attack stat by 2 stages and confuses it.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "swallow",
+      "name": "Swallow",
+      "description": "The higher the user's Stockpiling level the more HP the user restores. Level 1 1/4 of the user's max HP is restored. Level 2 1/2 of the user's max HP is restored. Level 3 The user's HP is fully restored. This move fails unless the user has the Stockpiling status.",
+      "type": "normal",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "temper-flare",
+      "name": "Temper Flare",
+      "description": "This move's power is doubled if the user couldn't act or its move missed or failed on the previous turn.",
+      "type": "fire",
+      "power": 75.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "toxic",
+      "name": "Toxic",
+      "description": "Badly poisons the target. If the user is a Poison type this move will never miss.",
+      "type": "poison",
+      "power": null,
+      "damage_class": "status",
+      "percent": null
+    },
+    {
+      "slug": "trailblaze",
+      "name": "Trailblaze",
+      "description": "Boosts the user's Speed stat by 1 stage.",
+      "type": "grass",
+      "power": 50.0,
+      "damage_class": "physical",
+      "percent": null
+    },
+    {
+      "slug": "zen-headbutt",
+      "name": "Zen Headbutt",
+      "description": "Has a 20% chance of making the target flinch.",
+      "type": "psychic",
+      "power": 80.0,
+      "damage_class": "physical",
+      "percent": null
+    }
+  ],
+  "teammates": [
+    {
+      "slug": "farigiraf",
+      "display_name": "Farigiraf",
+      "percent": 81.0,
+      "image": "Images/pokemon_sprites/by_species/farigiraf/farigiraf/farigiraf_primary_image.png",
+      "url": "pokemon/farigiraf/"
+    },
+    {
+      "slug": "basculegion",
+      "display_name": "Basculegion",
+      "percent": 40.8,
+      "image": "",
+      "url": "pokemon/basculegion/"
+    },
+    {
+      "slug": "kingambit",
+      "display_name": "Kingambit",
+      "percent": 39.1,
+      "image": "Images/pokemon_sprites/by_species/kingambit/kingambit/kingambit_primary_image.png",
+      "url": "pokemon/kingambit/"
+    },
+    {
+      "slug": "sylveon",
+      "display_name": "Sylveon",
+      "percent": 38.5,
+      "image": "Images/pokemon_sprites/by_species/sylveon/sylveon/sylveon_primary_image.png",
+      "url": "pokemon/sylveon/"
+    },
+    {
+      "slug": "incineroar",
+      "display_name": "Incineroar",
+      "percent": 35.0,
+      "image": "Images/pokemon_sprites/by_species/incineroar/incineroar/incineroar_primary_image.png",
+      "url": "pokemon/incineroar/"
+    },
+    {
+      "slug": "vivillon",
+      "display_name": "Vivillon",
+      "percent": 28.2,
+      "image": "Images/pokemon_sprites/by_species/vivillon/vivillon-default/vivillon_primary_image.png",
+      "url": "pokemon/vivillon/"
+    },
+    {
+      "slug": "crabominable-mega",
+      "display_name": "Mega Crabominable",
+      "percent": 25.0,
+      "image": "Images/pokemon_sprites/by_species/crabominable/crabominable-mega/crabominable-mega_primary_image.png",
+      "url": "pokemon/mega-crabominable/"
+    },
+    {
+      "slug": "kangaskhan",
+      "display_name": "Kangaskhan",
+      "percent": 23.7,
+      "image": "Images/pokemon_sprites/by_species/kangaskhan/kangaskhan/kangaskhan_primary_image.png",
+      "url": "pokemon/kangaskhan/"
+    },
+    {
+      "slug": "sinistcha",
+      "display_name": "Sinistcha",
+      "percent": 16.9,
+      "image": "Images/pokemon_sprites/by_species/sinistcha/sinistcha/sinistcha_primary_image.png",
+      "url": "pokemon/sinistcha/"
+    },
+    {
+      "slug": "gallade",
+      "display_name": "Gallade",
+      "percent": 15.7,
+      "image": "Images/pokemon_sprites/by_species/gallade/gallade/gallade_primary_image.png",
+      "url": "pokemon/gallade/"
+    }
+  ]
+}

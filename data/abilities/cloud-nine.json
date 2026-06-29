@@ -1,0 +1,25 @@
+{
+  "slug": "cloud-nine",
+  "display_name": "Cloud Nine",
+  "description": "negates all effects of weather, but does not prevent the weather itself.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Altaria",
+      "url": "pokemon/altaria/",
+      "percent": 99.5
+    },
+    {
+      "display_name": "Drampa",
+      "url": "pokemon/drampa/",
+      "percent": 93.9
+    }
+  ]
+}

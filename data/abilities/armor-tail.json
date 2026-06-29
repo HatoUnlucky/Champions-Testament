@@ -1,0 +1,20 @@
+{
+  "slug": "armor-tail",
+  "display_name": "Armor Tail",
+  "description": "prevents the opponent from using any moves that have priority, such as quick attack.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Farigiraf",
+      "url": "pokemon/farigiraf/",
+      "percent": 99.3
+    }
+  ]
+}

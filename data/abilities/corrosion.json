@@ -1,0 +1,25 @@
+{
+  "slug": "corrosion",
+  "display_name": "Corrosion",
+  "description": "this pokémon can inflict poison on poison and steel pokémon.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Salazzle",
+      "url": "pokemon/salazzle/",
+      "percent": 28.3
+    },
+    {
+      "display_name": "Glimmora",
+      "url": "pokemon/glimmora/",
+      "percent": 0.2
+    }
+  ]
+}

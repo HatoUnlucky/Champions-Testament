@@ -1,0 +1,20 @@
+{
+  "slug": "toxic-thread",
+  "display_name": "Toxic Thread",
+  "description": "Lowers the target's Speed stat by 2 stages and poisons it.",
+  "type": "poison",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Ariados",
+      "url": "pokemon/ariados/",
+      "percent": 26.2
+    }
+  ]
+}

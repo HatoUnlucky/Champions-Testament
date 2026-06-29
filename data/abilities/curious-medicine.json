@@ -1,0 +1,20 @@
+{
+  "slug": "curious-medicine",
+  "display_name": "Curious Medicine",
+  "description": "resets all stat changes upon entering battlefield.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Galarian Slowking",
+      "url": "pokemon/galarian-slowking/",
+      "percent": 1.9
+    }
+  ]
+}

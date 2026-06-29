@@ -1,0 +1,35 @@
+{
+  "slug": "comeuppance",
+  "display_name": "Comeuppance",
+  "description": "The user retaliates to deal 150% of the damage it took from an opponent's move during the turn this move is used.",
+  "type": "dark",
+  "power": 1.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Pangoro",
+      "url": "pokemon/pangoro/",
+      "percent": 5.1
+    },
+    {
+      "display_name": "Houndoom",
+      "url": "pokemon/houndoom/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Hisuian Zoroark",
+      "url": "pokemon/hisuian-zoroark/",
+      "percent": null
+    },
+    {
+      "display_name": "Mega Houndoom",
+      "url": "pokemon/mega-houndoom/",
+      "percent": null
+    }
+  ]
+}

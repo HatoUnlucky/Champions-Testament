@@ -1,0 +1,25 @@
+{
+  "slug": "flower-veil",
+  "display_name": "Flower Veil",
+  "description": "protects friendly grass pokémon from having their stats lowered by other pokémon.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Floette (Eternal)",
+      "url": "pokemon/floette-eternal/",
+      "percent": 93.5
+    },
+    {
+      "display_name": "Florges",
+      "url": "pokemon/florges/",
+      "percent": 85.5
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "purifying-salt",
+  "display_name": "Purifying Salt",
+  "description": "protects from status conditions and halves damage from ghost-type moves.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Garganacl",
+      "url": "pokemon/garganacl/",
+      "percent": 75.8
+    }
+  ]
+}

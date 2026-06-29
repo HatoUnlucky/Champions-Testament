@@ -1,0 +1,20 @@
+{
+  "slug": "hunger-switch",
+  "display_name": "Hunger Switch",
+  "description": "causes morpeko to change its form each turn, alternating between full belly mode and hangry mode",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Morpeko",
+      "url": "pokemon/morpeko/",
+      "percent": 100.0
+    }
+  ]
+}

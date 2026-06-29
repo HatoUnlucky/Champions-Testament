@@ -1,0 +1,20 @@
+{
+  "slug": "poison-heal",
+  "display_name": "Poison Heal",
+  "description": "heals for 1/8 max hp after each turn when poisoned in place of damage.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Gliscor",
+      "url": "pokemon/gliscor/",
+      "percent": 1.6
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "horn-leech",
+  "display_name": "Horn Leech",
+  "description": "The user's HP is restored by 1/2 of the damage dealt by this move.",
+  "type": "grass",
+  "power": 75.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Trevenant",
+      "url": "pokemon/trevenant/",
+      "percent": 39.1
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "slug": "anticipation",
+  "display_name": "Anticipation",
+  "description": "notifies all trainers upon entering battle if an opponent has a super-effective move, self-destruct, explosion, or a one-hit ko move.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Toxicroak",
+      "url": "pokemon/toxicroak/",
+      "percent": 0.5
+    },
+    {
+      "display_name": "Hatterene",
+      "url": "pokemon/hatterene/",
+      "percent": 0.0
+    }
+  ]
+}

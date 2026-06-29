@@ -1,0 +1,25 @@
+{
+  "slug": "water-spout",
+  "display_name": "Water Spout",
+  "description": "The less HP the user has left the lower this move's power (ranging between 1 and 150).",
+  "type": "water",
+  "power": 150.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Blastoise",
+      "url": "pokemon/mega-blastoise/",
+      "percent": 90.0
+    },
+    {
+      "display_name": "Blastoise",
+      "url": "pokemon/blastoise/",
+      "percent": 21.8
+    }
+  ]
+}

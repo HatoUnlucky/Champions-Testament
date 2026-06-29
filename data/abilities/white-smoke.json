@@ -1,0 +1,20 @@
+{
+  "slug": "white-smoke",
+  "display_name": "White Smoke",
+  "description": "prevents stats from being lowered by other pokémon.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Torkoal",
+      "url": "pokemon/torkoal/",
+      "percent": 0.8
+    }
+  ]
+}

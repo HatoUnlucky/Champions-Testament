@@ -1,0 +1,20 @@
+{
+  "slug": "heavy-metal",
+  "display_name": "Heavy Metal",
+  "description": "doubles the pokémon's weight.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Aggron",
+      "url": "pokemon/aggron/",
+      "percent": 4.5
+    }
+  ]
+}

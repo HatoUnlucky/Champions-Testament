@@ -1,0 +1,20 @@
+{
+  "slug": "vital-spirit",
+  "display_name": "Vital Spirit",
+  "description": "prevents sleep.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Lycanroc (Midnight)",
+      "url": "pokemon/lycanroc-midnight/",
+      "percent": 0.0
+    }
+  ]
+}

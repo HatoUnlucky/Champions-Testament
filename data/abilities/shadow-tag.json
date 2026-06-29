@@ -1,0 +1,20 @@
+{
+  "slug": "shadow-tag",
+  "display_name": "Shadow Tag",
+  "description": "prevents opponents from fleeing or switching out.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Gengar",
+      "url": "pokemon/mega-gengar/",
+      "percent": 100.0
+    }
+  ]
+}

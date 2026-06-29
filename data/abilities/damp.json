@@ -1,0 +1,25 @@
+{
+  "slug": "damp",
+  "display_name": "Damp",
+  "description": "prevents self-destruct, explosion, and aftermath from working while the pokémon is in battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Bellibolt",
+      "url": "pokemon/bellibolt/",
+      "percent": 0.1
+    },
+    {
+      "display_name": "Politoed",
+      "url": "pokemon/politoed/",
+      "percent": 0.0
+    }
+  ]
+}

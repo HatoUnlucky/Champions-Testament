@@ -1,0 +1,20 @@
+{
+  "slug": "sparkling-aria",
+  "display_name": "Sparkling Aria",
+  "description": "Cures targets of their burns.",
+  "type": "water",
+  "power": 90.0,
+  "damage_class": "special",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Primarina",
+      "url": "pokemon/primarina/",
+      "percent": 0.9
+    }
+  ]
+}

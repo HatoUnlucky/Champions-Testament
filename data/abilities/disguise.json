@@ -1,0 +1,20 @@
+{
+  "slug": "disguise",
+  "display_name": "Disguise",
+  "description": "prevents the first instance of battle damage.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mimikyu",
+      "url": "pokemon/mimikyu/",
+      "percent": 100.0
+    }
+  ]
+}

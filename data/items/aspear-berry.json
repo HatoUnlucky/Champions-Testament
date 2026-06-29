@@ -1,0 +1,25 @@
+{
+  "slug": "aspear-berry",
+  "display_name": "Aspear Berry",
+  "description": "A hold item that defrosts POKéMON in battle.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "Images/item_images/primary_images_by_category/Berry/aspear-berry_primary_image.png",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Klefki",
+      "url": "pokemon/klefki/",
+      "percent": 0.0
+    },
+    {
+      "display_name": "Manectric",
+      "url": "pokemon/manectric/",
+      "percent": 0.0
+    }
+  ]
+}

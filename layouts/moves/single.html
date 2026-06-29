@@ -1,0 +1,34 @@
+{{ define "title" }}{{ .Title }} | {{ site.Title }}{{ end }}
+
+{{ define "main" }}
+{{ $move := index hugo.Data.moves .Params.data_key }}
+<article class="page-shell entry-page">
+  <div class="toolbar"><a href="{{ "moves/" | relURL }}">All Moves</a></div>
+  <section class="entry-hero">
+    <img src="{{ printf "Images/type_icons/%s.svg" $move.type | relURL }}" alt="">
+    <div>
+      <p class="eyebrow">Move</p>
+      <h1>{{ $move.display_name }}</h1>
+      <p class="lede">{{ $move.description }}</p>
+      <div class="move-meta large-meta">
+        <span>Power {{ $move.power }}</span>
+        <span>Accuracy {{ $move.accuracy }}</span>
+        <span>Priority {{ $move.priority }}</span>
+        <img src="{{ printf "Images/damage_class/%s.png" $move.damage_class | relURL }}" alt="{{ $move.damage_class }}">
+      </div>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Common Users</h2>
+    <div class="rank-list">
+      {{ range $move.common_users }}
+        <a class="rank-row linked-row" href="{{ .url | relURL }}">
+          <strong>{{ .display_name }}</strong>
+          {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
+        </a>
+      {{ end }}
+    </div>
+  </section>
+</article>
+{{ end }}

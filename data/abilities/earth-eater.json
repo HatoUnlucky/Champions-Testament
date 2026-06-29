@@ -1,0 +1,20 @@
+{
+  "slug": "earth-eater",
+  "display_name": "Earth Eater",
+  "description": "restores hp when hit by a ground-type move.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Orthworm",
+      "url": "pokemon/orthworm/",
+      "percent": 100.0
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "kowtow-cleave",
+  "display_name": "Kowtow Cleave",
+  "description": "This move never misses.",
+  "type": "dark",
+  "power": 85.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Kingambit",
+      "url": "pokemon/kingambit/",
+      "percent": 95.8
+    }
+  ]
+}

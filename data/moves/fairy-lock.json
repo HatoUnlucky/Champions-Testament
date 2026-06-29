@@ -1,0 +1,20 @@
+{
+  "slug": "fairy-lock",
+  "display_name": "Fairy Lock",
+  "description": "Gives all Pokémon on the field the Fairy Locked status.",
+  "type": "fairy",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Klefki",
+      "url": "pokemon/klefki/",
+      "percent": 1.2
+    }
+  ]
+}

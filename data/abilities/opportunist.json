@@ -1,0 +1,20 @@
+{
+  "slug": "opportunist",
+  "display_name": "Opportunist",
+  "description": "copies stat boosts by the opponent.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Espathra",
+      "url": "pokemon/espathra/",
+      "percent": 0.2
+    }
+  ]
+}

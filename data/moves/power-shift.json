@@ -1,0 +1,20 @@
+{
+  "slug": "power-shift",
+  "display_name": "Power Shift",
+  "description": "The user gains the Atk/Def Swapped status.",
+  "type": "normal",
+  "power": 0.0,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hisuian Avalugg",
+      "url": "pokemon/hisuian-avalugg/",
+      "percent": null
+    }
+  ]
+}

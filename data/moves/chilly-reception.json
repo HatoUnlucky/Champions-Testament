@@ -1,0 +1,25 @@
+{
+  "slug": "chilly-reception",
+  "display_name": "Chilly Reception",
+  "description": "Summons snow for 5 turns. The user switches out of battle to be replaced by another party Pokémon.",
+  "type": "ice",
+  "power": 0.0,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Slowking",
+      "url": "pokemon/slowking/",
+      "percent": 49.6
+    },
+    {
+      "display_name": "Galarian Slowking",
+      "url": "pokemon/galarian-slowking/",
+      "percent": 22.4
+    }
+  ]
+}

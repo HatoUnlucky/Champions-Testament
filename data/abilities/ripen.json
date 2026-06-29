@@ -1,0 +1,25 @@
+{
+  "slug": "ripen",
+  "display_name": "Ripen",
+  "description": "doubles the effect of berries.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Appletun",
+      "url": "pokemon/appletun/",
+      "percent": 9.0
+    },
+    {
+      "display_name": "Flapple",
+      "url": "pokemon/flapple/",
+      "percent": 0.7
+    }
+  ]
+}

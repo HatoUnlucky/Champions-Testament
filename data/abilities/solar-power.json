@@ -1,0 +1,30 @@
+{
+  "slug": "solar-power",
+  "display_name": "Solar Power",
+  "description": "increases special attack to 1.5× but costs 1/8 max hp after each turn during strong sunlight.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Mega Houndoom",
+      "url": "pokemon/mega-houndoom/",
+      "percent": 100.0
+    },
+    {
+      "display_name": "Charizard",
+      "url": "pokemon/charizard/",
+      "percent": 92.0
+    },
+    {
+      "display_name": "Heliolisk",
+      "url": "pokemon/heliolisk/",
+      "percent": 12.5
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "slug": "stench",
+  "display_name": "Stench",
+  "description": "has a 10% chance of making target pokémon flinch with each hit.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Garbodor",
+      "url": "pokemon/garbodor/",
+      "percent": 0.9
+    }
+  ]
+}

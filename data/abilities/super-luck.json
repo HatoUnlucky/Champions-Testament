@@ -1,0 +1,20 @@
+{
+  "slug": "super-luck",
+  "display_name": "Super Luck",
+  "description": "raises moves' critical hit rates one stage.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Absol",
+      "url": "pokemon/absol/",
+      "percent": 99.6
+    }
+  ]
+}

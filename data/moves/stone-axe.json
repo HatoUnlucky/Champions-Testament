@@ -1,0 +1,20 @@
+{
+  "slug": "stone-axe",
+  "display_name": "Stone Axe",
+  "description": "Gives the opponent's side the Stealth Rock status.",
+  "type": "rock",
+  "power": 65.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Kleavor",
+      "url": "pokemon/kleavor/",
+      "percent": 98.5
+    }
+  ]
+}

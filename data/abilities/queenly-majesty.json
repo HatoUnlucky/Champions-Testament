@@ -1,0 +1,20 @@
+{
+  "slug": "queenly-majesty",
+  "display_name": "Queenly Majesty",
+  "description": "opposing pokémon cannot use priority attacks.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Tsareena",
+      "url": "pokemon/tsareena/",
+      "percent": 99.4
+    }
+  ]
+}

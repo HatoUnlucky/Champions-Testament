@@ -1,0 +1,20 @@
+{
+  "slug": "ceaseless-edge",
+  "display_name": "Ceaseless Edge",
+  "description": "Gives the opponent's side the Spikes status.",
+  "type": "dark",
+  "power": 65.0,
+  "damage_class": "physical",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hisuian Samurott",
+      "url": "pokemon/hisuian-samurott/",
+      "percent": 38.4
+    }
+  ]
+}

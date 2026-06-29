@@ -1,0 +1,25 @@
+{
+  "slug": "magician",
+  "display_name": "Magician",
+  "description": "steals the target's held item when the bearer uses a damaging move.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Delphox",
+      "url": "pokemon/delphox/",
+      "percent": 7.7
+    },
+    {
+      "display_name": "Klefki",
+      "url": "pokemon/klefki/",
+      "percent": 0.0
+    }
+  ]
+}

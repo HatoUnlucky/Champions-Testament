@@ -1,0 +1,20 @@
+{
+  "slug": "magic-powder",
+  "display_name": "Magic Powder",
+  "description": "Changes the target's type to Psychic.",
+  "type": "psychic",
+  "power": null,
+  "damage_class": "status",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Hatterene",
+      "url": "pokemon/hatterene/",
+      "percent": 16.9
+    }
+  ]
+}

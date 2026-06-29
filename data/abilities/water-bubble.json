@@ -1,0 +1,20 @@
+{
+  "slug": "water-bubble",
+  "display_name": "Water Bubble",
+  "description": "halves damage from fire moves, doubles damage of water moves, and prevents burns.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Araquanid",
+      "url": "pokemon/araquanid/",
+      "percent": 99.4
+    }
+  ]
+}
