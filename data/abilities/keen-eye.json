@@ -50,6 +50,16 @@
       "display_name": "Watchog",
       "url": "pokemon/watchog/",
       "percent": 0.0
+    },
+    {
+      "display_name": "Meowstic (Female)",
+      "url": "pokemon/meowstic-female/",
+      "percent": null
+    },
+    {
+      "display_name": "Pidgeot",
+      "url": "pokemon/pidgeot/",
+      "percent": null
     }
   ]
 }

@@ -25,6 +25,11 @@
       "display_name": "Meowstic (Male)",
       "url": "pokemon/meowstic-male/",
       "percent": 2.0
+    },
+    {
+      "display_name": "Meowstic (Female)",
+      "url": "pokemon/meowstic-female/",
+      "percent": null
     }
   ]
 }

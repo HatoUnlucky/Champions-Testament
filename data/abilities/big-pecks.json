@@ -1,0 +1,20 @@
+{
+  "slug": "big-pecks",
+  "display_name": "Big Pecks",
+  "description": "protects against defense drops.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Pidgeot",
+      "url": "pokemon/pidgeot/",
+      "percent": null
+    }
+  ]
+}

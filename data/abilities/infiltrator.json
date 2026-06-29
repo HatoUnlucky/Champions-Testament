@@ -40,6 +40,16 @@
       "display_name": "Whimsicott",
       "url": "pokemon/whimsicott/",
       "percent": 0.1
+    },
+    {
+      "display_name": "Meowstic (Female)",
+      "url": "pokemon/meowstic-female/",
+      "percent": null
+    },
+    {
+      "display_name": "Meowstic (Male)",
+      "url": "pokemon/meowstic-male/",
+      "percent": null
     }
   ]
 }

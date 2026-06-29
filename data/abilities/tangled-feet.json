@@ -1,0 +1,20 @@
+{
+  "slug": "tangled-feet",
+  "display_name": "Tangled Feet",
+  "description": "doubles evasion when confused.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Pidgeot",
+      "url": "pokemon/pidgeot/",
+      "percent": null
+    }
+  ]
+}

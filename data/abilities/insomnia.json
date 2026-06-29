@@ -25,6 +25,11 @@
       "display_name": "Gourgeist",
       "url": "pokemon/gourgeist/",
       "percent": 0.1
+    },
+    {
+      "display_name": "Banette",
+      "url": "pokemon/banette/",
+      "percent": null
     }
   ]
 }

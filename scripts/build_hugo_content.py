@@ -440,11 +440,13 @@ def add_common_user(collection, entry, pokemon, image=None):
         "common_users": [],
     })
     record["regulations"].add(pokemon["regulation"])
-    record["common_users"].append({
+    user = {
         "display_name": pokemon["display_name"],
         "url": f"pokemon/{pokemon['page_slug']}/",
         "percent": entry.get("percent"),
-    })
+    }
+    if not any(existing["url"] == user["url"] for existing in record["common_users"]):
+        record["common_users"].append(user)
 
 
 def finalize_collection(root, section, collection):
@@ -639,6 +641,15 @@ def build(args):
         }
         for ability in abilities:
             add_common_user(ability_pages, ability, pokemon_ref)
+        for column in ["ability_1", "ability_2", "hidden_ability"]:
+            if column in row.keys() and row[column]:
+                details = ability_lookup.get(str(row[column]).lower()) or ability_lookup.get(compact_id(row[column])) or {}
+                add_common_user(ability_pages, {
+                    "slug": details.get("ability_slug") or row[column],
+                    "name": details.get("display_name") or display_name(row[column]),
+                    "description": details.get("description") or "",
+                    "percent": None,
+                }, pokemon_ref)
         for item in items:
             add_common_user(item_pages, item, pokemon_ref, item.get("image"))
         for move in data["moves"]:

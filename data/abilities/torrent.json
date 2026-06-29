@@ -50,6 +50,11 @@
       "display_name": "Empoleon",
       "url": "pokemon/empoleon/",
       "percent": 0.4
+    },
+    {
+      "display_name": "Samurott",
+      "url": "pokemon/samurott/",
+      "percent": null
     }
   ]
 }

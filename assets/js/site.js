@@ -36,6 +36,10 @@ document.addEventListener("DOMContentLoaded", () => {
   const moveSort = controls.querySelector("[data-move-sort]");
   const cards = Array.from(list.querySelectorAll(".directory-card"));
 
+  function numericAttribute(element, name) {
+    return Number(element.getAttribute(name) || 0);
+  }
+
   function applyFilters() {
     const query = (search?.value || "").trim().toLowerCase();
     const selected = regulation?.value || "all";
@@ -77,15 +81,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const sorted = [...cards].sort((a, b) => {
       if (stat !== "alpha") {
-        const left = Number(a.dataset[`stat${stat[0].toUpperCase()}${stat.slice(1)}`] || 0);
-        const right = Number(b.dataset[`stat${stat[0].toUpperCase()}${stat.slice(1)}`] || 0);
+        const attribute = `data-stat-${stat}`;
+        const left = numericAttribute(a, attribute);
+        const right = numericAttribute(b, attribute);
         return direction === "asc" ? left - right : right - left;
       }
 
       if (moveSortValue !== "alpha") {
         const [key, sortDirection] = moveSortValue.split("-");
-        const left = Number(a.dataset[key] || 0);
-        const right = Number(b.dataset[key] || 0);
+        const left = numericAttribute(a, `data-${key}`);
+        const right = numericAttribute(b, `data-${key}`);
         return sortDirection === "asc" ? left - right : right - left;
       }
 

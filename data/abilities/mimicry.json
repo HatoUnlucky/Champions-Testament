@@ -1,0 +1,20 @@
+{
+  "slug": "mimicry",
+  "display_name": "Mimicry",
+  "description": "changes type depending on the terrain.",
+  "type": "",
+  "power": null,
+  "damage_class": "",
+  "priority": 0,
+  "image": "",
+  "regulations": [
+    "ma"
+  ],
+  "common_users": [
+    {
+      "display_name": "Galarian Stunfisk",
+      "url": "pokemon/galarian-stunfisk/",
+      "percent": null
+    }
+  ]
+}

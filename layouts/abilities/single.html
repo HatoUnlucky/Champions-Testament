@@ -16,12 +16,11 @@
   </section>
 
   <section class="panel">
-    <h2>Common Users</h2>
+    <h2>Pokemon</h2>
     <div class="rank-list">
       {{ range $ability.common_users }}
         <a class="rank-row linked-row" href="{{ .url | relURL }}">
           <strong>{{ .display_name }}</strong>
-          {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
         </a>
       {{ end }}
     </div>

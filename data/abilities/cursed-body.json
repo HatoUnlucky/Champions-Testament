@@ -30,6 +30,11 @@
       "display_name": "Dragapult",
       "url": "pokemon/dragapult/",
       "percent": 5.0
+    },
+    {
+      "display_name": "Banette",
+      "url": "pokemon/banette/",
+      "percent": null
     }
   ]
 }

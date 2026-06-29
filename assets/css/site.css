@@ -344,24 +344,55 @@ h2 {
   grid-column: 1 / -1;
 }
 
-.stat-grid {
+.stat-table {
   display: grid;
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-  gap: 8px;
+  grid-template-columns: minmax(74px, 0.9fr) repeat(7, minmax(52px, 1fr));
   margin-top: 14px;
-}
-
-.stat-grid div {
-  display: grid;
-  gap: 6px;
-  min-height: 64px;
-  padding: 10px;
+  border: 1px solid var(--line);
   border-radius: 8px;
-  background: rgba(255, 255, 255, 0.05);
-  text-align: center;
+  overflow-x: auto;
+  background: rgba(255, 255, 255, 0.035);
 }
 
-.stat-grid span,
+.stat-header,
+.stat-label,
+.stat-value {
+  min-height: 44px;
+  padding: 10px 8px;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  text-align: center;
+  white-space: nowrap;
+}
+
+.stat-header {
+  color: var(--muted);
+  font-size: 0.78rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: rgba(255, 255, 255, 0.045);
+}
+
+.stat-label {
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.stat-value {
+  color: var(--text);
+  font-weight: 900;
+}
+
+.stat-header:last-child,
+.stat-value:last-child {
+  border-right: 0;
+}
+
+.stat-label,
+.stat-value {
+  border-bottom: 0;
+}
+
 .rank-row p,
 .teammate-card small {
   color: var(--muted);
@@ -554,8 +585,8 @@ h2 {
     grid-template-columns: 1fr;
   }
 
-  .stat-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .stat-table {
+    grid-template-columns: minmax(70px, 0.9fr) repeat(7, minmax(56px, 1fr));
   }
 
   .rank-row,

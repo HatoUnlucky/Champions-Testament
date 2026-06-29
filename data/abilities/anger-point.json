@@ -25,6 +25,11 @@
       "display_name": "Crabominable",
       "url": "pokemon/crabominable/",
       "percent": 2.3
+    },
+    {
+      "display_name": "Tauros",
+      "url": "pokemon/tauros/",
+      "percent": null
     }
   ]
 }

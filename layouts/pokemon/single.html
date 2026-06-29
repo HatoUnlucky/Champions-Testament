@@ -31,27 +31,19 @@
       <h2>No Usage Data</h2>
       <p>No Smogon usage data was found for this Pokemon in the selected regulation. The page still shows base Champions key data where available.</p>
     </section>
-  {{ else }}
-    <section class="usage-summary panel">
-      <h2>Usage</h2>
-      <div class="summary-row">
-        {{ with $pokemon.usage.percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
-        {{ with $pokemon.usage.raw_count }}<span>{{ . }} battles</span>{{ end }}
-        {{ with $pokemon.usage.source_key }}<span>{{ . }}</span>{{ end }}
-        {{ with $pokemon.usage.month }}<span>{{ . }}</span>{{ end }}
-      </div>
-    </section>
   {{ end }}
 
   <section class="detail-grid">
     <section class="panel">
       <h2>Stats</h2>
-      <div class="stat-grid">
+      <div class="stat-table" aria-label="Pokemon stats">
+        <div class="stat-header">Stat</div>
         {{ range $pokemon.stats }}
-          <div>
-            <span>{{ .label }}</span>
-            <strong>{{ .value }}</strong>
-          </div>
+          <div class="stat-header">{{ .label }}</div>
+        {{ end }}
+        <div class="stat-label">Value</div>
+        {{ range $pokemon.stats }}
+          <div class="stat-value">{{ .value }}</div>
         {{ end }}
       </div>
     </section>
@@ -108,22 +100,22 @@
       </div>
     </section>
 
-    <section class="panel">
-      <h2>Tera Types</h2>
-      <div class="rank-list">
-        {{ range $pokemon.tera_types }}
-          <div class="rank-row">
-            <span class="type-pill type-{{ .slug }}">
-              <img src="{{ printf "Images/type_icons/%s.svg" .slug | relURL }}" alt="">
-              {{ .name }}
-            </span>
-            {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
-          </div>
-        {{ else }}
-          <div class="empty-state"><strong>No tera type usage data.</strong></div>
-        {{ end }}
-      </div>
-    </section>
+    {{ if and (ne $pokemon.regulation "ma") $pokemon.tera_types }}
+      <section class="panel">
+        <h2>Tera Types</h2>
+        <div class="rank-list">
+          {{ range $pokemon.tera_types }}
+            <div class="rank-row">
+              <span class="type-pill type-{{ .slug }}">
+                <img src="{{ printf "Images/type_icons/%s.svg" .slug | relURL }}" alt="">
+                {{ .name }}
+              </span>
+              {{ with .percent }}<span>{{ lang.FormatNumber 1 . }}%</span>{{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </section>
+    {{ end }}
 
     <section class="panel wide">
       <h2>Moves</h2>

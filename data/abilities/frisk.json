@@ -40,6 +40,11 @@
       "display_name": "Wyrdeer",
       "url": "pokemon/wyrdeer/",
       "percent": 0.0
+    },
+    {
+      "display_name": "Banette",
+      "url": "pokemon/banette/",
+      "percent": null
     }
   ]
 }

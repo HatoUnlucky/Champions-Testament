@@ -126,6 +126,20 @@
     "priority": 0
   },
   {
+    "display_name": "Big Pecks",
+    "slug": "big-pecks",
+    "url": "abilities/big-pecks/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "protects against defense drops.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
     "display_name": "Blaze",
     "slug": "blaze",
     "url": "abilities/blaze/",
@@ -1184,6 +1198,20 @@
       "ma"
     ],
     "summary": "this pokémon's moves critical hit against poisoned targets.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Mimicry",
+    "slug": "mimicry",
+    "url": "abilities/mimicry/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "changes type depending on the terrain.",
     "type": "",
     "damage_class": "",
     "power": 0,
@@ -2346,6 +2374,20 @@
       "ma"
     ],
     "summary": "copies burns, paralysis, and poison received onto the pokémon that inflicted them.",
+    "type": "",
+    "damage_class": "",
+    "power": 0,
+    "priority": 0
+  },
+  {
+    "display_name": "Tangled Feet",
+    "slug": "tangled-feet",
+    "url": "abilities/tangled-feet/",
+    "image": "",
+    "regulations": [
+      "ma"
+    ],
+    "summary": "doubles evasion when confused.",
     "type": "",
     "damage_class": "",
     "power": 0,

@@ -30,6 +30,11 @@
       "display_name": "Torkoal",
       "url": "pokemon/torkoal/",
       "percent": 0.0
+    },
+    {
+      "display_name": "Samurott",
+      "url": "pokemon/samurott/",
+      "percent": null
     }
   ]
 }
