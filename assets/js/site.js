@@ -198,6 +198,417 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 document.addEventListener("DOMContentLoaded", () => {
+  const builder = document.querySelector("[data-team-builder]");
+  if (!builder) return;
+
+  const pokemonData = parseTeamJson("team-pokemon-data", {});
+  const itemData = parseTeamJson("team-item-data", []);
+  const moveData = parseTeamJson("team-move-data", {});
+  const abilityData = parseTeamJson("team-ability-data", []);
+  const pokemonRows = teamRows(pokemonData).sort((a, b) => teamName(a).localeCompare(teamName(b)));
+  const itemRows = teamRows(itemData).sort((a, b) => teamName(a).localeCompare(teamName(b)));
+  const moveRows = teamRows(moveData).sort((a, b) => teamName(a).localeCompare(teamName(b)));
+  const abilityRows = teamRows(abilityData).sort((a, b) => teamName(a).localeCompare(teamName(b)));
+  const pokemonByName = new Map(pokemonRows.map(row => [teamName(row).toLowerCase(), row]).filter(([name]) => name));
+  const itemByName = new Map(itemRows.map(row => [teamName(row).toLowerCase(), row]).filter(([name]) => name));
+  const abilityByName = new Map(abilityRows.map(row => [teamName(row).toLowerCase(), row]).filter(([name]) => name));
+
+  const slots = Array.from({ length: 6 }, () => ({
+    pokemon: "",
+    ability: "",
+    item: "",
+    nature: "Serious",
+    stats: { hp: 0, attack: 0, defense: 0, special_attack: 0, special_defense: 0, speed: 0 },
+    moves: ["", "", "", ""],
+    notes: ""
+  }));
+  const statKeys = [
+    ["total", "Total"],
+    ["hp", "HP"],
+    ["attack", "Atk"],
+    ["defense", "Def"],
+    ["special_attack", "SpA"],
+    ["special_defense", "SpD"],
+    ["speed", "Spe"]
+  ];
+  const natureEffects = {
+    Adamant: ["attack", "special_attack"],
+    Bold: ["defense", "attack"],
+    Brave: ["attack", "speed"],
+    Calm: ["special_defense", "attack"],
+    Careful: ["special_defense", "special_attack"],
+    Hasty: ["speed", "defense"],
+    Impish: ["defense", "special_attack"],
+    Jolly: ["speed", "special_attack"],
+    Modest: ["special_attack", "attack"],
+    Quiet: ["special_attack", "speed"],
+    Relaxed: ["defense", "speed"],
+    Sassy: ["special_defense", "speed"],
+    Timid: ["speed", "attack"]
+  };
+  const natureNames = [
+    "Hardy", "Lonely", "Brave", "Adamant", "Naughty",
+    "Bold", "Docile", "Relaxed", "Impish", "Lax",
+    "Timid", "Hasty", "Serious", "Jolly", "Naive",
+    "Modest", "Mild", "Quiet", "Bashful", "Rash",
+    "Calm", "Gentle", "Sassy", "Careful", "Quirky"
+  ];
+
+  const detail = builder.querySelector("[data-team-detail]");
+  const detailLabel = builder.querySelector("[data-team-detail-label]");
+  const detailTitle = builder.querySelector("[data-team-detail-title]");
+  const pokemonSelect = builder.querySelector("[data-team-pokemon]");
+  const abilitySelect = builder.querySelector("[data-team-ability-select]");
+  const itemSelect = builder.querySelector("[data-team-item-select]");
+  const natureSelect = builder.querySelector("[data-team-nature]");
+  const notesInput = builder.querySelector("[data-team-notes]");
+  const statPreview = builder.querySelector("[data-team-stat-preview]");
+  const spreadPresets = builder.querySelector("[data-team-spread-presets]");
+  const detailImage = builder.querySelector("[data-team-detail-image]");
+  const detailEmpty = builder.querySelector("[data-team-detail-empty]");
+  const summaryName = builder.querySelector("[data-team-summary-name]");
+  const summaryTypes = builder.querySelector("[data-team-summary-types]");
+  const abilityDescription = builder.querySelector("[data-team-ability-description]");
+  const itemPreviewImage = builder.querySelector("[data-team-item-preview-image]");
+  const itemPreviewName = builder.querySelector("[data-team-item-preview-name]");
+  const itemPreviewDescription = builder.querySelector("[data-team-item-preview-description]");
+  const natureDescription = builder.querySelector("[data-team-nature-description]");
+  const statsPanel = builder.querySelector("[data-team-stats-panel]");
+  const statsTitle = builder.querySelector("[data-team-stats-title]");
+  const fullStats = builder.querySelector("[data-team-full-stats]");
+  let activeSlot = 0;
+
+  function parseTeamJson(id, fallback) {
+    try {
+      const parsed = JSON.parse(document.getElementById(id)?.textContent || "");
+      return typeof parsed === "string" ? JSON.parse(parsed) : parsed;
+    } catch {
+      return fallback;
+    }
+  }
+
+  function teamRows(value) {
+    const rows = Array.isArray(value) ? value : Object.values(value || {});
+    return rows.flatMap(row => {
+      if (Array.isArray(row)) return row;
+      if (row && typeof row === "object" && !row.display_name && !row.name && Object.keys(row).every(key => /^\d+$/.test(key))) {
+        return Object.values(row);
+      }
+      return row;
+    }).filter(row => row && typeof row === "object");
+  }
+
+  function teamName(row) {
+    return String(row?.display_name || row?.name || "");
+  }
+
+  function teamSlug(value) {
+    return String(value || "")
+      .toLowerCase()
+      .normalize("NFKD")
+      .replace(/['’]/g, "")
+      .replace(/[^a-z0-9]+/g, "-")
+      .replace(/^-|-$/g, "");
+  }
+
+  function fillTeamSelect(select, options, emptyLabel) {
+    select.replaceChildren();
+    const empty = document.createElement("option");
+    empty.value = "";
+    empty.textContent = emptyLabel;
+    select.append(empty);
+    options.forEach(option => {
+      const node = document.createElement("option");
+      if (option && typeof option === "object") {
+        node.value = option.value;
+        node.textContent = option.label;
+      } else {
+        node.value = option;
+        node.textContent = option;
+      }
+      select.append(node);
+    });
+  }
+
+  function selectedPokemon() {
+    return pokemonByName.get(slots[activeSlot].pokemon.toLowerCase()) || null;
+  }
+
+  function selectedAbility(slot = slots[activeSlot]) {
+    const pokemon = pokemonByName.get(slot.pokemon.toLowerCase());
+    return pokemon?.abilities?.find(ability => ability.name === slot.ability)
+      || abilityByName.get(String(slot.ability || "").toLowerCase())
+      || null;
+  }
+
+  function selectedItem(slot = slots[activeSlot]) {
+    const pokemon = pokemonByName.get(slot.pokemon.toLowerCase());
+    return pokemon?.items?.find(item => item.name === slot.item)
+      || itemByName.get(String(slot.item || "").toLowerCase())
+      || null;
+  }
+
+  function pokemonScopedOptions(items, globalRows) {
+    const seen = new Set();
+    const scoped = (items || []).map(item => {
+      seen.add(teamSlug(item.name));
+      return { value: item.name, label: item.percent === null || item.percent === undefined ? item.name : `${item.name} (${Number(item.percent).toFixed(1)}%)` };
+    });
+    const global = globalRows.map(teamName).filter(name => name && !seen.has(teamSlug(name)));
+    return [...scoped, ...global];
+  }
+
+  function baseStat(pokemon, key) {
+    const stats = pokemon?.stats;
+    if (Array.isArray(stats)) return Number(stats.find(stat => stat.key === key)?.value || 0);
+    return Number(stats?.[key] || 0);
+  }
+
+  function natureMultiplier(nature, key) {
+    const effect = natureEffects[nature];
+    if (!effect) return 1;
+    if (effect[0] === key) return 1.1;
+    if (effect[1] === key) return 0.9;
+    return 1;
+  }
+
+  function calculatedStat(pokemon, key, spreadPoints, nature) {
+    const base = baseStat(pokemon, key);
+    const ev = Math.min(252, Math.max(0, Number(spreadPoints || 0)) * 8);
+    const level = 50;
+    const core = Math.floor((2 * base + 31 + Math.floor(ev / 4)) * level / 100);
+    if (key === "hp") return core + level + 10;
+    return Math.floor((core + 5) * natureMultiplier(nature, key));
+  }
+
+  function calculatedStats(slot) {
+    const pokemon = pokemonByName.get(slot.pokemon.toLowerCase());
+    const values = {};
+    statKeys.filter(([key]) => key !== "total").forEach(([key]) => {
+      values[key] = calculatedStat(pokemon, key, slot.stats[key], slot.nature);
+    });
+    values.total = statKeys.filter(([key]) => key !== "total").reduce((sum, [key]) => sum + values[key], 0);
+    return values;
+  }
+
+  function renderStatsGrid(container, slot) {
+    const stats = calculatedStats(slot);
+    container.replaceChildren(...statKeys.map(([key, label]) => {
+      const cell = document.createElement("span");
+      cell.innerHTML = `<small>${label}</small><strong>${stats[key] || 0}</strong>`;
+      return cell;
+    }));
+  }
+
+  function imagePath(pokemon) {
+    return pokemon?.primary_image ? withTeamBase(pokemon.primary_image) : "";
+  }
+
+  function itemImagePath(item) {
+    return item?.image ? withTeamBase(item.image) : "";
+  }
+
+  function withTeamBase(path) {
+    const base = document.querySelector(".site-title")?.getAttribute("href") || "/";
+    return `${base}${String(path).replace(/^\/+/, "")}`;
+  }
+
+  function natureText(nature) {
+    const effect = natureEffects[nature];
+    if (!effect) return "Neutral nature.";
+    const label = Object.fromEntries(statKeys);
+    return `Raises ${label[effect[0]] || effect[0]} and lowers ${label[effect[1]] || effect[1]}.`;
+  }
+
+  function spreadValues(spread) {
+    const keys = ["hp", "attack", "defense", "special_attack", "special_defense", "speed"];
+    return String(spread || "").split("/").reduce((values, value, index) => {
+      if (keys[index]) values[keys[index]] = Number(value || 0);
+      return values;
+    }, {});
+  }
+
+  function spreadLabel(spread) {
+    return `${spread.nature || "Spread"} ${spread.spread || ""}${spread.percent === null || spread.percent === undefined ? "" : ` (${Number(spread.percent).toFixed(1)}%)`}`;
+  }
+
+  function applySpread(spread) {
+    const slot = slots[activeSlot];
+    slot.nature = spread.nature || slot.nature;
+    slot.stats = { ...slot.stats, ...spreadValues(spread.spread) };
+    syncEditorFromSlot();
+  }
+
+  function renderSlots() {
+    slots.forEach((slot, index) => {
+      const root = builder.querySelector(`[data-team-slot="${index}"]`);
+      const add = root.querySelector(".team-builder-add");
+      const card = root.querySelector("[data-team-card]");
+      const pokemon = pokemonByName.get(slot.pokemon.toLowerCase());
+      const item = selectedItem(slot);
+      add.hidden = Boolean(pokemon);
+      card.hidden = !pokemon;
+      root.classList.toggle("is-active", index === activeSlot);
+      if (!pokemon) return;
+      card.querySelector("[data-team-image]").src = imagePath(pokemon);
+      card.querySelector("[data-team-image]").alt = slot.pokemon;
+      card.querySelector("[data-team-name]").textContent = slot.pokemon;
+      card.querySelector("[data-team-ability]").textContent = slot.ability || "Ability open";
+      card.querySelector("[data-team-item]").textContent = slot.item || "Item open";
+      const itemImage = card.querySelector("[data-team-item-image]");
+      const image = itemImagePath(item);
+      itemImage.hidden = !image;
+      if (image) itemImage.src = image;
+    });
+  }
+
+  function renderDetailSummary() {
+    const slot = slots[activeSlot];
+    const pokemon = selectedPokemon();
+    const ability = selectedAbility(slot);
+    const item = selectedItem(slot);
+    detailImage.hidden = !pokemon;
+    detailEmpty.hidden = Boolean(pokemon);
+    if (pokemon) {
+      detailImage.src = imagePath(pokemon);
+      detailImage.alt = slot.pokemon;
+    }
+    summaryName.textContent = slot.pokemon || "Select Pokemon";
+    summaryTypes.textContent = pokemon?.types?.map(type => type.name).filter(Boolean).join(" / ") || "Types appear here.";
+    abilityDescription.textContent = ability?.description || ability?.summary || "Choose a Pokemon, then select an ability.";
+    itemPreviewName.textContent = slot.item || "No item";
+    itemPreviewDescription.textContent = item?.description || item?.summary || "Held item details will appear here.";
+    const image = itemImagePath(item);
+    itemPreviewImage.hidden = !image;
+    if (image) {
+      itemPreviewImage.src = image;
+      itemPreviewImage.alt = slot.item;
+    }
+    natureDescription.textContent = natureText(slot.nature);
+  }
+
+  function renderSpreadPresets(pokemon) {
+    spreadPresets.replaceChildren();
+    const spreads = pokemon?.spreads || [];
+    if (!spreads.length) {
+      const empty = document.createElement("span");
+      empty.textContent = "No common spreads yet.";
+      spreadPresets.append(empty);
+      return;
+    }
+    spreads.forEach(spread => {
+      const button = document.createElement("button");
+      button.type = "button";
+      button.textContent = spreadLabel(spread);
+      button.addEventListener("click", () => applySpread(spread));
+      spreadPresets.append(button);
+    });
+  }
+
+  function syncEditorFromSlot() {
+    const slot = slots[activeSlot];
+    const pokemon = selectedPokemon();
+    detail.hidden = false;
+    detailLabel.textContent = `Slot ${activeSlot + 1}`;
+    detailTitle.textContent = slot.pokemon || "Add Pokemon";
+    pokemonSelect.value = slot.pokemon;
+    fillTeamSelect(abilitySelect, (pokemon?.abilities || []).map(ability => ability.name), "Ability");
+    abilitySelect.value = slot.ability;
+    fillTeamSelect(itemSelect, pokemonScopedOptions(pokemon?.items, itemRows), "No item");
+    itemSelect.value = slot.item;
+    fillTeamSelect(natureSelect, natureNames, "Nature");
+    natureSelect.value = slot.nature;
+    builder.querySelectorAll("[data-team-stat]").forEach(input => {
+      input.value = slot.stats[input.dataset.teamStat] || 0;
+    });
+    const moveOptions = pokemonScopedOptions(pokemon?.moves, moveRows);
+    builder.querySelectorAll("[data-team-move]").forEach((select, index) => {
+      fillTeamSelect(select, moveOptions, "No move");
+      select.value = slot.moves[index] || "";
+    });
+    notesInput.value = slot.notes || "";
+    renderDetailSummary();
+    renderSpreadPresets(pokemon);
+    renderStatsGrid(statPreview, slot);
+    renderSlots();
+  }
+
+  function openSlot(index) {
+    activeSlot = Number(index || 0);
+    syncEditorFromSlot();
+  }
+
+  function updateActiveSlot() {
+    const slot = slots[activeSlot];
+    slot.pokemon = pokemonSelect.value;
+    const pokemon = selectedPokemon();
+    if (pokemon && !slot.ability) slot.ability = pokemon.abilities?.[0]?.name || "";
+    if (pokemon && !slot.moves.some(Boolean)) {
+      slot.moves = [...(pokemon.moves || []).map(move => move.name), "", "", ""].slice(0, 4);
+    }
+    slot.ability = abilitySelect.value || slot.ability;
+    slot.item = itemSelect.value;
+    slot.nature = natureSelect.value || "Serious";
+    builder.querySelectorAll("[data-team-stat]").forEach(input => {
+      slot.stats[input.dataset.teamStat] = Number(input.value || 0);
+    });
+    builder.querySelectorAll("[data-team-move]").forEach((select, index) => {
+      slot.moves[index] = select.value;
+    });
+    slot.notes = notesInput.value;
+    syncEditorFromSlot();
+  }
+
+  fillTeamSelect(pokemonSelect, pokemonRows.map(teamName), "Select Pokemon");
+  builder.querySelectorAll("[data-open-team-slot]").forEach(button => {
+    button.addEventListener("click", () => openSlot(button.dataset.openTeamSlot));
+  });
+  builder.querySelectorAll("[data-open-stats]").forEach(button => {
+    button.addEventListener("click", () => {
+      const slot = slots[Number(button.dataset.openStats || 0)];
+      statsTitle.textContent = `${slot.pokemon || "Slot"} Stats`;
+      renderStatsGrid(fullStats, slot);
+      statsPanel.hidden = false;
+    });
+  });
+  builder.querySelector("[data-close-team-stats]")?.addEventListener("click", () => {
+    statsPanel.hidden = true;
+  });
+  builder.querySelector("[data-clear-team-slot]")?.addEventListener("click", () => {
+    slots[activeSlot] = {
+      pokemon: "",
+      ability: "",
+      item: "",
+      nature: "Serious",
+      stats: { hp: 0, attack: 0, defense: 0, special_attack: 0, special_defense: 0, speed: 0 },
+      moves: ["", "", "", ""],
+      notes: ""
+    };
+    syncEditorFromSlot();
+  });
+  pokemonSelect.addEventListener("change", () => {
+    const slot = slots[activeSlot];
+    slot.pokemon = pokemonSelect.value;
+    slot.ability = "";
+    slot.item = "";
+    slot.moves = ["", "", "", ""];
+    updateActiveSlot();
+  });
+  [abilitySelect, itemSelect, natureSelect].forEach(input => {
+    input.addEventListener("change", updateActiveSlot);
+  });
+  notesInput.addEventListener("input", updateActiveSlot);
+  builder.querySelectorAll("[data-team-stat]").forEach(input => {
+    input.addEventListener("input", updateActiveSlot);
+  });
+  builder.querySelectorAll("[data-team-move]").forEach(input => {
+    input.addEventListener("change", updateActiveSlot);
+  });
+
+  renderSlots();
+});
+
+document.addEventListener("DOMContentLoaded", () => {
   const calculator = document.querySelector("[data-turn-calculator]");
   if (!calculator) return;
 

@@ -1,7 +1,5 @@
 ---
 title: "Team Builder"
-layout: "tool"
-status: "Future planning"
+layout: "team-builder"
+status: "Prototype"
 ---
-
-Team Builder is intentionally reserved for a later design pass.

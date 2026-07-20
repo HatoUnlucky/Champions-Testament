@@ -1,0 +1,162 @@
+{{ define "title" }}Team Builder | {{ site.Title }}{{ end }}
+
+{{ define "main" }}
+<section class="page-shell team-builder-shell" data-team-builder>
+  <div class="tool-header">
+    <p class="eyebrow">{{ .Params.status }}</p>
+    <h1>Team Builder</h1>
+  </div>
+
+  <section class="team-builder-board" aria-label="Team slots">
+    {{ range $slot := seq 1 6 }}
+      <article class="team-builder-slot" data-team-slot="{{ sub $slot 1 }}">
+        <button class="team-builder-add" type="button" data-open-team-slot="{{ sub $slot 1 }}">
+          <span>+</span>
+        </button>
+        <div class="team-builder-card" data-team-card hidden>
+          <button class="team-card-main" type="button" data-open-team-slot="{{ sub $slot 1 }}">
+            <img alt="" data-team-image>
+            <strong data-team-name></strong>
+            <span data-team-ability></span>
+            <span class="team-card-item">
+              <img alt="" data-team-item-image hidden>
+              <span data-team-item></span>
+            </span>
+          </button>
+          <button class="team-card-stats" type="button" data-open-stats="{{ sub $slot 1 }}">Stats</button>
+        </div>
+      </article>
+    {{ end }}
+  </section>
+
+  <section class="team-builder-detail panel" data-team-detail hidden>
+    <div class="battle-side-header">
+      <div>
+        <p class="eyebrow" data-team-detail-label>Slot</p>
+        <h2 data-team-detail-title>Edit Pokemon</h2>
+      </div>
+      <button type="button" class="team-clear-button" data-clear-team-slot>Clear</button>
+    </div>
+
+    <div class="team-builder-detail-grid">
+      <aside class="team-detail-summary" aria-label="Pokemon detail preview">
+        <div class="team-detail-image-box">
+          <img alt="" data-team-detail-image hidden>
+          <span data-team-detail-empty>+</span>
+        </div>
+        <div>
+          <h3 data-team-summary-name>Select Pokemon</h3>
+          <p data-team-summary-types></p>
+        </div>
+        <dl>
+          <div>
+            <dt>Ability</dt>
+            <dd data-team-ability-description>Choose a Pokemon, then select an ability.</dd>
+          </div>
+          <div>
+            <dt>Item</dt>
+            <dd class="team-item-preview">
+              <img alt="" data-team-item-preview-image hidden>
+              <span>
+                <strong data-team-item-preview-name>No item</strong>
+                <small data-team-item-preview-description>Held item details will appear here.</small>
+              </span>
+            </dd>
+          </div>
+          <div>
+            <dt>Nature</dt>
+            <dd data-team-nature-description>Neutral nature.</dd>
+          </div>
+        </dl>
+      </aside>
+
+      <div class="team-builder-editor-sections">
+        <div class="team-editor-grid">
+          <label>
+            Pokemon
+            <select data-team-pokemon></select>
+          </label>
+          <label>
+            Ability
+            <select data-team-ability-select></select>
+          </label>
+          <label>
+            Item
+            <select data-team-item-select></select>
+          </label>
+          <label>
+            Nature
+            <select data-team-nature>
+              {{ range slice "Adamant" "Bashful" "Bold" "Brave" "Calm" "Careful" "Docile" "Gentle" "Hardy" "Hasty" "Impish" "Jolly" "Lax" "Lonely" "Mild" "Modest" "Naive" "Naughty" "Quiet" "Quirky" "Rash" "Relaxed" "Sassy" "Serious" "Timid" }}
+                <option value="{{ . }}" {{ if eq . "Serious" }}selected{{ end }}>{{ . }}</option>
+              {{ end }}
+            </select>
+          </label>
+        </div>
+
+        <section>
+          <div class="section-title-row">
+            <h3>Stats</h3>
+            <span>Spread points</span>
+          </div>
+          <div class="team-spread-grid">
+            {{ range slice
+              (dict "key" "hp" "label" "HP")
+              (dict "key" "attack" "label" "Atk")
+              (dict "key" "defense" "label" "Def")
+              (dict "key" "special_attack" "label" "SpA")
+              (dict "key" "special_defense" "label" "SpD")
+              (dict "key" "speed" "label" "Spe")
+            }}
+              <label>
+                {{ .label }}
+                <input type="number" min="0" max="32" value="0" data-team-stat="{{ .key }}">
+              </label>
+            {{ end }}
+          </div>
+          <div class="team-spread-presets" data-team-spread-presets></div>
+          <div class="team-stat-preview" data-team-stat-preview></div>
+        </section>
+
+        <section>
+          <h3>Moves</h3>
+          <div class="team-move-grid">
+            {{ range $moveSlot := seq 0 3 }}
+              <label>
+                Move {{ add $moveSlot 1 }}
+                <select data-team-move="{{ $moveSlot }}"></select>
+              </label>
+            {{ end }}
+          </div>
+        </section>
+
+        <section>
+          <h3>Notes</h3>
+          <textarea data-team-notes rows="5" placeholder="Open space for tera type, role, benchmarks, or future import/export fields."></textarea>
+        </section>
+      </div>
+    </div>
+  </section>
+
+  <section class="team-stats-panel panel" data-team-stats-panel hidden>
+    <div class="battle-side-header">
+      <h2 data-team-stats-title>Stats</h2>
+      <button type="button" class="team-clear-button" data-close-team-stats>Close</button>
+    </div>
+    <div class="team-full-stat-grid" data-team-full-stats></div>
+  </section>
+
+  <script type="application/json" id="team-pokemon-data">
+    {{ hugo.Data.pokemon | jsonify }}
+  </script>
+  <script type="application/json" id="team-item-data">
+    {{ hugo.Data.items_index | jsonify }}
+  </script>
+  <script type="application/json" id="team-move-data">
+    {{ hugo.Data.moves | jsonify }}
+  </script>
+  <script type="application/json" id="team-ability-data">
+    {{ hugo.Data.abilities_index | jsonify }}
+  </script>
+</section>
+{{ end }}
